@@ -1,0 +1,58 @@
+project:
+  type: website
+
+website:
+  title: "Climate Data for the Electricity Sector"
+  page-navigation: true
+  navbar: false
+  sidebar:
+    style: "floating"
+    search: true
+    contents:
+      - text: "Introduction"
+        href: Introduction.ipynb
+      - section: "Electricity Sector Activities"
+        href: sectors/electricity_sector_activities.ipynb
+        contents:
+          - sectors/capacity_expansion_modelling.ipynb
+          - sectors/dam_safety_review.ipynb
+          - sectors/demand_forecasting.ipynb
+          - sectors/electrical_system_operations_construction.ipynb
+          - sectors/enterprise_risk_managment.ipynb
+          - sectors/esg_and_sustainability_reporting.ipynb
+          - sectors/forest_fire_monitoring_and-awareness.ipynb
+          - sectors/generation_forecasting.ipynb
+          - sectors/infrastructure_condition_assessment.ipynb
+          - sectors/infrastructure_design.ipynb
+          - sectors/innovation_investments.ipynb
+          - sectors/investment_prioritization.ipynb
+          - sectors/licensing_and_impact-environmental_assessments.ipynb
+          - sectors/nuclear_safety_review.ipynb
+          - sectors/outage_scheduling.ipynb
+          - sectors/proactive_management_of_heavily_loaded_assets.ipynb
+          - sectors/resource_adequacy_planning.ipynb
+          - sectors/support_supply_chain_decision-making.ipynb
+          - sectors/vegetation_management.ipynb
+          - sectors/worker_safety.ipynb
+          
+# The section on climate datasets
+      - section: "Climate Datasets"
+        href: Climate_Dataset_Summary.ipynb
+        contents:
+          - section: "Temperature"
+            href: datasets/Temperature_Datasets.ipynb
+            contents:
+              - datasets/RDRS.ipynb
+          - section: "Precipitation"
+            href: datasets/Precipitation_Datasets.ipynb
+            contents:
+              - datasets/RDRS.ipynb
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+
+

@@ -4,7 +4,96 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f9feee15-8126-458a-a3ca-49ca4c4d719f" name="Changes" comment="" />
+    <list default="true" id="f9feee15-8126-458a-a3ca-49ca4c4d719f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecdg_report/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/ecdg_report/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecdg_report/.quarto/idx/Climate_Dataset_Summary.ipynb.json" beforeDir="false" afterPath="$PROJECT_DIR$/ecdg_report/.quarto/idx/Climate_Dataset_Summary.ipynb.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecdg_report/.quarto/idx/Current_Practice.ipynb.json" beforeDir="false" afterPath="$PROJECT_DIR$/ecdg_report/.quarto/idx/Current_Practice.ipynb.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecdg_report/.quarto/idx/Hydro-Quebec_Data_Use.ipynb.json" beforeDir="false" afterPath="$PROJECT_DIR$/ecdg_report/.quarto/idx/Hydro-Quebec_Data_Use.ipynb.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecdg_report/.quarto/idx/Introduction.ipynb.json" beforeDir="false" afterPath="$PROJECT_DIR$/ecdg_report/.quarto/idx/Introduction.ipynb.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecdg_report/.quarto/idx/OPG_Data_Use.ipynb.json" beforeDir="false" afterPath="$PROJECT_DIR$/ecdg_report/.quarto/idx/OPG_Data_Use.ipynb.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecdg_report/.quarto/idx/Precipitation_Datasets.ipynb.json" beforeDir="false" afterPath="$PROJECT_DIR$/ecdg_report/.quarto/idx/Precipitation_Datasets.ipynb.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecdg_report/.quarto/idx/RDRS.ipynb.json" beforeDir="false" afterPath="$PROJECT_DIR$/ecdg_report/.quarto/idx/RDRS.ipynb.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecdg_report/.quarto/idx/Temperature_Datasets.ipynb.json" beforeDir="false" afterPath="$PROJECT_DIR$/ecdg_report/.quarto/idx/Temperature_Datasets.ipynb.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecdg_report/.quarto/idx/about.ipynb.json" beforeDir="false" afterPath="$PROJECT_DIR$/ecdg_report/.quarto/idx/about.ipynb.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecdg_report/.quarto/idx/index.ipynb.json" beforeDir="false" afterPath="$PROJECT_DIR$/ecdg_report/.quarto/idx/index.ipynb.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecdg_report/.quarto/preview/lock" beforeDir="false" afterPath="$PROJECT_DIR$/ecdg_report/.quarto/preview/lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecdg_report/.quarto/xref/0fa209ab" beforeDir="false" afterPath="$PROJECT_DIR$/ecdg_report/.quarto/xref/0fa209ab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecdg_report/.quarto/xref/42bd9d56" beforeDir="false" afterPath="$PROJECT_DIR$/ecdg_report/.quarto/xref/42bd9d56" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecdg_report/.quarto/xref/59e17688" beforeDir="false" afterPath="$PROJECT_DIR$/ecdg_report/.quarto/xref/59e17688" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecdg_report/.quarto/xref/65c5fb4e" beforeDir="false" afterPath="$PROJECT_DIR$/ecdg_report/.quarto/xref/65c5fb4e" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecdg_report/.quarto/xref/74df9356" beforeDir="false" afterPath="$PROJECT_DIR$/ecdg_report/.quarto/xref/74df9356" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecdg_report/.quarto/xref/91dc6c50" beforeDir="false" afterPath="$PROJECT_DIR$/ecdg_report/.quarto/xref/91dc6c50" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecdg_report/.quarto/xref/INDEX" beforeDir="false" afterPath="$PROJECT_DIR$/ecdg_report/.quarto/xref/INDEX" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecdg_report/.quarto/xref/ac1d1819" beforeDir="false" afterPath="$PROJECT_DIR$/ecdg_report/.quarto/xref/ac1d1819" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecdg_report/.quarto/xref/cb48935a" beforeDir="false" afterPath="$PROJECT_DIR$/ecdg_report/.quarto/xref/cb48935a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecdg_report/.quarto/xref/deca965b" beforeDir="false" afterPath="$PROJECT_DIR$/ecdg_report/.quarto/xref/deca965b" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecdg_report/.quarto/xref/e4c7253f" beforeDir="false" afterPath="$PROJECT_DIR$/ecdg_report/.quarto/xref/e4c7253f" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecdg_report/.quarto/xref/ed11e681" beforeDir="false" afterPath="$PROJECT_DIR$/ecdg_report/.quarto/xref/ed11e681" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecdg_report/.quarto/xref/fa95a9d6" beforeDir="false" afterPath="$PROJECT_DIR$/ecdg_report/.quarto/xref/fa95a9d6" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecdg_report/Climate_Dataset_Summary.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecdg_report/Current_Practice.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecdg_report/Hydro-Quebec_Data_Use.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecdg_report/Introduction.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/ecdg_report/Introduction.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecdg_report/Precipitation_Datasets.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecdg_report/RDRS.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecdg_report/Sectors.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecdg_report/Temperature_Datasets.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecdg_report/_quarto.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ecdg_report/_quarto.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecdg_report/_site/Climate_Dataset_Summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/ecdg_report/_site/Climate_Dataset_Summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecdg_report/_site/Current_Practice.html" beforeDir="false" afterPath="$PROJECT_DIR$/ecdg_report/_site/Current_Practice.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecdg_report/_site/Hydro-Quebec_Data_Use.html" beforeDir="false" afterPath="$PROJECT_DIR$/ecdg_report/_site/Hydro-Quebec_Data_Use.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecdg_report/_site/Introduction.html" beforeDir="false" afterPath="$PROJECT_DIR$/ecdg_report/_site/Introduction.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecdg_report/_site/OPG_Data_Use.html" beforeDir="false" afterPath="$PROJECT_DIR$/ecdg_report/_site/OPG_Data_Use.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecdg_report/_site/Precipitation_Datasets.html" beforeDir="false" afterPath="$PROJECT_DIR$/ecdg_report/_site/Precipitation_Datasets.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecdg_report/_site/RDRS.html" beforeDir="false" afterPath="$PROJECT_DIR$/ecdg_report/_site/RDRS.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecdg_report/_site/Temperature_Datasets.html" beforeDir="false" afterPath="$PROJECT_DIR$/ecdg_report/_site/Temperature_Datasets.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecdg_report/_site/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/ecdg_report/_site/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecdg_report/_site/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/ecdg_report/_site/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecdg_report/_site/search.json" beforeDir="false" afterPath="$PROJECT_DIR$/ecdg_report/_site/search.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecdg_report/_site/sectors/OPG_Data_Use.html" beforeDir="false" afterPath="$PROJECT_DIR$/ecdg_report/_site/sectors/OPG_Data_Use.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecdg_report/_site/sectors/nuclear_safety_review.html" beforeDir="false" afterPath="$PROJECT_DIR$/ecdg_report/_site/sectors/nuclear_safety_review.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecdg_report/_site/site_libs/bootstrap/bootstrap-icons.css" beforeDir="false" afterPath="$PROJECT_DIR$/ecdg_report/_site/site_libs/bootstrap/bootstrap-icons.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecdg_report/_site/site_libs/bootstrap/bootstrap-icons.woff" beforeDir="false" afterPath="$PROJECT_DIR$/ecdg_report/_site/site_libs/bootstrap/bootstrap-icons.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecdg_report/_site/site_libs/bootstrap/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/ecdg_report/_site/site_libs/bootstrap/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecdg_report/_site/site_libs/bootstrap/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/ecdg_report/_site/site_libs/bootstrap/bootstrap.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecdg_report/_site/site_libs/clipboard/clipboard.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/ecdg_report/_site/site_libs/clipboard/clipboard.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecdg_report/_site/site_libs/quarto-diagram/mermaid-init.js" beforeDir="false" afterPath="$PROJECT_DIR$/ecdg_report/_site/site_libs/quarto-diagram/mermaid-init.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecdg_report/_site/site_libs/quarto-diagram/mermaid.css" beforeDir="false" afterPath="$PROJECT_DIR$/ecdg_report/_site/site_libs/quarto-diagram/mermaid.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecdg_report/_site/site_libs/quarto-diagram/mermaid.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/ecdg_report/_site/site_libs/quarto-diagram/mermaid.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecdg_report/_site/site_libs/quarto-html/anchor.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/ecdg_report/_site/site_libs/quarto-html/anchor.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecdg_report/_site/site_libs/quarto-html/popper.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/ecdg_report/_site/site_libs/quarto-html/popper.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecdg_report/_site/site_libs/quarto-html/quarto-syntax-highlighting.css" beforeDir="false" afterPath="$PROJECT_DIR$/ecdg_report/_site/site_libs/quarto-html/quarto-syntax-highlighting.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecdg_report/_site/site_libs/quarto-html/quarto.js" beforeDir="false" afterPath="$PROJECT_DIR$/ecdg_report/_site/site_libs/quarto-html/quarto.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecdg_report/_site/site_libs/quarto-html/tippy.css" beforeDir="false" afterPath="$PROJECT_DIR$/ecdg_report/_site/site_libs/quarto-html/tippy.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecdg_report/_site/site_libs/quarto-html/tippy.umd.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/ecdg_report/_site/site_libs/quarto-html/tippy.umd.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecdg_report/_site/site_libs/quarto-nav/headroom.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/ecdg_report/_site/site_libs/quarto-nav/headroom.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecdg_report/_site/site_libs/quarto-nav/quarto-nav.js" beforeDir="false" afterPath="$PROJECT_DIR$/ecdg_report/_site/site_libs/quarto-nav/quarto-nav.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecdg_report/_site/site_libs/quarto-search/autocomplete.umd.js" beforeDir="false" afterPath="$PROJECT_DIR$/ecdg_report/_site/site_libs/quarto-search/autocomplete.umd.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecdg_report/_site/site_libs/quarto-search/fuse.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/ecdg_report/_site/site_libs/quarto-search/fuse.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecdg_report/_site/site_libs/quarto-search/quarto-search.js" beforeDir="false" afterPath="$PROJECT_DIR$/ecdg_report/_site/site_libs/quarto-search/quarto-search.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecdg_report/_site/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/ecdg_report/_site/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecdg_report/about.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/ecdg_report/about.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecdg_report/image/ouranos_logo_vertical_couleur_petit.png" beforeDir="false" afterPath="$PROJECT_DIR$/ecdg_report/image/ouranos_logo_vertical_couleur_petit.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecdg_report/index.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/ecdg_report/index.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecdg_report/sectors/nuclear_safety_review.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/ecdg_report/sectors/nuclear_safety_review.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecdg_report/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/ecdg_report/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/about.qmd" beforeDir="false" afterPath="$PROJECT_DIR$/tests/about.qmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/computations.html" beforeDir="false" afterPath="$PROJECT_DIR$/tests/computations.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/computations_files/figure-html/cell-3-output-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/tests/computations_files/figure-html/cell-3-output-1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/computations_files/libs/bootstrap/bootstrap-icons.css" beforeDir="false" afterPath="$PROJECT_DIR$/tests/computations_files/libs/bootstrap/bootstrap-icons.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/computations_files/libs/bootstrap/bootstrap-icons.woff" beforeDir="false" afterPath="$PROJECT_DIR$/tests/computations_files/libs/bootstrap/bootstrap-icons.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/computations_files/libs/bootstrap/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/tests/computations_files/libs/bootstrap/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/computations_files/libs/bootstrap/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/tests/computations_files/libs/bootstrap/bootstrap.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/computations_files/libs/clipboard/clipboard.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/tests/computations_files/libs/clipboard/clipboard.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/computations_files/libs/quarto-html/anchor.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/tests/computations_files/libs/quarto-html/anchor.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/computations_files/libs/quarto-html/popper.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/tests/computations_files/libs/quarto-html/popper.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/computations_files/libs/quarto-html/quarto-syntax-highlighting.css" beforeDir="false" afterPath="$PROJECT_DIR$/tests/computations_files/libs/quarto-html/quarto-syntax-highlighting.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/computations_files/libs/quarto-html/quarto.js" beforeDir="false" afterPath="$PROJECT_DIR$/tests/computations_files/libs/quarto-html/quarto.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/computations_files/libs/quarto-html/tippy.css" beforeDir="false" afterPath="$PROJECT_DIR$/tests/computations_files/libs/quarto-html/tippy.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/computations_files/libs/quarto-html/tippy.umd.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/tests/computations_files/libs/quarto-html/tippy.umd.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/index.qmd" beforeDir="false" afterPath="$PROJECT_DIR$/tests/index.qmd" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,40 +102,40 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "vindelico"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;vindelico&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "git@github.com:Ouranosinc/energy_climate_data_guide.git",
-    "accountId": "f82f6e4d-1677-4873-b270-c1558a1912f1"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:Ouranosinc/energy_climate_data_guide.git&quot;,
+    &quot;accountId&quot;: &quot;f82f6e4d-1677-4873-b270-c1558a1912f1&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2nt5Y9x1MzVcGMP5CEmGaHVqK4R" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "create__quarto__doc",
-    "last_opened_file_path": "/Users/marbra/GoogleDrive/python/github/energy_climate_data_guide",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;create__quarto__doc&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/marbra/GoogleDrive/python/github/energy_climate_data_guide&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -64,10 +153,22 @@
       <option name="presentableId" value="Default" />
       <updated>1729779577461</updated>
       <workItem from="1729779578726" duration="1020000" />
+      <workItem from="1729786809507" duration="3387000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
