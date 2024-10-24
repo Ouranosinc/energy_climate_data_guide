@@ -6,6 +6,8 @@ website:
   page-navigation: true
   navbar: false
   sidebar:
+    #title: "Climate Data for the Electricity Sector"  # Adding the title here
+    logo: "image/ouranos_logo_vertical_couleur_petit.png"
     style: "floating"
     search: true
     contents:
@@ -20,12 +22,11 @@ website:
           - sectors/electrical_system_operations_construction.ipynb
           - sectors/enterprise_risk_managment.ipynb
           - sectors/esg_and_sustainability_reporting.ipynb
-          - sectors/forest_fire_monitoring_and-awareness.ipynb
+          - sectors/forest_fire_monitoring_and_awareness.ipynb
           - sectors/generation_forecasting.ipynb
-          - sectors/infrastructure_condition_assessment.ipynb
+          - sectors/infrastructure_condition_assessment_and_investment_prioritization.ipynb
           - sectors/infrastructure_design.ipynb
           - sectors/innovation_investments.ipynb
-          - sectors/investment_prioritization.ipynb
           - sectors/licensing_and_impact-environmental_assessments.ipynb
           - sectors/nuclear_safety_review.ipynb
           - sectors/outage_scheduling.ipynb
@@ -37,20 +38,20 @@ website:
           
 # The section on climate datasets
       - section: "Climate Datasets"
-        href: Climate_Dataset_Summary.ipynb
+        href: datasets/Climate_Dataset_Summary.ipynb
         contents:
           - section: "Temperature"
-            href: datasets/Temperature_Datasets.ipynb
+            href: datasets/temperature/Temperature_Datasets.ipynb
             contents:
-              - datasets/RDRS.ipynb
+              - datasets/temperature/RDRS.ipynb
           - section: "Precipitation"
-            href: datasets/Precipitation_Datasets.ipynb
+            href: datasets/precipitation/Precipitation_Datasets.ipynb
             contents:
-              - datasets/RDRS.ipynb
+              - datasets/temperature/RDRS.ipynb # @ToDo: This is not precip yet!
 
 format:
   html:
-    theme: cosmo
+    theme: flatly
     css: styles.css
     toc: true
 
