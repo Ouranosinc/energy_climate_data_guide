@@ -1,0 +1,34 @@
+project:
+  type: website
+
+website:
+  title: "Climate Data for the Electricity Sector"
+  page-navigation: true
+  navbar: false
+  sidebar:
+    style: "floating"
+    search: true
+    contents:
+      - text: "Introduction"
+        href: Introduction.ipynb
+      - section: "Electricity Sector Activities"
+        href: Current_Practice.ipynb
+        contents:
+          - Hydro-Quebec_Data_Use.ipynb
+          - sectors/nuclear_safety_review.ipynb
+# The section on climate datasets
+      - section: "Climate Datasets"
+        href: Climate_Dataset_Summary.ipynb
+        contents:
+          - Temperature_Datasets.ipynb
+          - Precipitation_Datasets.ipynb
+          - RDRS.ipynb
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+
+

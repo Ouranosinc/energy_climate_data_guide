@@ -34,5 +34,11 @@
   },
   "Precipitation_Datasets.ipynb": {
     "Precipitation_Datasets.html": "59e17688"
+  },
+  "sectors/OPG_Data_Use.ipynb": {
+    "OPG_Data_Use.html": "c0fc9d6a"
+  },
+  "sectors/nuclear_safety_review.ipynb": {
+    "nuclear_safety_review.html": "d2d72363"
   }
 }
