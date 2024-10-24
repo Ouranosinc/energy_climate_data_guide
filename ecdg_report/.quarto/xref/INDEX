@@ -1,0 +1,38 @@
+{
+  "index.qmd": {
+    "index.html": "0fa209ab"
+  },
+  "about.qmd": {
+    "about.html": "91dc6c50"
+  },
+  "index.ipynb": {
+    "index.html": "42bd9d56"
+  },
+  "about.ipynb": {
+    "about.html": "e4c7253f"
+  },
+  "Temperature_Datasets.ipynb": {
+    "Temperature_Datasets.html": "74df9356"
+  },
+  "RDRS.ipynb": {
+    "RDRS.html": "fa95a9d6"
+  },
+  "Introduction.ipynb": {
+    "Introduction.html": "65c5fb4e"
+  },
+  "Climate_Dataset_Summary.ipynb": {
+    "Climate_Dataset_Summary.html": "ed11e681"
+  },
+  "Current_Practice.ipynb": {
+    "Current_Practice.html": "cb48935a"
+  },
+  "OPG_Data_Use.ipynb": {
+    "OPG_Data_Use.html": "deca965b"
+  },
+  "Hydro-Quebec_Data_Use.ipynb": {
+    "Hydro-Quebec_Data_Use.html": "ac1d1819"
+  },
+  "Precipitation_Datasets.ipynb": {
+    "Precipitation_Datasets.html": "59e17688"
+  }
+}
