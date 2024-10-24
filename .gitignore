@@ -163,3 +163,5 @@ cython_debug/
 
 # my files to ignore
 tests/
+# no need to have the generated HTML on git
+ecdg_report/_site/
