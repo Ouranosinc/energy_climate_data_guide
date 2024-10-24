@@ -20,7 +20,7 @@ website:
           - sectors/dam_safety_review.ipynb
           - sectors/demand_forecasting.ipynb
           - sectors/electrical_system_operations_construction.ipynb
-          - sectors/enterprise_risk_managment.ipynb
+          - sectors/enterprise_risk_management.ipynb
           - sectors/esg_and_sustainability_reporting.ipynb
           - sectors/forest_fire_monitoring_and_awareness.ipynb
           - sectors/generation_forecasting.ipynb
