@@ -40,5 +40,86 @@
   },
   "sectors/nuclear_safety_review.ipynb": {
     "nuclear_safety_review.html": "d2d72363"
+  },
+  "sectors/electricity_sector_activities.ipynb": {
+    "electricity_sector_activities.html": "06b7e750"
+  },
+  "sectors/dam_safety_review.ipynb": {
+    "dam_safety_review.html": "16422e7c"
+  },
+  "datasets/Climate_Dataset_Summary.ipynb": {
+    "Climate_Dataset_Summary.html": "83291b02"
+  },
+  "datasets/temperature/Temperature_Datasets.ipynb": {
+    "Temperature_Datasets.html": "8ef8a67f"
+  },
+  "datasets/temperature/RDRS.ipynb": {
+    "RDRS.html": "5d8605a9"
+  },
+  "datasets/precipitation/Precipitation_Datasets.ipynb": {
+    "Precipitation_Datasets.html": "71452f23"
+  },
+  "sectors/demand_forecasting.ipynb": {
+    "demand_forecasting.html": "4407acc4"
+  },
+  "sectors/generation_forecasting.ipynb": {
+    "generation_forecasting.html": "8769c836"
+  },
+  "sectors/capacity_expansion_modelling.ipynb": {
+    "capacity_expansion_modelling.html": "f19af00c"
+  },
+  "sectors/resource_adequacy_planning_infrastructure_design.ipynb.ipynb": {
+    "resource_adequacy_planning_infrastructure_design.ipynb.html": "b476b3d2"
+  },
+  "sectors/licensing_and_impact-environmental_assessments.ipynb": {
+    "licensing_and_impact-environmental_assessments.html": "b529502f"
+  },
+  "sectors/electrical_system_operations_construction.ipynb": {
+    "electrical_system_operations_construction.html": "8044631a"
+  },
+  "sectors/enterprise_risk_managment.ipynb": {
+    "enterprise_risk_managment.html": "c4f30afc"
+  },
+  "sectors/infrastructure_condition_ssessment.ipynb": {
+    "infrastructure_condition_ssessment.html": "c2d4c4c8"
+  },
+  "sectors/Untitled.ipynb": {
+    "Untitled.html": "3b295346"
+  },
+  "sectors/investment_prioritization.ipynb": {
+    "investment_prioritization.html": "8304c2d2"
+  },
+  "sectors/vegetation_management.ipynb": {
+    "vegetation_management.html": "25e9bfa9"
+  },
+  "sectors/support_supply_chain_decision-making.ipynb": {
+    "support_supply_chain_decision-making.html": "7e9cc853"
+  },
+  "sectors/outage_scheduling.ipynb": {
+    "outage_scheduling.html": "0683c11b"
+  },
+  "sectors/proactive_management_of_heavily_loaded_assets.ipynb": {
+    "proactive_management_of_heavily_loaded_assets.html": "068673f7"
+  },
+  "sectors/forest_fire_monitoring_and-awareness.ipynb": {
+    "forest_fire_monitoring_and-awareness.html": "d44b3fd4"
+  },
+  "sectors/worker_safety.ipynb": {
+    "worker_safety.html": "ec6c0ca7"
+  },
+  "sectors/resource_adequacy_planning.ipynb": {
+    "resource_adequacy_planning.html": "bddbd4f8"
+  },
+  "sectors/infrastructure_design.ipynb": {
+    "infrastructure_design.html": "942dc22c"
+  },
+  "sectors/innovation_investments.ipynb": {
+    "innovation_investments.html": "f97efa42"
+  },
+  "sectors/esg_and_sustainability_reporting.ipynb": {
+    "esg_and_sustainability_reporting.html": "e9b49186"
+  },
+  "sectors/infrastructure_condition_assessment.ipynb": {
+    "infrastructure_condition_assessment.html": "90511321"
   }
 }
