@@ -17,9 +17,10 @@ website:
         href: sectors/electricity_sector_activities.ipynb
         contents:
           - sectors/capacity_expansion_modelling.ipynb
+          - sectors/construction.ipynb
           - sectors/dam_safety_review.ipynb
           - sectors/demand_forecasting.ipynb
-          - sectors/electrical_system_operations_construction.ipynb
+          - sectors/electrical_system_operations.ipynb
           - sectors/enterprise_risk_management.ipynb
           - sectors/esg_and_sustainability_reporting.ipynb
           - sectors/forest_fire_monitoring_and_awareness.ipynb
@@ -48,6 +49,10 @@ website:
             href: datasets/precipitation/Precipitation_Datasets.ipynb
             contents:
               - datasets/temperature/RDRS.ipynb # @ToDo: This is not precip yet!
+          - section: "Wind"
+            href: datasets/wind/Wind_Datasets.ipynb
+            contents:
+            - datasets/wind/RDRS.ipynb # @ToDo: This is not precip yet!
 
 format:
   html:
