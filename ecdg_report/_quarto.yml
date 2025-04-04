@@ -1,6 +1,8 @@
 project:
   type: website
   output-dir: ../html
+  bibliography: references.bib
+
 
 website:
   title: "Climate Data for the Electricity Sector"
