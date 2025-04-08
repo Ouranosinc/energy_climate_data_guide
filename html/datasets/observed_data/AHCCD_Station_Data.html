@@ -390,11 +390,10 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Content</h2>
    
   <ul>
-  <li><a href="#summary" id="toc-summary" class="nav-link active" data-scroll-target="#summary">Summary</a></li>
+  <li><a href="#summary-description" id="toc-summary-description" class="nav-link active" data-scroll-target="#summary-description">Summary Description</a></li>
   <li><a href="#dataset-characteristics" id="toc-dataset-characteristics" class="nav-link" data-scroll-target="#dataset-characteristics">Dataset Characteristics</a></li>
   <li><a href="#key-strengths-of-ahccd" id="toc-key-strengths-of-ahccd" class="nav-link" data-scroll-target="#key-strengths-of-ahccd">Key Strengths of AHCCD</a></li>
   <li><a href="#limitations-of-ahccd" id="toc-limitations-of-ahccd" class="nav-link" data-scroll-target="#limitations-of-ahccd">Limitations of AHCCD</a></li>
-  <li><a href="#visualization" id="toc-visualization" class="nav-link" data-scroll-target="#visualization">Visualization</a></li>
   <li><a href="#available-variables-in-ahccd" id="toc-available-variables-in-ahccd" class="nav-link" data-scroll-target="#available-variables-in-ahccd">Available Variables in AHCCD</a></li>
   <li><a href="#typical-applications" id="toc-typical-applications" class="nav-link" data-scroll-target="#typical-applications">Typical Applications</a></li>
   </ul>
@@ -422,9 +421,15 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="summary" class="level2">
-<h2 class="anchored" data-anchor-id="summary">Summary</h2>
+<section id="summary-description" class="level2">
+<h2 class="anchored" data-anchor-id="summary-description">Summary Description</h2>
 <p>The Adjusted and Homogenized Canadian Climate Data (AHCCD) dataset is a collection of quality-controlled and homogenized historical climate data from Environment and Climate Change Canada (ECCC). It provides long-term station-based observations for temperature and precipitation across Canada. The dataset corrects for non-climatic changes (e.g., station relocations, instrument changes) to ensure consistency and reliability in climate trend analysis.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../../image/AHCCD_temperature_stations.jpg" title="AHCCD Temperature Stations" class="img-fluid figure-img" alt="AHCCD_temperature_stations" width="600"></p>
+<figcaption>AHCCD Temperature Stations; blue: starting date prior to 1990, green: starting date from 1990, red: station closed but more than 30 years of data (Vincent et al., 2020)</figcaption>
+</figure>
+</div>
 </section>
 <section id="dataset-characteristics" class="level2">
 <h2 class="anchored" data-anchor-id="dataset-characteristics">Dataset Characteristics</h2>
@@ -439,10 +444,9 @@ ul.task-list li input[type="checkbox"] {
 <li><strong>Data type</strong>: Historical observations from ECCC climate stations, adjusted and homogenized using statistical methods</li>
 <li><strong>Web reference:</strong> <a href="https://open.canada.ca/data/en/dataset/9c4ebc00-3ea4-4fe0-8bf2-66cfe1cddd1d">Adjusted and Homogenized Canadian Climate Data (AHCCD)</a></li>
 <li><strong>Technical documentation:</strong> <a href="https://www.canada.ca/en/environment-climate-change/services/climate-change/canadian-centre-climate-services/display-download/technical-documentation-adjusted-climate-data.html">Technical documentation: Adjusted and homogenized Canadian climate data (AHCCD)</a></li>
-<li><strong>Data access:</strong> <a href="https://climatedata.ca/download/#ahccd-download">Via ClimateData.ca (daily data)</a>, <a href="https://climate-change.canada.ca/climate-data/#/adjusted-station-data">Climate data extraction tool (Monthly, seasonal and annual data)</a></li>
+<li><strong>Data access:</strong> <a href="https://climatedata.ca/download/#ahccd-download">On ClimateData.ca (daily data)</a>, <a href="https://climate-change.canada.ca/climate-data/#/adjusted-station-data">Climate data extraction tool (Monthly, seasonal and annual data)</a></li>
 <li><strong>Reference publications:</strong> <br> <a href="https://doi.org/10.1080/07055900.2020.1765728">Vincent, L.A., M.M. Hartwell, and W. L. Wang, 2020: A Third Generation of Homogenized Temperature for Trend Analysis and Monitoring Changes in Canada’s Climate. Atmosphere-Ocean.</a>,<br> <a href="https://doi.org/10.1080/07055900.2011.583910">Mekis, É. and L.A. Vincent, 2011: An overview of the second generation adjusted daily precipitation dataset for trend analysis in Canada. Atmosphere-Ocean, 49(2), 163-177.</a>,<br> <a href="https://doi.org/10.1175/2009JCLI3200.1">Wan, H., X. L. Wang, V. R. Swail, 2010: Homogenization and trend analysis of Canadian near-surface wind speeds. Journal of Climate, 23, 1209-1225.</a>,<br> <a href="https://crd-data-donnees-rdc.ec.gc.ca/CDAS/products/AHCCD/ZWan_Wang_Swail_Quality_Assurance_of_Hourly_Pressure_JAMC_2007.pdf">Wan, H., X. L. Wang, V. R. Swail, 2007: A quality assurance system for Canadian hourly pressure data. J. Appl. Meteor. Climatol., 46, 1804-1817.</a></li>
 </ul>
-<hr>
 </section>
 <section id="key-strengths-of-ahccd" class="level2">
 <h2 class="anchored" data-anchor-id="key-strengths-of-ahccd">Key Strengths of AHCCD</h2>
@@ -471,17 +475,6 @@ ul.task-list li input[type="checkbox"] {
 </li>
 <li><strong>Limited temporal coverage:</strong> The latest observation data may not have been processed. Daily data availability has not seen a recent update.</li>
 </ul>
-<hr>
-</section>
-<section id="visualization" class="level2">
-<h2 class="anchored" data-anchor-id="visualization">Visualization</h2>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="../../image/AHCCD_temperature_stations.jpg" title="AHCCD Temperature Stations" class="img-fluid figure-img" alt="AHCCD_temperature_stations" width="700"></p>
-<figcaption>AHCCD Temperature Stations; blue: starting date prior to 1990, green: starting date from 1990, red: station closed but more than 30 years of data (Vincent et al., 2020)</figcaption>
-</figure>
-</div>
-<hr>
 </section>
 <section id="available-variables-in-ahccd" class="level2">
 <h2 class="anchored" data-anchor-id="available-variables-in-ahccd">Available Variables in AHCCD</h2>
@@ -552,7 +545,6 @@ Homogenized surface wind
 </div>
 </div>
 </div>
-<hr>
 <div id="id" class="callout callout-style-simple callout-none no-icon callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-4-contents" aria-controls="callout-4" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
@@ -573,7 +565,6 @@ Homogenized sea level and station pressure
 </div>
 </div>
 </div>
-<hr>
 </section>
 <section id="typical-applications" class="level2">
 <h2 class="anchored" data-anchor-id="typical-applications">Typical Applications</h2>
