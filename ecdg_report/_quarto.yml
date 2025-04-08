@@ -17,67 +17,88 @@ website:
     contents:
       - text: "Introduction"
         href: Introduction.ipynb
-      - section: "Electricity Sector Activities"
-        href: sectors/electricity_sector_activities.ipynb
         contents:
           - section: "Climat change impacts on electricity systems"
             contents:
-              - section: "Generation"
-                contents:
-                  - sectors/construction.ipynb
-                  - sectors/infrastructure_design.ipynb
-              - section: "Transmission and distribution"
-                contents:
-                  - sectors/construction.ipynb
-                  - sectors/infrastructure_design.ipynb
-                  - sectors/vegetation_management.ipynb
-              - section: "Demand"
-                contents:
-                  - sectors/demand_forecasting.ipynb
+            - section: "Generation"
+              contents:
+            - section: "Transmission and distribution"
+              contents:
+            - section: "Demand"
+              href: 
+              contents:
           - section: "Integration of climate data in electricity system planning"
             contents:
               - section: "Forecasting with climate data"
                 contents:
-                  - sectors/electrical_system_operations.ipynb
-                  - sectors/generation_forecasting.ipynb
-                  - sectors/infrastructure_condition_assessment_and_investment_prioritization.ipynb
-                  - sectors/outage_scheduling.ipynb
-                  - sectors/resource_adequacy_planning.ipynb
-                  - sectors/forest_fire_monitoring_and_awareness.ipynb
               - section: "Tools and models"
                 contents:
-                  - sectors/capacity_expansion_modelling.ipynb
-                  - sectors/dam_safety_review.ipynb
-                  - sectors/nuclear_safety_review.ipynb
               - section: "Uncertainty management"
                 contents:
-              - sectors/esg_and_sustainability_reporting.ipynb
-              - sectors/licensing_and_impact-environmental_assessments.ipynb
-              - sectors/proactive_management_of_heavily_loaded_assets.ipynb
-              - sectors/support_supply_chain_decision-making.ipynb
-              - sectors/worker_safety.ipynb
-          
+      - section: "Electricity Sector Activities"
+        href: sectors/electricity_sector_activities.ipynb
+        contents:
+          # - sectors/construction.ipynb
+          # - sectors/infrastructure_design.ipynb
+          # - sectors/construction.ipynb
+          # - sectors/infrastructure_design.ipynb
+          # - sectors/vegetation_management.ipynb
+          # - sectors/demand_forecasting.ipynb
+          # - sectors/electrical_system_operations.ipynb
+          # - sectors/generation_forecasting.ipynb
+          # - sectors/infrastructure_condition_assessment_and_investment_prioritization.ipynb
+          # - sectors/outage_scheduling.ipynb
+          # - sectors/resource_adequacy_planning.ipynb
+          # - sectors/forest_fire_monitoring_and_awareness.ipynb
+          # - sectors/capacity_expansion_modelling.ipynb
+          # - sectors/dam_safety_review.ipynb
+          # - sectors/nuclear_safety_review.ipynb
+          # - sectors/esg_and_sustainability_reporting.ipynb
+          # - sectors/licensing_and_impact-environmental_assessments.ipynb
+          # - sectors/proactive_management_of_heavily_loaded_assets.ipynb
+          # - sectors/support_supply_chain_decision-making.ipynb
+          # - sectors/worker_safety.ipynb
+          - sectors/capacity_expansion_modelling.ipynb
+          - sectors/construction.ipynb
+          - sectors/dam_safety_review.ipynb
+          - sectors/demand_forecasting.ipynb
+          - sectors/electrical_system_operations.ipynb
+          - sectors/enterprise_risk_management.ipynb
+          - sectors/esg_and_sustainability_reporting.ipynb
+          - sectors/forest_fire_monitoring_and_awareness.ipynb
+          - sectors/generation_forecasting.ipynb
+          - sectors/infrastructure_condition_assessment_and_investment_prioritization.ipynb
+          - sectors/infrastructure_design.ipynb
+          - sectors/infrastructure_design.ipynb
+          - sectors/licensing_and_impact-environmental_assessments.ipynb
+          - sectors/nuclear_safety_review.ipynb
+          - sectors/outage_scheduling.ipynb
+          - sectors/proactive_management_of_heavily_loaded_assets.ipynb
+          - sectors/resource_adequacy_planning.ipynb
+          - sectors/support_supply_chain_decision-making.ipynb
+          - sectors/vegetation_management.ipynb
+          - sectors/worker_safety.ipynb          
 # The section on climate datasets
       - section: "Climate Datasets"
         href: datasets/Climate_Dataset_Overview.ipynb
         contents:
-          - section: "Reanalysis data"
-            href: datasets/temperature/Temperature_Datasets.ipynb
+          - section: "Observational Data"
+            href: datasets/observed_data/Observational_Datasets.ipynb
             contents:
-              - datasets/temperature/ERA5-Land.ipynb
-              - datasets/temperature/RDRS.ipynb
-          - section: "Station data"
-            href: datasets/precipitation/Precipitation_Datasets.ipynb
+              - datasets/observed_data/AHCCD_Station_Data.ipynb
+          - section: "Reanalysis Data"
+            href: datasets/reanalysis_data/Reanalysis_Datasets.ipynb
             contents:
-              - datasets/temperature/RDRS.ipynb # @ToDo: This is not precip yet!
-          - section: "Climate projection data"
-            href: datasets/wind/Wind_Datasets.ipynb
+              - datasets/reanalysis_data/ERA5-Land.ipynb
+              - datasets/reanalysis_data/CaSR.ipynb
+          - section: "Climate Projection Data"
+            href: datasets/climate_projection_data/Climate_Projection_Datasets.ipynb
             contents:
-            - datasets/wind/RDRS.ipynb # @ToDo: This is not precip yet!
+            - datasets/climate_projection_data/ESPO-G6_Dataset.ipynb
           - section: "Analysis Support Tools"
             href: datasets/tools/Analysis_Support_Tools.ipynb
             contents:
-            - datasets/tools/Point_Location_Compare.ipynb # @ToDo: This is not precip yet!
+            - datasets/tools/Point_Location_Compare.ipynb
 
 format:
   html:
