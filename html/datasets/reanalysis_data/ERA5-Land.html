@@ -390,14 +390,13 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Content</h2>
    
   <ul>
-  <li><a href="#summary" id="toc-summary" class="nav-link active" data-scroll-target="#summary">Summary</a></li>
+  <li><a href="#summary-description" id="toc-summary-description" class="nav-link active" data-scroll-target="#summary-description">Summary Description</a></li>
   <li><a href="#dataset-characteristics" id="toc-dataset-characteristics" class="nav-link" data-scroll-target="#dataset-characteristics">Dataset Characteristics</a></li>
   <li><a href="#strengths-and-limitations" id="toc-strengths-and-limitations" class="nav-link" data-scroll-target="#strengths-and-limitations">Strengths and Limitations</a>
   <ul class="collapse">
   <li><a href="#key-strengths-of-era5-land" id="toc-key-strengths-of-era5-land" class="nav-link" data-scroll-target="#key-strengths-of-era5-land">Key Strengths of ERA5-Land</a></li>
   <li><a href="#limitations-of-era5-land" id="toc-limitations-of-era5-land" class="nav-link" data-scroll-target="#limitations-of-era5-land">Limitations of ERA5-Land</a></li>
   </ul></li>
-  <li><a href="#figures-visualization" id="toc-figures-visualization" class="nav-link" data-scroll-target="#figures-visualization">Figures, Visualization?</a></li>
   <li><a href="#available-variables-in-era5-land" id="toc-available-variables-in-era5-land" class="nav-link" data-scroll-target="#available-variables-in-era5-land">Available Variables in ERA5-Land</a></li>
   <li><a href="#typical-applications" id="toc-typical-applications" class="nav-link" data-scroll-target="#typical-applications">Typical Applications</a></li>
   </ul>
@@ -425,9 +424,15 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="summary" class="level2">
-<h2 class="anchored" data-anchor-id="summary">Summary</h2>
+<section id="summary-description" class="level2">
+<h2 class="anchored" data-anchor-id="summary-description">Summary Description</h2>
 <p>ERA5-Land is a high-resolution global land surface reanalysis dataset produced by the European Centre for Medium-Range Weather Forecasts (ECMWF). It provides detailed historical climate and weather data, focusing on land surface variables with enhanced spatial and temporal resolution compared to the standard ERA5 dataset. ERA5-Land is generated using the same land surface model as ERA5 but with higher resolution and no atmospheric data assimilation to improve consistency in land-related processes.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../../image/ERA5-Land_example.png" title="ERA5-Land Example" class="img-fluid figure-img" alt="ERA5-Land Example" width="400"></p>
+<figcaption>ERA5-Land Example, Source: Copernicus Climate Change Service (C3S) Climate Data Store (CDS))</figcaption>
+</figure>
+</div>
 </section>
 <section id="dataset-characteristics" class="level2">
 <h2 class="anchored" data-anchor-id="dataset-characteristics">Dataset Characteristics</h2>
@@ -442,10 +447,9 @@ ul.task-list li input[type="checkbox"] {
 <li><strong>Spatial coverage:</strong> Global land area<br>
 </li>
 <li><strong>Data type:</strong> ECMWF land surface model forced by ERA5 atmospheric conditions</li>
-<li><strong>Web References:</strong> <a href="https://copernicus/">ERA5-Land Web Site</a> , <a href="https://nordata.physics.utoronto.ca/en/annexes-datasets-descriptions/71-temperature/surface-temperature-t2m-products-of-the-ecmwf-reanalysis-5th-generation-land-era5-land/">Northern Climate Data Report and Inventory (NCDRI) Web Site</a></li>
-<li><strong>Reference Publications:</strong> <a href="https://">TBD. (20xx)</a></li>
+<li><strong>Web references:</strong> <br> <a href="https://www.ecmwf.int/en/era5-land">ERA5-Land on ECMWF web site</a>, <br> <a href="https://confluence.ecmwf.int/display/CKB/ERA5-Land%3A+data+documentation">ERA5-Land data documentation</a>, <br> <a href="https://cds.climate.copernicus.eu/datasets/reanalysis-era5-land">ERA5-Land on Copernicus Climate Change Service (C3S) Climate Data Store (CDS)</a>, <br> <a href="https://nordata.physics.utoronto.ca/en/annexes-datasets-descriptions/71-temperature/surface-temperature-t2m-products-of-the-ecmwf-reanalysis-5th-generation-land-era5-land/">ERA5-Land on Northern Climate Data Report and Inventory (NCDRI) Web Site</a>,</li>
+<li><strong>Reference Publications:</strong> <br> <a href="https://cds.climate.copernicus.eu/datasets/reanalysis-era5-land">Muñoz Sabater, J. (2019): ERA5-Land hourly data from 1950 to present. Copernicus Climate Change Service (C3S) Climate Data Store (CDS). DOI: 10.24381/cds.e2161bac (Accessed on 08-Apr-2025)</a></li>
 </ul>
-<hr>
 </section>
 <section id="strengths-and-limitations" class="level2">
 <h2 class="anchored" data-anchor-id="strengths-and-limitations">Strengths and Limitations</h2>
@@ -476,12 +480,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
 <li><strong>Lack of Direct Observations</strong>: Some variables are entirely model-based, potentially differing from ground-based observations.</li>
 </ul>
-<hr>
 </section>
-</section>
-<section id="figures-visualization" class="level2">
-<h2 class="anchored" data-anchor-id="figures-visualization">Figures, Visualization?</h2>
-<hr>
 </section>
 <section id="available-variables-in-era5-land" class="level2">
 <h2 class="anchored" data-anchor-id="available-variables-in-era5-land">Available Variables in ERA5-Land</h2>
@@ -593,7 +592,6 @@ Other Meteorological Variables
 </div>
 </div>
 </div>
-<hr>
 </section>
 <section id="typical-applications" class="level2">
 <h2 class="anchored" data-anchor-id="typical-applications">Typical Applications</h2>

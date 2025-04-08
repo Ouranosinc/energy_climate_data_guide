@@ -1,1 +1,13 @@
 /* css styles */
+.mark-red {
+  background-color: #fdd;
+  padding: 0.1em;
+}
+.mark-green {
+  background-color: #dfd;
+  padding: 0.1em;
+}
+.mark-blue {
+  background-color: #def;
+  padding: 0.1em;
+}

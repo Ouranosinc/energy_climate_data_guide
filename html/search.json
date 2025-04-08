@@ -30,7 +30,7 @@
     "href": "datasets/reanalysis_data/CaSR.html#summary-description",
     "title": "Canadian Surface Reanalysis - CaSR",
     "section": "Summary Description",
-    "text": "Summary Description\nThe Canadian Surface Reanalysis (CaSR) is a high-resolution atmospheric reanalysis dataset produced by Environment and Climate Change Canada (ECCC). It provides historical, high-resolution climate and weather data over North America, with a focus on Canada. CaSR is based on the Global Deterministic Reanalysis (CGRD) but refined with the Canadian Regional Deterministic Prediction System (RDPS) to better capture local climate variations.",
+    "text": "Summary Description\nThe Canadian Surface Reanalysis (CaSR) is a high-resolution atmospheric reanalysis dataset produced by Environment and Climate Change Canada (ECCC). It provides historical, high-resolution climate and weather data over North America, with a focus on Canada. CaSR is based on the Global Deterministic Reanalysis (CGRD) but refined with the Canadian Regional Deterministic Prediction System (RDPS) to better capture local climate variations.\n\n\n\nCaSR simulation domain with station locations",
     "crumbs": [
       "Climate Datasets",
       "Reanalysis Data",
@@ -42,7 +42,7 @@
     "href": "datasets/reanalysis_data/CaSR.html#dataset-characteristics",
     "title": "Canadian Surface Reanalysis - CaSR",
     "section": "Dataset Characteristics",
-    "text": "Dataset Characteristics\n\nCurrent version: v2.1\nTime period: 1980–2018\nSpatial resolution: ~10 km grid spacing\n\nTemporal resolution: Hourly and daily outputs\n\nSpatial coverage: Canada and U.S.\nData type: Reanalysis model assimilating observations (satellites, surface stations, radiosondes, etc.)\nWeb references: ECCC CaSR Web Site , Northern Climate Data Report and Inventory (NCDRI) Web Site\nReference publications: Gasset, et al. (2021)",
+    "text": "Dataset Characteristics\n\nCurrent version: v2.1\nTime period: 1980–2018\nSpatial resolution: ~10 km grid spacing\n\nTemporal resolution: Hourly and daily outputs\n\nSpatial coverage: Canada and U.S.\nData type: Reanalysis model assimilating observations (satellites, surface stations, radiosondes, etc.)\nWeb references:  ECCC CaSR Web Site,  Northern Climate Data Report and Inventory (NCDRI) Web Site\nReference publications:  Gasset, et al. (2021)",
     "crumbs": [
       "Climate Datasets",
       "Reanalysis Data",
@@ -54,19 +54,7 @@
     "href": "datasets/reanalysis_data/CaSR.html#strengths-and-limitations",
     "title": "Canadian Surface Reanalysis - CaSR",
     "section": "Strengths and Limitations",
-    "text": "Strengths and Limitations\nBe more precise: Nicolas G. presentations on known issues with CaSR - ex: shouldn’t use for trends. - rotated grid!\n\nKey Strengths of CaSR\nHigh Resolution: ~10 km grid spacing provides detailed spatial variability, better than global reanalyses.\nAssimilation of Diverse Observations: Uses satellite, surface, and upper-air data for accuracy.\nHourly Data Availability: Useful for high-frequency climate and weather analysis.\nCanadian-Specific Calibration: Optimized for Canadian climate conditions, including extreme cold and snow processes.\nConsistent Historical Record: Spans over four decades, allowing for trend analysis and climate studies.\n\n\nKey Limitations of CaSR\nLimited Coverage: Primarily focused on Canada, with partial U.S. coverage.\nModel Biases: Errors may exist due to model physics and parameterizations, especially in complex terrain (e.g., mountains).\nPrecipitation Uncertainties: Like all reanalyses, CaSR precipitation estimates may deviate from observed values in localized regions.\nLimited to Land surface: Primarily land-focused, no information over oceans is available.\nComputationally Intensive: Relatively high-resolution data requires significant storage and processing power for analysis over larger areas.",
-    "crumbs": [
-      "Climate Datasets",
-      "Reanalysis Data",
-      "Canadian Surface Reanalysis - CaSR"
-    ]
-  },
-  {
-    "objectID": "datasets/reanalysis_data/CaSR.html#figures-visualization",
-    "href": "datasets/reanalysis_data/CaSR.html#figures-visualization",
-    "title": "Canadian Surface Reanalysis - CaSR",
-    "section": "Figures, Visualization?",
-    "text": "Figures, Visualization?",
+    "text": "Strengths and Limitations\nToDo: Be more precise: Nicolas G. presentations on known issues with CaSR\n\nex: shouldn’t use for trends.\nrotated grid!\n\n\nKey Strengths of CaSR\nHigh Resolution: ~10 km grid spacing provides detailed spatial variability, better than global reanalyses.\nAssimilation of Diverse Observations: Uses satellite, surface, and upper-air data for accuracy.\nHourly Data Availability: Useful for high-frequency climate and weather analysis.\nCanadian-Specific Calibration: Optimized for Canadian climate conditions, including extreme cold and snow processes.\nConsistent Historical Record: Spans over four decades, allowing for trend analysis and climate studies.\n\n\nKey Limitations of CaSR\nLimited Coverage: Primarily focused on Canada, with partial U.S. coverage.\nModel Biases: Errors may exist due to model physics and parameterizations, especially in complex terrain (e.g., mountains).\nPrecipitation Uncertainties: Like all reanalyses, CaSR precipitation estimates may deviate from observed values in localized regions.\nLimited to Land surface: Primarily land-focused, no information over oceans is available.\nComputationally Intensive: Relatively high-resolution data requires significant storage and processing power for analysis over larger areas.",
     "crumbs": [
       "Climate Datasets",
       "Reanalysis Data",
@@ -102,7 +90,7 @@
     "href": "datasets/reanalysis_data/ERA5-Land.html",
     "title": "ECMWF ERA5-Land",
     "section": "",
-    "text": "ERA5-Land is a high-resolution global land surface reanalysis dataset produced by the European Centre for Medium-Range Weather Forecasts (ECMWF). It provides detailed historical climate and weather data, focusing on land surface variables with enhanced spatial and temporal resolution compared to the standard ERA5 dataset. ERA5-Land is generated using the same land surface model as ERA5 but with higher resolution and no atmospheric data assimilation to improve consistency in land-related processes.",
+    "text": "ERA5-Land is a high-resolution global land surface reanalysis dataset produced by the European Centre for Medium-Range Weather Forecasts (ECMWF). It provides detailed historical climate and weather data, focusing on land surface variables with enhanced spatial and temporal resolution compared to the standard ERA5 dataset. ERA5-Land is generated using the same land surface model as ERA5 but with higher resolution and no atmospheric data assimilation to improve consistency in land-related processes.\n\n\n\nERA5-Land Example, Source: Copernicus Climate Change Service (C3S) Climate Data Store (CDS))",
     "crumbs": [
       "Climate Datasets",
       "Reanalysis Data",
@@ -110,11 +98,11 @@
     ]
   },
   {
-    "objectID": "datasets/reanalysis_data/ERA5-Land.html#summary",
-    "href": "datasets/reanalysis_data/ERA5-Land.html#summary",
+    "objectID": "datasets/reanalysis_data/ERA5-Land.html#summary-description",
+    "href": "datasets/reanalysis_data/ERA5-Land.html#summary-description",
     "title": "ECMWF ERA5-Land",
     "section": "",
-    "text": "ERA5-Land is a high-resolution global land surface reanalysis dataset produced by the European Centre for Medium-Range Weather Forecasts (ECMWF). It provides detailed historical climate and weather data, focusing on land surface variables with enhanced spatial and temporal resolution compared to the standard ERA5 dataset. ERA5-Land is generated using the same land surface model as ERA5 but with higher resolution and no atmospheric data assimilation to improve consistency in land-related processes.",
+    "text": "ERA5-Land is a high-resolution global land surface reanalysis dataset produced by the European Centre for Medium-Range Weather Forecasts (ECMWF). It provides detailed historical climate and weather data, focusing on land surface variables with enhanced spatial and temporal resolution compared to the standard ERA5 dataset. ERA5-Land is generated using the same land surface model as ERA5 but with higher resolution and no atmospheric data assimilation to improve consistency in land-related processes.\n\n\n\nERA5-Land Example, Source: Copernicus Climate Change Service (C3S) Climate Data Store (CDS))",
     "crumbs": [
       "Climate Datasets",
       "Reanalysis Data",
@@ -126,7 +114,7 @@
     "href": "datasets/reanalysis_data/ERA5-Land.html#dataset-characteristics",
     "title": "ECMWF ERA5-Land",
     "section": "Dataset Characteristics",
-    "text": "Dataset Characteristics\n\nCurrent version: ???\nTime period: 1950–present\n\nSpatial resolution: ~9 km grid spacing\n\nTemporal resolution: Hourly and daily outputs\n\nSpatial coverage: Global land area\n\nData type: ECMWF land surface model forced by ERA5 atmospheric conditions\nWeb References: ERA5-Land Web Site , Northern Climate Data Report and Inventory (NCDRI) Web Site\nReference Publications: TBD. (20xx)",
+    "text": "Dataset Characteristics\n\nCurrent version: ???\nTime period: 1950–present\n\nSpatial resolution: ~9 km grid spacing\n\nTemporal resolution: Hourly and daily outputs\n\nSpatial coverage: Global land area\n\nData type: ECMWF land surface model forced by ERA5 atmospheric conditions\nWeb references:  ERA5-Land on ECMWF web site,  ERA5-Land data documentation,  ERA5-Land on Copernicus Climate Change Service (C3S) Climate Data Store (CDS),  ERA5-Land on Northern Climate Data Report and Inventory (NCDRI) Web Site,\nReference Publications:  Muñoz Sabater, J. (2019): ERA5-Land hourly data from 1950 to present. Copernicus Climate Change Service (C3S) Climate Data Store (CDS). DOI: 10.24381/cds.e2161bac (Accessed on 08-Apr-2025)",
     "crumbs": [
       "Climate Datasets",
       "Reanalysis Data",
@@ -139,18 +127,6 @@
     "title": "ECMWF ERA5-Land",
     "section": "Strengths and Limitations",
     "text": "Strengths and Limitations\n\nKey Strengths of ERA5-Land\n\nHigh Spatial Resolution: ~9 km grid improves detail over land compared to ERA5 (~31 km).\n\nLong-Term Consistency: Extends back to 1950, enabling long-term climate studies.\n\nHourly Data Availability: Supports high-frequency climate and hydrological applications.\n\nImproved Land Surface Processes: Enhanced representation of soil moisture, snow, and vegetation dynamics.\n\nGlobal Coverage: Provides consistent land surface data across all continents.\n\n\n\nLimitations of ERA5-Land\n\nNo Atmospheric Data Assimilation: Unlike ERA5, does not assimilate atmospheric observations, which may introduce biases.\n\nPrecipitation Uncertainties: Forced by ERA5 atmospheric fields, which can lead to regional biases in precipitation estimates.\n\nLimited Ocean Representation: Focuses on land; coastal interactions may be less accurate.\n\nComputationally Intensive: High-resolution data requires significant storage and processing resources.\n\nLack of Direct Observations: Some variables are entirely model-based, potentially differing from ground-based observations.",
-    "crumbs": [
-      "Climate Datasets",
-      "Reanalysis Data",
-      "ECMWF ERA5-Land"
-    ]
-  },
-  {
-    "objectID": "datasets/reanalysis_data/ERA5-Land.html#figures-visualization",
-    "href": "datasets/reanalysis_data/ERA5-Land.html#figures-visualization",
-    "title": "ECMWF ERA5-Land",
-    "section": "Figures, Visualization?",
-    "text": "Figures, Visualization?",
     "crumbs": [
       "Climate Datasets",
       "Reanalysis Data",
@@ -1104,7 +1080,7 @@
     "href": "datasets/observed_data/AHCCD_Station_Data.html",
     "title": "Adjusted and Homogenized Canadian Climate Data (AHCCD)",
     "section": "",
-    "text": "The Adjusted and Homogenized Canadian Climate Data (AHCCD) dataset is a collection of quality-controlled and homogenized historical climate data from Environment and Climate Change Canada (ECCC). It provides long-term station-based observations for temperature and precipitation across Canada. The dataset corrects for non-climatic changes (e.g., station relocations, instrument changes) to ensure consistency and reliability in climate trend analysis.",
+    "text": "The Adjusted and Homogenized Canadian Climate Data (AHCCD) dataset is a collection of quality-controlled and homogenized historical climate data from Environment and Climate Change Canada (ECCC). It provides long-term station-based observations for temperature and precipitation across Canada. The dataset corrects for non-climatic changes (e.g., station relocations, instrument changes) to ensure consistency and reliability in climate trend analysis.\n\n\n\nAHCCD Temperature Stations; blue: starting date prior to 1990, green: starting date from 1990, red: station closed but more than 30 years of data (Vincent et al., 2020)",
     "crumbs": [
       "Climate Datasets",
       "Observational Data",
@@ -1112,11 +1088,11 @@
     ]
   },
   {
-    "objectID": "datasets/observed_data/AHCCD_Station_Data.html#summary",
-    "href": "datasets/observed_data/AHCCD_Station_Data.html#summary",
+    "objectID": "datasets/observed_data/AHCCD_Station_Data.html#summary-description",
+    "href": "datasets/observed_data/AHCCD_Station_Data.html#summary-description",
     "title": "Adjusted and Homogenized Canadian Climate Data (AHCCD)",
     "section": "",
-    "text": "The Adjusted and Homogenized Canadian Climate Data (AHCCD) dataset is a collection of quality-controlled and homogenized historical climate data from Environment and Climate Change Canada (ECCC). It provides long-term station-based observations for temperature and precipitation across Canada. The dataset corrects for non-climatic changes (e.g., station relocations, instrument changes) to ensure consistency and reliability in climate trend analysis.",
+    "text": "The Adjusted and Homogenized Canadian Climate Data (AHCCD) dataset is a collection of quality-controlled and homogenized historical climate data from Environment and Climate Change Canada (ECCC). It provides long-term station-based observations for temperature and precipitation across Canada. The dataset corrects for non-climatic changes (e.g., station relocations, instrument changes) to ensure consistency and reliability in climate trend analysis.\n\n\n\nAHCCD Temperature Stations; blue: starting date prior to 1990, green: starting date from 1990, red: station closed but more than 30 years of data (Vincent et al., 2020)",
     "crumbs": [
       "Climate Datasets",
       "Observational Data",
@@ -1128,7 +1104,7 @@
     "href": "datasets/observed_data/AHCCD_Station_Data.html#dataset-characteristics",
     "title": "Adjusted and Homogenized Canadian Climate Data (AHCCD)",
     "section": "Dataset Characteristics",
-    "text": "Dataset Characteristics\n\nCurrent version: The dataset us updated annually with the most recent data.\nTime period: Varies per station and variable, data availability ranging between 1840 and 2019\nSpatial resolution: Point locations across Canada\n\nTemporal resolution: Annual, seasonal, monthly and daily values\nCoverage: Stations across all Canadian provinces and territories\n\nData type: Historical observations from ECCC climate stations, adjusted and homogenized using statistical methods\nWeb reference: Adjusted and Homogenized Canadian Climate Data (AHCCD)\nTechnical documentation: Technical documentation: Adjusted and homogenized Canadian climate data (AHCCD)\nData access: Via ClimateData.ca (daily data), Climate data extraction tool (Monthly, seasonal and annual data)\nReference publications:  Vincent, L.A., M.M. Hartwell, and W. L. Wang, 2020: A Third Generation of Homogenized Temperature for Trend Analysis and Monitoring Changes in Canada’s Climate. Atmosphere-Ocean., Mekis, É. and L.A. Vincent, 2011: An overview of the second generation adjusted daily precipitation dataset for trend analysis in Canada. Atmosphere-Ocean, 49(2), 163-177., Wan, H., X. L. Wang, V. R. Swail, 2010: Homogenization and trend analysis of Canadian near-surface wind speeds. Journal of Climate, 23, 1209-1225., Wan, H., X. L. Wang, V. R. Swail, 2007: A quality assurance system for Canadian hourly pressure data. J. Appl. Meteor. Climatol., 46, 1804-1817.",
+    "text": "Dataset Characteristics\n\nCurrent version: The dataset us updated annually with the most recent data.\nTime period: Varies per station and variable, data availability ranging between 1840 and 2019\nSpatial resolution: Point locations across Canada\n\nTemporal resolution: Annual, seasonal, monthly and daily values\nCoverage: Stations across all Canadian provinces and territories\n\nData type: Historical observations from ECCC climate stations, adjusted and homogenized using statistical methods\nWeb reference: Adjusted and Homogenized Canadian Climate Data (AHCCD)\nTechnical documentation: Technical documentation: Adjusted and homogenized Canadian climate data (AHCCD)\nData access: On ClimateData.ca (daily data), Climate data extraction tool (Monthly, seasonal and annual data)\nReference publications:  Vincent, L.A., M.M. Hartwell, and W. L. Wang, 2020: A Third Generation of Homogenized Temperature for Trend Analysis and Monitoring Changes in Canada’s Climate. Atmosphere-Ocean., Mekis, É. and L.A. Vincent, 2011: An overview of the second generation adjusted daily precipitation dataset for trend analysis in Canada. Atmosphere-Ocean, 49(2), 163-177., Wan, H., X. L. Wang, V. R. Swail, 2010: Homogenization and trend analysis of Canadian near-surface wind speeds. Journal of Climate, 23, 1209-1225., Wan, H., X. L. Wang, V. R. Swail, 2007: A quality assurance system for Canadian hourly pressure data. J. Appl. Meteor. Climatol., 46, 1804-1817.",
     "crumbs": [
       "Climate Datasets",
       "Observational Data",
@@ -1160,23 +1136,11 @@
     ]
   },
   {
-    "objectID": "datasets/observed_data/AHCCD_Station_Data.html#visualization",
-    "href": "datasets/observed_data/AHCCD_Station_Data.html#visualization",
-    "title": "Adjusted and Homogenized Canadian Climate Data (AHCCD)",
-    "section": "Visualization",
-    "text": "Visualization\n\n\n\nAHCCD Temperature Stations; blue: starting date prior to 1990, green: starting date from 1990, red: station closed but more than 30 years of data (Vincent et al., 2020)",
-    "crumbs": [
-      "Climate Datasets",
-      "Observational Data",
-      "Adjusted and Homogenized Canadian Climate Data (AHCCD)"
-    ]
-  },
-  {
     "objectID": "datasets/observed_data/AHCCD_Station_Data.html#available-variables-in-ahccd",
     "href": "datasets/observed_data/AHCCD_Station_Data.html#available-variables-in-ahccd",
     "title": "Adjusted and Homogenized Canadian Climate Data (AHCCD)",
     "section": "Available Variables in AHCCD",
-    "text": "Available Variables in AHCCD\n\n\n\n\n\n\nHomogenized surface air temperature\n\n\n\n\n\n\nDaily minimum temperature\nDaily maximum temperature\nDaily minimum temperature\nMonthly, seasonal, and annual mean temperature\n780 locations in Canada\nUnit: ˚C\n\n\n\n\n\n\n\n\n\n\nAdjusted precipitation\n\n\n\n\n\n\nDaily liquid precipitation (rain)\nDaily solid precipitation (snow)\nDaily total precipitation (rain and snow)\nMonthly, seasonal, and annual total precipitation\n467 locations in Canada\nUnit: mm\n\n\n\n\n\n\n\n\n\n\nHomogenized surface wind\n\n\n\n\n\n\nMonthly, seasonal and annual means of hourly wind speed\nEvaluated at standard 10 metre level\n156 locations in Canada\nUnit: km/h\n\n\n\n\n\n\n\n\n\n\n\nHomogenized sea level and station pressure\n\n\n\n\n\n\nMonthly, seasonal and annual means of hourly sea level and station pressure (hectopascals)\n626 locations in Canada\nEvaluated at standard 10 metre level for 156 locations in Canada",
+    "text": "Available Variables in AHCCD\n\n\n\n\n\n\nHomogenized surface air temperature\n\n\n\n\n\n\nDaily minimum temperature\nDaily maximum temperature\nDaily minimum temperature\nMonthly, seasonal, and annual mean temperature\n780 locations in Canada\nUnit: ˚C\n\n\n\n\n\n\n\n\n\n\nAdjusted precipitation\n\n\n\n\n\n\nDaily liquid precipitation (rain)\nDaily solid precipitation (snow)\nDaily total precipitation (rain and snow)\nMonthly, seasonal, and annual total precipitation\n467 locations in Canada\nUnit: mm\n\n\n\n\n\n\n\n\n\n\nHomogenized surface wind\n\n\n\n\n\n\nMonthly, seasonal and annual means of hourly wind speed\nEvaluated at standard 10 metre level\n156 locations in Canada\nUnit: km/h\n\n\n\n\n\n\n\n\n\n\nHomogenized sea level and station pressure\n\n\n\n\n\n\nMonthly, seasonal and annual means of hourly sea level and station pressure (hectopascals)\n626 locations in Canada\nEvaluated at standard 10 metre level for 156 locations in Canada",
     "crumbs": [
       "Climate Datasets",
       "Observational Data",
