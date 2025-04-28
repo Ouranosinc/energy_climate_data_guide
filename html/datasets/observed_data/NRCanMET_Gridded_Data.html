@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Observational Datasets – Climate Data for the Electricity Sector</title>
+<title>ANUSPLIN Canadian Gridded Climate Dataset (NRCanMET) – Climate Data for the Electricity Sector</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,8 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../../">
-<link href="../../datasets/observed_data/AHCCD_Station_Data.html" rel="next">
-<link href="../../datasets/Climate_Dataset_Overview.html" rel="prev">
+<link href="../../datasets/reanalysis_data/Reanalysis_Datasets.html" rel="next">
+<link href="../../datasets/observed_data/AHCCD_Station_Data.html" rel="prev">
 <script src="../../site_libs/quarto-html/quarto.js"></script>
 <script src="../../site_libs/quarto-html/popper.min.js"></script>
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -82,7 +82,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../datasets/Climate_Dataset_Overview.html">Climate Datasets</a></li><li class="breadcrumb-item"><a href="../../datasets/observed_data/Observational_Datasets.html">Observational Data</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../datasets/Climate_Dataset_Overview.html">Climate Datasets</a></li><li class="breadcrumb-item"><a href="../../datasets/observed_data/Observational_Datasets.html">Observational Data</a></li><li class="breadcrumb-item"><a href="../../datasets/observed_data/NRCanMET_Gridded_Data.html">ANUSPLIN Canadian Gridded Climate Dataset (NRCanMET)</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -280,7 +280,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="../../datasets/observed_data/Observational_Datasets.html" class="sidebar-item-text sidebar-link active">
+            <a href="../../datasets/observed_data/Observational_Datasets.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Observational Data</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
@@ -295,7 +295,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../datasets/observed_data/NRCanMET_Gridded_Data.html" class="sidebar-item-text sidebar-link">
+  <a href="../../datasets/observed_data/NRCanMET_Gridded_Data.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">ANUSPLIN Canadian Gridded Climate Dataset (NRCanMET)</span></a>
   </div>
 </li>
@@ -370,16 +370,26 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Content</h2>
    
   <ul>
-  <li><a href="#definition-of-observational-datasets" id="toc-definition-of-observational-datasets" class="nav-link active" data-scroll-target="#definition-of-observational-datasets">Definition of Observational Datasets</a></li>
+  <li><a href="#summary-description" id="toc-summary-description" class="nav-link active" data-scroll-target="#summary-description">Summary Description</a></li>
+  <li><a href="#dataset-characteristics" id="toc-dataset-characteristics" class="nav-link" data-scroll-target="#dataset-characteristics">Dataset Characteristics</a></li>
+  <li><a href="#strengths-and-limitations" id="toc-strengths-and-limitations" class="nav-link" data-scroll-target="#strengths-and-limitations">Strengths and Limitations</a>
+  <ul class="collapse">
+  <li><a href="#key-strengths-of-nrcanmet" id="toc-key-strengths-of-nrcanmet" class="nav-link" data-scroll-target="#key-strengths-of-nrcanmet">Key Strengths of NRCanMET</a></li>
+  <li><a href="#key-limitations-of-nrcanmet" id="toc-key-limitations-of-nrcanmet" class="nav-link" data-scroll-target="#key-limitations-of-nrcanmet">Key Limitations of NRCanMET</a></li>
+  </ul></li>
+  <li><a href="#available-variables-in-nrcanmet" id="toc-available-variables-in-nrcanmet" class="nav-link" data-scroll-target="#available-variables-in-nrcanmet">Available Variables in NRCanMET</a></li>
+  <li><a href="#typical-applications" id="toc-typical-applications" class="nav-link" data-scroll-target="#typical-applications">Typical Applications</a></li>
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
+  <li><a href="#data-access" id="toc-data-access" class="nav-link" data-scroll-target="#data-access">Data Access</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../datasets/Climate_Dataset_Overview.html">Climate Datasets</a></li><li class="breadcrumb-item"><a href="../../datasets/observed_data/Observational_Datasets.html">Observational Data</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../datasets/Climate_Dataset_Overview.html">Climate Datasets</a></li><li class="breadcrumb-item"><a href="../../datasets/observed_data/Observational_Datasets.html">Observational Data</a></li><li class="breadcrumb-item"><a href="../../datasets/observed_data/NRCanMET_Gridded_Data.html">ANUSPLIN Canadian Gridded Climate Dataset (NRCanMET)</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Observational Datasets</h1>
+<h1 class="title">ANUSPLIN Canadian Gridded Climate Dataset (NRCanMET)</h1>
 </div>
 
 
@@ -396,8 +406,108 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="definition-of-observational-datasets" class="level2">
-<h2 class="anchored" data-anchor-id="definition-of-observational-datasets">Definition of Observational Datasets</h2>
+<section id="summary-description" class="level2">
+<h2 class="anchored" data-anchor-id="summary-description">Summary Description</h2>
+<p>The ANUSPLIN Canadian Gridded Climate Dataset (NRCanMET) is a high-resolution, station-based gridded climate dataset produced by Natural Resources Canada (NRCan) and Agriculture and Agri-Food Canada. It provides daily and monthly interpolated climate variables across Canada, utilizing the Australian National University Spline (ANUSPLIN) model. The dataset provides information coninuous in time and space for climate research and environmental studies.</p>
+</section>
+<section id="dataset-characteristics" class="level2">
+<h2 class="anchored" data-anchor-id="dataset-characteristics">Dataset Characteristics</h2>
+<ul>
+<li><strong>Time period</strong>: 1950–2015<br>
+</li>
+<li><strong>Spatial resolution</strong>: ~10 km grid spacing (0.1°)<br>
+</li>
+<li><strong>Temporal resolution</strong>: Daily and monthly<br>
+</li>
+<li><strong>Coverage</strong>: Canadian landmass<br>
+</li>
+<li><strong>Data source</strong>: Quality-controlled station observations interpolated using ANUSPLIN</li>
+</ul>
+</section>
+<section id="strengths-and-limitations" class="level2">
+<h2 class="anchored" data-anchor-id="strengths-and-limitations">Strengths and Limitations</h2>
+<section id="key-strengths-of-nrcanmet" class="level3">
+<h3 class="anchored" data-anchor-id="key-strengths-of-nrcanmet">Key Strengths of NRCanMET</h3>
+<ul>
+<li><strong>High Spatial Resolution</strong>: Provides detailed climate information at ~10 km resolution across Canada.</li>
+<li><strong>Long-Term Coverage</strong>: Spans over six decades, enabling comprehensive climate trend analyses.</li>
+<li><strong>Quality-Controlled Data</strong>: Utilizes quality-controlled station observations for interpolation.</li>
+<li><strong>Consistent Methodology</strong>: Employs the ANUSPLIN model, ensuring consistency in data interpolation.</li>
+<li><strong>Accessibility</strong>: Available through platforms like ClimateData.ca and the Pacific Climate Impacts Consortium.</li>
+</ul>
+</section>
+<section id="key-limitations-of-nrcanmet" class="level3">
+<h3 class="anchored" data-anchor-id="key-limitations-of-nrcanmet">Key Limitations of NRCanMET</h3>
+<ul>
+<li><strong>Temporal Gaps</strong>: Station density varies over time, potentially affecting data consistency in certain regions.</li>
+<li><strong>Interpolation Limitations</strong>: Accuracy depends on the density and distribution of input stations.</li>
+<li><strong>Lack of Real-Time Updates</strong>: Dataset extends only up to 2015, limiting its use for recent climate analyses.</li>
+<li><strong>Limited Variables</strong>: Focuses primarily on temperature and precipitation; other climate variables are not included.</li>
+</ul>
+</section>
+</section>
+<section id="available-variables-in-nrcanmet" class="level2">
+<h2 class="anchored" data-anchor-id="available-variables-in-nrcanmet">Available Variables in NRCanMET</h2>
+<div id="id" class="callout callout-style-simple callout-none no-icon callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Temperature Variables
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-1" class="callout-1-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<ul>
+<li>Daily maximum temperature (°C)</li>
+<li>Daily minimum temperature (°C)</li>
+<li>Monthly maximum temperature (°C)</li>
+<li>Monthly minimum temperature (°C)</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="id" class="callout callout-style-simple callout-none no-icon callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Precipitation Variables
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-2" class="callout-2-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<ul>
+<li>Daily total precipitation (mm)</li>
+<li>Monthly total precipitation (mm)</li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+<section id="typical-applications" class="level2">
+<h2 class="anchored" data-anchor-id="typical-applications">Typical Applications</h2>
+<p><em>links to Electricity Sector Applications</em></p>
+</section>
+<section id="references" class="level2">
+<h2 class="anchored" data-anchor-id="references">References</h2>
+<ul>
+<li>Hutchinson, M. F., McKenney, D.W., Lawrence, K., Pedlar, J.H., Hopkinson, R.F., Milewska, E., Papadopol, P. (2009). Development and testing of Canada-Wide Interpolated Spatial Models of Daily Minimum-Maximum Temperature and Precipitation for 1961-2003. <em>Journal of Applied Meteorology and Climatology</em>, 48(4), 725-741. https://doi.org/10.1175/2008JAMC1979.1</li>
+<li>McKenney, D. W., Hutchinson, M.F., Papadopol, P., Lawrence, K., Pedlar, J., Campbell, K., Milewska, E., Hopkinson, R., Price, D., Owen, T. (2011). Customized spatial climate models for North America. <em>Bulletin of the American Meteorological Society</em>, 92(12), 1611-1622. https://doi.org/10.1175/2011BAMS3132.1</li>
+</ul>
+<hr>
+</section>
+<section id="data-access" class="level2">
+<h2 class="anchored" data-anchor-id="data-access">Data Access</h2>
+<ul>
+<li><a href="https://climatedata.ca/">ClimateData.ca</a></li>
+<li><a href="https://pacificclimate.org/data/daily-gridded-meteorological-datasets">Pacific Climate Impacts Consortium</a></li>
+<li><a href="https://open.canada.ca/data/en/dataset/779ea77a-0ad1-42f2-853e-833e1cbb9a13">Open Government Portal - Canada</a></li>
+</ul>
 
 
 </section>
@@ -825,13 +935,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="../../datasets/Climate_Dataset_Overview.html" class="pagination-link" aria-label="Climate Datasets">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Climate Datasets</span>
+      <a href="../../datasets/observed_data/AHCCD_Station_Data.html" class="pagination-link" aria-label="Adjusted and Homogenized Canadian Climate Data (AHCCD)">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Adjusted and Homogenized Canadian Climate Data (AHCCD)</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="../../datasets/observed_data/AHCCD_Station_Data.html" class="pagination-link" aria-label="Adjusted and Homogenized Canadian Climate Data (AHCCD)">
-        <span class="nav-page-text">Adjusted and Homogenized Canadian Climate Data (AHCCD)</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="../../datasets/reanalysis_data/Reanalysis_Datasets.html" class="pagination-link" aria-label="Reanalysis Data">
+        <span class="nav-page-text">Reanalysis Data</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
