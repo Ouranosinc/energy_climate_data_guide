@@ -83,6 +83,10 @@ format:
     toc-title: Content
     toc-expand: 0
     code-fold: true
+    include-after-body: link-target.js
+
+bibliography:
+  - reference.bib
 
 
 
