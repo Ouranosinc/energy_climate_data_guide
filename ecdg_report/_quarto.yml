@@ -1,6 +1,8 @@
 project:
   type: website
   output-dir: ../html
+  resources:
+    - link-target.js  # This ensures it gets copied to output
 
 website:
   title: "Climate Data for the Electricity Sector"
@@ -83,6 +85,10 @@ format:
     toc-title: Content
     toc-expand: 0
     code-fold: true
+    include-after-body: link-target.js
+
+bibliography:
+  - reference.bib
 
 
 
