@@ -1,0 +1,990 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.5.57">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Demand – Climate Data for the Electricity Sector</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../sectors/electricity_sector_activities.html" rel="next">
+<link href="../Introduction.html" rel="prev">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../styles.css">
+</head>
+
+<body class="nav-sidebar docked">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Climat change impacts on electricity systems</li><li class="breadcrumb-item"><a href="../literature_review/demand.html">Demand</a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+      <a href="../index.html" class="sidebar-logo-link">
+      <img src="../image/Logo_McMaster_and_Ouranos.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
+      </a>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../Introduction.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Introduction</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+ <span class="menu-text">Climat change impacts on electricity systems</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item sidebar-item-section">
+      <span class="sidebar-item-text sidebar-link text-start">
+ <span class="menu-text">Generation</span></span>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <span class="sidebar-item-text sidebar-link text-start">
+ <span class="menu-text">Transmission and distribution</span></span>
+  </li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../literature_review/demand.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Demand</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../sectors/electricity_sector_activities.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Electricity Sector Activities</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../sectors/capacity_expansion_modelling.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Capacity Expansion Modelling</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../sectors/construction.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Construction</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../sectors/dam_safety_review.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Dam Safety Review</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../sectors/demand_forecasting.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Demand Forecasting</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../sectors/electrical_system_operations.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Electrical System Operations</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../sectors/enterprise_risk_management.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Enterprise Risk Management</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../sectors/esg_and_sustainability_reporting.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">ESG &amp; Sustainability Reporting</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../sectors/forest_fire_monitoring_and_awareness.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Forest Fire Monitoring and Awareness</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../sectors/generation_forecasting.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Generation Forecasting</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../sectors/infrastructure_condition_assessment_and_investment_prioritization.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Infrastructure Condition Assessment &amp; Investment Prioritization</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../sectors/infrastructure_design.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Infrastructure Design</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../sectors/infrastructure_design.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Infrastructure Design</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../sectors/licensing_and_impact-environmental_assessments.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Licensing &amp; Impact/Environmental Assessments</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../sectors/nuclear_safety_review.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Nuclear Safety Reviews</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../sectors/outage_scheduling.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Outage Scheduling</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../sectors/proactive_management_of_heavily_loaded_assets.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Proactive management of heavily loaded assets</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../sectors/resource_adequacy_planning.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Resource Adequacy Planning</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../sectors/support_supply_chain_decision-making.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Support supply chain decision-making</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../sectors/vegetation_management.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Vegetation Management</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../sectors/worker_safety.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Worker safety</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../datasets/Climate_Dataset_Overview.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Climate Datasets</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../datasets/observed_data/Observational_Datasets.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Observational Data</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-6" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../datasets/observed_data/AHCCD_Station_Data.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Adjusted and Homogenized Canadian Climate Data (AHCCD)</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../datasets/observed_data/NRCanMET_Gridded_Data.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">ANUSPLIN Canadian Gridded Climate Dataset (NRCanMET)</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../datasets/reanalysis_data/Reanalysis_Datasets.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Reanalysis Data</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-7" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../datasets/reanalysis_data/ERA5-Land.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">ECMWF ERA5-Land</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../datasets/reanalysis_data/CaSR.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Canadian Surface Reanalysis - CaSR</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../datasets/climate_projection_data/Climate_Projection_Datasets.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Climate Projection Data</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-8" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-8" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../datasets/climate_projection_data/ESPO-G6_Dataset.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">ESPO-G6 Dataset</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../datasets/tools/Analysis_Support_Tools.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Analysis Support Tools</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-9" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-9" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../datasets/tools/Point_Location_Compare.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">A tool for dataset comparison: Observational Data at a point location</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active" data-toc-expanded="-1">
+    <h2 id="toc-title">Content</h2>
+   
+  <ul>
+  <li><a href="#climate-change-drivers-and-affected-electricity-demand-parameters" id="toc-climate-change-drivers-and-affected-electricity-demand-parameters" class="nav-link active" data-scroll-target="#climate-change-drivers-and-affected-electricity-demand-parameters">Climate change drivers and affected electricity demand parameters</a>
+  <ul class="collapse">
+  <li><a href="#seasonal-variations" id="toc-seasonal-variations" class="nav-link" data-scroll-target="#seasonal-variations">Seasonal variations</a></li>
+  <li><a href="#regional-variations-by-continents-by-latitudes" id="toc-regional-variations-by-continents-by-latitudes" class="nav-link" data-scroll-target="#regional-variations-by-continents-by-latitudes">Regional variations: by continents, by latitudes</a></li>
+  <li><a href="#demand-parameters" id="toc-demand-parameters" class="nav-link" data-scroll-target="#demand-parameters">Demand parameters</a></li>
+  </ul></li>
+  <li><a href="#sectoral-variations-in-demand" id="toc-sectoral-variations-in-demand" class="nav-link" data-scroll-target="#sectoral-variations-in-demand">Sectoral variations in demand</a></li>
+  <li><a href="#methodologies-for-assessing-climate-change-impacts" id="toc-methodologies-for-assessing-climate-change-impacts" class="nav-link" data-scroll-target="#methodologies-for-assessing-climate-change-impacts">Methodologies for assessing climate change impacts</a></li>
+  <li><a href="#adaptation-strategies" id="toc-adaptation-strategies" class="nav-link" data-scroll-target="#adaptation-strategies">Adaptation strategies</a></li>
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Climat change impacts on electricity systems</li><li class="breadcrumb-item"><a href="../literature_review/demand.html">Demand</a></li></ol></nav>
+<div class="quarto-title">
+<h1 class="title">Demand</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<p>Electricity demand is a vital component in the planning, operation, and resilience of power systems. Climate change is expected to alter electricity demand patterns by affecting not only patterns of temperature, such as mean temperature, number of temperature extremes, and seasonal variations, but also consumption behaviours across different sectors. Numerous studies project increased cooling demand during hotter summers and reduced heating demand during milder winters as this pattern have been consistently observed across multiple global regions ( <span class="citation" data-cites="Amonkar2023">Amonkar et al. (<a href="#ref-Amonkar2023" role="doc-biblioref">2023</a>)</span>, <span class="citation" data-cites="Auffhammer2011">Auffhammer and Aroonruengsawat (<a href="#ref-Auffhammer2011" role="doc-biblioref">2011</a>)</span>, <span class="citation" data-cites="Pilli-Sihvola2010">Pilli-Sihvola et al. (<a href="#ref-Pilli-Sihvola2010" role="doc-biblioref">2010</a>)</span>, <span class="citation" data-cites="Trotter2016">Trotter et al. (<a href="#ref-Trotter2016" role="doc-biblioref">2016</a>)</span>, <span class="citation" data-cites="Wood2015">Wood et al. (<a href="#ref-Wood2015" role="doc-biblioref">2015</a>)</span>). The magnitude and direction of these changes are strongly dependent on the region and latitude; for example, countries in warmer climates are expected to see higher overall demand growth due to increased cooling loads (<span class="citation" data-cites="Bonkaney2023">Bonkaney et al. (<a href="#ref-Bonkaney2023" role="doc-biblioref">2023</a>)</span>, <span class="citation" data-cites="Emodi2018">Emodi, Chaiechi, and Alam Beg (<a href="#ref-Emodi2018" role="doc-biblioref">2018</a>)</span>, <span class="citation" data-cites="Zachariadis2014">Zachariadis and Hadjinicolaou (<a href="#ref-Zachariadis2014" role="doc-biblioref">2014</a>)</span>). Climate change also affects electricity consumption by sector and temporal demand profiles, including daily and seasonal variations. The residential, commercial, and industrial sectors respond differently to climate drivers ( <span class="citation" data-cites="Dirks2015">Dirks et al. (<a href="#ref-Dirks2015" role="doc-biblioref">2015</a>)</span>, <span class="citation" data-cites="Shaik2024">Shaik (<a href="#ref-Shaik2024" role="doc-biblioref">2024</a>)</span>, <span class="citation" data-cites="Taseska2012">Taseska, Markovska, and Callaway (<a href="#ref-Taseska2012" role="doc-biblioref">2012</a>)</span>). Meanwhile, the timing of electricity demand is shifting as well, with studies projecting changes in peak load hours and seasonal peaks due to rising temperatures and more frequent extreme heat events ( <span class="citation" data-cites="Amonkar2023">Amonkar et al. (<a href="#ref-Amonkar2023" role="doc-biblioref">2023</a>)</span>, <span class="citation" data-cites="Fonseca2019">(<a href="#ref-Fonseca2019" role="doc-biblioref"><strong>Fonseca2019?</strong></a>)</span>, <span class="citation" data-cites="Romitti2022">Romitti and Wing (<a href="#ref-Romitti2022" role="doc-biblioref">2022</a>)</span>).</p>
+<p>To assess the impacts of climate change on electricity demand, different approaches have been employed. These include the use of climate projections from GCM and RCM combined with downscaling techniques to capture local climatic variability ( <span class="citation" data-cites="Auffhammer2017">Auffhammer, Baylis, and Hausman (<a href="#ref-Auffhammer2017" role="doc-biblioref">2017</a>)</span>, <span class="citation" data-cites="Auffhammer2011">Auffhammer and Aroonruengsawat (<a href="#ref-Auffhammer2011" role="doc-biblioref">2011</a>)</span>, <span class="citation" data-cites="Fonseca2019">(<a href="#ref-Fonseca2019" role="doc-biblioref"><strong>Fonseca2019?</strong></a>)</span>, <span class="citation" data-cites="Lipson2019">Lipson et al. (<a href="#ref-Lipson2019" role="doc-biblioref">2019</a>)</span>, <span class="citation" data-cites="Trotter2016">Trotter et al. (<a href="#ref-Trotter2016" role="doc-biblioref">2016</a>)</span>). Empirical models, such as regression-bases analyses, have been also used to estimate historical relationships between temperature and electricity use ( <span class="citation" data-cites="Bonkaney2023">Bonkaney et al. (<a href="#ref-Bonkaney2023" role="doc-biblioref">2023</a>)</span>, <span class="citation" data-cites="Emodi2018">Emodi, Chaiechi, and Alam Beg (<a href="#ref-Emodi2018" role="doc-biblioref">2018</a>)</span>, <span class="citation" data-cites="Pilli-Sihvola2010">Pilli-Sihvola et al. (<a href="#ref-Pilli-Sihvola2010" role="doc-biblioref">2010</a>)</span>) , while simulation tools and energy-climate models are applied to explore future scenarios under different socio-economic and climatic conditions ( <span class="citation" data-cites="Dirks2015">Dirks et al. (<a href="#ref-Dirks2015" role="doc-biblioref">2015</a>)</span>, <span class="citation" data-cites="Lipson2019">Lipson et al. (<a href="#ref-Lipson2019" role="doc-biblioref">2019</a>)</span>, <span class="citation" data-cites="Taseska2012">Taseska, Markovska, and Callaway (<a href="#ref-Taseska2012" role="doc-biblioref">2012</a>)</span>).</p>
+<section id="climate-change-drivers-and-affected-electricity-demand-parameters" class="level2">
+<h2 class="anchored" data-anchor-id="climate-change-drivers-and-affected-electricity-demand-parameters">Climate change drivers and affected electricity demand parameters</h2>
+<section id="seasonal-variations" class="level3">
+<h3 class="anchored" data-anchor-id="seasonal-variations">Seasonal variations</h3>
+<p>Rising temperatures due to climate change have led to a significant in seasonal electricity demand, particularly by increasing cooling demand during summer and reducing heating needs during winter. This shifting trend has been widely documented across regional and global studies. For example, <span class="citation" data-cites="Auffhammer2017">Auffhammer, Baylis, and Hausman (<a href="#ref-Auffhammer2017" role="doc-biblioref">2017</a>)</span> showed that electricity demand in the United States shows a strong nonlinear response to high temperatures, especially above 25-30 degC, driven mainly by demand for air conditioning. Similarly, <span class="citation" data-cites="DeCian2019">(<a href="#ref-DeCian2019" role="doc-biblioref"><strong>DeCian2019?</strong></a>)</span> also confirmed this global trend that there are steep increases in demand where air conditioning is rising due to climate change. Regional case studies, such as <span class="citation" data-cites="Craig2020">(<a href="#ref-Craig2020" role="doc-biblioref"><strong>Craig2020?</strong></a>)</span>, have demonstrated that peak demand coincides more frequently with extreme heat days, stressing both power generation and distribution infrastructure. The anticipated rise in the frequency, intensity, and duration of heatwaves further amplifies this concerns, requiring investments in peak capacity, demand-side management, and adaptation strategies. <span class="citation" data-cites="Taseska2012">Taseska, Markovska, and Callaway (<a href="#ref-Taseska2012" role="doc-biblioref">2012</a>)</span> projected increased summer cooling demand across European regions due to higher temperatures, while <span class="citation" data-cites="Zachariadis2014">Zachariadis and Hadjinicolaou (<a href="#ref-Zachariadis2014" role="doc-biblioref">2014</a>)</span> confirmed the similar rise in cooling demand in Cyprus. <span class="citation" data-cites="Dirks2015">Dirks et al. (<a href="#ref-Dirks2015" role="doc-biblioref">2015</a>)</span> also found that seasonal peaks are shifting in the United States, with summer peaks becoming more dominant due to climate-induced changes in building energy use.</p>
+<p>However, while winters are projected to be warmer, the demand responses are more variable. <span class="citation" data-cites="Romitti2022">Romitti and Wing (<a href="#ref-Romitti2022" role="doc-biblioref">2022</a>)</span> introduced a classification of demand response profiles: a “V”-shaped response which is common in mid-latitude temperated cities, such as North America and Europe where demand increases at both high and low temperatures; increasing response where demand rises steadily with temperature, which can be shown in tropical cities; and unresponsive profile where minimal or no correlation between temperature and electricity demand. <span class="citation" data-cites="Pilli-Sihvola2010">Pilli-Sihvola et al. (<a href="#ref-Pilli-Sihvola2010" role="doc-biblioref">2010</a>)</span> used multivariate regression in Europe to estimate electricity consumption changes and found that Northern and Central Europe will experience reduced heating demand in winter while Southern Europe will face increased cooling demand and higher costs in summer. This results in an increased annual electricity demand in Spain while it will decrease in Finland, Germany and France. <span class="citation" data-cites="Wood2015">Wood et al. (<a href="#ref-Wood2015" role="doc-biblioref">2015</a>)</span> analyzed how climate change could flatten winter peaks while enhancing summer peaks in the United Kingdom, suggesting that infrastructure planning should shift from winter-dominant to summer-dominant strategies.</p>
+</section>
+<section id="regional-variations-by-continents-by-latitudes" class="level3">
+<h3 class="anchored" data-anchor-id="regional-variations-by-continents-by-latitudes">Regional variations: by continents, by latitudes</h3>
+<p>The impacts of climate change on electricity demand show considerable regional heterogeneity, followed by geographic location, climatic baseline, economic development, and infrastructure characteristics. A clear latitudinal pattern exists: countries at lower latitude are projected to have higher increases in electricity demand for cooling, while higher latitude regions may observe mixed outcomes due to the opposing effects of warmer winters and hotter summers.</p>
+<p>In tropical regions, where average temperature are already high, even modest increases in temperature can trigger substantial rises in electricity use. <span class="citation" data-cites="Bonkaney2023">Bonkaney et al. (<a href="#ref-Bonkaney2023" role="doc-biblioref">2023</a>)</span> found that rising temperatures will affect electricity demand for all warming levels due to increasing air conditioning needs, with low adaptive capacity exacerbating system stress in Niger. <span class="citation" data-cites="Emodi2018">Emodi, Chaiechi, and Alam Beg (<a href="#ref-Emodi2018" role="doc-biblioref">2018</a>)</span></p>
+</section>
+<section id="demand-parameters" class="level3">
+<h3 class="anchored" data-anchor-id="demand-parameters">Demand parameters</h3>
+<ul>
+<li>Annual demand: generation capacity and/or storage capacity</li>
+<li>Size and timing of peak demand: maintenance and construction schedule, supply planning</li>
+<li>Spatial distribution of demand: topology and capacity of the electricity transmission networks.</li>
+<li>Sectors: ability to adapt or respond to climate change</li>
+</ul>
+</section>
+</section>
+<section id="sectoral-variations-in-demand" class="level2">
+<h2 class="anchored" data-anchor-id="sectoral-variations-in-demand">Sectoral variations in demand</h2>
+<ul>
+<li>Differences in demand patterns by sectors, such as residential, industrial, and commercial.</li>
+<li>Seasonal and hourly variations in demand and how these might evolve under climate change</li>
+</ul>
+</section>
+<section id="methodologies-for-assessing-climate-change-impacts" class="level2">
+<h2 class="anchored" data-anchor-id="methodologies-for-assessing-climate-change-impacts">Methodologies for assessing climate change impacts</h2>
+<ul>
+<li>Climate data: GCMs, RCMs</li>
+<li>Downscaling method: dynamic, statistical</li>
+<li>Empirical methods: regression analysis</li>
+<li>Simulation models: energy-climate models</li>
+</ul>
+</section>
+<section id="adaptation-strategies" class="level2">
+<h2 class="anchored" data-anchor-id="adaptation-strategies">Adaptation strategies</h2>
+<ul>
+<li>How to adapt changing demand patterns caused by climate change.</li>
+<li>Demand-side management, energy efficiency measures, grid flexibility.</li>
+</ul>
+</section>
+<section id="references" class="level2">
+<h2 class="anchored" data-anchor-id="references">References</h2>
+<ul>
+<li>Amonkar, Y., Doss-Gollin, J., Farnham, D. J., Modi, V., &amp; Lall, U. (2023). Differential effects of climate change on average and peak demand for heating and cooling across the contiguous USA. Communications Earth and Environment, 4(1), 1–9. https://doi.org/10.1038/s43247-023-01048-1</li>
+<li>Auffhammer, M., &amp; Aroonruengsawat, A. (2011). Simulating the impacts of climate change, prices and population on California’s residential electricity consumption. Climatic Change, 109(SUPPL. 1), 191–210. https://doi.org/10.1007/s10584-011-0299-y</li>
+<li>Auffhammer, M., Baylis, P., &amp; Hausman, C. H. (2017). Climate change is projected to have severe impacts on the frequency and intensity of peak electricity demand across the United States. Proceedings of the National Academy of Sciences of the United States of America, 114(8), 1886–1891. https://doi.org/10.1073/pnas.1613193114</li>
+<li>Bonkaney, A. L., Abiodun, B. J., Sanda, I. S., &amp; Balogun, A. A. (2023). Potential impact of global warming on electricity demand in Niger. Climatic Change, 176(4). https://doi.org/10.1007/s10584-023-03513-4</li>
+<li>Dirks, J. A., Gorrissen, W. J., Hathaway, J. H., Skorski, D. C., Scott, M. J., Pulsipher, T. C., Huang, M., Liu, Y., &amp; Rice, J. S. (2015). Impacts of climate change on energy consumption and peak demand in buildings: A detailed regional approach. Energy, 79(C), 20–32. https://doi.org/10.1016/j.energy.2014.08.081</li>
+<li>Emodi, N. V., Chaiechi, T., &amp; Alam Beg, A. B. M. R. (2018). The impact of climate change on electricity demand in Australia. Energy and Environment, 29(7), 1263–1297. https://doi.org/10.1177/0958305X18776538</li>
+<li>Fonseca, F. R., Jaramillo, P., Bergés, M., &amp; Severnini, E. (2019). Seasonal effects of climate change on intra-day electricity demand patterns. Climatic Change, 154(3–4), 435–451. https://doi.org/10.1007/s10584-019-02413-w</li>
+<li>Lipson, M. J., Thatcher, M., Hart, M. A., &amp; Pitman, A. (2019). Climate change impact on energy demand in building-urban-atmosphere simulations through the 21st century. Environmental Research Letters, 14(12). https://doi.org/10.1088/1748-9326/ab5aa5</li>
+<li>Pilli-Sihvola, K., Aatola, P., Ollikainen, M., &amp; Tuomenvirta, H. (2010). Climate change and electricity consumption-Witnessing increasing or decreasing use and costs? Energy Policy, 38(5), 2409–2419. https://doi.org/10.1016/j.enpol.2009.12.033</li>
+<li>Romitti, Y., &amp; Wing, I. S. (2022). Heterogeneous climate change impacts on electricity demand in world cities circa mid-century. Scientific Reports, 12(1). https://doi.org/10.1038/s41598-022-07922-w</li>
+<li>Shaik, S. (2024). Contribution of climate change to sector-source energy demand. Energy, 294(January), 130777. https://doi.org/10.1016/j.energy.2024.130777</li>
+<li>Taseska, V., Markovska, N., &amp; Callaway, J. M. (2012). Evaluation of climate change impacts on energy demand. Energy, 48(1), 88–95. https://doi.org/10.1016/j.energy.2012.06.053</li>
+<li>Trotter, I. M., Bolkesjø, T. F., Féres, J. G., &amp; Hollanda, L. (2016). Climate change and electricity demand in Brazil: A stochastic approach. Energy, 102, 596–604. https://doi.org/10.1016/j.energy.2016.02.120</li>
+<li>Wood, F. R., Calverley, D., Glynn, S., Mander, S., Conor, W., Kuriakose, J., Hill, F., &amp; Roeder, M. (2015). The impacts of climate change on UK energy demand. Infrastructure Asset Management, 2(3), 107–119. https://doi.org/10.1680/jinam.14.00039</li>
+<li>Zachariadis, T., &amp; Hadjinicolaou, P. (2014). The effect of climate change on electricity needs - A case study from Mediterranean Europe. Energy, 76, 899–910. https://doi.org/10.1016/j.energy.2014.09.001</li>
+</ul>
+
+
+
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-Amonkar2023" class="csl-entry" role="listitem">
+Amonkar, Yash, James Doss-Gollin, David J. Farnham, Vijay Modi, and Upmanu Lall. 2023. <span>“<span class="nocase">Differential effects of climate change on average and peak demand for heating and cooling across the contiguous USA</span>.”</span> <em>Communications Earth and Environment</em> 4 (1): 1–9. <a href="https://doi.org/10.1038/s43247-023-01048-1">https://doi.org/10.1038/s43247-023-01048-1</a>.
+</div>
+<div id="ref-Auffhammer2011" class="csl-entry" role="listitem">
+Auffhammer, Maximilian, and Anin Aroonruengsawat. 2011. <span>“<span class="nocase">Simulating the impacts of climate change, prices and population on California’s residential electricity consumption</span>.”</span> <em>Climatic Change</em> 109 (SUPPL. 1): 191–210. <a href="https://doi.org/10.1007/s10584-011-0299-y">https://doi.org/10.1007/s10584-011-0299-y</a>.
+</div>
+<div id="ref-Auffhammer2017" class="csl-entry" role="listitem">
+Auffhammer, Maximilian, Patrick Baylis, and Catherine H. Hausman. 2017. <span>“<span class="nocase">Climate change is projected to have severe impacts on the frequency and intensity of peak electricity demand across the United States</span>.”</span> <em>Proceedings of the National Academy of Sciences of the United States of America</em> 114 (8): 1886–91. <a href="https://doi.org/10.1073/pnas.1613193114">https://doi.org/10.1073/pnas.1613193114</a>.
+</div>
+<div id="ref-Bonkaney2023" class="csl-entry" role="listitem">
+Bonkaney, Abdou Latif, Babatunde J. Abiodun, Ibrah Seidou Sanda, and Ahmed A. Balogun. 2023. <span>“<span class="nocase">Potential impact of global warming on electricity demand in Niger</span>.”</span> <em>Climatic Change</em> 176 (4). <a href="https://doi.org/10.1007/s10584-023-03513-4">https://doi.org/10.1007/s10584-023-03513-4</a>.
+</div>
+<div id="ref-Dirks2015" class="csl-entry" role="listitem">
+Dirks, James A., Willy J. Gorrissen, John H. Hathaway, Daniel C. Skorski, Michael J. Scott, Trenton C. Pulsipher, Maoyi Huang, Ying Liu, and Jennie S. Rice. 2015. <span>“<span class="nocase">Impacts of climate change on energy consumption and peak demand in buildings: A detailed regional approach</span>.”</span> <em>Energy</em> 79 (C): 20–32. <a href="https://doi.org/10.1016/j.energy.2014.08.081">https://doi.org/10.1016/j.energy.2014.08.081</a>.
+</div>
+<div id="ref-Emodi2018" class="csl-entry" role="listitem">
+Emodi, Nnaemeka Vincent, Taha Chaiechi, and A. B. M.Rabiul Alam Beg. 2018. <span>“<span class="nocase">The impact of climate change on electricity demand in Australia</span>.”</span> <em>Energy and Environment</em> 29 (7): 1263–97. <a href="https://doi.org/10.1177/0958305X18776538">https://doi.org/10.1177/0958305X18776538</a>.
+</div>
+<div id="ref-Lipson2019" class="csl-entry" role="listitem">
+Lipson, Mathew J., Marcus Thatcher, Melissa A. Hart, and Andrew Pitman. 2019. <span>“<span class="nocase">Climate change impact on energy demand in building-urban-atmosphere simulations through the 21st century</span>.”</span> <em>Environmental Research Letters</em> 14 (12). <a href="https://doi.org/10.1088/1748-9326/ab5aa5">https://doi.org/10.1088/1748-9326/ab5aa5</a>.
+</div>
+<div id="ref-Pilli-Sihvola2010" class="csl-entry" role="listitem">
+Pilli-Sihvola, Karoliina, Piia Aatola, Markku Ollikainen, and Heikki Tuomenvirta. 2010. <span>“<span class="nocase">Climate change and electricity consumption-Witnessing increasing or decreasing use and costs?</span>”</span> <em>Energy Policy</em> 38 (5): 2409–19. <a href="https://doi.org/10.1016/j.enpol.2009.12.033">https://doi.org/10.1016/j.enpol.2009.12.033</a>.
+</div>
+<div id="ref-Romitti2022" class="csl-entry" role="listitem">
+Romitti, Yasmin, and Ian Sue Wing. 2022. <span>“<span class="nocase">Heterogeneous climate change impacts on electricity demand in world cities circa mid-century</span>.”</span> <em>Scientific Reports</em> 12 (1). <a href="https://doi.org/10.1038/s41598-022-07922-w">https://doi.org/10.1038/s41598-022-07922-w</a>.
+</div>
+<div id="ref-Shaik2024" class="csl-entry" role="listitem">
+Shaik, Saleem. 2024. <span>“<span class="nocase">Contribution of climate change to sector-source energy demand</span>.”</span> <em>Energy</em> 294 (January): 130777. <a href="https://doi.org/10.1016/j.energy.2024.130777">https://doi.org/10.1016/j.energy.2024.130777</a>.
+</div>
+<div id="ref-Taseska2012" class="csl-entry" role="listitem">
+Taseska, Verica, Natasa Markovska, and John M. Callaway. 2012. <span>“<span class="nocase">Evaluation of climate change impacts on energy demand</span>.”</span> <em>Energy</em> 48 (1): 88–95. <a href="https://doi.org/10.1016/j.energy.2012.06.053">https://doi.org/10.1016/j.energy.2012.06.053</a>.
+</div>
+<div id="ref-Trotter2016" class="csl-entry" role="listitem">
+Trotter, Ian M., Torjus Folsland Bolkesjø, José Gustavo Féres, and Lavinia Hollanda. 2016. <span>“<span class="nocase">Climate change and electricity demand in Brazil: A stochastic approach</span>.”</span> <em>Energy</em> 102: 596–604. <a href="https://doi.org/10.1016/j.energy.2016.02.120">https://doi.org/10.1016/j.energy.2016.02.120</a>.
+</div>
+<div id="ref-Wood2015" class="csl-entry" role="listitem">
+Wood, Frances Ruth, Daniel Calverley, Steven Glynn, Sarah Mander, Walsh Conor, Jaise Kuriakose, Frances Hill, and Mirjam Roeder. 2015. <span>“<span class="nocase">The impacts of climate change on UK energy demand</span>.”</span> <em>Infrastructure Asset Management</em> 2 (3): 107–19. <a href="https://doi.org/10.1680/jinam.14.00039">https://doi.org/10.1680/jinam.14.00039</a>.
+</div>
+<div id="ref-Zachariadis2014" class="csl-entry" role="listitem">
+Zachariadis, Theodoros, and Panos Hadjinicolaou. 2014. <span>“<span class="nocase">The effect of climate change on electricity needs - A case study from Mediterranean Europe</span>.”</span> <em>Energy</em> 76 (November): 899–910. <a href="https://doi.org/10.1016/j.energy.2014.09.001">https://doi.org/10.1016/j.energy.2014.09.001</a>.
+</div>
+</div></section></div></main> <!-- /main -->
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  document.querySelectorAll("a[href^='http']").forEach(link => {
+    if (!link.href.includes(window.location.hostname)) {
+      link.target = "_blank";
+      link.rel = "noopener noreferrer";
+    }
+  });
+});
+</script>
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="../Introduction.html" class="pagination-link" aria-label="Introduction">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Introduction</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="../sectors/electricity_sector_activities.html" class="pagination-link" aria-label="Electricity Sector Activities">
+        <span class="nav-page-text">Electricity Sector Activities</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+
+</body></html>
