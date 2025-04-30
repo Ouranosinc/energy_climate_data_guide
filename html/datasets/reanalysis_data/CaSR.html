@@ -20,7 +20,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
@@ -70,7 +90,7 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<link rel="stylesheet" href="../../styles.css">
+<link rel="stylesheet" href="../../styles/styles.css">
 </head>
 
 <body class="nav-sidebar docked">
@@ -377,8 +397,8 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#key-strengths-of-casr" id="toc-key-strengths-of-casr" class="nav-link" data-scroll-target="#key-strengths-of-casr">Key Strengths of CaSR</a></li>
   <li><a href="#key-limitations-of-casr" id="toc-key-limitations-of-casr" class="nav-link" data-scroll-target="#key-limitations-of-casr">Key Limitations of CaSR</a></li>
   </ul></li>
-  <li><a href="#available-variables-in-casr-could-be-a-link-to-somewhere-else" id="toc-available-variables-in-casr-could-be-a-link-to-somewhere-else" class="nav-link" data-scroll-target="#available-variables-in-casr-could-be-a-link-to-somewhere-else">Available Variables in CaSR (could be a link to somewhere else!)</a></li>
-  <li><a href="#typical-applications" id="toc-typical-applications" class="nav-link" data-scroll-target="#typical-applications">Typical Applications</a></li>
+  <li><a href="#available-variables-in-casr" id="toc-available-variables-in-casr" class="nav-link" data-scroll-target="#available-variables-in-casr">Available Variables in CaSR</a></li>
+  <li><a href="#example-applications" id="toc-example-applications" class="nav-link" data-scroll-target="#example-applications">Example Applications</a></li>
   </ul>
 </nav>
     </div>
@@ -404,10 +424,10 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>(was: Regional Deterministic Reforecast System - RDRS v2.1)</p>
+<p>(previously: Regional Deterministic Reforecast System - RDRS v2.1)</p>
 <section id="summary-description" class="level2">
 <h2 class="anchored" data-anchor-id="summary-description">Summary Description</h2>
-<p>The Canadian Surface Reanalysis (CaSR) is a high-resolution atmospheric reanalysis dataset produced by Environment and Climate Change Canada (ECCC). It provides historical, high-resolution climate and weather data over North America, with a focus on Canada. CaSR is based on the Global Deterministic Reanalysis (CGRD) but refined with the Canadian Regional Deterministic Prediction System (RDPS) to better capture local climate variations.</p>
+<p>The Canadian Surface Reanalysis (CaSR) is a high-resolution atmospheric reanalysis dataset produced by Environment and Climate Change Canada (ECCC). It provides historical, high-resolution climate and weather data over North America, with a focus on Canada. CaSR is based on the Global Deterministic Reforecast System (GDRS) and refined with the Canadian Regional Reforecast System (RDRS) to better capture local variations.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="../../image/CaSR_domain_and_stations.png" title="CaSR simulation domain with station locations" class="img-fluid figure-img" alt="CaSR simulation domain with station locations" width="400"></p>
@@ -418,8 +438,8 @@ ul.task-list li input[type="checkbox"] {
 <section id="dataset-characteristics" class="level2">
 <h2 class="anchored" data-anchor-id="dataset-characteristics">Dataset Characteristics</h2>
 <ul>
-<li><strong>Current version:</strong> v2.1</li>
-<li><strong>Time period:</strong> 1980–2018</li>
+<li><strong>Current version:</strong> v3.1</li>
+<li><strong>Time period:</strong> 1980–2023</li>
 <li><strong>Spatial resolution:</strong> ~10 km grid spacing<br>
 </li>
 <li><strong>Temporal resolution:</strong> Hourly and daily outputs<br>
@@ -427,55 +447,54 @@ ul.task-list li input[type="checkbox"] {
 <li><strong>Spatial coverage:</strong> Canada and U.S.</li>
 <li><strong>Data type:</strong> Reanalysis model assimilating observations (satellites, surface stations, radiosondes, etc.)</li>
 <li><strong>Web references:</strong> <br> <a href="https://hpfx.collab.science.gc.ca/~scar700/rcas-casr/">ECCC CaSR Web Site</a>, <br> <a href="https://nordata.physics.utoronto.ca/en/annexes-datasets-descriptions/71-temperature/north-american-precipitation-and-land-surface-reanalysis-regional-deterministic-reforecast-system-rdrs/">Northern Climate Data Report and Inventory (NCDRI) Web Site</a></li>
-<li><strong>Reference publications:</strong> <br> <a href="https://doi.org/10.5194/hess-25-4917-2021">Gasset, et al.&nbsp;(2021)</a></li>
+<li><strong>Reference publications:</strong> <br> <span class="citation" data-cites="Gasset2021">Gasset et al. (<a href="#ref-Gasset2021" role="doc-biblioref">2021</a>)</span> <br></li>
 </ul>
 </section>
 <section id="strengths-and-limitations" class="level2">
 <h2 class="anchored" data-anchor-id="strengths-and-limitations">Strengths and Limitations</h2>
-<p><span class="mark-red"><strong>ToDo:</strong> Be more precise: Nicolas G. presentations on known issues with CaSR</span></p>
-<ul>
-<li>ex: shouldn’t use for trends.</li>
-<li>rotated grid!</li>
-</ul>
+<p><span class="mark-red"><strong>ToDo:</strong> Upcoming discussion with Nicolas Gasset, include known more issues &amp; strengths with CaSR</span></p>
 <section id="key-strengths-of-casr" class="level3">
 <h3 class="anchored" data-anchor-id="key-strengths-of-casr">Key Strengths of CaSR</h3>
 <p><strong>High Resolution:</strong> ~10 km grid spacing provides detailed spatial variability, better than global reanalyses.<br>
 <strong>Assimilation of Diverse Observations:</strong> Uses satellite, surface, and upper-air data for accuracy.<br>
 <strong>Hourly Data Availability:</strong> Useful for high-frequency climate and weather analysis.<br>
-<strong>Canadian-Specific Calibration:</strong> Optimized for Canadian climate conditions, including extreme cold and snow processes.<br>
-<strong>Consistent Historical Record:</strong> Spans over four decades, allowing for trend analysis and climate studies.</p>
+<strong>Canadian-Specific:</strong> Optimized for Canadian climate conditions, including extreme cold and snow processes.<br>
+<strong>Convidence Index:</strong> A confidence index for precipitation informs on the weight of observations in the analysis.<br>
+<strong>Detailed Precipitation:</strong> Precipitation types are distiguished (ice pellets, freezing precipitation, liquid water equivalent of snow, liquid precipitation) and modeled as well as reanalysis precipitation are provided.<br>
+<strong>Active Development:</strong> New versions and longer temporal record in preparation.<br>
+<del><strong>Consistent Historical Record:</strong> Spans over four decades, allowing for trend analysis and climate studies.</del></p>
 </section>
 <section id="key-limitations-of-casr" class="level3">
 <h3 class="anchored" data-anchor-id="key-limitations-of-casr">Key Limitations of CaSR</h3>
-<p><strong>Limited Coverage:</strong> Primarily focused on Canada, with partial U.S. coverage.<br>
+<p><del><strong>Limited Coverage:</strong> Primarily focused on Canada, with partial U.S. coverage.</del><br>
 <strong>Model Biases:</strong> Errors may exist due to model physics and parameterizations, especially in complex terrain (e.g., mountains).<br>
+<strong>Limited Suitability for Trend Analysis:</strong> For the current version, gaps in observation data and model errors may skew trends found in the dataset. <span class="mark-red"><strong>ToDo:</strong> Check with Nicolas, Hélène/Marilyn’s results</span>.<br>
+<strong>Uncommon Georeference:</strong> The data are made available on a rotated grid which may be difficult to handle.<br>
 <strong>Precipitation Uncertainties:</strong> Like all reanalyses, CaSR precipitation estimates may deviate from observed values in localized regions.<br>
 <strong>Limited to Land surface:</strong> Primarily land-focused, no information over oceans is available.<br>
 <strong>Computationally Intensive:</strong> Relatively high-resolution data requires significant storage and processing power for analysis over larger areas.</p>
 </section>
 </section>
-<section id="available-variables-in-casr-could-be-a-link-to-somewhere-else" class="level2">
-<h2 class="anchored" data-anchor-id="available-variables-in-casr-could-be-a-link-to-somewhere-else">Available Variables in CaSR (could be a link to somewhere else!)</h2>
+<section id="available-variables-in-casr" class="level2">
+<h2 class="anchored" data-anchor-id="available-variables-in-casr">Available Variables in CaSR</h2>
+<p><em>For details click on variable group to uncollapse</em></p>
 <div id="id" class="callout callout-style-simple callout-none no-icon callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Atmospheric Variables
+Temperature
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
 <div id="callout-1" class="callout-1-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <ul>
-<li>Temperature (at 2m, surface, and upper levels)</li>
-<li>Dew point temperature</li>
-<li>Relative humidity</li>
-<li>Wind speed and direction (at 10m and other levels)</li>
-<li>Surface pressure</li>
-<li>Geopotential height</li>
+<li>Temperature [˚C]</li>
+<li>Dew point temperature [˚C]</li>
 </ul>
+<p>Temperature variables are provided at 1h &amp; 3h frequency and at levels 1.5 m, ~20m, and ~40m. For more details see the respective <a href="https://hpfx.collab.science.gc.ca/~scar700/rcas-casr/dataset_specifics.html#available_variables">table on the CaSR web site</a></p>
 </div>
 </div>
 </div>
@@ -485,20 +504,22 @@ Atmospheric Variables
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Precipitation &amp; Moisture Variables
+Precipitation
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
 <div id="callout-2" class="callout-2-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <ul>
-<li>Total precipitation (rain + snow)</li>
-<li>Rainfall rate</li>
-<li>Snowfall rate</li>
-<li>Snow water equivalent (SWE)</li>
-<li>Evaporation</li>
-<li>Soil moisture content</li>
+<li>Quantity of daily precipitation (CaPA 24h) [m]</li>
+<li>Confidence index of daily precipitation</li>
+<li>Quantity of hourly precipitation (model) [m]</li>
+<li>Quantity of hourly precipitation (hourly disagregated CaPA 24h/6h) [m]</li>
+<li>Quantity of ice pellets (liquid water equivalent) (model) [m]</li>
+<li>Quantity of freezing precipitation (liquid water equivalent) (model) [m]</li>
+<li>Quantity of liquid precipitation (model) [m]</li>
 </ul>
+<p>Precipitation variables are provided at 1h and 24h frequency at the surface level. For more details see the respective <a href="https://hpfx.collab.science.gc.ca/~scar700/rcas-casr/dataset_specifics.html#available_variables">table on the CaSR web site</a></p>
 </div>
 </div>
 </div>
@@ -508,20 +529,21 @@ Precipitation &amp; Moisture Variables
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Radiation &amp; Energy Balance
+Wind
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
 <div id="callout-3" class="callout-3-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <ul>
-<li>Downward shortwave radiation</li>
-<li>Upward shortwave radiation</li>
-<li>Downward longwave radiation</li>
-<li>Upward longwave radiation</li>
-<li>Latent heat flux</li>
-<li>Sensible heat flux</li>
+<li>U-component of the wind (along the grid X axis) [kts]</li>
+<li>V-component of the wind (along the grid Y axis) [kts]</li>
+<li>Corrected U-component of the wind (along West-East direction) [kts]</li>
+<li>Corrected V-component of the wind (along South-North direction) [kts]</li>
+<li>Wind Modulus (derived using UU and VV) [kts]</li>
+<li>Meteorologial Wind direction (derived using UU and VV) [degree]</li>
 </ul>
+<p>Wind variables are provided at 1h frequency and at levels 10m, ~20m, and ~40m. For more details see the respective <a href="https://hpfx.collab.science.gc.ca/~scar700/rcas-casr/dataset_specifics.html#available_variables">table on the CaSR web site</a></p>
 </div>
 </div>
 </div>
@@ -531,18 +553,17 @@ Radiation &amp; Energy Balance
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Land Surface &amp; Snow Variables
+Humidity
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
 <div id="callout-4" class="callout-4-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <ul>
-<li>Surface (skin) temperature</li>
-<li>Snow depth</li>
-<li>Soil temperature (multiple layers)</li>
-<li>Surface roughness</li>
+<li>Relative humidity [%]</li>
+<li>Specific humidity [kg/kg]</li>
 </ul>
+<p>Humidity variables are provided at 1h frequency and at levels 1.5 m, ~20m, and ~40m. For more details see the respective <a href="https://hpfx.collab.science.gc.ca/~scar700/rcas-casr/dataset_specifics.html#available_variables">table on the CaSR web site</a></p>
 </div>
 </div>
 </div>
@@ -552,29 +573,75 @@ Land Surface &amp; Snow Variables
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Other Meteorological Variables
+Radiation
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
 <div id="callout-5" class="callout-5-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <ul>
-<li>Cloud cover fraction</li>
-<li>Convective available potential energy (CAPE)</li>
-<li>Boundary layer height</li>
+<li>Downward solar flux [W/m<sup>2</sup>]</li>
+<li>Surface incoming infrared flux [W/m<sup>2</sup>]</li>
 </ul>
+<p>Radiation variables are provided at 1h frequency at the surface level. For more details see the respective <a href="https://hpfx.collab.science.gc.ca/~scar700/rcas-casr/dataset_specifics.html#available_variables">table on the CaSR web site</a></p>
+</div>
+</div>
+</div>
+<div id="id" class="callout callout-style-simple callout-none no-icon callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-6-contents" aria-controls="callout-6" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Snow
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-6" class="callout-6-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<ul>
+<li>Water equivalent of snow depth over land subgrid tile [kg/m<sup>2</sup>]</li>
+<li>Snow depth over land subgrid tile [cm]</li>
+</ul>
+<p>Snow variables are provided at 24h frequency at the surface level. For more details see the respective <a href="https://hpfx.collab.science.gc.ca/~scar700/rcas-casr/dataset_specifics.html#available_variables">table on the CaSR web site</a></p>
+</div>
+</div>
+</div>
+<div id="id" class="callout callout-style-simple callout-none no-icon callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-7-contents" aria-controls="callout-7" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Other Meteorological Variables
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-7" class="callout-7-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<ul>
+<li>Surface pressure [mb]</li>
+<li>Sea level pressure [mb]</li>
+<li>Geopotential height [dam]</li>
+</ul>
+<p>These meteorological variables are provided at 1h frequency and (depending on variable) at surface level, ~20m, and ~40m. For more details see the respective <a href="https://hpfx.collab.science.gc.ca/~scar700/rcas-casr/dataset_specifics.html#available_variables">table on the CaSR web site</a></p>
 </div>
 </div>
 </div>
 </section>
-<section id="typical-applications" class="level2">
-<h2 class="anchored" data-anchor-id="typical-applications">Typical Applications</h2>
+<section id="example-applications" class="level2">
+<h2 class="anchored" data-anchor-id="example-applications">Example Applications</h2>
 <p><em>links to Electricity Sector Applications</em></p>
 
 
+
 </section>
 
-</main> <!-- /main -->
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-Gasset2021" class="csl-entry" role="listitem">
+Gasset, N., Fortin, V., Dimitrijevic, M., Carrera, M., Bilodeau, B., Muncaster, R., Gaborit, É., Roy, G., Pentcheva, N., Bulat, M., Wang, X., Pavlovic, R., Lespinas, F., Khedhaouiria, D., Mai, J., 2021. A 10 km north american precipitation and land-surface reanalysis based on the GEM atmospheric model. Hydrology and Earth System Sciences 25, 4917–4945. <a href="https://doi.org/10.5194/hess-25-4917-2021">https://doi.org/10.5194/hess-25-4917-2021</a>
+</div>
+</div></section></div></main> <!-- /main -->
 <script>
 document.addEventListener("DOMContentLoaded", function () {
   document.querySelectorAll("a[href^='http']").forEach(link => {
