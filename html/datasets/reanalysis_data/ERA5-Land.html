@@ -20,7 +20,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
@@ -70,7 +90,7 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<link rel="stylesheet" href="../../styles.css">
+<link rel="stylesheet" href="../../styles/styles.css">
 </head>
 
 <body class="nav-sidebar docked">
@@ -407,6 +427,7 @@ ul.task-list li input[type="checkbox"] {
 <section id="summary-description" class="level2">
 <h2 class="anchored" data-anchor-id="summary-description">Summary Description</h2>
 <p>ERA5-Land is a high-resolution global land surface reanalysis dataset produced by the European Centre for Medium-Range Weather Forecasts (ECMWF). It provides detailed historical climate and weather data, focusing on land surface variables with enhanced spatial and temporal resolution compared to the standard ERA5 dataset. ERA5-Land is generated using the same land surface model as ERA5 but with higher resolution and no atmospheric data assimilation to improve consistency in land-related processes.</p>
+<p><span class="mark-red"><strong>ToDo:</strong> Add referencec, data access</span></p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="../../image/ERA5-Land_example.png" title="ERA5-Land Example" class="img-fluid figure-img" alt="ERA5-Land Example" width="400"></p>
@@ -428,7 +449,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
 <li><strong>Data type:</strong> ECMWF land surface model forced by ERA5 atmospheric conditions</li>
 <li><strong>Web references:</strong> <br> <a href="https://www.ecmwf.int/en/era5-land">ERA5-Land on ECMWF web site</a>, <br> <a href="https://confluence.ecmwf.int/display/CKB/ERA5-Land%3A+data+documentation">ERA5-Land data documentation</a>, <br> <a href="https://cds.climate.copernicus.eu/datasets/reanalysis-era5-land">ERA5-Land on Copernicus Climate Change Service (C3S) Climate Data Store (CDS)</a>, <br> <a href="https://nordata.physics.utoronto.ca/en/annexes-datasets-descriptions/71-temperature/surface-temperature-t2m-products-of-the-ecmwf-reanalysis-5th-generation-land-era5-land/">ERA5-Land on Northern Climate Data Report and Inventory (NCDRI) Web Site</a>,</li>
-<li><strong>Reference Publications:</strong> <br> <a href="https://cds.climate.copernicus.eu/datasets/reanalysis-era5-land">Muñoz Sabater, J. (2019): ERA5-Land hourly data from 1950 to present. Copernicus Climate Change Service (C3S) Climate Data Store (CDS). DOI: 10.24381/cds.e2161bac (Accessed on 08-Apr-2025)</a></li>
+<li><strong>Reference Publications:</strong> <br> <span class="citation" data-cites="Muñoz2019">Muñoz Sabater (<a href="#ref-Muñoz2019" role="doc-biblioref">2019</a>)</span>, <span class="mark-red"><strong>ToDo</strong> Figure out how to add: “Accessed on [date]</span></li>
 </ul>
 </section>
 <section id="strengths-and-limitations" class="level2">
@@ -464,6 +485,7 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="available-variables-in-era5-land" class="level2">
 <h2 class="anchored" data-anchor-id="available-variables-in-era5-land">Available Variables in ERA5-Land</h2>
+<p><em>For details click on variable group to uncollapse</em></p>
 <div id="id" class="callout callout-style-simple callout-none no-icon callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
@@ -578,9 +600,14 @@ Other Meteorological Variables
 <p><em>links to Electricity Sector Applications</em></p>
 
 
+
 </section>
 
-</main> <!-- /main -->
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-Muñoz2019" class="csl-entry" role="listitem">
+Muñoz Sabater, J., 2019. ERA5-land hourly data from 1950 to present [WWW Document]. Copernicus Climate Change Service (C3S) Climate Data Store (CDS). <a href="https://doi.org/10.24381/cds.e2161bac">https://doi.org/10.24381/cds.e2161bac</a>
+</div>
+</div></section></div></main> <!-- /main -->
 <script>
 document.addEventListener("DOMContentLoaded", function () {
   document.querySelectorAll("a[href^='http']").forEach(link => {

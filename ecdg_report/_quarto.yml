@@ -79,16 +79,30 @@ website:
 
 format:
   html:
+    output-dir: ../html
     theme: flatly
-    css: styles.css
+    css: styles/styles.css
     toc: true
     toc-title: Content
     toc-expand: 0
     code-fold: true
+    csl: styles/elsevier-harvard.csl
+    # cite-method: biblatex
+    # biblatexoptions:
+    #   - citestyle = authoryear
     include-after-body: link-target.js
+  # docx:
+  #   output-dir: ../docx
+  #   toc: true
+  #   toc-depth: 3
+  #   toc-title: Contents
+  #   number-sections: true
+  #   highlight-style: github
 
 bibliography:
-  - reference.bib
+  - literature_review/references.bib
+  - datasets/references.bib
+
 
 
 
