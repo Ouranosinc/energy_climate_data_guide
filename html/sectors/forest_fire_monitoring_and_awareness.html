@@ -20,40 +20,6 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for syntax highlighting */
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-}
 </style>
 
 
@@ -249,8 +215,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../sectors/infrastructure_design.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Infrastructure Design</span></a>
+  <a href="../sectors/innovation_investments.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Innovation Investments</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -305,7 +271,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="../datasets/Climate_Dataset_Overview.html" class="sidebar-item-text sidebar-link">
+            <a href="../datasets/Climate_Datasets_Overview.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Climate Datasets</span></a>
           <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
@@ -405,19 +371,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
    
   <ul>
   <li><a href="#description" id="toc-description" class="nav-link active" data-scroll-target="#description">Description</a></li>
-  <li><a href="#this-is-a-test" id="toc-this-is-a-test" class="nav-link" data-scroll-target="#this-is-a-test">This is a test:</a>
-  <ul class="collapse">
-  <li><a href="#here-is-just-a-third-level-heading" id="toc-here-is-just-a-third-level-heading" class="nav-link" data-scroll-target="#here-is-just-a-third-level-heading">Here is just a Third Level Heading</a></li>
-  </ul></li>
-  <li><a href="#result-of-the-test" id="toc-result-of-the-test" class="nav-link" data-scroll-target="#result-of-the-test">Result of the test:</a></li>
-  <li><a href="#yay-first-level-heading" id="toc-yay-first-level-heading" class="nav-link" data-scroll-target="#yay-first-level-heading">YAY!!! (First Level Heading)</a></li>
-  <li><a href="#first-level-heading" id="toc-first-level-heading" class="nav-link" data-scroll-target="#first-level-heading">First Level Heading</a>
-  <ul class="collapse">
-  <li><a href="#second-level-heading" id="toc-second-level-heading" class="nav-link" data-scroll-target="#second-level-heading">Second Level Heading</a>
-  <ul class="collapse">
-  <li><a href="#third-level-heading" id="toc-third-level-heading" class="nav-link" data-scroll-target="#third-level-heading">Third level Heading</a></li>
-  </ul></li>
-  </ul></li>
   </ul>
 </nav>
     </div>
@@ -446,62 +399,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <section id="description" class="level2">
 <h2 class="anchored" data-anchor-id="description">Description</h2>
 <p>Use of projections to inform future wildfire resilience investments (e.g.&nbsp;pole wrapping).</p>
-</section>
-<section id="this-is-a-test" class="level2">
-<h2 class="anchored" data-anchor-id="this-is-a-test">This is a test:</h2>
-<p>I want to see if I can smoothly type into the Notebook file locally in my PyCharm IDE and everything will update nicely remotely in jupyter lab and quarto output.</p>
-<p>So while I type this in PyCharm, I have my jupyter server running on doris.ouranos.ca and jupyter lab is open in my browser.</p>
-<p>If I save this file locally, it should be ssh-ed to my directory on doris, updated in jupyter lab in my browser and subsequently Quarto should update the output which is open in my browser as well, that is, the quarto server is listening to my notebooks and quarto files.</p>
-<p>I will now also go ahead and make some changes in the _quarto.yml file.</p>
-<section id="here-is-just-a-third-level-heading" class="level3">
-<h3 class="anchored" data-anchor-id="here-is-just-a-third-level-heading">Here is just a Third Level Heading</h3>
-<p>So this would be the corresponding text.</p>
-<section id="and-just-for-the-heck-of-it-here-is-also-a-fourth-level-heading" class="level4">
-<h4 class="anchored" data-anchor-id="and-just-for-the-heck-of-it-here-is-also-a-fourth-level-heading">And just for the heck of it, here is also a Fourth Level Heading</h4>
-<p>Let’s see if this is also rendered in the TOC, indicating what’s “On this page”.</p>
-</section>
-</section>
-</section>
-<section id="result-of-the-test" class="level2">
-<h2 class="anchored" data-anchor-id="result-of-the-test">Result of the test:</h2>
-<p>It very nicely does all that but at first I was a little impatient and did some fiddling with the upload of the file for everything to show up in the browser, the jupyter lab and the quarto preview page. Then I just went on typing and next time around it just does it all and everything show up alright. It’s magical, hihi!</p>
-<section id="very-cool" class="level5">
-<h5 class="anchored" data-anchor-id="very-cool">Very cool!</h5>
-</section>
-</section>
-<section id="yay-first-level-heading" class="level1">
-<h1>YAY!!! (First Level Heading)</h1>
-</section>
-<section id="first-level-heading" class="level1">
-<h1>First Level Heading</h1>
-<p>bla bla</p>
-<section id="second-level-heading" class="level2">
-<h2 class="anchored" data-anchor-id="second-level-heading">Second Level Heading</h2>
-<p>bla bla</p>
-<section id="third-level-heading" class="level3">
-<h3 class="anchored" data-anchor-id="third-level-heading">Third level Heading</h3>
-<p>haha haha</p>
-<section id="fourth-level-heading" class="level4">
-<h4 class="anchored" data-anchor-id="fourth-level-heading">Fourth Level Heading</h4>
-<p>Is this still showing in the TOC?</p>
-<p>And with that I’ll add some code right here:</p>
-<div id="f061a0cbd415652d" class="cell">
-<details class="code-fold">
-<summary>Code</summary>
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> beer</span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> time</span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> user</span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> time <span class="op">&gt;</span> <span class="st">"16:00"</span>:</span>
-<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>    beer <span class="op">=</span> <span class="va">True</span></span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>    user.drink(beer)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</details>
-</div>
 
 
-</section>
-</section>
-</section>
 </section>
 
 </main> <!-- /main -->
