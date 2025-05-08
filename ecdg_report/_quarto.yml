@@ -35,36 +35,36 @@ website:
         href: sectors/electricity_sector_activities.ipynb
         contents:
           - section: "Electricity System Planning"
-            href: sectors/grid_planning.ipynb
+            href: sectors/planning/grid_planning.ipynb
             contents:
-              - sectors/demand_forecasting.ipynb
-              - sectors/generation_forecasting.ipynb
-              - sectors/capacity_expansion_modelling.ipynb
-              - sectors/resource_adequacy_planning.ipynb
+              - sectors/planning/demand_forecasting.ipynb
+              - sectors/planning/generation_forecasting.ipynb
+              - sectors/planning/capacity_expansion_modelling.ipynb
+              - sectors/planning/resource_adequacy_planning.ipynb
           - section: "Operations Planning"
-            href: sectors/operations_planning.ipynb
+            href: sectors/operations/operations_planning.ipynb
             contents:
-              - sectors/outage_scheduling.ipynb
-              - sectors/proactive_management_of_heavily_loaded_assets.ipynb
-              - sectors/electrical_system_operations.ipynb
-              - sectors/forest_fire_monitoring_and_awareness.ipynb
-              - sectors/vegetation_management.ipynb
-              - sectors/worker_safety.ipynb    
+              - sectors/operations/outage_scheduling.ipynb
+              - sectors/operations/proactive_management_of_heavily_loaded_assets.ipynb
+              - sectors/operations/electrical_system_operations.ipynb
+              - sectors/operations/forest_fire_monitoring_and_awareness.ipynb
+              - sectors/operations/vegetation_management.ipynb
+              - sectors/operations/worker_safety.ipynb    
           - section: "Infrastructure Planning and Asset Management"
-            href: sectors/infrastructure_planning.ipynb
+            href: sectors/infrastructure/infrastructure_planning.ipynb
             contents:
-              - sectors/construction.ipynb
-              - sectors/dam_safety_review.ipynb
-              - sectors/infrastructure_condition_assessment_and_investment_prioritization.ipynb
-              - sectors/infrastructure_design.ipynb
-              - sectors/nuclear_safety_review.ipynb
-              - sectors/licensing_and_impact-environmental_assessments.ipynb
-              - sectors/support_supply_chain_decision-making.ipynb
+              - sectors/infrastructure/construction.ipynb
+              - sectors/infrastructure/dam_safety_review.ipynb
+              - sectors/infrastructure/infrastructure_condition_assessment_and_investment_prioritization.ipynb
+              - sectors/infrastructure/infrastructure_design.ipynb
+              - sectors/infrastructure/nuclear_safety_review.ipynb
+              - sectors/infrastructure/licensing_and_impact-environmental_assessments.ipynb
+              - sectors/infrastructure/support_supply_chain_decision-making.ipynb
           - section: "Assurance, Reporting and Disclosures"
-            href: sectors/reporting_disclosure.ipynb
+            href: sectors/reporting/reporting_disclosure.ipynb
             contents:  
-              - sectors/esg_and_sustainability_reporting.ipynb
-              - sectors/enterprise_risk_management.ipynb
+              - sectors/reporting/esg_and_sustainability_reporting.ipynb
+              - sectors/reporting/enterprise_risk_management.ipynb
               
                 
 # The section on climate datasets
@@ -115,6 +115,7 @@ format:
 bibliography:
   - literature_review/references.bib
   - datasets/references.bib
+  - sectors/references.bib
 
 
 
