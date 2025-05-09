@@ -52,7 +52,7 @@ website:
           - sectors/support_supply_chain_decision-making.ipynb
           - sectors/vegetation_management.ipynb
           - sectors/worker_safety.ipynb          
-# The section on climate datasets
+      # The section on climate datasets
       - section: "Climate Datasets"
         href: datasets/Climate_Datasets_Overview.ipynb
         contents:
