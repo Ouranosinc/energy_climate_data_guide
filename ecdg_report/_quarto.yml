@@ -1,5 +1,11 @@
 project:
   type: website
+  # render:
+  #   - "*.ipynb"
+  #   - "!FullReport_MSWord.ipynb"
+  preview:
+    port: 3210
+    browser: false
   output-dir: ../html
   resources:
     - link-target.js  # This ensures it gets copied to output
@@ -23,54 +29,34 @@ website:
         - section: "Transmission and distribution"
           contents:
         - literature_review/demand.ipynb
-      #     - section: "Integration of climate data in electricity system planning"
-      #       contents:
-      #         - section: "Forecasting with climate data"
-      #           contents:
-      #         - section: "Tools and models"
-      #           contents:
-      #         - section: "Uncertainty management"
-      #           contents:
       - section: "Electricity Sector Activities"
         href: sectors/electricity_sector_activities.ipynb
         contents:
-          - section: "Electricity System Planning"
-            href: sectors/grid_planning.ipynb
-            contents:
-              - sectors/capacity_expansion_modelling.ipynb
-              - sectors/demand_forecasting.ipynb
-              - sectors/generation_forecasting.ipynb
-              - sectors/resource_adequacy_planning.ipynb
-          - section: "Operations Planning"
-            href: sectors/operations_planning.ipynb
-            contents:
-              - sectors/outage_scheduling.ipynb
-              - sectors/proactive_management_of_heavily_loaded_assets.ipynb
-              - sectors/electrical_system_operations.ipynb
-              - sectors/forest_fire_monitoring_and_awareness.ipynb
-              - sectors/vegetation_management.ipynb
-              - sectors/worker_safety.ipynb    
-          - section: "Infrastructure Planning and Asset Management"
-            href: sectors/infrastructure_planning.ipynb
-            contents:
-              - sectors/construction.ipynb
-              - sectors/dam_safety_review.ipynb
-              - sectors/infrastructure_condition_assessment_and_investment_prioritization.ipynb
-              - sectors/infrastructure_design.ipynb
-              - sectors/nuclear_safety_review.ipynb
-              - sectors/licensing_and_impact-environmental_assessments.ipynb
-              - sectors/support_supply_chain_decision-making.ipynb
-          - section: "Assurance, Reporting and Disclosures"
-            href: sectors/reporting_disclosure.ipynb
-            contents:  
-              - sectors/esg_and_sustainability_reporting.ipynb
-              - sectors/enterprise_risk_management.ipynb
-              
-                
-# The section on climate datasets
+          - sectors/capacity_expansion_modelling.ipynb
+          - sectors/construction.ipynb
+          - sectors/dam_safety_review.ipynb
+          - sectors/demand_forecasting.ipynb
+          - sectors/electrical_system_operations.ipynb
+          - sectors/enterprise_risk_management.ipynb
+          - sectors/esg_and_sustainability_reporting.ipynb
+          - sectors/forest_fire_monitoring_and_awareness.ipynb
+          - sectors/generation_forecasting.ipynb
+          - sectors/infrastructure_condition_assessment_and_investment_prioritization.ipynb
+          - sectors/infrastructure_design.ipynb
+          - sectors/innovation_investments.ipynb
+          - sectors/licensing_and_impact-environmental_assessments.ipynb
+          - sectors/nuclear_safety_review.ipynb
+          - sectors/outage_scheduling.ipynb
+          - sectors/proactive_management_of_heavily_loaded_assets.ipynb
+          - sectors/resource_adequacy_planning.ipynb
+          - sectors/support_supply_chain_decision-making.ipynb
+          - sectors/vegetation_management.ipynb
+          - sectors/worker_safety.ipynb          
+      # The section on climate datasets
       - section: "Climate Datasets"
-        href: datasets/Climate_Dataset_Overview.ipynb
+        href: datasets/Climate_Datasets_Overview.ipynb
         contents:
+          - datasets/Dataset_Template.ipynb
           - section: "Observational Data"
             href: datasets/observed_data/Observational_Datasets.ipynb
             contents:
@@ -79,8 +65,8 @@ website:
           - section: "Reanalysis Data"
             href: datasets/reanalysis_data/Reanalysis_Datasets.ipynb
             contents:
-              - datasets/reanalysis_data/ERA5-Land.ipynb
               - datasets/reanalysis_data/CaSR.ipynb
+              - datasets/reanalysis_data/ERA5-Land.ipynb
           - section: "Climate Projection Data"
             href: datasets/climate_projection_data/Climate_Projection_Datasets.ipynb
             contents:
@@ -99,18 +85,14 @@ format:
     toc-title: Content
     toc-expand: 0
     code-fold: true
-    csl: styles/elsevier-harvard.csl
+    csl: styles/nature.csl 
+    # csl: styles/elsevier-harvard.csl
+    # citation-style: numeric
     # cite-method: biblatex
     # biblatexoptions:
     #   - citestyle = authoryear
     include-after-body: link-target.js
-  # docx:
-  #   output-dir: ../docx
-  #   toc: true
-  #   toc-depth: 3
-  #   toc-title: Contents
-  #   number-sections: true
-  #   highlight-style: github
+
 
 bibliography:
   - literature_review/references.bib
