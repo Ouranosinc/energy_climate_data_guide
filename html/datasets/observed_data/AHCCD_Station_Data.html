@@ -402,9 +402,11 @@ div.csl-indent {
   <li><a href="#dataset-characteristics" id="toc-dataset-characteristics" class="nav-link" data-scroll-target="#dataset-characteristics">Dataset Characteristics</a></li>
   <li><a href="#key-strengths-of-ahccd" id="toc-key-strengths-of-ahccd" class="nav-link" data-scroll-target="#key-strengths-of-ahccd">Key Strengths of AHCCD</a></li>
   <li><a href="#limitations-of-ahccd" id="toc-limitations-of-ahccd" class="nav-link" data-scroll-target="#limitations-of-ahccd">Limitations of AHCCD</a></li>
+  <li><a href="#expert-guidance" id="toc-expert-guidance" class="nav-link" data-scroll-target="#expert-guidance">Expert Guidance</a></li>
   <li><a href="#available-variables-in-ahccd" id="toc-available-variables-in-ahccd" class="nav-link" data-scroll-target="#available-variables-in-ahccd">Available Variables in AHCCD</a></li>
   <li><a href="#example-applications" id="toc-example-applications" class="nav-link" data-scroll-target="#example-applications">Example Applications</a></li>
   <li><a href="#data-access" id="toc-data-access" class="nav-link" data-scroll-target="#data-access">Data Access</a></li>
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -423,14 +425,14 @@ div.csl-indent {
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="../image/AHCCD_temperature_stations.jpg" title="AHCCD Temperature Stations" class="img-fluid figure-img" alt="AHCCD_temperature_stations" width="600"></p>
-<figcaption>AHCCD Temperature Stations; blue: starting date prior to 1990, green: starting date from 1990, red: station closed but more than 30 years of data (Vincent et al., 2020)</figcaption>
+<figcaption>AHCCD Temperature Stations; blue: starting date prior to 1990, green: starting date from 1990, red: station closed but more than 30 years of data<span class="citation" data-cites="Vincent2020"><sup><a href="#ref-Vincent2020" role="doc-biblioref">1</a></sup></span></figcaption>
 </figure>
 </div>
 </section>
 <section id="dataset-characteristics" class="level2">
 <h2 class="anchored" data-anchor-id="dataset-characteristics">Dataset Characteristics</h2>
 <ul>
-<li><strong>Current version:</strong> The dataset us updated annually with the most recent data.</li>
+<li><strong>Current version:</strong> The dataset is updated annually with the most recent data.</li>
 <li><strong>Temporal coverage:</strong> Varies per station and variable, data availability ranging between 1840 and 2019</li>
 <li><strong>Temporal resolution:</strong> Annual, seasonal, monthly and daily values</li>
 <li><strong>Spatial coverage:</strong> Stations across all Canadian provinces and territories<br>
@@ -438,10 +440,8 @@ div.csl-indent {
 <li><strong>Spatial resolution:</strong> Point locations across Canada<br>
 </li>
 <li><strong>Data type</strong>: Historical observations from ECCC climate stations, adjusted and homogenized using statistical methods</li>
-<li><strong>Web references:</strong> <br> <a href="https://open.canada.ca/data/en/dataset/9c4ebc00-3ea4-4fe0-8bf2-66cfe1cddd1d">Adjusted and Homogenized Canadian Climate Data (AHCCD)</a><br>
-</li>
-<li><strong>Technical documentation:</strong> <br> <a href="https://www.canada.ca/en/environment-climate-change/services/climate-change/canadian-centre-climate-services/display-download/technical-documentation-adjusted-climate-data.html">Technical documentation: Adjusted and homogenized Canadian climate data (AHCCD)</a> <span class="mark-red"><strong>ToDo:</strong> Do we need “Technical Documentation or could this be included in Web references? Could be Web references and technical documentation</span></li>
-<li><strong>Reference publications:</strong> <a href="#refs">See references below</a> <span class="mark-red"><strong>ToDo:</strong> Add recent references</span></li>
+<li><strong>Web references:</strong> <br> <a href="https://open.canada.ca/data/en/dataset/9c4ebc00-3ea4-4fe0-8bf2-66cfe1cddd1d">Adjusted and Homogenized Canadian Climate Data (AHCCD)</a><br> <a href="https://www.canada.ca/en/environment-climate-change/services/climate-change/canadian-centre-climate-services/display-download/technical-documentation-adjusted-climate-data.html">Technical documentation: Adjusted and homogenized Canadian climate data (AHCCD)</a></li>
+<li><strong>Reference publications:</strong><br> <a href="#refs">See references below</a> <span class="mark-red"><strong>ToDo:</strong> Add recent references</span></li>
 </ul>
 </section>
 <section id="key-strengths-of-ahccd" class="level2">
@@ -471,10 +471,6 @@ div.csl-indent {
 <td>Standardized methodologies applied across the Canadian network.</td>
 </tr>
 <tr class="even">
-<td><strong>Open Access</strong></td>
-<td>Freely available for public, academic, and government use.</td>
-</tr>
-<tr class="odd">
 <td><strong>Supports Climate Indicators</strong></td>
 <td>Used in the development of Canadian climate change indicators and official climate assessments.</td>
 </tr>
@@ -508,21 +504,40 @@ div.csl-indent {
 <td>Despite adjustments, some uncertainties remain from early observational practices.</td>
 </tr>
 <tr class="even">
-<td><strong>Fixed Locations</strong></td>
-<td>Station-based data may not represent broader regional conditions in complex terrain.</td>
+<td><strong>Point Locations</strong></td>
+<td>Station-based data may not represent broader regional conditions, particularly in more northern station sparse areas where the next station my be far away and in complex terrain where local conditions change over short distances.</td>
 </tr>
 <tr class="odd">
 <td><strong>Limited temporal coverage</strong></td>
-<td>The latest observation data may not have been processed. Daily data availability has not seen a recent update.</td>
+<td>The lenght of the data records vary by station. There may be gaps in the stations data or a station may have been retired. While the dataset is updated annually, the latest observation data may not have been processed.</td>
 </tr>
 </tbody>
 </table>
+</section>
+<section id="expert-guidance" class="level2">
+<h2 class="anchored" data-anchor-id="expert-guidance">Expert Guidance</h2>
+<div id="id" class="callout callout-style-simple callout-none no-icon callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+A detailed discussion to be developed here.
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-1" class="callout-1-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Lorem ipsum.</p>
+</div>
+</div>
+</div>
 </section>
 <section id="available-variables-in-ahccd" class="level2">
 <h2 class="anchored" data-anchor-id="available-variables-in-ahccd">Available Variables in AHCCD</h2>
 <p><em>For details click on variable group to uncollapse</em></p>
 <div id="id" class="callout callout-style-simple callout-none no-icon callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
@@ -531,7 +546,7 @@ Homogenized surface air temperature
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
-<div id="callout-1" class="callout-1-contents callout-collapse collapse">
+<div id="callout-2" class="callout-2-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <ul>
 <li>Daily minimum temperature</li>
@@ -545,7 +560,7 @@ Homogenized surface air temperature
 </div>
 </div>
 <div id="id" class="callout callout-style-simple callout-none no-icon callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-3-contents" aria-controls="callout-3" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
@@ -554,7 +569,7 @@ Adjusted precipitation
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
-<div id="callout-2" class="callout-2-contents callout-collapse collapse">
+<div id="callout-3" class="callout-3-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <ul>
 <li>Daily liquid precipitation (rain)</li>
@@ -568,7 +583,7 @@ Adjusted precipitation
 </div>
 </div>
 <div id="id" class="callout callout-style-simple callout-none no-icon callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-3-contents" aria-controls="callout-3" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-4-contents" aria-controls="callout-4" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
@@ -577,7 +592,7 @@ Homogenized surface wind
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
-<div id="callout-3" class="callout-3-contents callout-collapse collapse">
+<div id="callout-4" class="callout-4-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <ul>
 <li>Monthly, seasonal and annual means of hourly wind speed</li>
@@ -589,7 +604,7 @@ Homogenized surface wind
 </div>
 </div>
 <div id="id" class="callout callout-style-simple callout-none no-icon callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-4-contents" aria-controls="callout-4" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-5-contents" aria-controls="callout-5" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
@@ -598,7 +613,7 @@ Homogenized sea level and station pressure
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
-<div id="callout-4" class="callout-4-contents callout-collapse collapse">
+<div id="callout-5" class="callout-5-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <ul>
 <li>Monthly, seasonal and annual means of hourly sea level and station pressure (hectopascals)</li>
@@ -620,26 +635,29 @@ Homogenized sea level and station pressure
 <li><a href="https://climate-change.canada.ca/climate-data/#/adjusted-station-data">Climate data extraction tool</a> (Monthly, seasonal and annual AHCCD station data)</li>
 <li>AHCCD station data on <a href="https://pavics.ouranos.ca/datasets.html#b">PAVICS</a></li>
 </ul>
-
-
-
 </section>
-</section>
-
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body" data-entry-spacing="0" data-line-spacing="2" role="list">
+<section id="references" class="level2">
+<h2 class="anchored" data-anchor-id="references">References</h2>
+<div id="refs" class="references csl-bib-body" data-entry-spacing="0" data-line-spacing="2" role="list">
+<div id="ref-Vincent2020" class="csl-entry" role="listitem">
+<div class="csl-left-margin">1. </div><div class="csl-right-inline">Vincent, L. A., Hartwell, M. M. &amp; and, X. L. W. <a href="https://doi.org/10.1080/07055900.2020.1765728">A third generation of homogenized temperature for trend analysis and monitoring changes in canada’s climate</a>. <em>Atmosphere-Ocean</em> <strong>58</strong>, 173–191 (2020).</div>
+</div>
 <div id="ref-Wan2007" class="csl-entry" role="listitem">
-<div class="csl-left-margin">1. </div><div class="csl-right-inline">Wan, H., Wang, X. L. &amp; Swail, V. R. <a href="https://doi.org/10.1175/2007JAMC1484.1">A quality assurance system for canadian hourly pressure data</a>. <em>Journal of Applied Meteorology and Climatology</em> <strong>46</strong>, 1804–1817 (2007).</div>
+<div class="csl-left-margin">2. </div><div class="csl-right-inline">Wan, H., Wang, X. L. &amp; Swail, V. R. <a href="https://doi.org/10.1175/2007JAMC1484.1">A quality assurance system for canadian hourly pressure data</a>. <em>Journal of Applied Meteorology and Climatology</em> <strong>46</strong>, 1804–1817 (2007).</div>
 </div>
 <div id="ref-Wan2010" class="csl-entry" role="listitem">
-<div class="csl-left-margin">2. </div><div class="csl-right-inline">Wan, H., Wang, X. L. &amp; Swail, V. R. <a href="https://doi.org/10.1175/2009JCLI3200.1">Homogenization and trend analysis of canadian near-surface wind speeds</a>. <em>Journal of Climate</em> <strong>23</strong>, 1209–1225 (2010).</div>
+<div class="csl-left-margin">3. </div><div class="csl-right-inline">Wan, H., Wang, X. L. &amp; Swail, V. R. <a href="https://doi.org/10.1175/2009JCLI3200.1">Homogenization and trend analysis of canadian near-surface wind speeds</a>. <em>Journal of Climate</em> <strong>23</strong>, 1209–1225 (2010).</div>
 </div>
 <div id="ref-Mekis2011" class="csl-entry" role="listitem">
-<div class="csl-left-margin">3. </div><div class="csl-right-inline">Mekis, É. &amp; Vincent, L. A. <a href="https://doi.org/10.1080/07055900.2011.583910">An overview of the second generation adjusted daily precipitation dataset for trend analysis in canada</a>. <em>Atmosphere-Ocean</em> <strong>49</strong>, 163–177 (2011).</div>
+<div class="csl-left-margin">4. </div><div class="csl-right-inline">Mekis, É. &amp; Vincent, L. A. <a href="https://doi.org/10.1080/07055900.2011.583910">An overview of the second generation adjusted daily precipitation dataset for trend analysis in canada</a>. <em>Atmosphere-Ocean</em> <strong>49</strong>, 163–177 (2011).</div>
 </div>
-<div id="ref-Vincent2020" class="csl-entry" role="listitem">
-<div class="csl-left-margin">4. </div><div class="csl-right-inline">Vincent, L. A., Hartwell, M. M. &amp; and, X. L. W. <a href="https://doi.org/10.1080/07055900.2020.1765728">A third generation of homogenized temperature for trend analysis and monitoring changes in canada’s climate</a>. <em>Atmosphere-Ocean</em> <strong>58</strong>, 173–191 (2020).</div>
 </div>
-</div></section></div></main> <!-- /main -->
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
 <script>
 document.addEventListener("DOMContentLoaded", function () {
   document.querySelectorAll("a[href^='http']").forEach(link => {

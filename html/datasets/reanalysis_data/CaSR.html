@@ -423,14 +423,13 @@ div.csl-indent {
 <!--- This is just a comment --->
 <section id="canadian-surface-reanalysis---casr" class="level1">
 <h1>Canadian Surface Reanalysis - CaSR</h1>
-<p>(previously: Regional Deterministic Reforecast System - RDRS v2.1)</p>
 <section id="summary-description" class="level2">
 <h2 class="anchored" data-anchor-id="summary-description">Summary Description</h2>
-<p>The Canadian Surface Reanalysis (CaSR) is a high-resolution atmospheric reanalysis dataset produced by Environment and Climate Change Canada (ECCC). CaSR v3.1 is produced by dynamically downscaling <a href="https://cds.climate.copernicus.eu/datasets/reanalysis-era5-single-levels">ECMWF’s ERA5 global reanalysis</a> using operational models and configurations of ECCC’s operational weather and environmental prediction system to provide historical, high-resolution climate and weather data over North America, with a focus on Canada. Surface observations are integrated through the the Canadian Land Data Assimilation System (CaLDAS) coupled with the Canadian Precipitation Analysis (CaPA). CaSR is a consistent and seamless dataset providing the main meteorological variables coherent with in situ surface observations<span class="citation" data-cites="Gasset2021"><sup><a href="#ref-Gasset2021" role="doc-biblioref">1</a></sup></span>.</p>
+<p>The Canadian Surface Reanalysis (CaSR) is a high-resolution atmospheric reanalysis dataset produced by Environment and Climate Change Canada (ECCC). CaSR v3.1 is produced by dynamically downscaling <a href="https://cds.climate.copernicus.eu/datasets/reanalysis-era5-single-levels">ECMWF’s ERA5 global reanalysis</a> using operational models and configurations of ECCC’s operational weather and environmental prediction system to provide historical, high-resolution climate and weather data over North America, with a focus on Canada. Surface observations are integrated through the the Canadian Land Data Assimilation System (CaLDAS) coupled with the Canadian Precipitation Analysis (CaPA). CaSR is a consistent and seamless dataset providing the main meteorological variables coherent with in situ surface observations<span class="citation" data-cites="Gasset2021"><sup><a href="#ref-Gasset2021" role="doc-biblioref">1</a></sup></span>. Note that the CaSR dataset was previously known as RDRS (Regional Deterministic Reforecast System).</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="../image/CaSR_domain_and_stations.png" title="CaSR simulation domain with station locations" class="img-fluid figure-img" alt="CaSR simulation domain with station locations" width="400"></p>
-<figcaption>CaSR simulation domain with station locations (source:<span class="citation" data-cites="Gasset2025"><sup><a href="#ref-Gasset2025" role="doc-biblioref">2</a></sup></span>)</figcaption>
+<figcaption>CaSR simulation domain with station locations<span class="citation" data-cites="Gasset2025"><sup><a href="#ref-Gasset2025" role="doc-biblioref">2</a></sup></span></figcaption>
 </figure>
 </div>
 </section>
@@ -438,14 +437,14 @@ div.csl-indent {
 <h2 class="anchored" data-anchor-id="dataset-characteristics">Dataset Characteristics</h2>
 <ul>
 <li><strong>Current version:</strong> v3.1</li>
-<li><strong>Temporal coverage:</strong> 1980–2023</li>
+<li><strong>Temporal coverage:</strong> <span class="mark-red">1970–2024 - double check once we have the data on PAVICS</span></li>
 <li><strong>Temporal resolution:</strong> Hourly and daily outputs<br>
 </li>
 <li><strong>Spatial coverage:</strong> Canada and U.S.</li>
 <li><strong>Spatial resolution:</strong> ~10 km grid spacing (0.09˚)</li>
 <li><strong>Data type:</strong> Reanalysis model assimilating observations (satellites, surface stations, radiosondes, etc.)</li>
 <li><strong>Web references:</strong> <br> <a href="https://hpfx.collab.science.gc.ca/~scar700/rcas-casr/">ECCC CaSR Web Site</a>, <br> <a href="https://nordata.physics.utoronto.ca/en/annexes-datasets-descriptions/71-temperature/north-american-precipitation-and-land-surface-reanalysis-regional-deterministic-reforecast-system-rdrs/">Northern Climate Data Report and Inventory (NCDRI) Web Site</a></li>
-<li><strong>Reference publications:</strong> <a href="#refs">See references below</a></li>
+<li><strong>Reference publications:</strong><br> <a href="#refs">See references below</a></li>
 </ul>
 </section>
 <section id="strengths-and-limitations" class="level2">
@@ -465,36 +464,36 @@ div.csl-indent {
 </thead>
 <tbody>
 <tr class="odd">
-<td><strong>High Resolution</strong></td>
+<td><strong>High resolution</strong></td>
 <td>~10 km grid spacing provides detailed spatial variability, better than global reanalyses.</td>
 </tr>
 <tr class="even">
-<td><strong>Assimilation of Diverse Observations</strong></td>
-<td>Uses satellite, surface, and upper-air data for accuracy.</td>
+<td><strong>Assimilation of observations</strong>.</td>
+<td>Assimilation of observed precipitation and surface variables.</td>
 </tr>
 <tr class="odd">
-<td><strong>Hourly Data Availability</strong>.</td>
+<td><strong>Hourly data availability</strong>.</td>
 <td>Useful for high-frequency climate and weather analysis.</td>
 </tr>
 <tr class="even">
-<td><strong>Canadian-Specific</strong></td>
+<td><strong>Canada-specific</strong></td>
 <td>Optimized for Canadian climate conditions, including extreme cold and snow processes.</td>
 </tr>
 <tr class="odd">
-<td><strong>Convidence Index</strong></td>
-<td>A confidence index for precipitation informs on the weight of observations in the analysis.</td>
+<td><strong>Detailed precipitation</strong></td>
+<td>Precipitation types are distiguished, including freezing rain.<br><br>Two versions of precipitation are provided: one purely modeled and the reanalysis version that assimilates measured precipitation data are provided.</td>
 </tr>
 <tr class="even">
-<td><strong>Detailed Precipitation</strong></td>
-<td>Precipitation types are distiguished (ice pellets, freezing precipitation, liquid water equivalent of snow, liquid precipitation) and modeled as well as reanalysis precipitation are provided.</td>
+<td><strong>Precipitation confidence index</strong></td>
+<td>A confidence index for precipitation informs on the weight of observations in the analysis.</td>
 </tr>
 <tr class="odd">
 <td><strong>Active Development</strong></td>
-<td>New versions and longer temporal record in preparation.</td>
+<td>New versions and longer temporal record are in preparation.</td>
 </tr>
 <tr class="even">
 <td><del><strong>Consistent Historical Record</strong></del></td>
-<td><del>Spans over four decades, allowing for trend analysis and climate studies.</del></td>
+<td><del>Spans over four decades, allowing for trend analysis and climate studies.</del><br><span class="mark-red"><strong>ToDo:</strong> This was communicated for CaSR v2.1; Is this still true for CaSR v3.1?</span></td>
 </tr>
 </tbody>
 </table>
@@ -502,10 +501,6 @@ div.csl-indent {
 <section id="key-limitations-of-casr" class="level3">
 <h3 class="anchored" data-anchor-id="key-limitations-of-casr">Key Limitations of CaSR</h3>
 <table class="tbl table-striped table-light table-sm small caption-top table">
-<colgroup>
-<col style="width: 25%">
-<col style="width: 75%">
-</colgroup>
 <thead>
 <tr class="header">
 <th>Limitation</th>
@@ -514,28 +509,20 @@ div.csl-indent {
 </thead>
 <tbody>
 <tr class="odd">
-<td><del><strong>Limited Coverage</strong></del></td>
-<td><del>Primarily focused on Canada, with partial U.S. coverage.</del></td>
-</tr>
-<tr class="even">
-<td><strong>Model Biases</strong></td>
-<td>Errors may exist due to model physics and parameterizations, especially in complex terrain (e.g., mountains).</td>
-</tr>
-<tr class="odd">
-<td><strong>Limited Suitability for Trend Analysis</strong></td>
-<td>For the current version, gaps in observation data and model errors may skew trends found in the dataset. <span class="mark-red"><strong>ToDo:</strong> Check with Nicolas, Hélène/Marilyn’s results</span>.</td>
+<td><strong>Known biases</strong></td>
+<td>CaSR is generally too wet and has too much snow. <span class="mark-red"><strong>ToDo:</strong> Refine; What else?</span></td>
 </tr>
 <tr class="even">
 <td><strong>Uncommon Georeference</strong></td>
-<td>The data are made available on a rotated grid which may be difficult to handle.</td>
+<td>The data are made available on a rotated grid which may be difficult to handle. The <a href="https://pavics.ouranos.ca">PAVICS platform</a> hosts a <a href="https://pavics.ouranos.ca/climate_analysis.html#f">tutorial dedicated to the conversion of rotated grids</a>.</td>
 </tr>
 <tr class="odd">
-<td><strong>Precipitation Uncertainties</strong></td>
-<td>Like all reanalyses, CaSR precipitation estimates may deviate from observed values in localized regions.</td>
+<td><strong><del>Limited Suitability for Trend Analysis</del></strong></td>
+<td><del>For the current version, gaps in observation data and model errors may skew trends found in the dataset.</del><br><span class="mark-red"><strong>ToDo:</strong> This was communicated for CaSR v2.1; Is this still true for CaSR v3.1?</span>.</td>
 </tr>
 <tr class="even">
-<td><strong>Limited to Land Surface</strong></td>
-<td>Primarily land-focused, no information over oceans is available.</td>
+<td><strong>Precipitation Uncertainties</strong></td>
+<td>CaSR precipitation estimates deviate from observed values when far from stations.</td>
 </tr>
 <tr class="odd">
 <td><strong>Limited to the Surface or Near-Surface</strong></td>
@@ -543,7 +530,7 @@ div.csl-indent {
 </tr>
 <tr class="even">
 <td><strong>Computationally Intensive</strong></td>
-<td>Relatively high-resolution data requires significant storage and processing power for analysis over larger areas.</td>
+<td>Relatively high-resolution data requires significant storage and processing power for analysis over larger areas. See section on <a href="#data-access">Data Access</a> for workarounds on <a href="https://pavics.ouranos.ca">PAVICS</a></td>
 </tr>
 </tbody>
 </table>
@@ -551,13 +538,19 @@ div.csl-indent {
 </section>
 <section id="expert-guidance" class="level2">
 <h2 class="anchored" data-anchor-id="expert-guidance">Expert Guidance</h2>
-<div id="id" class="callout callout-style-simple callout-none no-icon">
-<div class="callout-body d-flex">
+<div id="id" class="callout callout-style-simple callout-none no-icon callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
-<div class="callout-body-container">
-<p>A detailed discussion!</p>
+<div class="callout-title-container flex-fill">
+A detailed discussion to be developed here.
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-1" class="callout-1-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Lorem ipsum.</p>
 </div>
 </div>
 </div>
@@ -566,7 +559,7 @@ div.csl-indent {
 <h2 class="anchored" data-anchor-id="available-variables-in-casr">Available Variables in CaSR</h2>
 <p><em>For details click on variable group to uncollapse</em></p>
 <div id="id" class="callout callout-style-simple callout-none no-icon callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
@@ -575,7 +568,7 @@ Temperature
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
-<div id="callout-1" class="callout-1-contents callout-collapse collapse">
+<div id="callout-2" class="callout-2-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <ul>
 <li>Temperature [˚C]</li>
@@ -586,7 +579,7 @@ Temperature
 </div>
 </div>
 <div id="id" class="callout callout-style-simple callout-none no-icon callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-3-contents" aria-controls="callout-3" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
@@ -595,42 +588,17 @@ Precipitation
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
-<div id="callout-2" class="callout-2-contents callout-collapse collapse">
-<div class="callout-body-container callout-body">
-<ul>
-<li>Quantity of daily precipitation (CaPA 24h) [m]</li>
-<li>Confidence index of daily precipitation</li>
-<li>Quantity of hourly precipitation (model) [m]</li>
-<li>Quantity of hourly precipitation (hourly disagregated CaPA 24h/6h) [m]</li>
-<li>Quantity of ice pellets (liquid water equivalent) (model) [m]</li>
-<li>Quantity of freezing precipitation (liquid water equivalent) (model) [m]</li>
-<li>Quantity of liquid precipitation (model) [m]</li>
-</ul>
-<p>Precipitation variables are provided at 1h and 24h frequency at the surface level. For more details see the respective <a href="https://hpfx.collab.science.gc.ca/~scar700/rcas-casr/dataset_specifics.html#available_variables">table on the CaSR web site</a></p>
-</div>
-</div>
-</div>
-<div id="id" class="callout callout-style-simple callout-none no-icon callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-3-contents" aria-controls="callout-3" aria-expanded="false" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Wind
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
 <div id="callout-3" class="callout-3-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <ul>
-<li>U-component of the wind (along the grid X axis) [kts]</li>
-<li>V-component of the wind (along the grid Y axis) [kts]</li>
-<li>Corrected U-component of the wind (along West-East direction) [kts]</li>
-<li>Corrected V-component of the wind (along South-North direction) [kts]</li>
-<li>Wind Modulus (derived using UU and VV) [kts]</li>
-<li>Meteorologial Wind direction (derived using UU and VV) [degree]</li>
+<li>Quantity of daily precipitation [m]</li>
+<li>Confidence index of daily precipitation</li>
+<li>Quantity of hourly precipitation [m]</li>
+<li>Quantity of ice pellets (liquid water equivalent) [m]</li>
+<li>Quantity of freezing precipitation (liquid water equivalent) [m]</li>
+<li>Quantity of liquid precipitation [m]</li>
 </ul>
-<p>Wind variables are provided at 1h frequency and at levels 10m, ~20m, and ~40m. For more details see the respective <a href="https://hpfx.collab.science.gc.ca/~scar700/rcas-casr/dataset_specifics.html#available_variables">table on the CaSR web site</a></p>
+<p>Precipitation variables are provided at 1h and 24h frequency at the surface level. Two types of precipitation are available, one forecasted by the model and one generated by the offline precipitation reanalysis system. For more details see the <a href="https://hpfx.collab.science.gc.ca/~scar700/rcas-casr/dataset_specifics.html#champs_precip">section on precipitation fields</a> and the <a href="https://hpfx.collab.science.gc.ca/~scar700/rcas-casr/dataset_specifics.html#available_variables">data variables table</a> on the CaSR web site.</p>
 </div>
 </div>
 </div>
@@ -640,11 +608,35 @@ Wind
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Humidity
+Wind
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
 <div id="callout-4" class="callout-4-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<ul>
+<li>U-component of the wind (along the grid X axis) [kts]</li>
+<li>V-component of the wind (along the grid Y axis) [kts]</li>
+<li>Corrected U-component of the wind (along West-East direction) [kts]</li>
+<li>Corrected V-component of the wind (along South-North direction) [kts]</li>
+<li>Wind Modulus [kts]</li>
+<li>Meteorologial Wind direction [degree]</li>
+</ul>
+<p>Wind variables are provided at 1h frequency and at levels 10m, ~20m, and ~40m. For more details see the respective <a href="https://hpfx.collab.science.gc.ca/~scar700/rcas-casr/dataset_specifics.html#available_variables">table on the CaSR web site</a></p>
+</div>
+</div>
+</div>
+<div id="id" class="callout callout-style-simple callout-none no-icon callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-5-contents" aria-controls="callout-5" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Humidity
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-5" class="callout-5-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <ul>
 <li>Relative humidity [%]</li>
@@ -655,7 +647,7 @@ Humidity
 </div>
 </div>
 <div id="id" class="callout callout-style-simple callout-none no-icon callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-5-contents" aria-controls="callout-5" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-6-contents" aria-controls="callout-6" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
@@ -664,7 +656,7 @@ Radiation
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
-<div id="callout-5" class="callout-5-contents callout-collapse collapse">
+<div id="callout-6" class="callout-6-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <ul>
 <li>Downward solar flux [W/m<sup>2</sup>]</li>
@@ -675,7 +667,7 @@ Radiation
 </div>
 </div>
 <div id="id" class="callout callout-style-simple callout-none no-icon callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-6-contents" aria-controls="callout-6" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-7-contents" aria-controls="callout-7" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
@@ -684,7 +676,7 @@ Snow
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
-<div id="callout-6" class="callout-6-contents callout-collapse collapse">
+<div id="callout-7" class="callout-7-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <ul>
 <li>Water equivalent of snow depth over land subgrid tile [kg/m<sup>2</sup>]</li>
@@ -695,7 +687,7 @@ Snow
 </div>
 </div>
 <div id="id" class="callout callout-style-simple callout-none no-icon callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-7-contents" aria-controls="callout-7" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-8-contents" aria-controls="callout-8" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
@@ -704,7 +696,7 @@ Other Meteorological Variables
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
-<div id="callout-7" class="callout-7-contents callout-collapse collapse">
+<div id="callout-8" class="callout-8-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <ul>
 <li>Surface pressure [mb]</li>
@@ -722,6 +714,7 @@ Other Meteorological Variables
 </section>
 <section id="data-access" class="level2">
 <h2 class="anchored" data-anchor-id="data-access">Data Access</h2>
+<p><span class="mark-red"><strong>ToDo</strong>: Point to PAVICS for partial/regional data extraction!</span></p>
 </section>
 <section id="references" class="level2">
 <h2 class="anchored" data-anchor-id="references">References</h2>
