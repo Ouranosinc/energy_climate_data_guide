@@ -1,5 +1,6 @@
 [
   {
+<<<<<<< HEAD
     "objectID": "sectors/worker_safety.html",
     "href": "sectors/worker_safety.html",
     "title": "Worker safety",
@@ -58,10 +59,38 @@
     "objectID": "sectors/proactive_management_of_heavily_loaded_assets.html#description",
     "href": "sectors/proactive_management_of_heavily_loaded_assets.html#description",
     "title": "Proactive management of heavily loaded assets",
+=======
+    "objectID": "sectors/reporting/reporting_disclosure.html",
+    "href": "sectors/reporting/reporting_disclosure.html",
+    "title": "Overview of Assurance, Reporting and Disclosures",
+    "section": "",
+    "text": "Note",
+    "crumbs": [
+      "Electricity Sector Activities",
+      "Assurance, Reporting and Disclosures"
+    ]
+  },
+  {
+    "objectID": "sectors/reporting/reporting_disclosure.html#summary-of-the-assurance",
+    "href": "sectors/reporting/reporting_disclosure.html#summary-of-the-assurance",
+    "title": "Overview of Assurance, Reporting and Disclosures",
+    "section": "Summary of the Assurance",
+    "text": "Summary of the Assurance\n\nOutage Scheduling\n… ## Financial Reporting and Disclosures",
+    "crumbs": [
+      "Electricity Sector Activities",
+      "Assurance, Reporting and Disclosures"
+    ]
+  },
+  {
+    "objectID": "sectors/reporting/enterprise_risk_management.html",
+    "href": "sectors/reporting/enterprise_risk_management.html",
+    "title": "Enterprise Risk Management",
+>>>>>>> SectorActivities
     "section": "",
     "text": "Incorporation of temperature projections to support investment decisions for heavily loaded assets.",
     "crumbs": [
       "Electricity Sector Activities",
+<<<<<<< HEAD
       "Proactive management of heavily loaded assets"
     ]
   },
@@ -69,10 +98,21 @@
     "objectID": "sectors/nuclear_safety_review.html",
     "href": "sectors/nuclear_safety_review.html",
     "title": "Nuclear Safety Reviews",
+=======
+      "Assurance, Reporting and Disclosures",
+      "Enterprise Risk Management"
+    ]
+  },
+  {
+    "objectID": "sectors/reporting/enterprise_risk_management.html#description",
+    "href": "sectors/reporting/enterprise_risk_management.html#description",
+    "title": "Enterprise Risk Management",
+>>>>>>> SectorActivities
     "section": "",
     "text": "Includes assessments of PMP, PMF, IDF and other hydrotechnical aspects of dam safety. Also includes failure modes analysis which could include broader climatic indicators.",
     "crumbs": [
       "Electricity Sector Activities",
+<<<<<<< HEAD
       "Nuclear Safety Reviews"
     ]
   },
@@ -107,31 +147,74 @@
     "crumbs": [
       "Electricity Sector Activities",
       "Innovation Investments"
+=======
+      "Assurance, Reporting and Disclosures",
+      "Enterprise Risk Management"
     ]
   },
   {
-    "objectID": "sectors/infrastructure_condition_assessment_and_investment_prioritization.html",
-    "href": "sectors/infrastructure_condition_assessment_and_investment_prioritization.html",
-    "title": "Infrastructure Condition Assessment & Investment Prioritization",
-    "section": "",
-    "text": "Based on existing condition of assets (scope to be expanded to include more robust vulnerabilities) and projected changes to hazard exposure, support in the development of investment prioritization.",
+    "objectID": "sectors/reporting/enterprise_risk_management.html#infrastructure-condition-assessment",
+    "href": "sectors/reporting/enterprise_risk_management.html#infrastructure-condition-assessment",
+    "title": "Enterprise Risk Management",
+    "section": "Infrastructure Condition Assessment",
+    "text": "Infrastructure Condition Assessment",
     "crumbs": [
       "Electricity Sector Activities",
-      "Infrastructure Condition Assessment & Investment Prioritization"
+      "Assurance, Reporting and Disclosures",
+      "Enterprise Risk Management"
     ]
   },
   {
-    "objectID": "sectors/infrastructure_condition_assessment_and_investment_prioritization.html#description",
-    "href": "sectors/infrastructure_condition_assessment_and_investment_prioritization.html#description",
-    "title": "Infrastructure Condition Assessment & Investment Prioritization",
-    "section": "",
-    "text": "Based on existing condition of assets (scope to be expanded to include more robust vulnerabilities) and projected changes to hazard exposure, support in the development of investment prioritization.",
+    "objectID": "sectors/reporting/enterprise_risk_management.html#investment-prioritization",
+    "href": "sectors/reporting/enterprise_risk_management.html#investment-prioritization",
+    "title": "Enterprise Risk Management",
+    "section": "Investment Prioritization",
+    "text": "Investment Prioritization",
     "crumbs": [
       "Electricity Sector Activities",
-      "Infrastructure Condition Assessment & Investment Prioritization"
+      "Assurance, Reporting and Disclosures",
+      "Enterprise Risk Management"
     ]
   },
   {
+    "objectID": "sectors/reporting/enterprise_risk_management.html#vegetation-management",
+    "href": "sectors/reporting/enterprise_risk_management.html#vegetation-management",
+    "title": "Enterprise Risk Management",
+    "section": "Vegetation Management",
+    "text": "Vegetation Management",
+    "crumbs": [
+      "Electricity Sector Activities",
+      "Assurance, Reporting and Disclosures",
+      "Enterprise Risk Management"
+>>>>>>> SectorActivities
+    ]
+  },
+  {
+    "objectID": "sectors/infrastructure/licensing_and_impact-environmental_assessments.html",
+    "href": "sectors/infrastructure/licensing_and_impact-environmental_assessments.html",
+    "title": "Licensing & Impact/Environmental Assessments",
+    "section": "",
+    "text": "Determines the impact of the project on surrounding areas and how these could interact in the climate change context. Also seeing need for this with CER/OEB emerging regulatory requirements.",
+    "crumbs": [
+      "Electricity Sector Activities",
+      "Infrastructure Planning and Asset Management",
+      "Licensing & Impact/Environmental Assessments"
+    ]
+  },
+  {
+    "objectID": "sectors/infrastructure/licensing_and_impact-environmental_assessments.html#description",
+    "href": "sectors/infrastructure/licensing_and_impact-environmental_assessments.html#description",
+    "title": "Licensing & Impact/Environmental Assessments",
+    "section": "",
+    "text": "Determines the impact of the project on surrounding areas and how these could interact in the climate change context. Also seeing need for this with CER/OEB emerging regulatory requirements.",
+    "crumbs": [
+      "Electricity Sector Activities",
+      "Infrastructure Planning and Asset Management",
+      "Licensing & Impact/Environmental Assessments"
+    ]
+  },
+  {
+<<<<<<< HEAD
     "objectID": "sectors/generation_forecasting.html",
     "href": "sectors/generation_forecasting.html",
     "title": "Generation Forecasting",
@@ -195,20 +278,247 @@
     "crumbs": [
       "Electricity Sector Activities",
       "Generation Forecasting"
-    ]
-  },
-  {
-    "objectID": "sectors/generation_forecasting.html#wind",
-    "href": "sectors/generation_forecasting.html#wind",
-    "title": "Generation Forecasting",
-    "section": "Wind",
-    "text": "Wind",
+=======
+    "objectID": "sectors/infrastructure/dam_safety_review.html",
+    "href": "sectors/infrastructure/dam_safety_review.html",
+    "title": "Dam Safety",
+    "section": "",
+    "text": "Includes assessments of PMP, PMF, IDF and other hydrotechnical aspects of dam safety. Also includes failure modes analysis which could include broader climatic indicators.",
     "crumbs": [
       "Electricity Sector Activities",
-      "Generation Forecasting"
+      "Infrastructure Planning and Asset Management",
+      "Dam Safety"
     ]
   },
   {
+    "objectID": "sectors/infrastructure/dam_safety_review.html#description",
+    "href": "sectors/infrastructure/dam_safety_review.html#description",
+    "title": "Dam Safety",
+    "section": "",
+    "text": "Includes assessments of PMP, PMF, IDF and other hydrotechnical aspects of dam safety. Also includes failure modes analysis which could include broader climatic indicators.",
+    "crumbs": [
+      "Electricity Sector Activities",
+      "Infrastructure Planning and Asset Management",
+      "Dam Safety"
+    ]
+  },
+  {
+    "objectID": "sectors/infrastructure/nuclear_safety_review.html",
+    "href": "sectors/infrastructure/nuclear_safety_review.html",
+    "title": "Nuclear Safety Reviews",
+    "section": "",
+    "text": "Includes assessments of PMP, PMF, IDF and other hydrotechnical aspects of dam safety. Also includes failure modes analysis which could include broader climatic indicators.",
+    "crumbs": [
+      "Electricity Sector Activities",
+      "Infrastructure Planning and Asset Management",
+      "Nuclear Safety Reviews"
+    ]
+  },
+  {
+    "objectID": "sectors/infrastructure/nuclear_safety_review.html#description",
+    "href": "sectors/infrastructure/nuclear_safety_review.html#description",
+    "title": "Nuclear Safety Reviews",
+    "section": "",
+    "text": "Includes assessments of PMP, PMF, IDF and other hydrotechnical aspects of dam safety. Also includes failure modes analysis which could include broader climatic indicators.",
+    "crumbs": [
+      "Electricity Sector Activities",
+      "Infrastructure Planning and Asset Management",
+      "Nuclear Safety Reviews"
+    ]
+  },
+  {
+    "objectID": "sectors/infrastructure/infrastructure_condition_assessment_and_investment_prioritization.html",
+    "href": "sectors/infrastructure/infrastructure_condition_assessment_and_investment_prioritization.html",
+    "title": "Infrastructure Condition Assessment & Investment Prioritization",
+    "section": "",
+    "text": "Based on existing condition of assets (scope to be expanded to include more robust vulnerabilities) and projected changes to hazard exposure, support in the development of investment prioritization.",
+    "crumbs": [
+      "Electricity Sector Activities",
+      "Infrastructure Planning and Asset Management",
+      "Infrastructure Condition Assessment & Investment Prioritization"
+    ]
+  },
+  {
+    "objectID": "sectors/infrastructure/infrastructure_condition_assessment_and_investment_prioritization.html#description",
+    "href": "sectors/infrastructure/infrastructure_condition_assessment_and_investment_prioritization.html#description",
+    "title": "Infrastructure Condition Assessment & Investment Prioritization",
+    "section": "",
+    "text": "Based on existing condition of assets (scope to be expanded to include more robust vulnerabilities) and projected changes to hazard exposure, support in the development of investment prioritization.",
+    "crumbs": [
+      "Electricity Sector Activities",
+      "Infrastructure Planning and Asset Management",
+      "Infrastructure Condition Assessment & Investment Prioritization"
+    ]
+  },
+  {
+    "objectID": "sectors/operations/vegetation_management.html",
+    "href": "sectors/operations/vegetation_management.html",
+    "title": "Vegetation Management",
+    "section": "",
+    "text": "Support the enhancement of vegetation management programs to include changes in vegetation growth.",
+    "crumbs": [
+      "Electricity Sector Activities",
+      "Operations Planning",
+      "Vegetation Management"
+    ]
+  },
+  {
+    "objectID": "sectors/operations/vegetation_management.html#description",
+    "href": "sectors/operations/vegetation_management.html#description",
+    "title": "Vegetation Management",
+    "section": "",
+    "text": "Support the enhancement of vegetation management programs to include changes in vegetation growth.",
+    "crumbs": [
+      "Electricity Sector Activities",
+      "Operations Planning",
+      "Vegetation Management"
+    ]
+  },
+  {
+    "objectID": "sectors/operations/outage_scheduling.html",
+    "href": "sectors/operations/outage_scheduling.html",
+    "title": "Outage Scheduling",
+    "section": "",
+    "text": "Considerations for outage scheduling constraints due to predominately temperatures related events.",
+    "crumbs": [
+      "Electricity Sector Activities",
+      "Operations Planning",
+      "Outage Scheduling"
+    ]
+  },
+  {
+    "objectID": "sectors/operations/outage_scheduling.html#description",
+    "href": "sectors/operations/outage_scheduling.html#description",
+    "title": "Outage Scheduling",
+    "section": "",
+    "text": "Considerations for outage scheduling constraints due to predominately temperatures related events.",
+    "crumbs": [
+      "Electricity Sector Activities",
+      "Operations Planning",
+      "Outage Scheduling"
+    ]
+  },
+  {
+    "objectID": "sectors/operations/proactive_management_of_heavily_loaded_assets.html",
+    "href": "sectors/operations/proactive_management_of_heavily_loaded_assets.html",
+    "title": "Proactive management of heavily loaded assets",
+    "section": "",
+    "text": "Incorporation of temperature projections to support investment decisions for heavily loaded assets.",
+    "crumbs": [
+      "Electricity Sector Activities",
+      "Operations Planning",
+      "Proactive management of heavily loaded assets"
+    ]
+  },
+  {
+    "objectID": "sectors/operations/proactive_management_of_heavily_loaded_assets.html#description",
+    "href": "sectors/operations/proactive_management_of_heavily_loaded_assets.html#description",
+    "title": "Proactive management of heavily loaded assets",
+    "section": "",
+    "text": "Incorporation of temperature projections to support investment decisions for heavily loaded assets.",
+    "crumbs": [
+      "Electricity Sector Activities",
+      "Operations Planning",
+      "Proactive management of heavily loaded assets"
+    ]
+  },
+  {
+    "objectID": "sectors/electricity_sector_activities.html#overview-of-activities",
+    "href": "sectors/electricity_sector_activities.html#overview-of-activities",
+    "title": "Electricity Sector Activities",
+    "section": "Overview of Activities",
+    "text": "Overview of Activities\nElectricity System Planning - Demand forecasting (deep dive) (a literature review and analysis on demand and demand forecasting) - Generation Forecasting (Hydro, Nuclear, Solar, Thermal, Wind)(deep dive) (how does climate data impact generation forecasting processes) - Capacity Expansion Modelling (summary of how this process works, but climate data interactions come from Demand and Generation forecasts) - Resource Adequacy Planning (summary of how this process works, but climate data interactions come from Demand and Generation forecasts)\nOperations Planning - Electrical System Operations (what seasonal to annual data go into this process?) - Proactive management of heavily loaded assets (what data go into this process?) - Outage scheduling (What factors are considered for scheduling outages - linked to generation and demand forecast) - Vegetation Management (I think we do a light review of this topic but not a deep dive) - Worker safety (reference some generic material on safety and health implications of CC) - Forest fire monitoring and awareness (to discuss - related to Vegetation Mgmt and Infrastructure Design?)\nInfrastructure Planning and Asset Management - Construction (focus here is the temporary activities during construction. For example a coffer dam doesn’t have the same design criteria as a permanent dam) - Dam Safety Review - Nuclear Safety Review (What do you think about wrapping these into Infrastructure Design and Review?) - Infrastructure Condition Assessment & Investment Prioritization (can review some general literature on asset management and tie it to operations challenges and design reviews) - Infrastructure Design (Hydro, Thermal/Nuclear, Transmission & Distribution) (deep dive) (Do we break these out? We are currently thinking to do a mix of standards/practices and some literature on extremes that inform design parameters. For example, there might not be much on pole design and climate change, but we can see who winds are expected to change and cross reference that with pole design practices. From the perspective of this project the deeper dive will be in the climate data the influence pole design) - Support supply chain decision-making (short summary talking about supply chain vulnerabilities) - Licensing, Impact & Environmental Assessments (How much is warranted here?)\nAssurance, Reporting and Disclosures - Enterprise Risk Management (Short overview of generic ERM practices. Climate data comes from infrastructure reviews or demand/generation forecasts) - ESG/Sustainability Reporting (Short overview of ESG reporting. The actual climate data from other areas informs this one.)\n\nInnovation investments (do we know what this is?)",
+    "crumbs": [
+      "Electricity Sector Activities"
+    ]
+  },
+  {
+    "objectID": "sectors/planning/demand_forecasting.html",
+    "href": "sectors/planning/demand_forecasting.html",
+    "title": "Demand Forecasting",
+    "section": "",
+    "text": "Modelling daily, weekly and peak demands over short and long-term planning horizons (MV note: for MH, we typically have a separate load forecast for electrical energy, electrical peak, and natural gas volume… so we may want to capture that nuance).",
+    "crumbs": [
+      "Electricity Sector Activities",
+      "Electricity System Planning",
+      "Demand Forecasting"
+    ]
+  },
+  {
+    "objectID": "sectors/planning/demand_forecasting.html#description",
+    "href": "sectors/planning/demand_forecasting.html#description",
+    "title": "Demand Forecasting",
+    "section": "",
+    "text": "Modelling daily, weekly and peak demands over short and long-term planning horizons (MV note: for MH, we typically have a separate load forecast for electrical energy, electrical peak, and natural gas volume… so we may want to capture that nuance).",
+    "crumbs": [
+      "Electricity Sector Activities",
+      "Electricity System Planning",
+      "Demand Forecasting"
+    ]
+  },
+  {
+    "objectID": "sectors/planning/demand_forecasting.html#hydro",
+    "href": "sectors/planning/demand_forecasting.html#hydro",
+    "title": "Demand Forecasting",
+    "section": "Hydro",
+    "text": "Hydro\nlorem ipsum, bla, bla, and blah",
+    "crumbs": [
+      "Electricity Sector Activities",
+      "Electricity System Planning",
+      "Demand Forecasting"
+    ]
+  },
+  {
+    "objectID": "sectors/planning/demand_forecasting.html#nuclear",
+    "href": "sectors/planning/demand_forecasting.html#nuclear",
+    "title": "Demand Forecasting",
+    "section": "Nuclear",
+    "text": "Nuclear\nlorem ipsum, bla, bla, and blah",
+    "crumbs": [
+      "Electricity Sector Activities",
+      "Electricity System Planning",
+      "Demand Forecasting"
+    ]
+  },
+  {
+    "objectID": "sectors/planning/demand_forecasting.html#solar",
+    "href": "sectors/planning/demand_forecasting.html#solar",
+    "title": "Demand Forecasting",
+    "section": "Solar",
+    "text": "Solar\nlorem ipsum, bla, bla, and blah",
+    "crumbs": [
+      "Electricity Sector Activities",
+      "Electricity System Planning",
+      "Demand Forecasting"
+    ]
+  },
+  {
+    "objectID": "sectors/planning/demand_forecasting.html#thermal",
+    "href": "sectors/planning/demand_forecasting.html#thermal",
+    "title": "Demand Forecasting",
+    "section": "Thermal",
+    "text": "Thermal\nlorem ipsum, bla, bla, and blah",
+    "crumbs": [
+      "Electricity Sector Activities",
+      "Electricity System Planning",
+      "Demand Forecasting"
+>>>>>>> SectorActivities
+    ]
+  },
+  {
+    "objectID": "sectors/planning/demand_forecasting.html#wind",
+    "href": "sectors/planning/demand_forecasting.html#wind",
+    "title": "Demand Forecasting",
+    "section": "Wind",
+    "text": "Wind\nlorem ipsum, bla, bla, and blah",
+    "crumbs": [
+      "Electricity Sector Activities",
+      "Electricity System Planning",
+      "Demand Forecasting"
+    ]
+  },
+  {
+<<<<<<< HEAD
     "objectID": "sectors/esg_and_sustainability_reporting.html",
     "href": "sectors/esg_and_sustainability_reporting.html",
     "title": "ESG & Sustainability Reporting",
@@ -228,96 +538,166 @@
     "crumbs": [
       "Electricity Sector Activities",
       "ESG & Sustainability Reporting"
-    ]
-  },
-  {
-    "objectID": "sectors/electricity_sector_activities.html#overview-of-activities",
-    "href": "sectors/electricity_sector_activities.html#overview-of-activities",
-    "title": "Electricity Sector Activities",
-    "section": "Overview of Activities",
-    "text": "Overview of Activities\n\nCapacity Expansion Modelling\nConstruction\nDam Safety Review\nDemand forecasting (Hydro, Nuclear, Solar, Thermal, Wind)\nElectrical System Operations\nEnterprise Risk Management\nESG/Sustainability Reporting\nForest fire monitoring and awareness\nGeneration Forecasting\nInfrastructure Condition Assessment / Investment Prioritization\nInfrastructure Design (Hydro, Thermal/Nuclear, Transmission & Distribution)\nInnovation investments\nLicensing & Impact/Environmental Assessments\nNuclear Safety Review\nOutage scheduling\nProactive management of heavily loaded assets\nResource Adequacy Planning\nSupport supply chain decision-making\nVegetation Management\nWorker safety",
-    "crumbs": [
-      "Electricity Sector Activities"
-    ]
-  },
-  {
-    "objectID": "sectors/demand_forecasting.html",
-    "href": "sectors/demand_forecasting.html",
-    "title": "Demand Forecasting",
+=======
+    "objectID": "sectors/planning/grid_planning.html",
+    "href": "sectors/planning/grid_planning.html",
+    "title": "Overview of Electricity System Planning Activities",
     "section": "",
-    "text": "Modelling daily, weekly and peak demands over short and long-term planning horizons (MV note: for MH, we typically have a separate load forecast for electrical energy, electrical peak, and natural gas volume… so we may want to capture that nuance).",
+    "text": "Note\n\n\n\nThe structure of this section may be organized by:\n\nClimate Variable\nDatasets (Preferred!)\n\nTBD",
     "crumbs": [
       "Electricity Sector Activities",
-      "Demand Forecasting"
+      "Electricity System Planning"
     ]
   },
   {
-    "objectID": "sectors/demand_forecasting.html#description",
-    "href": "sectors/demand_forecasting.html#description",
-    "title": "Demand Forecasting",
+    "objectID": "sectors/planning/grid_planning.html#summary-of-the-electricity-system",
+    "href": "sectors/planning/grid_planning.html#summary-of-the-electricity-system",
+    "title": "Overview of Electricity System Planning Activities",
+    "section": "Summary of the Electricity System",
+    "text": "Summary of the Electricity System",
+    "crumbs": [
+      "Electricity Sector Activities",
+      "Electricity System Planning"
+    ]
+  },
+  {
+    "objectID": "sectors/planning/resource_adequacy_planning.html",
+    "href": "sectors/planning/resource_adequacy_planning.html",
+    "title": "Resource Adequacy Planning",
     "section": "",
-    "text": "Modelling daily, weekly and peak demands over short and long-term planning horizons (MV note: for MH, we typically have a separate load forecast for electrical energy, electrical peak, and natural gas volume… so we may want to capture that nuance).",
+    "text": "Planning for adequate resources to meet capacity for peak and energy demands. This might encompass several imbedded criteria such as a drought planning criterion.",
     "crumbs": [
       "Electricity Sector Activities",
-      "Demand Forecasting"
+      "Electricity System Planning",
+      "Resource Adequacy Planning"
     ]
   },
   {
-    "objectID": "sectors/demand_forecasting.html#hydro",
-    "href": "sectors/demand_forecasting.html#hydro",
-    "title": "Demand Forecasting",
-    "section": "Hydro",
-    "text": "Hydro\nlorem ipsum, bla, bla, and blah",
+    "objectID": "sectors/planning/resource_adequacy_planning.html#description",
+    "href": "sectors/planning/resource_adequacy_planning.html#description",
+    "title": "Resource Adequacy Planning",
+    "section": "",
+    "text": "Planning for adequate resources to meet capacity for peak and energy demands. This might encompass several imbedded criteria such as a drought planning criterion.",
     "crumbs": [
       "Electricity Sector Activities",
-      "Demand Forecasting"
+      "Electricity System Planning",
+      "Resource Adequacy Planning"
     ]
   },
   {
-    "objectID": "sectors/demand_forecasting.html#nuclear",
-    "href": "sectors/demand_forecasting.html#nuclear",
-    "title": "Demand Forecasting",
-    "section": "Nuclear",
-    "text": "Nuclear\nlorem ipsum, bla, bla, and blah",
+    "objectID": "datasets/Dataset_Template.html",
+    "href": "datasets/Dataset_Template.html",
+    "title": "Dataset Page Template",
+    "section": "",
+    "text": "This is the template for the structure of all dataset description pages.\nSee markup code for details about how to:\n\nmake collapsable sections\nformat the tables\nintegrate references in a quarto yaml section\n\n\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n\n\n\nA figure for the dataset (source: bibentry)\n\n\nToDo: Like this we can mark stuff to deal with later.\n\n\n\n\nCurrent version: lorem ipsum bla bla\nTemporal coverage: lorem ipsum bla bla\nTemporal resolution: lorem ipsum bla bla\nSpatial coverage: lorem ipsum bla bla\nSpatial resolution: lorem ipsum bla bla\nData type: lorem ipsum bla bla\nWeb references:  A link to the web\nReference publications: See references below,\n\n\n\n\n\n\n\n\n\nStrength\nDescription\n\n\n\n\nStength 1\nlorem ipsum bla bla\n\n\nStength 2\nlorem ipsum bla bla\n\n\nStength 3.\nlorem ipsum bla bla\n\n\n…\n…\n\n\n\n\n\n\n\n\n\nLimitation\nDescription\n\n\n\n\nLimitation 1\nlorem ipsum bla bla\n\n\nLimitation 2\nlorem ipsum bla bla\n\n\nLimitation 3.\nlorem ipsum bla bla\n\n\n…\n…\n\n\n\n\n\n\n\n\n\n\n\n\n\nA detailed discussion\n\n\n\n\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n\n\n\n\n\n\nFor details click on variable group to uncollapse\n\n\n\n\n\n\nVariable 1\n\n\n\n\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\n\n\n\n\n\n\n\n\n\nVariable 2\n\n\n\n\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\n\n\n\n\n\n\n\n\n\nVariable 3\n\n\n\n\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\n\n\n\n\n\n\n\n\n\n…\n\n\n\n\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\n\n\n\n\n\n\nlinks to Electricity Sector Activities\n\n\n\nlinks to access the data\n\n\n\n\n\n1. Gasset, N. et al. A 10 km north american precipitation and land-surface reanalysis based on the GEM atmospheric model. Hydrology and Earth System Sciences 25, 4917–4945 (2021).\n\n\n2. Muñoz-Sabater, J. et al. ERA5-land: A state-of-the-art global reanalysis dataset for land applications. Earth System Science Data 13, 4349–4383 (2021).\n\n\n3. Gasset, N. et al. Réanalyse canadienne de surface (RCaS-CaSR) version 3.1 d’environnement et changement climatique canada (ECCC). (2025).\n\n\n4. Khedhaouiria, G., D. & Bulat, M. Canadian surface reanalysis (CaSR) v3: ECCC hourly 0.1° surface reanalysis across north america. TBD (2025?).",
     "crumbs": [
-      "Electricity Sector Activities",
-      "Demand Forecasting"
+      "Climate Datasets",
+      "Dataset Page Template"
     ]
   },
   {
-    "objectID": "sectors/demand_forecasting.html#solar",
-    "href": "sectors/demand_forecasting.html#solar",
-    "title": "Demand Forecasting",
-    "section": "Solar",
-    "text": "Solar\nlorem ipsum, bla, bla, and blah",
+    "objectID": "datasets/Dataset_Template.html#summary-description",
+    "href": "datasets/Dataset_Template.html#summary-description",
+    "title": "Dataset Page Template",
+    "section": "",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n\n\n\nA figure for the dataset (source: bibentry)\n\n\nToDo: Like this we can mark stuff to deal with later.",
     "crumbs": [
-      "Electricity Sector Activities",
-      "Demand Forecasting"
+      "Climate Datasets",
+      "Dataset Page Template"
+>>>>>>> SectorActivities
     ]
   },
   {
-    "objectID": "sectors/demand_forecasting.html#thermal",
-    "href": "sectors/demand_forecasting.html#thermal",
-    "title": "Demand Forecasting",
-    "section": "Thermal",
-    "text": "Thermal\nlorem ipsum, bla, bla, and blah",
+    "objectID": "datasets/Dataset_Template.html#dataset-characteristics",
+    "href": "datasets/Dataset_Template.html#dataset-characteristics",
+    "title": "Dataset Page Template",
+    "section": "",
+    "text": "Current version: lorem ipsum bla bla\nTemporal coverage: lorem ipsum bla bla\nTemporal resolution: lorem ipsum bla bla\nSpatial coverage: lorem ipsum bla bla\nSpatial resolution: lorem ipsum bla bla\nData type: lorem ipsum bla bla\nWeb references:  A link to the web\nReference publications: See references below,",
     "crumbs": [
-      "Electricity Sector Activities",
-      "Demand Forecasting"
+      "Climate Datasets",
+      "Dataset Page Template"
     ]
   },
   {
-    "objectID": "sectors/demand_forecasting.html#wind",
-    "href": "sectors/demand_forecasting.html#wind",
-    "title": "Demand Forecasting",
-    "section": "Wind",
-    "text": "Wind\nlorem ipsum, bla, bla, and blah",
+    "objectID": "datasets/Dataset_Template.html#strengths-and-limitations",
+    "href": "datasets/Dataset_Template.html#strengths-and-limitations",
+    "title": "Dataset Page Template",
+    "section": "",
+    "text": "Strength\nDescription\n\n\n\n\nStength 1\nlorem ipsum bla bla\n\n\nStength 2\nlorem ipsum bla bla\n\n\nStength 3.\nlorem ipsum bla bla\n\n\n…\n…\n\n\n\n\n\n\n\n\n\nLimitation\nDescription\n\n\n\n\nLimitation 1\nlorem ipsum bla bla\n\n\nLimitation 2\nlorem ipsum bla bla\n\n\nLimitation 3.\nlorem ipsum bla bla\n\n\n…\n…",
     "crumbs": [
-      "Electricity Sector Activities",
-      "Demand Forecasting"
+      "Climate Datasets",
+      "Dataset Page Template"
     ]
   },
   {
+    "objectID": "datasets/Dataset_Template.html#expert-guidance",
+    "href": "datasets/Dataset_Template.html#expert-guidance",
+    "title": "Dataset Page Template",
+    "section": "",
+    "text": "A detailed discussion\n\n\n\n\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "crumbs": [
+      "Climate Datasets",
+      "Dataset Page Template"
+    ]
+  },
+  {
+    "objectID": "datasets/Dataset_Template.html#available-variables-in-dataset",
+    "href": "datasets/Dataset_Template.html#available-variables-in-dataset",
+    "title": "Dataset Page Template",
+    "section": "",
+    "text": "For details click on variable group to uncollapse\n\n\n\n\n\n\nVariable 1\n\n\n\n\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\n\n\n\n\n\n\n\n\n\nVariable 2\n\n\n\n\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\n\n\n\n\n\n\n\n\n\nVariable 3\n\n\n\n\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\n\n\n\n\n\n\n\n\n\n…\n\n\n\n\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "crumbs": [
+      "Climate Datasets",
+      "Dataset Page Template"
+    ]
+  },
+  {
+    "objectID": "datasets/Dataset_Template.html#example-applications",
+    "href": "datasets/Dataset_Template.html#example-applications",
+    "title": "Dataset Page Template",
+    "section": "",
+    "text": "links to Electricity Sector Activities",
+    "crumbs": [
+      "Climate Datasets",
+      "Dataset Page Template"
+    ]
+  },
+  {
+    "objectID": "datasets/Dataset_Template.html#data-access",
+    "href": "datasets/Dataset_Template.html#data-access",
+    "title": "Dataset Page Template",
+    "section": "",
+    "text": "links to access the data",
+    "crumbs": [
+      "Climate Datasets",
+      "Dataset Page Template"
+    ]
+  },
+  {
+    "objectID": "datasets/Dataset_Template.html#references",
+    "href": "datasets/Dataset_Template.html#references",
+    "title": "Dataset Page Template",
+    "section": "",
+    "text": "1. Gasset, N. et al. A 10 km north american precipitation and land-surface reanalysis based on the GEM atmospheric model. Hydrology and Earth System Sciences 25, 4917–4945 (2021).\n\n\n2. Muñoz-Sabater, J. et al. ERA5-land: A state-of-the-art global reanalysis dataset for land applications. Earth System Science Data 13, 4349–4383 (2021).\n\n\n3. Gasset, N. et al. Réanalyse canadienne de surface (RCaS-CaSR) version 3.1 d’environnement et changement climatique canada (ECCC). (2025).\n\n\n4. Khedhaouiria, G., D. & Bulat, M. Canadian surface reanalysis (CaSR) v3: ECCC hourly 0.1° surface reanalysis across north america. TBD (2025?).",
+    "crumbs": [
+      "Climate Datasets",
+      "Dataset Page Template"
+    ]
+  },
+  {
+    "objectID": "datasets/observed_data/NRCanMET_Gridded_Data.html",
+    "href": "datasets/observed_data/NRCanMET_Gridded_Data.html",
+    "title": "Canadian Gridded Climate Dataset - NRCanMET",
+    "section": "",
+    "text": "The ANUSPLIN Canadian Gridded Climate Dataset (NRCanMET) is a high-resolution, station-based gridded climate dataset produced by Natural Resources Canada (NRCan) and Agriculture and Agri-Food Canada. It provides daily and monthly interpolated climate variables across Canada, utilizing the Australian National University Spline (ANUSPLIN) model. The dataset provides information coninuous in time and space for climate research and environmental studies.\nToDo: Add PCIC Blend info, recent references\n\n\n\nPercent difference in mean annual precipitation for NRCANmet minus PNWNAmet (from1)\n\n\n\n\n\n\nCurrent version: TBD - Use Ouranos naming convention?\nTemporal coverage: 1950–2015\n\nTemporal resolution: Daily and monthly\nSpatial coverage: Canadian landmass\nSpatial resolution: ~10 km grid spacing (0.1°)\nData type: Quality-controlled station observations interpolated using ANUSPLIN\nWeb references: [ToDo*].{mark-red}\nReference publications: See references below\n\n\n\n\n\n\n\n\n\n\n\n\n\nStrength\nDescription\n\n\n\n\nHigh Spatial Resolution\nProvides detailed climate information at ~10 km resolution across Canada.\n\n\nLong-Term Coverage\nSpans over six decades, enabling comprehensive climate trend analyses.\n\n\nQuality-Controlled Data\nUtilizes quality-controlled station observations for interpolation.\n\n\nConsistent Methodology\nEmploys the ANUSPLIN model, ensuring consistency in data interpolation.\n\n\nAccessibility\nAvailable through platforms like ClimateData.ca and the Pacific Climate Impacts Consortium.\n\n\n\n\n\n\n\n\n\n\n\n\n\nLimitation\nDescription\n\n\n\n\nTemporal Gaps\nStation density varies over time, potentially affecting data consistency in certain regions.\n\n\nInterpolation Limitations\nAccuracy depends on the density and distribution of input stations.\n\n\nLack of Real-Time Updates\nDataset extends only up to 2015, limiting its use for recent climate analyses.\n\n\nLimited Variables\nFocuses primarily on temperature and precipitation; other climate variables are not included.\n\n\n\n\n\n\n\n\n\n\n\n\n\nA detailed discussion to be developed here.\n\n\n\n\n\nLorem ipsum.\n\n\n\n\n\n\nFor details click on variable group to uncollapse\n\n\n\n\n\n\nTemperature Variables\n\n\n\n\n\n\nDaily maximum temperature (°C)\nDaily minimum temperature (°C)\nMonthly maximum temperature (°C)\nMonthly minimum temperature (°C)\n\n\n\n\n\n\n\n\n\n\nPrecipitation Variables\n\n\n\n\n\n\nDaily total precipitation (mm)\n\n\n\n\n\n\n\nlinks to Electricity Sector Applications\n\n\n\n\nClimateData.ca\nPacific Climate Impacts Consortium\nOpen Government Portal - Canada\n\n\n\n\n\n\n1. Werner, A. T. et al. A long-term, temporally consistent, gridded daily meteorological dataset for northwestern north america. Scientific Data 6, 180299 (2019).\n\n\n2. Hutchinson, M. F. et al. Development and testing of canada-wide interpolated spatial models of daily minimum–maximum temperature and precipitation for 1961–2003. Journal of Applied Meteorology and Climatology 48, 725–741 (2009).\n\n\n3. McKenney, D. W. et al. Customized spatial climate models for north america. Bulletin of the American Meteorological Society 92, 1611–1622 (2011).",
+    "crumbs": [
+      "Climate Datasets",
+      "Observational Data",
+      "Canadian Gridded Climate Dataset - NRCanMET"
+    ]
+  },
+  {
+<<<<<<< HEAD
     "objectID": "sectors/dam_safety_review.html",
     "href": "sectors/dam_safety_review.html",
     "title": "Dam Safety Review",
@@ -343,25 +723,33 @@
     "objectID": "sectors/capacity_expansion_modelling.html",
     "href": "sectors/capacity_expansion_modelling.html",
     "title": "Capacity Expansion Modelling",
+=======
+    "objectID": "datasets/observed_data/NRCanMET_Gridded_Data.html#summary-description",
+    "href": "datasets/observed_data/NRCanMET_Gridded_Data.html#summary-description",
+    "title": "Canadian Gridded Climate Dataset - NRCanMET",
+>>>>>>> SectorActivities
     "section": "",
-    "text": "Modelling of growth in grid requirements taking demand, supply, costs, etc. as inputs to determine how to best meet demand in the lowest costs method Power Sector Modeling 101",
+    "text": "The ANUSPLIN Canadian Gridded Climate Dataset (NRCanMET) is a high-resolution, station-based gridded climate dataset produced by Natural Resources Canada (NRCan) and Agriculture and Agri-Food Canada. It provides daily and monthly interpolated climate variables across Canada, utilizing the Australian National University Spline (ANUSPLIN) model. The dataset provides information coninuous in time and space for climate research and environmental studies.\nToDo: Add PCIC Blend info, recent references\n\n\n\nPercent difference in mean annual precipitation for NRCANmet minus PNWNAmet (from1)",
     "crumbs": [
-      "Electricity Sector Activities",
-      "Capacity Expansion Modelling"
+      "Climate Datasets",
+      "Observational Data",
+      "Canadian Gridded Climate Dataset - NRCanMET"
     ]
   },
   {
-    "objectID": "sectors/capacity_expansion_modelling.html#description",
-    "href": "sectors/capacity_expansion_modelling.html#description",
-    "title": "Capacity Expansion Modelling",
+    "objectID": "datasets/observed_data/NRCanMET_Gridded_Data.html#dataset-characteristics",
+    "href": "datasets/observed_data/NRCanMET_Gridded_Data.html#dataset-characteristics",
+    "title": "Canadian Gridded Climate Dataset - NRCanMET",
     "section": "",
-    "text": "Modelling of growth in grid requirements taking demand, supply, costs, etc. as inputs to determine how to best meet demand in the lowest costs method Power Sector Modeling 101",
+    "text": "Current version: TBD - Use Ouranos naming convention?\nTemporal coverage: 1950–2015\n\nTemporal resolution: Daily and monthly\nSpatial coverage: Canadian landmass\nSpatial resolution: ~10 km grid spacing (0.1°)\nData type: Quality-controlled station observations interpolated using ANUSPLIN\nWeb references: [ToDo*].{mark-red}\nReference publications: See references below",
     "crumbs": [
-      "Electricity Sector Activities",
-      "Capacity Expansion Modelling"
+      "Climate Datasets",
+      "Observational Data",
+      "Canadian Gridded Climate Dataset - NRCanMET"
     ]
   },
   {
+<<<<<<< HEAD
     "objectID": "index.html",
     "href": "index.html",
     "title": "Electricity Sector Climate Data Guide",
@@ -1029,31 +1417,159 @@
     "crumbs": [
       "Climat change impacts on electricity systems",
       "Demand"
-    ]
-  },
-  {
-    "objectID": "sectors/construction.html",
-    "href": "sectors/construction.html",
-    "title": "Construction",
+=======
+    "objectID": "datasets/observed_data/NRCanMET_Gridded_Data.html#strengths-and-limitations",
+    "href": "datasets/observed_data/NRCanMET_Gridded_Data.html#strengths-and-limitations",
+    "title": "Canadian Gridded Climate Dataset - NRCanMET",
     "section": "",
-    "text": "Plan and construct various assets including hydropower facilities, transmission/distribution lines, electrical stations. Some special consideration may be required for remote locations and seasonality of the construction season. (MV note: This needs to be refined, just wanted to get something as a placeholder)",
+    "text": "Strength\nDescription\n\n\n\n\nHigh Spatial Resolution\nProvides detailed climate information at ~10 km resolution across Canada.\n\n\nLong-Term Coverage\nSpans over six decades, enabling comprehensive climate trend analyses.\n\n\nQuality-Controlled Data\nUtilizes quality-controlled station observations for interpolation.\n\n\nConsistent Methodology\nEmploys the ANUSPLIN model, ensuring consistency in data interpolation.\n\n\nAccessibility\nAvailable through platforms like ClimateData.ca and the Pacific Climate Impacts Consortium.\n\n\n\n\n\n\n\n\n\n\n\n\n\nLimitation\nDescription\n\n\n\n\nTemporal Gaps\nStation density varies over time, potentially affecting data consistency in certain regions.\n\n\nInterpolation Limitations\nAccuracy depends on the density and distribution of input stations.\n\n\nLack of Real-Time Updates\nDataset extends only up to 2015, limiting its use for recent climate analyses.\n\n\nLimited Variables\nFocuses primarily on temperature and precipitation; other climate variables are not included.",
     "crumbs": [
-      "Electricity Sector Activities",
-      "Construction"
+      "Climate Datasets",
+      "Observational Data",
+      "Canadian Gridded Climate Dataset - NRCanMET"
     ]
   },
   {
-    "objectID": "sectors/construction.html#description",
-    "href": "sectors/construction.html#description",
-    "title": "Construction",
+    "objectID": "datasets/observed_data/NRCanMET_Gridded_Data.html#expert-guidance",
+    "href": "datasets/observed_data/NRCanMET_Gridded_Data.html#expert-guidance",
+    "title": "Canadian Gridded Climate Dataset - NRCanMET",
     "section": "",
-    "text": "Plan and construct various assets including hydropower facilities, transmission/distribution lines, electrical stations. Some special consideration may be required for remote locations and seasonality of the construction season. (MV note: This needs to be refined, just wanted to get something as a placeholder)",
+    "text": "A detailed discussion to be developed here.\n\n\n\n\n\nLorem ipsum.",
     "crumbs": [
-      "Electricity Sector Activities",
-      "Construction"
+      "Climate Datasets",
+      "Observational Data",
+      "Canadian Gridded Climate Dataset - NRCanMET"
     ]
   },
   {
+    "objectID": "datasets/observed_data/NRCanMET_Gridded_Data.html#available-variables-in-nrcanmet",
+    "href": "datasets/observed_data/NRCanMET_Gridded_Data.html#available-variables-in-nrcanmet",
+    "title": "Canadian Gridded Climate Dataset - NRCanMET",
+    "section": "",
+    "text": "For details click on variable group to uncollapse\n\n\n\n\n\n\nTemperature Variables\n\n\n\n\n\n\nDaily maximum temperature (°C)\nDaily minimum temperature (°C)\nMonthly maximum temperature (°C)\nMonthly minimum temperature (°C)\n\n\n\n\n\n\n\n\n\n\nPrecipitation Variables\n\n\n\n\n\n\nDaily total precipitation (mm)",
+    "crumbs": [
+      "Climate Datasets",
+      "Observational Data",
+      "Canadian Gridded Climate Dataset - NRCanMET"
+    ]
+  },
+  {
+    "objectID": "datasets/observed_data/NRCanMET_Gridded_Data.html#example-applications",
+    "href": "datasets/observed_data/NRCanMET_Gridded_Data.html#example-applications",
+    "title": "Canadian Gridded Climate Dataset - NRCanMET",
+    "section": "",
+    "text": "links to Electricity Sector Applications",
+    "crumbs": [
+      "Climate Datasets",
+      "Observational Data",
+      "Canadian Gridded Climate Dataset - NRCanMET"
+    ]
+  },
+  {
+    "objectID": "datasets/observed_data/NRCanMET_Gridded_Data.html#data-access",
+    "href": "datasets/observed_data/NRCanMET_Gridded_Data.html#data-access",
+    "title": "Canadian Gridded Climate Dataset - NRCanMET",
+    "section": "",
+    "text": "ClimateData.ca\nPacific Climate Impacts Consortium\nOpen Government Portal - Canada",
+    "crumbs": [
+      "Climate Datasets",
+      "Observational Data",
+      "Canadian Gridded Climate Dataset - NRCanMET"
+    ]
+  },
+  {
+    "objectID": "datasets/observed_data/NRCanMET_Gridded_Data.html#references",
+    "href": "datasets/observed_data/NRCanMET_Gridded_Data.html#references",
+    "title": "Canadian Gridded Climate Dataset - NRCanMET",
+    "section": "",
+    "text": "1. Werner, A. T. et al. A long-term, temporally consistent, gridded daily meteorological dataset for northwestern north america. Scientific Data 6, 180299 (2019).\n\n\n2. Hutchinson, M. F. et al. Development and testing of canada-wide interpolated spatial models of daily minimum–maximum temperature and precipitation for 1961–2003. Journal of Applied Meteorology and Climatology 48, 725–741 (2009).\n\n\n3. McKenney, D. W. et al. Customized spatial climate models for north america. Bulletin of the American Meteorological Society 92, 1611–1622 (2011).",
+    "crumbs": [
+      "Climate Datasets",
+      "Observational Data",
+      "Canadian Gridded Climate Dataset - NRCanMET"
+    ]
+  },
+  {
+    "objectID": "datasets/reanalysis_data/Reanalysis_Datasets.html",
+    "href": "datasets/reanalysis_data/Reanalysis_Datasets.html",
+    "title": "Reanalysis Datasets",
+    "section": "",
+    "text": "References:  What is climate reanalysis? by ECMWF.\nA video introduction on reanalysis data on the “Copernicus ECMWF” YouTube channel:",
+    "crumbs": [
+      "Climate Datasets",
+      "Reanalysis Data"
+    ]
+  },
+  {
+    "objectID": "datasets/reanalysis_data/Reanalysis_Datasets.html#definition-of-reanalysis-data",
+    "href": "datasets/reanalysis_data/Reanalysis_Datasets.html#definition-of-reanalysis-data",
+    "title": "Reanalysis Datasets",
+    "section": "",
+    "text": "References:  What is climate reanalysis? by ECMWF.\nA video introduction on reanalysis data on the “Copernicus ECMWF” YouTube channel:",
+    "crumbs": [
+      "Climate Datasets",
+      "Reanalysis Data"
+    ]
+  },
+  {
+    "objectID": "datasets/tools/Analysis_Support_Tools.html",
+    "href": "datasets/tools/Analysis_Support_Tools.html",
+    "title": "Analysis Support Tools",
+    "section": "",
+    "text": "This section contains pages with Python code that can be used to support the analysis and selection of climate datasets for applications in the electricity sector.",
+    "crumbs": [
+      "Climate Datasets",
+      "Analysis Support Tools"
+    ]
+  },
+  {
+    "objectID": "datasets/old/RDRS-old.html",
+    "href": "datasets/old/RDRS-old.html",
+    "title": "Regional Deterministic Reforecast System - RDRS v2.1",
+    "section": "",
+    "text": "Overview\nEnvironment and Climate Change Canada has initiated the production of a 1980–2018, 10 km, North American precipitation and surface reanalysis. ERA-Interim is used to initialize the Global Deterministic Reforecast System (GDRS) at a 39 km resolution. Its output is then dynamically downscaled to 10 km by the Regional Deterministic Reforecast System (RDRS). Coupled with the RDRS, the Canadian Land Data Assimilation System (CaLDAS) and Precipitation Analysis (CaPA) are used to produce surface and precipitation analyses. All systems used are close to operational model versions and configurations.\nGasset, et al. (2021)\n\n\nTemperature Data\nRDRS v2.1 provides daily and hourly temperature data from 1980 onward, lorem ipsum lorem ipsum lorem non-ipsum lorem ipsum lorem ipsum lorem non-ipsum lorem ipsum lorem ipsum lorem non-ipsum lorem ipsum lorem ipsum lorem non-ipsum lorem ipsum lorem ipsum lorem non-ipsum lorem ipsum lorem ipsum lorem non-ipsum lorem ipsum lorem ipsum lorem non-ipsum lorem ipsum lorem ipsum lorem non-ipsum lorem ipsum lorem ipsum lorem non-ipsum lorem ipsum lorem ipsum lorem non-ipsum lorem ipsum lorem ipsum lorem non-ipsum\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nname\nsource\ndata type\nspatial domain\nspatial resolution\ntemporal coverage\ntime step\ndata format\n\n\n\n\n\nRDRSv2\nCCMEP/ECCC\nRegional reanalysis\nNorth America\n10 km x 10 km\n2000-2017(1980-1999 pending)\nHourly\nRPN\ndetails"
+  },
+  {
+    "objectID": "datasets/old/Temperature_Datasets.html",
+    "href": "datasets/old/Temperature_Datasets.html",
+    "title": "Climate Data for the Electricity Sector",
+    "section": "",
+    "text": "The following table shows temperarture datatsets relevant to the energy sector.\n\nTable of Datasets\n\n\nTemperature Datasets\n\n\n\n\n\n\n\n\n\n\n\n\n\nname\nsource\ndata type\nspatial domain\nspatial resolution\ntemporal coverage\ntime step\ndata format\n\n\n\n\n\nMSC Observations\nMSC/ECCC\nStation data\nCanada\nPoint data\nVariable (1940- present)\nHourly; Daily; Monthly\nCSV; GeoJSON\ndetails\n\n\nMSC Climate Normals\nMSC/ECCC\nStation data\nCanada\nPoint data\n1941-1970; 1951-1980; 1961-1990; 1971-2000; 1981-2010.\nClimatological means\nCSV; GeoJSON\ndetails\n\n\nMSC Daily Climate Records (LTCE, Long Term Climate Extremes)\nMSC/ECCC\nStation data\nCanada\nPoint data\nVariable\nRecords for each day of the year\nCSV; GeoJSON\ndetails\n\n\nAHCCD\nCRD/ECCC\nStation data\nCanada\nPoint data\nVariable (1950 to present)\nDaily; Monthly; Seasonal; Annual\nASCII; CSV; GeoJSON\ndetails\n\n\nHydro-Québec Station data\nHydro-Québec\nStation data\nNorthern Québec at hydroelectric stations\nPoint Data\nVariable (1990 to present)\nVariable ( sub-daily to daily)\nNone\ndetails\n\n\nWhite Pass Railway & River Divisions dataset, Yukon\nYukon Research Centre\nStation data from archives\nThe upper Yukon River basin\nPoint data\n1902-1957\nDaily\nExcel files\ndetails\n\n\nSCDNA\nUniversity of Saskatchewan\nStation data and reanalyses blend\nNorth America\nPoint data\n1979-2018\nDaily\nNetCDF\ndetails\n\n\nCANGRD\nCRD/ECCC\nGridded observations\nCanada\n50 km x 50 km\n1948-2017 (anomalies)\nMonthly; Seasonal; Annual\nCSV; GeoJSON\ndetails\n\n\nANUSPLIN\nCFS/NRCan\nGridded observations\nCanada and North America\n(10 km x 10 km) and (2 km x 2 km)\n1950-2017\nDaily; Pentad; Monthly; Climatological means\nASCII; NetCDF\ndetails\n\n\nCRU TS Version 4\nCRU/University of East Anglia\nGridded observations\nGlobal (land only)\n0.5° x 0.5°\n1901–2018\nMonthly\nNetCDF\ndetails\n\n\nWorldClim2\nWorld Conservation Monitoring Centre/UNEP\nGridded observations\nGlobal (land only)\n10 arc minutes (~340 km);5 arc minutes;2.5 arc minutes; 30 arc seconds (1 km)\n1970-2000\nMonthly\nGeoTIFF\ndetails\n\n\nDaymet Version 4\nEnvironmental Sciences Division/Oak Ridge National Laboratory\nGridded observations\nNorth America (land only)\n1 km x 1 km\n1980-2019\nDaily\nNetCDF\ndetails\n\n\nPNWNAMET\nPCIC\nGridded observations\nNorth-western North America\n3.75 arc minutes (~6 km)\n1945-2012\nDaily\nASCII; NetCDF\ndetails\n\n\nMet1km\nNRCan\nBlend of gridded products\nCanada\n1 km x 1 km\n1901–2017\nDaily\nNone\ndetails\n\n\nERA5\nECMWF\nGlobal atmospheric reanalysis\nGlobal\n0.25° x 0.25°\n1950 to present\nHourly; Daily; Monthly\nGRIB;NetCDF\ndetails\n\n\nCFSR\nNCEP\nGlobal atmospheric reanalysis\nGlobal\n0.5° x 0.5°\n1979-2017\nSub-daily; Monthly\nGRIB\ndetails\n\n\nMERRA-2\nNASA\nGlobal atmospheric reanalysis\nGlobal\n½° latitude x ⅝° longitude\n1980 to present\nHourly; Daily; Monthly\nNetCDF\ndetails\n\n\nJRA-55\nJMA\nGlobal atmospheric reanalysis\nGlobal\n0.6258ᵒ x 0.6258ᵒ\n1957-2021\n3h; 6h; Daily; Monthly\nNetCDF\ndetails\n\n\nASRv2\nByrd Polar Research Center/The Ohio State University; UCAR/NCAR\nRegional reanalysis\nArctic\n15 km x 15 km\n2000-2016\n3h; Monthly\nNetCDF\ndetails\n\n\nNARR\nNCEP\nRegional reanalysis\nNorth America\n32 km x 32 km\n1979-2021\nSub-daily; Monthly\nGRIB\ndetails\n\n\nRDRSv2\nCCMEP/ECCC\nRegional reanalysis\nNorth America\n10 km x 10 km\n2000-2017(1980-1999 pending)\nHourly\nRPN\ndetails\n\n\n20CRv3\nCIRES; NOAA; DOE\nGlobal atmospheric reanalysis\nGlobal\nT254 (approximately 75 km at the equator)\n20CRv3.SI is available for years 1836-1980 and 20CRv3.MO is available for years 1981-2015\n3h; Daily; Monthly\nNetCDF\ndetails\n\n\nERA5-Land\nECMWF\nLand surface reanalysis/model\nGlobal (land only)\n0.1° x 0.1° (9 km)\n1950 to present\nHourly; Monthly\nGRIB; NetCDF\ndetails\n\n\nAgERA\nECMWF\nRe-gridded reanalysis\nGlobal (land only)\n0.1° x 0.1°\n1979 to present\nDaily\nNetCDF\ndetails\n\n\nAgCFSR\nNASA\nRe-gridded reanalysis with corrections\nGlobal (land only)\n0.25° × 0.25°\n1980-2010\nDaily\nNetCDF\ndetails\n\n\nAgMERRA\nNASA\nRe-gridded reanalysis with corrections\nGlobal (land only)\n0.25° × 0.25°\n1980-2010\nDaily\nNetCDF\ndetails\n\n\nGMFD\nPrinceton University\nRe-gridded reanalysis with corrections\nGlobal (land only)\n0.25° × 0.25°\n1948-2016\n3h; Daily; Monthly\nNetCDF\ndetails\n\n\nCRU JRA\nCRU/University of East Anglia\nRe-gridded reanalysis with corrections\nGlobal (land only)\n0.5° × 0.5°\n1901-2018\n6h\nNetCDF\ndetails\n\n\nS14FD\nDIAS\nRe-gridded reanalysis with corrections\nGlobal\n0.5° x 0.5°\n1958-2013\nDaily\nNetCDF\ndetails"
+  },
+  {
+    "objectID": "datasets/old/wind/RDRS.html",
+    "href": "datasets/old/wind/RDRS.html",
+    "title": "Regional Deterministic Reforecast System - RDRS v2.1",
+    "section": "",
+    "text": "Overview\nEnvironment and Climate Change Canada has initiated the production of a 1980–2018, 10 km, North American precipitation and surface reanalysis. ERA-Interim is used to initialize the Global Deterministic Reforecast System (GDRS) at a 39 km resolution. Its output is then dynamically downscaled to 10 km by the Regional Deterministic Reforecast System (RDRS). Coupled with the RDRS, the Canadian Land Data Assimilation System (CaLDAS) and Precipitation Analysis (CaPA) are used to produce surface and precipitation analyses. All systems used are close to operational model versions and configurations.\nGasset, et al. (2021)\n\n\nTemperature Data\nRDRS v2.1 provides daily and hourly temperature data from 1980 onward, lorem ipsum lorem ipsum lorem non-ipsum lorem ipsum lorem ipsum lorem non-ipsum lorem ipsum lorem ipsum lorem non-ipsum lorem ipsum lorem ipsum lorem non-ipsum lorem ipsum lorem ipsum lorem non-ipsum lorem ipsum lorem ipsum lorem non-ipsum lorem ipsum lorem ipsum lorem non-ipsum lorem ipsum lorem ipsum lorem non-ipsum lorem ipsum lorem ipsum lorem non-ipsum lorem ipsum lorem ipsum lorem non-ipsum lorem ipsum lorem ipsum lorem non-ipsum\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nname\nsource\ndata type\nspatial domain\nspatial resolution\ntemporal coverage\ntime step\ndata format\n\n\n\n\n\nRDRSv2\nCCMEP/ECCC\nRegional reanalysis\nNorth America\n10 km x 10 km\n2000-2017(1980-1999 pending)\nHourly\nRPN\ndetails"
+  },
+  {
+    "objectID": "Introduction.html",
+    "href": "Introduction.html",
+    "title": "Introduction",
+    "section": "",
+    "text": "Here will be the introduction to our report on everything ‘climate data’ regarding their use in the electricity sector.\nOverall it goes like this:\n\n\n\n\n\nflowchart LR\n  A[What data are out there] --&gt; B(An Inventory)\n  B --&gt; C{Interviewswith\\nEnergy Sector\\nChampions}\n  C --&gt; D[Best practices]\n  C --&gt; E[Gap analysis]\n\n\n\n\n\n\nA demo for including video:",
+    "crumbs": [
+      "Introduction"
+>>>>>>> SectorActivities
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Electricity Sector Climate Data Guide",
+    "section": "",
+    "text": "Built with Quarto\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
+<<<<<<< HEAD
     "objectID": "sectors/demand.html",
     "href": "sectors/demand.html",
     "title": "Demand",
@@ -1148,6 +1664,60 @@
     "crumbs": [
       "Electricity Sector Activities",
       "Enterprise Risk Management"
+=======
+    "objectID": "literature_review/demand.html",
+    "href": "literature_review/demand.html",
+    "title": "Demand",
+    "section": "",
+    "text": "Electricity demand is a vital component in the planning, operation, and resilience of power systems. Climate change is expected to alter electricity demand patterns by affecting not only patterns of temperature, such as mean temperature, number of temperature extremes, and seasonal variations, but also consumption behaviours across different sectors. Numerous studies project increased cooling demand during hotter summers and reduced heating demand during milder winters as this pattern have been consistently observed across multiple global regions (1,2,3,4,5). The magnitude and direction of these changes are strongly dependent on the region and latitude; for example, countries in warmer climates are expected to see higher overall demand growth due to increased cooling loads (6,7,8). Climate change also affects electricity consumption by sector and temporal demand profiles, including daily and seasonal variations. The residential, commercial, and industrial sectors respond differently to climate drivers (9,10,11). Meanwhile, the timing of electricity demand is shifting as well, with studies projecting changes in peak load hours and seasonal peaks due to rising temperatures and more frequent extreme heat events (1,Fonseca2019?,12).\nTo assess the impacts of climate change on electricity demand, different approaches have been employed. These include the use of climate projections from GCM and RCM combined with downscaling techniques to capture local climatic variability (13,2,Fonseca2019?,14,4). Empirical models, such as regression-bases analyses, have been also used to estimate historical relationships between temperature and electricity use (6,7,3) , while simulation tools and energy-climate models are applied to explore future scenarios under different socio-economic and climatic conditions (9,14,11).",
+    "crumbs": [
+      "Climat change impacts on electricity systems",
+      "Demand"
+    ]
+  },
+  {
+    "objectID": "literature_review/demand.html#climate-change-drivers-and-affected-electricity-demand-parameters",
+    "href": "literature_review/demand.html#climate-change-drivers-and-affected-electricity-demand-parameters",
+    "title": "Demand",
+    "section": "Climate change drivers and affected electricity demand parameters",
+    "text": "Climate change drivers and affected electricity demand parameters\n\nSeasonal variations\nRising temperatures due to climate change have led to a significant in seasonal electricity demand, particularly by increasing cooling demand during summer and reducing heating needs during winter. This shifting trend has been widely documented across regional and global studies. For example,13 showed that electricity demand in the United States shows a strong nonlinear response to high temperatures, especially above 25-30 degC, driven mainly by demand for air conditioning. Similarly,15 also confirmed this global trend that there are steep increases in demand where air conditioning is rising due to climate change. Regional case studies, such asCraig2020?, have demonstrated that peak demand coincides more frequently with extreme heat days, stressing both power generation and distribution infrastructure. The anticipated rise in the frequency, intensity, and duration of heatwaves further amplifies this concerns, requiring investments in peak capacity, demand-side management, and adaptation strategies.11 projected increased summer cooling demand across European regions due to higher temperatures, while8 confirmed the similar rise in cooling demand in Cyprus.9 also found that seasonal peaks are shifting in the United States, with summer peaks becoming more dominant due to climate-induced changes in building energy use.\nHowever, while winters are projected to be warmer, the demand responses are more variable.12 introduced a classification of demand response profiles: a “V”-shaped response which is common in mid-latitude temperated cities, such as North America and Europe where demand increases at both high and low temperatures; increasing response where demand rises steadily with temperature, which can be shown in tropical cities; and unresponsive profile where minimal or no correlation between temperature and electricity demand.3 used multivariate regression in Europe to estimate electricity consumption changes and found that Northern and Central Europe will experience reduced heating demand in winter while Southern Europe will face increased cooling demand and higher costs in summer. This results in an increased annual electricity demand in Spain while it will decrease in Finland, Germany and France.5 analyzed how climate change could flatten winter peaks while enhancing summer peaks in the United Kingdom, suggesting that infrastructure planning should shift from winter-dominant to summer-dominant strategies.\n\n\nRegional variations: by continents, by latitudes\nThe impacts of climate change on electricity demand show considerable regional heterogeneity, followed by geographic location, climatic baseline, economic development, and infrastructure characteristics. A clear latitudinal pattern exists: countries at lower latitude are projected to have higher increases in electricity demand for cooling, while higher latitude regions may observe mixed outcomes due to the opposing effects of warmer winters and hotter summers.\nIn tropical regions, where average temperature are already high, even modest increases in temperature can trigger substantial rises in electricity use.6 found that rising temperatures will affect electricity demand for all warming levels due to increasing air conditioning needs, with low adaptive capacity exacerbating system stress in Niger.7\n\n\nDemand parameters\n\nAnnual demand: generation capacity and/or storage capacity\nSize and timing of peak demand: maintenance and construction schedule, supply planning\nSpatial distribution of demand: topology and capacity of the electricity transmission networks.\nSectors: ability to adapt or respond to climate change",
+    "crumbs": [
+      "Climat change impacts on electricity systems",
+      "Demand"
+    ]
+  },
+  {
+    "objectID": "literature_review/demand.html#sectoral-variations-in-demand",
+    "href": "literature_review/demand.html#sectoral-variations-in-demand",
+    "title": "Demand",
+    "section": "Sectoral variations in demand",
+    "text": "Sectoral variations in demand\n\nDifferences in demand patterns by sectors, such as residential, industrial, and commercial.\nSeasonal and hourly variations in demand and how these might evolve under climate change",
+    "crumbs": [
+      "Climat change impacts on electricity systems",
+      "Demand"
+    ]
+  },
+  {
+    "objectID": "literature_review/demand.html#methodologies-for-assessing-climate-change-impacts",
+    "href": "literature_review/demand.html#methodologies-for-assessing-climate-change-impacts",
+    "title": "Demand",
+    "section": "Methodologies for assessing climate change impacts",
+    "text": "Methodologies for assessing climate change impacts\n\nClimate data: GCMs, RCMs\nDownscaling method: dynamic, statistical\nEmpirical methods: regression analysis\nSimulation models: energy-climate models",
+    "crumbs": [
+      "Climat change impacts on electricity systems",
+      "Demand"
+    ]
+  },
+  {
+    "objectID": "literature_review/demand.html#adaptation-strategies",
+    "href": "literature_review/demand.html#adaptation-strategies",
+    "title": "Demand",
+    "section": "Adaptation strategies",
+    "text": "Adaptation strategies\n\nHow to adapt changing demand patterns caused by climate change.\nDemand-side management, energy efficiency measures, grid flexibility.",
+    "crumbs": [
+      "Climat change impacts on electricity systems",
+      "Demand"
+>>>>>>> SectorActivities
     ]
   },
   {
@@ -1383,7 +1953,11 @@
     "href": "datasets/reanalysis_data/Reanalysis_Datasets.html#definition-of-reanalysis-data",
     "title": "Reanalysis Datasets",
     "section": "",
+<<<<<<< HEAD
     "text": "References:  What is climate reanalysis? by ECMWF.\nA video introduction on reanalysis data on the “Copernicus ECMWF” YouTube channel:",
+=======
+    "text": "ERA5-Land is a high-resolution global land surface reanalysis dataset produced by the European Centre for Medium-Range Weather Forecasts (ECMWF). It provides detailed historical climate and weather data, focusing on land surface variables with enhanced spatial and temporal resolution compared to the standard ERA5 dataset. ERA5-Land is generated using the same land surface model as ERA5 but with higher resolution and no atmospheric data assimilation to improve consistency in land-related processes.\nToDo: Add referencec, data access\n\n\n\nERA5-Land data over North America (Source: PAVICS)\n\n\n\n\n\n\nCurrent version: ???\nTemporal coverage: 1950–present\nTemporal resolution: Hourly and daily outputs\nSpatial coverage: Global land area\nSpatial resolution: ~9 km grid spacing\n\nData type: ECMWF land surface model forced by ERA5 atmospheric conditions\nWeb references:  ERA5-Land on ECMWF web site,  ERA5-Land data documentation,  ERA5-Land on Copernicus Climate Change Service (C3S) Climate Data Store (CDS),  ERA5-Land on Northern Climate Data Report and Inventory (NCDRI) Web Site,\nReference Publications:  See references below ToDo Figure out how to add: “Accessed on [date],\n\n\n\n\n\n\n\n\n\n\n\n\n\nStrength\nDescription\n\n\n\n\nHigh Spatial Resolution\n~9 km grid improves detail over land compared to ERA5 (~31 km).\n\n\nLong-Term Consistency\nExtends back to 1950, enabling long-term climate studies.\n\n\nHourly Data Availability\nSupports high-frequency climate and hydrological applications.\n\n\nImproved Land Surface Processes\nEnhanced representation of soil moisture, snow, and vegetation dynamics.\n\n\nGlobal Coverage\nProvides consistent land surface data across all continents.\n\n\n\n\n\n\n\n\n\n\n\n\n\nLimitation\nDescription\n\n\n\n\nNo Atmospheric Data Assimilation\nUnlike ERA5, does not assimilate atmospheric observations, which may introduce biases.\n\n\nPrecipitation Uncertainties\nForced by ERA5 atmospheric fields, which can lead to regional biases in precipitation estimates.\n\n\nLimited Ocean Representation.\nFocuses on land; coastal interactions may be less accurate.\n\n\nComputationally Intensive.\nHigh-resolution data requires significant storage and processing resources.\n\n\nLack of Direct Observations.\nSome variables are entirely model-based, potentially differing from ground-based observations.\n\n\n\n\n\n\n\n\n\n\n\n\n\nA detailed discussion to be developed here.\n\n\n\n\n\nLorem ipsum.\n\n\n\n\n\n\nFor details click on variable group to uncollapse\n\n\n\n\n\n\nAtmospheric & Surface Variables\n\n\n\n\n\n\n2m air temperature\n2m dew point temperature\nSurface pressure\n10m wind speed and direction\nSurface (skin) temperature\n\n\n\n\n\n\n\n\n\n\nPrecipitation & Moisture Variables\n\n\n\n\n\n\nTotal precipitation\nRainfall rate\nSnowfall rate\nSnow water equivalent (SWE)\nEvaporation\nSoil moisture content (multiple layers)\n\n\n\n\n\n\n\n\n\n\nRadiation & Energy Balance\n\n\n\n\n\n\nSurface net solar radiation\nSurface net thermal radiation\nLatent heat flux\nSensible heat flux\n\n\n\n\n\n\n\n\n\n\nLand Surface & Snow Variables\n\n\n\n\n\n\nSnow depth\nSoil temperature (multiple layers)\nSoil moisture (multiple layers)\nSurface runoff\nGround heat flux\n\n\n\n\n\n\n\n\n\n\nOther Meteorological Variables\n\n\n\n\n\n\nAlbedo\nSurface roughness length\nVegetation fraction\n\n\n\n\n\n\n\nlinks to Electricity Sector Applications\n\n\n\n\nERA5-Land hourly data from 1950 to present are available on the Copernicus Data Store. ECMWF has a web site with Instructions to download ERA5-Land.\nHourly and daily temperature and precipitation ERA5-Land data are available on PAVICS\n\n\n\n\n\n\n1. Muñoz-Sabater, J. ERA5-land hourly data from 1950 to present. Copernicus Climate Change Service (C3S) Climate Data Store (CDS) (2019) doi:10.24381/cds.e2161bac.\n\n\n2. Muñoz-Sabater, J. et al. ERA5-land: A state-of-the-art global reanalysis dataset for land applications. Earth System Science Data 13, 4349–4383 (2021).\n\n\n\n\n\n\nTo access ERA5-Land data hosted on PAVICS via a Python script, locate the the OpenDAP Data URL of the dataset by clicking on the Threads Catalog link. Using the Xarray Python Library the dataset can be easily read. The output from the following code allows to interactively browse the content of the dataset:\n\n\nCode\nimport xarray as xr\n\n# the OpenDAP URL for hourly ERA5-Land data\nurl = \"https://pavics.ouranos.ca/twitcher/ows/proxy/thredds/dodsC/datasets/reanalyses/day_ERA5-Land_NAM.ncml\"\n\n# open the dataset\nds = xr.open_dataset(url, chunks={'time': -1, 'lat': 50, 'lon': 50}, decode_timedelta=False)\nprint(\"The ERA5-Land dataset:\")\nds\n\n\nThe ERA5-Land dataset:\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n&lt;xarray.Dataset&gt; Size: 715GB\nDimensions:  (lat: 800, lon: 1700, time: 26298)\nCoordinates:\n  * lat      (lat) float32 3kB 10.0 10.1 10.2 10.3 10.4 ... 89.6 89.7 89.8 89.9\n  * lon      (lon) float32 7kB -179.9 -179.8 -179.7 -179.6 ... -10.2 -10.1 -10.0\n  * time     (time) datetime64[ns] 210kB 1950-01-01 1950-01-02 ... 2021-12-31\nData variables:\n    tas      (time, lat, lon) float32 143GB dask.array&lt;chunksize=(26298, 50, 50), meta=np.ndarray&gt;\n    tasmin   (time, lat, lon) float32 143GB dask.array&lt;chunksize=(26298, 50, 50), meta=np.ndarray&gt;\n    tasmax   (time, lat, lon) float32 143GB dask.array&lt;chunksize=(26298, 50, 50), meta=np.ndarray&gt;\n    pr       (time, lat, lon) float32 143GB dask.array&lt;chunksize=(26298, 50, 50), meta=np.ndarray&gt;\n    prsn     (time, lat, lon) float32 143GB dask.array&lt;chunksize=(26298, 50, 50), meta=np.ndarray&gt;\nAttributes: (12/26)\n    Conventions:          CF-1.8\n    cell_methods:         time: mean (interval: 1 day)\n    data_specs_version:   00.00.07\n    domain:               NAM\n    format:               netcdf\n    frequency:            day\n    ...                   ...\n    dataset_description:  https://www.ecmwf.int/en/era5-land\n    license_type:         permissive\n    license:              Please acknowledge the use of ERA5-Land as stated i...\n    attribution:          Contains modified Copernicus Climate Change Service...\n    citation:             Muñoz Sabater, J., (2021): ERA5-Land hourly data fr...\n    doi:                  https://doi.org/10.24381/cds.e2161bacxarray.DatasetDimensions:lat: 800lon: 1700time: 26298Coordinates: (3)lat(lat)float3210.0 10.1 10.2 ... 89.7 89.8 89.9long_name :latitudeunits :degrees_northarray([10. , 10.1, 10.2, ..., 89.7, 89.8, 89.9], dtype=float32)lon(lon)float32-179.9 -179.8 ... -10.1 -10.0long_name :longitudeunits :degrees_eastarray([-179.9, -179.8, -179.7, ...,  -10.2,  -10.1,  -10. ], dtype=float32)time(time)datetime64[ns]1950-01-01 ... 2021-12-31array(['1950-01-01T00:00:00.000000000', '1950-01-02T00:00:00.000000000',\n       '1950-01-03T00:00:00.000000000', ..., '2021-12-29T00:00:00.000000000',\n       '2021-12-30T00:00:00.000000000', '2021-12-31T00:00:00.000000000'],\n      dtype='datetime64[ns]')Data variables: (5)tas(time, lat, lon)float32dask.array&lt;chunksize=(26298, 50, 50), meta=np.ndarray&gt;long_name :2 metre temperatureoriginal_variable :t2mstandard_name :air_temperatureunits :Kcell_methods :time: point_ChunkSizes :[366  50  50]\n\n\n\n\n\n\n\n\n\n\n\nArray\nChunk\n\n\n\n\nBytes\n133.24 GiB\n250.80 MiB\n\n\nShape\n(26298, 800, 1700)\n(26298, 50, 50)\n\n\nDask graph\n544 chunks in 2 graph layers\n\n\nData type\nfloat32 numpy.ndarray\n\n\n\n\n                                                                                           1700 800 26298\n\n\n\n\ntasmin(time, lat, lon)float32dask.array&lt;chunksize=(26298, 50, 50), meta=np.ndarray&gt;long_name :2 metre temperatureoriginal_variable :t2mstandard_name :air_temperatureunits :Kcell_methods :time: point_ChunkSizes :[366  50  50]\n\n\n\n\n\n\n\n\n\n\n\nArray\nChunk\n\n\n\n\nBytes\n133.24 GiB\n250.80 MiB\n\n\nShape\n(26298, 800, 1700)\n(26298, 50, 50)\n\n\nDask graph\n544 chunks in 2 graph layers\n\n\nData type\nfloat32 numpy.ndarray\n\n\n\n\n                                                                                           1700 800 26298\n\n\n\n\ntasmax(time, lat, lon)float32dask.array&lt;chunksize=(26298, 50, 50), meta=np.ndarray&gt;long_name :2 metre temperatureoriginal_variable :t2mstandard_name :air_temperatureunits :Kcell_methods :time: point_ChunkSizes :[366  50  50]\n\n\n\n\n\n\n\n\n\n\n\nArray\nChunk\n\n\n\n\nBytes\n133.24 GiB\n250.80 MiB\n\n\nShape\n(26298, 800, 1700)\n(26298, 50, 50)\n\n\nDask graph\n544 chunks in 2 graph layers\n\n\nData type\nfloat32 numpy.ndarray\n\n\n\n\n                                                                                           1700 800 26298\n\n\n\n\npr(time, lat, lon)float32dask.array&lt;chunksize=(26298, 50, 50), meta=np.ndarray&gt;long_name :Precipitationcell_methods :time: mean (interval: 1 hour)comments :Converted from Total Precipitation using a density of 1000 kg/m³.original_long_name :Total Precipitationoriginal_variable :tpstandard_name :precipitation_fluxunits :kg m-2 s-1_ChunkSizes :[366  50  50]\n\n\n\n\n\n\n\n\n\n\n\nArray\nChunk\n\n\n\n\nBytes\n133.24 GiB\n250.80 MiB\n\n\nShape\n(26298, 800, 1700)\n(26298, 50, 50)\n\n\nDask graph\n544 chunks in 2 graph layers\n\n\nData type\nfloat32 numpy.ndarray\n\n\n\n\n                                                                                           1700 800 26298\n\n\n\n\nprsn(time, lat, lon)float32dask.array&lt;chunksize=(26298, 50, 50), meta=np.ndarray&gt;long_name :Snowfall fluxcell_methods :time: mean (interval: 1 hour)comments :Converted from Snowfall (water equivalent) using a density of 1000 kg/m³.original_long_name :Snowfalloriginal_variable :sfstandard_name :snowfall_fluxunits :kg m-2 s-1_ChunkSizes :[366  50  50]\n\n\n\n\n\n\n\n\n\n\n\nArray\nChunk\n\n\n\n\nBytes\n133.24 GiB\n250.80 MiB\n\n\nShape\n(26298, 800, 1700)\n(26298, 50, 50)\n\n\nDask graph\n544 chunks in 2 graph layers\n\n\nData type\nfloat32 numpy.ndarray\n\n\n\n\n                                                                                           1700 800 26298\n\n\n\n\nIndexes: (3)latPandasIndexPandasIndex(Index([              10.0, 10.100000381469727, 10.199999809265137,\n       10.300000190734863, 10.399999618530273,               10.5,\n       10.600000381469727, 10.699999809265137, 10.800000190734863,\n       10.899999618530273,\n       ...\n                     89.0,   89.0999984741211,  89.19999694824219,\n        89.30000305175781,   89.4000015258789,               89.5,\n         89.5999984741211,  89.69999694824219,  89.80000305175781,\n         89.9000015258789],\n      dtype='float32', name='lat', length=800))lonPandasIndexPandasIndex(Index([-179.89999389648438,  -179.8000030517578,  -179.6999969482422,\n       -179.60000610351562,              -179.5, -179.39999389648438,\n        -179.3000030517578,  -179.1999969482422, -179.10000610351562,\n                    -179.0,\n       ...\n       -10.899999618530273, -10.800000190734863, -10.699999809265137,\n       -10.600000381469727,               -10.5, -10.399999618530273,\n       -10.300000190734863, -10.199999809265137, -10.100000381469727,\n                     -10.0],\n      dtype='float32', name='lon', length=1700))timePandasIndexPandasIndex(DatetimeIndex(['1950-01-01', '1950-01-02', '1950-01-03', '1950-01-04',\n               '1950-01-05', '1950-01-06', '1950-01-07', '1950-01-08',\n               '1950-01-09', '1950-01-10',\n               ...\n               '2021-12-22', '2021-12-23', '2021-12-24', '2021-12-25',\n               '2021-12-26', '2021-12-27', '2021-12-28', '2021-12-29',\n               '2021-12-30', '2021-12-31'],\n              dtype='datetime64[ns]', name='time', length=26298, freq=None))Attributes: (26)Conventions :CF-1.8cell_methods :time: mean (interval: 1 day)data_specs_version :00.00.07domain :NAMformat :netcdffrequency :dayhistory :[2022-07-16 11:22:42.650045] Converted from original data to zarr with modified metadata for CF-like compliance.institution :ECMWFprocessing_level :rawproject :era5-landrealm :atmossource :ERA5-Landtable_date :13 June 2022type :reanalysisversion :v2022.07.15title :ERA5-Land : dailyinstitute :European Centre for Medium-Range Weather Forecastsinstitute_id :ECMWFdataset_id :ERA5-Landabstract :ERA5-Land provides hourly high resolution information of surface variables. The data is a replay of the land component of the ERA5 climate reanalysis with a finer spatial resolution: ~9km grid spacing. ERA5-Land includes information about uncertainties for all variables at reduced spatial and temporal resolutions. The model used in the production of ERA5-Land is the tiled ECMWF Scheme for Surface Exchanges over Land incorporating land surface hydrology (H-TESSEL).dataset_description :https://www.ecmwf.int/en/era5-landlicense_type :permissivelicense :Please acknowledge the use of ERA5-Land as stated in the Copernicus C3S/CAMS License agreement http://apps.ecmwf.int/datasets/licences/copernicus/attribution :Contains modified Copernicus Climate Change Service Information 2022. Neither the European Commission nor ECMWF is responsible for any use that may be made of the Copernicus Information or Data it contains.citation :Muñoz Sabater, J., (2021): ERA5-Land hourly data from 1950 to 1980. Copernicus Climate Change Service (C3S) Climate Data Store (CDS). (Accessed on 2022.06.07)doi :https://doi.org/10.24381/cds.e2161bac\n\n\nA quicklook visualization of the data is shown below.\n\n\nCode\nds.tas.sel(time=\"2019-01-16\").plot()",
+>>>>>>> SectorActivities
     "crumbs": [
       "Climate Datasets",
       "Reanalysis Data"
@@ -1394,11 +1968,214 @@
     "href": "datasets/reanalysis_data/ERA5-Land.html#expert-guidance",
     "title": "ECMWF ERA5-Land",
     "section": "",
+<<<<<<< HEAD
     "text": "A detailed discussion to be developed here.\n\n\n\n\n\nLorem ipsum.",
+=======
+    "text": "ERA5-Land is a high-resolution global land surface reanalysis dataset produced by the European Centre for Medium-Range Weather Forecasts (ECMWF). It provides detailed historical climate and weather data, focusing on land surface variables with enhanced spatial and temporal resolution compared to the standard ERA5 dataset. ERA5-Land is generated using the same land surface model as ERA5 but with higher resolution and no atmospheric data assimilation to improve consistency in land-related processes.\nToDo: Add referencec, data access\n\n\n\nERA5-Land data over North America (Source: PAVICS)",
+>>>>>>> SectorActivities
     "crumbs": [
       "Climate Datasets",
       "Reanalysis Data",
       "ECMWF ERA5-Land"
+    ]
+  },
+  {
+<<<<<<< HEAD
+    "objectID": "datasets/reanalysis_data/CaSR.html#expert-guidance",
+    "href": "datasets/reanalysis_data/CaSR.html#expert-guidance",
+    "title": "Canadian Surface Reanalysis - CaSR",
+    "section": "",
+    "text": "A detailed discussion to be developed here.\n\n\n\n\n\nLorem ipsum.",
+=======
+    "objectID": "datasets/reanalysis_data/ERA5-Land.html#dataset-characteristics",
+    "href": "datasets/reanalysis_data/ERA5-Land.html#dataset-characteristics",
+    "title": "ECMWF ERA5-Land",
+    "section": "",
+    "text": "Current version: ???\nTemporal coverage: 1950–present\nTemporal resolution: Hourly and daily outputs\nSpatial coverage: Global land area\nSpatial resolution: ~9 km grid spacing\n\nData type: ECMWF land surface model forced by ERA5 atmospheric conditions\nWeb references:  ERA5-Land on ECMWF web site,  ERA5-Land data documentation,  ERA5-Land on Copernicus Climate Change Service (C3S) Climate Data Store (CDS),  ERA5-Land on Northern Climate Data Report and Inventory (NCDRI) Web Site,\nReference Publications:  See references below ToDo Figure out how to add: “Accessed on [date],",
+>>>>>>> SectorActivities
+    "crumbs": [
+      "Climate Datasets",
+      "Reanalysis Data",
+      "Canadian Surface Reanalysis - CaSR"
+    ]
+  },
+  {
+<<<<<<< HEAD
+    "objectID": "datasets/reanalysis_data/CaSR.html#references",
+    "href": "datasets/reanalysis_data/CaSR.html#references",
+    "title": "Canadian Surface Reanalysis - CaSR",
+    "section": "",
+    "text": "1. Gasset, N. et al. A 10 km north american precipitation and land-surface reanalysis based on the GEM atmospheric model. Hydrology and Earth System Sciences 25, 4917–4945 (2021).\n\n\n2. Gasset, N. et al. Réanalyse canadienne de surface (RCaS-CaSR) version 3.1 d’environnement et changement climatique canada (ECCC). (2025).\n\n\n3. Khedhaouiria, G., D. & Bulat, M. Canadian surface reanalysis (CaSR) v3: ECCC hourly 0.1° surface reanalysis across north america. TBD (2025?).",
+=======
+    "objectID": "datasets/reanalysis_data/ERA5-Land.html#strengths-and-limitations",
+    "href": "datasets/reanalysis_data/ERA5-Land.html#strengths-and-limitations",
+    "title": "ECMWF ERA5-Land",
+    "section": "",
+    "text": "Strength\nDescription\n\n\n\n\nHigh Spatial Resolution\n~9 km grid improves detail over land compared to ERA5 (~31 km).\n\n\nLong-Term Consistency\nExtends back to 1950, enabling long-term climate studies.\n\n\nHourly Data Availability\nSupports high-frequency climate and hydrological applications.\n\n\nImproved Land Surface Processes\nEnhanced representation of soil moisture, snow, and vegetation dynamics.\n\n\nGlobal Coverage\nProvides consistent land surface data across all continents.\n\n\n\n\n\n\n\n\n\n\n\n\n\nLimitation\nDescription\n\n\n\n\nNo Atmospheric Data Assimilation\nUnlike ERA5, does not assimilate atmospheric observations, which may introduce biases.\n\n\nPrecipitation Uncertainties\nForced by ERA5 atmospheric fields, which can lead to regional biases in precipitation estimates.\n\n\nLimited Ocean Representation.\nFocuses on land; coastal interactions may be less accurate.\n\n\nComputationally Intensive.\nHigh-resolution data requires significant storage and processing resources.\n\n\nLack of Direct Observations.\nSome variables are entirely model-based, potentially differing from ground-based observations.",
+    "crumbs": [
+      "Climate Datasets",
+      "Reanalysis Data",
+      "ECMWF ERA5-Land"
+    ]
+  },
+  {
+    "objectID": "datasets/reanalysis_data/ERA5-Land.html#expert-guidance",
+    "href": "datasets/reanalysis_data/ERA5-Land.html#expert-guidance",
+    "title": "ECMWF ERA5-Land",
+    "section": "",
+    "text": "A detailed discussion to be developed here.\n\n\n\n\n\nLorem ipsum.",
+>>>>>>> SectorActivities
+    "crumbs": [
+      "Climate Datasets",
+      "Reanalysis Data",
+      "Canadian Surface Reanalysis - CaSR"
+    ]
+  },
+  {
+<<<<<<< HEAD
+    "objectID": "datasets/reanalysis_data/CaSR.html#data-access",
+    "href": "datasets/reanalysis_data/CaSR.html#data-access",
+    "title": "Canadian Surface Reanalysis - CaSR",
+    "section": "",
+    "text": "ToDo: Point to PAVICS for partial/regional data extraction!",
+=======
+    "objectID": "datasets/reanalysis_data/ERA5-Land.html#available-variables-in-era5-land",
+    "href": "datasets/reanalysis_data/ERA5-Land.html#available-variables-in-era5-land",
+    "title": "ECMWF ERA5-Land",
+    "section": "",
+    "text": "For details click on variable group to uncollapse\n\n\n\n\n\n\nAtmospheric & Surface Variables\n\n\n\n\n\n\n2m air temperature\n2m dew point temperature\nSurface pressure\n10m wind speed and direction\nSurface (skin) temperature\n\n\n\n\n\n\n\n\n\n\nPrecipitation & Moisture Variables\n\n\n\n\n\n\nTotal precipitation\nRainfall rate\nSnowfall rate\nSnow water equivalent (SWE)\nEvaporation\nSoil moisture content (multiple layers)\n\n\n\n\n\n\n\n\n\n\nRadiation & Energy Balance\n\n\n\n\n\n\nSurface net solar radiation\nSurface net thermal radiation\nLatent heat flux\nSensible heat flux\n\n\n\n\n\n\n\n\n\n\nLand Surface & Snow Variables\n\n\n\n\n\n\nSnow depth\nSoil temperature (multiple layers)\nSoil moisture (multiple layers)\nSurface runoff\nGround heat flux\n\n\n\n\n\n\n\n\n\n\nOther Meteorological Variables\n\n\n\n\n\n\nAlbedo\nSurface roughness length\nVegetation fraction",
+>>>>>>> SectorActivities
+    "crumbs": [
+      "Climate Datasets",
+      "Reanalysis Data",
+      "Canadian Surface Reanalysis - CaSR"
+    ]
+  },
+  {
+<<<<<<< HEAD
+    "objectID": "datasets/Dataset_Template.html",
+    "href": "datasets/Dataset_Template.html",
+    "title": "Dataset Page Template",
+    "section": "",
+    "text": "This is the template for the structure of all dataset description pages.\nSee markup code for details about how to:\n\nmake collapsable sections\nformat the tables\nintegrate references in a quarto yaml section\n\n\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n\n\n\nA figure for the dataset (source: bibentry)\n\n\nToDo: Like this we can mark stuff to deal with later.\n\n\n\n\nCurrent version: lorem ipsum bla bla\nTemporal coverage: lorem ipsum bla bla\nTemporal resolution: lorem ipsum bla bla\nSpatial coverage: lorem ipsum bla bla\nSpatial resolution: lorem ipsum bla bla\nData type: lorem ipsum bla bla\nWeb references:  A link to the web\nReference publications: See references below,\n\n\n\n\n\n\n\n\n\nStrength\nDescription\n\n\n\n\nStength 1\nlorem ipsum bla bla\n\n\nStength 2\nlorem ipsum bla bla\n\n\nStength 3.\nlorem ipsum bla bla\n\n\n…\n…\n\n\n\n\n\n\n\n\n\nLimitation\nDescription\n\n\n\n\nLimitation 1\nlorem ipsum bla bla\n\n\nLimitation 2\nlorem ipsum bla bla\n\n\nLimitation 3.\nlorem ipsum bla bla\n\n\n…\n…\n\n\n\n\n\n\n\n\n\n\n\n\n\nA detailed discussion\n\n\n\n\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n\n\n\n\n\n\nFor details click on variable group to uncollapse\n\n\n\n\n\n\nVariable 1\n\n\n\n\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\n\n\n\n\n\n\n\n\n\nVariable 2\n\n\n\n\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\n\n\n\n\n\n\n\n\n\nVariable 3\n\n\n\n\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\n\n\n\n\n\n\n\n\n\n…\n\n\n\n\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\n\n\n\n\n\n\nlinks to Electricity Sector Activities\n\n\n\nlinks to access the data\n\n\n\n\n\n1. Gasset, N. et al. A 10 km north american precipitation and land-surface reanalysis based on the GEM atmospheric model. Hydrology and Earth System Sciences 25, 4917–4945 (2021).\n\n\n2. Muñoz-Sabater, J. et al. ERA5-land: A state-of-the-art global reanalysis dataset for land applications. Earth System Science Data 13, 4349–4383 (2021).\n\n\n3. Gasset, N. et al. Réanalyse canadienne de surface (RCaS-CaSR) version 3.1 d’environnement et changement climatique canada (ECCC). (2025).\n\n\n4. Khedhaouiria, G., D. & Bulat, M. Canadian surface reanalysis (CaSR) v3: ECCC hourly 0.1° surface reanalysis across north america. TBD (2025?).",
+=======
+    "objectID": "datasets/reanalysis_data/ERA5-Land.html#example-applications",
+    "href": "datasets/reanalysis_data/ERA5-Land.html#example-applications",
+    "title": "ECMWF ERA5-Land",
+    "section": "",
+    "text": "links to Electricity Sector Applications",
+    "crumbs": [
+      "Climate Datasets",
+      "Reanalysis Data",
+      "ECMWF ERA5-Land"
+    ]
+  },
+  {
+    "objectID": "datasets/reanalysis_data/ERA5-Land.html#data-access",
+    "href": "datasets/reanalysis_data/ERA5-Land.html#data-access",
+    "title": "ECMWF ERA5-Land",
+    "section": "",
+    "text": "ERA5-Land hourly data from 1950 to present are available on the Copernicus Data Store. ECMWF has a web site with Instructions to download ERA5-Land.\nHourly and daily temperature and precipitation ERA5-Land data are available on PAVICS",
+    "crumbs": [
+      "Climate Datasets",
+      "Reanalysis Data",
+      "ECMWF ERA5-Land"
+    ]
+  },
+  {
+    "objectID": "datasets/reanalysis_data/ERA5-Land.html#references",
+    "href": "datasets/reanalysis_data/ERA5-Land.html#references",
+    "title": "ECMWF ERA5-Land",
+    "section": "",
+    "text": "1. Muñoz-Sabater, J. ERA5-land hourly data from 1950 to present. Copernicus Climate Change Service (C3S) Climate Data Store (CDS) (2019) doi:10.24381/cds.e2161bac.\n\n\n2. Muñoz-Sabater, J. et al. ERA5-land: A state-of-the-art global reanalysis dataset for land applications. Earth System Science Data 13, 4349–4383 (2021).",
+    "crumbs": [
+      "Climate Datasets",
+      "Reanalysis Data",
+      "ECMWF ERA5-Land"
+    ]
+  },
+  {
+    "objectID": "datasets/reanalysis_data/ERA5-Land.html#instructions-for-data-access-on-pavics",
+    "href": "datasets/reanalysis_data/ERA5-Land.html#instructions-for-data-access-on-pavics",
+    "title": "ECMWF ERA5-Land",
+    "section": "",
+    "text": "To access ERA5-Land data hosted on PAVICS via a Python script, locate the the OpenDAP Data URL of the dataset by clicking on the Threads Catalog link. Using the Xarray Python Library the dataset can be easily read. The output from the following code allows to interactively browse the content of the dataset:\n\n\nCode\nimport xarray as xr\n\n# the OpenDAP URL for hourly ERA5-Land data\nurl = \"https://pavics.ouranos.ca/twitcher/ows/proxy/thredds/dodsC/datasets/reanalyses/day_ERA5-Land_NAM.ncml\"\n\n# open the dataset\nds = xr.open_dataset(url, chunks={'time': -1, 'lat': 50, 'lon': 50}, decode_timedelta=False)\nprint(\"The ERA5-Land dataset:\")\nds\n\n\nThe ERA5-Land dataset:\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n&lt;xarray.Dataset&gt; Size: 715GB\nDimensions:  (lat: 800, lon: 1700, time: 26298)\nCoordinates:\n  * lat      (lat) float32 3kB 10.0 10.1 10.2 10.3 10.4 ... 89.6 89.7 89.8 89.9\n  * lon      (lon) float32 7kB -179.9 -179.8 -179.7 -179.6 ... -10.2 -10.1 -10.0\n  * time     (time) datetime64[ns] 210kB 1950-01-01 1950-01-02 ... 2021-12-31\nData variables:\n    tas      (time, lat, lon) float32 143GB dask.array&lt;chunksize=(26298, 50, 50), meta=np.ndarray&gt;\n    tasmin   (time, lat, lon) float32 143GB dask.array&lt;chunksize=(26298, 50, 50), meta=np.ndarray&gt;\n    tasmax   (time, lat, lon) float32 143GB dask.array&lt;chunksize=(26298, 50, 50), meta=np.ndarray&gt;\n    pr       (time, lat, lon) float32 143GB dask.array&lt;chunksize=(26298, 50, 50), meta=np.ndarray&gt;\n    prsn     (time, lat, lon) float32 143GB dask.array&lt;chunksize=(26298, 50, 50), meta=np.ndarray&gt;\nAttributes: (12/26)\n    Conventions:          CF-1.8\n    cell_methods:         time: mean (interval: 1 day)\n    data_specs_version:   00.00.07\n    domain:               NAM\n    format:               netcdf\n    frequency:            day\n    ...                   ...\n    dataset_description:  https://www.ecmwf.int/en/era5-land\n    license_type:         permissive\n    license:              Please acknowledge the use of ERA5-Land as stated i...\n    attribution:          Contains modified Copernicus Climate Change Service...\n    citation:             Muñoz Sabater, J., (2021): ERA5-Land hourly data fr...\n    doi:                  https://doi.org/10.24381/cds.e2161bacxarray.DatasetDimensions:lat: 800lon: 1700time: 26298Coordinates: (3)lat(lat)float3210.0 10.1 10.2 ... 89.7 89.8 89.9long_name :latitudeunits :degrees_northarray([10. , 10.1, 10.2, ..., 89.7, 89.8, 89.9], dtype=float32)lon(lon)float32-179.9 -179.8 ... -10.1 -10.0long_name :longitudeunits :degrees_eastarray([-179.9, -179.8, -179.7, ...,  -10.2,  -10.1,  -10. ], dtype=float32)time(time)datetime64[ns]1950-01-01 ... 2021-12-31array(['1950-01-01T00:00:00.000000000', '1950-01-02T00:00:00.000000000',\n       '1950-01-03T00:00:00.000000000', ..., '2021-12-29T00:00:00.000000000',\n       '2021-12-30T00:00:00.000000000', '2021-12-31T00:00:00.000000000'],\n      dtype='datetime64[ns]')Data variables: (5)tas(time, lat, lon)float32dask.array&lt;chunksize=(26298, 50, 50), meta=np.ndarray&gt;long_name :2 metre temperatureoriginal_variable :t2mstandard_name :air_temperatureunits :Kcell_methods :time: point_ChunkSizes :[366  50  50]\n\n\n\n\n\n\n\n\n\n\n\nArray\nChunk\n\n\n\n\nBytes\n133.24 GiB\n250.80 MiB\n\n\nShape\n(26298, 800, 1700)\n(26298, 50, 50)\n\n\nDask graph\n544 chunks in 2 graph layers\n\n\nData type\nfloat32 numpy.ndarray\n\n\n\n\n                                                                                           1700 800 26298\n\n\n\n\ntasmin(time, lat, lon)float32dask.array&lt;chunksize=(26298, 50, 50), meta=np.ndarray&gt;long_name :2 metre temperatureoriginal_variable :t2mstandard_name :air_temperatureunits :Kcell_methods :time: point_ChunkSizes :[366  50  50]\n\n\n\n\n\n\n\n\n\n\n\nArray\nChunk\n\n\n\n\nBytes\n133.24 GiB\n250.80 MiB\n\n\nShape\n(26298, 800, 1700)\n(26298, 50, 50)\n\n\nDask graph\n544 chunks in 2 graph layers\n\n\nData type\nfloat32 numpy.ndarray\n\n\n\n\n                                                                                           1700 800 26298\n\n\n\n\ntasmax(time, lat, lon)float32dask.array&lt;chunksize=(26298, 50, 50), meta=np.ndarray&gt;long_name :2 metre temperatureoriginal_variable :t2mstandard_name :air_temperatureunits :Kcell_methods :time: point_ChunkSizes :[366  50  50]\n\n\n\n\n\n\n\n\n\n\n\nArray\nChunk\n\n\n\n\nBytes\n133.24 GiB\n250.80 MiB\n\n\nShape\n(26298, 800, 1700)\n(26298, 50, 50)\n\n\nDask graph\n544 chunks in 2 graph layers\n\n\nData type\nfloat32 numpy.ndarray\n\n\n\n\n                                                                                           1700 800 26298\n\n\n\n\npr(time, lat, lon)float32dask.array&lt;chunksize=(26298, 50, 50), meta=np.ndarray&gt;long_name :Precipitationcell_methods :time: mean (interval: 1 hour)comments :Converted from Total Precipitation using a density of 1000 kg/m³.original_long_name :Total Precipitationoriginal_variable :tpstandard_name :precipitation_fluxunits :kg m-2 s-1_ChunkSizes :[366  50  50]\n\n\n\n\n\n\n\n\n\n\n\nArray\nChunk\n\n\n\n\nBytes\n133.24 GiB\n250.80 MiB\n\n\nShape\n(26298, 800, 1700)\n(26298, 50, 50)\n\n\nDask graph\n544 chunks in 2 graph layers\n\n\nData type\nfloat32 numpy.ndarray\n\n\n\n\n                                                                                           1700 800 26298\n\n\n\n\nprsn(time, lat, lon)float32dask.array&lt;chunksize=(26298, 50, 50), meta=np.ndarray&gt;long_name :Snowfall fluxcell_methods :time: mean (interval: 1 hour)comments :Converted from Snowfall (water equivalent) using a density of 1000 kg/m³.original_long_name :Snowfalloriginal_variable :sfstandard_name :snowfall_fluxunits :kg m-2 s-1_ChunkSizes :[366  50  50]\n\n\n\n\n\n\n\n\n\n\n\nArray\nChunk\n\n\n\n\nBytes\n133.24 GiB\n250.80 MiB\n\n\nShape\n(26298, 800, 1700)\n(26298, 50, 50)\n\n\nDask graph\n544 chunks in 2 graph layers\n\n\nData type\nfloat32 numpy.ndarray\n\n\n\n\n                                                                                           1700 800 26298\n\n\n\n\nIndexes: (3)latPandasIndexPandasIndex(Index([              10.0, 10.100000381469727, 10.199999809265137,\n       10.300000190734863, 10.399999618530273,               10.5,\n       10.600000381469727, 10.699999809265137, 10.800000190734863,\n       10.899999618530273,\n       ...\n                     89.0,   89.0999984741211,  89.19999694824219,\n        89.30000305175781,   89.4000015258789,               89.5,\n         89.5999984741211,  89.69999694824219,  89.80000305175781,\n         89.9000015258789],\n      dtype='float32', name='lat', length=800))lonPandasIndexPandasIndex(Index([-179.89999389648438,  -179.8000030517578,  -179.6999969482422,\n       -179.60000610351562,              -179.5, -179.39999389648438,\n        -179.3000030517578,  -179.1999969482422, -179.10000610351562,\n                    -179.0,\n       ...\n       -10.899999618530273, -10.800000190734863, -10.699999809265137,\n       -10.600000381469727,               -10.5, -10.399999618530273,\n       -10.300000190734863, -10.199999809265137, -10.100000381469727,\n                     -10.0],\n      dtype='float32', name='lon', length=1700))timePandasIndexPandasIndex(DatetimeIndex(['1950-01-01', '1950-01-02', '1950-01-03', '1950-01-04',\n               '1950-01-05', '1950-01-06', '1950-01-07', '1950-01-08',\n               '1950-01-09', '1950-01-10',\n               ...\n               '2021-12-22', '2021-12-23', '2021-12-24', '2021-12-25',\n               '2021-12-26', '2021-12-27', '2021-12-28', '2021-12-29',\n               '2021-12-30', '2021-12-31'],\n              dtype='datetime64[ns]', name='time', length=26298, freq=None))Attributes: (26)Conventions :CF-1.8cell_methods :time: mean (interval: 1 day)data_specs_version :00.00.07domain :NAMformat :netcdffrequency :dayhistory :[2022-07-16 11:22:42.650045] Converted from original data to zarr with modified metadata for CF-like compliance.institution :ECMWFprocessing_level :rawproject :era5-landrealm :atmossource :ERA5-Landtable_date :13 June 2022type :reanalysisversion :v2022.07.15title :ERA5-Land : dailyinstitute :European Centre for Medium-Range Weather Forecastsinstitute_id :ECMWFdataset_id :ERA5-Landabstract :ERA5-Land provides hourly high resolution information of surface variables. The data is a replay of the land component of the ERA5 climate reanalysis with a finer spatial resolution: ~9km grid spacing. ERA5-Land includes information about uncertainties for all variables at reduced spatial and temporal resolutions. The model used in the production of ERA5-Land is the tiled ECMWF Scheme for Surface Exchanges over Land incorporating land surface hydrology (H-TESSEL).dataset_description :https://www.ecmwf.int/en/era5-landlicense_type :permissivelicense :Please acknowledge the use of ERA5-Land as stated in the Copernicus C3S/CAMS License agreement http://apps.ecmwf.int/datasets/licences/copernicus/attribution :Contains modified Copernicus Climate Change Service Information 2022. Neither the European Commission nor ECMWF is responsible for any use that may be made of the Copernicus Information or Data it contains.citation :Muñoz Sabater, J., (2021): ERA5-Land hourly data from 1950 to 1980. Copernicus Climate Change Service (C3S) Climate Data Store (CDS). (Accessed on 2022.06.07)doi :https://doi.org/10.24381/cds.e2161bac\n\n\nA quicklook visualization of the data is shown below.\n\n\nCode\nds.tas.sel(time=\"2019-01-16\").plot()",
+>>>>>>> SectorActivities
+    "crumbs": [
+      "Climate Datasets",
+      "Dataset Page Template"
+    ]
+  },
+  {
+    "objectID": "datasets/Dataset_Template.html#summary-description",
+    "href": "datasets/Dataset_Template.html#summary-description",
+    "title": "Dataset Page Template",
+    "section": "",
+<<<<<<< HEAD
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n\n\n\nA figure for the dataset (source: bibentry)\n\n\nToDo: Like this we can mark stuff to deal with later.",
+=======
+    "text": "The Canadian Surface Reanalysis (CaSR) is a high-resolution atmospheric reanalysis dataset produced by Environment and Climate Change Canada (ECCC). CaSR v3.1 is produced by dynamically downscaling ECMWF’s ERA5 global reanalysis using operational models and configurations of ECCC’s operational weather and environmental prediction system to provide historical, high-resolution climate and weather data over North America, with a focus on Canada. Surface observations are integrated through the the Canadian Land Data Assimilation System (CaLDAS) coupled with the Canadian Precipitation Analysis (CaPA). CaSR is a consistent and seamless dataset providing the main meteorological variables coherent with in situ surface observations1. Note that the CaSR dataset was previously known as RDRS (Regional Deterministic Reforecast System).\n\n\n\nCaSR simulation domain with station locations2\n\n\n\n\n\n\nCurrent version: v3.1\nTemporal coverage: 1970–2024 - double check once we have the data on PAVICS\nTemporal resolution: Hourly and daily outputs\n\nSpatial coverage: Canada and U.S.\nSpatial resolution: ~10 km grid spacing (0.09˚)\nData type: Reanalysis model assimilating observations (satellites, surface stations, radiosondes, etc.)\nWeb references:  ECCC CaSR Web Site,  Northern Climate Data Report and Inventory (NCDRI) Web Site\nReference publications: See references below\n\n\n\n\n\n\n\n\n\n\n\n\n\nStrength\nDescription\n\n\n\n\nHigh resolution\n~10 km grid spacing provides detailed spatial variability, better than global reanalyses.\n\n\nAssimilation of observations.\nAssimilation of observed precipitation and surface variables.\n\n\nHourly data availability.\nUseful for high-frequency climate and weather analysis.\n\n\nCanada-specific\nOptimized for Canadian climate conditions, including extreme cold and snow processes.\n\n\nDetailed precipitation\nPrecipitation types are distiguished, including freezing rain.Two versions of precipitation are provided: one purely modeled and the reanalysis version that assimilates measured precipitation data are provided.\n\n\nPrecipitation confidence index\nA confidence index for precipitation informs on the weight of observations in the analysis.\n\n\nActive Development\nNew versions and longer temporal record are in preparation.\n\n\nConsistent Historical Record\nSpans over four decades, allowing for trend analysis and climate studies.ToDo: This was communicated for CaSR v2.1; Is this still true for CaSR v3.1?\n\n\n\n\n\n\n\n\n\nLimitation\nDescription\n\n\n\n\nKnown biases\nCaSR is generally too wet and has too much snow. ToDo: Refine; What else?\n\n\nUncommon Georeference\nThe data are made available on a rotated grid which may be difficult to handle. The PAVICS platform hosts a tutorial dedicated to the conversion of rotated grids.\n\n\nLimited Suitability for Trend Analysis\nFor the current version, gaps in observation data and model errors may skew trends found in the dataset.ToDo: This was communicated for CaSR v2.1; Is this still true for CaSR v3.1?.\n\n\nPrecipitation Uncertainties\nCaSR precipitation estimates deviate from observed values when far from stations.\n\n\nLimited to the Surface or Near-Surface\nCaSR provides no data above 40m above surface.\n\n\nComputationally Intensive\nRelatively high-resolution data requires significant storage and processing power for analysis over larger areas. See section on Data Access for workarounds on PAVICS\n\n\n\n\n\n\n\n\n\n\n\n\n\nA detailed discussion to be developed here.\n\n\n\n\n\nLorem ipsum.\n\n\n\n\n\n\nFor details click on variable group to uncollapse\n\n\n\n\n\n\nTemperature\n\n\n\n\n\n\nTemperature [˚C]\nDew point temperature [˚C]\n\nTemperature variables are provided at 1h & 3h frequency and at levels 1.5 m, ~20m, and ~40m. For more details see the respective table on the CaSR web site\n\n\n\n\n\n\n\n\n\nPrecipitation\n\n\n\n\n\n\nQuantity of daily precipitation [m]\nConfidence index of daily precipitation\nQuantity of hourly precipitation [m]\nQuantity of ice pellets (liquid water equivalent) [m]\nQuantity of freezing precipitation (liquid water equivalent) [m]\nQuantity of liquid precipitation [m]\n\nPrecipitation variables are provided at 1h and 24h frequency at the surface level. Two types of precipitation are available, one forecasted by the model and one generated by the offline precipitation reanalysis system. For more details see the section on precipitation fields and the data variables table on the CaSR web site.\n\n\n\n\n\n\n\n\n\nWind\n\n\n\n\n\n\nU-component of the wind (along the grid X axis) [kts]\nV-component of the wind (along the grid Y axis) [kts]\nCorrected U-component of the wind (along West-East direction) [kts]\nCorrected V-component of the wind (along South-North direction) [kts]\nWind Modulus [kts]\nMeteorologial Wind direction [degree]\n\nWind variables are provided at 1h frequency and at levels 10m, ~20m, and ~40m. For more details see the respective table on the CaSR web site\n\n\n\n\n\n\n\n\n\nHumidity\n\n\n\n\n\n\nRelative humidity [%]\nSpecific humidity [kg/kg]\n\nHumidity variables are provided at 1h frequency and at levels 1.5 m, ~20m, and ~40m. For more details see the respective table on the CaSR web site\n\n\n\n\n\n\n\n\n\nRadiation\n\n\n\n\n\n\nDownward solar flux [W/m2]\nSurface incoming infrared flux [W/m2]\n\nRadiation variables are provided at 1h frequency at the surface level. For more details see the respective table on the CaSR web site\n\n\n\n\n\n\n\n\n\nSnow\n\n\n\n\n\n\nWater equivalent of snow depth over land subgrid tile [kg/m2]\nSnow depth over land subgrid tile [cm]\n\nSnow variables are provided at 24h frequency at the surface level. For more details see the respective table on the CaSR web site\n\n\n\n\n\n\n\n\n\nOther Meteorological Variables\n\n\n\n\n\n\nSurface pressure [mb]\nSea level pressure [mb]\nGeopotential height [dam]\n\nThese meteorological variables are provided at 1h frequency and (depending on variable) at surface level, ~20m, and ~40m. For more details see the respective table on the CaSR web site\n\n\n\n\n\n\nlinks to Electricity Sector Activities\n\n\n\nToDo: Point to PAVICS for partial/regional data extraction!\n\n\n\n\n\n1. Gasset, N. et al. A 10 km north american precipitation and land-surface reanalysis based on the GEM atmospheric model. Hydrology and Earth System Sciences 25, 4917–4945 (2021).\n\n\n2. Gasset, N. et al. Réanalyse canadienne de surface (RCaS-CaSR) version 3.1 d’environnement et changement climatique canada (ECCC). (2025).\n\n\n3. Khedhaouiria, G., D. & Bulat, M. Canadian surface reanalysis (CaSR) v3: ECCC hourly 0.1° surface reanalysis across north america. TBD (2025?).",
+>>>>>>> SectorActivities
+    "crumbs": [
+      "Climate Datasets",
+      "Dataset Page Template"
+    ]
+  },
+  {
+<<<<<<< HEAD
+    "objectID": "datasets/Dataset_Template.html#dataset-characteristics",
+    "href": "datasets/Dataset_Template.html#dataset-characteristics",
+    "title": "Dataset Page Template",
+    "section": "",
+    "text": "Current version: lorem ipsum bla bla\nTemporal coverage: lorem ipsum bla bla\nTemporal resolution: lorem ipsum bla bla\nSpatial coverage: lorem ipsum bla bla\nSpatial resolution: lorem ipsum bla bla\nData type: lorem ipsum bla bla\nWeb references:  A link to the web\nReference publications: See references below,",
+=======
+    "objectID": "datasets/reanalysis_data/CaSR.html#summary-description",
+    "href": "datasets/reanalysis_data/CaSR.html#summary-description",
+    "title": "Canadian Surface Reanalysis - CaSR",
+    "section": "",
+    "text": "The Canadian Surface Reanalysis (CaSR) is a high-resolution atmospheric reanalysis dataset produced by Environment and Climate Change Canada (ECCC). CaSR v3.1 is produced by dynamically downscaling ECMWF’s ERA5 global reanalysis using operational models and configurations of ECCC’s operational weather and environmental prediction system to provide historical, high-resolution climate and weather data over North America, with a focus on Canada. Surface observations are integrated through the the Canadian Land Data Assimilation System (CaLDAS) coupled with the Canadian Precipitation Analysis (CaPA). CaSR is a consistent and seamless dataset providing the main meteorological variables coherent with in situ surface observations1. Note that the CaSR dataset was previously known as RDRS (Regional Deterministic Reforecast System).\n\n\n\nCaSR simulation domain with station locations2",
+>>>>>>> SectorActivities
+    "crumbs": [
+      "Climate Datasets",
+      "Dataset Page Template"
+    ]
+  },
+  {
+<<<<<<< HEAD
+    "objectID": "datasets/Dataset_Template.html#strengths-and-limitations",
+    "href": "datasets/Dataset_Template.html#strengths-and-limitations",
+    "title": "Dataset Page Template",
+    "section": "",
+    "text": "Strength\nDescription\n\n\n\n\nStength 1\nlorem ipsum bla bla\n\n\nStength 2\nlorem ipsum bla bla\n\n\nStength 3.\nlorem ipsum bla bla\n\n\n…\n…\n\n\n\n\n\n\n\n\n\nLimitation\nDescription\n\n\n\n\nLimitation 1\nlorem ipsum bla bla\n\n\nLimitation 2\nlorem ipsum bla bla\n\n\nLimitation 3.\nlorem ipsum bla bla\n\n\n…\n…",
+=======
+    "objectID": "datasets/reanalysis_data/CaSR.html#dataset-characteristics",
+    "href": "datasets/reanalysis_data/CaSR.html#dataset-characteristics",
+    "title": "Canadian Surface Reanalysis - CaSR",
+    "section": "",
+    "text": "Current version: v3.1\nTemporal coverage: 1970–2024 - double check once we have the data on PAVICS\nTemporal resolution: Hourly and daily outputs\n\nSpatial coverage: Canada and U.S.\nSpatial resolution: ~10 km grid spacing (0.09˚)\nData type: Reanalysis model assimilating observations (satellites, surface stations, radiosondes, etc.)\nWeb references:  ECCC CaSR Web Site,  Northern Climate Data Report and Inventory (NCDRI) Web Site\nReference publications: See references below",
+>>>>>>> SectorActivities
+    "crumbs": [
+      "Climate Datasets",
+      "Dataset Page Template"
+    ]
+  },
+  {
+<<<<<<< HEAD
+    "objectID": "datasets/Dataset_Template.html#expert-guidance",
+    "href": "datasets/Dataset_Template.html#expert-guidance",
+    "title": "Dataset Page Template",
+    "section": "",
+    "text": "A detailed discussion\n\n\n\n\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+=======
+    "objectID": "datasets/reanalysis_data/CaSR.html#strengths-and-limitations",
+    "href": "datasets/reanalysis_data/CaSR.html#strengths-and-limitations",
+    "title": "Canadian Surface Reanalysis - CaSR",
+    "section": "",
+    "text": "Strength\nDescription\n\n\n\n\nHigh resolution\n~10 km grid spacing provides detailed spatial variability, better than global reanalyses.\n\n\nAssimilation of observations.\nAssimilation of observed precipitation and surface variables.\n\n\nHourly data availability.\nUseful for high-frequency climate and weather analysis.\n\n\nCanada-specific\nOptimized for Canadian climate conditions, including extreme cold and snow processes.\n\n\nDetailed precipitation\nPrecipitation types are distiguished, including freezing rain.Two versions of precipitation are provided: one purely modeled and the reanalysis version that assimilates measured precipitation data are provided.\n\n\nPrecipitation confidence index\nA confidence index for precipitation informs on the weight of observations in the analysis.\n\n\nActive Development\nNew versions and longer temporal record are in preparation.\n\n\nConsistent Historical Record\nSpans over four decades, allowing for trend analysis and climate studies.ToDo: This was communicated for CaSR v2.1; Is this still true for CaSR v3.1?\n\n\n\n\n\n\n\n\n\nLimitation\nDescription\n\n\n\n\nKnown biases\nCaSR is generally too wet and has too much snow. ToDo: Refine; What else?\n\n\nUncommon Georeference\nThe data are made available on a rotated grid which may be difficult to handle. The PAVICS platform hosts a tutorial dedicated to the conversion of rotated grids.\n\n\nLimited Suitability for Trend Analysis\nFor the current version, gaps in observation data and model errors may skew trends found in the dataset.ToDo: This was communicated for CaSR v2.1; Is this still true for CaSR v3.1?.\n\n\nPrecipitation Uncertainties\nCaSR precipitation estimates deviate from observed values when far from stations.\n\n\nLimited to the Surface or Near-Surface\nCaSR provides no data above 40m above surface.\n\n\nComputationally Intensive\nRelatively high-resolution data requires significant storage and processing power for analysis over larger areas. See section on Data Access for workarounds on PAVICS",
+    "crumbs": [
+      "Climate Datasets",
+      "Reanalysis Data",
+      "Canadian Surface Reanalysis - CaSR"
     ]
   },
   {
@@ -1407,18 +2184,44 @@
     "title": "Canadian Surface Reanalysis - CaSR",
     "section": "",
     "text": "A detailed discussion to be developed here.\n\n\n\n\n\nLorem ipsum.",
+>>>>>>> SectorActivities
     "crumbs": [
       "Climate Datasets",
-      "Reanalysis Data",
-      "Canadian Surface Reanalysis - CaSR"
+      "Dataset Page Template"
     ]
   },
   {
-    "objectID": "datasets/reanalysis_data/CaSR.html#references",
-    "href": "datasets/reanalysis_data/CaSR.html#references",
+<<<<<<< HEAD
+    "objectID": "datasets/Dataset_Template.html#available-variables-in-casr",
+    "href": "datasets/Dataset_Template.html#available-variables-in-casr",
+    "title": "Dataset Page Template",
+    "section": "",
+    "text": "For details click on variable group to uncollapse\n\n\n\n\n\n\nTemperature\n\n\n\n\n\n\nTemperature [˚C]\nDew point temperature [˚C]\n\nTemperature variables are provided at 1h & 3h frequency and at levels 1.5 m, ~20m, and ~40m. For more details see the respective table on the CaSR web site\n\n\n\n\n\n\n\n\n\nPrecipitation\n\n\n\n\n\n\nQuantity of daily precipitation (CaPA 24h) [m]\nConfidence index of daily precipitation\nQuantity of hourly precipitation (model) [m]\nQuantity of hourly precipitation (hourly disagregated CaPA 24h/6h) [m]\nQuantity of ice pellets (liquid water equivalent) (model) [m]\nQuantity of freezing precipitation (liquid water equivalent) (model) [m]\nQuantity of liquid precipitation (model) [m]\n\nPrecipitation variables are provided at 1h and 24h frequency at the surface level. For more details see the respective table on the CaSR web site\n\n\n\n\n\n\n\n\n\nWind\n\n\n\n\n\n\nU-component of the wind (along the grid X axis) [kts]\nV-component of the wind (along the grid Y axis) [kts]\nCorrected U-component of the wind (along West-East direction) [kts]\nCorrected V-component of the wind (along South-North direction) [kts]\nWind Modulus (derived using UU and VV) [kts]\nMeteorologial Wind direction (derived using UU and VV) [degree]\n\nWind variables are provided at 1h frequency and at levels 10m, ~20m, and ~40m. For more details see the respective table on the CaSR web site\n\n\n\n\n\n\n\n\n\nHumidity\n\n\n\n\n\n\nRelative humidity [%]\nSpecific humidity [kg/kg]\n\nHumidity variables are provided at 1h frequency and at levels 1.5 m, ~20m, and ~40m. For more details see the respective table on the CaSR web site\n\n\n\n\n\n\n\n\n\nRadiation\n\n\n\n\n\n\nDownward solar flux [W/m2]\nSurface incoming infrared flux [W/m2]\n\nRadiation variables are provided at 1h frequency at the surface level. For more details see the respective table on the CaSR web site\n\n\n\n\n\n\n\n\n\nSnow\n\n\n\n\n\n\nWater equivalent of snow depth over land subgrid tile [kg/m2]\nSnow depth over land subgrid tile [cm]\n\nSnow variables are provided at 24h frequency at the surface level. For more details see the respective table on the CaSR web site\n\n\n\n\n\n\n\n\n\nOther Meteorological Variables\n\n\n\n\n\n\nSurface pressure [mb]\nSea level pressure [mb]\nGeopotential height [dam]\n\nThese meteorological variables are provided at 1h frequency and (depending on variable) at surface level, ~20m, and ~40m. For more details see the respective table on the CaSR web site",
+=======
+    "objectID": "datasets/reanalysis_data/CaSR.html#available-variables-in-casr",
+    "href": "datasets/reanalysis_data/CaSR.html#available-variables-in-casr",
     "title": "Canadian Surface Reanalysis - CaSR",
     "section": "",
-    "text": "1. Gasset, N. et al. A 10 km north american precipitation and land-surface reanalysis based on the GEM atmospheric model. Hydrology and Earth System Sciences 25, 4917–4945 (2021).\n\n\n2. Gasset, N. et al. Réanalyse canadienne de surface (RCaS-CaSR) version 3.1 d’environnement et changement climatique canada (ECCC). (2025).\n\n\n3. Khedhaouiria, G., D. & Bulat, M. Canadian surface reanalysis (CaSR) v3: ECCC hourly 0.1° surface reanalysis across north america. TBD (2025?).",
+    "text": "For details click on variable group to uncollapse\n\n\n\n\n\n\nTemperature\n\n\n\n\n\n\nTemperature [˚C]\nDew point temperature [˚C]\n\nTemperature variables are provided at 1h & 3h frequency and at levels 1.5 m, ~20m, and ~40m. For more details see the respective table on the CaSR web site\n\n\n\n\n\n\n\n\n\nPrecipitation\n\n\n\n\n\n\nQuantity of daily precipitation [m]\nConfidence index of daily precipitation\nQuantity of hourly precipitation [m]\nQuantity of ice pellets (liquid water equivalent) [m]\nQuantity of freezing precipitation (liquid water equivalent) [m]\nQuantity of liquid precipitation [m]\n\nPrecipitation variables are provided at 1h and 24h frequency at the surface level. Two types of precipitation are available, one forecasted by the model and one generated by the offline precipitation reanalysis system. For more details see the section on precipitation fields and the data variables table on the CaSR web site.\n\n\n\n\n\n\n\n\n\nWind\n\n\n\n\n\n\nU-component of the wind (along the grid X axis) [kts]\nV-component of the wind (along the grid Y axis) [kts]\nCorrected U-component of the wind (along West-East direction) [kts]\nCorrected V-component of the wind (along South-North direction) [kts]\nWind Modulus [kts]\nMeteorologial Wind direction [degree]\n\nWind variables are provided at 1h frequency and at levels 10m, ~20m, and ~40m. For more details see the respective table on the CaSR web site\n\n\n\n\n\n\n\n\n\nHumidity\n\n\n\n\n\n\nRelative humidity [%]\nSpecific humidity [kg/kg]\n\nHumidity variables are provided at 1h frequency and at levels 1.5 m, ~20m, and ~40m. For more details see the respective table on the CaSR web site\n\n\n\n\n\n\n\n\n\nRadiation\n\n\n\n\n\n\nDownward solar flux [W/m2]\nSurface incoming infrared flux [W/m2]\n\nRadiation variables are provided at 1h frequency at the surface level. For more details see the respective table on the CaSR web site\n\n\n\n\n\n\n\n\n\nSnow\n\n\n\n\n\n\nWater equivalent of snow depth over land subgrid tile [kg/m2]\nSnow depth over land subgrid tile [cm]\n\nSnow variables are provided at 24h frequency at the surface level. For more details see the respective table on the CaSR web site\n\n\n\n\n\n\n\n\n\nOther Meteorological Variables\n\n\n\n\n\n\nSurface pressure [mb]\nSea level pressure [mb]\nGeopotential height [dam]\n\nThese meteorological variables are provided at 1h frequency and (depending on variable) at surface level, ~20m, and ~40m. For more details see the respective table on the CaSR web site",
+>>>>>>> SectorActivities
+    "crumbs": [
+      "Climate Datasets",
+      "Dataset Page Template"
+    ]
+  },
+  {
+<<<<<<< HEAD
+    "objectID": "datasets/Dataset_Template.html#example-applications",
+    "href": "datasets/Dataset_Template.html#example-applications",
+    "title": "Dataset Page Template",
+    "section": "",
+    "text": "links to Electricity Sector Activities",
+=======
+    "objectID": "datasets/reanalysis_data/CaSR.html#example-applications",
+    "href": "datasets/reanalysis_data/CaSR.html#example-applications",
+    "title": "Canadian Surface Reanalysis - CaSR",
+    "section": "",
+    "text": "links to Electricity Sector Activities",
     "crumbs": [
       "Climate Datasets",
       "Reanalysis Data",
@@ -1438,77 +2241,12 @@
     ]
   },
   {
-    "objectID": "datasets/Dataset_Template.html",
-    "href": "datasets/Dataset_Template.html",
-    "title": "Dataset Page Template",
+    "objectID": "datasets/reanalysis_data/CaSR.html#references",
+    "href": "datasets/reanalysis_data/CaSR.html#references",
+    "title": "Canadian Surface Reanalysis - CaSR",
     "section": "",
-    "text": "This is the template for the structure of all dataset description pages.\nSee markup code for details about how to:\n\nmake collapsable sections\nformat the tables\nintegrate references in a quarto yaml section\n\n\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n\n\n\nA figure for the dataset (source: bibentry)\n\n\nToDo: Like this we can mark stuff to deal with later.\n\n\n\n\nCurrent version: lorem ipsum bla bla\nTemporal coverage: lorem ipsum bla bla\nTemporal resolution: lorem ipsum bla bla\nSpatial coverage: lorem ipsum bla bla\nSpatial resolution: lorem ipsum bla bla\nData type: lorem ipsum bla bla\nWeb references:  A link to the web\nReference publications: See references below,\n\n\n\n\n\n\n\n\n\nStrength\nDescription\n\n\n\n\nStength 1\nlorem ipsum bla bla\n\n\nStength 2\nlorem ipsum bla bla\n\n\nStength 3.\nlorem ipsum bla bla\n\n\n…\n…\n\n\n\n\n\n\n\n\n\nLimitation\nDescription\n\n\n\n\nLimitation 1\nlorem ipsum bla bla\n\n\nLimitation 2\nlorem ipsum bla bla\n\n\nLimitation 3.\nlorem ipsum bla bla\n\n\n…\n…\n\n\n\n\n\n\n\n\n\n\n\n\n\nA detailed discussion\n\n\n\n\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n\n\n\n\n\n\nFor details click on variable group to uncollapse\n\n\n\n\n\n\nVariable 1\n\n\n\n\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\n\n\n\n\n\n\n\n\n\nVariable 2\n\n\n\n\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\n\n\n\n\n\n\n\n\n\nVariable 3\n\n\n\n\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\n\n\n\n\n\n\n\n\n\n…\n\n\n\n\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\n\n\n\n\n\n\nlinks to Electricity Sector Activities\n\n\n\nlinks to access the data\n\n\n\n\n\n1. Gasset, N. et al. A 10 km north american precipitation and land-surface reanalysis based on the GEM atmospheric model. Hydrology and Earth System Sciences 25, 4917–4945 (2021).\n\n\n2. Muñoz-Sabater, J. et al. ERA5-land: A state-of-the-art global reanalysis dataset for land applications. Earth System Science Data 13, 4349–4383 (2021).\n\n\n3. Gasset, N. et al. Réanalyse canadienne de surface (RCaS-CaSR) version 3.1 d’environnement et changement climatique canada (ECCC). (2025).\n\n\n4. Khedhaouiria, G., D. & Bulat, M. Canadian surface reanalysis (CaSR) v3: ECCC hourly 0.1° surface reanalysis across north america. TBD (2025?).",
-    "crumbs": [
-      "Climate Datasets",
-      "Dataset Page Template"
-    ]
-  },
-  {
-    "objectID": "datasets/Dataset_Template.html#summary-description",
-    "href": "datasets/Dataset_Template.html#summary-description",
-    "title": "Dataset Page Template",
-    "section": "",
-    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n\n\n\nA figure for the dataset (source: bibentry)\n\n\nToDo: Like this we can mark stuff to deal with later.",
-    "crumbs": [
-      "Climate Datasets",
-      "Dataset Page Template"
-    ]
-  },
-  {
-    "objectID": "datasets/Dataset_Template.html#dataset-characteristics",
-    "href": "datasets/Dataset_Template.html#dataset-characteristics",
-    "title": "Dataset Page Template",
-    "section": "",
-    "text": "Current version: lorem ipsum bla bla\nTemporal coverage: lorem ipsum bla bla\nTemporal resolution: lorem ipsum bla bla\nSpatial coverage: lorem ipsum bla bla\nSpatial resolution: lorem ipsum bla bla\nData type: lorem ipsum bla bla\nWeb references:  A link to the web\nReference publications: See references below,",
-    "crumbs": [
-      "Climate Datasets",
-      "Dataset Page Template"
-    ]
-  },
-  {
-    "objectID": "datasets/Dataset_Template.html#strengths-and-limitations",
-    "href": "datasets/Dataset_Template.html#strengths-and-limitations",
-    "title": "Dataset Page Template",
-    "section": "",
-    "text": "Strength\nDescription\n\n\n\n\nStength 1\nlorem ipsum bla bla\n\n\nStength 2\nlorem ipsum bla bla\n\n\nStength 3.\nlorem ipsum bla bla\n\n\n…\n…\n\n\n\n\n\n\n\n\n\nLimitation\nDescription\n\n\n\n\nLimitation 1\nlorem ipsum bla bla\n\n\nLimitation 2\nlorem ipsum bla bla\n\n\nLimitation 3.\nlorem ipsum bla bla\n\n\n…\n…",
-    "crumbs": [
-      "Climate Datasets",
-      "Dataset Page Template"
-    ]
-  },
-  {
-    "objectID": "datasets/Dataset_Template.html#expert-guidance",
-    "href": "datasets/Dataset_Template.html#expert-guidance",
-    "title": "Dataset Page Template",
-    "section": "",
-    "text": "A detailed discussion\n\n\n\n\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "crumbs": [
-      "Climate Datasets",
-      "Dataset Page Template"
-    ]
-  },
-  {
-    "objectID": "datasets/Dataset_Template.html#available-variables-in-casr",
-    "href": "datasets/Dataset_Template.html#available-variables-in-casr",
-    "title": "Dataset Page Template",
-    "section": "",
-    "text": "For details click on variable group to uncollapse\n\n\n\n\n\n\nTemperature\n\n\n\n\n\n\nTemperature [˚C]\nDew point temperature [˚C]\n\nTemperature variables are provided at 1h & 3h frequency and at levels 1.5 m, ~20m, and ~40m. For more details see the respective table on the CaSR web site\n\n\n\n\n\n\n\n\n\nPrecipitation\n\n\n\n\n\n\nQuantity of daily precipitation (CaPA 24h) [m]\nConfidence index of daily precipitation\nQuantity of hourly precipitation (model) [m]\nQuantity of hourly precipitation (hourly disagregated CaPA 24h/6h) [m]\nQuantity of ice pellets (liquid water equivalent) (model) [m]\nQuantity of freezing precipitation (liquid water equivalent) (model) [m]\nQuantity of liquid precipitation (model) [m]\n\nPrecipitation variables are provided at 1h and 24h frequency at the surface level. For more details see the respective table on the CaSR web site\n\n\n\n\n\n\n\n\n\nWind\n\n\n\n\n\n\nU-component of the wind (along the grid X axis) [kts]\nV-component of the wind (along the grid Y axis) [kts]\nCorrected U-component of the wind (along West-East direction) [kts]\nCorrected V-component of the wind (along South-North direction) [kts]\nWind Modulus (derived using UU and VV) [kts]\nMeteorologial Wind direction (derived using UU and VV) [degree]\n\nWind variables are provided at 1h frequency and at levels 10m, ~20m, and ~40m. For more details see the respective table on the CaSR web site\n\n\n\n\n\n\n\n\n\nHumidity\n\n\n\n\n\n\nRelative humidity [%]\nSpecific humidity [kg/kg]\n\nHumidity variables are provided at 1h frequency and at levels 1.5 m, ~20m, and ~40m. For more details see the respective table on the CaSR web site\n\n\n\n\n\n\n\n\n\nRadiation\n\n\n\n\n\n\nDownward solar flux [W/m2]\nSurface incoming infrared flux [W/m2]\n\nRadiation variables are provided at 1h frequency at the surface level. For more details see the respective table on the CaSR web site\n\n\n\n\n\n\n\n\n\nSnow\n\n\n\n\n\n\nWater equivalent of snow depth over land subgrid tile [kg/m2]\nSnow depth over land subgrid tile [cm]\n\nSnow variables are provided at 24h frequency at the surface level. For more details see the respective table on the CaSR web site\n\n\n\n\n\n\n\n\n\nOther Meteorological Variables\n\n\n\n\n\n\nSurface pressure [mb]\nSea level pressure [mb]\nGeopotential height [dam]\n\nThese meteorological variables are provided at 1h frequency and (depending on variable) at surface level, ~20m, and ~40m. For more details see the respective table on the CaSR web site",
-    "crumbs": [
-      "Climate Datasets",
-      "Dataset Page Template"
-    ]
-  },
-  {
-    "objectID": "datasets/Dataset_Template.html#example-applications",
-    "href": "datasets/Dataset_Template.html#example-applications",
-    "title": "Dataset Page Template",
-    "section": "",
-    "text": "links to Electricity Sector Activities",
+    "text": "1. Gasset, N. et al. A 10 km north american precipitation and land-surface reanalysis based on the GEM atmospheric model. Hydrology and Earth System Sciences 25, 4917–4945 (2021).\n\n\n2. Gasset, N. et al. Réanalyse canadienne de surface (RCaS-CaSR) version 3.1 d’environnement et changement climatique canada (ECCC). (2025).\n\n\n3. Khedhaouiria, G., D. & Bulat, M. Canadian surface reanalysis (CaSR) v3: ECCC hourly 0.1° surface reanalysis across north america. TBD (2025?).",
+>>>>>>> SectorActivities
     "crumbs": [
       "Climate Datasets",
       "Dataset Page Template"
@@ -1537,6 +2275,7 @@
     ]
   },
   {
+<<<<<<< HEAD
     "objectID": "datasets/Dataset_Template.html#data-access",
     "href": "datasets/Dataset_Template.html#data-access",
     "title": "Dataset Page Template",
@@ -1589,10 +2328,75 @@
     "title": "Adjusted and Homogenized Canadian Climate Data - AHCCD",
     "section": "",
     "text": "1. Vincent, L. A., Hartwell, M. M. & and, X. L. W. A third generation of homogenized temperature for trend analysis and monitoring changes in canada’s climate. Atmosphere-Ocean 58, 173–191 (2020).\n\n\n2. Wan, H., Wang, X. L. & Swail, V. R. A quality assurance system for canadian hourly pressure data. Journal of Applied Meteorology and Climatology 46, 1804–1817 (2007).\n\n\n3. Wan, H., Wang, X. L. & Swail, V. R. Homogenization and trend analysis of canadian near-surface wind speeds. Journal of Climate 23, 1209–1225 (2010).\n\n\n4. Mekis, É. & Vincent, L. A. An overview of the second generation adjusted daily precipitation dataset for trend analysis in canada. Atmosphere-Ocean 49, 163–177 (2011).",
+=======
+    "objectID": "datasets/observed_data/AHCCD_Station_Data.html",
+    "href": "datasets/observed_data/AHCCD_Station_Data.html",
+    "title": "Adjusted and Homogenized Canadian Climate Data - AHCCD",
+    "section": "",
+    "text": "The Adjusted and Homogenized Canadian Climate Data (AHCCD) dataset is a collection of quality-controlled and homogenized historical climate data from Environment and Climate Change Canada (ECCC). It provides long-term station-based observations for temperature and precipitation across Canada. The dataset corrects for non-climatic changes (e.g., station relocations, instrument changes) to ensure consistency and reliability in climate trend analysis.\n\n\n\nAHCCD Temperature Stations; blue: starting date prior to 1990, green: starting date from 1990, red: station closed but more than 30 years of data1\n\n\n\n\n\n\nCurrent version: The dataset is updated annually with the most recent data.\nTemporal coverage: Varies per station and variable, data availability ranging between 1840 and 2019\nTemporal resolution: Annual, seasonal, monthly and daily values\nSpatial coverage: Stations across all Canadian provinces and territories\n\nSpatial resolution: Point locations across Canada\n\nData type: Historical observations from ECCC climate stations, adjusted and homogenized using statistical methods\nWeb references:  Adjusted and Homogenized Canadian Climate Data (AHCCD) Technical documentation: Adjusted and homogenized Canadian climate data (AHCCD)\nReference publications: See references below ToDo: Add recent references\n\n\n\n\n\n\n\n\n\n\n\nStrength\nDescription\n\n\n\n\nHomogenized Time Series\nAdjustments remove artificial shifts due to non-climatic influences, enabling accurate trend analysis.\n\n\nLong-Term Coverage.\nMany stations provide over 100 years of data for studying climate variability and change.\n\n\nNational Consistency\nStandardized methodologies applied across the Canadian network.\n\n\nSupports Climate Indicators\nUsed in the development of Canadian climate change indicators and official climate assessments.\n\n\n\n\n\n\n\n\n\n\n\n\n\nLimitation\nDescription\n\n\n\n\nStation Coverage Gaps\nSparse in some northern or remote regions, limiting spatial completeness.\n\n\nLimited Variables\nFocused mainly on temperature and precipitation; does not include wind, humidity, etc.\n\n\nHistorical Instrumentation Issues\nDespite adjustments, some uncertainties remain from early observational practices.\n\n\nPoint Locations\nStation-based data may not represent broader regional conditions, particularly in more northern station sparse areas where the next station my be far away and in complex terrain where local conditions change over short distances.\n\n\nLimited temporal coverage\nThe lenght of the data records vary by station. There may be gaps in the stations data or a station may have been retired. While the dataset is updated annually, the latest observation data may not have been processed.\n\n\n\n\n\n\n\n\n\n\n\n\nA detailed discussion to be developed here.\n\n\n\n\n\nLorem ipsum.\n\n\n\n\n\n\nFor details click on variable group to uncollapse\n\n\n\n\n\n\nHomogenized surface air temperature\n\n\n\n\n\n\nDaily minimum temperature\nDaily maximum temperature\nDaily minimum temperature\nMonthly, seasonal, and annual mean temperature\n780 locations in Canada\nUnit: ˚C\n\n\n\n\n\n\n\n\n\n\nAdjusted precipitation\n\n\n\n\n\n\nDaily liquid precipitation (rain)\nDaily solid precipitation (snow)\nDaily total precipitation (rain and snow)\nMonthly, seasonal, and annual total precipitation\n467 locations in Canada\nUnit: mm\n\n\n\n\n\n\n\n\n\n\nHomogenized surface wind\n\n\n\n\n\n\nMonthly, seasonal and annual means of hourly wind speed\nEvaluated at standard 10 metre level\n156 locations in Canada\nUnit: km/h\n\n\n\n\n\n\n\n\n\n\nHomogenized sea level and station pressure\n\n\n\n\n\n\nMonthly, seasonal and annual means of hourly sea level and station pressure (hectopascals)\n626 locations in Canada\nEvaluated at standard 10 metre level for 156 locations in Canada\n\n\n\n\n\n\n\nlinks to Electricity Sector Applications\n\n\n\n\nAHCCD station daily data on ClimateData.ca\nClimate data extraction tool (Monthly, seasonal and annual AHCCD station data)\nAHCCD station data on PAVICS\n\n\n\n\n\n\n1. Vincent, L. A., Hartwell, M. M. & and, X. L. W. A third generation of homogenized temperature for trend analysis and monitoring changes in canada’s climate. Atmosphere-Ocean 58, 173–191 (2020).\n\n\n2. Wan, H., Wang, X. L. & Swail, V. R. A quality assurance system for canadian hourly pressure data. Journal of Applied Meteorology and Climatology 46, 1804–1817 (2007).\n\n\n3. Wan, H., Wang, X. L. & Swail, V. R. Homogenization and trend analysis of canadian near-surface wind speeds. Journal of Climate 23, 1209–1225 (2010).\n\n\n4. Mekis, É. & Vincent, L. A. An overview of the second generation adjusted daily precipitation dataset for trend analysis in canada. Atmosphere-Ocean 49, 163–177 (2011).",
     "crumbs": [
       "Climate Datasets",
       "Observational Data",
       "Adjusted and Homogenized Canadian Climate Data - AHCCD"
+    ]
+  },
+  {
+    "objectID": "datasets/observed_data/AHCCD_Station_Data.html#summary-description",
+    "href": "datasets/observed_data/AHCCD_Station_Data.html#summary-description",
+    "title": "Adjusted and Homogenized Canadian Climate Data - AHCCD",
+    "section": "",
+    "text": "The Adjusted and Homogenized Canadian Climate Data (AHCCD) dataset is a collection of quality-controlled and homogenized historical climate data from Environment and Climate Change Canada (ECCC). It provides long-term station-based observations for temperature and precipitation across Canada. The dataset corrects for non-climatic changes (e.g., station relocations, instrument changes) to ensure consistency and reliability in climate trend analysis.\n\n\n\nAHCCD Temperature Stations; blue: starting date prior to 1990, green: starting date from 1990, red: station closed but more than 30 years of data1",
+    "crumbs": [
+      "Climate Datasets",
+      "Observational Data",
+      "Adjusted and Homogenized Canadian Climate Data - AHCCD"
+    ]
+  },
+  {
+    "objectID": "datasets/observed_data/AHCCD_Station_Data.html#dataset-characteristics",
+    "href": "datasets/observed_data/AHCCD_Station_Data.html#dataset-characteristics",
+    "title": "Adjusted and Homogenized Canadian Climate Data - AHCCD",
+    "section": "",
+    "text": "Current version: The dataset is updated annually with the most recent data.\nTemporal coverage: Varies per station and variable, data availability ranging between 1840 and 2019\nTemporal resolution: Annual, seasonal, monthly and daily values\nSpatial coverage: Stations across all Canadian provinces and territories\n\nSpatial resolution: Point locations across Canada\n\nData type: Historical observations from ECCC climate stations, adjusted and homogenized using statistical methods\nWeb references:  Adjusted and Homogenized Canadian Climate Data (AHCCD) Technical documentation: Adjusted and homogenized Canadian climate data (AHCCD)\nReference publications: See references below ToDo: Add recent references",
+    "crumbs": [
+      "Climate Datasets",
+      "Observational Data",
+      "Adjusted and Homogenized Canadian Climate Data - AHCCD"
+    ]
+  },
+  {
+    "objectID": "datasets/observed_data/AHCCD_Station_Data.html#key-strengths-of-ahccd",
+    "href": "datasets/observed_data/AHCCD_Station_Data.html#key-strengths-of-ahccd",
+    "title": "Adjusted and Homogenized Canadian Climate Data - AHCCD",
+    "section": "",
+    "text": "Strength\nDescription\n\n\n\n\nHomogenized Time Series\nAdjustments remove artificial shifts due to non-climatic influences, enabling accurate trend analysis.\n\n\nLong-Term Coverage.\nMany stations provide over 100 years of data for studying climate variability and change.\n\n\nNational Consistency\nStandardized methodologies applied across the Canadian network.\n\n\nSupports Climate Indicators\nUsed in the development of Canadian climate change indicators and official climate assessments.",
+    "crumbs": [
+      "Climate Datasets",
+      "Observational Data",
+      "Adjusted and Homogenized Canadian Climate Data - AHCCD"
+    ]
+  },
+  {
+    "objectID": "datasets/observed_data/AHCCD_Station_Data.html#limitations-of-ahccd",
+    "href": "datasets/observed_data/AHCCD_Station_Data.html#limitations-of-ahccd",
+    "title": "Adjusted and Homogenized Canadian Climate Data - AHCCD",
+    "section": "",
+    "text": "Limitation\nDescription\n\n\n\n\nStation Coverage Gaps\nSparse in some northern or remote regions, limiting spatial completeness.\n\n\nLimited Variables\nFocused mainly on temperature and precipitation; does not include wind, humidity, etc.\n\n\nHistorical Instrumentation Issues\nDespite adjustments, some uncertainties remain from early observational practices.\n\n\nPoint Locations\nStation-based data may not represent broader regional conditions, particularly in more northern station sparse areas where the next station my be far away and in complex terrain where local conditions change over short distances.\n\n\nLimited temporal coverage\nThe lenght of the data records vary by station. There may be gaps in the stations data or a station may have been retired. While the dataset is updated annually, the latest observation data may not have been processed.",
+>>>>>>> SectorActivities
+    "crumbs": [
+      "Climate Datasets",
+      "Observational Data",
+      "Adjusted and Homogenized Canadian Climate Data - AHCCD"
+<<<<<<< HEAD
+    ]
+  },
+  {
+    "objectID": "datasets/observed_data/AHCCD_Station_Data.html#expert-guidance",
+    "href": "datasets/observed_data/AHCCD_Station_Data.html#expert-guidance",
+    "title": "Adjusted and Homogenized Canadian Climate Data - AHCCD",
+    "section": "",
+    "text": "A detailed discussion to be developed here.\n\n\n\n\n\nLorem ipsum.",
+=======
     ]
   },
   {
@@ -1608,6 +2412,20 @@
     ]
   },
   {
+    "objectID": "datasets/observed_data/AHCCD_Station_Data.html#available-variables-in-ahccd",
+    "href": "datasets/observed_data/AHCCD_Station_Data.html#available-variables-in-ahccd",
+    "title": "Adjusted and Homogenized Canadian Climate Data - AHCCD",
+    "section": "",
+    "text": "For details click on variable group to uncollapse\n\n\n\n\n\n\nHomogenized surface air temperature\n\n\n\n\n\n\nDaily minimum temperature\nDaily maximum temperature\nDaily minimum temperature\nMonthly, seasonal, and annual mean temperature\n780 locations in Canada\nUnit: ˚C\n\n\n\n\n\n\n\n\n\n\nAdjusted precipitation\n\n\n\n\n\n\nDaily liquid precipitation (rain)\nDaily solid precipitation (snow)\nDaily total precipitation (rain and snow)\nMonthly, seasonal, and annual total precipitation\n467 locations in Canada\nUnit: mm\n\n\n\n\n\n\n\n\n\n\nHomogenized surface wind\n\n\n\n\n\n\nMonthly, seasonal and annual means of hourly wind speed\nEvaluated at standard 10 metre level\n156 locations in Canada\nUnit: km/h\n\n\n\n\n\n\n\n\n\n\nHomogenized sea level and station pressure\n\n\n\n\n\n\nMonthly, seasonal and annual means of hourly sea level and station pressure (hectopascals)\n626 locations in Canada\nEvaluated at standard 10 metre level for 156 locations in Canada",
+>>>>>>> SectorActivities
+    "crumbs": [
+      "Climate Datasets",
+      "Observational Data",
+      "Adjusted and Homogenized Canadian Climate Data - AHCCD"
+    ]
+  },
+  {
+<<<<<<< HEAD
     "objectID": "datasets/observed_data/NRCanMET_Gridded_Data.html#expert-guidance",
     "href": "datasets/observed_data/NRCanMET_Gridded_Data.html#expert-guidance",
     "title": "Canadian Gridded Climate Dataset - NRCanMET",
@@ -1629,6 +2447,531 @@
       "Climate Datasets",
       "Observational Data",
       "Canadian Gridded Climate Dataset - NRCanMET"
+=======
+    "objectID": "datasets/observed_data/AHCCD_Station_Data.html#example-applications",
+    "href": "datasets/observed_data/AHCCD_Station_Data.html#example-applications",
+    "title": "Adjusted and Homogenized Canadian Climate Data - AHCCD",
+    "section": "",
+    "text": "links to Electricity Sector Applications",
+    "crumbs": [
+      "Climate Datasets",
+      "Observational Data",
+      "Adjusted and Homogenized Canadian Climate Data - AHCCD"
+    ]
+  },
+  {
+    "objectID": "datasets/observed_data/AHCCD_Station_Data.html#data-access",
+    "href": "datasets/observed_data/AHCCD_Station_Data.html#data-access",
+    "title": "Adjusted and Homogenized Canadian Climate Data - AHCCD",
+    "section": "",
+    "text": "AHCCD station daily data on ClimateData.ca\nClimate data extraction tool (Monthly, seasonal and annual AHCCD station data)\nAHCCD station data on PAVICS",
+    "crumbs": [
+      "Climate Datasets",
+      "Observational Data",
+      "Adjusted and Homogenized Canadian Climate Data - AHCCD"
+    ]
+  },
+  {
+    "objectID": "datasets/observed_data/AHCCD_Station_Data.html#references",
+    "href": "datasets/observed_data/AHCCD_Station_Data.html#references",
+    "title": "Adjusted and Homogenized Canadian Climate Data - AHCCD",
+    "section": "",
+    "text": "1. Vincent, L. A., Hartwell, M. M. & and, X. L. W. A third generation of homogenized temperature for trend analysis and monitoring changes in canada’s climate. Atmosphere-Ocean 58, 173–191 (2020).\n\n\n2. Wan, H., Wang, X. L. & Swail, V. R. A quality assurance system for canadian hourly pressure data. Journal of Applied Meteorology and Climatology 46, 1804–1817 (2007).\n\n\n3. Wan, H., Wang, X. L. & Swail, V. R. Homogenization and trend analysis of canadian near-surface wind speeds. Journal of Climate 23, 1209–1225 (2010).\n\n\n4. Mekis, É. & Vincent, L. A. An overview of the second generation adjusted daily precipitation dataset for trend analysis in canada. Atmosphere-Ocean 49, 163–177 (2011).",
+    "crumbs": [
+      "Climate Datasets",
+      "Observational Data",
+      "Adjusted and Homogenized Canadian Climate Data - AHCCD"
+    ]
+  },
+  {
+    "objectID": "datasets/Climate_Datasets_Overview.html",
+    "href": "datasets/Climate_Datasets_Overview.html",
+    "title": "Overview of Climate Data",
+    "section": "",
+    "text": "Note\n\n\n\nThe structure of this section may be organized by:\n\nClimate Variable\nDatasets (Preferred!)\n\nTBD",
+    "crumbs": [
+      "Climate Datasets"
+    ]
+  },
+  {
+    "objectID": "datasets/Climate_Datasets_Overview.html#sources-of-climate-data",
+    "href": "datasets/Climate_Datasets_Overview.html#sources-of-climate-data",
+    "title": "Overview of Climate Data",
+    "section": "Sources of Climate Data",
+    "text": "Sources of Climate Data\nGenerally, climate data can be sourced from historical observation of climate using instrumentation or from climate model simulations. In the context of electricity system planning and design, future climatic conditions should be of primary interest, but observed historical climate data and products derived thereof may also be employed or used in the development of adequate future climate information.\nObserved data is provided as point information at station locations. To provide continuous fields of climate information, station data can be interpolated spatially to produce gridded historical data. They provide a portrait of climate beyond the stations point locations but are impacted by potential interpolation errors, particularly in data sparce regions, or in regions of complex topography (e.g. mountainous areas). The approach that attempts to overcome these drawbacks is the reproduction of historical climate through the combination of a maximum of available climate information with a physical climate simulation approach known as climate reanalysis. Reanalysis products have substantially improved over recent years and are often used as surrogates for observational data in climate science and studies.\nObservational data and reanalysis data provide a representation of the actual evolution and sequence of events as they occurred and provide robust estimates of climate when averaged over climatic periods (usually 30 years). Note, however, that due to natural climate variability, climate estimates would shift with slight temporal shifts of the period, or the data being used.\nSimulated data from climate models used for electricity system planning and design should be sourced from internationally coordinated ensembles of climate model simulations or products derived thereof. These simulations typically cover multiple decades and are available for historical and future periods. They are fully consistent in time and space and are provided on grids. The grid resolution depends on the model or the data product.\nLike observational data, bias-adjusted historical climate simulations may be used to derive climate estimates of historical climate. These estimates will not be identical to climate estimates from observed data yet will generally fall into the range of natural variability of the observed climate. Since climate model simulations extend into the future, estimates for future climate may also be derived. It is important to note that the sequence of events produced by a historical climate simulation is distinct from the sequence of historically observed events, although their respective climate estimate is the robust characteristic they have in common.",
+    "crumbs": [
+      "Climate Datasets"
+    ]
+  },
+  {
+    "objectID": "datasets/Climate_Datasets_Overview.html#summary-of-types-of-climate-datasets",
+    "href": "datasets/Climate_Datasets_Overview.html#summary-of-types-of-climate-datasets",
+    "title": "Overview of Climate Data",
+    "section": "Summary of Types of Climate Datasets",
+    "text": "Summary of Types of Climate Datasets\nThe datasets discussed here can be grouped into the following categories:\n\nObservational data are direct measurements from weather stations. These provide the most accurate and high-resolution temperature records, but their coverage is often limited to specific locations, leading to gaps in certain regions, particularly oceans and remote areas. Temporal gaps in the records may also be found in station data.\nGridded observational datasets address the spatial limitation of station data by interpolating their data across a defined grid, providing more comprehensive spatial coverage. These datasets, such as those produced by national meteorological agencies, offer a balance between accuracy and spatial representation, though uncertainties arise in data-sparse regions.\nReanalysis datasets combine historical observations with climate models to create consistent, long-term reconstructions of the atmosphere. They offer global coverage and high temporal resolution, making them valuable for analyzing past climate conditions and trends. However, reanalysis products rely on model-based data assimilation, which may introduce biases, especially in areas with limited observations.\nClimate model data, often from global climate models (GCMs), simulate temperature under different greenhouse gas scenarios. These projections are essential for understanding future climate patterns and assessing potential impacts. While models provide large-scale trends, they lack the precision of observational data due to their coarse spatial resolution and inherent uncertainties in modeling processes.\n\nTogether, these datasets enable a comprehensive view of both historical and future climate conditions, supporting a wide range of applications in the electricity sector.",
+    "crumbs": [
+      "Climate Datasets"
+    ]
+  },
+  {
+    "objectID": "sectors/planning/demand.html",
+    "href": "sectors/planning/demand.html",
+    "title": "Demand",
+    "section": "",
+    "text": "Electricity demand is a vital component in the planning, operation, and resilience of power systems. Climate change is expected to alter electricity demand patterns by affecting not only patterns of temperature, such as mean temperature, number of temperature extremes, and seasonal variations, but also consumption behaviours across different sectors. Numerous studies project increased cooling demand during hotter summers and reduced heating demand during milder winters as this pattern have been consistently observed across multiple global regions (1,2,3,4,5). The magnitude and direction of these changes are strongly dependent on the region and latitude; for example, countries in warmer climates are expected to see higher overall demand growth due to increased cooling loads (6,7,8). Climate change also affects electricity consumption by sector and temporal demand profiles, including daily and seasonal variations. The residential, commercial, and industrial sectors respond differently to climate drivers (9,10,11). Meanwhile, the timing of electricity demand is shifting as well, with studies projecting changes in peak load hours and seasonal peaks due to rising temperatures and more frequent extreme heat events (1,Fonseca2019?,12).\nTo assess the impacts of climate change on electricity demand, different approaches have been employed. These include the use of climate projections from GCM and RCM combined with downscaling techniques to capture local climatic variability (13,2,Fonseca2019?,14,4). Empirical models, such as regression-bases analyses, have been also used to estimate historical relationships between temperature and electricity use (6,7,3) , while simulation tools and energy-climate models are applied to explore future scenarios under different socio-economic and climatic conditions (9,14,11)."
+  },
+  {
+    "objectID": "sectors/planning/demand.html#climate-change-drivers-and-affected-electricity-demand-parameters",
+    "href": "sectors/planning/demand.html#climate-change-drivers-and-affected-electricity-demand-parameters",
+    "title": "Demand",
+    "section": "Climate change drivers and affected electricity demand parameters",
+    "text": "Climate change drivers and affected electricity demand parameters\n\nIncreased cooling demand in summer, reduced heating demand in winter\nRegional variations: by continents, by latitudes\nDemand parameters\n\nAnnual demand: generation capacity and/or storage capacity\nSize and timing of peak demand: maintenance and construction schedule, supply planning\nSpatial distribution of demand: topology and capacity of the electricity transmission networks.\nSectors: ability to adapt or respond to climate change"
+  },
+  {
+    "objectID": "sectors/planning/demand.html#sectoral-variations-in-demand",
+    "href": "sectors/planning/demand.html#sectoral-variations-in-demand",
+    "title": "Demand",
+    "section": "Sectoral variations in demand",
+    "text": "Sectoral variations in demand\n\nDifferences in demand patterns by sectors, such as residential, industrial, and commercial.\nSeasonal and hourly variations in demand and how these might evolve under climate change"
+  },
+  {
+    "objectID": "sectors/planning/demand.html#methodologies-for-assessing-climate-change-impacts",
+    "href": "sectors/planning/demand.html#methodologies-for-assessing-climate-change-impacts",
+    "title": "Demand",
+    "section": "Methodologies for assessing climate change impacts",
+    "text": "Methodologies for assessing climate change impacts\n\nClimate data: GCMs, RCMs\nDownscaling method: dynamic, statistical\nEmpirical methods: regression analysis\nSimulation models: energy-climate models"
+  },
+  {
+    "objectID": "sectors/planning/demand.html#adaptation-strategies",
+    "href": "sectors/planning/demand.html#adaptation-strategies",
+    "title": "Demand",
+    "section": "Adaptation strategies",
+    "text": "Adaptation strategies\n\nHow to adapt changing demand patterns caused by climate change.\nDemand-side management, energy efficiency measures, grid flexibility."
+  },
+  {
+    "objectID": "sectors/planning/demand.html#references",
+    "href": "sectors/planning/demand.html#references",
+    "title": "Demand",
+    "section": "References",
+    "text": "References\n\nAmonkar, Y., Doss-Gollin, J., Farnham, D. J., Modi, V., & Lall, U. (2023). Differential effects of climate change on average and peak demand for heating and cooling across the contiguous USA. Communications Earth and Environment, 4(1), 1–9. https://doi.org/10.1038/s43247-023-01048-1\nAuffhammer, M., & Aroonruengsawat, A. (2011). Simulating the impacts of climate change, prices and population on California’s residential electricity consumption. Climatic Change, 109(SUPPL. 1), 191–210. https://doi.org/10.1007/s10584-011-0299-y\nAuffhammer, M., Baylis, P., & Hausman, C. H. (2017). Climate change is projected to have severe impacts on the frequency and intensity of peak electricity demand across the United States. Proceedings of the National Academy of Sciences of the United States of America, 114(8), 1886–1891. https://doi.org/10.1073/pnas.1613193114\nBonkaney, A. L., Abiodun, B. J., Sanda, I. S., & Balogun, A. A. (2023). Potential impact of global warming on electricity demand in Niger. Climatic Change, 176(4). https://doi.org/10.1007/s10584-023-03513-4\nDirks, J. A., Gorrissen, W. J., Hathaway, J. H., Skorski, D. C., Scott, M. J., Pulsipher, T. C., Huang, M., Liu, Y., & Rice, J. S. (2015). Impacts of climate change on energy consumption and peak demand in buildings: A detailed regional approach. Energy, 79(C), 20–32. https://doi.org/10.1016/j.energy.2014.08.081\nEmodi, N. V., Chaiechi, T., & Alam Beg, A. B. M. R. (2018). The impact of climate change on electricity demand in Australia. Energy and Environment, 29(7), 1263–1297. https://doi.org/10.1177/0958305X18776538\nFonseca, F. R., Jaramillo, P., Bergés, M., & Severnini, E. (2019). Seasonal effects of climate change on intra-day electricity demand patterns. Climatic Change, 154(3–4), 435–451. https://doi.org/10.1007/s10584-019-02413-w\nLipson, M. J., Thatcher, M., Hart, M. A., & Pitman, A. (2019). Climate change impact on energy demand in building-urban-atmosphere simulations through the 21st century. Environmental Research Letters, 14(12). https://doi.org/10.1088/1748-9326/ab5aa5\nPilli-Sihvola, K., Aatola, P., Ollikainen, M., & Tuomenvirta, H. (2010). Climate change and electricity consumption-Witnessing increasing or decreasing use and costs? Energy Policy, 38(5), 2409–2419. https://doi.org/10.1016/j.enpol.2009.12.033\nRomitti, Y., & Wing, I. S. (2022). Heterogeneous climate change impacts on electricity demand in world cities circa mid-century. Scientific Reports, 12(1). https://doi.org/10.1038/s41598-022-07922-w\nShaik, S. (2024). Contribution of climate change to sector-source energy demand. Energy, 294(January), 130777. https://doi.org/10.1016/j.energy.2024.130777\nTaseska, V., Markovska, N., & Callaway, J. M. (2012). Evaluation of climate change impacts on energy demand. Energy, 48(1), 88–95. https://doi.org/10.1016/j.energy.2012.06.053\nTrotter, I. M., Bolkesjø, T. F., Féres, J. G., & Hollanda, L. (2016). Climate change and electricity demand in Brazil: A stochastic approach. Energy, 102, 596–604. https://doi.org/10.1016/j.energy.2016.02.120\nWood, F. R., Calverley, D., Glynn, S., Mander, S., Conor, W., Kuriakose, J., Hill, F., & Roeder, M. (2015). The impacts of climate change on UK energy demand. Infrastructure Asset Management, 2(3), 107–119. https://doi.org/10.1680/jinam.14.00039\nZachariadis, T., & Hadjinicolaou, P. (2014). The effect of climate change on electricity needs - A case study from Mediterranean Europe. Energy, 76, 899–910. https://doi.org/10.1016/j.energy.2014.09.001"
+  },
+  {
+    "objectID": "sectors/planning/capacity_expansion_modelling.html",
+    "href": "sectors/planning/capacity_expansion_modelling.html",
+    "title": "Capacity Expansion Modelling",
+    "section": "",
+    "text": "Modelling of growth in grid requirements taking demand, supply, costs, etc. as inputs to determine how to best meet demand in the lowest costs method Power Sector Modeling 101",
+    "crumbs": [
+      "Electricity Sector Activities",
+      "Electricity System Planning",
+      "Capacity Expansion Modelling"
+    ]
+  },
+  {
+    "objectID": "sectors/planning/capacity_expansion_modelling.html#description",
+    "href": "sectors/planning/capacity_expansion_modelling.html#description",
+    "title": "Capacity Expansion Modelling",
+    "section": "",
+    "text": "Modelling of growth in grid requirements taking demand, supply, costs, etc. as inputs to determine how to best meet demand in the lowest costs method Power Sector Modeling 101",
+    "crumbs": [
+      "Electricity Sector Activities",
+      "Electricity System Planning",
+      "Capacity Expansion Modelling"
+    ]
+  },
+  {
+    "objectID": "sectors/planning/generation_forecasting.html",
+    "href": "sectors/planning/generation_forecasting.html",
+    "title": "Generation Forecasting",
+    "section": "",
+    "text": "Combination of fuel supply and outages to determine how much generation can be available over a given planning window (Short to Long)",
+    "crumbs": [
+      "Electricity Sector Activities",
+      "Electricity System Planning",
+      "Generation Forecasting"
+    ]
+  },
+  {
+    "objectID": "sectors/planning/generation_forecasting.html#description",
+    "href": "sectors/planning/generation_forecasting.html#description",
+    "title": "Generation Forecasting",
+    "section": "",
+    "text": "Combination of fuel supply and outages to determine how much generation can be available over a given planning window (Short to Long)",
+    "crumbs": [
+      "Electricity Sector Activities",
+      "Electricity System Planning",
+      "Generation Forecasting"
+    ]
+  },
+  {
+    "objectID": "sectors/planning/generation_forecasting.html#hydro",
+    "href": "sectors/planning/generation_forecasting.html#hydro",
+    "title": "Generation Forecasting",
+    "section": "Hydro",
+    "text": "Hydro",
+    "crumbs": [
+      "Electricity Sector Activities",
+      "Electricity System Planning",
+      "Generation Forecasting"
+    ]
+  },
+  {
+    "objectID": "sectors/planning/generation_forecasting.html#nuclear",
+    "href": "sectors/planning/generation_forecasting.html#nuclear",
+    "title": "Generation Forecasting",
+    "section": "Nuclear",
+    "text": "Nuclear",
+    "crumbs": [
+      "Electricity Sector Activities",
+      "Electricity System Planning",
+      "Generation Forecasting"
+    ]
+  },
+  {
+    "objectID": "sectors/planning/generation_forecasting.html#solar",
+    "href": "sectors/planning/generation_forecasting.html#solar",
+    "title": "Generation Forecasting",
+    "section": "Solar",
+    "text": "Solar",
+    "crumbs": [
+      "Electricity Sector Activities",
+      "Electricity System Planning",
+      "Generation Forecasting"
+    ]
+  },
+  {
+    "objectID": "sectors/planning/generation_forecasting.html#thermal",
+    "href": "sectors/planning/generation_forecasting.html#thermal",
+    "title": "Generation Forecasting",
+    "section": "Thermal",
+    "text": "Thermal",
+    "crumbs": [
+      "Electricity Sector Activities",
+      "Electricity System Planning",
+      "Generation Forecasting"
+    ]
+  },
+  {
+    "objectID": "sectors/planning/generation_forecasting.html#wind",
+    "href": "sectors/planning/generation_forecasting.html#wind",
+    "title": "Generation Forecasting",
+    "section": "Wind",
+    "text": "Wind",
+    "crumbs": [
+      "Electricity Sector Activities",
+      "Electricity System Planning",
+      "Generation Forecasting"
+    ]
+  },
+  {
+    "objectID": "sectors/planning/infrastructure_condition_assessment_and_investment_prioritization.html",
+    "href": "sectors/planning/infrastructure_condition_assessment_and_investment_prioritization.html",
+    "title": "Infrastructure Condition Assessment & Investment Prioritization",
+    "section": "",
+    "text": "Based on existing condition of assets (scope to be expanded to include more robust vulnerabilities) and projected changes to hazard exposure, support in the development of investment prioritization."
+  },
+  {
+    "objectID": "sectors/planning/infrastructure_condition_assessment_and_investment_prioritization.html#description",
+    "href": "sectors/planning/infrastructure_condition_assessment_and_investment_prioritization.html#description",
+    "title": "Infrastructure Condition Assessment & Investment Prioritization",
+    "section": "",
+    "text": "Based on existing condition of assets (scope to be expanded to include more robust vulnerabilities) and projected changes to hazard exposure, support in the development of investment prioritization."
+  },
+  {
+    "objectID": "sectors/operations/electrical_system_operations.html",
+    "href": "sectors/operations/electrical_system_operations.html",
+    "title": "Electrical System Operations",
+    "section": "",
+    "text": "Operate the electrical system in real-time to manage several factors including load, generation, exports, imports, line losses, equipment ratings, and contingencies. (MV note: This needs to be refined, just wanted to get something as a placeholder)",
+    "crumbs": [
+      "Electricity Sector Activities",
+      "Operations Planning",
+      "Electrical System Operations"
+    ]
+  },
+  {
+    "objectID": "sectors/operations/electrical_system_operations.html#description",
+    "href": "sectors/operations/electrical_system_operations.html#description",
+    "title": "Electrical System Operations",
+    "section": "",
+    "text": "Operate the electrical system in real-time to manage several factors including load, generation, exports, imports, line losses, equipment ratings, and contingencies. (MV note: This needs to be refined, just wanted to get something as a placeholder)",
+    "crumbs": [
+      "Electricity Sector Activities",
+      "Operations Planning",
+      "Electrical System Operations"
+    ]
+  },
+  {
+    "objectID": "sectors/operations/operations_planning.html",
+    "href": "sectors/operations/operations_planning.html",
+    "title": "Overview of Operations Planning Activities",
+    "section": "",
+    "text": "Note",
+    "crumbs": [
+      "Electricity Sector Activities",
+      "Operations Planning"
+    ]
+  },
+  {
+    "objectID": "sectors/operations/operations_planning.html#summary-of-the-operations-planning",
+    "href": "sectors/operations/operations_planning.html#summary-of-the-operations-planning",
+    "title": "Overview of Operations Planning Activities",
+    "section": "Summary of the Operations Planning",
+    "text": "Summary of the Operations Planning\n\nOutage Scheduling\n… TBD",
+    "crumbs": [
+      "Electricity Sector Activities",
+      "Operations Planning"
+    ]
+  },
+  {
+    "objectID": "sectors/operations/worker_safety.html",
+    "href": "sectors/operations/worker_safety.html",
+    "title": "Worker safety",
+    "section": "",
+    "text": "Incorporate climate hazard evaluation and mitigation into job planning. For work environments imposing elevated risk to climate hazard exposure, this may include implementing appropriate administrative and/or engineering controls such as modifying work schedules to reduce exposure to extreme temperatures.",
+    "crumbs": [
+      "Electricity Sector Activities",
+      "Operations Planning",
+      "Worker safety"
+    ]
+  },
+  {
+    "objectID": "sectors/operations/worker_safety.html#description",
+    "href": "sectors/operations/worker_safety.html#description",
+    "title": "Worker safety",
+    "section": "",
+    "text": "Incorporate climate hazard evaluation and mitigation into job planning. For work environments imposing elevated risk to climate hazard exposure, this may include implementing appropriate administrative and/or engineering controls such as modifying work schedules to reduce exposure to extreme temperatures.",
+    "crumbs": [
+      "Electricity Sector Activities",
+      "Operations Planning",
+      "Worker safety"
+    ]
+  },
+  {
+    "objectID": "sectors/operations/forest_fire_monitoring_and_awareness.html",
+    "href": "sectors/operations/forest_fire_monitoring_and_awareness.html",
+    "title": "Forest Fire Monitoring and Awareness",
+    "section": "",
+    "text": "Use of projections to inform future wildfire resilience investments (e.g. pole wrapping).",
+    "crumbs": [
+      "Electricity Sector Activities",
+      "Operations Planning",
+      "Forest Fire Monitoring and Awareness"
+    ]
+  },
+  {
+    "objectID": "sectors/operations/forest_fire_monitoring_and_awareness.html#description",
+    "href": "sectors/operations/forest_fire_monitoring_and_awareness.html#description",
+    "title": "Forest Fire Monitoring and Awareness",
+    "section": "",
+    "text": "Use of projections to inform future wildfire resilience investments (e.g. pole wrapping).",
+    "crumbs": [
+      "Electricity Sector Activities",
+      "Operations Planning",
+      "Forest Fire Monitoring and Awareness"
+    ]
+  },
+  {
+    "objectID": "sectors/infrastructure/support_supply_chain_decision-making.html",
+    "href": "sectors/infrastructure/support_supply_chain_decision-making.html",
+    "title": "Support supply chain decision-making",
+    "section": "",
+    "text": "Where surplus equipment should be located.",
+    "crumbs": [
+      "Electricity Sector Activities",
+      "Infrastructure Planning and Asset Management",
+      "Support supply chain decision-making"
+    ]
+  },
+  {
+    "objectID": "sectors/infrastructure/support_supply_chain_decision-making.html#description",
+    "href": "sectors/infrastructure/support_supply_chain_decision-making.html#description",
+    "title": "Support supply chain decision-making",
+    "section": "",
+    "text": "Where surplus equipment should be located.",
+    "crumbs": [
+      "Electricity Sector Activities",
+      "Infrastructure Planning and Asset Management",
+      "Support supply chain decision-making"
+    ]
+  },
+  {
+    "objectID": "sectors/infrastructure/infrastructure_design.html",
+    "href": "sectors/infrastructure/infrastructure_design.html",
+    "title": "Infrastructure Design",
+    "section": "",
+    "text": "Parameters used to meet regulatory design criteria, beyond design basis criteria and develop and maintain these assets. Floodplain avoidance/mitigative design.",
+    "crumbs": [
+      "Electricity Sector Activities",
+      "Infrastructure Planning and Asset Management",
+      "Infrastructure Design"
+    ]
+  },
+  {
+    "objectID": "sectors/infrastructure/infrastructure_design.html#description",
+    "href": "sectors/infrastructure/infrastructure_design.html#description",
+    "title": "Infrastructure Design",
+    "section": "",
+    "text": "Parameters used to meet regulatory design criteria, beyond design basis criteria and develop and maintain these assets. Floodplain avoidance/mitigative design.",
+    "crumbs": [
+      "Electricity Sector Activities",
+      "Infrastructure Planning and Asset Management",
+      "Infrastructure Design"
+    ]
+  },
+  {
+    "objectID": "sectors/infrastructure/infrastructure_design.html#hydro",
+    "href": "sectors/infrastructure/infrastructure_design.html#hydro",
+    "title": "Infrastructure Design",
+    "section": "Hydro",
+    "text": "Hydro",
+    "crumbs": [
+      "Electricity Sector Activities",
+      "Infrastructure Planning and Asset Management",
+      "Infrastructure Design"
+    ]
+  },
+  {
+    "objectID": "sectors/infrastructure/infrastructure_design.html#thermal-nuclear",
+    "href": "sectors/infrastructure/infrastructure_design.html#thermal-nuclear",
+    "title": "Infrastructure Design",
+    "section": "Thermal & Nuclear",
+    "text": "Thermal & Nuclear",
+    "crumbs": [
+      "Electricity Sector Activities",
+      "Infrastructure Planning and Asset Management",
+      "Infrastructure Design"
+    ]
+  },
+  {
+    "objectID": "sectors/infrastructure/infrastructure_design.html#transmission-distribution",
+    "href": "sectors/infrastructure/infrastructure_design.html#transmission-distribution",
+    "title": "Infrastructure Design",
+    "section": "Transmission & Distribution",
+    "text": "Transmission & Distribution",
+    "crumbs": [
+      "Electricity Sector Activities",
+      "Infrastructure Planning and Asset Management",
+      "Infrastructure Design"
+    ]
+  },
+  {
+    "objectID": "sectors/infrastructure/infrastructure_planning.html",
+    "href": "sectors/infrastructure/infrastructure_planning.html",
+    "title": "Overview of Infrastruture Planning and Asset Management",
+    "section": "",
+    "text": "Note",
+    "crumbs": [
+      "Electricity Sector Activities",
+      "Infrastructure Planning and Asset Management"
+    ]
+  },
+  {
+    "objectID": "sectors/infrastructure/infrastructure_planning.html#summary-of-the-infrastructure-design",
+    "href": "sectors/infrastructure/infrastructure_planning.html#summary-of-the-infrastructure-design",
+    "title": "Overview of Infrastruture Planning and Asset Management",
+    "section": "Summary of the Infrastructure Design",
+    "text": "Summary of the Infrastructure Design\n\nOutage Scheduling\n… ## Summary of Asset Management",
+    "crumbs": [
+      "Electricity Sector Activities",
+      "Infrastructure Planning and Asset Management"
+    ]
+  },
+  {
+    "objectID": "sectors/infrastructure/construction.html",
+    "href": "sectors/infrastructure/construction.html",
+    "title": "Construction",
+    "section": "",
+    "text": "Plan and construct various assets including hydropower facilities, transmission/distribution lines, electrical stations. Some special consideration may be required for remote locations and seasonality of the construction season. (MV note: This needs to be refined, just wanted to get something as a placeholder)",
+    "crumbs": [
+      "Electricity Sector Activities",
+      "Infrastructure Planning and Asset Management",
+      "Construction"
+    ]
+  },
+  {
+    "objectID": "sectors/infrastructure/construction.html#description",
+    "href": "sectors/infrastructure/construction.html#description",
+    "title": "Construction",
+    "section": "",
+    "text": "Plan and construct various assets including hydropower facilities, transmission/distribution lines, electrical stations. Some special consideration may be required for remote locations and seasonality of the construction season. (MV note: This needs to be refined, just wanted to get something as a placeholder)",
+    "crumbs": [
+      "Electricity Sector Activities",
+      "Infrastructure Planning and Asset Management",
+      "Construction"
+    ]
+  },
+  {
+    "objectID": "sectors/reporting/esg_and_sustainability_reporting.html",
+    "href": "sectors/reporting/esg_and_sustainability_reporting.html",
+    "title": "Environmental, Social & Governance (ESG), Sustainability and Financial Reporting",
+    "section": "",
+    "text": "Reporting and financial disclosures are important accountability instruments for electrical utilities. These reports can be created for a variety of reasons. For example, Crown Corporations may be legal reporting requirements stemming from their empowering legal act, publicly registered and traded corporations must produce financial reports for shareholders and some companies produce voluntary reports to build their social license. There are many different forms climate change related reporting can take for electrical utilities including annual ESG Reports, Sustainability Reports, Climate Change Plans, Corporate Strategies or annual Financial Reports.\nThe genesis of many climate related reports comes for the creation of the Task Force on Climate-related Financial Disclosures (TCFD) started by the Financial Stability Board (FSB) in 2015. The underlying driver for the creation of the TCFD was to provide financial markets “clear, comprehensive, high-quality information on the impacts of cliamte change”. In this way investors, insurers and others in the financial sector could properly understand the risks and opportunities their investments were facing from both the physical impacts of climate changes but also from the climate transition related to policy, legal and market changes to combat climate change. The TCFD produced a recommendation report in 2017(TCFD_Report?) gaining widespread support. Having accomplished it’s task, the TCFD was disbanded in 2023 and the monitoring and progress of climate related disclosures was assigned to the IFRS Foundation. The International Sustainability Standards Board (ISSB) created two financial disclosure standards that incorporated the work of the TCFD. These are IFRS S1 General Requirements fo Disclosure of Sustainability-related Financial Information and IFRS S2 Climate-related Disclosures. These are voluntary international standards that provide guidance on how companies should disclose among other things their climate related risks and adaptation strategies.\nThe Canadian Sustainability Standards Board (CSSB) has released two Canadian Sustainability Disclosure Standards (CSDS) to provide guidance to Canadian companies on financial disclosures. CSDS 1 and CSDS 2 are very closely aligned with the international IFRS S1 and IFRS S2 voluntary reporting standards. These standards are also voluntary for publicly reporting companies until the Canadian Securities Administration (CSA) mandates climate related financial disclosures for Canadian companies. These standards do not apply to all utilities, where Crown Corporations in particular may have their own reporting requirements.\nAmong the key requirements of these standards is the reporting of climate related risks that a electrical utility faces and where possible monitoring those risks and the treatment thereof with metrics and targets. This leads to transparent understanding of risks and progress to addressing those risks. This could include risks related to extreme events impacting infrastructure, climate related changes in generation and revenue profiles or changes in revenue resulting from climate-related impacts.",
+    "crumbs": [
+      "Electricity Sector Activities",
+      "Assurance, Reporting and Disclosures",
+      "Environmental, Social & Governance (ESG), Sustainability and Financial Reporting"
+    ]
+  },
+  {
+    "objectID": "sectors/reporting/esg_and_sustainability_reporting.html#description",
+    "href": "sectors/reporting/esg_and_sustainability_reporting.html#description",
+    "title": "Environmental, Social & Governance (ESG), Sustainability and Financial Reporting",
+    "section": "",
+    "text": "Reporting and financial disclosures are important accountability instruments for electrical utilities. These reports can be created for a variety of reasons. For example, Crown Corporations may be legal reporting requirements stemming from their empowering legal act, publicly registered and traded corporations must produce financial reports for shareholders and some companies produce voluntary reports to build their social license. There are many different forms climate change related reporting can take for electrical utilities including annual ESG Reports, Sustainability Reports, Climate Change Plans, Corporate Strategies or annual Financial Reports.\nThe genesis of many climate related reports comes for the creation of the Task Force on Climate-related Financial Disclosures (TCFD) started by the Financial Stability Board (FSB) in 2015. The underlying driver for the creation of the TCFD was to provide financial markets “clear, comprehensive, high-quality information on the impacts of cliamte change”. In this way investors, insurers and others in the financial sector could properly understand the risks and opportunities their investments were facing from both the physical impacts of climate changes but also from the climate transition related to policy, legal and market changes to combat climate change. The TCFD produced a recommendation report in 2017(TCFD_Report?) gaining widespread support. Having accomplished it’s task, the TCFD was disbanded in 2023 and the monitoring and progress of climate related disclosures was assigned to the IFRS Foundation. The International Sustainability Standards Board (ISSB) created two financial disclosure standards that incorporated the work of the TCFD. These are IFRS S1 General Requirements fo Disclosure of Sustainability-related Financial Information and IFRS S2 Climate-related Disclosures. These are voluntary international standards that provide guidance on how companies should disclose among other things their climate related risks and adaptation strategies.\nThe Canadian Sustainability Standards Board (CSSB) has released two Canadian Sustainability Disclosure Standards (CSDS) to provide guidance to Canadian companies on financial disclosures. CSDS 1 and CSDS 2 are very closely aligned with the international IFRS S1 and IFRS S2 voluntary reporting standards. These standards are also voluntary for publicly reporting companies until the Canadian Securities Administration (CSA) mandates climate related financial disclosures for Canadian companies. These standards do not apply to all utilities, where Crown Corporations in particular may have their own reporting requirements.\nAmong the key requirements of these standards is the reporting of climate related risks that a electrical utility faces and where possible monitoring those risks and the treatment thereof with metrics and targets. This leads to transparent understanding of risks and progress to addressing those risks. This could include risks related to extreme events impacting infrastructure, climate related changes in generation and revenue profiles or changes in revenue resulting from climate-related impacts.",
+    "crumbs": [
+      "Electricity Sector Activities",
+      "Assurance, Reporting and Disclosures",
+      "Environmental, Social & Governance (ESG), Sustainability and Financial Reporting"
+    ]
+  },
+  {
+    "objectID": "sectors/reporting/esg_and_sustainability_reporting.html#climate-data-used",
+    "href": "sectors/reporting/esg_and_sustainability_reporting.html#climate-data-used",
+    "title": "Environmental, Social & Governance (ESG), Sustainability and Financial Reporting",
+    "section": "Climate Data Used",
+    "text": "Climate Data Used\nClimate data is generally not directly or uniquely used ESG or Financial Reporting. These reports aggregate information from other electricity sector activities. For example, a report could disclose changes in generation revenue coming from Generation Planning or risks to physical assets assessed during infrastructure assessments and further assessed in enterprise risk management practices.",
+    "crumbs": [
+      "Electricity Sector Activities",
+      "Assurance, Reporting and Disclosures",
+      "Environmental, Social & Governance (ESG), Sustainability and Financial Reporting"
+    ]
+  },
+  {
+    "objectID": "sectors/reporting/esg_and_sustainability_reporting.html#gaps",
+    "href": "sectors/reporting/esg_and_sustainability_reporting.html#gaps",
+    "title": "Environmental, Social & Governance (ESG), Sustainability and Financial Reporting",
+    "section": "Gaps",
+    "text": "Gaps\nThis practice remains relatively new to utilities. It was recognized by TCFD and subsequent standards that climate-related disclosures would be a journey that requires multiple iterations. Gaps and recommendations in key sections where climate data is used that contribute to these reports should be reviewed.",
+    "crumbs": [
+      "Electricity Sector Activities",
+      "Assurance, Reporting and Disclosures",
+      "Environmental, Social & Governance (ESG), Sustainability and Financial Reporting"
+    ]
+  },
+  {
+    "objectID": "sectors/reporting/esg_and_sustainability_reporting.html#recommendations",
+    "href": "sectors/reporting/esg_and_sustainability_reporting.html#recommendations",
+    "title": "Environmental, Social & Governance (ESG), Sustainability and Financial Reporting",
+    "section": "Recommendations",
+    "text": "Recommendations\nNot Applicable",
+    "crumbs": [
+      "Electricity Sector Activities",
+      "Assurance, Reporting and Disclosures",
+      "Environmental, Social & Governance (ESG), Sustainability and Financial Reporting"
+    ]
+  },
+  {
+    "objectID": "sectors/reporting/esg_and_sustainability_reporting.html#references",
+    "href": "sectors/reporting/esg_and_sustainability_reporting.html#references",
+    "title": "Environmental, Social & Governance (ESG), Sustainability and Financial Reporting",
+    "section": "References",
+    "text": "References",
+    "crumbs": [
+      "Electricity Sector Activities",
+      "Assurance, Reporting and Disclosures",
+      "Environmental, Social & Governance (ESG), Sustainability and Financial Reporting"
+>>>>>>> SectorActivities
     ]
   }
 ]
