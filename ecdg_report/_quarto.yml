@@ -22,13 +22,13 @@ website:
     #search: true
     contents:
       - Introduction.ipynb
-      - section: "Climat change impacts on electricity systems"
-        contents:
-        - section: "Generation"
-          contents:
-        - section: "Transmission and distribution"
-          contents:
-        - literature_review/demand.ipynb
+      # - section: "Literature Review" # was: Climate Change Impacts on Electricity Systems
+      #   contents:
+      #   - section: "Generation"
+      #     contents:
+      #   - section: "Transmission and distribution"
+      #     contents:
+      #   - literature_review/demand.ipynb
       - section: "Electricity Sector Activities"
         href: sectors/electricity_sector_activities.ipynb
         contents:
@@ -96,11 +96,7 @@ format:
     toc-title: Content
     toc-expand: 0
     code-fold: true
-<<<<<<< HEAD
-    csl: styles/nature.csl 
-=======
     csl: styles/nature.csl
->>>>>>> SectorActivities
     # csl: styles/elsevier-harvard.csl
     # citation-style: numeric
     # cite-method: biblatex
