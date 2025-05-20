@@ -1,6 +1,8 @@
 project:
   type: website
   output-dir: ../html
+  resources:
+    - link-target.js  # This ensures it gets copied to output
 
 website:
   title: "Climate Data for the Electricity Sector"
@@ -13,49 +15,25 @@ website:
     collapse-level: 1
     #search: true
     contents:
-      - text: "Introduction"
-        href: Introduction.ipynb
+      - Introduction.ipynb
+      - section: "Climat change impacts on electricity systems"
         contents:
-          - section: "Climat change impacts on electricity systems"
-            contents:
-            - section: "Generation"
-              contents:
-            - section: "Transmission and distribution"
-              contents:
-            - section: "Demand"
-              href: 
-              contents:
-          - section: "Integration of climate data in electricity system planning"
-            contents:
-              - section: "Forecasting with climate data"
-                contents:
-              - section: "Tools and models"
-                contents:
-              - section: "Uncertainty management"
-                contents:
+        - section: "Generation"
+          contents:
+        - section: "Transmission and distribution"
+          contents:
+        - literature_review/demand.ipynb
+      #     - section: "Integration of climate data in electricity system planning"
+      #       contents:
+      #         - section: "Forecasting with climate data"
+      #           contents:
+      #         - section: "Tools and models"
+      #           contents:
+      #         - section: "Uncertainty management"
+      #           contents:
       - section: "Electricity Sector Activities"
         href: sectors/electricity_sector_activities.ipynb
         contents:
-          # - sectors/construction.ipynb
-          # - sectors/infrastructure_design.ipynb
-          # - sectors/construction.ipynb
-          # - sectors/infrastructure_design.ipynb
-          # - sectors/vegetation_management.ipynb
-          # - sectors/demand_forecasting.ipynb
-          # - sectors/electrical_system_operations.ipynb
-          # - sectors/generation_forecasting.ipynb
-          # - sectors/infrastructure_condition_assessment_and_investment_prioritization.ipynb
-          # - sectors/outage_scheduling.ipynb
-          # - sectors/resource_adequacy_planning.ipynb
-          # - sectors/forest_fire_monitoring_and_awareness.ipynb
-          # - sectors/capacity_expansion_modelling.ipynb
-          # - sectors/dam_safety_review.ipynb
-          # - sectors/nuclear_safety_review.ipynb
-          # - sectors/esg_and_sustainability_reporting.ipynb
-          # - sectors/licensing_and_impact-environmental_assessments.ipynb
-          # - sectors/proactive_management_of_heavily_loaded_assets.ipynb
-          # - sectors/support_supply_chain_decision-making.ipynb
-          # - sectors/worker_safety.ipynb
           - sectors/capacity_expansion_modelling.ipynb
           - sectors/construction.ipynb
           - sectors/dam_safety_review.ipynb
@@ -84,6 +62,7 @@ website:
             href: datasets/observed_data/Observational_Datasets.ipynb
             contents:
               - datasets/observed_data/AHCCD_Station_Data.ipynb
+              - datasets/observed_data/NRCanMET_Gridded_Data.ipynb
           - section: "Reanalysis Data"
             href: datasets/reanalysis_data/Reanalysis_Datasets.ipynb
             contents:
@@ -92,11 +71,11 @@ website:
           - section: "Climate Projection Data"
             href: datasets/climate_projection_data/Climate_Projection_Datasets.ipynb
             contents:
-            - datasets/climate_projection_data/ESPO-G6_Dataset.ipynb
+              - datasets/climate_projection_data/ESPO-G6_Dataset.ipynb
           - section: "Analysis Support Tools"
             href: datasets/tools/Analysis_Support_Tools.ipynb
             contents:
-            - datasets/tools/Point_Location_Compare.ipynb
+              - datasets/tools/Point_Location_Compare.ipynb
 
 format:
   html:
@@ -106,6 +85,13 @@ format:
     toc-title: Content
     toc-expand: 0
     code-fold: true
+    include-after-body: link-target.js
+
+bibliography:
+  - reference.bib
+
+
+
 
 
 
