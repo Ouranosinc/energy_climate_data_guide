@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Adjusted and Homogenized Canadian Climate Data (AHCCD) – Climate Data for the Electricity Sector</title>
+<title>ahccd_station_data – Climate Data for the Electricity Sector</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,7 +20,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
@@ -70,7 +90,7 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<link rel="stylesheet" href="../../styles.css">
+<link rel="stylesheet" href="../../styles/styles.css">
 </head>
 
 <body class="nav-sidebar docked">
@@ -82,7 +102,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../datasets/Climate_Dataset_Overview.html">Climate Datasets</a></li><li class="breadcrumb-item"><a href="../../datasets/observed_data/Observational_Datasets.html">Observational Data</a></li><li class="breadcrumb-item"><a href="../../datasets/observed_data/AHCCD_Station_Data.html">Adjusted and Homogenized Canadian Climate Data (AHCCD)</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../datasets/Climate_Datasets_Overview.html">Climate Datasets</a></li><li class="breadcrumb-item"><a href="../../datasets/observed_data/Observational_Datasets.html">Observational Data</a></li><li class="breadcrumb-item"><a href="../../datasets/observed_data/AHCCD_Station_Data.html">Adjusted and Homogenized Canadian Climate Data - AHCCD</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -115,188 +135,207 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="false">
- <span class="menu-text">Climat change impacts on electricity systems</span></a>
+            <a href="../../sectors/electricity_sector_activities.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Electricity Sector Activities</span></a>
           <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item sidebar-item-section">
-      <span class="sidebar-item-text sidebar-link text-start">
- <span class="menu-text">Generation</span></span>
-  </li>
-          <li class="sidebar-item sidebar-item-section">
-      <span class="sidebar-item-text sidebar-link text-start">
- <span class="menu-text">Transmission and distribution</span></span>
-  </li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../literature_review/demand.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Demand</span></a>
-  </div>
-</li>
-      </ul>
-  </li>
-        <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="../../sectors/electricity_sector_activities.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Electricity Sector Activities</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <a href="../../sectors/planning/grid_planning.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Electricity System Planning</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 ">  
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth2 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../sectors/capacity_expansion_modelling.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Capacity Expansion Modelling</span></a>
+  <a href="../../sectors/planning/demand_forecasting.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Demand</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../sectors/construction.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Construction</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../sectors/dam_safety_review.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Dam Safety Review</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../sectors/demand_forecasting.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Demand Forecasting</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../sectors/electrical_system_operations.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Electrical System Operations</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../sectors/enterprise_risk_management.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Enterprise Risk Management</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../sectors/esg_and_sustainability_reporting.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">ESG &amp; Sustainability Reporting</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../sectors/forest_fire_monitoring_and_awareness.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Forest Fire Monitoring and Awareness</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../sectors/generation_forecasting.html" class="sidebar-item-text sidebar-link">
+  <a href="../../sectors/planning/generation_forecasting.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Generation Forecasting</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../sectors/infrastructure_condition_assessment_and_investment_prioritization.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Infrastructure Condition Assessment &amp; Investment Prioritization</span></a>
+  <a href="../../sectors/planning/capacity_expansion_modelling.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Capacity Expansion Modelling</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../sectors/infrastructure_design.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Infrastructure Design</span></a>
+  <a href="../../sectors/planning/resource_adequacy_planning.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Resource Adequacy Planning</span></a>
   </div>
 </li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../../sectors/operations/operations_planning.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Operations Planning</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth2 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../sectors/infrastructure_design.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Infrastructure Design</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../sectors/licensing_and_impact-environmental_assessments.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Licensing &amp; Impact/Environmental Assessments</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../sectors/nuclear_safety_review.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Nuclear Safety Reviews</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../sectors/outage_scheduling.html" class="sidebar-item-text sidebar-link">
+  <a href="../../sectors/operations/outage_scheduling.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Outage Scheduling</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../sectors/proactive_management_of_heavily_loaded_assets.html" class="sidebar-item-text sidebar-link">
+  <a href="../../sectors/operations/proactive_management_of_heavily_loaded_assets.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Proactive management of heavily loaded assets</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../sectors/resource_adequacy_planning.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Resource Adequacy Planning</span></a>
+  <a href="../../sectors/operations/electrical_system_operations.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Electrical System Operations</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../sectors/support_supply_chain_decision-making.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Support supply chain decision-making</span></a>
+  <a href="../../sectors/operations/forest_fire_monitoring_and_awareness.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Forest Fire Monitoring and Awareness</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../sectors/vegetation_management.html" class="sidebar-item-text sidebar-link">
+  <a href="../../sectors/operations/vegetation_management.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Vegetation Management</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../sectors/worker_safety.html" class="sidebar-item-text sidebar-link">
+  <a href="../../sectors/operations/worker_safety.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Worker safety</span></a>
   </div>
 </li>
       </ul>
   </li>
-        <li class="sidebar-item sidebar-item-section">
+          <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="../../datasets/Climate_Dataset_Overview.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Climate Datasets</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <a href="../../sectors/infrastructure/infrastructure_planning.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Infrastructure Planning and Asset Management</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth1 show">  
+      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../sectors/infrastructure/construction.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Construction</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../sectors/infrastructure/dam_safety_review.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Dam Safety</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../sectors/infrastructure/infrastructure_condition_assessment_and_investment_prioritization.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Infrastructure Condition Assessment &amp; Investment Prioritization</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../sectors/infrastructure/infrastructure_design.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Infrastructure Design</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../sectors/infrastructure/nuclear_safety_review.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Nuclear Safety Reviews</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../sectors/infrastructure/licensing_and_impact-environmental_assessments.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Licensing &amp; Impact/Environmental Assessments</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../sectors/infrastructure/support_supply_chain_decision-making.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Support supply chain decision-making</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="../../datasets/observed_data/Observational_Datasets.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Observational Data</span></a>
+            <a href="../../sectors/reporting/reporting_disclosure.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Assurance, Reporting and Disclosures</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../sectors/reporting/esg_and_sustainability_reporting.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Environmental, Social &amp; Governance (ESG), Sustainability and Financial Reporting</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../sectors/reporting/enterprise_risk_management.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Enterprise Risk Management</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../../datasets/Climate_Datasets_Overview.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Climate Datasets</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-6" class="collapse list-unstyled sidebar-section depth2 show">  
+      <ul id="quarto-sidebar-section-6" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../datasets/Dataset_Template.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Dataset Page Template</span></a>
+  </div>
+</li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../../datasets/observed_data/Observational_Datasets.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Observational Data</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-7" class="collapse list-unstyled sidebar-section depth2 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../datasets/observed_data/AHCCD_Station_Data.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">Adjusted and Homogenized Canadian Climate Data (AHCCD)</span></a>
+ <span class="menu-text">Adjusted and Homogenized Canadian Climate Data - AHCCD</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../datasets/observed_data/NRCanMET_Gridded_Data.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">ANUSPLIN Canadian Gridded Climate Dataset (NRCanMET)</span></a>
+ <span class="menu-text">Canadian Gridded Climate Dataset - NRCanMET</span></a>
   </div>
 </li>
       </ul>
@@ -305,21 +344,21 @@ ul.task-list li input[type="checkbox"] {
       <div class="sidebar-item-container"> 
             <a href="../../datasets/reanalysis_data/Reanalysis_Datasets.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Reanalysis Data</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" role="navigation" aria-expanded="false" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-8" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-7" class="collapse list-unstyled sidebar-section depth2 ">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../datasets/reanalysis_data/ERA5-Land.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">ECMWF ERA5-Land</span></a>
-  </div>
-</li>
+      <ul id="quarto-sidebar-section-8" class="collapse list-unstyled sidebar-section depth2 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../datasets/reanalysis_data/CaSR.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Canadian Surface Reanalysis - CaSR</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../datasets/reanalysis_data/ERA5-Land.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">ECMWF ERA5-Land</span></a>
   </div>
 </li>
       </ul>
@@ -328,11 +367,11 @@ ul.task-list li input[type="checkbox"] {
       <div class="sidebar-item-container"> 
             <a href="../../datasets/climate_projection_data/Climate_Projection_Datasets.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Climate Projection Data</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-8" role="navigation" aria-expanded="false" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-9" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-8" class="collapse list-unstyled sidebar-section depth2 ">  
+      <ul id="quarto-sidebar-section-9" class="collapse list-unstyled sidebar-section depth2 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../datasets/climate_projection_data/ESPO-G6_Dataset.html" class="sidebar-item-text sidebar-link">
@@ -345,11 +384,11 @@ ul.task-list li input[type="checkbox"] {
       <div class="sidebar-item-container"> 
             <a href="../../datasets/tools/Analysis_Support_Tools.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Analysis Support Tools</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-9" role="navigation" aria-expanded="false" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-10" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-9" class="collapse list-unstyled sidebar-section depth2 ">  
+      <ul id="quarto-sidebar-section-10" class="collapse list-unstyled sidebar-section depth2 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../datasets/tools/Point_Location_Compare.html" class="sidebar-item-text sidebar-link">
@@ -370,96 +409,144 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Content</h2>
    
   <ul>
-  <li><a href="#summary-description" id="toc-summary-description" class="nav-link active" data-scroll-target="#summary-description">Summary Description</a></li>
+  <li><a href="#adjusted-and-homogenized-canadian-climate-data---ahccd" id="toc-adjusted-and-homogenized-canadian-climate-data---ahccd" class="nav-link active" data-scroll-target="#adjusted-and-homogenized-canadian-climate-data---ahccd">Adjusted and Homogenized Canadian Climate Data - AHCCD</a>
+  <ul class="collapse">
+  <li><a href="#summary-description" id="toc-summary-description" class="nav-link" data-scroll-target="#summary-description">Summary Description</a></li>
   <li><a href="#dataset-characteristics" id="toc-dataset-characteristics" class="nav-link" data-scroll-target="#dataset-characteristics">Dataset Characteristics</a></li>
   <li><a href="#key-strengths-of-ahccd" id="toc-key-strengths-of-ahccd" class="nav-link" data-scroll-target="#key-strengths-of-ahccd">Key Strengths of AHCCD</a></li>
   <li><a href="#limitations-of-ahccd" id="toc-limitations-of-ahccd" class="nav-link" data-scroll-target="#limitations-of-ahccd">Limitations of AHCCD</a></li>
+  <li><a href="#expert-guidance" id="toc-expert-guidance" class="nav-link" data-scroll-target="#expert-guidance">Expert Guidance</a></li>
   <li><a href="#available-variables-in-ahccd" id="toc-available-variables-in-ahccd" class="nav-link" data-scroll-target="#available-variables-in-ahccd">Available Variables in AHCCD</a></li>
   <li><a href="#example-applications" id="toc-example-applications" class="nav-link" data-scroll-target="#example-applications">Example Applications</a></li>
+  <li><a href="#data-access" id="toc-data-access" class="nav-link" data-scroll-target="#data-access">Data Access</a></li>
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../datasets/Climate_Dataset_Overview.html">Climate Datasets</a></li><li class="breadcrumb-item"><a href="../../datasets/observed_data/Observational_Datasets.html">Observational Data</a></li><li class="breadcrumb-item"><a href="../../datasets/observed_data/AHCCD_Station_Data.html">Adjusted and Homogenized Canadian Climate Data (AHCCD)</a></li></ol></nav>
-<div class="quarto-title">
-<h1 class="title">Adjusted and Homogenized Canadian Climate Data (AHCCD)</h1>
-</div>
 
 
 
-<div class="quarto-title-meta">
-
-    
-  
-    
-  </div>
-  
-
-
-</header>
-
-
+<section id="adjusted-and-homogenized-canadian-climate-data---ahccd" class="level1">
+<h1>Adjusted and Homogenized Canadian Climate Data - AHCCD</h1>
 <section id="summary-description" class="level2">
 <h2 class="anchored" data-anchor-id="summary-description">Summary Description</h2>
 <p>The Adjusted and Homogenized Canadian Climate Data (AHCCD) dataset is a collection of quality-controlled and homogenized historical climate data from Environment and Climate Change Canada (ECCC). It provides long-term station-based observations for temperature and precipitation across Canada. The dataset corrects for non-climatic changes (e.g., station relocations, instrument changes) to ensure consistency and reliability in climate trend analysis.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="../../image/AHCCD_temperature_stations.jpg" title="AHCCD Temperature Stations" class="img-fluid figure-img" alt="AHCCD_temperature_stations" width="600"></p>
-<figcaption>AHCCD Temperature Stations; blue: starting date prior to 1990, green: starting date from 1990, red: station closed but more than 30 years of data (Vincent et al., 2020)</figcaption>
+<p><img src="../image/AHCCD_temperature_stations.jpg" title="AHCCD Temperature Stations" class="img-fluid figure-img" alt="AHCCD_temperature_stations" width="600"></p>
+<figcaption>AHCCD Temperature Stations; blue: starting date prior to 1990, green: starting date from 1990, red: station closed but more than 30 years of data (figure taken from Vincent et al.&nbsp;(2020))<span class="citation" data-cites="Vincent2020"><sup><a href="#ref-Vincent2020" role="doc-biblioref">1</a></sup></span></figcaption>
 </figure>
 </div>
 </section>
 <section id="dataset-characteristics" class="level2">
 <h2 class="anchored" data-anchor-id="dataset-characteristics">Dataset Characteristics</h2>
 <ul>
-<li><strong>Current version:</strong> The dataset us updated annually with the most recent data.</li>
-<li><strong>Time period:</strong> Varies per station and variable, data availability ranging between 1840 and 2019</li>
+<li><strong>Current version:</strong> The dataset is updated annually with the most recent data.</li>
+<li><strong>Temporal coverage:</strong> Varies per station and variable, data availability ranging between 1840 and 2019</li>
+<li><strong>Temporal resolution:</strong> Annual, seasonal, monthly and daily values</li>
+<li><strong>Spatial coverage:</strong> Stations across all Canadian provinces and territories<br>
+</li>
 <li><strong>Spatial resolution:</strong> Point locations across Canada<br>
 </li>
-<li><strong>Temporal resolution:</strong> Annual, seasonal, monthly and daily values</li>
-<li><strong>Coverage:</strong> Stations across all Canadian provinces and territories<br>
-</li>
 <li><strong>Data type</strong>: Historical observations from ECCC climate stations, adjusted and homogenized using statistical methods</li>
-<li><strong>Web reference:</strong> <a href="https://open.canada.ca/data/en/dataset/9c4ebc00-3ea4-4fe0-8bf2-66cfe1cddd1d">Adjusted and Homogenized Canadian Climate Data (AHCCD)</a></li>
-<li><strong>Technical documentation:</strong> <a href="https://www.canada.ca/en/environment-climate-change/services/climate-change/canadian-centre-climate-services/display-download/technical-documentation-adjusted-climate-data.html">Technical documentation: Adjusted and homogenized Canadian climate data (AHCCD)</a></li>
-<li><strong>Data access:</strong> <a href="https://climatedata.ca/download/#ahccd-download">On ClimateData.ca (daily data)</a>, <a href="https://climate-change.canada.ca/climate-data/#/adjusted-station-data">Climate data extraction tool (Monthly, seasonal and annual data)</a></li>
-<li><strong>Reference publications:</strong> <br> <a href="https://doi.org/10.1080/07055900.2020.1765728">Vincent, L.A., M.M. Hartwell, and W. L. Wang, 2020: A Third Generation of Homogenized Temperature for Trend Analysis and Monitoring Changes in Canada’s Climate. Atmosphere-Ocean.</a>,<br> <a href="https://doi.org/10.1080/07055900.2011.583910">Mekis, É. and L.A. Vincent, 2011: An overview of the second generation adjusted daily precipitation dataset for trend analysis in Canada. Atmosphere-Ocean, 49(2), 163-177.</a>,<br> <a href="https://doi.org/10.1175/2009JCLI3200.1">Wan, H., X. L. Wang, V. R. Swail, 2010: Homogenization and trend analysis of Canadian near-surface wind speeds. Journal of Climate, 23, 1209-1225.</a>,<br> <a href="https://crd-data-donnees-rdc.ec.gc.ca/CDAS/products/AHCCD/ZWan_Wang_Swail_Quality_Assurance_of_Hourly_Pressure_JAMC_2007.pdf">Wan, H., X. L. Wang, V. R. Swail, 2007: A quality assurance system for Canadian hourly pressure data. J. Appl. Meteor. Climatol., 46, 1804-1817.</a></li>
+<li><strong>Web references:</strong> <br> <a href="https://open.canada.ca/data/en/dataset/9c4ebc00-3ea4-4fe0-8bf2-66cfe1cddd1d">Adjusted and Homogenized Canadian Climate Data (AHCCD)</a><br> <a href="https://www.canada.ca/en/environment-climate-change/services/climate-change/canadian-centre-climate-services/display-download/technical-documentation-adjusted-climate-data.html">Technical documentation: Adjusted and homogenized Canadian climate data (AHCCD)</a></li>
+<li><strong>Reference publications:</strong><br> <a href="#refs">See references below</a> <span class="mark-red"><strong>ToDo:</strong> Add recent references</span></li>
 </ul>
 </section>
 <section id="key-strengths-of-ahccd" class="level2">
 <h2 class="anchored" data-anchor-id="key-strengths-of-ahccd">Key Strengths of AHCCD</h2>
-<ul>
-<li><strong>Homogenized Time Series:</strong> Adjustments remove artificial shifts due to non-climatic influences, enabling accurate trend analysis.<br>
-</li>
-<li><strong>Long-Term Coverage:</strong> Many stations provide over 100 years of data for studying climate variability and change.<br>
-</li>
-<li><strong>National Consistency:</strong> Standardized methodologies applied across the Canadian network.<br>
-</li>
-<li><strong>Open Access</strong>: Freely available for public, academic, and government use.<br>
-</li>
-<li><strong>Supports Climate Indicators:</strong> Used in the development of Canadian climate change indicators and official climate assessments.</li>
-</ul>
+<table class="tbl table-striped table-light table-sm small caption-top table">
+<thead>
+<tr class="header">
+<th>Strength</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Homogenized Time Series</strong></td>
+<td>Adjustments remove artificial shifts due to non-climatic influences, enabling accurate trend analysis.</td>
+</tr>
+<tr class="even">
+<td><strong>Long-Term Coverage</strong>.</td>
+<td>Many stations provide over 100 years of data for studying climate variability and change.</td>
+</tr>
+<tr class="odd">
+<td><strong>National Consistency</strong></td>
+<td>Standardized methodologies applied across the Canadian network.</td>
+</tr>
+<tr class="even">
+<td><strong>Data Source for ECCC’s Climate Indicators</strong></td>
+<td>Used in the development of <a href="https://www.canada.ca/en/environment-climate-change/services/environmental-indicators/climate.html">Canadian climate change indicators</a> and official climate assessments.</td>
+</tr>
+</tbody>
+</table>
 </section>
 <section id="limitations-of-ahccd" class="level2">
 <h2 class="anchored" data-anchor-id="limitations-of-ahccd">Limitations of AHCCD</h2>
-<ul>
-<li><strong>Station Coverage Gaps:</strong> Sparse in some northern or remote regions, limiting spatial completeness.<br>
-</li>
-<li><strong>Limited Variables:</strong> Focused mainly on temperature and precipitation; does not include wind, humidity, etc.<br>
-</li>
-<li><strong>Historical Instrumentation Issues:</strong> Despite adjustments, some uncertainties remain from early observational practices.<br>
-</li>
-<li><strong>Fixed Locations:</strong> Station-based data may not represent broader regional conditions in complex terrain.<br>
-</li>
-<li><strong>Limited temporal coverage:</strong> The latest observation data may not have been processed. Daily data availability has not seen a recent update.</li>
-</ul>
+<table class="tbl table-striped table-light table-sm small caption-top table">
+<colgroup>
+<col style="width: 25%">
+<col style="width: 75%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Limitation</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Station Coverage Gaps</strong></td>
+<td>Sparse in some northern or remote regions, limiting spatial completeness.</td>
+</tr>
+<tr class="even">
+<td><strong>Limited Variables</strong></td>
+<td>Focused mainly on temperature and precipitation; does not include wind, humidity, etc.</td>
+</tr>
+<tr class="odd">
+<td><strong>Historical Instrumentation Issues</strong></td>
+<td>Despite adjustments, some uncertainties remain from early observational practices.</td>
+</tr>
+<tr class="even">
+<td><strong>Point Locations</strong></td>
+<td>Station-based data may not represent broader regional conditions, particularly in more northern station sparse areas where the next station my be far away and in complex terrain where local conditions change over short distances.</td>
+</tr>
+<tr class="odd">
+<td><strong>Limited temporal coverage</strong></td>
+<td>The lenght of the data records vary by station. There may be gaps in the stations data or a station may have been retired. While the dataset is updated annually, the latest observation data may not have been processed.</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="expert-guidance" class="level2">
+<h2 class="anchored" data-anchor-id="expert-guidance">Expert Guidance</h2>
+<div id="id" class="callout callout-style-simple callout-none no-icon callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+A detailed discussion to be developed here.
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-1" class="callout-1-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Lorem ipsum.</p>
+</div>
+</div>
+</div>
 </section>
 <section id="available-variables-in-ahccd" class="level2">
 <h2 class="anchored" data-anchor-id="available-variables-in-ahccd">Available Variables in AHCCD</h2>
+<p><em>For details click on variable group to uncollapse</em></p>
 <div id="id" class="callout callout-style-simple callout-none no-icon callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
@@ -468,7 +555,7 @@ Homogenized surface air temperature
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
-<div id="callout-1" class="callout-1-contents callout-collapse collapse">
+<div id="callout-2" class="callout-2-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <ul>
 <li>Daily minimum temperature</li>
@@ -482,7 +569,7 @@ Homogenized surface air temperature
 </div>
 </div>
 <div id="id" class="callout callout-style-simple callout-none no-icon callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-3-contents" aria-controls="callout-3" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
@@ -491,7 +578,7 @@ Adjusted precipitation
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
-<div id="callout-2" class="callout-2-contents callout-collapse collapse">
+<div id="callout-3" class="callout-3-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <ul>
 <li>Daily liquid precipitation (rain)</li>
@@ -505,7 +592,7 @@ Adjusted precipitation
 </div>
 </div>
 <div id="id" class="callout callout-style-simple callout-none no-icon callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-3-contents" aria-controls="callout-3" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-4-contents" aria-controls="callout-4" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
@@ -514,7 +601,7 @@ Homogenized surface wind
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
-<div id="callout-3" class="callout-3-contents callout-collapse collapse">
+<div id="callout-4" class="callout-4-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <ul>
 <li>Monthly, seasonal and annual means of hourly wind speed</li>
@@ -526,7 +613,7 @@ Homogenized surface wind
 </div>
 </div>
 <div id="id" class="callout callout-style-simple callout-none no-icon callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-4-contents" aria-controls="callout-4" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-5-contents" aria-controls="callout-5" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
@@ -535,7 +622,7 @@ Homogenized sea level and station pressure
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
-<div id="callout-4" class="callout-4-contents callout-collapse collapse">
+<div id="callout-5" class="callout-5-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <ul>
 <li>Monthly, seasonal and annual means of hourly sea level and station pressure (hectopascals)</li>
@@ -549,8 +636,34 @@ Homogenized sea level and station pressure
 <section id="example-applications" class="level2">
 <h2 class="anchored" data-anchor-id="example-applications">Example Applications</h2>
 <p><em>links to Electricity Sector Applications</em></p>
+</section>
+<section id="data-access" class="level2">
+<h2 class="anchored" data-anchor-id="data-access">Data Access</h2>
+<ul>
+<li>AHCCD station daily data on <a href="https://climatedata.ca/download/#ahccd-download">ClimateData.ca</a></li>
+<li><a href="https://climate-change.canada.ca/climate-data/#/adjusted-station-data">Climate data extraction tool</a> (Monthly, seasonal and annual AHCCD station data)</li>
+<li>AHCCD station data on <a href="https://pavics.ouranos.ca/datasets.html#b">PAVICS</a></li>
+</ul>
+</section>
+<section id="references" class="level2">
+<h2 class="anchored" data-anchor-id="references">References</h2>
+<div id="refs" class="references csl-bib-body" data-entry-spacing="0" data-line-spacing="2" role="list">
+<div id="ref-Vincent2020" class="csl-entry" role="listitem">
+<div class="csl-left-margin">1. </div><div class="csl-right-inline">Vincent, L. A., Hartwell, M. M. &amp; and, X. L. W. <a href="https://doi.org/10.1080/07055900.2020.1765728">A third generation of homogenized temperature for trend analysis and monitoring changes in canada’s climate</a>. <em>Atmosphere-Ocean</em> <strong>58</strong>, 173–191 (2020).</div>
+</div>
+<div id="ref-Wan2007" class="csl-entry" role="listitem">
+<div class="csl-left-margin">2. </div><div class="csl-right-inline">Wan, H., Wang, X. L. &amp; Swail, V. R. <a href="https://doi.org/10.1175/2007JAMC1484.1">A quality assurance system for canadian hourly pressure data</a>. <em>Journal of Applied Meteorology and Climatology</em> <strong>46</strong>, 1804–1817 (2007).</div>
+</div>
+<div id="ref-Wan2010" class="csl-entry" role="listitem">
+<div class="csl-left-margin">3. </div><div class="csl-right-inline">Wan, H., Wang, X. L. &amp; Swail, V. R. <a href="https://doi.org/10.1175/2009JCLI3200.1">Homogenization and trend analysis of canadian near-surface wind speeds</a>. <em>Journal of Climate</em> <strong>23</strong>, 1209–1225 (2010).</div>
+</div>
+<div id="ref-Mekis2011" class="csl-entry" role="listitem">
+<div class="csl-left-margin">4. </div><div class="csl-right-inline">Mekis, É. &amp; Vincent, L. A. <a href="https://doi.org/10.1080/07055900.2011.583910">An overview of the second generation adjusted daily precipitation dataset for trend analysis in canada</a>. <em>Atmosphere-Ocean</em> <strong>49</strong>, 163–177 (2011).</div>
+</div>
+</div>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
@@ -991,8 +1104,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="../../datasets/observed_data/NRCanMET_Gridded_Data.html" class="pagination-link" aria-label="ANUSPLIN Canadian Gridded Climate Dataset (NRCanMET)">
-        <span class="nav-page-text">ANUSPLIN Canadian Gridded Climate Dataset (NRCanMET)</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="../../datasets/observed_data/NRCanMET_Gridded_Data.html" class="pagination-link" aria-label="Canadian Gridded Climate Dataset - NRCanMET">
+        <span class="nav-page-text">Canadian Gridded Climate Dataset - NRCanMET</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
