@@ -24,11 +24,11 @@ website:
       - Introduction.ipynb
       # - section: "Literature Review" # was: Climate Change Impacts on Electricity Systems
       #   contents:
-      #   - section: "Generation"
-      #     contents:
-      #   - section: "Transmission and distribution"
-      #     contents:
-      #   - literature_review/demand.ipynb
+      #     - section: "Generation"
+      #       contents:
+      #     - section: "Transmission and distribution"
+      #       contents:
+      #     - literature_review/demand.ipynb
       - section: "Electricity Sector Activities"
         href: sectors/electricity_sector_activities.ipynb
         contents:

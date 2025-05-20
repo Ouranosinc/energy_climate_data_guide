@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Demand – Climate Data for the Electricity Sector</title>
+<title>Surface temperature (T2m) products of the ECMWF Reanalysis 5th Generation Land (ERA5-Land) – Climate Data for the Electricity Sector</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,27 +20,7 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for citations */
-div.csl-bib-body { }
-div.csl-entry {
-  clear: both;
-  margin-bottom: 0em;
-}
-.hanging-indent div.csl-entry {
-  margin-left:2em;
-  text-indent:-2em;
-}
-div.csl-left-margin {
-  min-width:2em;
-  float:left;
-}
-div.csl-right-inline {
-  margin-left:2em;
-  padding-left:1em;
-}
-div.csl-indent {
-  margin-left: 2em;
-}</style>
+</style>
 
 
 <script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
@@ -100,7 +80,7 @@ div.csl-indent {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Demand</li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Surface temperature (T2m) products of the ECMWF Reanalysis 5th Generation Land (ERA5-Land)</li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -407,11 +387,20 @@ div.csl-indent {
     <h2 id="toc-title">Content</h2>
    
   <ul>
-  <li><a href="#climate-change-drivers-and-affected-electricity-demand-parameters" id="toc-climate-change-drivers-and-affected-electricity-demand-parameters" class="nav-link active" data-scroll-target="#climate-change-drivers-and-affected-electricity-demand-parameters">Climate change drivers and affected electricity demand parameters</a></li>
-  <li><a href="#sectoral-variations-in-demand" id="toc-sectoral-variations-in-demand" class="nav-link" data-scroll-target="#sectoral-variations-in-demand">Sectoral variations in demand</a></li>
-  <li><a href="#methodologies-for-assessing-climate-change-impacts" id="toc-methodologies-for-assessing-climate-change-impacts" class="nav-link" data-scroll-target="#methodologies-for-assessing-climate-change-impacts">Methodologies for assessing climate change impacts</a></li>
-  <li><a href="#adaptation-strategies" id="toc-adaptation-strategies" class="nav-link" data-scroll-target="#adaptation-strategies">Adaptation strategies</a></li>
-  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
+  <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">Overview</a></li>
+  <li><a href="#providers-contact-information" id="toc-providers-contact-information" class="nav-link" data-scroll-target="#providers-contact-information">Provider’s contact information</a></li>
+  <li><a href="#licensing" id="toc-licensing" class="nav-link" data-scroll-target="#licensing">Licensing</a></li>
+  <li><a href="#variable-name-and-units" id="toc-variable-name-and-units" class="nav-link" data-scroll-target="#variable-name-and-units">Variable name and units:</a></li>
+  <li><a href="#spatial-coverage-and-resolution" id="toc-spatial-coverage-and-resolution" class="nav-link" data-scroll-target="#spatial-coverage-and-resolution">Spatial coverage and resolution:</a></li>
+  <li><a href="#temporal-coverage-and-resolution" id="toc-temporal-coverage-and-resolution" class="nav-link" data-scroll-target="#temporal-coverage-and-resolution">Temporal coverage and resolution:</a></li>
+  <li><a href="#information-about-observations-number-homogeneity" id="toc-information-about-observations-number-homogeneity" class="nav-link" data-scroll-target="#information-about-observations-number-homogeneity">Information about observations (number, homogeneity)</a></li>
+  <li><a href="#methodology" id="toc-methodology" class="nav-link" data-scroll-target="#methodology">Methodology</a></li>
+  <li><a href="#information-about-the-technical-and-scientific-quality" id="toc-information-about-the-technical-and-scientific-quality" class="nav-link" data-scroll-target="#information-about-the-technical-and-scientific-quality">Information about the technical and scientific quality</a></li>
+  <li><a href="#limitations-and-strengths-for-application-in-canada." id="toc-limitations-and-strengths-for-application-in-canada." class="nav-link" data-scroll-target="#limitations-and-strengths-for-application-in-canada.">Limitations and strengths for application in Canada.</a></li>
+  <li><a href="#references-to-documents-describing-the-methodology-orand-the-dataset" id="toc-references-to-documents-describing-the-methodology-orand-the-dataset" class="nav-link" data-scroll-target="#references-to-documents-describing-the-methodology-orand-the-dataset">References to documents describing the methodology or/and the dataset</a></li>
+  <li><a href="#link-to-download-the-data-and-format-of-data" id="toc-link-to-download-the-data-and-format-of-data" class="nav-link" data-scroll-target="#link-to-download-the-data-and-format-of-data">Link to download the data and format of data:</a></li>
+  <li><a href="#link-to-download-hourly-and-monthly-data-on-copernicus" id="toc-link-to-download-hourly-and-monthly-data-on-copernicus" class="nav-link" data-scroll-target="#link-to-download-hourly-and-monthly-data-on-copernicus">Link to download hourly and monthly data on Copernicus:</a></li>
+  <li><a href="#publications-including-dataset-evaluation-or-comparison-with-other-data-in-canada" id="toc-publications-including-dataset-evaluation-or-comparison-with-other-data-in-canada" class="nav-link" data-scroll-target="#publications-including-dataset-evaluation-or-comparison-with-other-data-in-canada">Publications including dataset evaluation or comparison with other data in Canada</a></li>
   </ul>
 </nav>
     </div>
@@ -420,7 +409,7 @@ div.csl-indent {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Demand</h1>
+<h1 class="title">Surface temperature (T2m) products of the ECMWF Reanalysis 5th Generation Land (ERA5-Land)</h1>
 </div>
 
 
@@ -437,116 +426,120 @@ div.csl-indent {
 </header>
 
 
-<p>Electricity demand is a vital component in the planning, operation, and resilience of power systems. Climate change is expected to alter electricity demand patterns by affecting not only patterns of temperature, such as mean temperature, number of temperature extremes, and seasonal variations, but also consumption behaviours across different sectors. Numerous studies project increased cooling demand during hotter summers and reduced heating demand during milder winters as this pattern have been consistently observed across multiple global regions (<span class="citation" data-cites="Amonkar2023"><sup><a href="#ref-Amonkar2023" role="doc-biblioref">1</a></sup></span>,<span class="citation" data-cites="Auffhammer2011"><sup><a href="#ref-Auffhammer2011" role="doc-biblioref">2</a></sup></span>,<span class="citation" data-cites="Pilli-Sihvola2010"><sup><a href="#ref-Pilli-Sihvola2010" role="doc-biblioref">3</a></sup></span>,<span class="citation" data-cites="Trotter2016"><sup><a href="#ref-Trotter2016" role="doc-biblioref">4</a></sup></span>,<span class="citation" data-cites="Wood2015"><sup><a href="#ref-Wood2015" role="doc-biblioref">5</a></sup></span>). The magnitude and direction of these changes are strongly dependent on the region and latitude; for example, countries in warmer climates are expected to see higher overall demand growth due to increased cooling loads (<span class="citation" data-cites="Bonkaney2023"><sup><a href="#ref-Bonkaney2023" role="doc-biblioref">6</a></sup></span>,<span class="citation" data-cites="Emodi2018"><sup><a href="#ref-Emodi2018" role="doc-biblioref">7</a></sup></span>,<span class="citation" data-cites="Zachariadis2014"><sup><a href="#ref-Zachariadis2014" role="doc-biblioref">8</a></sup></span>). Climate change also affects electricity consumption by sector and temporal demand profiles, including daily and seasonal variations. The residential, commercial, and industrial sectors respond differently to climate drivers (<span class="citation" data-cites="Dirks2015"><sup><a href="#ref-Dirks2015" role="doc-biblioref">9</a></sup></span>,<span class="citation" data-cites="Shaik2024"><sup><a href="#ref-Shaik2024" role="doc-biblioref">10</a></sup></span>,<span class="citation" data-cites="Taseska2012"><sup><a href="#ref-Taseska2012" role="doc-biblioref">11</a></sup></span>). Meanwhile, the timing of electricity demand is shifting as well, with studies projecting changes in peak load hours and seasonal peaks due to rising temperatures and more frequent extreme heat events (<span class="citation" data-cites="Amonkar2023"><sup><a href="#ref-Amonkar2023" role="doc-biblioref">1</a></sup></span>,<span class="citation" data-cites="Fonseca2019"><sup><a href="#ref-Fonseca2019" role="doc-biblioref">12</a></sup></span>,<span class="citation" data-cites="Romitti2022"><sup><a href="#ref-Romitti2022" role="doc-biblioref">13</a></sup></span>).</p>
-<p>To assess the impacts of climate change on electricity demand, different approaches have been employed. These include the use of climate projections from GCM and RCM combined with downscaling techniques to capture local climatic variability (<span class="citation" data-cites="Auffhammer2017"><sup><a href="#ref-Auffhammer2017" role="doc-biblioref">14</a></sup></span>,<span class="citation" data-cites="Auffhammer2011"><sup><a href="#ref-Auffhammer2011" role="doc-biblioref">2</a></sup></span>,<span class="citation" data-cites="Fonseca2019"><sup><a href="#ref-Fonseca2019" role="doc-biblioref">12</a></sup></span>,<span class="citation" data-cites="Lipson2019"><sup><a href="#ref-Lipson2019" role="doc-biblioref">15</a></sup></span>,<span class="citation" data-cites="Trotter2016"><sup><a href="#ref-Trotter2016" role="doc-biblioref">4</a></sup></span>). Empirical models, such as regression-bases analyses, have been also used to estimate historical relationships between temperature and electricity use (<span class="citation" data-cites="Bonkaney2023"><sup><a href="#ref-Bonkaney2023" role="doc-biblioref">6</a></sup></span>,<span class="citation" data-cites="Emodi2018"><sup><a href="#ref-Emodi2018" role="doc-biblioref">7</a></sup></span>,<span class="citation" data-cites="Pilli-Sihvola2010"><sup><a href="#ref-Pilli-Sihvola2010" role="doc-biblioref">3</a></sup></span>) , while simulation tools and energy-climate models are applied to explore future scenarios under different socio-economic and climatic conditions (<span class="citation" data-cites="Dirks2015"><sup><a href="#ref-Dirks2015" role="doc-biblioref">9</a></sup></span>,<span class="citation" data-cites="Lipson2019"><sup><a href="#ref-Lipson2019" role="doc-biblioref">15</a></sup></span>,<span class="citation" data-cites="Taseska2012"><sup><a href="#ref-Taseska2012" role="doc-biblioref">11</a></sup></span>).</p>
-<section id="climate-change-drivers-and-affected-electricity-demand-parameters" class="level2">
-<h2 class="anchored" data-anchor-id="climate-change-drivers-and-affected-electricity-demand-parameters">Climate change drivers and affected electricity demand parameters</h2>
+<section id="overview" class="level2">
+<h2 class="anchored" data-anchor-id="overview">Overview</h2>
+<p>This document provides an overview of the near-surface temperature products (T2m) of ERA5-Land, in the context of the larger ERA5-Land dataset. ERA5-Land is a replay of the land component of the ERA5 atmospheric global reanalysis using a finer spatial resolution and including a series of improvements making it more accurate for all types of land applications. ERA5-Land is produced by ECMWF framed within the Copernicus Climate Change Service (C3S) of the European Commission. The data covers a period from January 1950 to the present. It provides hourly data for many near-surface atmospheric and land-surface parameters.</p>
+</section>
+<section id="providers-contact-information" class="level2">
+<h2 class="anchored" data-anchor-id="providers-contact-information">Provider’s contact information</h2>
+<p>ERA5-Land is produced by the Copernicus Climate Change Service (C3S) at ECMWF.</p>
+<p>Copernicus User support (copernicus-support@ecmwf.int (external to C3S)).</p>
+</section>
+<section id="licensing" class="level2">
+<h2 class="anchored" data-anchor-id="licensing">Licensing</h2>
+<p>Licence: Copernicus (Licence agreement information can be found <a href="https://cds.climate.copernicus.eu/api/v2/terms/static/licence-to-use-copernicus-products.pdf">here</a> or <a href="http://apps.ecmwf.int/datasets/licences/copernicus">here</a>).</p>
+<p>Dataset citable as: <strong>Muñoz Sabater, J.</strong>, (2019): ERA5-Land hourly data from 1981 to present. Copernicus Climate Change Service (C3S) Climate Data Store (CDS), https://doi.org/10.24381/cds.e2161bac</p>
+</section>
+<section id="variable-name-and-units" class="level2">
+<h2 class="anchored" data-anchor-id="variable-name-and-units">Variable name and units:</h2>
+<p>The 2 m temperature product (K) of ERA5-Land over northern Canada is the main focus of this document. 2 m temperature is calculated by interpolating between the lowest model level and the Earth’s surface, taking account of the atmospheric conditions. This parameter has units of kelvin (K). Temperature measured in kelvin can be converted to degrees Celsius (°C) by subtracting 273.15. Hourly and monthly subsets are available.</p>
+<p>The ERA5-Land 2 m temperature product can be found as follows:</p>
 <ul>
-<li>Increased cooling demand in summer, reduced heating demand in winter</li>
-<li>Regional variations: by continents, by latitudes</li>
-<li>Demand parameters
+<li><p>Select 2 m temperature <a href="https://cds.climate.copernicus.eu/cdsapp#!/dataset/reanalysis-era5-land?tab=overview">hourly data from 1950 to present</a>,</p></li>
+<li><p>Select 2 m temperature <a href="https://cds.climate.copernicus.eu/cdsapp#!/dataset/reanalysis-era5-land-monthly-means?tab=overview">monthly averaged data from 1981 to present</a>,</p></li>
+</ul>
+<p>In ERA5-Land, hourly “2 m temperature” is an instantaneous parameter provided at hourly time step from the analyses. Monthly data is pre-calculated as monthly-mean averages from hourly data.</p>
+<p>ERA5-Land also provides values for 2 m dew point temperature and skin temperature. The following table describes the single-level temperature data available in ERA5-Land.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 4%">
+<col style="width: 1%">
+<col style="width: 93%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Name</th>
+<th style="text-align: center;">Units</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>2 m temperature</td>
+<td style="text-align: center;">K</td>
+<td>Temperature of air at 2 m above the surface of land, sea or inland waters. 2 m temperature is calculated by interpolating between the lowest model level and the Earth’s surface, taking account of the atmospheric conditions. Temperature measured in kelvin can be converted to degrees Celsius (°C) by subtracting 273.15.</td>
+</tr>
+<tr class="even">
+<td>2 m dew point temperature</td>
+<td style="text-align: center;">K</td>
+<td>Temperature to which the air, at 2 m above the surface of the Earth, would have to be cooled for saturation to occur. It is a measure of the humidity of the air. Combined with temperature and pressure, it can be used to calculate the relative humidity. 2 m dew point temperature is calculated by interpolating between the lowest model level and the Earth’s surface, taking account of the atmospheric conditions. Temperature measured in kelvin can be converted to degrees Celsius (°C) by subtracting 273.15.</td>
+</tr>
+<tr class="odd">
+<td>Skin temperature</td>
+<td style="text-align: center;">K</td>
+<td>Temperature of the surface of the Earth. The skin temperature is the theoretical temperature that is required to satisfy the surface energy balance. It represents the temperature of the uppermost surface layer, which has no heat capacity and so can respond instantaneously to changes in surface fluxes. Skin temperature is calculated differently over land and sea. Temperature measured in kelvin can be converted to degrees Celsius (°C) by subtracting 273.15.</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="spatial-coverage-and-resolution" class="level2">
+<h2 class="anchored" data-anchor-id="spatial-coverage-and-resolution">Spatial coverage and resolution:</h2>
+<p>ERA5-Land is a global land-surface dataset. The atmospheric data is available on a regular latitude-longitude grid at 0.1o x 0.1o resolution (converted from native reduced‐Gaussian grid resolution of approximately 9 km x 9 km), and on 4 surface layers. Oceans have been masked out with data available over landmasses and inland lakes.</p>
+</section>
+<section id="temporal-coverage-and-resolution" class="level2">
+<h2 class="anchored" data-anchor-id="temporal-coverage-and-resolution">Temporal coverage and resolution:</h2>
+<p>ERA5-Land 2 m temperature data is available from 1950 to present. The data is available at hourly and monthly sampling (see above).</p>
+<p>ERA5-Land 2 m temperature data updates are made synchronously with ERA5 updates, approximately 2-3 months behind real time.</p>
+</section>
+<section id="information-about-observations-number-homogeneity" class="level2">
+<h2 class="anchored" data-anchor-id="information-about-observations-number-homogeneity">Information about observations (number, homogeneity)</h2>
+<p>ERA5-Land is not directly influenced by observations, but rather, indirectly influenced through the ERA5 atmospheric forcings. ERA5’s data assimilation uses observations for all geophysical quantities from about 0.75 million observations per day in 1979 and about 24 million in 2018. The 2D-OI uses surface observations at ‘screen level’. <a href="https://confluence.ecmwf.int/display/CKB/ERA5%3A+data+documentation">The online technical documentation</a> provides tables with the satellite and in-situ observations used as input into ERA5. Further details can also be found in the ERA5 document previously prepared by the CCCS.</p>
+</section>
+<section id="methodology" class="level2">
+<h2 class="anchored" data-anchor-id="methodology">Methodology</h2>
+<p>ERA5-Land is produced under a single simulation of the land component of the ERA5 climate reanalysis, without coupling to the atmospheric module of the ECMWF’s Integrated Forecasting System (IFS) and without data assimilation. The low atmospheric forcing is provided by the ERA5 reanalysis, with additional lapse-rate correction. The core of ERA5-Land is the Tiled ECMWF Scheme for Surface Exchanges over Land incorporating land surface hydrology (H-TESSEL). Because it runs without data assimilation, it makes it computationally affordable for relatively quick updates. For example, if significant improvements of the land surface model are implemented, the whole or part of the dataset can be reprocessed in a relatively short period. Updates are possible in case improved auxiliary datasets are used as input for the production.</p>
+<p>Production of ERA5-Land is not produced as a single continuous segment, but instead as three segments: Stream-1 (2001 onwards), Stream-2 (1981-2000), and Stream-3 (1950-1980). This is because it allows parallel production of data enabling sooner public access to the data, and because the atmospheric forcings used by ERA5-Land is derived from ERA5, thus needing corresponding completed ERA5 segment. Each stream is initialized with various meteorological fields from ERA5 (temperature, precipitation, humidity, radiation, etc.). While ERA5-Land does not assimilate observations directly, they are introduced via the ERA5 atmospheric forcings. These forcings are adjusted using ERA5 derived lapse rates before being integrated with the ECMWF Carbon Hydrology-Tiled ECMWF Scheme for Surface Exchanges over Land (CHTESSEL) land surface model. This is done in 24-hour cycles, generating hourly outputs and the evolution of the land surface state and water and energy fluxes. For further details of the assimilation system used to obtain the ERA5 atmospheric forcings, please see the ERA5 document previously prepared by the CCCS.</p>
+<p>Uncertainty estimate: Currently, ERA5-Land variable uncertainty estimates are those corresponding to ERA5. ERA5 uncertainty estimate is sampled by a 10-member lower-resolution Ensemble Data Assimilation (EDA) which provides background-error estimates for the deterministic HRES 4D-Var Data Assimilation system. The analysis method is the same for each EDA member and follows that of the HRES. Each member (except the control) is run with different random perturbations added to the observations. Likewise, the model physical tendencies are perturbed in the short forecasts that link subsequent analysis windows. Ensemble mean and spread have been pre-computed for convenience. Such uncertainty estimates are closely related to the information content of the available observing system which has evolved considerably over time. They also indicate flow-dependent sensitive areas. To facilitate many climate applications, monthly-mean averages have been pre-calculated too, though monthly means are not available for the ensemble mean and spread.</p>
+<p>The original plan was to apply the same methodology ERA5-Land to provide an estimate of the uncertainty fields as was done for ERA5. However, the uncertainty was estimated to be extremely low, and would have assigned unrealistically high confidence to the ERA5-Land variables. As such, it is recommended to use the corresponding ERA5 uncertainty estimates for the time being until further studies are done.</p>
+</section>
+<section id="information-about-the-technical-and-scientific-quality" class="level2">
+<h2 class="anchored" data-anchor-id="information-about-the-technical-and-scientific-quality">Information about the technical and scientific quality</h2>
+<p>ERA5-Land 2 m temperature represents one of the products of the latest global atmospheric reanalysis produced by Copernicus Climate Change Service at ECMWF. It is archived at a shorter (hourly) time step, has a fine spatial resolution, uses a more advanced assimilation system, and includes more sources of data than previous versions (e.g., ERA-Interim-Land). It is accompanied by extensive technical documentation and two principal scientific documentation papers. A list of ‘known issues’ is maintained at <a href="https://confluence.ecmwf.int/display/CKB/ERA5-Land%3A+data+documentation">the online documentation</a>.</p>
+<p>Information on land surface model: The land surface model of the ERA5-Land was operational in 2018 with the IFS model cycle 45r1. While most of the changes from the IFS Cy41R2 used in ERA5 are primarily technical, there were a few improvements to various fields: 1) the parameterization of the soil thermal conductivity was updated to take the ice component of frozen soil into consideration, 2) conservation of the soil-water balance was fixed and improved, and 3) rain over snow is now accounted for and is not accumulated in snow pack. Furthermore, a bug exists in IFS Cy41R2, that affects potential evapotranspiration (PET) flux calculations over forests and deserts, has been corrected in ERA5-Land, and unlike ERA5, ERA5-Land PET is an available dataset. However, PET is now determined by assuming a vegetation type of crops and no soil moisture stress. These assumptions may not be always realistic, and therefore PET should be used cautiously. This is unlikely to affect ERA5-Land 2 m temperature in Canada’s north, but the user should be aware of the reason for this update. More information on the CHTESSEL land surface model used in ERA5-Land can be found in Muñoz-Sabater et al., (2021, preprint).</p>
+</section>
+<section id="limitations-and-strengths-for-application-in-canada." class="level2">
+<h2 class="anchored" data-anchor-id="limitations-and-strengths-for-application-in-canada.">Limitations and strengths for application in Canada.</h2>
+<p>ERA5-Land is a newer land surface reanalysis and there are few available scientific evaluations of the dataset dedicated specifically to northern Canada. However, it should be noted that in northern Canada, there are currently no sub-daily records over a long historical period for many weather stations. Reanalyses data with hourly output cover this gap and, with suitable investigation and calibration (downscaling), could be valuable particularly for hydrological models and sub-daily extremes analyses. ERA5-Land uses ERA5 atmospheric forcings that assimilates surface temperature from stations.</p>
+<p>As for all gridded data, observed values of 2 m temperature at local scales can differ from the values provided by the gridded dataset, which represent a statistical summary of the area surrounding a grid point. Also, changes in the amounts and types of observational data that are assimilated may produce artificial trends or variability in 2 m temperature and other reanalysis variables.</p>
+</section>
+<section id="references-to-documents-describing-the-methodology-orand-the-dataset" class="level2">
+<h2 class="anchored" data-anchor-id="references-to-documents-describing-the-methodology-orand-the-dataset">References to documents describing the methodology or/and the dataset</h2>
+<p><strong>Muñoz Sabater, J.</strong>, 2019: ERA5-Land hourly data from 1981 to present. Copernicus Climate Change Service (C3S) Climate Data Store (CDS). (Accessed on &lt; DD-Month-YYYY &gt;), https://doi.org/10.24381/cds.e2161bac</p>
+<p><strong>Muñoz-Sabater, J.</strong>, E. Dutra, A. Agustí-Panareda, C. Albergel, G. Arduini, G., Balsamo, S. Boussetta, M. Choulga, S. Harrigan, H. Hersbach, B. Martens, D. G. Miralles, M. Piles, N. J. Rodríguez-Fernández, E. Zsoter, C. Buontempo, and J.-N. Thépaut, 2021: ERA5-Land: A state-of-the-art global reanalysis dataset for land applications. Earth System Science Data, 13(9), 4349-4383. https://doi.org/10.5194/essd-2021-82</p>
+<p><strong>Hersbach, H.</strong>, B .Bell, P. Berrisford, S. Hirahara, A. Horányi, J. Muñoz‐Sabater, J. Nicolas, C. Peubey, R. Radu, D. Schepers, A. Simmons, C. Soci, S. Abdalla, X. Abellan, G. Balsamo, P. Bechtold, G. Biavati, J. Bidlot, M. Bonavita, G. Chiara, P. Dahlgren, D. Dee, M. Diamantakis, R. Dragani, J. Flemming, R. Forbes, M. Fuentes, A. Geer, L. Haimberger, S. Healy, R.J. Hogan, E. Hólm, M. Janisková, S. Keeley, P. Laloyaux, P. Lopez, C. Lupu, G. Radnoti, P. Rosnay, I. Rozum, F. Vamborg, S. Villaume, and J.-N. Thépaut, 2020: The ERA5 global reanalysis. Quarterly Journal of the Royal Meteorological Society, 146(730), 1999–2049. https://doi.org/10.1002/qj.3803.</p>
+</section>
+<section id="link-to-download-the-data-and-format-of-data" class="level2">
+<h2 class="anchored" data-anchor-id="link-to-download-the-data-and-format-of-data">Link to download the data and format of data:</h2>
+<p>Data Access: <a href="https://climate.copernicus.eu/climate-reanalysis">Copernicus</a> | <a href="https://www.ecmwf.int/en/forecasts/dataset/ecmwf-reanalysis-v5-land">ECMWF</a> (requires login)</p>
+<p>ERA5-Land is available in GRIB and NetCDF formats</p>
+</section>
+<section id="link-to-download-hourly-and-monthly-data-on-copernicus" class="level2">
+<h2 class="anchored" data-anchor-id="link-to-download-hourly-and-monthly-data-on-copernicus">Link to download hourly and monthly data on Copernicus:</h2>
 <ul>
-<li>Annual demand: generation capacity and/or storage capacity</li>
-<li>Size and timing of peak demand: maintenance and construction schedule, supply planning</li>
-<li>Spatial distribution of demand: topology and capacity of the electricity transmission networks.</li>
-<li>Sectors: ability to adapt or respond to climate change</li>
-</ul></li>
+<li><p><a href="https://cds.climate.copernicus.eu/cdsapp#!/dataset/reanalysis-era5-land?tab=overview">hourly data from 1950 to present</a>,</p></li>
+<li><p><a href="https://cds.climate.copernicus.eu/cdsapp#!/dataset/reanalysis-era5-land-monthly-means?tab=overview">monthly averaged data from 1981 to present</a></p></li>
 </ul>
 </section>
-<section id="sectoral-variations-in-demand" class="level2">
-<h2 class="anchored" data-anchor-id="sectoral-variations-in-demand">Sectoral variations in demand</h2>
-<ul>
-<li>Differences in demand patterns by sectors, such as residential, industrial, and commercial.</li>
-<li>Seasonal and hourly variations in demand and how these might evolve under climate change</li>
-</ul>
-</section>
-<section id="methodologies-for-assessing-climate-change-impacts" class="level2">
-<h2 class="anchored" data-anchor-id="methodologies-for-assessing-climate-change-impacts">Methodologies for assessing climate change impacts</h2>
-<ul>
-<li>Climate data: GCMs, RCMs</li>
-<li>Downscaling method: dynamic, statistical</li>
-<li>Empirical methods: regression analysis</li>
-<li>Simulation models: energy-climate models</li>
-</ul>
-</section>
-<section id="adaptation-strategies" class="level2">
-<h2 class="anchored" data-anchor-id="adaptation-strategies">Adaptation strategies</h2>
-<ul>
-<li>How to adapt changing demand patterns caused by climate change.</li>
-<li>Demand-side management, energy efficiency measures, grid flexibility.</li>
-</ul>
-</section>
-<section id="references" class="level2">
-<h2 class="anchored" data-anchor-id="references">References</h2>
-<ul>
-<li>Amonkar, Y., Doss-Gollin, J., Farnham, D. J., Modi, V., &amp; Lall, U. (2023). Differential effects of climate change on average and peak demand for heating and cooling across the contiguous USA. Communications Earth and Environment, 4(1), 1–9. https://doi.org/10.1038/s43247-023-01048-1</li>
-<li>Auffhammer, M., &amp; Aroonruengsawat, A. (2011). Simulating the impacts of climate change, prices and population on California’s residential electricity consumption. Climatic Change, 109(SUPPL. 1), 191–210. https://doi.org/10.1007/s10584-011-0299-y</li>
-<li>Auffhammer, M., Baylis, P., &amp; Hausman, C. H. (2017). Climate change is projected to have severe impacts on the frequency and intensity of peak electricity demand across the United States. Proceedings of the National Academy of Sciences of the United States of America, 114(8), 1886–1891. https://doi.org/10.1073/pnas.1613193114</li>
-<li>Bonkaney, A. L., Abiodun, B. J., Sanda, I. S., &amp; Balogun, A. A. (2023). Potential impact of global warming on electricity demand in Niger. Climatic Change, 176(4). https://doi.org/10.1007/s10584-023-03513-4</li>
-<li>Dirks, J. A., Gorrissen, W. J., Hathaway, J. H., Skorski, D. C., Scott, M. J., Pulsipher, T. C., Huang, M., Liu, Y., &amp; Rice, J. S. (2015). Impacts of climate change on energy consumption and peak demand in buildings: A detailed regional approach. Energy, 79(C), 20–32. https://doi.org/10.1016/j.energy.2014.08.081</li>
-<li>Emodi, N. V., Chaiechi, T., &amp; Alam Beg, A. B. M. R. (2018). The impact of climate change on electricity demand in Australia. Energy and Environment, 29(7), 1263–1297. https://doi.org/10.1177/0958305X18776538</li>
-<li>Fonseca, F. R., Jaramillo, P., Bergés, M., &amp; Severnini, E. (2019). Seasonal effects of climate change on intra-day electricity demand patterns. Climatic Change, 154(3–4), 435–451. https://doi.org/10.1007/s10584-019-02413-w</li>
-<li>Lipson, M. J., Thatcher, M., Hart, M. A., &amp; Pitman, A. (2019). Climate change impact on energy demand in building-urban-atmosphere simulations through the 21st century. Environmental Research Letters, 14(12). https://doi.org/10.1088/1748-9326/ab5aa5</li>
-<li>Pilli-Sihvola, K., Aatola, P., Ollikainen, M., &amp; Tuomenvirta, H. (2010). Climate change and electricity consumption-Witnessing increasing or decreasing use and costs? Energy Policy, 38(5), 2409–2419. https://doi.org/10.1016/j.enpol.2009.12.033</li>
-<li>Romitti, Y., &amp; Wing, I. S. (2022). Heterogeneous climate change impacts on electricity demand in world cities circa mid-century. Scientific Reports, 12(1). https://doi.org/10.1038/s41598-022-07922-w</li>
-<li>Shaik, S. (2024). Contribution of climate change to sector-source energy demand. Energy, 294(January), 130777. https://doi.org/10.1016/j.energy.2024.130777</li>
-<li>Taseska, V., Markovska, N., &amp; Callaway, J. M. (2012). Evaluation of climate change impacts on energy demand. Energy, 48(1), 88–95. https://doi.org/10.1016/j.energy.2012.06.053</li>
-<li>Trotter, I. M., Bolkesjø, T. F., Féres, J. G., &amp; Hollanda, L. (2016). Climate change and electricity demand in Brazil: A stochastic approach. Energy, 102, 596–604. https://doi.org/10.1016/j.energy.2016.02.120</li>
-<li>Wood, F. R., Calverley, D., Glynn, S., Mander, S., Conor, W., Kuriakose, J., Hill, F., &amp; Roeder, M. (2015). The impacts of climate change on UK energy demand. Infrastructure Asset Management, 2(3), 107–119. https://doi.org/10.1680/jinam.14.00039</li>
-<li>Zachariadis, T., &amp; Hadjinicolaou, P. (2014). The effect of climate change on electricity needs - A case study from Mediterranean Europe. Energy, 76, 899–910. https://doi.org/10.1016/j.energy.2014.09.001</li>
-</ul>
+<section id="publications-including-dataset-evaluation-or-comparison-with-other-data-in-canada" class="level2">
+<h2 class="anchored" data-anchor-id="publications-including-dataset-evaluation-or-comparison-with-other-data-in-canada">Publications including dataset evaluation or comparison with other data in Canada</h2>
+<p><strong>Sheridan, S.C.</strong>, C.C. Lee, and E.T. Smith, 2020: A comparison between station observations and reanalysis data in the identification of extreme temperature events. Geophysical Research Letters, 47(15), e2020GL088120. (It compares observations, ERA5, ERA5-LAND, and NARR, in the United States and Canada- only a very small number of stations are in North Canada).</p>
+<p><strong>Zhang, R.</strong>, S. Chan, R. Bindlish, and V. Lakshmi, 2021: Evaluation of Global Surface Water Temperature Data Sets for Use in Passive Remote Sensing of Soil Moisture. Remote Sensing, 13(10), 1872. https://doi.org/10.3390/rs13101872 (This paper compares various lake surface water temperature products, including ERA5-Land, with in-situ observations. Comparisons are primarily made around the great lakes, with only few points in the north)</p>
+<p><strong>Cao, B.</strong>, S. Gruber, D. Zheng, and X. Li, 2020: The ERA5-Land soil temperature bias in permafrost regions. The Cryosphere, 14(8), 2581–2595. https://doi.org/10.5194/tc-14-2581-2020 (The paper examines ERA5-Land soil temperature in permafrost regions across the northern hemisphere, including parts of Northern Canada)</p>
 
 
-
 </section>
 
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body" data-entry-spacing="0" data-line-spacing="2" role="list">
-<div id="ref-Amonkar2023" class="csl-entry" role="listitem">
-<div class="csl-left-margin">1. </div><div class="csl-right-inline">Amonkar, Y., Doss-Gollin, J., Farnham, D. J., Modi, V. &amp; Lall, U. <a href="https://doi.org/10.1038/s43247-023-01048-1"><span class="nocase">Differential effects of climate change on average and peak demand for heating and cooling across the contiguous USA</span></a>. <em>Communications Earth and Environment</em> <strong>4</strong>, 1–9 (2023).</div>
-</div>
-<div id="ref-Auffhammer2011" class="csl-entry" role="listitem">
-<div class="csl-left-margin">2. </div><div class="csl-right-inline">Auffhammer, M. &amp; Aroonruengsawat, A. <a href="https://doi.org/10.1007/s10584-011-0299-y"><span class="nocase">Simulating the impacts of climate change, prices and population on California’s residential electricity consumption</span></a>. <em>Climatic Change</em> <strong>109</strong>, 191–210 (2011).</div>
-</div>
-<div id="ref-Pilli-Sihvola2010" class="csl-entry" role="listitem">
-<div class="csl-left-margin">3. </div><div class="csl-right-inline">Pilli-Sihvola, K., Aatola, P., Ollikainen, M. &amp; Tuomenvirta, H. <a href="https://doi.org/10.1016/j.enpol.2009.12.033"><span class="nocase">Climate change and electricity consumption-Witnessing increasing or decreasing use and costs?</span></a> <em>Energy Policy</em> <strong>38</strong>, 2409–2419 (2010).</div>
-</div>
-<div id="ref-Trotter2016" class="csl-entry" role="listitem">
-<div class="csl-left-margin">4. </div><div class="csl-right-inline">Trotter, I. M., Bolkesjø, T. F., Féres, J. G. &amp; Hollanda, L. <a href="https://doi.org/10.1016/j.energy.2016.02.120"><span class="nocase">Climate change and electricity demand in Brazil: A stochastic approach</span></a>. <em>Energy</em> <strong>102</strong>, 596–604 (2016).</div>
-</div>
-<div id="ref-Wood2015" class="csl-entry" role="listitem">
-<div class="csl-left-margin">5. </div><div class="csl-right-inline">Wood, F. R. <em>et al.</em> <a href="https://doi.org/10.1680/jinam.14.00039"><span class="nocase">The impacts of climate change on UK energy demand</span></a>. <em>Infrastructure Asset Management</em> <strong>2</strong>, 107–119 (2015).</div>
-</div>
-<div id="ref-Bonkaney2023" class="csl-entry" role="listitem">
-<div class="csl-left-margin">6. </div><div class="csl-right-inline">Bonkaney, A. L., Abiodun, B. J., Sanda, I. S. &amp; Balogun, A. A. <a href="https://doi.org/10.1007/s10584-023-03513-4"><span class="nocase">Potential impact of global warming on electricity demand in Niger</span></a>. <em>Climatic Change</em> <strong>176</strong>, (2023).</div>
-</div>
-<div id="ref-Emodi2018" class="csl-entry" role="listitem">
-<div class="csl-left-margin">7. </div><div class="csl-right-inline">Emodi, N. V., Chaiechi, T. &amp; Alam Beg, A. B. M. R. <a href="https://doi.org/10.1177/0958305X18776538"><span class="nocase">The impact of climate change on electricity demand in Australia</span></a>. <em>Energy and Environment</em> <strong>29</strong>, 1263–1297 (2018).</div>
-</div>
-<div id="ref-Zachariadis2014" class="csl-entry" role="listitem">
-<div class="csl-left-margin">8. </div><div class="csl-right-inline">Zachariadis, T. &amp; Hadjinicolaou, P. <a href="https://doi.org/10.1016/j.energy.2014.09.001"><span class="nocase">The effect of climate change on electricity needs - A case study from Mediterranean Europe</span></a>. <em>Energy</em> <strong>76</strong>, 899–910 (2014).</div>
-</div>
-<div id="ref-Dirks2015" class="csl-entry" role="listitem">
-<div class="csl-left-margin">9. </div><div class="csl-right-inline">Dirks, J. A. <em>et al.</em> <a href="https://doi.org/10.1016/j.energy.2014.08.081"><span class="nocase">Impacts of climate change on energy consumption and peak demand in buildings: A detailed regional approach</span></a>. <em>Energy</em> <strong>79</strong>, 20–32 (2015).</div>
-</div>
-<div id="ref-Shaik2024" class="csl-entry" role="listitem">
-<div class="csl-left-margin">10. </div><div class="csl-right-inline">Shaik, S. <a href="https://doi.org/10.1016/j.energy.2024.130777"><span class="nocase">Contribution of climate change to sector-source energy demand</span></a>. <em>Energy</em> <strong>294</strong>, 130777 (2024).</div>
-</div>
-<div id="ref-Taseska2012" class="csl-entry" role="listitem">
-<div class="csl-left-margin">11. </div><div class="csl-right-inline">Taseska, V., Markovska, N. &amp; Callaway, J. M. <a href="https://doi.org/10.1016/j.energy.2012.06.053"><span class="nocase">Evaluation of climate change impacts on energy demand</span></a>. <em>Energy</em> <strong>48</strong>, 88–95 (2012).</div>
-</div>
-<div id="ref-Fonseca2019" class="csl-entry" role="listitem">
-<div class="csl-left-margin">12. </div><div class="csl-right-inline">Fonseca, F. R., Jaramillo, P., Bergés, M. &amp; Severnini, E. <a href="https://doi.org/10.1007/s10584-019-02413-w"><span class="nocase">Seasonal effects of climate change on intra-day electricity demand patterns</span></a>. <em>Climatic Change</em> <strong>154</strong>, 435–451 (2019).</div>
-</div>
-<div id="ref-Romitti2022" class="csl-entry" role="listitem">
-<div class="csl-left-margin">13. </div><div class="csl-right-inline">Romitti, Y. &amp; Sue Wing, I. <a href="https://doi.org/10.1038/s41598-022-07922-w"><span class="nocase">Heterogeneous climate change impacts on electricity demand in world cities circa mid-century</span></a>. <em>Scientific Reports</em> <strong>12</strong>, (2022).</div>
-</div>
-<div id="ref-Auffhammer2017" class="csl-entry" role="listitem">
-<div class="csl-left-margin">14. </div><div class="csl-right-inline">Auffhammer, M., Baylis, P. &amp; Hausman, C. H. <a href="https://doi.org/10.1073/pnas.1613193114"><span class="nocase">Climate change is projected to have severe impacts on the frequency and intensity of peak electricity demand across the United States</span></a>. <em>Proceedings of the National Academy of Sciences of the United States of America</em> <strong>114</strong>, 1886–1891 (2017).</div>
-</div>
-<div id="ref-Lipson2019" class="csl-entry" role="listitem">
-<div class="csl-left-margin">15. </div><div class="csl-right-inline">Lipson, M. J., Thatcher, M., Hart, M. A. &amp; Pitman, A. <a href="https://doi.org/10.1088/1748-9326/ab5aa5"><span class="nocase">Climate change impact on energy demand in building-urban-atmosphere simulations through the 21st century</span></a>. <em>Environmental Research Letters</em> <strong>14</strong>, (2019).</div>
-</div>
-</div></section></div></main> <!-- /main -->
+</main> <!-- /main -->
 <script>
 document.addEventListener("DOMContentLoaded", function () {
   document.querySelectorAll("a[href^='http']").forEach(link => {

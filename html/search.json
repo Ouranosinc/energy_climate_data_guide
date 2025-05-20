@@ -436,7 +436,7 @@
     "href": "sectors/planning/demand.html",
     "title": "Demand",
     "section": "",
-    "text": "Electricity demand is a vital component in the planning, operation, and resilience of power systems. Climate change is expected to alter electricity demand patterns by affecting not only patterns of temperature, such as mean temperature, number of temperature extremes, and seasonal variations, but also consumption behaviours across different sectors. Numerous studies project increased cooling demand during hotter summers and reduced heating demand during milder winters as this pattern have been consistently observed across multiple global regions (1,2,3,4,5). The magnitude and direction of these changes are strongly dependent on the region and latitude; for example, countries in warmer climates are expected to see higher overall demand growth due to increased cooling loads (6,7,8). Climate change also affects electricity consumption by sector and temporal demand profiles, including daily and seasonal variations. The residential, commercial, and industrial sectors respond differently to climate drivers (9,10,11). Meanwhile, the timing of electricity demand is shifting as well, with studies projecting changes in peak load hours and seasonal peaks due to rising temperatures and more frequent extreme heat events (1,Fonseca2019?,12).\nTo assess the impacts of climate change on electricity demand, different approaches have been employed. These include the use of climate projections from GCM and RCM combined with downscaling techniques to capture local climatic variability (13,2,Fonseca2019?,14,4). Empirical models, such as regression-bases analyses, have been also used to estimate historical relationships between temperature and electricity use (6,7,3) , while simulation tools and energy-climate models are applied to explore future scenarios under different socio-economic and climatic conditions (9,14,11)."
+    "text": "Electricity demand is a vital component in the planning, operation, and resilience of power systems. Climate change is expected to alter electricity demand patterns by affecting not only patterns of temperature, such as mean temperature, number of temperature extremes, and seasonal variations, but also consumption behaviours across different sectors. Numerous studies project increased cooling demand during hotter summers and reduced heating demand during milder winters as this pattern have been consistently observed across multiple global regions (1,2,3,4,5). The magnitude and direction of these changes are strongly dependent on the region and latitude; for example, countries in warmer climates are expected to see higher overall demand growth due to increased cooling loads (6,7,8). Climate change also affects electricity consumption by sector and temporal demand profiles, including daily and seasonal variations. The residential, commercial, and industrial sectors respond differently to climate drivers (9,10,11). Meanwhile, the timing of electricity demand is shifting as well, with studies projecting changes in peak load hours and seasonal peaks due to rising temperatures and more frequent extreme heat events (1,12,13).\nTo assess the impacts of climate change on electricity demand, different approaches have been employed. These include the use of climate projections from GCM and RCM combined with downscaling techniques to capture local climatic variability (14,2,12,15,4). Empirical models, such as regression-bases analyses, have been also used to estimate historical relationships between temperature and electricity use (6,7,3) , while simulation tools and energy-climate models are applied to explore future scenarios under different socio-economic and climatic conditions (9,15,11)."
   },
   {
     "objectID": "sectors/planning/demand.html#climate-change-drivers-and-affected-electricity-demand-parameters",
@@ -650,7 +650,7 @@
     "href": "datasets/reanalysis_data/CaSR.html",
     "title": "Canadian Surface Reanalysis - CaSR",
     "section": "",
-    "text": "The Canadian Surface Reanalysis (CaSR) is a high-resolution atmospheric reanalysis dataset produced by Environment and Climate Change Canada (ECCC). CaSR v3.1 is produced by dynamically downscaling ECMWF’s ERA5 global reanalysis using operational models and configurations of ECCC’s operational weather and environmental prediction system to provide historical, high-resolution climate and weather data over North America, with a focus on Canada. Surface observations are integrated through the the Canadian Land Data Assimilation System (CaLDAS) coupled with the Canadian Precipitation Analysis (CaPA). CaSR is a consistent and seamless dataset providing the main meteorological variables coherent with in situ surface observations1. Note that the CaSR dataset was previously known as RDRS (Regional Deterministic Reforecast System).\n\n\n\nCaSR simulation domain with station locations2\n\n\n\n\n\n\nCurrent version: v3.1\nTemporal coverage: 1970–2024 - double check once we have the data on PAVICS\nTemporal resolution: Hourly and daily outputs\n\nSpatial coverage: Canada and U.S.\nSpatial resolution: ~10 km grid spacing (0.09˚)\nData type: A dynamical downscaling of ERA5 (ERA-Interim for version 2.1) over North and Central America domain using ECCC’s Global Deterministic Reforecast System (GDRS), the global surface model (GEM-Surf) the Regional Deterministic Reforecast System (RDRS), coupled with the CaLDAS surface assimilation system.3\nWeb references:  ECCC Canadian Surface Reanalysis (CaSR) Web Site,  Northern Climate Data Report and Inventory (NCDRI) Web Site\nReference publications: See references below\n\n\n\n\n\n\n\n\n\n\n\n\n\nStrength\nDescription\n\n\n\n\nHigh resolution\n~10 km grid spacing provides detailed spatial variability, better than global reanalyses.\n\n\nAssimilation of observations.\nAssimilation of observed precipitation and surface variables.\n\n\nHourly data availability.\nUseful for high-frequency climate and weather analysis.\n\n\nCanada-specific\nOptimized for Canadian climate conditions, including extreme cold and snow processes.\n\n\nDetailed precipitation\nPrecipitation types are distiguished, including freezing rain.Two versions of precipitation are provided: one purely modeled and the reanalysis version that assimilates measured precipitation data are provided.\n\n\nPrecipitation confidence index\nA confidence index for precipitation informs on the weight of observations in the analysis.\n\n\nActive Development\nNew versions and longer temporal record are in preparation.\n\n\nConsistent Historical Record\nSpans over four decades, allowing for trend analysis and climate studies.ToDo: This was communicated for CaSR v2.1; Is this still true for CaSR v3.1?\n\n\n\n\n\n\n\n\n\nLimitation\nDescription\n\n\n\n\nKnown biases\nCaSR is generally too wet and has too much snow. ToDo: Refine; What else?\n\n\nUncommon Georeference\nThe data are made available on a rotated grid which may be difficult to handle. The PAVICS platform hosts a tutorial dedicated to the conversion of rotated grids.\n\n\nLimited Suitability for Trend Analysis\nFor the current version, gaps in observation data and model errors may skew trends found in the dataset.ToDo: This was communicated for CaSR v2.1; Is this still true for CaSR v3.1?.\n\n\nPrecipitation Uncertainties\nCaSR precipitation estimates deviate from observed values when far from stations.\n\n\nLimited to the Surface or Near-Surface\nCaSR provides no data above 40m above surface.\n\n\nComputationally Intensive\nRelatively high-resolution data requires significant storage and processing power for analysis over larger areas. See section on Data Access for workarounds on PAVICS\n\n\n\n\n\n\n\n\n\n\n\n\n\nA detailed discussion to be developed here.\n\n\n\n\n\nLorem ipsum.\n\n\n\n\n\n\nFor details click on variable group to uncollapse\n\n\n\n\n\n\nTemperature\n\n\n\n\n\n\nTemperature [˚C]\nDew point temperature [˚C]\n\nTemperature variables are provided at 1h & 3h frequency and at levels 1.5 m, ~20m, and ~40m. For more details see the respective table on the CaSR web site\n\n\n\n\n\n\n\n\n\nPrecipitation\n\n\n\n\n\n\nQuantity of daily precipitation [m]\nConfidence index of daily precipitation\nQuantity of hourly precipitation [m]\nQuantity of ice pellets (liquid water equivalent) [m]\nQuantity of freezing precipitation (liquid water equivalent) [m]\nQuantity of liquid precipitation [m]\n\nPrecipitation variables are provided at 1h and 24h frequency at the surface level. Two types of precipitation are available, one forecasted by the model and one generated by the offline precipitation reanalysis system. For more details see the section on precipitation fields and the data variables table on the CaSR web site.\n\n\n\n\n\n\n\n\n\nWind\n\n\n\n\n\n\nU-component of the wind (along the grid X axis) [kts]\nV-component of the wind (along the grid Y axis) [kts]\nCorrected U-component of the wind (along West-East direction) [kts]\nCorrected V-component of the wind (along South-North direction) [kts]\nWind Modulus [kts]\nMeteorologial Wind direction [degree]\n\nWind variables are provided at 1h frequency and at levels 10m, ~20m, and ~40m. For more details see the respective table on the CaSR web site\n\n\n\n\n\n\n\n\n\nHumidity\n\n\n\n\n\n\nRelative humidity [%]\nSpecific humidity [kg/kg]\n\nHumidity variables are provided at 1h frequency and at levels 1.5 m, ~20m, and ~40m. For more details see the respective table on the CaSR web site\n\n\n\n\n\n\n\n\n\nRadiation\n\n\n\n\n\n\nDownward solar flux [W/m2]\nSurface incoming infrared flux [W/m2]\n\nRadiation variables are provided at 1h frequency at the surface level. For more details see the respective table on the CaSR web site\n\n\n\n\n\n\n\n\n\nSnow\n\n\n\n\n\n\nWater equivalent of snow depth over land subgrid tile [kg/m2]\nSnow depth over land subgrid tile [cm]\n\nSnow variables are provided at 24h frequency at the surface level. For more details see the respective table on the CaSR web site\n\n\n\n\n\n\n\n\n\nOther Meteorological Variables\n\n\n\n\n\n\nSurface pressure [mb]\nSea level pressure [mb]\nGeopotential height [dam]\n\nThese meteorological variables are provided at 1h frequency and (depending on variable) at surface level, ~20m, and ~40m. For more details see the respective table on the CaSR web site\n\n\n\n\n\n\nlinks to Electricity Sector Activities\n\n\n\nToDo: Point to PAVICS for partial/regional data extraction!\n\n\n\n\n\n1. Gasset, N. et al. A 10 km north american precipitation and land-surface reanalysis based on the GEM atmospheric model. Hydrology and Earth System Sciences 25, 4917–4945 (2021).\n\n\n2. Gasset, N. et al. Réanalyse canadienne de surface (RCaS-CaSR) version 3.1 d’environnement et changement climatique canada (ECCC). (2025).\n\n\n3. Environment and Climate Change Canada (ECCC). Canadian surface reanalysis (CaSR) - data specifics. ECCC web site https://hpfx.collab.science.gc.ca/~scar700/rcas-casr/dataset_specifics.html (2025).\n\n\n4. Khedhaouiria, G., D. & Bulat, M. Canadian surface reanalysis (CaSR) v3: ECCC hourly 0.1° surface reanalysis across north america. TBD (2025?).",
+    "text": "The Canadian Surface Reanalysis (CaSR) is a high-resolution atmospheric reanalysis dataset produced by Environment and Climate Change Canada (ECCC). CaSR v3.1 is produced by dynamically downscaling ECMWF’s ERA5 global reanalysis using operational models and configurations of ECCC’s operational weather and environmental prediction system to provide historical, high-resolution climate and weather data over North America, with a focus on Canada. Surface observations are integrated through the the Canadian Land Data Assimilation System (CaLDAS) coupled with the Canadian Precipitation Analysis (CaPA). CaSR is a consistent and seamless dataset providing the main meteorological variables coherent with in situ surface observations1. Note that the CaSR dataset was previously known as RDRS (Regional Deterministic Reforecast System).\n\n\n\nCaSR simulation domain with station locations2\n\n\n\n\n\n\nCurrent version: v3.1\nTemporal coverage: 1970–2024 - double check once we have the data on PAVICS\nTemporal resolution: Hourly and daily outputs\n\nSpatial coverage: Canada and U.S.\nSpatial resolution: ~10 km grid spacing (0.09˚)\nData type: A dynamical downscaling of ERA5 (ERA-Interim for version 2.1) over North and Central America domain using ECCC’s Global Deterministic Reforecast System (GDRS), the global surface model (GEM-Surf) the Regional Deterministic Reforecast System (RDRS), coupled with the CaLDAS surface assimilation system.3\nWeb references:  ECCC Canadian Surface Reanalysis (CaSR) Web Site,  Northern Climate Data Report and Inventory (NCDRI) Web Site\nReference publications: See references below\n\n\n\n\n\n\n\n\n\n\n\n\n\nStrength\nDescription\n\n\n\n\nHigh resolution\n~10 km grid spacing provides detailed spatial variability, better than global reanalyses.\n\n\nAssimilation of observations.\nAssimilation of observed precipitation and surface variables.\n\n\nHourly data availability.\nUseful for high-frequency climate and weather analysis.\n\n\nCanada-specific\nOptimized for Canadian climate conditions, including extreme cold and snow processes.\n\n\nDetailed precipitation\nPrecipitation types are distiguished, including freezing rain.Two versions of precipitation are provided: one purely modeled and the reanalysis version that assimilates measured precipitation data are provided.\n\n\nPrecipitation confidence index\nA confidence index for precipitation informs on the weight of observations in the analysis.\n\n\nActive Development\nNew versions and longer temporal record are in preparation.\n\n\nConsistent Historical Record\nSpans over four decades, allowing for trend analysis and climate studies.ToDo: This was communicated for CaSR v2.1; Is this still true for CaSR v3.1?\n\n\n\n\n\n\n\n\n\nLimitation\nDescription\n\n\n\n\nKnown biases\nCaSR is generally too wet and has too much snow. ToDo: Refine; What else?\n\n\nUncommon Georeference\nThe data are made available on a rotated grid which may be difficult to handle. The PAVICS platform hosts a tutorial dedicated to the conversion of rotated grids.\n\n\nLimited Suitability for Trend Analysis\nFor the current version, gaps in observation data and model errors may skew trends found in the dataset.ToDo: This was communicated for CaSR v2.1; Is this still true for CaSR v3.1?.\n\n\nPrecipitation Uncertainties\nCaSR precipitation estimates deviate from observed values when far from stations.\n\n\nLimited to the Surface or Near-Surface\nCaSR provides no data above 40m above surface.\n\n\nComputationally Intensive\nRelatively high-resolution data requires significant storage and processing power for analysis over larger areas. See section on Data Access for workarounds on PAVICS\n\n\n\n\n\n\n\n\n\n\n\n\n\nA detailed discussion to be developed here.\n\n\n\n\n\nLorem ipsum.\n\n\n\n\n\n\nlinks to Electricity Sector Activities\n\n\n\nFor details click on variable group to uncollapse\n\n\n\n\n\n\nTemperature\n\n\n\n\n\n\nTemperature [˚C]\nDew point temperature [˚C]\n\nTemperature variables are provided at 1h & 3h frequency and at levels 1.5 m, ~20m, and ~40m. For more details see the respective table on the CaSR web site\n\n\n\n\n\n\n\n\n\nPrecipitation\n\n\n\n\n\n\nQuantity of daily precipitation [m]\nConfidence index of daily precipitation\nQuantity of hourly precipitation [m]\nQuantity of ice pellets (liquid water equivalent) [m]\nQuantity of freezing precipitation (liquid water equivalent) [m]\nQuantity of liquid precipitation [m]\n\nPrecipitation variables are provided at 1h and 24h frequency at the surface level. Two types of precipitation are available, one forecasted by the model and one generated by the offline precipitation reanalysis system. For more details see the section on precipitation fields and the data variables table on the CaSR web site.\n\n\n\n\n\n\n\n\n\nWind\n\n\n\n\n\n\nU-component of the wind (along the grid X axis) [kts]\nV-component of the wind (along the grid Y axis) [kts]\nCorrected U-component of the wind (along West-East direction) [kts]\nCorrected V-component of the wind (along South-North direction) [kts]\nWind Modulus [kts]\nMeteorologial Wind direction [degree]\n\nWind variables are provided at 1h frequency and at levels 10m, ~20m, and ~40m. For more details see the respective table on the CaSR web site\n\n\n\n\n\n\n\n\n\nHumidity\n\n\n\n\n\n\nRelative humidity [%]\nSpecific humidity [kg/kg]\n\nHumidity variables are provided at 1h frequency and at levels 1.5 m, ~20m, and ~40m. For more details see the respective table on the CaSR web site\n\n\n\n\n\n\n\n\n\nRadiation\n\n\n\n\n\n\nDownward solar flux [W/m2]\nSurface incoming infrared flux [W/m2]\n\nRadiation variables are provided at 1h frequency at the surface level. For more details see the respective table on the CaSR web site\n\n\n\n\n\n\n\n\n\nSnow\n\n\n\n\n\n\nWater equivalent of snow depth over land subgrid tile [kg/m2]\nSnow depth over land subgrid tile [cm]\n\nSnow variables are provided at 24h frequency at the surface level. For more details see the respective table on the CaSR web site\n\n\n\n\n\n\n\n\n\nOther Meteorological Variables\n\n\n\n\n\n\nSurface pressure [mb]\nSea level pressure [mb]\nGeopotential height [dam]\n\nThese meteorological variables are provided at 1h frequency and (depending on variable) at surface level, ~20m, and ~40m. For more details see the respective table on the CaSR web site\n\n\n\n\n\n\nToDo: Point to PAVICS for partial/regional data extraction!\n\n\n\n\n\n1. Gasset, N. et al. A 10 km north american precipitation and land-surface reanalysis based on the GEM atmospheric model. Hydrology and Earth System Sciences 25, 4917–4945 (2021).\n\n\n2. Gasset, N. et al. Réanalyse canadienne de surface (RCaS-CaSR) version 3.1 d’environnement et changement climatique canada (ECCC). (2025).\n\n\n3. Environment and Climate Change Canada (ECCC). Canadian surface reanalysis (CaSR) - data specifics. ECCC web site https://hpfx.collab.science.gc.ca/~scar700/rcas-casr/dataset_specifics.html (2025).\n\n\n4. Khedhaouiria, G., D. & Bulat, M. Canadian surface reanalysis (CaSR) v3: ECCC hourly 0.1° surface reanalysis across north america. TBD (2025?).",
     "crumbs": [
       "Climate Datasets",
       "Reanalysis Data",
@@ -1038,14 +1038,22 @@
     "href": "literature_review/demand.html",
     "title": "Demand",
     "section": "",
-    "text": "Electricity demand is a vital component in the planning, operation, and resilience of power systems. Climate change is expected to alter electricity demand patterns by affecting not only patterns of temperature, such as mean temperature, number of temperature extremes, and seasonal variations, but also consumption behaviours across different sectors. Numerous studies project increased cooling demand during hotter summers and reduced heating demand during milder winters as this pattern have been consistently observed across multiple global regions (1,2,3,4,5). The magnitude and direction of these changes are strongly dependent on the region and latitude; for example, countries in warmer climates are expected to see higher overall demand growth due to increased cooling loads (6,7,8). Climate change also affects electricity consumption by sector and temporal demand profiles, including daily and seasonal variations. The residential, commercial, and industrial sectors respond differently to climate drivers (9,10,11). Meanwhile, the timing of electricity demand is shifting as well, with studies projecting changes in peak load hours and seasonal peaks due to rising temperatures and more frequent extreme heat events (1,Fonseca2019?,12).\nTo assess the impacts of climate change on electricity demand, different approaches have been employed. These include the use of climate projections from GCM and RCM combined with downscaling techniques to capture local climatic variability (13,2,Fonseca2019?,14,4). Empirical models, such as regression-bases analyses, have been also used to estimate historical relationships between temperature and electricity use (6,7,3) , while simulation tools and energy-climate models are applied to explore future scenarios under different socio-economic and climatic conditions (9,14,11)."
+    "text": "Electricity demand is a vital component in the planning, operation, and resilience of power systems. Climate change is expected to alter electricity demand patterns by affecting not only patterns of temperature, such as mean temperature, number of temperature extremes, and seasonal variations, but also consumption behaviours across different sectors. Numerous studies project increased cooling demand during hotter summers and reduced heating demand during milder winters as this pattern have been consistently observed across multiple global regions (1,2,3,4,5). The magnitude and direction of these changes are strongly dependent on the region and latitude; for example, countries in warmer climates are expected to see higher overall demand growth due to increased cooling loads (6,7,8). Climate change also affects electricity consumption by sector and temporal demand profiles, including daily and seasonal variations. The residential, commercial, and industrial sectors respond differently to climate drivers (9,10,11). Meanwhile, the timing of electricity demand is shifting as well, with studies projecting changes in peak load hours and seasonal peaks due to rising temperatures and more frequent extreme heat events (1,12,13).\nTo assess the impacts of climate change on electricity demand, different approaches have been employed. These include the use of climate projections from GCM and RCM combined with downscaling techniques to capture local climatic variability (14,2,12,15,4). Empirical models, such as regression-bases analyses, have been also used to estimate historical relationships between temperature and electricity use (6,7,3) , while simulation tools and energy-climate models are applied to explore future scenarios under different socio-economic and climatic conditions (9,15,11).",
+    "crumbs": [
+      "Literature Review",
+      "Demand"
+    ]
   },
   {
     "objectID": "literature_review/demand.html#climate-change-drivers-and-affected-electricity-demand-parameters",
     "href": "literature_review/demand.html#climate-change-drivers-and-affected-electricity-demand-parameters",
     "title": "Demand",
     "section": "Climate change drivers and affected electricity demand parameters",
-    "text": "Climate change drivers and affected electricity demand parameters\n\nSeasonal variations\nRising temperatures due to climate change have led to a significant in seasonal electricity demand, particularly by increasing cooling demand during summer and reducing heating needs during winter. This shifting trend has been widely documented across regional and global studies. For example,13 showed that electricity demand in the United States shows a strong nonlinear response to high temperatures, especially above 25-30 degC, driven mainly by demand for air conditioning. Similarly,15 also confirmed this global trend that there are steep increases in demand where air conditioning is rising due to climate change. Regional case studies, such asCraig2020?, have demonstrated that peak demand coincides more frequently with extreme heat days, stressing both power generation and distribution infrastructure. The anticipated rise in the frequency, intensity, and duration of heatwaves further amplifies this concerns, requiring investments in peak capacity, demand-side management, and adaptation strategies.11 projected increased summer cooling demand across European regions due to higher temperatures, while8 confirmed the similar rise in cooling demand in Cyprus.9 also found that seasonal peaks are shifting in the United States, with summer peaks becoming more dominant due to climate-induced changes in building energy use.\nHowever, while winters are projected to be warmer, the demand responses are more variable.12 introduced a classification of demand response profiles: a “V”-shaped response which is common in mid-latitude temperated cities, such as North America and Europe where demand increases at both high and low temperatures; increasing response where demand rises steadily with temperature, which can be shown in tropical cities; and unresponsive profile where minimal or no correlation between temperature and electricity demand.3 used multivariate regression in Europe to estimate electricity consumption changes and found that Northern and Central Europe will experience reduced heating demand in winter while Southern Europe will face increased cooling demand and higher costs in summer. This results in an increased annual electricity demand in Spain while it will decrease in Finland, Germany and France.5 analyzed how climate change could flatten winter peaks while enhancing summer peaks in the United Kingdom, suggesting that infrastructure planning should shift from winter-dominant to summer-dominant strategies.\n\n\nRegional variations: by continents, by latitudes\nThe impacts of climate change on electricity demand show considerable regional heterogeneity, followed by geographic location, climatic baseline, economic development, and infrastructure characteristics. A clear latitudinal pattern exists: countries at lower latitude are projected to have higher increases in electricity demand for cooling, while higher latitude regions may observe mixed outcomes due to the opposing effects of warmer winters and hotter summers.\nIn tropical regions, where average temperature are already high, even modest increases in temperature can trigger substantial rises in electricity use.6 found that rising temperatures will affect electricity demand for all warming levels due to increasing air conditioning needs, with low adaptive capacity exacerbating system stress in Niger.7\n\n\nDemand parameters\n\nAnnual demand: generation capacity and/or storage capacity\nSize and timing of peak demand: maintenance and construction schedule, supply planning\nSpatial distribution of demand: topology and capacity of the electricity transmission networks.\nSectors: ability to adapt or respond to climate change"
+    "text": "Climate change drivers and affected electricity demand parameters\n\nDemand parameters\nElectricity demand is governed by a set of interconnected parameters that respond to both climatic and non-climatic factors. Under climate change, demand parameters, such as annual electricity consumption, peak demand magnitude and its timing, and daily load profiles, are increasingly influenced by variations in temperature, precipitation, and extreme weather.5 listed key demand parameters affected by climate change as (1) total annual demand, influencing long-term generation capacity, (2) size and timing of peak demand, driving reserve margin and infrastructure sizing, (3) spatial distribution , affecting transmission and distribution network planning, and (4) sectoral response capacity, determining how quickly end-users can adapt to changing thermal comfort needs.\nAmong all climatic variables, air temperature exerts the strongest impacts on electricity demand. The non-linear V-shaped (or U-shaped) relationship, where demand rises both at high and low temperatures due to cooling and heating needs, respectively, is well presented by using Cooling Degree Days (CDD) and Heating Degree Days (HDD) (16,12,17,18,19,2,3). CDD quantify the accumulated temperature above a comfort threshold (commmonly 18degC or 65degF) which are mainly correlated with air conditioning demand. HDD reflects the accumulated temperature below the comfort threshold to estimate electrically heating requirements. For instanct,1 found that climate change has affected most of the contiguous US after identifying that annual mean CDDs are increasing, leading to significant growth in both average and peak cooling demand, while HDDs are declining, resulting in reduced heating demand. Similarly,11 used national-scale adjustments to CDD and HDD to determine how climate-induced changes in the degree days would shift electricity consumption and peak capacity needs in Macedonia. In Canada,20 applied CDD and HDD projections from multiple downscaled climate models to estimate future changes in space heating and cooling loads across Ontario’s climate zones. Their results showed a consistent increase in CDD and decline in HDD, with implications for building retrofits and peak load planning.\nClimate change not only affects total energy use but also reshapes daily and seasonal demand profiles.12 demonstrated that summer peak hours are becoming longer, with higher temperatures intensifying late afternoon summer peaks from a case study of the Tennessee Valley Authority region.13 also confirmed that peak hours are increasing as a result of climate change in North American cities. Shifting seasonal demand to warmer summer and the demand being more sensitive to climatic conditions in summer are the most commonly observed patterns across studies and across the world (19,21,7,22,18,23,24,25).\nSocioeconomic drivers, such as population growth, urbanization, income levels, policy, and technological adoption (e.g., air conditioners, heat pumps, and thermal insulation), influence the response of electricity demand to temperature.2 demonstrated that population growth had a stronger effect on projected residential electricity demand with consumption potentially increasing nearly fivefold by the end of the century in California under high-growth scenarios. Using a stochastic modeling framework,4 fround that population growth along with economic growth were the most influential factor affecting electricity demand in Brazil.26 and27 similarly analyzed that population growth due to urbanization or migration can reshape electricity demand patterns and stress local infrastructure, especially when combined with rising temperatures.28 analyzed the income level as a demand parameter and found significant increases in total energy consumption in most developing countries.10 found that climate change increases the elasticity of demand to both price and weather variables, particularly in the residential and commercial sectors.11 further emphasizes the role of adaptive capacity and policy. The adaptation measures, such as investment in more efficient cooling technologies or demand side management, can mitigate the projected demand increases.\n\n\nSeasonal variations\nRising temperatures due to climate change have led to a significant in seasonal electricity demand, particularly by increasing cooling demand during summer and reducing heating needs during winter. This shifting trend has been widely documented across regional and global studies. For example,14 showed that electricity demand in the United States shows a strong nonlinear response to high temperatures, especially above 25-30 degC, driven mainly by demand for air conditioning. Similarly,28 also confirmed this global trend that there are steep increases in demand where air conditioning is rising due to climate change. Regional case studies, such as18 and6, have demonstrated that peak demand coincides more frequently with extreme heat days, stressing both power generation and distribution infrastructure. The anticipated rise in the frequency, intensity, and duration of heatwaves further amplifies this concerns, requiring investments in peak capacity, demand-side management, and adaptation strategies.11 projected increased summer cooling demand across European regions due to higher temperatures, while8 confirmed the similar rise in cooling demand in Cyprus.9 also found that seasonal peaks are shifting in the United States, with summer peaks becoming more dominant due to climate-induced changes in building energy use.\nHowever, while winters are projected to be warmer, the demand responses are more variable.13 introduced a classification of demand response profiles: a “V”-shaped response which is common in mid-latitude temperated cities, such as North America and Europe where demand increases at both high and low temperatures; increasing response where demand rises steadily with temperature, which can be shown in tropical cities; and unresponsive profile where minimal or no correlation between temperature and electricity demand.3 used multivariate regression in Europe to estimate electricity consumption changes and found that Northern and Central Europe will experience reduced heating demand in winter while Southern Europe will face increased cooling demand and higher costs in summer. This results in an increased annual electricity demand in Spain while it will decrease in Finland, Germany and France.5 analyzed how climate change could flatten winter peaks while enhancing summer peaks in the United Kingdom, suggesting that infrastructure planning should shift from winter-dominant to summer-dominant strategies.\n\n\nRegional variations\nThe impacts of climate change on electricity demand show considerable regional heterogeneity, followed by geographic location, climatic baseline, economic development, and infrastructure characteristics. A clear latitudinal pattern exists: countries at lower latitude are projected to have higher increases in electricity demand for cooling, while higher latitude regions may observe mixed outcomes due to the opposing effects of warmer winters and hotter summers. Similarly to the13’s classification,16 analyzed Temperature Response Functions (TRFs) across Europe by fitting the relationship between the electricity demand and temperature to three types of curves: linear decreasing curve for Northern European countries, linear curve with a horizontal segment for cold and intermediate climate countries, and V-shaped curve with a comfort zone for intermediate or warm countries where both heating and cooling demands are affected.\nRegional variations in electricity demand due to climate change across Japan show a clear dependency on latitude (19) Northern regions, such as Hokkaido and Tohoku will experience decreased annual electricity demand owing to reduced heating needs, whereas southern regions from Tokyo to Okinawa will see increased consumption due to extended cooling requirements. Transition zones near the border of the northern and southern regions presents a balance between reduced heading and increased cooling demands, while the transition zones are shifting northward as climate warming continues.29 also confirmed that there is a decrease of heating degree days in northern US while the increase of cooling degree days is significant in southern US.\nIn tropical regions, where average temperature are already high, even modest increases in temperature can trigger substantial rises in electricity use.6 found that rising temperatures will affect electricity demand for all warming levels due to increasing air conditioning needs, with low adaptive capacity exacerbating system stress in Niger.28 projected larger increases in energy consumption, primarily driven by higher frequency of high temperature extremes and the consequently increased cooling demand. However, in temperate regions, impacts on demand are mixed, varying based on local climate and socioeconomic conditions, as the demand can either increase or decrease depending on the local climate and geographic incidence of climate change (28).\n\n\nSectoral variations\nClimate change impacts electricity demands across sectors in different ways due to sector-specific end-use patterns, varying weather sensitivities, and adaptive capacities. Therefore, understanding differences in electricity demand patterns across sectors is essential for ensuring grid resilience under changing climate condistions.\nIn the residential sectors, electricity demand is particularly sensitive to temperature fluctuations, primarily due to the use of heating and cooling appliances to meet residents’ comfort expectations, which increase faster than the climate is changing (5).28 found that temperate regions, warming reduces heating needs, resulting in lower electricity consumption, especially in households using electricity-based heating systems, such as heat pumps. However, in tropical and warmer temperate zones, the demand for space cooling increases substantially with rising temperatures and humidity levels, leading to a net increase in electricity use in residential buildings.30 emphasized that while heating energy use intentisy may decline by 18-33%, cooling energy user intensity could rise by as much as 126% by 2070 in Canadian buildings.\nThe commercial sector is also highly climate-sensitive, primarily due to its dependence on heating, ventilating, and air conditioning (HVAC) systems.11 projectec that under a warmer climate scenario, commercial electricity demand for cooling would increase, especially during peak summer periods, while the reduction in heating demand would be relatively minor.24 showed that commercial electricity demands would increase driven not only by higher consumption but also by rising electricity prices. This suggests that the commercial sector faces both quantity- and price-based vulnerabilities under climate change.\nThe industrial sector shows more heterogenous responses. Its demand is generally less directly related to air temperature, but certain processes, particularly those requireing climate-controlled environments, are affected by heat.10 showed that electricity demand in the industrial sector remains relatively price-inelastic and shows modest temperature sensitivity compared to other sectors. However, long-term changes in the demand may emerge through indirect pathways, such as workforce comfort requirements, advances in technology, or regulatory standards.\nIn the transportation sector, electricity demand is currently limited as the sector remains largely dependent on petroleum. However, with increasing electrification of transport systems, future electricity demand is expected to rise significantly (28)10 also noted that while the sector’s electricity use is still low, it is highly responsive to economic and price signals, suggesting future variability under combined climate and market pressures.",
+    "crumbs": [
+      "Literature Review",
+      "Demand"
+    ]
   },
   {
     "objectID": "literature_review/demand.html#sectoral-variations-in-demand",
@@ -1059,14 +1067,22 @@
     "href": "literature_review/demand.html#methodologies-for-assessing-climate-change-impacts",
     "title": "Demand",
     "section": "Methodologies for assessing climate change impacts",
-    "text": "Methodologies for assessing climate change impacts\n\nClimate data: GCMs, RCMs\nDownscaling method: dynamic, statistical\nEmpirical methods: regression analysis\nSimulation models: energy-climate models"
+    "text": "Methodologies for assessing climate change impacts\n\nClimate data\nClimate data is essential for the electricity demand impact assessments under climate change. These data are primarily sourced from Glocal Climate Models (GCMs), which simulate the Earth’s climate system based on physical laws and boundary conditions. GCMs provide long-term projections of atmospheric variables such as temperature and precipitation, which are critical inputs to electricity demand models, especially in studies focusing on temperatrue-sensitive loads like heating and cooling.\nMany studies assessing future electricity demand have employed GCM outputs from the Coupled Model Intercomparison Project phases, particularly CMIP5 and CMIP6. For example,12 temperature projections from 20 CMIP5 GCMs to simulate intra-day electricity demand shifts. Similarly,20 relied on GCMs from thh North American CORDEX, which has 23 CMIP6 to assess building heating and cooling demand in Ontario, while16 drew on CMIP5 from the EURO-CORDEX to construct the temperature response function.1 used ERA5 reanalysis data to analyze changes in peak and average thermal demand across the contiguous US. To explore a range of potential future emissions trajectories, studies commonly apply Representative Concentration Pathways (RCPs). These scenarios (i.e., RCP2.6, RCP4.5, RCP6.0, and RCP8.5) represent different greenhouse gas concentration trajectories based on varying degrees of pathway scenarios. The selection of RCPs provides a structured way to assess electricity demand sensitivity under different warming levels. For instance,16 employed three major RCPs (2.6, 4.5, and 8.5) to examine how demand profiles shift across Europe.7 and31 similarly applied four RCPs including RCP6.0 to assess electricity demand responses under climate change, respectively. While4 and14 applied two RCPs (4.5 and 8.5),15 only used the worst pathway, RCP8.5, to investigate climate change impact on energy demand through building-urban-atmosphere simulations. On the other hand,20 evaluated changes of HDDs and CDDs for buildings’ heating and cooling demand under the intermediate scenario, RCP4.5. Given that GCMs operate at relatively coarse spatial resolutions (typically 100-250 km), their outputs are often inadequate for regional scale modeling. To address this, studies apply downscaling techniques that bridge the resolution gap between GCM outputs and local demand drivers. While statistical downscaling relates large-scale GCM outputs to local climate variables using historical observations (e.g.,4,14,12, and30), dynamical downscaling method uses Regional Climate Models (RCMs) to simulate climate at finer scales (typically 10-50 km) (e.g.,8,15, and30). While, statistical downscaling methods are computationally efficient, these methods may fail to capture complex feedbacks and changes in variability or extremes.\nDespite the advances in climate data usage, the literature reveals several challenges and limitations. First, the choice of climate models and RCPs is not always clearly justified or consistent across studies, making comparative assessment difficult. Second, biases in raw climate model outputs can distrot demand projections if not corrected or validated using observations. Third, the integration of climate data with energy system models often lacks explicit treatment of uncertainty.12 noted that climate variables alone explain a limited portion of electricity demand variability as socioeconomic, behavioral, and technological factors may play considerable roles. Additionally, while many studies have applied a single or limited number of climate models, ensemble approaches or various combinations of GCMs and RCMs, as used by31,14,15,12,20,32, and6, are therefore essential to improve the robustness of results.\n\nSimulation models: energy-climate models\nEmpirical methods: regression analysis",
+    "crumbs": [
+      "Literature Review",
+      "Demand"
+    ]
   },
   {
     "objectID": "literature_review/demand.html#adaptation-strategies",
     "href": "literature_review/demand.html#adaptation-strategies",
     "title": "Demand",
     "section": "Adaptation strategies",
-    "text": "Adaptation strategies\n\nHow to adapt changing demand patterns caused by climate change.\nDemand-side management, energy efficiency measures, grid flexibility."
+    "text": "Adaptation strategies\n\nHow to adapt changing demand patterns caused by climate change.\nDemand-side management, energy efficiency measures, grid flexibility.",
+    "crumbs": [
+      "Literature Review",
+      "Demand"
+    ]
   },
   {
     "objectID": "literature_review/demand.html#references",
@@ -1411,7 +1427,7 @@
     "href": "sectors/planning/demand_forecasting.html",
     "title": "Demand",
     "section": "",
-    "text": "Note: The Demand section is Jongho’s / McMaster’s contribution and MB inserted it here.  Demand Forecasting is below!\nElectricity demand is a vital component in the planning, operation, and resilience of power systems. Climate change is expected to alter electricity demand patterns by affecting not only patterns of temperature, such as mean temperature, number of temperature extremes, and seasonal variations, but also consumption behaviours across different sectors. Numerous studies project increased cooling demand during hotter summers and reduced heating demand during milder winters as this pattern have been consistently observed across multiple global regions (1,2,3,4,5). The magnitude and direction of these changes are strongly dependent on the region and latitude; for example, countries in warmer climates are expected to see higher overall demand growth due to increased cooling loads (6,7,8). Climate change also affects electricity consumption by sector and temporal demand profiles, including daily and seasonal variations. The residential, commercial, and industrial sectors respond differently to climate drivers (9,10,11). Meanwhile, the timing of electricity demand is shifting as well, with studies projecting changes in peak load hours and seasonal peaks due to rising temperatures and more frequent extreme heat events (1,Fonseca2019?,12).\nTo assess the impacts of climate change on electricity demand, different approaches have been employed. These include the use of climate projections from GCM and RCM combined with downscaling techniques to capture local climatic variability (13,2,Fonseca2019?,14,4). Empirical models, such as regression-bases analyses, have been also used to estimate historical relationships between temperature and electricity use (6,7,3) , while simulation tools and energy-climate models are applied to explore future scenarios under different socio-economic and climatic conditions (9,14,11).",
+    "text": "Note: The Demand section is Jongho’s / McMaster’s contribution and MB inserted it here.  Demand Forecasting is below!\nElectricity demand is a vital component in the planning, operation, and resilience of power systems. Climate change is expected to alter electricity demand patterns by affecting not only patterns of temperature, such as mean temperature, number of temperature extremes, and seasonal variations, but also consumption behaviours across different sectors. Numerous studies project increased cooling demand during hotter summers and reduced heating demand during milder winters as this pattern have been consistently observed across multiple global regions (1,2,3,4,5). The magnitude and direction of these changes are strongly dependent on the region and latitude; for example, countries in warmer climates are expected to see higher overall demand growth due to increased cooling loads (6,7,8). Climate change also affects electricity consumption by sector and temporal demand profiles, including daily and seasonal variations. The residential, commercial, and industrial sectors respond differently to climate drivers (9,10,11). Meanwhile, the timing of electricity demand is shifting as well, with studies projecting changes in peak load hours and seasonal peaks due to rising temperatures and more frequent extreme heat events (1,12,13).\nTo assess the impacts of climate change on electricity demand, different approaches have been employed. These include the use of climate projections from GCM and RCM combined with downscaling techniques to capture local climatic variability (14,2,12,15,4). Empirical models, such as regression-bases analyses, have been also used to estimate historical relationships between temperature and electricity use (6,7,3) , while simulation tools and energy-climate models are applied to explore future scenarios under different socio-economic and climatic conditions (9,15,11).",
     "crumbs": [
       "Electricity Sector Activities",
       "Electricity System Planning",
@@ -1423,7 +1439,7 @@
     "href": "sectors/planning/demand_forecasting.html#climate-change-drivers-and-affected-electricity-demand-parameters",
     "title": "Demand",
     "section": "Climate change drivers and affected electricity demand parameters",
-    "text": "Climate change drivers and affected electricity demand parameters\n\nSeasonal variations\nRising temperatures due to climate change have led to a significant in seasonal electricity demand, particularly by increasing cooling demand during summer and reducing heating needs during winter. This shifting trend has been widely documented across regional and global studies. For example,13 showed that electricity demand in the United States shows a strong nonlinear response to high temperatures, especially above 25-30 degC, driven mainly by demand for air conditioning. Similarly,15 also confirmed this global trend that there are steep increases in demand where air conditioning is rising due to climate change. Regional case studies, such asCraig2020?, have demonstrated that peak demand coincides more frequently with extreme heat days, stressing both power generation and distribution infrastructure. The anticipated rise in the frequency, intensity, and duration of heatwaves further amplifies this concerns, requiring investments in peak capacity, demand-side management, and adaptation strategies.11 projected increased summer cooling demand across European regions due to higher temperatures, while8 confirmed the similar rise in cooling demand in Cyprus.9 also found that seasonal peaks are shifting in the United States, with summer peaks becoming more dominant due to climate-induced changes in building energy use.\nHowever, while winters are projected to be warmer, the demand responses are more variable.12 introduced a classification of demand response profiles: a “V”-shaped response which is common in mid-latitude temperated cities, such as North America and Europe where demand increases at both high and low temperatures; increasing response where demand rises steadily with temperature, which can be shown in tropical cities; and unresponsive profile where minimal or no correlation between temperature and electricity demand.3 used multivariate regression in Europe to estimate electricity consumption changes and found that Northern and Central Europe will experience reduced heating demand in winter while Southern Europe will face increased cooling demand and higher costs in summer. This results in an increased annual electricity demand in Spain while it will decrease in Finland, Germany and France.5 analyzed how climate change could flatten winter peaks while enhancing summer peaks in the United Kingdom, suggesting that infrastructure planning should shift from winter-dominant to summer-dominant strategies.\n\n\nRegional variations: by continents, by latitudes\nThe impacts of climate change on electricity demand show considerable regional heterogeneity, followed by geographic location, climatic baseline, economic development, and infrastructure characteristics. A clear latitudinal pattern exists: countries at lower latitude are projected to have higher increases in electricity demand for cooling, while higher latitude regions may observe mixed outcomes due to the opposing effects of warmer winters and hotter summers.\nIn tropical regions, where average temperature are already high, even modest increases in temperature can trigger substantial rises in electricity use.6 found that rising temperatures will affect electricity demand for all warming levels due to increasing air conditioning needs, with low adaptive capacity exacerbating system stress in Niger.7\n\n\nDemand parameters\n\nAnnual demand: generation capacity and/or storage capacity\nSize and timing of peak demand: maintenance and construction schedule, supply planning\nSpatial distribution of demand: topology and capacity of the electricity transmission networks.\nSectors: ability to adapt or respond to climate change",
+    "text": "Climate change drivers and affected electricity demand parameters\n\nDemand parameters\nElectricity demand is governed by a set of interconnected parameters that respond to both climatic and non-climatic factors. Under climate change, demand parameters, such as annual electricity consumption, peak demand magnitude and its timing, and daily load profiles, are increasingly influenced by variations in temperature, precipitation, and extreme weather.5 listed key demand parameters affected by climate change as (1) total annual demand, influencing long-term generation capacity, (2) size and timing of peak demand, driving reserve margin and infrastructure sizing, (3) spatial distribution , affecting transmission and distribution network planning, and (4) sectoral response capacity, determining how quickly end-users can adapt to changing thermal comfort needs.\nAmong all climatic variables, air temperature exerts the strongest impacts on electricity demand. The non-linear V-shaped (or U-shaped) relationship, where demand rises both at high and low temperatures due to cooling and heating needs, respectively, is well presented by using Cooling Degree Days (CDD) and Heating Degree Days (HDD) (16,12,17,18,19,2,3). CDD quantify the accumulated temperature above a comfort threshold (commmonly 18degC or 65degF) which are mainly correlated with air conditioning demand. HDD reflects the accumulated temperature below the comfort threshold to estimate electrically heating requirements. For instanct,1 found that climate change has affected most of the contiguous US after identifying that annual mean CDDs are increasing, leading to significant growth in both average and peak cooling demand, while HDDs are declining, resulting in reduced heating demand. Similarly,11 used national-scale adjustments to CDD and HDD to determine how climate-induced changes in the degree days would shift electricity consumption and peak capacity needs in Macedonia. In Canada,20 applied CDD and HDD projections from multiple downscaled climate models to estimate future changes in space heating and cooling loads across Ontario’s climate zones. Their results showed a consistent increase in CDD and decline in HDD, with implications for building retrofits and peak load planning.\nClimate change not only affects total energy use but also reshapes daily and seasonal demand profiles.12 demonstrated that summer peak hours are becoming longer, with higher temperatures intensifying late afternoon summer peaks from a case study of the Tennessee Valley Authority region.13 also confirmed that peak hours are increasing as a result of climate change in North American cities. Shifting seasonal demand to warmer summer and the demand being more sensitive to climatic conditions in summer are the most commonly observed patterns across studies and across the world (19,21,7,22,18,23,24,25).\nSocioeconomic drivers, such as population growth, urbanization, income levels, policy, and technological adoption (e.g., air conditioners, heat pumps, and thermal insulation), influence the response of electricity demand to temperature.2 demonstrated that population growth had a stronger effect on projected residential electricity demand with consumption potentially increasing nearly fivefold by the end of the century in California under high-growth scenarios. Using a stochastic modeling framework,4 fround that population growth along with economic growth were the most influential factor affecting electricity demand in Brazil.26 and27 similarly analyzed that population growth due to urbanization or migration can reshape electricity demand patterns and stress local infrastructure, especially when combined with rising temperatures.28 analyzed the income level as a demand parameter and found significant increases in total energy consumption in most developing countries.10 found that climate change increases the elasticity of demand to both price and weather variables, particularly in the residential and commercial sectors.11 further emphasizes the role of adaptive capacity and policy. The adaptation measures, such as investment in more efficient cooling technologies or demand side management, can mitigate the projected demand increases.\n\n\nSeasonal variations\nRising temperatures due to climate change have led to a significant in seasonal electricity demand, particularly by increasing cooling demand during summer and reducing heating needs during winter. This shifting trend has been widely documented across regional and global studies. For example,14 showed that electricity demand in the United States shows a strong nonlinear response to high temperatures, especially above 25-30 degC, driven mainly by demand for air conditioning. Similarly,28 also confirmed this global trend that there are steep increases in demand where air conditioning is rising due to climate change. Regional case studies, such as18 and6, have demonstrated that peak demand coincides more frequently with extreme heat days, stressing both power generation and distribution infrastructure. The anticipated rise in the frequency, intensity, and duration of heatwaves further amplifies this concerns, requiring investments in peak capacity, demand-side management, and adaptation strategies.11 projected increased summer cooling demand across European regions due to higher temperatures, while8 confirmed the similar rise in cooling demand in Cyprus.9 also found that seasonal peaks are shifting in the United States, with summer peaks becoming more dominant due to climate-induced changes in building energy use.\nHowever, while winters are projected to be warmer, the demand responses are more variable.13 introduced a classification of demand response profiles: a “V”-shaped response which is common in mid-latitude temperated cities, such as North America and Europe where demand increases at both high and low temperatures; increasing response where demand rises steadily with temperature, which can be shown in tropical cities; and unresponsive profile where minimal or no correlation between temperature and electricity demand.3 used multivariate regression in Europe to estimate electricity consumption changes and found that Northern and Central Europe will experience reduced heating demand in winter while Southern Europe will face increased cooling demand and higher costs in summer. This results in an increased annual electricity demand in Spain while it will decrease in Finland, Germany and France.5 analyzed how climate change could flatten winter peaks while enhancing summer peaks in the United Kingdom, suggesting that infrastructure planning should shift from winter-dominant to summer-dominant strategies.\n\n\nRegional variations\nThe impacts of climate change on electricity demand show considerable regional heterogeneity, followed by geographic location, climatic baseline, economic development, and infrastructure characteristics. A clear latitudinal pattern exists: countries at lower latitude are projected to have higher increases in electricity demand for cooling, while higher latitude regions may observe mixed outcomes due to the opposing effects of warmer winters and hotter summers. Similarly to the13’s classification,16 analyzed Temperature Response Functions (TRFs) across Europe by fitting the relationship between the electricity demand and temperature to three types of curves: linear decreasing curve for Northern European countries, linear curve with a horizontal segment for cold and intermediate climate countries, and V-shaped curve with a comfort zone for intermediate or warm countries where both heating and cooling demands are affected.\nRegional variations in electricity demand due to climate change across Japan show a clear dependency on latitude (19) Northern regions, such as Hokkaido and Tohoku will experience decreased annual electricity demand owing to reduced heating needs, whereas southern regions from Tokyo to Okinawa will see increased consumption due to extended cooling requirements. Transition zones near the border of the northern and southern regions presents a balance between reduced heading and increased cooling demands, while the transition zones are shifting northward as climate warming continues.29 also confirmed that there is a decrease of heating degree days in northern US while the increase of cooling degree days is significant in southern US.\nIn tropical regions, where average temperature are already high, even modest increases in temperature can trigger substantial rises in electricity use.6 found that rising temperatures will affect electricity demand for all warming levels due to increasing air conditioning needs, with low adaptive capacity exacerbating system stress in Niger.28 projected larger increases in energy consumption, primarily driven by higher frequency of high temperature extremes and the consequently increased cooling demand. However, in temperate regions, impacts on demand are mixed, varying based on local climate and socioeconomic conditions, as the demand can either increase or decrease depending on the local climate and geographic incidence of climate change (28).\n\n\nSectoral variations\nClimate change impacts electricity demands across sectors in different ways due to sector-specific end-use patterns, varying weather sensitivities, and adaptive capacities. Therefore, understanding differences in electricity demand patterns across sectors is essential for ensuring grid resilience under changing climate condistions.\nIn the residential sectors, electricity demand is particularly sensitive to temperature fluctuations, primarily due to the use of heating and cooling appliances to meet residents’ comfort expectations, which increase faster than the climate is changing (5).28 found that temperate regions, warming reduces heating needs, resulting in lower electricity consumption, especially in households using electricity-based heating systems, such as heat pumps. However, in tropical and warmer temperate zones, the demand for space cooling increases substantially with rising temperatures and humidity levels, leading to a net increase in electricity use in residential buildings.30 emphasized that while heating energy use intentisy may decline by 18-33%, cooling energy user intensity could rise by as much as 126% by 2070 in Canadian buildings.\nThe commercial sector is also highly climate-sensitive, primarily due to its dependence on heating, ventilating, and air conditioning (HVAC) systems.11 projectec that under a warmer climate scenario, commercial electricity demand for cooling would increase, especially during peak summer periods, while the reduction in heating demand would be relatively minor.24 showed that commercial electricity demands would increase driven not only by higher consumption but also by rising electricity prices. This suggests that the commercial sector faces both quantity- and price-based vulnerabilities under climate change.\nThe industrial sector shows more heterogenous responses. Its demand is generally less directly related to air temperature, but certain processes, particularly those requireing climate-controlled environments, are affected by heat.10 showed that electricity demand in the industrial sector remains relatively price-inelastic and shows modest temperature sensitivity compared to other sectors. However, long-term changes in the demand may emerge through indirect pathways, such as workforce comfort requirements, advances in technology, or regulatory standards.\nIn the transportation sector, electricity demand is currently limited as the sector remains largely dependent on petroleum. However, with increasing electrification of transport systems, future electricity demand is expected to rise significantly (28)10 also noted that while the sector’s electricity use is still low, it is highly responsive to economic and price signals, suggesting future variability under combined climate and market pressures.",
     "crumbs": [
       "Electricity Sector Activities",
       "Electricity System Planning",
@@ -1447,7 +1463,7 @@
     "href": "sectors/planning/demand_forecasting.html#methodologies-for-assessing-climate-change-impacts",
     "title": "Demand",
     "section": "Methodologies for assessing climate change impacts",
-    "text": "Methodologies for assessing climate change impacts\n\nClimate data: GCMs, RCMs\nDownscaling method: dynamic, statistical\nEmpirical methods: regression analysis\nSimulation models: energy-climate models",
+    "text": "Methodologies for assessing climate change impacts\n\nClimate data\nClimate data is essential for the electricity demand impact assessments under climate change. These data are primarily sourced from Glocal Climate Models (GCMs), which simulate the Earth’s climate system based on physical laws and boundary conditions. GCMs provide long-term projections of atmospheric variables such as temperature and precipitation, which are critical inputs to electricity demand models, especially in studies focusing on temperatrue-sensitive loads like heating and cooling.\nMany studies assessing future electricity demand have employed GCM outputs from the Coupled Model Intercomparison Project phases, particularly CMIP5 and CMIP6. For example,12 temperature projections from 20 CMIP5 GCMs to simulate intra-day electricity demand shifts. Similarly,20 relied on GCMs from thh North American CORDEX, which has 23 CMIP6 to assess building heating and cooling demand in Ontario, while16 drew on CMIP5 from the EURO-CORDEX to construct the temperature response function.1 used ERA5 reanalysis data to analyze changes in peak and average thermal demand across the contiguous US. To explore a range of potential future emissions trajectories, studies commonly apply Representative Concentration Pathways (RCPs). These scenarios (i.e., RCP2.6, RCP4.5, RCP6.0, and RCP8.5) represent different greenhouse gas concentration trajectories based on varying degrees of pathway scenarios. The selection of RCPs provides a structured way to assess electricity demand sensitivity under different warming levels. For instance,16 employed three major RCPs (2.6, 4.5, and 8.5) to examine how demand profiles shift across Europe.7 and31 similarly applied four RCPs including RCP6.0 to assess electricity demand responses under climate change, respectively. While4 and14 applied two RCPs (4.5 and 8.5),15 only used the worst pathway, RCP8.5, to investigate climate change impact on energy demand through building-urban-atmosphere simulations. On the other hand,20 evaluated changes of HDDs and CDDs for buildings’ heating and cooling demand under the intermediate scenario, RCP4.5. Given that GCMs operate at relatively coarse spatial resolutions (typically 100-250 km), their outputs are often inadequate for regional scale modeling. To address this, studies apply downscaling techniques that bridge the resolution gap between GCM outputs and local demand drivers. While statistical downscaling relates large-scale GCM outputs to local climate variables using historical observations (e.g.,4,14,12, and30), dynamical downscaling method uses Regional Climate Models (RCMs) to simulate climate at finer scales (typically 10-50 km) (e.g.,8,15, and30). While, statistical downscaling methods are computationally efficient, these methods may fail to capture complex feedbacks and changes in variability or extremes.\nDespite the advances in climate data usage, the literature reveals several challenges and limitations. First, the choice of climate models and RCPs is not always clearly justified or consistent across studies, making comparative assessment difficult. Second, biases in raw climate model outputs can distrot demand projections if not corrected or validated using observations. Third, the integration of climate data with energy system models often lacks explicit treatment of uncertainty.12 noted that climate variables alone explain a limited portion of electricity demand variability as socioeconomic, behavioral, and technological factors may play considerable roles. Additionally, while many studies have applied a single or limited number of climate models, ensemble approaches or various combinations of GCMs and RCMs, as used by31,14,15,12,20,32, and6, are therefore essential to improve the robustness of results.\n\nSimulation models: energy-climate models\nEmpirical methods: regression analysis",
     "crumbs": [
       "Electricity Sector Activities",
       "Electricity System Planning",
@@ -1736,6 +1752,651 @@
     "crumbs": [
       "Electricity Sector Activities",
       "Assurance, Reporting and Disclosures"
+    ]
+  },
+  {
+    "objectID": "datasets/reanalysis_data/CaSR.html#variables-available-in-casr",
+    "href": "datasets/reanalysis_data/CaSR.html#variables-available-in-casr",
+    "title": "Canadian Surface Reanalysis - CaSR",
+    "section": "",
+    "text": "For details click on variable group to uncollapse\n\n\n\n\n\n\nTemperature\n\n\n\n\n\n\nTemperature [˚C]\nDew point temperature [˚C]\n\nTemperature variables are provided at 1h & 3h frequency and at levels 1.5 m, ~20m, and ~40m. For more details see the respective table on the CaSR web site\n\n\n\n\n\n\n\n\n\nPrecipitation\n\n\n\n\n\n\nQuantity of daily precipitation [m]\nConfidence index of daily precipitation\nQuantity of hourly precipitation [m]\nQuantity of ice pellets (liquid water equivalent) [m]\nQuantity of freezing precipitation (liquid water equivalent) [m]\nQuantity of liquid precipitation [m]\n\nPrecipitation variables are provided at 1h and 24h frequency at the surface level. Two types of precipitation are available, one forecasted by the model and one generated by the offline precipitation reanalysis system. For more details see the section on precipitation fields and the data variables table on the CaSR web site.\n\n\n\n\n\n\n\n\n\nWind\n\n\n\n\n\n\nU-component of the wind (along the grid X axis) [kts]\nV-component of the wind (along the grid Y axis) [kts]\nCorrected U-component of the wind (along West-East direction) [kts]\nCorrected V-component of the wind (along South-North direction) [kts]\nWind Modulus [kts]\nMeteorologial Wind direction [degree]\n\nWind variables are provided at 1h frequency and at levels 10m, ~20m, and ~40m. For more details see the respective table on the CaSR web site\n\n\n\n\n\n\n\n\n\nHumidity\n\n\n\n\n\n\nRelative humidity [%]\nSpecific humidity [kg/kg]\n\nHumidity variables are provided at 1h frequency and at levels 1.5 m, ~20m, and ~40m. For more details see the respective table on the CaSR web site\n\n\n\n\n\n\n\n\n\nRadiation\n\n\n\n\n\n\nDownward solar flux [W/m2]\nSurface incoming infrared flux [W/m2]\n\nRadiation variables are provided at 1h frequency at the surface level. For more details see the respective table on the CaSR web site\n\n\n\n\n\n\n\n\n\nSnow\n\n\n\n\n\n\nWater equivalent of snow depth over land subgrid tile [kg/m2]\nSnow depth over land subgrid tile [cm]\n\nSnow variables are provided at 24h frequency at the surface level. For more details see the respective table on the CaSR web site\n\n\n\n\n\n\n\n\n\nOther Meteorological Variables\n\n\n\n\n\n\nSurface pressure [mb]\nSea level pressure [mb]\nGeopotential height [dam]\n\nThese meteorological variables are provided at 1h frequency and (depending on variable) at surface level, ~20m, and ~40m. For more details see the respective table on the CaSR web site",
+    "crumbs": [
+      "Climate Datasets",
+      "Reanalysis Data",
+      "Canadian Surface Reanalysis - CaSR"
+    ]
+  },
+  {
+    "objectID": "sectors/demand.html",
+    "href": "sectors/demand.html",
+    "title": "Demand",
+    "section": "",
+    "text": "Electricity demand is a vital component in the planning, operation, and resilience of power systems. Climate change is expected to alter electricity demand patterns by affecting not only patterns of temperature, such as mean temperature, number of temperature extremes, and seasonal variations, but also consumption behaviours across different sectors. Numerous studies project increased cooling demand during hotter summers and reduced heating demand during milder winters as this pattern have been consistently observed across multiple global regions (1,2,3,4,5). The magnitude and direction of these changes are strongly dependent on the region and latitude; for example, countries in warmer climates are expected to see higher overall demand growth due to increased cooling loads (6,7,8). Climate change also affects electricity consumption by sector and temporal demand profiles, including daily and seasonal variations. The residential, commercial, and industrial sectors respond differently to climate drivers (9,10,11). Meanwhile, the timing of electricity demand is shifting as well, with studies projecting changes in peak load hours and seasonal peaks due to rising temperatures and more frequent extreme heat events (1,12,13).\nTo assess the impacts of climate change on electricity demand, different approaches have been employed. These include the use of climate projections from GCM and RCM combined with downscaling techniques to capture local climatic variability (14,2,12,15,4). Empirical models, such as regression-bases analyses, have been also used to estimate historical relationships between temperature and electricity use (6,7,3) , while simulation tools and energy-climate models are applied to explore future scenarios under different socio-economic and climatic conditions (9,15,11)."
+  },
+  {
+    "objectID": "sectors/demand.html#climate-change-drivers-and-affected-electricity-demand-parameters",
+    "href": "sectors/demand.html#climate-change-drivers-and-affected-electricity-demand-parameters",
+    "title": "Demand",
+    "section": "Climate change drivers and affected electricity demand parameters",
+    "text": "Climate change drivers and affected electricity demand parameters\n\nIncreased cooling demand in summer, reduced heating demand in winter\nRegional variations: by continents, by latitudes\nDemand parameters\n\nAnnual demand: generation capacity and/or storage capacity\nSize and timing of peak demand: maintenance and construction schedule, supply planning\nSpatial distribution of demand: topology and capacity of the electricity transmission networks.\nSectors: ability to adapt or respond to climate change"
+  },
+  {
+    "objectID": "sectors/demand.html#sectoral-variations-in-demand",
+    "href": "sectors/demand.html#sectoral-variations-in-demand",
+    "title": "Demand",
+    "section": "Sectoral variations in demand",
+    "text": "Sectoral variations in demand\n\nDifferences in demand patterns by sectors, such as residential, industrial, and commercial.\nSeasonal and hourly variations in demand and how these might evolve under climate change"
+  },
+  {
+    "objectID": "sectors/demand.html#methodologies-for-assessing-climate-change-impacts",
+    "href": "sectors/demand.html#methodologies-for-assessing-climate-change-impacts",
+    "title": "Demand",
+    "section": "Methodologies for assessing climate change impacts",
+    "text": "Methodologies for assessing climate change impacts\n\nClimate data: GCMs, RCMs\nDownscaling method: dynamic, statistical\nEmpirical methods: regression analysis\nSimulation models: energy-climate models"
+  },
+  {
+    "objectID": "sectors/demand.html#adaptation-strategies",
+    "href": "sectors/demand.html#adaptation-strategies",
+    "title": "Demand",
+    "section": "Adaptation strategies",
+    "text": "Adaptation strategies\n\nHow to adapt changing demand patterns caused by climate change.\nDemand-side management, energy efficiency measures, grid flexibility."
+  },
+  {
+    "objectID": "sectors/demand.html#references",
+    "href": "sectors/demand.html#references",
+    "title": "Demand",
+    "section": "References",
+    "text": "References\n\nAmonkar, Y., Doss-Gollin, J., Farnham, D. J., Modi, V., & Lall, U. (2023). Differential effects of climate change on average and peak demand for heating and cooling across the contiguous USA. Communications Earth and Environment, 4(1), 1–9. https://doi.org/10.1038/s43247-023-01048-1\nAuffhammer, M., & Aroonruengsawat, A. (2011). Simulating the impacts of climate change, prices and population on California’s residential electricity consumption. Climatic Change, 109(SUPPL. 1), 191–210. https://doi.org/10.1007/s10584-011-0299-y\nAuffhammer, M., Baylis, P., & Hausman, C. H. (2017). Climate change is projected to have severe impacts on the frequency and intensity of peak electricity demand across the United States. Proceedings of the National Academy of Sciences of the United States of America, 114(8), 1886–1891. https://doi.org/10.1073/pnas.1613193114\nBonkaney, A. L., Abiodun, B. J., Sanda, I. S., & Balogun, A. A. (2023). Potential impact of global warming on electricity demand in Niger. Climatic Change, 176(4). https://doi.org/10.1007/s10584-023-03513-4\nDirks, J. A., Gorrissen, W. J., Hathaway, J. H., Skorski, D. C., Scott, M. J., Pulsipher, T. C., Huang, M., Liu, Y., & Rice, J. S. (2015). Impacts of climate change on energy consumption and peak demand in buildings: A detailed regional approach. Energy, 79(C), 20–32. https://doi.org/10.1016/j.energy.2014.08.081\nEmodi, N. V., Chaiechi, T., & Alam Beg, A. B. M. R. (2018). The impact of climate change on electricity demand in Australia. Energy and Environment, 29(7), 1263–1297. https://doi.org/10.1177/0958305X18776538\nFonseca, F. R., Jaramillo, P., Bergés, M., & Severnini, E. (2019). Seasonal effects of climate change on intra-day electricity demand patterns. Climatic Change, 154(3–4), 435–451. https://doi.org/10.1007/s10584-019-02413-w\nLipson, M. J., Thatcher, M., Hart, M. A., & Pitman, A. (2019). Climate change impact on energy demand in building-urban-atmosphere simulations through the 21st century. Environmental Research Letters, 14(12). https://doi.org/10.1088/1748-9326/ab5aa5\nPilli-Sihvola, K., Aatola, P., Ollikainen, M., & Tuomenvirta, H. (2010). Climate change and electricity consumption-Witnessing increasing or decreasing use and costs? Energy Policy, 38(5), 2409–2419. https://doi.org/10.1016/j.enpol.2009.12.033\nRomitti, Y., & Wing, I. S. (2022). Heterogeneous climate change impacts on electricity demand in world cities circa mid-century. Scientific Reports, 12(1). https://doi.org/10.1038/s41598-022-07922-w\nShaik, S. (2024). Contribution of climate change to sector-source energy demand. Energy, 294(January), 130777. https://doi.org/10.1016/j.energy.2024.130777\nTaseska, V., Markovska, N., & Callaway, J. M. (2012). Evaluation of climate change impacts on energy demand. Energy, 48(1), 88–95. https://doi.org/10.1016/j.energy.2012.06.053\nTrotter, I. M., Bolkesjø, T. F., Féres, J. G., & Hollanda, L. (2016). Climate change and electricity demand in Brazil: A stochastic approach. Energy, 102, 596–604. https://doi.org/10.1016/j.energy.2016.02.120\nWood, F. R., Calverley, D., Glynn, S., Mander, S., Conor, W., Kuriakose, J., Hill, F., & Roeder, M. (2015). The impacts of climate change on UK energy demand. Infrastructure Asset Management, 2(3), 107–119. https://doi.org/10.1680/jinam.14.00039\nZachariadis, T., & Hadjinicolaou, P. (2014). The effect of climate change on electricity needs - A case study from Mediterranean Europe. Energy, 76, 899–910. https://doi.org/10.1016/j.energy.2014.09.001"
+  },
+  {
+    "objectID": "sectors/generation_forecasting.html",
+    "href": "sectors/generation_forecasting.html",
+    "title": "Generation Forecasting",
+    "section": "",
+    "text": "Combination of fuel supply and outages to determine how much generation can be available over a given planning window (Short to Long)"
+  },
+  {
+    "objectID": "sectors/generation_forecasting.html#description",
+    "href": "sectors/generation_forecasting.html#description",
+    "title": "Generation Forecasting",
+    "section": "",
+    "text": "Combination of fuel supply and outages to determine how much generation can be available over a given planning window (Short to Long)"
+  },
+  {
+    "objectID": "sectors/generation_forecasting.html#hydro",
+    "href": "sectors/generation_forecasting.html#hydro",
+    "title": "Generation Forecasting",
+    "section": "Hydro",
+    "text": "Hydro"
+  },
+  {
+    "objectID": "sectors/generation_forecasting.html#nuclear",
+    "href": "sectors/generation_forecasting.html#nuclear",
+    "title": "Generation Forecasting",
+    "section": "Nuclear",
+    "text": "Nuclear"
+  },
+  {
+    "objectID": "sectors/generation_forecasting.html#solar",
+    "href": "sectors/generation_forecasting.html#solar",
+    "title": "Generation Forecasting",
+    "section": "Solar",
+    "text": "Solar"
+  },
+  {
+    "objectID": "sectors/generation_forecasting.html#thermal",
+    "href": "sectors/generation_forecasting.html#thermal",
+    "title": "Generation Forecasting",
+    "section": "Thermal",
+    "text": "Thermal"
+  },
+  {
+    "objectID": "sectors/generation_forecasting.html#wind",
+    "href": "sectors/generation_forecasting.html#wind",
+    "title": "Generation Forecasting",
+    "section": "Wind",
+    "text": "Wind"
+  },
+  {
+    "objectID": "sectors/outage_scheduling.html",
+    "href": "sectors/outage_scheduling.html",
+    "title": "Outage Scheduling",
+    "section": "",
+    "text": "Considerations for outage scheduling constraints due to predominately temperatures related events."
+  },
+  {
+    "objectID": "sectors/outage_scheduling.html#description",
+    "href": "sectors/outage_scheduling.html#description",
+    "title": "Outage Scheduling",
+    "section": "",
+    "text": "Considerations for outage scheduling constraints due to predominately temperatures related events."
+  },
+  {
+    "objectID": "sectors/nuclear_safety_review.html",
+    "href": "sectors/nuclear_safety_review.html",
+    "title": "Nuclear Safety Reviews",
+    "section": "",
+    "text": "Includes assessments of PMP, PMF, IDF and other hydrotechnical aspects of dam safety. Also includes failure modes analysis which could include broader climatic indicators."
+  },
+  {
+    "objectID": "sectors/nuclear_safety_review.html#description",
+    "href": "sectors/nuclear_safety_review.html#description",
+    "title": "Nuclear Safety Reviews",
+    "section": "",
+    "text": "Includes assessments of PMP, PMF, IDF and other hydrotechnical aspects of dam safety. Also includes failure modes analysis which could include broader climatic indicators."
+  },
+  {
+    "objectID": "sectors/construction.html",
+    "href": "sectors/construction.html",
+    "title": "Construction",
+    "section": "",
+    "text": "Plan and construct various assets including hydropower facilities, transmission/distribution lines, electrical stations. Some special consideration may be required for remote locations and seasonality of the construction season. (MV note: This needs to be refined, just wanted to get something as a placeholder)"
+  },
+  {
+    "objectID": "sectors/construction.html#description",
+    "href": "sectors/construction.html#description",
+    "title": "Construction",
+    "section": "",
+    "text": "Plan and construct various assets including hydropower facilities, transmission/distribution lines, electrical stations. Some special consideration may be required for remote locations and seasonality of the construction season. (MV note: This needs to be refined, just wanted to get something as a placeholder)"
+  },
+  {
+    "objectID": "sectors/esg_and_sustainability_reporting.html",
+    "href": "sectors/esg_and_sustainability_reporting.html",
+    "title": "ESG & Sustainability Reporting",
+    "section": "",
+    "text": "Need to support disclosure requirements (voluntary and mandatory) related to risk and based on scenario analysis."
+  },
+  {
+    "objectID": "sectors/esg_and_sustainability_reporting.html#description",
+    "href": "sectors/esg_and_sustainability_reporting.html#description",
+    "title": "ESG & Sustainability Reporting",
+    "section": "",
+    "text": "Need to support disclosure requirements (voluntary and mandatory) related to risk and based on scenario analysis."
+  },
+  {
+    "objectID": "sectors/enterprise_risk_management.html",
+    "href": "sectors/enterprise_risk_management.html",
+    "title": "Enterprise Risk Management",
+    "section": "",
+    "text": "Understanding various exposure risks relative to other ERM/organizational risk profiles\n\n\n\n\n\n\nMaybe consider this!\n\n\n\nThe following may need to become distinct sections!"
+  },
+  {
+    "objectID": "sectors/enterprise_risk_management.html#description",
+    "href": "sectors/enterprise_risk_management.html#description",
+    "title": "Enterprise Risk Management",
+    "section": "",
+    "text": "Understanding various exposure risks relative to other ERM/organizational risk profiles\n\n\n\n\n\n\nMaybe consider this!\n\n\n\nThe following may need to become distinct sections!"
+  },
+  {
+    "objectID": "sectors/enterprise_risk_management.html#infrastructure-condition-assessment",
+    "href": "sectors/enterprise_risk_management.html#infrastructure-condition-assessment",
+    "title": "Enterprise Risk Management",
+    "section": "Infrastructure Condition Assessment",
+    "text": "Infrastructure Condition Assessment"
+  },
+  {
+    "objectID": "sectors/enterprise_risk_management.html#investment-prioritization",
+    "href": "sectors/enterprise_risk_management.html#investment-prioritization",
+    "title": "Enterprise Risk Management",
+    "section": "Investment Prioritization",
+    "text": "Investment Prioritization"
+  },
+  {
+    "objectID": "sectors/enterprise_risk_management.html#vegetation-management",
+    "href": "sectors/enterprise_risk_management.html#vegetation-management",
+    "title": "Enterprise Risk Management",
+    "section": "Vegetation Management",
+    "text": "Vegetation Management"
+  },
+  {
+    "objectID": "sectors/dam_safety_review.html",
+    "href": "sectors/dam_safety_review.html",
+    "title": "Dam Safety Review",
+    "section": "",
+    "text": "Includes assessments of PMP, PMF, IDF and other hydrotechnical aspects of dam safety. Also includes failure modes analysis which could include broader climatic indicators."
+  },
+  {
+    "objectID": "sectors/dam_safety_review.html#description",
+    "href": "sectors/dam_safety_review.html#description",
+    "title": "Dam Safety Review",
+    "section": "",
+    "text": "Includes assessments of PMP, PMF, IDF and other hydrotechnical aspects of dam safety. Also includes failure modes analysis which could include broader climatic indicators."
+  },
+  {
+    "objectID": "sectors/infrastructure_condition_assessment_and_investment_prioritization.html",
+    "href": "sectors/infrastructure_condition_assessment_and_investment_prioritization.html",
+    "title": "Infrastructure Condition Assessment & Investment Prioritization",
+    "section": "",
+    "text": "Based on existing condition of assets (scope to be expanded to include more robust vulnerabilities) and projected changes to hazard exposure, support in the development of investment prioritization."
+  },
+  {
+    "objectID": "sectors/infrastructure_condition_assessment_and_investment_prioritization.html#description",
+    "href": "sectors/infrastructure_condition_assessment_and_investment_prioritization.html#description",
+    "title": "Infrastructure Condition Assessment & Investment Prioritization",
+    "section": "",
+    "text": "Based on existing condition of assets (scope to be expanded to include more robust vulnerabilities) and projected changes to hazard exposure, support in the development of investment prioritization."
+  },
+  {
+    "objectID": "sectors/vegetation_management.html",
+    "href": "sectors/vegetation_management.html",
+    "title": "Vegetation Management",
+    "section": "",
+    "text": "Support the enhancement of vegetation management programs to include changes in vegetation growth."
+  },
+  {
+    "objectID": "sectors/vegetation_management.html#description",
+    "href": "sectors/vegetation_management.html#description",
+    "title": "Vegetation Management",
+    "section": "",
+    "text": "Support the enhancement of vegetation management programs to include changes in vegetation growth."
+  },
+  {
+    "objectID": "datasets/reanalysis_data/RDRS-old.html",
+    "href": "datasets/reanalysis_data/RDRS-old.html",
+    "title": "Regional Deterministic Reforecast System - RDRS v2.1",
+    "section": "",
+    "text": "Overview\nEnvironment and Climate Change Canada has initiated the production of a 1980–2018, 10 km, North American precipitation and surface reanalysis. ERA-Interim is used to initialize the Global Deterministic Reforecast System (GDRS) at a 39 km resolution. Its output is then dynamically downscaled to 10 km by the Regional Deterministic Reforecast System (RDRS). Coupled with the RDRS, the Canadian Land Data Assimilation System (CaLDAS) and Precipitation Analysis (CaPA) are used to produce surface and precipitation analyses. All systems used are close to operational model versions and configurations.\nGasset, et al. (2021)\n\n\nTemperature Data\nRDRS v2.1 provides daily and hourly temperature data from 1980 onward, lorem ipsum lorem ipsum lorem non-ipsum lorem ipsum lorem ipsum lorem non-ipsum lorem ipsum lorem ipsum lorem non-ipsum lorem ipsum lorem ipsum lorem non-ipsum lorem ipsum lorem ipsum lorem non-ipsum lorem ipsum lorem ipsum lorem non-ipsum lorem ipsum lorem ipsum lorem non-ipsum lorem ipsum lorem ipsum lorem non-ipsum lorem ipsum lorem ipsum lorem non-ipsum lorem ipsum lorem ipsum lorem non-ipsum lorem ipsum lorem ipsum lorem non-ipsum\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nname\nsource\ndata type\nspatial domain\nspatial resolution\ntemporal coverage\ntime step\ndata format\n\n\n\n\n\nRDRSv2\nCCMEP/ECCC\nRegional reanalysis\nNorth America\n10 km x 10 km\n2000-2017(1980-1999 pending)\nHourly\nRPN\ndetails"
+  },
+  {
+    "objectID": "datasets/reanalysis_data/ERA5-Land_old.html",
+    "href": "datasets/reanalysis_data/ERA5-Land_old.html",
+    "title": "Surface temperature (T2m) products of the ECMWF Reanalysis 5th Generation Land (ERA5-Land)",
+    "section": "",
+    "text": "This document provides an overview of the near-surface temperature products (T2m) of ERA5-Land, in the context of the larger ERA5-Land dataset. ERA5-Land is a replay of the land component of the ERA5 atmospheric global reanalysis using a finer spatial resolution and including a series of improvements making it more accurate for all types of land applications. ERA5-Land is produced by ECMWF framed within the Copernicus Climate Change Service (C3S) of the European Commission. The data covers a period from January 1950 to the present. It provides hourly data for many near-surface atmospheric and land-surface parameters."
+  },
+  {
+    "objectID": "datasets/reanalysis_data/ERA5-Land_old.html#overview",
+    "href": "datasets/reanalysis_data/ERA5-Land_old.html#overview",
+    "title": "Surface temperature (T2m) products of the ECMWF Reanalysis 5th Generation Land (ERA5-Land)",
+    "section": "",
+    "text": "This document provides an overview of the near-surface temperature products (T2m) of ERA5-Land, in the context of the larger ERA5-Land dataset. ERA5-Land is a replay of the land component of the ERA5 atmospheric global reanalysis using a finer spatial resolution and including a series of improvements making it more accurate for all types of land applications. ERA5-Land is produced by ECMWF framed within the Copernicus Climate Change Service (C3S) of the European Commission. The data covers a period from January 1950 to the present. It provides hourly data for many near-surface atmospheric and land-surface parameters."
+  },
+  {
+    "objectID": "datasets/reanalysis_data/ERA5-Land_old.html#providers-contact-information",
+    "href": "datasets/reanalysis_data/ERA5-Land_old.html#providers-contact-information",
+    "title": "Surface temperature (T2m) products of the ECMWF Reanalysis 5th Generation Land (ERA5-Land)",
+    "section": "Provider’s contact information",
+    "text": "Provider’s contact information\nERA5-Land is produced by the Copernicus Climate Change Service (C3S) at ECMWF.\nCopernicus User support (copernicus-support@ecmwf.int (external to C3S))."
+  },
+  {
+    "objectID": "datasets/reanalysis_data/ERA5-Land_old.html#licensing",
+    "href": "datasets/reanalysis_data/ERA5-Land_old.html#licensing",
+    "title": "Surface temperature (T2m) products of the ECMWF Reanalysis 5th Generation Land (ERA5-Land)",
+    "section": "Licensing",
+    "text": "Licensing\nLicence: Copernicus (Licence agreement information can be found here or here).\nDataset citable as: Muñoz Sabater, J., (2019): ERA5-Land hourly data from 1981 to present. Copernicus Climate Change Service (C3S) Climate Data Store (CDS), https://doi.org/10.24381/cds.e2161bac"
+  },
+  {
+    "objectID": "datasets/reanalysis_data/ERA5-Land_old.html#variable-name-and-units",
+    "href": "datasets/reanalysis_data/ERA5-Land_old.html#variable-name-and-units",
+    "title": "Surface temperature (T2m) products of the ECMWF Reanalysis 5th Generation Land (ERA5-Land)",
+    "section": "Variable name and units:",
+    "text": "Variable name and units:\nThe 2 m temperature product (K) of ERA5-Land over northern Canada is the main focus of this document. 2 m temperature is calculated by interpolating between the lowest model level and the Earth’s surface, taking account of the atmospheric conditions. This parameter has units of kelvin (K). Temperature measured in kelvin can be converted to degrees Celsius (°C) by subtracting 273.15. Hourly and monthly subsets are available.\nThe ERA5-Land 2 m temperature product can be found as follows:\n\nSelect 2 m temperature hourly data from 1950 to present,\nSelect 2 m temperature monthly averaged data from 1981 to present,\n\nIn ERA5-Land, hourly “2 m temperature” is an instantaneous parameter provided at hourly time step from the analyses. Monthly data is pre-calculated as monthly-mean averages from hourly data.\nERA5-Land also provides values for 2 m dew point temperature and skin temperature. The following table describes the single-level temperature data available in ERA5-Land.\n\n\n\n\n\n\n\n\nName\nUnits\nDescription\n\n\n\n\n2 m temperature\nK\nTemperature of air at 2 m above the surface of land, sea or inland waters. 2 m temperature is calculated by interpolating between the lowest model level and the Earth’s surface, taking account of the atmospheric conditions. Temperature measured in kelvin can be converted to degrees Celsius (°C) by subtracting 273.15.\n\n\n2 m dew point temperature\nK\nTemperature to which the air, at 2 m above the surface of the Earth, would have to be cooled for saturation to occur. It is a measure of the humidity of the air. Combined with temperature and pressure, it can be used to calculate the relative humidity. 2 m dew point temperature is calculated by interpolating between the lowest model level and the Earth’s surface, taking account of the atmospheric conditions. Temperature measured in kelvin can be converted to degrees Celsius (°C) by subtracting 273.15.\n\n\nSkin temperature\nK\nTemperature of the surface of the Earth. The skin temperature is the theoretical temperature that is required to satisfy the surface energy balance. It represents the temperature of the uppermost surface layer, which has no heat capacity and so can respond instantaneously to changes in surface fluxes. Skin temperature is calculated differently over land and sea. Temperature measured in kelvin can be converted to degrees Celsius (°C) by subtracting 273.15."
+  },
+  {
+    "objectID": "datasets/reanalysis_data/ERA5-Land_old.html#spatial-coverage-and-resolution",
+    "href": "datasets/reanalysis_data/ERA5-Land_old.html#spatial-coverage-and-resolution",
+    "title": "Surface temperature (T2m) products of the ECMWF Reanalysis 5th Generation Land (ERA5-Land)",
+    "section": "Spatial coverage and resolution:",
+    "text": "Spatial coverage and resolution:\nERA5-Land is a global land-surface dataset. The atmospheric data is available on a regular latitude-longitude grid at 0.1o x 0.1o resolution (converted from native reduced‐Gaussian grid resolution of approximately 9 km x 9 km), and on 4 surface layers. Oceans have been masked out with data available over landmasses and inland lakes."
+  },
+  {
+    "objectID": "datasets/reanalysis_data/ERA5-Land_old.html#temporal-coverage-and-resolution",
+    "href": "datasets/reanalysis_data/ERA5-Land_old.html#temporal-coverage-and-resolution",
+    "title": "Surface temperature (T2m) products of the ECMWF Reanalysis 5th Generation Land (ERA5-Land)",
+    "section": "Temporal coverage and resolution:",
+    "text": "Temporal coverage and resolution:\nERA5-Land 2 m temperature data is available from 1950 to present. The data is available at hourly and monthly sampling (see above).\nERA5-Land 2 m temperature data updates are made synchronously with ERA5 updates, approximately 2-3 months behind real time."
+  },
+  {
+    "objectID": "datasets/reanalysis_data/ERA5-Land_old.html#information-about-observations-number-homogeneity",
+    "href": "datasets/reanalysis_data/ERA5-Land_old.html#information-about-observations-number-homogeneity",
+    "title": "Surface temperature (T2m) products of the ECMWF Reanalysis 5th Generation Land (ERA5-Land)",
+    "section": "Information about observations (number, homogeneity)",
+    "text": "Information about observations (number, homogeneity)\nERA5-Land is not directly influenced by observations, but rather, indirectly influenced through the ERA5 atmospheric forcings. ERA5’s data assimilation uses observations for all geophysical quantities from about 0.75 million observations per day in 1979 and about 24 million in 2018. The 2D-OI uses surface observations at ‘screen level’. The online technical documentation provides tables with the satellite and in-situ observations used as input into ERA5. Further details can also be found in the ERA5 document previously prepared by the CCCS."
+  },
+  {
+    "objectID": "datasets/reanalysis_data/ERA5-Land_old.html#methodology",
+    "href": "datasets/reanalysis_data/ERA5-Land_old.html#methodology",
+    "title": "Surface temperature (T2m) products of the ECMWF Reanalysis 5th Generation Land (ERA5-Land)",
+    "section": "Methodology",
+    "text": "Methodology\nERA5-Land is produced under a single simulation of the land component of the ERA5 climate reanalysis, without coupling to the atmospheric module of the ECMWF’s Integrated Forecasting System (IFS) and without data assimilation. The low atmospheric forcing is provided by the ERA5 reanalysis, with additional lapse-rate correction. The core of ERA5-Land is the Tiled ECMWF Scheme for Surface Exchanges over Land incorporating land surface hydrology (H-TESSEL). Because it runs without data assimilation, it makes it computationally affordable for relatively quick updates. For example, if significant improvements of the land surface model are implemented, the whole or part of the dataset can be reprocessed in a relatively short period. Updates are possible in case improved auxiliary datasets are used as input for the production.\nProduction of ERA5-Land is not produced as a single continuous segment, but instead as three segments: Stream-1 (2001 onwards), Stream-2 (1981-2000), and Stream-3 (1950-1980). This is because it allows parallel production of data enabling sooner public access to the data, and because the atmospheric forcings used by ERA5-Land is derived from ERA5, thus needing corresponding completed ERA5 segment. Each stream is initialized with various meteorological fields from ERA5 (temperature, precipitation, humidity, radiation, etc.). While ERA5-Land does not assimilate observations directly, they are introduced via the ERA5 atmospheric forcings. These forcings are adjusted using ERA5 derived lapse rates before being integrated with the ECMWF Carbon Hydrology-Tiled ECMWF Scheme for Surface Exchanges over Land (CHTESSEL) land surface model. This is done in 24-hour cycles, generating hourly outputs and the evolution of the land surface state and water and energy fluxes. For further details of the assimilation system used to obtain the ERA5 atmospheric forcings, please see the ERA5 document previously prepared by the CCCS.\nUncertainty estimate: Currently, ERA5-Land variable uncertainty estimates are those corresponding to ERA5. ERA5 uncertainty estimate is sampled by a 10-member lower-resolution Ensemble Data Assimilation (EDA) which provides background-error estimates for the deterministic HRES 4D-Var Data Assimilation system. The analysis method is the same for each EDA member and follows that of the HRES. Each member (except the control) is run with different random perturbations added to the observations. Likewise, the model physical tendencies are perturbed in the short forecasts that link subsequent analysis windows. Ensemble mean and spread have been pre-computed for convenience. Such uncertainty estimates are closely related to the information content of the available observing system which has evolved considerably over time. They also indicate flow-dependent sensitive areas. To facilitate many climate applications, monthly-mean averages have been pre-calculated too, though monthly means are not available for the ensemble mean and spread.\nThe original plan was to apply the same methodology ERA5-Land to provide an estimate of the uncertainty fields as was done for ERA5. However, the uncertainty was estimated to be extremely low, and would have assigned unrealistically high confidence to the ERA5-Land variables. As such, it is recommended to use the corresponding ERA5 uncertainty estimates for the time being until further studies are done."
+  },
+  {
+    "objectID": "datasets/reanalysis_data/ERA5-Land_old.html#information-about-the-technical-and-scientific-quality",
+    "href": "datasets/reanalysis_data/ERA5-Land_old.html#information-about-the-technical-and-scientific-quality",
+    "title": "Surface temperature (T2m) products of the ECMWF Reanalysis 5th Generation Land (ERA5-Land)",
+    "section": "Information about the technical and scientific quality",
+    "text": "Information about the technical and scientific quality\nERA5-Land 2 m temperature represents one of the products of the latest global atmospheric reanalysis produced by Copernicus Climate Change Service at ECMWF. It is archived at a shorter (hourly) time step, has a fine spatial resolution, uses a more advanced assimilation system, and includes more sources of data than previous versions (e.g., ERA-Interim-Land). It is accompanied by extensive technical documentation and two principal scientific documentation papers. A list of ‘known issues’ is maintained at the online documentation.\nInformation on land surface model: The land surface model of the ERA5-Land was operational in 2018 with the IFS model cycle 45r1. While most of the changes from the IFS Cy41R2 used in ERA5 are primarily technical, there were a few improvements to various fields: 1) the parameterization of the soil thermal conductivity was updated to take the ice component of frozen soil into consideration, 2) conservation of the soil-water balance was fixed and improved, and 3) rain over snow is now accounted for and is not accumulated in snow pack. Furthermore, a bug exists in IFS Cy41R2, that affects potential evapotranspiration (PET) flux calculations over forests and deserts, has been corrected in ERA5-Land, and unlike ERA5, ERA5-Land PET is an available dataset. However, PET is now determined by assuming a vegetation type of crops and no soil moisture stress. These assumptions may not be always realistic, and therefore PET should be used cautiously. This is unlikely to affect ERA5-Land 2 m temperature in Canada’s north, but the user should be aware of the reason for this update. More information on the CHTESSEL land surface model used in ERA5-Land can be found in Muñoz-Sabater et al., (2021, preprint)."
+  },
+  {
+    "objectID": "datasets/reanalysis_data/ERA5-Land_old.html#limitations-and-strengths-for-application-in-canada.",
+    "href": "datasets/reanalysis_data/ERA5-Land_old.html#limitations-and-strengths-for-application-in-canada.",
+    "title": "Surface temperature (T2m) products of the ECMWF Reanalysis 5th Generation Land (ERA5-Land)",
+    "section": "Limitations and strengths for application in Canada.",
+    "text": "Limitations and strengths for application in Canada.\nERA5-Land is a newer land surface reanalysis and there are few available scientific evaluations of the dataset dedicated specifically to northern Canada. However, it should be noted that in northern Canada, there are currently no sub-daily records over a long historical period for many weather stations. Reanalyses data with hourly output cover this gap and, with suitable investigation and calibration (downscaling), could be valuable particularly for hydrological models and sub-daily extremes analyses. ERA5-Land uses ERA5 atmospheric forcings that assimilates surface temperature from stations.\nAs for all gridded data, observed values of 2 m temperature at local scales can differ from the values provided by the gridded dataset, which represent a statistical summary of the area surrounding a grid point. Also, changes in the amounts and types of observational data that are assimilated may produce artificial trends or variability in 2 m temperature and other reanalysis variables."
+  },
+  {
+    "objectID": "datasets/reanalysis_data/ERA5-Land_old.html#references-to-documents-describing-the-methodology-orand-the-dataset",
+    "href": "datasets/reanalysis_data/ERA5-Land_old.html#references-to-documents-describing-the-methodology-orand-the-dataset",
+    "title": "Surface temperature (T2m) products of the ECMWF Reanalysis 5th Generation Land (ERA5-Land)",
+    "section": "References to documents describing the methodology or/and the dataset",
+    "text": "References to documents describing the methodology or/and the dataset\nMuñoz Sabater, J., 2019: ERA5-Land hourly data from 1981 to present. Copernicus Climate Change Service (C3S) Climate Data Store (CDS). (Accessed on &lt; DD-Month-YYYY &gt;), https://doi.org/10.24381/cds.e2161bac\nMuñoz-Sabater, J., E. Dutra, A. Agustí-Panareda, C. Albergel, G. Arduini, G., Balsamo, S. Boussetta, M. Choulga, S. Harrigan, H. Hersbach, B. Martens, D. G. Miralles, M. Piles, N. J. Rodríguez-Fernández, E. Zsoter, C. Buontempo, and J.-N. Thépaut, 2021: ERA5-Land: A state-of-the-art global reanalysis dataset for land applications. Earth System Science Data, 13(9), 4349-4383. https://doi.org/10.5194/essd-2021-82\nHersbach, H., B .Bell, P. Berrisford, S. Hirahara, A. Horányi, J. Muñoz‐Sabater, J. Nicolas, C. Peubey, R. Radu, D. Schepers, A. Simmons, C. Soci, S. Abdalla, X. Abellan, G. Balsamo, P. Bechtold, G. Biavati, J. Bidlot, M. Bonavita, G. Chiara, P. Dahlgren, D. Dee, M. Diamantakis, R. Dragani, J. Flemming, R. Forbes, M. Fuentes, A. Geer, L. Haimberger, S. Healy, R.J. Hogan, E. Hólm, M. Janisková, S. Keeley, P. Laloyaux, P. Lopez, C. Lupu, G. Radnoti, P. Rosnay, I. Rozum, F. Vamborg, S. Villaume, and J.-N. Thépaut, 2020: The ERA5 global reanalysis. Quarterly Journal of the Royal Meteorological Society, 146(730), 1999–2049. https://doi.org/10.1002/qj.3803."
+  },
+  {
+    "objectID": "datasets/reanalysis_data/ERA5-Land_old.html#link-to-download-the-data-and-format-of-data",
+    "href": "datasets/reanalysis_data/ERA5-Land_old.html#link-to-download-the-data-and-format-of-data",
+    "title": "Surface temperature (T2m) products of the ECMWF Reanalysis 5th Generation Land (ERA5-Land)",
+    "section": "Link to download the data and format of data:",
+    "text": "Link to download the data and format of data:\nData Access: Copernicus | ECMWF (requires login)\nERA5-Land is available in GRIB and NetCDF formats"
+  },
+  {
+    "objectID": "datasets/reanalysis_data/ERA5-Land_old.html#link-to-download-hourly-and-monthly-data-on-copernicus",
+    "href": "datasets/reanalysis_data/ERA5-Land_old.html#link-to-download-hourly-and-monthly-data-on-copernicus",
+    "title": "Surface temperature (T2m) products of the ECMWF Reanalysis 5th Generation Land (ERA5-Land)",
+    "section": "Link to download hourly and monthly data on Copernicus:",
+    "text": "Link to download hourly and monthly data on Copernicus:\n\nhourly data from 1950 to present,\nmonthly averaged data from 1981 to present"
+  },
+  {
+    "objectID": "datasets/reanalysis_data/ERA5-Land_old.html#publications-including-dataset-evaluation-or-comparison-with-other-data-in-canada",
+    "href": "datasets/reanalysis_data/ERA5-Land_old.html#publications-including-dataset-evaluation-or-comparison-with-other-data-in-canada",
+    "title": "Surface temperature (T2m) products of the ECMWF Reanalysis 5th Generation Land (ERA5-Land)",
+    "section": "Publications including dataset evaluation or comparison with other data in Canada",
+    "text": "Publications including dataset evaluation or comparison with other data in Canada\nSheridan, S.C., C.C. Lee, and E.T. Smith, 2020: A comparison between station observations and reanalysis data in the identification of extreme temperature events. Geophysical Research Letters, 47(15), e2020GL088120. (It compares observations, ERA5, ERA5-LAND, and NARR, in the United States and Canada- only a very small number of stations are in North Canada).\nZhang, R., S. Chan, R. Bindlish, and V. Lakshmi, 2021: Evaluation of Global Surface Water Temperature Data Sets for Use in Passive Remote Sensing of Soil Moisture. Remote Sensing, 13(10), 1872. https://doi.org/10.3390/rs13101872 (This paper compares various lake surface water temperature products, including ERA5-Land, with in-situ observations. Comparisons are primarily made around the great lakes, with only few points in the north)\nCao, B., S. Gruber, D. Zheng, and X. Li, 2020: The ERA5-Land soil temperature bias in permafrost regions. The Cryosphere, 14(8), 2581–2595. https://doi.org/10.5194/tc-14-2581-2020 (The paper examines ERA5-Land soil temperature in permafrost regions across the northern hemisphere, including parts of Northern Canada)"
+  },
+  {
+    "objectID": "datasets/Climate_Dataset_Overview.html",
+    "href": "datasets/Climate_Dataset_Overview.html",
+    "title": "An Overview of Climate Data",
+    "section": "",
+    "text": "Note\n\n\n\nThe structure of this section may be organized by:\n\nClimate Variable\nDatasets\n\nTBD"
+  },
+  {
+    "objectID": "datasets/Climate_Dataset_Overview.html#climate-data-sources",
+    "href": "datasets/Climate_Dataset_Overview.html#climate-data-sources",
+    "title": "An Overview of Climate Data",
+    "section": "Climate Data Sources",
+    "text": "Climate Data Sources\nGenerally, climate data can be sourced from historical observation of climate using instrumentation or from climate model simulations. In the context of electricity system planning and design, future climatic conditions should be of primary interest, but observed historical climate data and products derived thereof may also be employed or used in the development of adequate future climate information.\nObserved data is provided as point information at station locations. To provide continuous fields of climate information, station data can be interpolated spatially to produce gridded historical data. They provide a portrait of climate beyond the stations point locations but are impacted by potential interpolation errors, particularly in data sparce regions, or in regions of complex topography (e.g. mountainous areas). The approach that attempts to overcome these drawbacks is the reproduction of historical climate through the combination of a maximum of available climate information with a physical climate simulation approach known as climate reanalysis. Reanalysis products have substantially improved over recent years and are often used as surrogates for observational data in climate science and studies.\nObservational data and reanalysis data provide a representation of the actual evolution and sequence of events as they occurred and provide robust estimates of climate when averaged over climatic periods (usually 30 years). Note, however, that due to natural climate variability, climate estimates would shift with slight temporal shifts of the period, or the data being used.\nSimulated data from climate models used for electricity system planning and design should be sourced from internationally coordinated ensembles of climate model simulations or products derived thereof. These simulations typically cover multiple decades and are available for historical and future periods. They are fully consistent in time and space and are provided on grids. The grid resolution depends on the model or the data product.\nLike observational data, bias-adjusted historical climate simulations may be used to derive climate estimates of historical climate. These estimates will not be identical to climate estimates from observed data yet will generally fall into the range of natural variability of the observed climate. Since climate model simulations extend into the future, estimates for future climate may also be derived. It is important to note that the sequence of events produced by a historical climate simulation is distinct from the sequence of historically observed events, although their respective climate estimate is the robust characteristic they have in common."
+  },
+  {
+    "objectID": "datasets/Climate_Dataset_Overview.html#types-of-climate-datasets",
+    "href": "datasets/Climate_Dataset_Overview.html#types-of-climate-datasets",
+    "title": "An Overview of Climate Data",
+    "section": "Types of climate datasets",
+    "text": "Types of climate datasets\n\nIntroduction\nTemperature datasets are crucial for understanding climate variability and change. These datasets come from a variety of sources, each offering unique strengths depending on the type of analysis required.\nThe datasets discussed here can be grouped into the following categories:\nObservational data are direct temperature measurements from weather stations, buoys, and satellites. These provide the most accurate and high-resolution temperature records, but their coverage is often limited to specific locations, leading to gaps in certain regions, particularly oceans and remote areas.\nGridded observational datasets address this limitation by interpolating station data across a defined grid, providing more comprehensive spatial coverage. These datasets, such as those produced by national meteorological agencies, offer a balance between accuracy and spatial representation, though uncertainties arise in data-sparse regions.\nReanalysis datasets combine historical observations with climate models to create consistent, long-term reconstructions of the atmosphere. They offer global coverage and high temporal resolution, making them valuable for analyzing past climate conditions and trends. However, reanalysis products rely on model-based data assimilation, which may introduce biases, especially in areas with limited observations.\nClimate model data, often from global climate models (GCMs), simulate temperature under different greenhouse gas scenarios. These projections are essential for understanding future climate patterns and assessing potential impacts. While models provide large-scale temperature trends, they lack the precision of observational data due to their coarse spatial resolution and inherent uncertainties in modeling processes.\nTogether, these temperature datasets enable a comprehensive view of both historical and future climate conditions, supporting a wide range of climate research and impact assessments."
+  },
+  {
+    "objectID": "sectors/electrical_system_operations.html",
+    "href": "sectors/electrical_system_operations.html",
+    "title": "Electrical System Operations",
+    "section": "",
+    "text": "Operate the electrical system in real-time to manage several factors including load, generation, exports, imports, line losses, equipment ratings, and contingencies. (MV note: This needs to be refined, just wanted to get something as a placeholder)"
+  },
+  {
+    "objectID": "sectors/electrical_system_operations.html#description",
+    "href": "sectors/electrical_system_operations.html#description",
+    "title": "Electrical System Operations",
+    "section": "",
+    "text": "Operate the electrical system in real-time to manage several factors including load, generation, exports, imports, line losses, equipment ratings, and contingencies. (MV note: This needs to be refined, just wanted to get something as a placeholder)"
+  },
+  {
+    "objectID": "sectors/infrastructure_design.html",
+    "href": "sectors/infrastructure_design.html",
+    "title": "Infrastructure Design",
+    "section": "",
+    "text": "Parameters used to meet regulatory design criteria, beyond design basis criteria and develop and maintain these assets. Floodplain avoidance/mitigative design."
+  },
+  {
+    "objectID": "sectors/infrastructure_design.html#description",
+    "href": "sectors/infrastructure_design.html#description",
+    "title": "Infrastructure Design",
+    "section": "",
+    "text": "Parameters used to meet regulatory design criteria, beyond design basis criteria and develop and maintain these assets. Floodplain avoidance/mitigative design."
+  },
+  {
+    "objectID": "sectors/infrastructure_design.html#hydro",
+    "href": "sectors/infrastructure_design.html#hydro",
+    "title": "Infrastructure Design",
+    "section": "Hydro",
+    "text": "Hydro"
+  },
+  {
+    "objectID": "sectors/infrastructure_design.html#thermal-nuclear",
+    "href": "sectors/infrastructure_design.html#thermal-nuclear",
+    "title": "Infrastructure Design",
+    "section": "Thermal & Nuclear",
+    "text": "Thermal & Nuclear"
+  },
+  {
+    "objectID": "sectors/infrastructure_design.html#transmission-distribution",
+    "href": "sectors/infrastructure_design.html#transmission-distribution",
+    "title": "Infrastructure Design",
+    "section": "Transmission & Distribution",
+    "text": "Transmission & Distribution"
+  },
+  {
+    "objectID": "sectors/licensing_and_impact-environmental_assessments.html",
+    "href": "sectors/licensing_and_impact-environmental_assessments.html",
+    "title": "Licensing & Impact/Environmental Assessments",
+    "section": "",
+    "text": "Determines the impact of the project on surrounding areas and how these could interact in the climate change context. Also seeing need for this with CER/OEB emerging regulatory requirements."
+  },
+  {
+    "objectID": "sectors/licensing_and_impact-environmental_assessments.html#description",
+    "href": "sectors/licensing_and_impact-environmental_assessments.html#description",
+    "title": "Licensing & Impact/Environmental Assessments",
+    "section": "",
+    "text": "Determines the impact of the project on surrounding areas and how these could interact in the climate change context. Also seeing need for this with CER/OEB emerging regulatory requirements."
+  },
+  {
+    "objectID": "sectors/forest_fire_monitoring_and_awareness.html",
+    "href": "sectors/forest_fire_monitoring_and_awareness.html",
+    "title": "Forest Fire Monitoring and Awareness",
+    "section": "",
+    "text": "Use of projections to inform future wildfire resilience investments (e.g. pole wrapping)."
+  },
+  {
+    "objectID": "sectors/forest_fire_monitoring_and_awareness.html#description",
+    "href": "sectors/forest_fire_monitoring_and_awareness.html#description",
+    "title": "Forest Fire Monitoring and Awareness",
+    "section": "",
+    "text": "Use of projections to inform future wildfire resilience investments (e.g. pole wrapping)."
+  },
+  {
+    "objectID": "sectors/forest_fire_monitoring_and_awareness.html#this-is-a-test",
+    "href": "sectors/forest_fire_monitoring_and_awareness.html#this-is-a-test",
+    "title": "Forest Fire Monitoring and Awareness",
+    "section": "This is a test:",
+    "text": "This is a test:\nI want to see if I can smoothly type into the Notebook file locally in my PyCharm IDE and everything will update nicely remotely in jupyter lab and quarto output.\nSo while I type this in PyCharm, I have my jupyter server running on doris.ouranos.ca and jupyter lab is open in my browser.\nIf I save this file locally, it should be ssh-ed to my directory on doris, updated in jupyter lab in my browser and subsequently Quarto should update the output which is open in my browser as well, that is, the quarto server is listening to my notebooks and quarto files.\nI will now also go ahead and make some changes in the _quarto.yml file.\n\nHere is just a Third Level Heading\nSo this would be the corresponding text.\n\nAnd just for the heck of it, here is also a Fourth Level Heading\nLet’s see if this is also rendered in the TOC, indicating what’s “On this page”."
+  },
+  {
+    "objectID": "sectors/forest_fire_monitoring_and_awareness.html#result-of-the-test",
+    "href": "sectors/forest_fire_monitoring_and_awareness.html#result-of-the-test",
+    "title": "Forest Fire Monitoring and Awareness",
+    "section": "Result of the test:",
+    "text": "Result of the test:\nIt very nicely does all that but at first I was a little impatient and did some fiddling with the upload of the file for everything to show up in the browser, the jupyter lab and the quarto preview page. Then I just went on typing and next time around it just does it all and everything show up alright. It’s magical, hihi!\n\nVery cool!"
+  },
+  {
+    "objectID": "sectors/forest_fire_monitoring_and_awareness.html#second-level-heading",
+    "href": "sectors/forest_fire_monitoring_and_awareness.html#second-level-heading",
+    "title": "Forest Fire Monitoring and Awareness",
+    "section": "Second Level Heading",
+    "text": "Second Level Heading\nbla bla\n\nThird level Heading\nhaha haha\n\nFourth Level Heading\nIs this still showing in the TOC?\nAnd with that I’ll add some code right here:\n\n\nCode\nimport beer\nimport time\nimport user\n\nif time &gt; \"16:00\":\n    beer = True\n    user.drink(beer)"
+  },
+  {
+    "objectID": "sectors/proactive_management_of_heavily_loaded_assets.html",
+    "href": "sectors/proactive_management_of_heavily_loaded_assets.html",
+    "title": "Proactive management of heavily loaded assets",
+    "section": "",
+    "text": "Incorporation of temperature projections to support investment decisions for heavily loaded assets."
+  },
+  {
+    "objectID": "sectors/proactive_management_of_heavily_loaded_assets.html#description",
+    "href": "sectors/proactive_management_of_heavily_loaded_assets.html#description",
+    "title": "Proactive management of heavily loaded assets",
+    "section": "",
+    "text": "Incorporation of temperature projections to support investment decisions for heavily loaded assets."
+  },
+  {
+    "objectID": "sectors/support_supply_chain_decision-making.html",
+    "href": "sectors/support_supply_chain_decision-making.html",
+    "title": "Support supply chain decision-making",
+    "section": "",
+    "text": "Where surplus equipment should be located."
+  },
+  {
+    "objectID": "sectors/support_supply_chain_decision-making.html#description",
+    "href": "sectors/support_supply_chain_decision-making.html#description",
+    "title": "Support supply chain decision-making",
+    "section": "",
+    "text": "Where surplus equipment should be located."
+  },
+  {
+    "objectID": "sectors/demand_forecasting.html",
+    "href": "sectors/demand_forecasting.html",
+    "title": "Demand Forecasting",
+    "section": "",
+    "text": "Modelling daily, weekly and peak demands over short and long-term planning horizons (MV note: for MH, we typically have a separate load forecast for electrical energy, electrical peak, and natural gas volume… so we may want to capture that nuance)."
+  },
+  {
+    "objectID": "sectors/demand_forecasting.html#description",
+    "href": "sectors/demand_forecasting.html#description",
+    "title": "Demand Forecasting",
+    "section": "",
+    "text": "Modelling daily, weekly and peak demands over short and long-term planning horizons (MV note: for MH, we typically have a separate load forecast for electrical energy, electrical peak, and natural gas volume… so we may want to capture that nuance)."
+  },
+  {
+    "objectID": "sectors/demand_forecasting.html#hydro",
+    "href": "sectors/demand_forecasting.html#hydro",
+    "title": "Demand Forecasting",
+    "section": "Hydro",
+    "text": "Hydro\nlorem ipsum, bla, bla, and blah"
+  },
+  {
+    "objectID": "sectors/demand_forecasting.html#nuclear",
+    "href": "sectors/demand_forecasting.html#nuclear",
+    "title": "Demand Forecasting",
+    "section": "Nuclear",
+    "text": "Nuclear\nlorem ipsum, bla, bla, and blah"
+  },
+  {
+    "objectID": "sectors/demand_forecasting.html#solar",
+    "href": "sectors/demand_forecasting.html#solar",
+    "title": "Demand Forecasting",
+    "section": "Solar",
+    "text": "Solar\nlorem ipsum, bla, bla, and blah"
+  },
+  {
+    "objectID": "sectors/demand_forecasting.html#thermal",
+    "href": "sectors/demand_forecasting.html#thermal",
+    "title": "Demand Forecasting",
+    "section": "Thermal",
+    "text": "Thermal\nlorem ipsum, bla, bla, and blah"
+  },
+  {
+    "objectID": "sectors/demand_forecasting.html#wind",
+    "href": "sectors/demand_forecasting.html#wind",
+    "title": "Demand Forecasting",
+    "section": "Wind",
+    "text": "Wind\nlorem ipsum, bla, bla, and blah"
+  },
+  {
+    "objectID": "sectors/resource_adequacy_planning.html",
+    "href": "sectors/resource_adequacy_planning.html",
+    "title": "Resource Adequacy Planning",
+    "section": "",
+    "text": "Planning for adequate resources to meet capacity for peak and energy demands. This might encompass several imbedded criteria such as a drought planning criterion."
+  },
+  {
+    "objectID": "sectors/resource_adequacy_planning.html#description",
+    "href": "sectors/resource_adequacy_planning.html#description",
+    "title": "Resource Adequacy Planning",
+    "section": "",
+    "text": "Planning for adequate resources to meet capacity for peak and energy demands. This might encompass several imbedded criteria such as a drought planning criterion."
+  },
+  {
+    "objectID": "sectors/worker_safety.html",
+    "href": "sectors/worker_safety.html",
+    "title": "Worker safety",
+    "section": "",
+    "text": "Incorporate climate hazard evaluation and mitigation into job planning. For work environments imposing elevated risk to climate hazard exposure, this may include implementing appropriate administrative and/or engineering controls such as modifying work schedules to reduce exposure to extreme temperatures."
+  },
+  {
+    "objectID": "sectors/worker_safety.html#description",
+    "href": "sectors/worker_safety.html#description",
+    "title": "Worker safety",
+    "section": "",
+    "text": "Incorporate climate hazard evaluation and mitigation into job planning. For work environments imposing elevated risk to climate hazard exposure, this may include implementing appropriate administrative and/or engineering controls such as modifying work schedules to reduce exposure to extreme temperatures."
+  },
+  {
+    "objectID": "sectors/capacity_expansion_modelling.html",
+    "href": "sectors/capacity_expansion_modelling.html",
+    "title": "Capacity Expansion Modelling",
+    "section": "",
+    "text": "Modelling of growth in grid requirements taking demand, supply, costs, etc. as inputs to determine how to best meet demand in the lowest costs method Power Sector Modeling 101"
+  },
+  {
+    "objectID": "sectors/capacity_expansion_modelling.html#description",
+    "href": "sectors/capacity_expansion_modelling.html#description",
+    "title": "Capacity Expansion Modelling",
+    "section": "",
+    "text": "Modelling of growth in grid requirements taking demand, supply, costs, etc. as inputs to determine how to best meet demand in the lowest costs method Power Sector Modeling 101"
+  },
+  {
+    "objectID": "literature_review/demand.html#ontarios-electricity-demand",
+    "href": "literature_review/demand.html#ontarios-electricity-demand",
+    "title": "Demand",
+    "section": "Ontario’s electricity demand",
+    "text": "Ontario’s electricity demand\nIn Ontario, the Independent Electricity System Operator (IESO) is responsible for the stable and reliable operation of power system and electricity market. According to the recent Annual Planning Outlook (APO) (33), Ontario’s electricity demand is influenced by both growth-inducing and demand-tempering factors. On the growth side, demand is expected to rise significantly due to expansion of industrial electric vehicle production, an increasing number of data centres driven by artificial intelligence services, ongoing decarbonization and electrification initiatives, and continued population growth and household formation. Conversely, demand growth may be moderated by energy savings from energy demand-side management (eDSM) programs, slower growth of agricultural greenhouse sector, and rising living costs and economic uncertainty. As a result of these offsetting factors, grid-level electricity demand in Ontario remained relatively flat over the past decade. However, a substantial increase is projected: net summer seasonal peak demand is forecasted to grow by 48%, and net winter seasonal peak demand by 57, by 2050. It is important to note that these projections are based on a normal weather scenario, which assumes average climatic conditions. This approach may introduce potential limitations, as it does not account for increasing weather variability due to changing climate. Weather-sensitive demand, such as heating and cooling, is strongly influenced by actual weather conditions, which are expected to include more frequent heatwaves and cold snaps. Therefore, the application of various climate scenarios is recommended to better capture uncertainty and inform more resilient electricity system planning.",
+    "crumbs": [
+      "Literature Review",
+      "Demand"
+    ]
+  },
+  {
+    "objectID": "sectors/planning/demand_forecasting.html#ontarios-electricity-demand",
+    "href": "sectors/planning/demand_forecasting.html#ontarios-electricity-demand",
+    "title": "Demand",
+    "section": "Ontario’s electricity demand",
+    "text": "Ontario’s electricity demand\nIn Ontario, the Independent Electricity System Operator (IESO) is responsible for the stable and reliable operation of power system and electricity market. According to the recent Annual Planning Outlook (APO) (33), Ontario’s electricity demand is influenced by both growth-inducing and demand-tempering factors. On the growth side, demand is expected to rise significantly due to expansion of industrial electric vehicle production, an increasing number of data centres driven by artificial intelligence services, ongoing decarbonization and electrification initiatives, and continued population growth and household formation. Conversely, demand growth may be moderated by energy savings from energy demand-side management (eDSM) programs, slower growth of agricultural greenhouse sector, and rising living costs and economic uncertainty. As a result of these offsetting factors, grid-level electricity demand in Ontario remained relatively flat over the past decade. However, a substantial increase is projected: net summer seasonal peak demand is forecasted to grow by 48%, and net winter seasonal peak demand by 57, by 2050. It is important to note that these projections are based on a normal weather scenario, which assumes average climatic conditions. This approach may introduce potential limitations, as it does not account for increasing weather variability due to changing climate. Weather-sensitive demand, such as heating and cooling, is strongly influenced by actual weather conditions, which are expected to include more frequent heatwaves and cold snaps. Therefore, the application of various climate scenarios is recommended to better capture uncertainty and inform more resilient electricity system planning.",
+    "crumbs": [
+      "Electricity Sector Activities",
+      "Electricity System Planning",
+      "Demand"
+    ]
+  },
+  {
+    "objectID": "sectors/planning/demand_forecasting.html#climate-change-drivers-and-affected-electricity-demand-parameters-1",
+    "href": "sectors/planning/demand_forecasting.html#climate-change-drivers-and-affected-electricity-demand-parameters-1",
+    "title": "Demand",
+    "section": "Climate change drivers and affected electricity demand parameters",
+    "text": "Climate change drivers and affected electricity demand parameters\n\nSeasonal variations\nRising temperatures due to climate change have led to a significant in seasonal electricity demand, particularly by increasing cooling demand during summer and reducing heating needs during winter. This shifting trend has been widely documented across regional and global studies. For example,14 showed that electricity demand in the United States shows a strong nonlinear response to high temperatures, especially above 25-30 degC, driven mainly by demand for air conditioning. Similarly,28 also confirmed this global trend that there are steep increases in demand where air conditioning is rising due to climate change. Regional case studies, such asCraig2020?, have demonstrated that peak demand coincides more frequently with extreme heat days, stressing both power generation and distribution infrastructure. The anticipated rise in the frequency, intensity, and duration of heatwaves further amplifies this concerns, requiring investments in peak capacity, demand-side management, and adaptation strategies.11 projected increased summer cooling demand across European regions due to higher temperatures, while8 confirmed the similar rise in cooling demand in Cyprus.9 also found that seasonal peaks are shifting in the United States, with summer peaks becoming more dominant due to climate-induced changes in building energy use.\nHowever, while winters are projected to be warmer, the demand responses are more variable.13 introduced a classification of demand response profiles: a “V”-shaped response which is common in mid-latitude temperated cities, such as North America and Europe where demand increases at both high and low temperatures; increasing response where demand rises steadily with temperature, which can be shown in tropical cities; and unresponsive profile where minimal or no correlation between temperature and electricity demand.3 used multivariate regression in Europe to estimate electricity consumption changes and found that Northern and Central Europe will experience reduced heating demand in winter while Southern Europe will face increased cooling demand and higher costs in summer. This results in an increased annual electricity demand in Spain while it will decrease in Finland, Germany and France.5 analyzed how climate change could flatten winter peaks while enhancing summer peaks in the United Kingdom, suggesting that infrastructure planning should shift from winter-dominant to summer-dominant strategies.\n\n\nRegional variations: by continents, by latitudes\nThe impacts of climate change on electricity demand show considerable regional heterogeneity, followed by geographic location, climatic baseline, economic development, and infrastructure characteristics. A clear latitudinal pattern exists: countries at lower latitude are projected to have higher increases in electricity demand for cooling, while higher latitude regions may observe mixed outcomes due to the opposing effects of warmer winters and hotter summers.\nIn tropical regions, where average temperature are already high, even modest increases in temperature can trigger substantial rises in electricity use.6 found that rising temperatures will affect electricity demand for all warming levels due to increasing air conditioning needs, with low adaptive capacity exacerbating system stress in Niger.7\n\n\nDemand parameters\n\nAnnual demand: generation capacity and/or storage capacity\nSize and timing of peak demand: maintenance and construction schedule, supply planning\nSpatial distribution of demand: topology and capacity of the electricity transmission networks.\nSectors: ability to adapt or respond to climate change",
+    "crumbs": [
+      "Electricity Sector Activities",
+      "Electricity System Planning",
+      "Demand"
+    ]
+  },
+  {
+    "objectID": "sectors/planning/demand_forecasting.html#methodologies-for-assessing-climate-change-impacts-1",
+    "href": "sectors/planning/demand_forecasting.html#methodologies-for-assessing-climate-change-impacts-1",
+    "title": "Demand",
+    "section": "Methodologies for assessing climate change impacts",
+    "text": "Methodologies for assessing climate change impacts\n\nClimate data: GCMs, RCMs\nDownscaling method: dynamic, statistical\nEmpirical methods: regression analysis\nSimulation models: energy-climate models",
+    "crumbs": [
+      "Electricity Sector Activities",
+      "Electricity System Planning",
+      "Demand"
+    ]
+  },
+  {
+    "objectID": "sectors/planning/demand_forecasting.html#adaptation-strategies-1",
+    "href": "sectors/planning/demand_forecasting.html#adaptation-strategies-1",
+    "title": "Demand",
+    "section": "Adaptation strategies",
+    "text": "Adaptation strategies\n\nHow to adapt changing demand patterns caused by climate change.\nDemand-side management, energy efficiency measures, grid flexibility.",
+    "crumbs": [
+      "Electricity Sector Activities",
+      "Electricity System Planning",
+      "Demand"
     ]
   }
 ]
