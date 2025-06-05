@@ -16,7 +16,7 @@ website:
   navbar: false
   sidebar:
     #title: "Climate Data for the Electricity Sector"  # Adding the title here
-    logo: "image/Logo_McMaster_and_Ouranos.png"
+    logo: "image/Logo_McMaster_and_Ouranos_vertical_trans.png"
     style: "docked" #"floating"
     collapse-level: 1
     #search: true
@@ -86,6 +86,7 @@ website:
             href: datasets/tools/Analysis_Support_Tools.ipynb
             contents:
               - datasets/tools/Point_Location_Compare.ipynb
+      - dmdu/DMDU.ipynb        
 
 format:
   html:
@@ -108,7 +109,7 @@ format:
 bibliography:
   - literature_review/references.bib
   - datasets/references.bib
-#  - sectors/references.bib
+  - sectors/references.bib
 
 
 
