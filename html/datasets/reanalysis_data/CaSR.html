@@ -445,7 +445,12 @@ div.csl-indent {
 <section id="summary-description" class="level2">
 <h2 class="anchored" data-anchor-id="summary-description">Summary Description</h2>
 <p>The Canadian Surface Reanalysis (CaSR) is a high-resolution atmospheric reanalysis dataset produced by Environment and Climate Change Canada (ECCC). CaSR v3.1 is produced by dynamically downscaling <a href="https://cds.climate.copernicus.eu/datasets/reanalysis-era5-single-levels">ECMWF’s ERA5 global reanalysis</a> using operational models and configurations of ECCC’s operational weather and environmental prediction system to provide historical, high-resolution climate and weather data over North America, with a focus on Canada. Surface observations are integrated through the the Canadian Land Data Assimilation System (CaLDAS) coupled with the Canadian Precipitation Analysis (CaPA). CaSR is a consistent and seamless dataset providing the main meteorological variables coherent with in situ surface observations<span class="citation" data-cites="Gasset2021"><sup><a href="#ref-Gasset2021" role="doc-biblioref">1</a></sup></span>. Note that the CaSR dataset was previously known as RDRS (Regional Deterministic Reforecast System).</p>
-<p>! CaSR simulation domain with station locations” width=400}</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../image/CaSR_domain_and_stations.png" title="CaSR simulation domain with station locations" class="img-fluid figure-img" alt="CaSR simulation domain with station locations" width="400"></p>
+<figcaption>CaSR simulation domain with station locations<span class="citation" data-cites="Gasset2025"><sup><a href="#ref-Gasset2025" role="doc-biblioref">2</a></sup></span></figcaption>
+</figure>
+</div>
 </section>
 <section id="dataset-characteristics" class="level2">
 <h2 class="anchored" data-anchor-id="dataset-characteristics">Dataset Characteristics</h2>
@@ -456,7 +461,7 @@ div.csl-indent {
 </li>
 <li><strong>Spatial coverage:</strong> Canada and U.S.</li>
 <li><strong>Spatial resolution:</strong> ~10 km grid spacing (0.09˚)</li>
-<li><strong>Data type:</strong> A dynamical downscaling of ERA5 (ERA-Interim for version 2.1) over North and Central America domain using ECCC’s Global Deterministic Reforecast System (GDRS), the global surface model (GEM-Surf) the Regional Deterministic Reforecast System (RDRS), coupled with the CaLDAS surface assimilation system.<span class="citation" data-cites="ECCC2025"><sup><a href="#ref-ECCC2025" role="doc-biblioref">2</a></sup></span></li>
+<li><strong>Data type:</strong> A dynamical downscaling of ERA5 (ERA-Interim for version 2.1) over North and Central America domain using ECCC’s Global Deterministic Reforecast System (GDRS), the global surface model (GEM-Surf) the Regional Deterministic Reforecast System (RDRS), coupled with the CaLDAS surface assimilation system.<span class="citation" data-cites="ECCC2025"><sup><a href="#ref-ECCC2025" role="doc-biblioref">3</a></sup></span></li>
 <li><strong>Web references:</strong> <br> <a href="https://hpfx.collab.science.gc.ca/~scar700/rcas-casr/">ECCC Canadian Surface Reanalysis (CaSR) Web Site</a>, <br> <a href="https://nordata.physics.utoronto.ca/en/annexes-datasets-descriptions/71-temperature/north-american-precipitation-and-land-surface-reanalysis-regional-deterministic-reforecast-system-rdrs/">Northern Climate Data Report and Inventory (NCDRI) Web Site</a></li>
 <li><strong>Reference publications:</strong><br> <a href="#refs">See references below</a></li>
 </ul>
@@ -736,11 +741,11 @@ Other Meteorological Variables
 <div id="ref-Gasset2021" class="csl-entry" role="listitem">
 <div class="csl-left-margin">1. </div><div class="csl-right-inline">Gasset, N. <em>et al.</em> <a href="https://doi.org/10.5194/hess-25-4917-2021">A 10 km north american precipitation and land-surface reanalysis based on the GEM atmospheric model</a>. <em>Hydrology and Earth System Sciences</em> <strong>25</strong>, 4917–4945 (2021).</div>
 </div>
-<div id="ref-ECCC2025" class="csl-entry" role="listitem">
-<div class="csl-left-margin">2. </div><div class="csl-right-inline">Environment and Climate Change Canada (ECCC). Canadian surface reanalysis (CaSR) - data specifics. <em>ECCC web site</em> <a href="https://hpfx.collab.science.gc.ca/~scar700/rcas-casr/dataset_specifics.html">https://hpfx.collab.science.gc.ca/~scar700/rcas-casr/dataset_specifics.html</a> (2025).</div>
-</div>
 <div id="ref-Gasset2025" class="csl-entry" role="listitem">
-<div class="csl-left-margin">3. </div><div class="csl-right-inline">Gasset, N. <em>et al.</em> <a href="https://www.ouranos.ca/sites/default/files/2025-02/03_Gasset_Nicolas_Jour_1_Salle2_session9_16h.pdf">Réanalyse canadienne de surface (RCaS-CaSR) version 3.1 d’environnement et changement climatique canada (ECCC)</a>. (2025).</div>
+<div class="csl-left-margin">2. </div><div class="csl-right-inline">Gasset, N. <em>et al.</em> <a href="https://www.ouranos.ca/sites/default/files/2025-02/03_Gasset_Nicolas_Jour_1_Salle2_session9_16h.pdf">Réanalyse canadienne de surface (RCaS-CaSR) version 3.1 d’environnement et changement climatique canada (ECCC)</a>. (2025).</div>
+</div>
+<div id="ref-ECCC2025" class="csl-entry" role="listitem">
+<div class="csl-left-margin">3. </div><div class="csl-right-inline">Environment and Climate Change Canada (ECCC). Canadian surface reanalysis (CaSR) - data specifics. <em>ECCC web site</em> <a href="https://hpfx.collab.science.gc.ca/~scar700/rcas-casr/dataset_specifics.html">https://hpfx.collab.science.gc.ca/~scar700/rcas-casr/dataset_specifics.html</a> (2025).</div>
 </div>
 <div id="ref-Khedhaouiria2025" class="csl-entry" role="listitem">
 <div class="csl-left-margin">4. </div><div class="csl-right-inline">Khedhaouiria, G., D. &amp; Bulat, M. <a href="">Canadian surface reanalysis (CaSR) v3: ECCC hourly 0.1° surface reanalysis across north america</a>. <em>TBD</em> (2025?).</div>
