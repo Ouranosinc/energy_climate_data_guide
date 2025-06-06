@@ -11,3 +11,38 @@
   background-color: #def;
   padding: 0.1em;
 }
+
+.red-text {
+  color:  #cc2323;
+}
+
+.green-text {
+  color: green;
+}
+
+.blue-text {
+  color: blue;
+}
+
+.pink-text {
+  color:  #f55cf5;
+}
+
+.author {
+  font-size: 1.2rem;      /* Change to your preferred size */
+  font-weight: 600;     /* e.g., 300 (light), 400 (normal), 700 (bold) */
+  color:  #102e85 ;       /* Optional: set color */
+}
+.affiliation {
+  font-size: 1.2rem;      /* Change to your preferred size */
+  font-weight: 400;     /* e.g., 300 (light), 400 (normal), 700 (bold) */
+  color:  #102e85 ;       /* Optional: set color */
+}
+
+/* Optional: if you're using complex author structures */
+.quarto-title-authors {
+  font-size: 10rem;      /* Change to your preferred size */
+  font-weight: 300;     /* e.g., 300 (light), 400 (normal), 700 (bold) */
+  color: #444444;       /* Optional: set color */
+  font-style: italic;   /* Optional */
+}

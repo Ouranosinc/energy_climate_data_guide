@@ -117,7 +117,7 @@ div.csl-indent {
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
       <a href="../index.html" class="sidebar-logo-link">
-      <img src="../image/Logo_McMaster_and_Ouranos.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
+      <img src="../image/Logo_McMaster_and_Ouranos_vertical_trans.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
       </a>
       </div>
         <div class="mt-2 flex-shrink-0 align-items-center">
@@ -399,6 +399,12 @@ div.csl-indent {
   </li>
       </ul>
   </li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../dmdu/DMDU.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Decision Making Under Deep Uncertainty (DMDU)</span></a>
+  </div>
+</li>
     </ul>
     </div>
 </nav>
@@ -419,8 +425,8 @@ div.csl-indent {
   <li><a href="#key-limitations-of-dataset" id="toc-key-limitations-of-dataset" class="nav-link" data-scroll-target="#key-limitations-of-dataset">Key Limitations of [Dataset]</a></li>
   </ul></li>
   <li><a href="#expert-guidance" id="toc-expert-guidance" class="nav-link" data-scroll-target="#expert-guidance">Expert Guidance</a></li>
-  <li><a href="#available-variables-in-dataset" id="toc-available-variables-in-dataset" class="nav-link" data-scroll-target="#available-variables-in-dataset">Available Variables in [Dataset]</a></li>
   <li><a href="#example-applications" id="toc-example-applications" class="nav-link" data-scroll-target="#example-applications">Example Applications</a></li>
+  <li><a href="#available-variables-in-dataset" id="toc-available-variables-in-dataset" class="nav-link" data-scroll-target="#available-variables-in-dataset">Available Variables in [Dataset]</a></li>
   <li><a href="#data-access" id="toc-data-access" class="nav-link" data-scroll-target="#data-access">Data Access</a></li>
   <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
   </ul></li>
@@ -460,17 +466,18 @@ div.csl-indent {
 <li>make collapsable sections</li>
 <li>format the tables</li>
 <li>integrate references in a quarto yaml section</li>
+<li>highlight things or color the text</li>
 </ul>
 <section id="summary-description" class="level2">
 <h2 class="anchored" data-anchor-id="summary-description">Summary Description</h2>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<p><span class="red-text">Lorem ipsum dolor sit amet</span>, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud <span class="green-text">reprehenderit in voluptate velit esse cillum</span> exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in dolore eu fugiat nulla pariatur. <span class="blue-text">Excepteur sint occaecat cupidatat non proident</span>, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="image/dataset_generic.png" title="A symbolic dataset" class="img-fluid figure-img" alt="A symbolic dataset" width="300"></p>
 <figcaption>A figure for the dataset (source: bibentry)</figcaption>
 </figure>
 </div>
-<p><span class="mark-red"><strong>ToDo:</strong> Like this we can mark stuff to deal with later</span>.</p>
+<p>We can mark stuff <span class="mark-red">like this</span> or <mark>like this</mark> as a reminder to deal with it later (see source for markdown implementation!).</p>
 </section>
 <section id="dataset-characteristics" class="level2">
 <h2 class="anchored" data-anchor-id="dataset-characteristics">Dataset Characteristics</h2>
@@ -565,6 +572,10 @@ A detailed discussion
 </div>
 </div>
 </section>
+<section id="example-applications" class="level2">
+<h2 class="anchored" data-anchor-id="example-applications">Example Applications</h2>
+<p><em>links to Electricity Sector Activities</em></p>
+</section>
 <section id="available-variables-in-dataset" class="level2">
 <h2 class="anchored" data-anchor-id="available-variables-in-dataset">Available Variables in [Dataset]</h2>
 <p><em>For details click on variable group to uncollapse</em></p>
@@ -632,10 +643,6 @@ Variable 3
 </div>
 </div>
 </div>
-</section>
-<section id="example-applications" class="level2">
-<h2 class="anchored" data-anchor-id="example-applications">Example Applications</h2>
-<p><em>links to Electricity Sector Activities</em></p>
 </section>
 <section id="data-access" class="level2">
 <h2 class="anchored" data-anchor-id="data-access">Data Access</h2>
