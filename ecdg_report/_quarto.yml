@@ -1,6 +1,6 @@
 project:
   type: website
-  # render:
+  #render:
   #   - "*.ipynb"
   #   - "!FullReport_MSWord.ipynb"
   preview:
@@ -85,7 +85,11 @@ website:
           - section: "Analysis Support Tools"
             href: datasets/tools/Analysis_Support_Tools.ipynb
             contents:
-              - datasets/tools/Point_Location_Compare.ipynb
+      - section: Workshops
+        href: workshops/intro_workshops.ipynb
+        contents:
+          - workshops/content_particip.ipynb
+          - workshops/findings.ipynb      
       - dmdu/DMDU.ipynb        
 
 format:
@@ -104,7 +108,8 @@ format:
     # biblatexoptions:
     #   - citestyle = authoryear
     include-after-body: link-target.js
-
+    embed-resources: true
+    allow-raw-html: true
 
 bibliography:
   - literature_review/references.bib
