@@ -6,7 +6,7 @@ project:
   preview:
     port: 3210
     browser: false
-  output-dir: ../html
+  output-dir: ../docs
   resources:
     - link-target.js  # This ensures it gets copied to output
 
