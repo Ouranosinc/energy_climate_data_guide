@@ -1,0 +1,1202 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.5.57">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>casr – Climate Data for the Electricity Sector</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../datasets/reanalysis_data/ERA5-Land.html" rel="next">
+<link href="../../datasets/reanalysis_data/Reanalysis_Datasets.html" rel="prev">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../../styles/styles.css">
+</head>
+
+<body class="nav-sidebar docked">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../datasets/Climate_Datasets_Overview.html">Climate Datasets</a></li><li class="breadcrumb-item"><a href="../../datasets/reanalysis_data/Reanalysis_Datasets.html">Reanalysis Data</a></li><li class="breadcrumb-item"><a href="../../datasets/reanalysis_data/CaSR.html">Canadian Surface Reanalysis - CaSR</a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+      <a href="../../index.html" class="sidebar-logo-link">
+      <img src="../../image/Logo_McMaster_and_Ouranos_vertical_trans.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
+      </a>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../Introduction.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Introduction</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../../sectors/electricity_sector_activities.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Electricity Sector Activities</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../../sectors/planning/grid_planning.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Electricity System Planning</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../sectors/planning/demand_forecasting.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Demand</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../sectors/planning/generation_forecasting.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Generation Forecasting</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../sectors/planning/capacity_expansion_modelling.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Capacity Expansion Modelling</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../sectors/planning/resource_adequacy_planning.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Resource Adequacy Planning</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../../sectors/operations/operations_planning.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Operations Planning</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../sectors/operations/outage_scheduling.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Outage Scheduling</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../sectors/operations/proactive_management_of_heavily_loaded_assets.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Proactive management of heavily loaded assets</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../sectors/operations/electrical_system_operations.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Electrical System Operations</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../sectors/operations/forest_fire_monitoring_and_awareness.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Forest Fire Monitoring and Awareness</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../sectors/operations/vegetation_management.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Vegetation Management</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../sectors/operations/worker_safety.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Worker safety</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../../sectors/infrastructure/infrastructure_planning.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Infrastructure Planning and Asset Management</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../sectors/infrastructure/construction.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Construction</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../sectors/infrastructure/dam_safety_review.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Dam Safety</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../sectors/infrastructure/infrastructure_condition_assessment_and_investment_prioritization.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Infrastructure Condition Assessment &amp; Investment Prioritization</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../sectors/infrastructure/infrastructure_design.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Infrastructure Design</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../sectors/infrastructure/nuclear_safety_review.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Nuclear Safety Reviews</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../sectors/infrastructure/licensing_and_impact-environmental_assessments.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Licensing &amp; Impact/Environmental Assessments</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../sectors/infrastructure/support_supply_chain_decision-making.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Support supply chain decision-making</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../../sectors/reporting/reporting_disclosure.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Assurance, Reporting and Disclosures</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../sectors/reporting/esg_and_sustainability_reporting.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Environmental, Social &amp; Governance (ESG), Sustainability and Financial Reporting</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../sectors/reporting/enterprise_risk_management.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Enterprise Risk Management</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../../datasets/Climate_Datasets_Overview.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Climate Datasets</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-6" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../datasets/Dataset_Template.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Dataset Page Template</span></a>
+  </div>
+</li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../../datasets/observed_data/Observational_Datasets.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Observational Data</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-7" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../datasets/observed_data/AHCCD_Station_Data.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Adjusted and Homogenized Canadian Climate Data - AHCCD</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../datasets/observed_data/NRCanMET_Gridded_Data.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Canadian Gridded Climate Dataset - NRCanMET</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../../datasets/reanalysis_data/Reanalysis_Datasets.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Reanalysis Data</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-8" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-8" class="collapse list-unstyled sidebar-section depth2 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../datasets/reanalysis_data/CaSR.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Canadian Surface Reanalysis - CaSR</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../datasets/reanalysis_data/ERA5-Land.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">ECMWF ERA5-Land</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../../datasets/climate_projection_data/Climate_Projection_Datasets.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Climate Projection Data</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-9" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-9" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../datasets/climate_projection_data/ESPO-G6_Dataset.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">ESPO-G6 Dataset</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../../datasets/tools/Analysis_Support_Tools.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Analysis Support Tools</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-10" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-10" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../datasets/tools/Point_Location_Compare.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">A tool for dataset comparison: Observational Data at a point location</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+      </ul>
+  </li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../dmdu/DMDU.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Decision Making Under Deep Uncertainty (DMDU)</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active" data-toc-expanded="-1">
+    <h2 id="toc-title">Content</h2>
+   
+  <ul>
+  <li><a href="#canadian-surface-reanalysis---casr" id="toc-canadian-surface-reanalysis---casr" class="nav-link active" data-scroll-target="#canadian-surface-reanalysis---casr">Canadian Surface Reanalysis - CaSR</a>
+  <ul class="collapse">
+  <li><a href="#summary-description" id="toc-summary-description" class="nav-link" data-scroll-target="#summary-description">Summary Description</a></li>
+  <li><a href="#dataset-characteristics" id="toc-dataset-characteristics" class="nav-link" data-scroll-target="#dataset-characteristics">Dataset Characteristics</a></li>
+  <li><a href="#strengths-and-limitations" id="toc-strengths-and-limitations" class="nav-link" data-scroll-target="#strengths-and-limitations">Strengths and Limitations</a>
+  <ul class="collapse">
+  <li><a href="#key-strengths-of-casr" id="toc-key-strengths-of-casr" class="nav-link" data-scroll-target="#key-strengths-of-casr">Key Strengths of CaSR</a></li>
+  <li><a href="#key-limitations-of-casr" id="toc-key-limitations-of-casr" class="nav-link" data-scroll-target="#key-limitations-of-casr">Key Limitations of CaSR</a></li>
+  </ul></li>
+  <li><a href="#expert-guidance" id="toc-expert-guidance" class="nav-link" data-scroll-target="#expert-guidance">Expert Guidance</a></li>
+  <li><a href="#example-applications" id="toc-example-applications" class="nav-link" data-scroll-target="#example-applications">Example Applications</a></li>
+  <li><a href="#variables-available-in-casr" id="toc-variables-available-in-casr" class="nav-link" data-scroll-target="#variables-available-in-casr">Variables available in CaSR</a></li>
+  <li><a href="#data-access" id="toc-data-access" class="nav-link" data-scroll-target="#data-access">Data Access</a></li>
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+
+
+
+<!--- This is just a comment --->
+<section id="canadian-surface-reanalysis---casr" class="level1">
+<h1>Canadian Surface Reanalysis - CaSR</h1>
+<section id="summary-description" class="level2">
+<h2 class="anchored" data-anchor-id="summary-description">Summary Description</h2>
+<p>The Canadian Surface Reanalysis (CaSR) is a high-resolution atmospheric reanalysis dataset produced by Environment and Climate Change Canada (ECCC). CaSR v3.1 is produced by dynamically downscaling <a href="https://cds.climate.copernicus.eu/datasets/reanalysis-era5-single-levels">ECMWF’s ERA5 global reanalysis</a> using operational models and configurations of ECCC’s operational weather and environmental prediction system to provide historical, high-resolution climate and weather data over North America, with a focus on Canada. Surface observations of tempererature, humidity, snow depth and precipitation are integrated through the the Canadian Land Data Assimilation System (CaLDAS) coupled with the Canadian Precipitation Analysis (CaPA). CaSR is a consistent and seamless dataset providing the main meteorological variables coherent with in situ surface observations<span class="citation" data-cites="Gasset2021"><sup><a href="#ref-Gasset2021" role="doc-biblioref">1</a></sup></span>. Note that the CaSR dataset was previously known as RDRS (Regional Deterministic Reforecast System).</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../image/CaSR_domain_and_stations.png" title="CaSR simulation domain with station locations" class="img-fluid figure-img" alt="CaSR simulation domain with station locations" width="400"></p>
+<figcaption>CaSR simulation domain with station locations<span class="citation" data-cites="Gasset2025"><sup><a href="#ref-Gasset2025" role="doc-biblioref">2</a></sup></span></figcaption>
+</figure>
+</div>
+</section>
+<section id="dataset-characteristics" class="level2">
+<h2 class="anchored" data-anchor-id="dataset-characteristics">Dataset Characteristics</h2>
+<ul>
+<li><strong>Current version:</strong> v3.1</li>
+<li><strong>Temporal coverage:</strong> <span class="hover-tooltip" data-tooltip="Personal communication; to be updated once we have data on PAVICS.">1970–2024</span></li>
+<li><strong>Temporal resolution:</strong> Hourly and daily outputs<br>
+</li>
+<li><strong>Spatial coverage:</strong> Canada and U.S.</li>
+<li><strong>Spatial resolution:</strong> ~10 km grid spacing (0.09˚)</li>
+<li><strong>Data type:</strong> A dynamical downscaling of ERA5 (ERA-Interim for version 2.1) over North and Central America domain using ECCC’s Global Deterministic Reforecast System (GDRS), the global surface model (GEM-Surf) the Regional Deterministic Reforecast System (RDRS), coupled with the CaLDAS surface assimilation system.<span class="citation" data-cites="ECCC2025"><sup><a href="#ref-ECCC2025" role="doc-biblioref">3</a></sup></span></li>
+<li><strong>Web references:</strong> <br> <a href="https://hpfx.collab.science.gc.ca/~scar700/rcas-casr/">ECCC Canadian Surface Reanalysis (CaSR) Web Site</a>, <br> <a href="https://nordata.physics.utoronto.ca/en/annexes-datasets-descriptions/71-temperature/north-american-precipitation-and-land-surface-reanalysis-regional-deterministic-reforecast-system-rdrs/">Northern Climate Data Report and Inventory (NCDRI) Web Site</a></li>
+<li><strong>Reference publications:</strong><br> <a href="#refs">See references below</a></li>
+</ul>
+</section>
+<section id="strengths-and-limitations" class="level2">
+<h2 class="anchored" data-anchor-id="strengths-and-limitations">Strengths and Limitations</h2>
+<section id="key-strengths-of-casr" class="level3">
+<h3 class="anchored" data-anchor-id="key-strengths-of-casr">Key Strengths of CaSR</h3>
+<table class="tbl table-striped table-light table-sm small caption-top table">
+<colgroup>
+<col style="width: 25%">
+<col style="width: 75%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Strength</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>High resolution</strong></td>
+<td>~10 km grid spacing provides detailed spatial variability, better than global reanalyses.</td>
+</tr>
+<tr class="even">
+<td><strong>Hourly data availability</strong></td>
+<td>Useful for high-frequency climate and weather analysis.</td>
+</tr>
+<tr class="odd">
+<td><strong>Assimilation of observed precipition</strong></td>
+<td>Unlike other reanalysis products observed precipitation is assimilated.</td>
+</tr>
+<tr class="even">
+<td><strong>Detailed precipitation</strong></td>
+<td>Precipitation types are distiguished, including freezing rain.<br><br>Two versions of precipitation are provided: one purely modeled and the reanalysis version that assimilates measured precipitation data are provided.</td>
+</tr>
+<tr class="odd">
+<td><strong>Precipitation confidence index</strong></td>
+<td>A confidence index for precipitation informs on the weight of observations in the analysis.</td>
+</tr>
+<tr class="even">
+<td><strong>Consistent Historical Record</strong></td>
+<td>Spans over four decades, allowing for trend analysis and climate studies.<br><span class="mark-red"><strong>ToDo:</strong> This was communicated to not hold for CaSR v2.1; Is this still true for CaSR v3.1?</span></td>
+</tr>
+<tr class="odd">
+<td><strong>Active Development</strong></td>
+<td>New versions and longer temporal record are in preparation.</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="key-limitations-of-casr" class="level3">
+<h3 class="anchored" data-anchor-id="key-limitations-of-casr">Key Limitations of CaSR</h3>
+<table class="tbl table-striped table-light table-sm small caption-top table">
+<thead>
+<tr class="header">
+<th>Limitation</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Known biases</strong></td>
+<td>CaSR is generally too wet and has an overall cold bias.</td>
+</tr>
+<tr class="even">
+<td><strong>Uncommon Georeference</strong></td>
+<td>The data are made available on a rotated grid which may be difficult to handle. The <a href="https://pavics.ouranos.ca">PAVICS platform</a> hosts a <a href="https://pavics.ouranos.ca/climate_analysis.html#f">tutorial dedicated to the conversion of rotated grids</a>.</td>
+</tr>
+<tr class="odd">
+<td><strong><del>Limited Suitability for Trend Analysis</del></strong></td>
+<td><del>For the current version, gaps in observation data and model errors may skew trends found in the dataset.</del><br><span class="mark-red"><strong>ToDo:</strong> This was communicated for CaSR v2.1 but should be corrected in CaSR v3.1.</span>.</td>
+</tr>
+<tr class="even">
+<td><strong>Limited to the Surface or Near-Surface</strong></td>
+<td>CaSR provides no data above 40m above surface.</td>
+</tr>
+<tr class="odd">
+<td><strong>Computationally Intensive</strong></td>
+<td>Relatively high-resolution data requires significant storage and processing power for analysis over larger areas. See section on <a href="#data-access">Data Access</a> for workarounds on <a href="https://pavics.ouranos.ca">PAVICS</a></td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<section id="expert-guidance" class="level2">
+<h2 class="anchored" data-anchor-id="expert-guidance">Expert Guidance</h2>
+<div id="id" class="callout callout-style-simple callout-none no-icon callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Click to toggle collapse
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-1" class="callout-1-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>The Canadian Surface Reanalysis (CaSR) dataset provides high-resolution, gridded climate data across North America. It distinguishes itself from other reanalysis products through the assimilation of precipitation observations through the Canadian Precipitation Analysis (CaPA). The model used in the production includes a representation of lakes, which are visible in the temperature fields and influence the thermal surface properties. Pixels near water or mixed water/land pixels tend to exhibit a stronger cold bias. Compared to the NRCanMET gridded observations, CaSR shows slightly warmer mean minimum temperatures and slightly colder mean maximum temperatures. As a result, the daily temperature range in CaSR is narrower than in NRCanMET. Air temperature biases are clearly linked to elevation differences between nearby stations and the corresponding grid elevation. Additionally, an annual cycle in temperature errors is present: errors are larger in winter and spring, and smaller in summer and autumn. Spring temperatures are higher in CaSR version 3.1 than in version 2.1. In British Columbia watersheds, CaSR exhibits a persistent cold bias alongside a wet bias. These biases are important to consider in regional applications, especially in hydrology. CaSR version 2.1 also shows drying trends in BC watersheds. Nonetheless, the dataset is skillful in capturing spatial patterns and temporal trends. Precipitation in CaSR is generally positively biased, and this bias tends to increase with distance from the assimilated in-situ stations. The dataset is wetter than ERA5-Land, which itself is part of a broader tendency of reanalyses to be too wet. Mountain precipitation is better resolved in CaSR than in ERA5-Land or NRCanMET, owing to its higher spatial resolution. Among gridded observational datasets, CaSR provides the greatest spatial detail. Its precipitation estimates stem from CaPA, which applies strict quality control procedures. Radar data are not assimilated due to the complexity and difficulty of performing quality control. Wind speed is used during precipitation assimilation to determine whether solid precipitation can be trusted, depending on the gauge type and weather station characteristics. CaSR’s coverage is seamless across North America and includes improvements to both near-surface atmospheric and land-surface predictions. It shows good agreement with in-situ observations for variables such as precipitation, absolute and dew point temperature, and snow depth. However, because the assimilation is limited to precipitation, inconsistencies can arise with other fields such as radiation and humidity. Version 3.1 of CaSR represents a major improvement over version 2.1. It shows better agreement with surface observations across all variables, seasons, and domains. Precipitation performance is similar or slightly improved, and the version includes the additional benefit of a new precipitation partitioning into rainfall and snowfall. Version 3.1 also assimilates up to 1,000 more observations per analysis, particularly improving winter performance in Canada. CaSR is considered especially relevant for hydrological simulations, where high-resolution precipitation and land-surface variables are critical. Despite the advancements, validation at both the local and regional level remains important to assess the dataset’s suitability for specific applications.</p>
+</div>
+</div>
+</div>
+</section>
+<section id="example-applications" class="level2">
+<h2 class="anchored" data-anchor-id="example-applications">Example Applications</h2>
+<p><em>links to Electricity Sector Activities</em></p>
+</section>
+<section id="variables-available-in-casr" class="level2">
+<h2 class="anchored" data-anchor-id="variables-available-in-casr">Variables available in CaSR</h2>
+<p><em>For details click on variable group to uncollapse</em></p>
+<div id="id" class="callout callout-style-simple callout-none no-icon callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Temperature
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-2" class="callout-2-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<ul>
+<li>Temperature [˚C]</li>
+<li>Dew point temperature [˚C]</li>
+</ul>
+<p>Temperature variables are provided at 1h &amp; 3h frequency and at levels 1.5 m, ~20m, and ~40m. For more details see the respective <a href="https://hpfx.collab.science.gc.ca/~scar700/rcas-casr/dataset_specifics.html#available_variables">table on the CaSR web site</a></p>
+</div>
+</div>
+</div>
+<div id="id" class="callout callout-style-simple callout-none no-icon callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-3-contents" aria-controls="callout-3" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Precipitation
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-3" class="callout-3-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<ul>
+<li>Quantity of daily precipitation [m]</li>
+<li>Confidence index of daily precipitation</li>
+<li>Quantity of hourly precipitation [m]</li>
+<li>Quantity of ice pellets (liquid water equivalent) [m]</li>
+<li>Quantity of freezing precipitation (liquid water equivalent) [m]</li>
+<li>Quantity of liquid precipitation [m]</li>
+</ul>
+<p>Precipitation variables are provided at 1h and 24h frequency at the surface level. Two types of precipitation are available, one forecasted by the model and one generated by the offline precipitation reanalysis system. For more details see the <a href="https://hpfx.collab.science.gc.ca/~scar700/rcas-casr/dataset_specifics.html#champs_precip">section on precipitation fields</a> and the <a href="https://hpfx.collab.science.gc.ca/~scar700/rcas-casr/dataset_specifics.html#available_variables">data variables table</a> on the CaSR web site.</p>
+</div>
+</div>
+</div>
+<div id="id" class="callout callout-style-simple callout-none no-icon callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-4-contents" aria-controls="callout-4" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Wind
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-4" class="callout-4-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<ul>
+<li>U-component of the wind (along the grid X axis) [kts]</li>
+<li>V-component of the wind (along the grid Y axis) [kts]</li>
+<li>Corrected U-component of the wind (along West-East direction) [kts]</li>
+<li>Corrected V-component of the wind (along South-North direction) [kts]</li>
+<li>Wind Modulus [kts]</li>
+<li>Meteorologial Wind direction [degree]</li>
+</ul>
+<p>Wind variables are provided at 1h frequency and at levels 10m, ~20m, and ~40m. For more details see the respective <a href="https://hpfx.collab.science.gc.ca/~scar700/rcas-casr/dataset_specifics.html#available_variables">table on the CaSR web site</a></p>
+</div>
+</div>
+</div>
+<div id="id" class="callout callout-style-simple callout-none no-icon callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-5-contents" aria-controls="callout-5" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Humidity
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-5" class="callout-5-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<ul>
+<li>Relative humidity [%]</li>
+<li>Specific humidity [kg/kg]</li>
+</ul>
+<p>Humidity variables are provided at 1h frequency and at levels 1.5 m, ~20m, and ~40m. For more details see the respective <a href="https://hpfx.collab.science.gc.ca/~scar700/rcas-casr/dataset_specifics.html#available_variables">table on the CaSR web site</a></p>
+</div>
+</div>
+</div>
+<div id="id" class="callout callout-style-simple callout-none no-icon callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-6-contents" aria-controls="callout-6" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Radiation
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-6" class="callout-6-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<ul>
+<li>Downward solar flux [W/m<sup>2</sup>]</li>
+<li>Surface incoming infrared flux [W/m<sup>2</sup>]</li>
+</ul>
+<p>Radiation variables are provided at 1h frequency at the surface level. For more details see the respective <a href="https://hpfx.collab.science.gc.ca/~scar700/rcas-casr/dataset_specifics.html#available_variables">table on the CaSR web site</a></p>
+</div>
+</div>
+</div>
+<div id="id" class="callout callout-style-simple callout-none no-icon callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-7-contents" aria-controls="callout-7" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Snow
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-7" class="callout-7-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<ul>
+<li>Water equivalent of snow depth over land subgrid tile [kg/m<sup>2</sup>]</li>
+<li>Snow depth over land subgrid tile [cm]</li>
+</ul>
+<p>Snow variables are provided at 24h frequency at the surface level. For more details see the respective <a href="https://hpfx.collab.science.gc.ca/~scar700/rcas-casr/dataset_specifics.html#available_variables">table on the CaSR web site</a></p>
+</div>
+</div>
+</div>
+<div id="id" class="callout callout-style-simple callout-none no-icon callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-8-contents" aria-controls="callout-8" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Other Meteorological Variables
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-8" class="callout-8-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<ul>
+<li>Surface pressure [mb]</li>
+<li>Sea level pressure [mb]</li>
+<li>Geopotential height [dam]</li>
+</ul>
+<p>These meteorological variables are provided at 1h frequency and (depending on variable) at surface level, ~20m, and ~40m. For more details see the respective <a href="https://hpfx.collab.science.gc.ca/~scar700/rcas-casr/dataset_specifics.html#available_variables">table on the CaSR web site</a></p>
+</div>
+</div>
+</div>
+</section>
+<section id="data-access" class="level2">
+<h2 class="anchored" data-anchor-id="data-access">Data Access</h2>
+<p>CaSR data can be downloaded from the CaSPAr platform, the PAVICS platform or ECCC’s high-performance computer GPSC-C. The CaSR website provides <a href="https://hpfx.collab.science.gc.ca/~scar700/rcas-casr/download.html">instructions for these different download options</a>. To avoid downloading the very large dataset in it’s entirety PAVICS allows partial/regional extraction and provides <a href="https://pavics-sdi.readthedocs.io/en/latest/notebooks/CaSR_basic.html">a tutorial to do so</a>. The Jupyter notebook with the Python code in the tutorial can be <a href="https://pavics.ouranos.ca/jupyter/hub/user-redirect/lab/tree/tutorial-notebooks/CaSR_basic.ipynb">directly used on PAVICS</a>.</p>
+</section>
+<section id="references" class="level2">
+<h2 class="anchored" data-anchor-id="references">References</h2>
+<div id="refs" class="references csl-bib-body" data-entry-spacing="0" data-line-spacing="2" role="list">
+<div id="ref-Gasset2021" class="csl-entry" role="listitem">
+<div class="csl-left-margin">1. </div><div class="csl-right-inline">Gasset, N. <em>et al.</em> <a href="https://doi.org/10.5194/hess-25-4917-2021">A 10 km north american precipitation and land-surface reanalysis based on the GEM atmospheric model</a>. <em>Hydrology and Earth System Sciences</em> <strong>25</strong>, 4917–4945 (2021).</div>
+</div>
+<div id="ref-Gasset2025" class="csl-entry" role="listitem">
+<div class="csl-left-margin">2. </div><div class="csl-right-inline">Gasset, N. <em>et al.</em> <a href="https://www.ouranos.ca/sites/default/files/2025-02/03_Gasset_Nicolas_Jour_1_Salle2_session9_16h.pdf">Réanalyse canadienne de surface (RCaS-CaSR) version 3.1 d’environnement et changement climatique canada (ECCC)</a>. (2025).</div>
+</div>
+<div id="ref-ECCC2025" class="csl-entry" role="listitem">
+<div class="csl-left-margin">3. </div><div class="csl-right-inline">Environment and Climate Change Canada (ECCC). Canadian surface reanalysis (CaSR) - data specifics. <em>ECCC web site</em> <a href="https://hpfx.collab.science.gc.ca/~scar700/rcas-casr/dataset_specifics.html">https://hpfx.collab.science.gc.ca/~scar700/rcas-casr/dataset_specifics.html</a> (2025).</div>
+</div>
+<div id="ref-Khedhaouiria2025" class="csl-entry" role="listitem">
+<div class="csl-left-margin">4. </div><div class="csl-right-inline">Khedhaouiria, G., D. &amp; Bulat, M. <a href="">Canadian surface reanalysis (CaSR) v3: ECCC hourly 0.1° surface reanalysis across north america</a>. <em>in preparation</em> (2025?).</div>
+</div>
+<div id="ref-Goswami2024" class="csl-entry" role="listitem">
+<div class="csl-left-margin">5. </div><div class="csl-right-inline">Goswami, U. P., Déry, S. J. &amp; and, V. F. <a href="https://doi.org/10.1080/07055900.2024.2308878">Performance evaluation of high-resolution reanalysis datasets over north-central british columbia</a>. <em>Atmosphere-Ocean</em> <strong>62</strong>, 222–242 (2024).</div>
+</div>
+</div>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  document.querySelectorAll("a[href^='http']").forEach(link => {
+    if (!link.href.includes(window.location.hostname)) {
+      link.target = "_blank";
+      link.rel = "noopener noreferrer";
+    }
+  });
+});
+</script>
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="../../datasets/reanalysis_data/Reanalysis_Datasets.html" class="pagination-link" aria-label="Reanalysis Data">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Reanalysis Data</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="../../datasets/reanalysis_data/ERA5-Land.html" class="pagination-link" aria-label="ECMWF ERA5-Land">
+        <span class="nav-page-text">ECMWF ERA5-Land</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+
+</body></html>
