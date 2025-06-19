@@ -43,7 +43,6 @@ website:
             href: sectors/operations/operations_planning.ipynb
             contents:
               - sectors/operations/outage_scheduling.ipynb
-              - sectors/operations/proactive_management_of_heavily_loaded_assets.ipynb
               - sectors/operations/electrical_system_operations.ipynb
               - sectors/operations/forest_fire_monitoring_and_awareness.ipynb
               - sectors/operations/vegetation_management.ipynb
@@ -78,10 +77,16 @@ website:
             contents:
               - datasets/reanalysis_data/CaSR.ipynb
               - datasets/reanalysis_data/ERA5-Land.ipynb
+              - ERA5
           - section: "Climate Projection Data"
             href: datasets/climate_projection_data/Climate_Projection_Datasets.ipynb
             contents:
               - datasets/climate_projection_data/ESPO-G6_Dataset.ipynb
+              - CanDCS-M6
+              - CMIP6
+              - CORDEX
+              - CanLEADv1
+              - NEX-GDDP (NASA)
           - section: "Analysis Support Tools"
             href: datasets/tools/Analysis_Support_Tools.ipynb
             contents:
