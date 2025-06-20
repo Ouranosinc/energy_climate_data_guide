@@ -35,7 +35,7 @@ website:
           - section: "Electricity System Planning"
             href: sectors/planning/grid_planning.ipynb
             contents:
-              - sectors/planning/demand_forecasting.ipynb
+              - sectors/planning/demand.ipynb
               - sectors/planning/generation_forecasting.ipynb
               - sectors/planning/capacity_expansion_modelling.ipynb
               - sectors/planning/resource_adequacy_planning.ipynb
