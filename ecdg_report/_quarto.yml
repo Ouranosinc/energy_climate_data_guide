@@ -42,9 +42,8 @@ website:
           - section: "Operations Planning"
             href: sectors/operations/operations_planning.ipynb
             contents:
-              - sectors/operations/outage_scheduling.ipynb
               - sectors/operations/electrical_system_operations.ipynb
-              - sectors/operations/forest_fire_monitoring_and_awareness.ipynb
+              - sectors/operations/outage_scheduling.ipynb
               - sectors/operations/vegetation_management.ipynb
               - sectors/operations/worker_safety.ipynb    
           - section: "Infrastructure Planning and Asset Management"
@@ -52,16 +51,16 @@ website:
             contents:
               - sectors/infrastructure/construction.ipynb
               - sectors/infrastructure/dam_safety_review.ipynb
+              - sectors/infrastructure/nuclear_safety_review.ipynb
               - sectors/infrastructure/infrastructure_condition_assessment_and_investment_prioritization.ipynb
               - sectors/infrastructure/infrastructure_design.ipynb
-              - sectors/infrastructure/nuclear_safety_review.ipynb
-              - sectors/infrastructure/licensing_and_impact-environmental_assessments.ipynb
               - sectors/infrastructure/support_supply_chain_decision-making.ipynb
+              - sectors/infrastructure/licensing_and_impact-environmental_assessments.ipynb
           - section: "Assurance, Reporting and Disclosures"
             href: sectors/reporting/reporting_disclosure.ipynb
             contents:  
+              - sectors/reporting/enterprise_risk_management.ipynb
               - sectors/reporting/esg_and_sustainability_reporting.ipynb
-              - sectors/reporting/enterprise_risk_management.ipynb                
       # The section on climate datasets
       - section: "Climate Datasets"
         href: datasets/Climate_Datasets_Overview.ipynb
