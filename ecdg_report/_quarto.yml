@@ -1,12 +1,12 @@
 project:
   type: website
-  # render:
+  #render:
   #   - "*.ipynb"
   #   - "!FullReport_MSWord.ipynb"
   preview:
     port: 3210
     browser: false
-  output-dir: ../html
+  output-dir: ../docs
   resources:
     - link-target.js  # This ensures it gets copied to output
 
@@ -16,7 +16,7 @@ website:
   navbar: false
   sidebar:
     #title: "Climate Data for the Electricity Sector"  # Adding the title here
-    logo: "image/Logo_McMaster_and_Ouranos.png"
+    logo: "image/Logo_McMaster_and_Ouranos_vertical_trans.png"
     style: "docked" #"floating"
     collapse-level: 1
     #search: true
@@ -24,11 +24,11 @@ website:
       - Introduction.ipynb
       # - section: "Literature Review" # was: Climate Change Impacts on Electricity Systems
       #   contents:
-      #   - section: "Generation"
-      #     contents:
-      #   - section: "Transmission and distribution"
-      #     contents:
-      #   - literature_review/demand.ipynb
+      #     - section: "Generation"
+      #       contents:
+      #     - section: "Transmission and distribution"
+      #       contents:
+      #     - literature_review/demand.ipynb
       - section: "Electricity Sector Activities"
         href: sectors/electricity_sector_activities.ipynb
         contents:
@@ -43,7 +43,6 @@ website:
             href: sectors/operations/operations_planning.ipynb
             contents:
               - sectors/operations/outage_scheduling.ipynb
-              - sectors/operations/proactive_management_of_heavily_loaded_assets.ipynb
               - sectors/operations/electrical_system_operations.ipynb
               - sectors/operations/forest_fire_monitoring_and_awareness.ipynb
               - sectors/operations/vegetation_management.ipynb
@@ -78,14 +77,25 @@ website:
             contents:
               - datasets/reanalysis_data/CaSR.ipynb
               - datasets/reanalysis_data/ERA5-Land.ipynb
+              - ERA5
           - section: "Climate Projection Data"
             href: datasets/climate_projection_data/Climate_Projection_Datasets.ipynb
             contents:
               - datasets/climate_projection_data/ESPO-G6_Dataset.ipynb
+              - CanDCS-M6
+              - CMIP6
+              - CORDEX
+              - CanLEADv1
+              - NEX-GDDP (NASA)
           - section: "Analysis Support Tools"
             href: datasets/tools/Analysis_Support_Tools.ipynb
             contents:
-              - datasets/tools/Point_Location_Compare.ipynb
+      - section: Workshops
+        href: workshops/intro_workshops.ipynb
+        contents:
+          - workshops/content_particip.ipynb
+          - workshops/findings.ipynb      
+      - dmdu/DMDU.ipynb        
 
 format:
   html:
@@ -103,12 +113,13 @@ format:
     # biblatexoptions:
     #   - citestyle = authoryear
     include-after-body: link-target.js
-
+    embed-resources: true
+    allow-raw-html: true
 
 bibliography:
   - literature_review/references.bib
   - datasets/references.bib
-#  - sectors/references.bib
+  - sectors/references.bib
 
 
 
