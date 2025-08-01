@@ -1,5 +1,5 @@
 #columns e, f, h, j of the excel 
-#g, i, k, l, m, n, o, p, q, r, s, t 
+#g, i, k, l, m, n, o, p, q, r, s, t, u, v, w
 sectors:
   - source: Infra Design - T&D
     targets:
@@ -16,13 +16,20 @@ sectors:
       - [dam safety review, 1]
   - source: Sustainability Reporting
     targets:
-      - [Peak-demand shift (demand), 1]
+      - [peak-demand shift (demand), 1]
   - source: Resource Adequacy Planning
     targets:
-      - ressource adequacy assessments
+      - [ressource adequacy assessments, 1]
   - source: Demand Forecasting
     targets:
-      - load forecast
+      - [load forecast, 1]
+  - source: Generation Forecast - Hydro
+    targets:
+      - [water supply, 1]
+      - [corporate flow record, 1]
+  - source: Eletrical System Operations
+    targets:
+      - [mitigation and adaptation for indigenous communities, 1]
 
 variables:
   - source: station design
@@ -80,18 +87,28 @@ variables:
   - source: load forecast
     targets:
       - [temperature, 1]
+  - source: water supply
+    targets:
+      - [temperature, 1]
+      - [precipitation, 1]
+  - source: mitigation and adaptation for indigenous communities
+    targets:
+      - [water levels, 1]
+      - [erosion, 1]
+      - [ice, 1]
     
 types:
   - source: temperature
     targets:
       - [minimum, 5]
-      - [maximum, 5]
+      - [maximum, 6]
       - [daily, 2]
       - [freeze and thaw, 1]
-      - [hourly, 1]
+      - [hourly, 2]
   - source: precipitation
     targets:
-      - [extreme, 1]
+      - [extreme, 2]
+      - [hourly, 1]
   - source: ice
     targets:
       - [accumulation, 1]

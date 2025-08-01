@@ -105,8 +105,8 @@ format:
     toc-title: Content
     toc-expand: 0
     code-fold: true
-    csl: styles/nature.csl
-    # csl: styles/elsevier-harvard.csl
+    #csl: styles/nature.csl
+    csl: styles/elsevier-harvard.csl
     # citation-style: numeric
     # cite-method: biblatex
     # biblatexoptions:
@@ -116,9 +116,9 @@ format:
     allow-raw-html: true
 
 bibliography:
-  - literature_review/references.bib
   - datasets/references.bib
   - sectors/references.bib
+  - sectors/planning/references.bib
 
 
 
