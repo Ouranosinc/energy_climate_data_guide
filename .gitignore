@@ -166,4 +166,5 @@ tests/
 
 # no need to have the generated HTML on git
 ecdg_report/_site/
+docs/
 .Rproj.user
