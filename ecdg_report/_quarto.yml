@@ -82,8 +82,8 @@ website:
             contents:
               - datasets/climate_projection_data/ESPO-G6_Dataset.ipynb
               - CanDCS-M6
-              - CMIP6
-              - CORDEX
+              - datasets/climate_projection_data/CMIP6_Dataset.ipynb
+              - datasets/climate_projection_data/CORDEX_Dataset.ipynb
               - CanLEADv1
               - NEX-GDDP (NASA)
           - section: "Analysis Support Tools"
@@ -105,8 +105,9 @@ format:
     toc-title: Content
     toc-expand: 0
     code-fold: true
-    #csl: styles/nature.csl
-    csl: styles/elsevier-harvard.csl
+    smooth-scroll: true
+    #csl: styles/nature.csl # only superscript numbers in the text
+    csl: styles/elsevier-harvard.csl # Author (year) in the text
     # citation-style: numeric
     # cite-method: biblatex
     # biblatexoptions:
