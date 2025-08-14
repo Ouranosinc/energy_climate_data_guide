@@ -4306,6 +4306,7 @@ window.Quarto = {
   <li><a href="#downscaling-and-bias-correction-methods" id="toc-downscaling-and-bias-correction-methods" class="nav-link" data-scroll-target="#downscaling-and-bias-correction-methods">Downscaling and bias-correction methods</a></li>
   <li><a href="#methods-for-electricity-generation-prediction-for-the-future-period" id="toc-methods-for-electricity-generation-prediction-for-the-future-period" class="nav-link" data-scroll-target="#methods-for-electricity-generation-prediction-for-the-future-period">Methods for electricity generation prediction for the future period</a></li>
   <li><a href="#current-status-of-electricity-generation-entities-regarding-climate-data-use" id="toc-current-status-of-electricity-generation-entities-regarding-climate-data-use" class="nav-link" data-scroll-target="#current-status-of-electricity-generation-entities-regarding-climate-data-use">Current Status of Electricity Generation Entities Regarding Climate Data Use</a></li>
+  <li><a href="#impacts-of-climate-change-on-electricity-generation-systems-egss" id="toc-impacts-of-climate-change-on-electricity-generation-systems-egss" class="nav-link" data-scroll-target="#impacts-of-climate-change-on-electricity-generation-systems-egss">Impacts of Climate Change on Electricity Generation Systems (EGSs)</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -4332,6 +4333,7 @@ window.Quarto = {
 </header>
 
 
+<p>Electricity generation forecasting under climate change is essential for maintaining a sustainable and reliable power supply. It is required to incorporate climate information in electricity generation and capacity planning. However, a gap remains between advancements in climate data products, models, and analytical methods, and their application in industry practices for planning and implementing generation forecasts. This section bridges that gap by presenting tools and techniques used in both academic research and industry. The first sub-section outlines the climate data products and variables used, along with the methods applied for their analysis, such as downscaling and bias correction, before integrating them into generation forecasting models. Forecasting is conducted using predictive models or methods tailored to specific generation types. Additionally, this section summarizes the current status of electricity generation entities in Canada, based primarily on insights gathered during workshops with industry stakeholders. Finally, the section also examines projected changes in electricity generation for future periods under various emission scenarios, considering both Canadian and regional perspectives.</p>
 <section id="climate-data-models-and-methods-used-for-impact-analysis-of-electricity-generation-systems-egss" class="level2">
 <h2 class="anchored" data-anchor-id="climate-data-models-and-methods-used-for-impact-analysis-of-electricity-generation-systems-egss">Climate Data, Models, and Methods Used for Impact Analysis of Electricity Generation Systems (EGSs)</h2>
 <p>The analysis of climate change (CC) impacts on electricity generation systems (EGSs) is not straightforward. It follows several steps (see <strong>Figure 1</strong>), including the acquisition, emission scenarios selection, preparation of appropriate climate data, and model investigations for CC impact analysis on the EGS. Climate data can be collected from many sources, including the most common platform, the Coupled Model Intercomparison Project (CMIP) (<span class="citation" data-cites="plaga_methods_2023">Plaga and Bertsch (<a href="#ref-plaga_methods_2023" role="doc-biblioref">2023</a>)</span>). The CMIP has different release versions, including CMIP3, CMIP5, and CMIP6. The climate projections vary according to the greenhouse gas (GHG) emission scenario, which depicts the influence of anthropogenic climate change. The most common scenarios used to investigate CC impacts on EGSs are A2 (most pessimistic), A1B (moderate), and B1 (most optimistic) from CMIP3, RCP2.6 (low emission), RCP4.5 (medium emission), and RCP8.5 (high emission) from CMIP5, and SSP1-2.6 (low emission), SSP2-4.5 (moderate), SSP3-7.0 (high emission with limited economic growth), and SSP5-8.5 (high emission with strong economic growth) from CMIP6. Depending on the purpose of the analysis, various scenario projections are used for evaluating climate change. <strong>Table 1</strong> presents a summary of climate data, their downscaling and bias correction methods, and the methods utilized for CC impacts on different types of EGSs.</p>
@@ -4548,7 +4550,7 @@ S_E=I_C.C_F.∆_τ\tag{5}
 </section>
 <section id="current-status-of-electricity-generation-entities-regarding-climate-data-use" class="level3">
 <h3 class="anchored" data-anchor-id="current-status-of-electricity-generation-entities-regarding-climate-data-use">Current Status of Electricity Generation Entities Regarding Climate Data Use</h3>
-<p>This section is written based on the information collected during a workshop, and the contents summarize responses from experts representing HydroOne, Manitoba Hydro, Hydro-Québec, IESO, and OPG. A response summary table is provided below (see <strong>Table 3</strong>). For model calibration, several entities rely on bias-corrected reanalysis datasets, such as WATFLOOD, which requires corrected precipitation and temperature data. Validation of these datasets is typically performed against observations from Environment and Climate Change Canada (ECCC) stations, Hydro-Québec internal networks, or the Water Survey of Canada. However, some internally interpolated datasets similar to NRCANMET have been noted to produce less reliable results. For future climate projections, GCM/RCM ensembles are commonly used along with multiple scenarios—conservative, moderate, and low—to capture a range of possible outcomes, with data sources including PAVICS (Ouranos), Portraits Climate data, and the Climate Atlas. Regarding suitability for electric generation, no single dataset or model is explicitly identified as optimal; however, short-term forecasts (up to 4 hours), hourly zonal climate variables, and bias-corrected wind speed and solar irradiance are emphasized for wind and solar forecasting. Care is taken to avoid overestimating renewable supply, and model compatibility across different climate data sources is verified to ensure reliable integration into operational planning.</p>
+<p>This section is written based on the information collected during a workshop, and the contents summarize responses from experts representing HydroOne, Manitoba Hydro, Hydro-Québec, IESO, and OPG. A response summary table is provided below (see <strong>Table 3</strong>). For hydrologic model (e.g., WATFLOOD) calibration, several entities rely on bias-corrected reanalysis datasets, which requires corrected precipitation and temperature data. Validation of these datasets is typically performed against observations from Environment and Climate Change Canada (ECCC) stations, Hydro-Québec internal networks, or the Water Survey of Canada. However, some internally interpolated datasets similar to NRCANMET have been noted to produce less reliable results. For future climate projections, GCM/RCM ensembles are commonly used along with multiple scenarios—conservative, moderate, and low—to capture a range of possible outcomes, with data sources including PAVICS (Ouranos), Portraits Climate data, and the Climate Atlas. Regarding suitability for electric generation, no single dataset or model is explicitly identified as optimal; however, short-term forecasts (up to 4 hours), hourly zonal climate variables, and bias-corrected wind speed and solar irradiance are emphasized for wind and solar forecasting. Care is taken to avoid overestimating renewable supply, and model compatibility across different climate data sources is verified to ensure reliable integration into operational planning.</p>
 <section id="summary" class="level4">
 <h4 class="anchored" data-anchor-id="summary">Summary</h4>
 <p>Some electricity generation entities do not use climate change information at all or do not consider potential future climate impacts. Others integrate climate data to quantify projected changes in inflows to generating stations over the next 100 years. In some instances, climate information is applied in resource assessment (e.g., water availability) and plant design, including 100-year flood considerations for new hydro projects.</p>
@@ -4727,6 +4729,18 @@ S_E=I_C.C_F.∆_τ\tag{5}
 </tr>
 </tbody>
 </table>
+</section>
+</section>
+<section id="impacts-of-climate-change-on-electricity-generation-systems-egss" class="level3">
+<h3 class="anchored" data-anchor-id="impacts-of-climate-change-on-electricity-generation-systems-egss">Impacts of Climate Change on Electricity Generation Systems (EGSs)</h3>
+<section id="european-countries" class="level4">
+<h4 class="anchored" data-anchor-id="european-countries">European Countries</h4>
+</section>
+<section id="asian-countries" class="level4">
+<h4 class="anchored" data-anchor-id="asian-countries">Asian Countries</h4>
+</section>
+<section id="north-america-us-and-canada" class="level4">
+
 
 
 
@@ -4734,7 +4748,7 @@ S_E=I_C.C_F.∆_τ\tag{5}
 </section>
 </section>
 
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">North America (US and Canada)</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
 <div id="ref-ali_projected_2018" class="csl-entry" role="listitem">
 Ali, S.A., Aadhar, S., Shah, H.L., Mishra, V., 2018. Projected <span>Increase</span> in <span>Hydropower</span> <span>Production</span> in <span>India</span> under <span>Climate</span> <span>Change</span>. Scientific Reports 8, 12450. <a href="https://doi.org/10.1038/s41598-018-30489-4">https://doi.org/10.1038/s41598-018-30489-4</a>
 </div>
