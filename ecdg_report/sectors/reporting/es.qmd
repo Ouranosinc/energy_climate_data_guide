@@ -1,0 +1,15 @@
+---
+title: Environmental, Social & Governance (ESG), Sustainability and Financial Reporting
+jupyter: python3
+---
+
+
+
+::: {#id1 .callout collapse="true"}
+## Summary
+Reporting and financial disclosures are important accountability instruments for electrical utilities. These reports can be created for a variety of reasons. For example, Crown Corporations may be legal reporting requirements stemming from their empowering legal act, publicly registered and traded corporations must produce financial reports for shareholders and some companies produce voluntary reports to build their social license. There are many different forms climate change related reporting can take for electrical utilities including annual ESG Reports, Sustainability Reports, Climate Change Plans, Corporate Strategies or annual Financial Reports.
+The genesis of many climate related reports comes for the creation of the Task Force on Climate-related Financial Disclosures (TCFD) started by the Financial Stability Board (FSB) in 2015. The underlying driver for the creation of the TCFD was to provide financial markets "clear, comprehensive, high-quality information on the impacts of cliamte change". In this way investors, insurers and others in the financial sector could properly understand the risks and opportunities their investments were facing from both the physical impacts of climate changes but also from the climate transition related to policy, legal and market changes to combat climate change. The TCFD produced a recommendation report in 2017(@TCFD_Report) gaining widespread support. Having accomplished it's task, the TCFD was disbanded in 2023 and the monitoring and progress of climate related disclosures was assigned to the IFRS Foundation. The International Sustainability Standards Board (ISSB) created two financial disclosure standards that incorporated the work of the TCFD. These are IFRS S1 General Requirements fo Disclosure of Sustainability-related Financial Information and IFRS S2 Climate-related Disclosures. These are voluntary international standards that provide guidance on how companies should disclose among other things their climate related risks and adaptation strategies.
+The Canadian Sustainability Standards Board (CSSB) has released two Canadian Sustainability Disclosure Standards (CSDS) to provide guidance to Canadian companies on financial disclosures. CSDS 1 and CSDS 2 are very closely aligned with the international IFRS S1 and IFRS S2 voluntary reporting standards. These standards are also voluntary for publicly reporting companies until the Canadian Securities Administration (CSA) mandates climate related financial disclosures for Canadian companies. These standards do not apply to all utilities, where Crown Corporations in particular may have their own reporting requirements.
+:::
+
+## Role in the Electricity System
