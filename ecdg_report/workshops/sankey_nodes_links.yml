@@ -1,30 +1,276 @@
 #columns e, f, h, j of the excel 
-#g, i, k, l, m, n, o, p, q, r, s, t 
+#g, i, k, l, m, n, o, p, q, r, s, t, u, v, w, x, y, z, aa, ab, ac, ad, ae, 
+# az, ba, bb, bc, bd, be, bf, bg, bh, bi, bj, bk, bl, bm, bn, bo, bp, bq, br, bs, bt
+# b, c, d
+# af, ag, ah, ai, aj, ak, al, am, an, ao, ap, aq, ar, as, at, au, av, aw, ax, ay
+
+# ---- SECTORS ----
 sectors:
+  - source: Capacity Expension Modelling
+    targets:
+      - [long term planning, 1]
+  - source: Demand Forecasting
+    targets:
+      - [load forecast, 2]
+      - [peak demand, 1]
+  - source: Eletrical System Operations
+    targets:
+      - [mitigation and adaptation<br>indigenous communities, 1]  
+  - source: Electrical System Operations
+    targets:
+      - [extreme weather contingencies, 1]
+      - [equipment rating, 1]
+      - [outages process, 1]
+      - [reliability outlook, 1]
+  - source: ESG/Sustainability Reporting
+    targets:
+      - [GHG emission, 2]
+      - [reservoir emissions, 1]
+      - [peak-demand shift, 1]
+      - [facilitate adaptation, 2]
+  - source: Financial Reporting
+    targets:
+      - [changes in consumer habits, 1] 
+  - source: Generation Forecast
+    targets:
+      - [energy & revenue, 1]
+      - [power plant design, 1]
+  - source: Generation Forecast - Hydro
+    targets:
+      - [water supply, 1]
+      - [corporate flow record, 1]
+      - [future streamflow, 2]
+      - [drought impact, 1]
+      - [reservoir operations, 2]
+  - source: Generation Forecast - Wind
+    targets:
+      - [wind energy generation, 2]
+  - source: Infra Design - Hydro
+    targets:
+      - [dam safety review, 4]
+      - [design values<br>with climate change, 1]
+      - [PMP / PMF / IDF, 1]
+      - [IDF, 1]
+      - [hydraulic asset refurbishment, 1]
   - source: Infra Design - T&D
     targets:
       - [station design, 4]
-      - [overhead lines, 3]
-      - [underground system, 1]
+      - [overhead lines, 4]
+      - [underground system, 2]
       - [conductor design, 1]
+      - [transmission line corridor, 1]
+      - [design ambiant temperature, 1]
   - source: Risk Management
     targets:
       - [emergency plans, 1]
-      - [vulnerability assessment, 1]
-  - source: Infra Design - Hydro
-    targets:
-      - [dam safety review, 1]
-  - source: Sustainability Reporting
-    targets:
-      - [Peak-demand shift (demand), 1]
+      - [vulnerability assessment, 2]
+      - [reservoir operations, 1]
+      - [new projects risk, 1]
   - source: Resource Adequacy Planning
     targets:
-      - ressource adequacy assessments
-  - source: Demand Forecasting
+      - [ressource adequacy assessments, 1]
+      - [system reliability, 2]
+      - [annual planning outlook, 2]
+      - [curtailment prediction, 1]
+      - [T&D, 1]
+  - source: Vegetation Management
     targets:
-      - load forecast
+      - [improve inspection, 1]
+      
 
+# ---- VARIABLES ----
 variables:
+  - source: annual planning outlook
+    targets:
+      - [temperature, 2]
+      - [wind, 1]
+      - [cloud cover, 1]
+      - [precipitation, 2]
+      - [lake temperature, 1]
+      - [radiation, 1]
+      - [evaporation, 1]
+      - [snow, 1]
+  - source: changes in consumer habits
+    targets:
+      - [wind, 1]
+      - [temperature, 1]
+      - [precipitation, 1]
+  - source: conductor design
+    targets:
+      - [temperature, 2]
+      - [wind, 1]
+      - [ice, 1]
+  - source: corporate flow record
+    targets:
+      - [temperature, 1]
+      - [precipitation, 1]
+  - source: curtailment prediction
+    targets:
+      - [temperature, 1]
+      - [humidity, 1]
+      - [pressure, 1]
+      - [wind, 1]
+      - [cloud cover, 1]
+      - [radiation, 1]
+  - source: design ambiant temperature
+    targets:
+      - [temperature, 1]
+  - source: design values<br>with climate change
+    targets:
+      - [wind, 1]
+      - [compound events, 1]
+  - source: dam safety review
+    targets:
+      - [precipitation, 4]
+      - [snow, 2]
+      - [wind, 3]
+      - [inflows, 1]
+      - [radiation, 1]
+      - [tempearture, 3]
+      - [humidity, 1]
+      - [inflows, 1]
+      - [PMF, 1]
+  - source: drought impact
+    targets:
+      - [water levels, 1]
+  - source: emergency plans
+    targets:
+      - [wind, 1]
+      - [temperature, 1]
+      - [flood, 1]
+      - [fire, 1]
+      - [drought, 1]
+  - source: energy & revenue
+    targets:
+      - [temperature, 1]
+      - [river flows, 1]
+      - [radiation, 1]
+      - [wind, 1]
+  - source: equipment rating
+    targets:
+      - [temperature, 1]
+      - [humidity, 1]
+      - [wind, 1]
+  - source: extreme weather contingencies
+    targets:
+      - [temperature, 1]
+      - [wind, 1]
+      - [storm, 1]
+      - [precipitation, 1]
+      - [drought, 1]
+      - [radiation, 1]
+      - [lake temperature, 1]
+      - [wildfire, 1]
+  - source: facilitate adaptation
+    targets:
+      - [weather events, 1]
+  - source: future streamflow
+    targets:
+      - [temperature, 2]
+      - [precipitation, 2]
+  - source: GHG emission
+    targets:
+      - [peak electricity demand, 1]
+      - [temperature, 1]
+      - [heat rate, 1]
+      - [ GHG emissions, 1]
+  - source: IDF
+    targets:
+      - [precipitation, 1]
+      - [temperature, 1]
+  - source: hydraulic asset refurbishment
+    targets:
+      - [temperature, 1]
+      - [precipitation, 1]
+      - [snow, 1]
+      - [radiation, 1]
+      - [wind, 1]
+      - [soil conditions, 1]
+      - [humidity, 1]
+  - source: improve inspection
+    targets:
+      - [freezing rain, 1]
+      - [wind, 1]
+      - [wet snow, 1]
+  - source: load forecast
+    targets:
+      - [temperature, 1]
+  - source: long term planning
+    targets:
+      - [inflows, 1]
+     # - [load forecast, 1]
+      - [radiation, 1]
+      - [wind, 1]
+  - source: mitigation and adaptation<br>indigenous communities
+    targets:
+      - [water levels, 1]
+      - [erosion, 1]
+      - [ice, 1]
+  - source: new projects risk
+    targets:  
+      - [temperature, 1]
+      - [precipitation, 1]
+      - [wind, 1]
+      - [wildfire, 1]
+  - source: outages process
+    targets:
+      - [radiation, 1]
+      - [wind, 1]
+      - [cloud cover, 1]
+      - [humidity, 1]
+      - [temperature, 1]
+  - source: overhead lines
+    targets:
+      - [ice, 2]
+      - [wind, 4]
+      - [ice + wind, 2]
+      - [snow + wind, 2]
+      - [temperature, 1]
+      - [radiation, 1]
+  - source: peak demand
+    targets:
+      - [temperature, 1]
+      - [humidity, 1]
+      - [wind, 1]
+      - [cloud cover, 1]
+      - [radiation, 1]
+  - source: peak-demand shift
+    targets:
+      - [temperature, 1]
+      - [GHG emissions, 1]
+  - source: PMP / PMF / IDF
+    targets:
+      - [precipitation, 1]
+      - [snow, 1]
+  - source: power plant design
+    targets:
+      - [precipitation, 1]
+      - [inflows, 1]
+      - [flood, 1]
+      - [temperature, 1]
+      - [wildfire, 1]
+  - source: reliability outlook
+    targets:
+      - [historical production, 1]
+      - [river flow, 1]
+      - [wind, 1]
+      - [radiation, 1]
+  - source: reservoir emissions
+    targets:
+      - [temperature, 1]
+      - [radiation, 1]
+      - [wind, 1]
+  - source: reservoir operations
+    targets:
+      - [flow record, 1]
+      - [temperature, 3]
+      - [precipitation, 3]
+      - [wind, 1]
+      - [radiation, 1]
+  - source: ressource adequacy assessments
+    targets:
+      - [temperature, 1]
+      - [wind, 1]
   - source: station design
     targets:
       - [temperature, 5]
@@ -34,90 +280,128 @@ variables:
       - [snow, 2]
       - [radiation, 1]
       - [flood, 1]
-  - source: emergency plans
+  - source: system reliability
     targets:
+      - [temperature, 2]
+      - [wind, 2]
+      - [humidity, 2]
+      - [radiation, 2]
+      - [water flow, 2]
+      - [cloud cover, 2]
+      - [humidity, 2]
+  - source: T&D
+    targets:
+      - [temperature, 1]
+      - [wildfire, 1]
+      - [freezing rain, 1]
+  - source: transmission line corridor
+    targets:
+      - [freezing rain, 1]
       - [wind, 1]
       - [temperature, 1]
-      - [flood, 1]
-      - [fire, 1]
-      - [drought, 1]
-  - source: dam safety review
-    targets:
-      - [precipitation, 1]
-      - [snow, 1]
-      - [wind, 1]
-      - [inflows, 1]
-  - source: Peak-demand shift (demand)
-    targets:
-      - [temperature, 1]
-      - [GHG emissions, 1]
-  - source: vulnerability assessment
-    targets:
-      - [perils (extreme events), 1]
-  - source: overhead lines
-    targets:
-      - [ice, 2]
-      - [wind, 3]
-      - [ice + wind, 2]
-      - [snow + wind, 2]
-      - [temperature, 1]
-      - [radiation, 1]
   - source: underground system
     targets:
-      - [flood, 1]
+      - [flood, 2]
       - [soil temperautre, 1]
       - [temperature, 1]
       - [moisture, 1]
-  - source: conductor design
+  - source: vulnerability assessment
     targets:
-      - [temperature, 2]
-      - [wind, 1]
-      - [ice, 1]
-  - source: ressource adequacy assessments
+      - [perils (extreme events), 1]
+      - [temperature, 1]
+  - source: water supply
     targets:
       - [temperature, 1]
-      - [wind, 1]
-  - source: load forecast
+      - [precipitation, 1]
+  - source: wind energy generation
     targets:
-      - [temperature, 1]
-    
+      - [wind, 1]
+      - [precipitation, 1]
+      - [freezing rain, 1]
+
+# ---- TYPES ----
 types:
-  - source: temperature
+  - source: cloud cover
     targets:
-      - [minimum, 5]
-      - [maximum, 5]
-      - [daily, 2]
-      - [freeze and thaw, 1]
-      - [hourly, 1]
-  - source: precipitation
+      - [hourly, 3]
+  - source: compound events
+    targets:
+      - [high temperature + low wind, 1]
+  - source: flood
     targets:
       - [extreme, 1]
+  - source: freezing rain
+    targets:
+      - [1/50, 1]
+  - source: GHG emissions
+    targets:
+      - [hourly, 1]
+  - source: humidity
+    targets:
+      - [hourly, 3]
+      - [dewpoint, 2]
   - source: ice
     targets:
       - [accumulation, 1]
       - [extreme, 2]
+  - source: ice + wind
+    targets:
+      - [low/high probability, 1]
+  - source: inflows
+    targets:
+      - [monthly, 1]
+ # - source: load forecast
+ #   targets:
+ #     - [hourly, 1]
+  - source: precipitation
+    targets:
+      - [extreme, 3]
+      - [hourly, 2]
+      - [sub-daily, 2]
+      - [5min, 1]
+  - source: radiation
+    targets:
+      - [horizontal, 1]
+      - [hourly, 4]
+      - [4hrs forecast, 1]
   - source: snow
     targets:
-      - [accumulation, 2]
+      - [accumulation, 4]
       - [extreme, 2]
+  - source: temperature
+    targets:
+      - [minimum, 7]
+      - [maximum, 10]
+      - [daily, 2]
+      - [dry bulb, 3]
+      - [freeze and thaw, 1]
+      - [hourly, 5]
+      - [days < -35dgC, 1]
+      - [sub-daily, 2]
+      - [monthly, 1]
+      - [growing season, 1]
+      - [frost-free days, 1]
+      - [cooling degree days, 2]
+      - [heating degree days, 3]
+      - [30degC, 1]
   - source: wind
     targets:
-      - [speed, 4]
+      - [speed, 11]
+      - [direction, 1]
       - [seasonal, 1]
       - [extreme, 2]
       - [minimum, 1]
       - [maximum, 1]
       - [10m, 1]
+      - [40m, 1]
+      - [80m, 1]
+      - [100m, 1] 
+      - [60m, 1]
       - [510m, 1]
-  - source: GHG emissions
-    targets:
-      - [hourly, 1]
-  - source: flood
-    targets:
-      - [extreme, 1]
-  - source: ice + wind
-    targets:
-      - low/high probability
+      - [gust, 4]
+      - [hourly, 5]
+      - [4hrs forecast, 1]
+      - [1/50, 1]
 
 
       
