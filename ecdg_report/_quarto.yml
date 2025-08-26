@@ -97,7 +97,7 @@ website:
         contents:
           - workshops/content_particip.ipynb
           - workshops/findings.ipynb      
-      - dmdu/DMDU.ipynb        
+      - adaptation/Adaptation.ipynb        
 
 format:
   html:
@@ -125,6 +125,7 @@ bibliography:
   - sectors/references.bib
   - sectors/planning/references.bib
   - sectors/planning/generation_forecasting_references.bib
+  - reporting/reporting_references.bib
 
 
 
