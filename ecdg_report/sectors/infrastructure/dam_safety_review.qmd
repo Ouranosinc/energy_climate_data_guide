@@ -1,0 +1,82 @@
+---
+title: Dam Safety Review - DSR
+bibliography: references_dam_safety.bib
+#csl: styles/elsevier-harvard.csl
+---
+
+
+::: {#id1 .callout collapse="true"}
+## Summary Description
+
+- standard based on Dam Safety Guidelines - [Canadian Dam Association](https://cda.ca/technical/dam-safety) (CDA) 
+- risk-informed approach: undesired events in therms of likelihood and potential consequences
+- provincial and territorial [regulations](https://cda.ca/dams-in-canada/regulation) 
+- evaluation and systematic review of all aspects (including visual inspections of all components)
+
+[![Tailings dam safety management system suggested by the CDA (@zare2024)](image/CDA_guide.png)](https://www.mdpi.com/2075-163X/14/6/551)
+
+
+<!-- ADD climate change here??? or in methods?? or ROLE?????  -->
+Dams present many vulnerabilities linked to climate change which are challenging to quantify. Inflow design flood, characterised by dams classification, is influenced by multiple factors such as 
+
+
+The following sections describe role, method and models, 
+
+
+:::
+
+::: {#id1 .callout collapse="true"}
+## Role in the Electricity System
+Dam main purpose is to store water or other liquid for energy production among other uses such as water irrigation. However, dams can pose significant risks to public safety and the environment if they are not maintened and operated properly. Therefore, dam safety is a critical aspect of infrastructure management in the electricity sector as many hazards can cause increasing risks on these structures .
+
+"A Dam Safety Review involves a systematic examination and assessment of the data and information about the design, construction, maintenance, operation, processes, and systems affecting a Dam’s safety, including the Dam safety management system. " (@damsafetybc) Overall, a dam safety review is a systematic evaluation of all aspects of a dam based on currrent knowledge and standards (@damsafetyontario) which may not be the same as the ones used in the dam construction. The review needs to be carried out by profesionnal engineers. 
+
+Dams are often classified by Hazard Potential Classification based on assets at risk of dam failure such as population, environnement or infrastructures. The classification determines the level of regulatory oversight, flood design, frequency of inspections, and the stringency of safety requirements, among others. Each province and territory in Canada regulates their own classification systems via regulations and standarts, but are aligned with the CDA's framework to ensure a consistent approach to dam safety across Canada (see, https://cda.ca/dams-in-canada/regulation). Their review is therefore essential to respect stakeholders safety but to also respect regulations.
+:::
+
+
+::: {#id1 .callout collapse="true"}
+## Methods and Models
+
+Many methods and models are used for DSR as they can require many inspections based on dam classifications regulations (@damsafetybc, @damsafetyontario):
+- field reviews
+- interviews with site staff
+- equipement testing
+- extensive understanding of the design, consruction, operation and maintenance
+
+Among many others. Please refer to local [legislation](https://cda.ca/dams-in-canada/regulation) for more information. The following sections only tackle a few methods and models used in DSR as a wide variety of field (structure, geotechnical, hydrological, hydraulic, seismic, mechanical, electrical, etc.) expertise is required to perform a comprehensive review. Therefore, methods presented will focus on hydrology aspects affected by climate change. 
+
+::: {#id1 .callout collapse="true"}
+### Flood Frequency Analysis (FFA)
+
+#### Description & Characteristics
+Flood frequency analysis (FFA) (@FFA_USGS_17, @Islam2024) is often used to determine the design flood required by regulations. These flood are determined by return period such as 1/100 or 1/1000 years.  Thefore, the goal of FFA is to link flow values with probabilities of occurence (@ouranos2021flood).
+
+$$
+Aep = 1/T = 1-CDF_{high flows}
+$$
+
+where  
+- $Aep$ is the annual exceedance probability,  
+- $T$ is the return period (years),  
+- $CDF_{high flows}$ is the cumulative distribution of high flows.
+
+However, flow records rarely go up to 100 years (and of course not to 1000). Therefore, a probability densitity function is fit to either flow annual maxima (AM) or [peak-over-threshold](https://www.hec.usace.army.mil/confluence/sspdocs/sspum/2.3.1/peaks-over-threshold-frequently-asked-questions) (POT). POT allows to have more high flows events as some years could have multiple over treholds and others none. However, it also add issues linked to the independance of events. 
+
+Morever, such analysis require long time observed inflows (at least 30 years based on World Meteorological Organisation criteria) and different method exists to determine the distribution parameters (such as generalized extreme value, generalized Pareto or lognormal) (@wmo89). Different metrics of [goodness of fit](https://en.wikipedia.org/wiki/Goodness_of_fit) exist to validate distribution fit such as [Aikake](https://en.wikipedia.org/wiki/Akaike_information_criterion) or [Baeysian Information Criteria](https://en.wikipedia.org/wiki/Bayesian_information_criterion), [Kolmogorov-Sminov](https://en.wikipedia.org/wiki/Kolmogorov%E2%80%93Smirnov_test), etc. (@Islam2024).
+
+[![Univariate FFA steps (@Islam2024)](https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs42452-024-05814-4/MediaObjects/42452_2024_5814_Fig2_HTML.png?as=webp)](https://link.springer.com/article/10.1007/s42452-024-05814-4)
+
+Common FFA methods are univariate and stationnary meaning that climate change and impact of other features others than flows are not taken into account when calculating the design flood. 
+
+Altough univariate FFA is commonly used, more and more techniques present multivariate FFA has a to consider allows to integrate the inter-dependance of multiple flood events features such as sea level and precipitation using copulas ().
+Most FFA use stationarity, which doesn't consider 
+
+#### Climat Inputs
+
+
+:::
+
+### Probable Maximum Precipitation (PMP) & Probable Maximum Flooding (PMF)
+
+:::
