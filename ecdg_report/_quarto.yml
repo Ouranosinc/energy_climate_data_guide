@@ -65,8 +65,8 @@ website:
       - section: "Climate Datasets"
         href: datasets/Climate_Datasets_Overview.ipynb
         contents:
-          - datasets/Good_to_know.ipynb
           - datasets/Dataset_Template.ipynb
+          - datasets/Good_to_know.ipynb
           - section: "Observational Data"
             href: datasets/observed_data/Observational_Datasets.ipynb
             contents:
