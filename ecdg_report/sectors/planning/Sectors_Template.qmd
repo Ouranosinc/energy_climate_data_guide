@@ -1,0 +1,98 @@
+---
+title: Sector Title
+#bibliography: sector_references.bib 
+#uncomment upper line to add bibliography 
+---
+
+<!--- This is the template for the structure of all sector activity description pages. This is a comment not shown in the quarto website --->
+
+## Summary Description
+:::{#id1 .callout collapse="true"}
+### Overview
+[Lorem ipsum dolor sit amet]{.red-text}, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud [reprehenderit in voluptate velit esse cillum]{.green-text} exercitation ullamco laboris nisi  ut aliquip ex ea commodo consequat. Duis aute irure dolor in dolore eu fugiat nulla pariatur. [Excepteur sint occaecat cupidatat non proident]{.blue-text}, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+![A figure for the activity (source: bibentry)](image/dataset_generic.png "A symbolic dataset"){fig-alt="A symbolic dataset" width=300}
+
+We can mark stuff [like this]{.mark-red} or <mark>like this</mark> as a reminder to deal with it later (see source for markdown implementation!).
+:::
+
+## Role in the Electricity System
+:::{#id1 .callout collapse="true"} 
+### Additional Information
+Summary of how this activity contributes to the electricity sector and the purpose of this topic
+:::
+
+## Methods and Models
+
+Summary of the methods and models used goes here. Repeat the below template if there are multiple types of models
+
+:::{#id1 .callout collapse="true"}
+## Model Type1 
+Description of Model Type #1
+
+:::{#id1 .callout collapse="true"}
+### Characteristics
+**Deterministic, Optimization, Econometric, empirical etc**
+
+:::
+
+:::{#id1 .callout collapse="true"}
+### Key Climate Inputs
+- Input A - Description [Sample links](#data-access)
+- Input B - Description [Sample links](#data-access)
+- link to [climate projections](../datasets/Climate_Datasets_Overview.ipynb)
+
+:::
+
+:::{#id1 .callout collapse="true"}
+### Non-Climate Inputs
+- Input A - Description (add links)
+- Input B - Description 
+
+:::
+
+:::{#id1 .callout collapse="true"}
+### Model Outputs
+- Output A - Description [Link_activities]
+
+:::
+
+:::{#id1 .callout collapse="true"}
+### Temporal Resolution
+Description 
+
+:::
+
+:::{#id1 .callout collapse="true"}
+### Spatial Resolution
+Description 
+
+:::
+
+:::{#id1 .callout collapse="true"}
+### Frequency of Analysis
+Description 
+
+:::
+:::
+
+
+## Detailed Discussion
+:::{#id1 .callout collapse="true"} 
+### Additional Information
+lorem ipsum bla bla
+:::
+
+## Gaps and Recommendations
+:::{#id1 .callout collapse="true"} 
+### Additional Information
+lorem ipsum bla bla
+:::
+
+## Interactions with Other Sector Activities
+:::{#id1 .callout collapse="true"} 
+### Additional Information
+** to consider...this may be part of inputs and outputs** 
+:::
+
+## References
