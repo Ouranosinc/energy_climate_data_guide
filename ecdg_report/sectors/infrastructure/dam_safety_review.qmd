@@ -1,13 +1,12 @@
 ---
-title: Dam Safety Review - DSR
+title: Dam Safety Review 
 bibliography: references_dam_safety.bib
 #csl: styles/elsevier-harvard.csl
 ---
 
-
-::: {#id1 .callout collapse="true"}
 ## Summary Description
-
+::: {#id1 .callout collapse="true"}
+### Overview
 - standard based on Dam Safety Guidelines - [Canadian Dam Association](https://cda.ca/technical/dam-safety) (CDA) 
 - risk-informed approach: undesired events in therms of likelihood and potential consequences
 - provincial and territorial [regulations](https://cda.ca/dams-in-canada/regulation) 
@@ -17,16 +16,16 @@ bibliography: references_dam_safety.bib
 
 
 <!-- ADD climate change here??? or in methods?? or ROLE?????  -->
-Dams present many vulnerabilities linked to climate change which are challenging to quantify. Inflow design flood, characterised by dams classification, is influenced by multiple factors such as 
-
+<mark>Dams present many vulnerabilities linked to climate change which are challenging to quantify. Inflow design flood, characterised by dams classification, is influenced by multiple factors such as localisation and watershed. Climate change projection have shoed that 1/100 years event are expected to occur more frequently (@csa_dams2022). Some studies have also showed increase in floods  
+<mark>
 
 The following sections describe role, method and models, 
 
-
 :::
 
-::: {#id1 .callout collapse="true"}
 ## Role in the Electricity System
+::: {#id1 .callout collapse="true"}
+### Additional Information
 Dam main purpose is to store water or other liquid for energy production among other uses such as water irrigation. However, dams can pose significant risks to public safety and the environment if they are not maintened and operated properly. Therefore, dam safety is a critical aspect of infrastructure management in the electricity sector as many hazards can cause increasing risks on these structures .
 
 "A Dam Safety Review involves a systematic examination and assessment of the data and information about the design, construction, maintenance, operation, processes, and systems affecting a Dam’s safety, including the Dam safety management system. " (@damsafetybc) Overall, a dam safety review is a systematic evaluation of all aspects of a dam based on currrent knowledge and standards (@damsafetyontario) which may not be the same as the ones used in the dam construction. The review needs to be carried out by profesionnal engineers. 
@@ -34,10 +33,7 @@ Dam main purpose is to store water or other liquid for energy production among o
 Dams are often classified by Hazard Potential Classification based on assets at risk of dam failure such as population, environnement or infrastructures. The classification determines the level of regulatory oversight, flood design, frequency of inspections, and the stringency of safety requirements, among others. Each province and territory in Canada regulates their own classification systems via regulations and standarts, but are aligned with the CDA's framework to ensure a consistent approach to dam safety across Canada (see, https://cda.ca/dams-in-canada/regulation). Their review is therefore essential to respect stakeholders safety but to also respect regulations.
 :::
 
-
-::: {#id1 .callout collapse="true"}
 ## Methods and Models
-
 Many methods and models are used for DSR as they can require many inspections based on dam classifications regulations (@damsafetybc, @damsafetyontario):
 - field reviews
 - interviews with site staff
@@ -47,9 +43,7 @@ Many methods and models are used for DSR as they can require many inspections ba
 Among many others. Please refer to local [legislation](https://cda.ca/dams-in-canada/regulation) for more information. The following sections only tackle a few methods and models used in DSR as a wide variety of field (structure, geotechnical, hydrological, hydraulic, seismic, mechanical, electrical, etc.) expertise is required to perform a comprehensive review. Therefore, methods presented will focus on hydrology aspects affected by climate change. 
 
 ::: {#id1 .callout collapse="true"}
-### Flood Frequency Analysis (FFA)
-
-#### Description & Characteristics
+## Flood Frequency Analysis (FFA)
 Flood frequency analysis (FFA) (@FFA_USGS_17, @Islam2024) is often used to determine the design flood required by regulations. These flood are determined by return period such as 1/100 or 1/1000 years.  Thefore, the goal of FFA is to link flow values with probabilities of occurence (@ouranos2021flood).
 
 $$
@@ -61,22 +55,145 @@ where
 - $T$ is the return period (years),  
 - $CDF_{high flows}$ is the cumulative distribution of high flows.
 
+:::{#id1 .callout collapse="true"}
+### Characteristics
 However, flow records rarely go up to 100 years (and of course not to 1000). Therefore, a probability densitity function is fit to either flow annual maxima (AM) or [peak-over-threshold](https://www.hec.usace.army.mil/confluence/sspdocs/sspum/2.3.1/peaks-over-threshold-frequently-asked-questions) (POT). POT allows to have more high flows events as some years could have multiple over treholds and others none. However, it also add issues linked to the independance of events. 
 
 Morever, such analysis require long time observed inflows (at least 30 years based on World Meteorological Organisation criteria) and different method exists to determine the distribution parameters (such as generalized extreme value, generalized Pareto or lognormal) (@wmo89). Different metrics of [goodness of fit](https://en.wikipedia.org/wiki/Goodness_of_fit) exist to validate distribution fit such as [Aikake](https://en.wikipedia.org/wiki/Akaike_information_criterion) or [Baeysian Information Criteria](https://en.wikipedia.org/wiki/Bayesian_information_criterion), [Kolmogorov-Sminov](https://en.wikipedia.org/wiki/Kolmogorov%E2%80%93Smirnov_test), etc. (@Islam2024).
 
-[![Univariate FFA steps (@Islam2024)](https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs42452-024-05814-4/MediaObjects/42452_2024_5814_Fig2_HTML.png?as=webp)](https://link.springer.com/article/10.1007/s42452-024-05814-4)
+[![Univariate FFA steps taken from @Islam2024](https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs42452-024-05814-4/MediaObjects/42452_2024_5814_Fig2_HTML.png?as=webp)](https://link.springer.com/article/10.1007/s42452-024-05814-4)
 
-Common FFA methods are univariate and stationnary meaning that climate change and impact of other features others than flows are not taken into account when calculating the design flood. 
+Common FFA methods are univariate and stationnary meaning that climate change and impact of other features others than flows are not taken into account when calculating the design flood. To evaluate non-stationnarity, @ouranos2021flood proposed two techniques to assess non-stationarity using hydrological model fed with large ensemble of [climate projections over](../../datasets/climate_projection_data/Climate_Projection_Datasets.ipynb) 20 years period block.
 
-Altough univariate FFA is commonly used, more and more techniques present multivariate FFA has a to consider allows to integrate the inter-dependance of multiple flood events features such as sea level and precipitation using copulas ().
-Most FFA use stationarity, which doesn't consider 
+[![Figure taken from (@ouranos2021flood)](image/FFA_ouranos2021.png)](https://www.ouranos.ca/sites/default/files/2022-07/proj-201419-energie-koenig-finalreport.pdf)
 
-#### Climat Inputs
+Other, recent studies have looked into non-stationary extreme value distribution, such as integrating linear trends in function of time or climate variables as covariates in distribution parameters (@Islam2024, @Maria2024, @usgs_nonstationary). @usgs_nonstationary used precipitation, annual snowfall, mean annual temperature as covariates in North central United States, where 45% of streamgages were predicted with precipitation, 14% temperature and less than 1% with snowfall as causal mechanisms (36% had no climate variables as causal mechanisms). Northern part had biggest differences between stationnary and non-stationnary FFA (going up to 20%). The study used measured streamflow and climate data from a monthly water balance model which was itself fed by temperature and precipitation data from monthly [NOAA](https://www.ncei.noaa.gov/access/metadata/landing-page/bin/iso?id=gov.noaa.ncdc:C00332) [gridded observations](../../datasets/observed_data/NRCanMET_Gridded_Data.ipynb). 
 
+[![Figure taken from (@faulkner2024_modelling)](https://iwa.silverchair-cdn.com/iwa/content_public/journal/hr/55/2/10.2166_nh.2024.134/2/m_hydrology-d-23-00134gf01.png?Expires=1758257415&Signature=kH371zw5RCLmDd4HBmYFZjJAjF-WPOCX9xX4QaMpdfYNdA6WFN53nhu~vbE3VXYSeUb9ZdE5kG0Ba4aSnKv5RYR-4yZra5BRSH4vWSkYq5dfyoEJGRWz8RMm4hCYA2cc1zQPHXOSmLDQIevSSFD6td~ClPuKhWKkrhAwoRaedaJaV3QQnlZPdJ3iWKJ16LqpTWZMrDn5DVs44vjxgQsuzrozZOCLSNEPAGwbJsrfUkOuiL1TN26rPL-Yw1QhCSgjExCheFnTzbfNFqRaY53HZjm69~6Oxprbaf3SFT9sbYpD~YH59ij2F~73x0Y~32d4nlbR8Mq-AymnNTz4dfyUvQ__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA)](https://iwaponline.com/hr/article/55/2/205/100010/Modelling-non-stationary-flood-frequency-in)
+
+@Maria2024 used the same covariates (rainfall split in two seasons) for a study accross Canada as well as time. Streamflows were acquired from similuations of GEM (1950-2099) which are drived by a members of CanESM2 RCP8.5 ([CMIP5](../../datasets/climate_projection_data/Climate_Projection_Datasets.ipynb)). Non-stationary projected higher increases in 2000-year return levels for 451 dams locations than stationnary FFA. 
+
+Furthermore, recent studies have also looked into multivariate FFA, that use copulas to create joint distributions highlithing the interdepdnance between flooding features and have potential for compound flooding (e.g, high precipitation and snowmelt or sea level rise) (@Maria2024, @bizhanimanzar2024joint). 
 
 :::
 
-### Probable Maximum Precipitation (PMP) & Probable Maximum Flooding (PMF)
+:::{#id1 .callout collapse="true"}
+### Key Climate Inputs
+- Flows  
+- Precipitation
+- Temperature
+- sea level
 
+:::
+
+:::{#id1 .callout collapse="true"}
+### Non-Climate Inputs
+- Inputs for hydrological models
+
+:::
+
+:::{#id1 .callout collapse="true"}
+### Model Outputs
+- Flows (hydrological models)
+- Annual Probability of excedeence
+
+:::
+
+:::{#id1 .callout collapse="true"}
+### Temporal Resolution
+Daily or Monthly (as annual maxima is often used)
+
+:::
+
+:::{#id1 .callout collapse="true"}
+### Spatial Resolution
+Flows at streamgauge
+Hydrological models can usually have less than 1°,  resolution
+:::
+
+:::{#id1 .callout collapse="true"}
+### Frequency of Analysis
+Depends on the dam classification (from 5 to 10 years)
+
+:::
+:::
+
+::: {#id1 .callout collapse="true"}
+## Probable Maximum Precipitation (PMP) & Probable Maximum Flood (PMF)
+Extreme consequences dams require design flood (classification), the maximum flow that dam must be able to evacuate, to be estimated with the Probable Maximum Flood (PMF), which itself is estimated with the Probable Maximum Precipitation (PMP). The WMO defines PMP as being "the greatest depth of precipitation for a given duration meteorologically possible for a design watershed or a given storm area at a particular location at a particular time of year, with no allowance made for long-term climatic trends" (@wmo2009_manualPMP). The WMO manual propose six methods to evaluate the PMP (local, transposition, combination, inferential generalized and statistical) with the majority of them based on physical meteorology (@Islam2024).
+
+[![PMP and PMF estimation taken from @Islam2024](https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs42452-024-05814-4/MediaObjects/42452_2024_5814_Fig3_HTML.png?as=webp)](https://link.springer.com/article/10.1007/s42452-024-05814-4)
+
+PMPs are usually evluated by meteorologist. Once estimated it can be used by hydrologist to find the PMF using hydrological models (@ouranos2015_pmf). Many hypothesis can be used in hydrological models to maximise the PMF, for example, a combination of the   
+
+
+:::{#id1 .callout collapse="true"}
+### Characteristics
+One common method to eveluate PMP is moisture maximization, which is advatageous for his lower data requirements (@Islam2024, @wmo2009_manualPMP).
+$$
+PMP = P_{obs} * W_{max} / W_{storm}
+$$
+
+where  
+- $P_{obs} $ is the maximum observed precipitation (mm),  
+- $W_{max}$ is the maximum precipitable water (mm),  
+- $W_{storm}$ is actual precipitable water of the observed storm (mm).
+
+$W_{max}$ can be estimated with dew point temperature.
+
+Another method, storm transposition doesn't require detailed information on watershed specific storm s (@Islam2024, @wmo2009_manualPMP). 
+
+$$
+PMP = \overline{X_{n}} + K_{m} * S_{n}
+$$
+
+where  
+- $\overline{X_{n}} $ is the mean annual maximum precipitation for the duration (n) of interest,  
+- $S_{n}$ is the standard deviation,  
+- $K_{m}$ is the frequency factor. 
+
+$K_{m}$ is a factor of precipitation duration and mean value. 
+
+However, estimates of PMP and PF come with high uncertainties 
+
+:::
+
+:::{#id1 .callout collapse="true"}
+### Key Climate Inputs
+- Input A - Description [Sample links](#data-access)
+- Input B - Description [Sample links](#data-access)
+- link to [climate projections](../datasets/Climate_Datasets_Overview.ipynb)
+
+:::
+
+:::{#id1 .callout collapse="true"}
+### Non-Climate Inputs
+- Input A - Description (add links)
+- Input B - Description 
+
+:::
+
+:::{#id1 .callout collapse="true"}
+### Model Outputs
+- Output A - Description [Link_activities]
+
+:::
+
+:::{#id1 .callout collapse="true"}
+### Temporal Resolution
+Description 
+
+:::
+
+:::{#id1 .callout collapse="true"}
+### Spatial Resolution
+Description 
+
+:::
+
+:::{#id1 .callout collapse="true"}
+### Frequency of Analysis
+Description 
+
+:::
 :::
