@@ -1,6 +1,6 @@
 ---
 title: Demand
-#bibliography: sector_references.bib 
+#bibliography: references.bib 
 #uncomment upper line to add bibliography 
 ---
 
