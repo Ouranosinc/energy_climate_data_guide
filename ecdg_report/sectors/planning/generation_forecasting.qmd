@@ -1,5 +1,5 @@
 ---
-title: Sector Title
+title: Generation Forecasting
 #bibliography: sector_references.bib 
 #uncomment upper line to add bibliography 
 ---
