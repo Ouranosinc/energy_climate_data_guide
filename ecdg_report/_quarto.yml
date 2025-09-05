@@ -57,7 +57,7 @@ website:
               - sectors/infrastructure/support_supply_chain_decision-making.ipynb
               - sectors/infrastructure/licensing_and_impact-environmental_assessments.ipynb
           - section: "Assurance, Reporting and Disclosures"
-            href: sectors/reporting/reporting_disclosure.ipynb
+            href: sectors/reporting/reporting_disclosure.qmd
             contents:  
               - sectors/reporting/enterprise_risk_management.ipynb
               - sectors/reporting/esg_and_sustainability_reporting.ipynb
@@ -96,7 +96,7 @@ website:
         contents:
           - workshops/content_particip.ipynb
           - workshops/findings.ipynb      
-      - dmdu/DMDU.ipynb        
+      - adaptation/Adaptation.ipynb        
 
 format:
   html:
@@ -124,6 +124,7 @@ bibliography:
   - sectors/references.bib
   - sectors/planning/references.bib
   - sectors/planning/generation_forecasting_references.bib
+  - sectors/reporting/reporting_references.bib
 
 
 
