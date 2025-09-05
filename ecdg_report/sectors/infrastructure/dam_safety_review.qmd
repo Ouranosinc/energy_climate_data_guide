@@ -145,7 +145,7 @@ where
 
 $W_{max}$ can be estimated with dew point temperature.
 
-Another method, storm transposition doesn't require detailed information on watershed specific storm s (@Islam2024, @wmo2009_manualPMP). 
+Another method, storm transposition doesn't require detailed information on watershed specific storms (@Islam2024, @wmo2009_manualPMP). 
 
 $$
 PMP = \overline{X_{n}} + K_{m} * S_{n}
