@@ -139,7 +139,7 @@ PMP = P_{obs} * W_{max} / W_{storm}
 $$
 
 where  
-- $P_{obs} $ is the maximum observed precipitation (mm),  
+- $P_{obs}$ is the maximum observed precipitation (mm),  
 - $W_{max}$ is the maximum precipitable water (mm),  
 - $W_{storm}$ is actual precipitable water of the observed storm (mm).
 
@@ -152,7 +152,7 @@ PMP = \overline{X_{n}} + K_{m} * S_{n}
 $$
 
 where  
-- $\overline{X_{n}} $ is the mean annual maximum precipitation for the duration (n) of interest,  
+- $\overline{X_{n}}$ is the mean annual maximum precipitation for the duration (n) of interest,  
 - $S_{n}$ is the standard deviation,  
 - $K_{m}$ is the frequency factor. 
 
@@ -162,7 +162,7 @@ These estimates come with high uncertainties and are left in the choice of profe
 
 To account for non-stationnarity, studies have used climate simulations to estimate the PMP. @ouranos2015_pmf used [regional climate models](../../datasets/climate_projection_data/Climate_Projection_Datasets.ipynb) to project future PMPs with higher resolution (50 km) in Quebec watersheds which generally showed increase around 10 to 20% for the mid-century. However, one watershed showed a decrease in PMP.  
 
-However, estimates of PMP and PF come with high uncertainties 
+However, estimates of PMP and PMF come with high uncertainties 
 
 :::
 
