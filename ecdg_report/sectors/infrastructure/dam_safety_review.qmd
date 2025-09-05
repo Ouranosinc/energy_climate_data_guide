@@ -7,7 +7,7 @@ bibliography: references_dam_safety.bib
 ## Summary Description
 ::: {#id1 .callout collapse="true"}
 ### Overview
-- standard based on Dam Safety Guidelines - [Canadian Dam Association](https://cda.ca/technical/dam-safety) (CDA) 
+- standard based on Dam Safety Guidelines - [Canadian Dam Association](https://cda.ca/technical/dam-safety) (CDA)
 - risk-informed approach: undesired events in therms of likelihood and potential consequences
 - provincial and territorial [regulations](https://cda.ca/dams-in-canada/regulation) 
 - evaluation and systematic review of all aspects (including visual inspections of all components)
@@ -16,7 +16,7 @@ bibliography: references_dam_safety.bib
 
 
 <!-- ADD climate change here??? or in methods?? or ROLE?????  -->
-<mark>Dams present many vulnerabilities linked to climate change which are challenging to quantify. Inflow design flood, characterised by dams classification, is influenced by multiple factors such as localisation and watershed. Climate change projection have shoed that 1/100 years event are expected to occur more frequently (@csa_dams2022). Some studies have also showed increase in floods  
+<mark>Dams present many vulnerabilities linked to climate change which are challenging to quantify. Inflow design flood, characterised by dams classification, is influenced by multiple factors such as localisation and watershed. Climate change projection have shoed that 1/100 years event are expected to occur more frequently (@csa_dams2022).  
 <mark>
 
 The following sections describe role, method and models, 
@@ -57,23 +57,23 @@ where
 
 :::{#id1 .callout collapse="true"}
 ### Characteristics
-However, flow records rarely go up to 100 years (and of course not to 1000). Therefore, a probability densitity function is fit to either flow annual maxima (AM) or [peak-over-threshold](https://www.hec.usace.army.mil/confluence/sspdocs/sspum/2.3.1/peaks-over-threshold-frequently-asked-questions) (POT). POT allows to have more high flows events as some years could have multiple over treholds and others none. However, it also add issues linked to the independance of events. 
+Flow records rarely go up to 100 years (and of course not to 1000). Therefore, a probability densitity function is fit to either flow annual maxima (AM) or [peak-over-threshold](https://www.hec.usace.army.mil/confluence/sspdocs/sspum/2.3.1/peaks-over-threshold-frequently-asked-questions) (POT). POT allows to have more high flows events as some years could have multiple over tresholds and others none. However, it also add issues linked to the independance of events. 
 
-Morever, such analysis require long time observed inflows (at least 30 years based on World Meteorological Organisation criteria) and different method exists to determine the distribution parameters (such as generalized extreme value, generalized Pareto or lognormal) (@wmo89). Different metrics of [goodness of fit](https://en.wikipedia.org/wiki/Goodness_of_fit) exist to validate distribution fit such as [Aikake](https://en.wikipedia.org/wiki/Akaike_information_criterion) or [Baeysian Information Criteria](https://en.wikipedia.org/wiki/Bayesian_information_criterion), [Kolmogorov-Sminov](https://en.wikipedia.org/wiki/Kolmogorov%E2%80%93Smirnov_test), etc. (@Islam2024).
+Morever, such analysis require long time observed inflows (at least 30 years based on World Meteorological Organisation criteria) and different method exists to determine the distribution parameters (such as generalized extreme value, generalized Pareto or lognormal) (@wmo89). Different metrics of [goodness of fit](https://en.wikipedia.org/wiki/Goodness_of_fit) can be used to validate the fitted distributions, such as [Aikake](https://en.wikipedia.org/wiki/Akaike_information_criterion) or [Baeysian Information Criteria](https://en.wikipedia.org/wiki/Bayesian_information_criterion), [Kolmogorov-Sminov](https://en.wikipedia.org/wiki/Kolmogorov%E2%80%93Smirnov_test), etc. (@Islam2024).
 
 [![Univariate FFA steps taken from @Islam2024](https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs42452-024-05814-4/MediaObjects/42452_2024_5814_Fig2_HTML.png?as=webp)](https://link.springer.com/article/10.1007/s42452-024-05814-4)
 
 Common FFA methods are univariate and stationnary meaning that climate change and impact of other features others than flows are not taken into account when calculating the design flood. To evaluate non-stationnarity, @ouranos2021flood proposed two techniques to assess non-stationarity using hydrological model fed with large ensemble of [climate projections over](../../datasets/climate_projection_data/Climate_Projection_Datasets.ipynb) 20 years period block.
 
-[![Figure taken from (@ouranos2021flood)](image/FFA_ouranos2021.png)](https://www.ouranos.ca/sites/default/files/2022-07/proj-201419-energie-koenig-finalreport.pdf)
+[![Figure taken from @ouranos2021flood](image/FFA_ouranos2021.png)](https://www.ouranos.ca/sites/default/files/2022-07/proj-201419-energie-koenig-finalreport.pdf)
 
 Other, recent studies have looked into non-stationary extreme value distribution, such as integrating linear trends in function of time or climate variables as covariates in distribution parameters (@Islam2024, @Maria2024, @usgs_nonstationary). @usgs_nonstationary used precipitation, annual snowfall, mean annual temperature as covariates in North central United States, where 45% of streamgages were predicted with precipitation, 14% temperature and less than 1% with snowfall as causal mechanisms (36% had no climate variables as causal mechanisms). Northern part had biggest differences between stationnary and non-stationnary FFA (going up to 20%). The study used measured streamflow and climate data from a monthly water balance model which was itself fed by temperature and precipitation data from monthly [NOAA](https://www.ncei.noaa.gov/access/metadata/landing-page/bin/iso?id=gov.noaa.ncdc:C00332) [gridded observations](../../datasets/observed_data/NRCanMET_Gridded_Data.ipynb). 
 
-[![Figure taken from (@faulkner2024_modelling)](https://iwa.silverchair-cdn.com/iwa/content_public/journal/hr/55/2/10.2166_nh.2024.134/2/m_hydrology-d-23-00134gf01.png?Expires=1758257415&Signature=kH371zw5RCLmDd4HBmYFZjJAjF-WPOCX9xX4QaMpdfYNdA6WFN53nhu~vbE3VXYSeUb9ZdE5kG0Ba4aSnKv5RYR-4yZra5BRSH4vWSkYq5dfyoEJGRWz8RMm4hCYA2cc1zQPHXOSmLDQIevSSFD6td~ClPuKhWKkrhAwoRaedaJaV3QQnlZPdJ3iWKJ16LqpTWZMrDn5DVs44vjxgQsuzrozZOCLSNEPAGwbJsrfUkOuiL1TN26rPL-Yw1QhCSgjExCheFnTzbfNFqRaY53HZjm69~6Oxprbaf3SFT9sbYpD~YH59ij2F~73x0Y~32d4nlbR8Mq-AymnNTz4dfyUvQ__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA)](https://iwaponline.com/hr/article/55/2/205/100010/Modelling-non-stationary-flood-frequency-in)
+[![Figure taken from @faulkner2024_modelling](https://iwa.silverchair-cdn.com/iwa/content_public/journal/hr/55/2/10.2166_nh.2024.134/2/m_hydrology-d-23-00134gf01.png?Expires=1758257415&Signature=kH371zw5RCLmDd4HBmYFZjJAjF-WPOCX9xX4QaMpdfYNdA6WFN53nhu~vbE3VXYSeUb9ZdE5kG0Ba4aSnKv5RYR-4yZra5BRSH4vWSkYq5dfyoEJGRWz8RMm4hCYA2cc1zQPHXOSmLDQIevSSFD6td~ClPuKhWKkrhAwoRaedaJaV3QQnlZPdJ3iWKJ16LqpTWZMrDn5DVs44vjxgQsuzrozZOCLSNEPAGwbJsrfUkOuiL1TN26rPL-Yw1QhCSgjExCheFnTzbfNFqRaY53HZjm69~6Oxprbaf3SFT9sbYpD~YH59ij2F~73x0Y~32d4nlbR8Mq-AymnNTz4dfyUvQ__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA)](https://iwaponline.com/hr/article/55/2/205/100010/Modelling-non-stationary-flood-frequency-in)
 
-@Maria2024 used the same covariates (rainfall split in two seasons) for a study accross Canada as well as time. Streamflows were acquired from similuations of GEM (1950-2099) which are drived by a members of CanESM2 RCP8.5 ([CMIP5](../../datasets/climate_projection_data/Climate_Projection_Datasets.ipynb)). Non-stationary projected higher increases in 2000-year return levels for 451 dams locations than stationnary FFA. 
+@Maria2024 used the same covariates (rainfall split in two seasons) for a study accross Canada as well as time. Streamflows were acquired from similuations of GEM (1950-2099) which are drived by a member of CanESM2 RCP8.5 ([CMIP5](../../datasets/climate_projection_data/Climate_Projection_Datasets.ipynb)). Non-stationary projected higher increases in 2000-year return levels for 451 dams locations than stationnary FFA. 
 
-Furthermore, recent studies have also looked into multivariate FFA, that use copulas to create joint distributions highlithing the interdepdnance between flooding features and have potential for compound flooding (e.g, high precipitation and snowmelt or sea level rise) (@Maria2024, @bizhanimanzar2024joint). 
+Furthermore, others recent studies have also looked into multivariate FFA, that use copulas to create joint distributions highlithing the interdepdnance between flooding features and have potential for compound flooding (e.g, high precipitation and snowmelt or sea level rise) (@Maria2024, @bizhanimanzar2024joint). 
 
 :::
 
@@ -107,8 +107,8 @@ Daily or Monthly (as annual maxima is often used)
 
 :::{#id1 .callout collapse="true"}
 ### Spatial Resolution
-Flows at streamgauge
-Hydrological models can usually have less than 1°,  resolution
+- Flows at streamgauge
+- Hydrological models can usually have less than 1°,  resolution
 :::
 
 :::{#id1 .callout collapse="true"}
@@ -124,7 +124,11 @@ Extreme consequences dams require design flood (classification), the maximum flo
 
 [![PMP and PMF estimation taken from @Islam2024](https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs42452-024-05814-4/MediaObjects/42452_2024_5814_Fig3_HTML.png?as=webp)](https://link.springer.com/article/10.1007/s42452-024-05814-4)
 
-PMPs are usually evluated by meteorologist. Once estimated it can be used by hydrologist to find the PMF using hydrological models (@ouranos2015_pmf). Many hypothesis can be used in hydrological models to maximise the PMF, for example, a combination of the   
+PMPs are usually evaluated by meteorologists and are provinded with uncertainty bounds as well as seasonal adjustment factors. 
+Values for rainfall, tempearture and snow-accumulation linked to the storm can be estimated from observations. [frequency analysis](#flood-frequency-analysis-(ffa)) can be used by hydrologist to find the PMF using hydrological (or runoff) models. 
+
+
+Many hypothesis can be used in hydrological models to maximise the PMF, for example, a combination of the spring PMP with the 100 year snowpack as well as hydrological models parameters for example maximisation of the soil moisture to increase runoffs (@ouranos2015_pmf). 
 
 
 :::{#id1 .callout collapse="true"}
@@ -152,7 +156,11 @@ where
 - $S_{n}$ is the standard deviation,  
 - $K_{m}$ is the frequency factor. 
 
-$K_{m}$ is a factor of precipitation duration and mean value. 
+$K_{m}$ is a factor of precipitation duration and mean value. The British Columbia [MetPortal](https://rti-metportal.shinyapps.io/bc_region/) offers PMP calculated with transposition accross the province. 
+
+These estimates come with high uncertainties and are left in the choice of professionals to determine the most appropriate methods. Recent studies are still loooking into improving PMP calculations and more precisely providing the uncertainties linked to each estimates (@martin_pmp). 
+
+To account for non-stationnarity, studies have used climate simulations to estimate the PMP. @ouranos2015_pmf used [regional climate models](../../datasets/climate_projection_data/Climate_Projection_Datasets.ipynb) to project future PMPs with higher resolution (50 km) in Quebec watersheds which generally showed increase around 10 to 20% for the mid-century. However, one watershed showed a decrease in PMP.  
 
 However, estimates of PMP and PF come with high uncertainties 
 
@@ -160,8 +168,8 @@ However, estimates of PMP and PF come with high uncertainties
 
 :::{#id1 .callout collapse="true"}
 ### Key Climate Inputs
-- Input A - Description [Sample links](#data-access)
-- Input B - Description [Sample links](#data-access)
+- Specific humidity - there is limited observation for this variable, but it is provided by [reanalysis](../../datasets/reanalysis_data/Reanalysis_Datasets.ipynb). WMO propose equations to estimates specific humidity from temperature dew point (@wmo2009_manualPMP).
+- Dew point temperature - Used to estimate specific humidity, often available at meteorological stations and [reanalysis](../../datasets/reanalysis_data/Reanalysis_Datasets.ipynb). 
 - link to [climate projections](../datasets/Climate_Datasets_Overview.ipynb)
 
 :::
