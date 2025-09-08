@@ -16,8 +16,9 @@ bibliography: references_dam_safety.bib
 
 
 <!-- ADD climate change here??? or in methods?? or ROLE?????  -->
-<mark>Dams present many vulnerabilities linked to climate change which are challenging to quantify. Inflow design flood, characterised by dams classification, is influenced by multiple factors such as localisation and watershed. Climate change projection have shoed that 1/100 years event are expected to occur more frequently (@csa_dams2022).  
-<mark>
+<mark>Dams present many vulnerabilities linked to climate change which are challenging to quantify. Extreme flood are projected to increase in frequency and severity in many areas across Canada, which directly affect the inflow design flood design. Futermore, there is projected shift in precipitation pattern and flood mecahnisms such as rain-on-snow events or snowmelt-drivent floods which also affects the estimated design flood but also operations and maintenance. Damns located in permafrost regions could be affected by instalbility due to thawing. Rising temperatures could also create large ice movements Access to infrastructures could also be limited by more common extreme events such as forest fires (an Hydro Quebec installation had to be evacuated by workers to let firefighters to their work) (@csa_dams2022, @Islam2024). 
+<mark> 
+Furthermore, half the dams in Canada are more than 50 years old. This increase the risk of climate change impacts as  insfrastructures are aging and becoming more vulnerable. 
 
 The following sections describe role, method and models, 
 
@@ -41,6 +42,12 @@ Many methods and models are used for DSR as they can require many inspections ba
 - extensive understanding of the design, consruction, operation and maintenance
 
 Among many others. Please refer to local [legislation](https://cda.ca/dams-in-canada/regulation) for more information. The following sections only tackle a few methods and models used in DSR as a wide variety of field (structure, geotechnical, hydrological, hydraulic, seismic, mechanical, electrical, etc.) expertise is required to perform a comprehensive review. Therefore, methods presented will focus on hydrology aspects affected by climate change. 
+
+The figure below briefly resumes decision-making challenges faced by professionnals in the dam safety sector of the electricity system in Canada. These challenges were shared during the [workshops](../../workshops/intro_workshops.ipynb) held in 2025. These exemples linked together the methods and models as well as characteristics presented in the following section such as [PMP](#probable-maximum-precipitation-(pmp--probable-maximum-flood-(pmf)).
+
+<iframe width="768" height="640"  data-external="1" src="https://miro.com/app/live-embed/uXjVINO7YDw=/?focusWidget=3458764634985944622&embedMode=view_only_without_ui&embedId=783828694004" frameborder="0" scrolling="no" allow="fullscreen; clipboard-read; clipboard-write" allowfullscreen></iframe>
+
+For all climate variables listed below, please refer to the [climate dataset section](../../datasets/Climate_Datasets_Overview.ipynb) for guidance and availability.
 
 ::: {#id1 .callout collapse="true"}
 ## Flood Frequency Analysis (FFA)
@@ -125,10 +132,7 @@ Extreme consequences dams require design flood (classification), the maximum flo
 [![PMP and PMF estimation taken from @Islam2024](https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs42452-024-05814-4/MediaObjects/42452_2024_5814_Fig3_HTML.png?as=webp)](https://link.springer.com/article/10.1007/s42452-024-05814-4)
 
 PMPs are usually evaluated by meteorologists and are provinded with uncertainty bounds as well as seasonal adjustment factors. 
-Values for rainfall, tempearture and snow-accumulation linked to the storm can be estimated from observations. [frequency analysis](#flood-frequency-analysis-(ffa)) can be used by hydrologist to find the PMF using hydrological (or runoff) models. 
-
-
-Many hypothesis can be used in hydrological models to maximise the PMF, for example, a combination of the spring PMP with the 100 year snowpack as well as hydrological models parameters for example maximisation of the soil moisture to increase runoffs (@ouranos2015_pmf). 
+FFA with values for rainfall, temperature and snow-accumulation linked to the storm can be estimated from observations to calibrate the hydrolocal models. Soil moisture needs to be maximised when PMF is determined in the hdyrological model and other factors such as the combination of the spring PMP with the 100 year snowpack (@ouranos2015_pmf). 
 
 
 :::{#id1 .callout collapse="true"}
@@ -160,48 +164,52 @@ $K_{m}$ is a factor of precipitation duration and mean value. The British Columb
 
 These estimates come with high uncertainties and are left in the choice of professionals to determine the most appropriate methods. Recent studies are still loooking into improving PMP calculations and more precisely providing the uncertainties linked to each estimates (@martin_pmp). 
 
-To account for non-stationnarity, studies have used climate simulations to estimate the PMP. @ouranos2015_pmf used [regional climate models](../../datasets/climate_projection_data/Climate_Projection_Datasets.ipynb) to project future PMPs with higher resolution (50 km) in Quebec watersheds which generally showed increase around 10 to 20% for the mid-century. However, one watershed showed a decrease in PMP.  
+To account for non-stationnarity, studies have used climate simulations to estimate the PMP. @ouranos2015_pmf used [regional climate models](../../datasets/climate_projection_data/Climate_Projection_Datasets.ipynb) to project future PMPs with higher resolution (50 km) in Quebec watersheds which generally showed increase around 10 to 20% for the mid-century. However, one watershed showed a decrease in PMP.  Alternative method than WMO, have been listed in literature as alternative to account for climate change and unvertainties (@martin_pmp). 
 
-However, estimates of PMP and PMF come with high uncertainties 
+However, estimates of PMP and PMF come with high uncertainties. PMP uncertainties can be assessed via a Monte Carlo techniques and sensitivity analysis need to be done for evaluating PMFs uncertainty (@king_2022).
 
 :::
 
 :::{#id1 .callout collapse="true"}
 ### Key Climate Inputs
-- Specific humidity - there is limited observation for this variable, but it is provided by [reanalysis](../../datasets/reanalysis_data/Reanalysis_Datasets.ipynb). WMO propose equations to estimates specific humidity from temperature dew point (@wmo2009_manualPMP).
-- Dew point temperature - Used to estimate specific humidity, often available at meteorological stations and [reanalysis](../../datasets/reanalysis_data/Reanalysis_Datasets.ipynb). 
-- link to [climate projections](../datasets/Climate_Datasets_Overview.ipynb)
+- **Specific humidity** : There is limited observation for this variable, but it is provided by [reanalysis](../../datasets/reanalysis_data/Reanalysis_Datasets.ipynb). WMO propose equations to estimates specific humidity from temperature dew point (@wmo2009_manualPMP). Guidance must be followed if reanalysis are used or other [projections](../../datasets/climate_projection_data/Climate_Projection_Datasets.ipynb) products. 
+
+- **Dew point temperature**: Used to estimate specific humidity, since it is often available at [meteorological stations](https://climate.weather.gc.ca/historical_data/search_historic_data_e.html). [Reanalysis](../../datasets/reanalysis_data/Reanalysis_Datasets.ipynb) and [climate projections](../../datasets/) also offer this variable. 
+
+- **Extreme precipitation**: events based on past observations (storm events). In practice, past observations, often [Environment and Climate Change Canada](https://climate.weather.gc.ca/historical_data/search_historic_data_e.html) or internal station are used. [Reanalysis](../../datasets/reanalysis_data/Reanalysis_Datasets.ipynb) data can also be considered, but validation is requried.
+
+- **Snow accumulation**: events based on past observations (often corresponding to a high return period such 100 years). In practice, past observations, often [Environment and Climate Change Canada](https://climate.weather.gc.ca/historical_data/search_historic_data_e.html) or internal station are used. [Reanalysis](../../datasets/reanalysis_data/Reanalysis_Datasets.ipynb) data can also be considered, but validation is requried.
+
 
 :::
 
 :::{#id1 .callout collapse="true"}
 ### Non-Climate Inputs
-- Input A - Description (add links)
-- Input B - Description 
+- Other inputs linked to runoff and hydrological models
 
 :::
 
 :::{#id1 .callout collapse="true"}
 ### Model Outputs
-- Output A - Description [Link_activities]
+- PMP and PMF are the outputs (used to determine the design flood)
 
 :::
 
 :::{#id1 .callout collapse="true"}
 ### Temporal Resolution
-Description 
+- sub-daily or daily
 
 :::
 
 :::{#id1 .callout collapse="true"}
 ### Spatial Resolution
-Description 
+- lowest resolution possible; higher resolution models can be used such as RCM or reanalysis
 
 :::
 
 :::{#id1 .callout collapse="true"}
 ### Frequency of Analysis
-Description 
+5 to 12 years depending on dam classifcation.  
 
 :::
 :::
