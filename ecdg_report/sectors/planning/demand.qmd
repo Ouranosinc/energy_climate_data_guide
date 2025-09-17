@@ -97,8 +97,10 @@ Demand forecasting models yield output variables that support planning, operatio
 :::{#id1 .callout collapse="true"}
 ### Temporal Resolution
 - **Hourly**: captures short-term load dynamics and peak shifts. In pratice, hourly seemed to be the most common temporal resolution. 
-- **Daily/Seasonal**: reflects climate sensitivity of intraday and seasonal load profiles
-- **Annual/Decadal**: used in long-term planning documents 
+- **Daily/Seasonal**: reflects climate sensitivity of intraday and seasonal load profiles (e.g., @Trotter2016, @Bonkaney2023, @Lee20224)
+- **Annual/Decadal**: used in long-term planning documents (e.g., @Zachariadis2014, @DeCian2019, @Shaik2024)
+
+Across the literature, electricity demand models are generally estimated a fine temporal resolutions, such as hourly, daily, or monthly, while seasonal, annual or longer results are mostly derived by aggregation. A number of studies employ hourly models, particularly for building-level energy simulations (e.g., @Dirks2015, @Reyna2017, @Lipson2019, @Berardi2020) and economic analyses of load responses to temperature (@Fonseca2019, @Auffhammer2017, @Romitti2022, @Hu2024). Other studies focus on daily models, such as those examining demand in Brazil (@Trotter2016), Niger (@Bonkaney2023), and Texas (@Lee2022). Monthly econometric frameworks are less common but have been applied in European and Australian contexts (@Pilli-Sihvola2010, @Emodi2018). At the broader scale, annual models have been used for energy system studies where demand is linked to climate exposures and socioeconomic drivers (@Zachariadis2014, @DeCian2019, @Shaik2024). 
 
 :::
 
@@ -108,11 +110,14 @@ Demand forecasting models yield output variables that support planning, operatio
 - **Provincial/Zonal**: jurisdictional boundary. In practice, energy groups use zones that represent population aggregation (for example, 10 zones are used in Ontario). 
 - **National/Regional**: found in many international studies 
 
+The spatial scale of analysis varies widely across studies, reflecting both data availability and research objectives. At the city or urban scale, studies have focused on individual locations (@Bonkaney2023, @Lipson2019, @Reyna2017, @Romitti2022). Regional and utility-level analyses capture grid operations (@Fonseca2019, @Lee2022, @Dirks2015), and provincial planning (@Parkinson2015, @Emodi2018, @Chidiac2022, @Shaik2024). National-level assessments are also common in many studies such as (@Taseska2012, @Trotter2016, @Zachariadis2014, @Berardi2020, @Wood2015). Lastly, continental and global perspectives are provided by Europe-wide analyses (@Hu2024), CONUS-wide studies (@Amonkar2023), national balancing authorities across the US (@Steinberg2020), and global energy demand panels (@DeCian2019).
+
 :::
 
 :::{#id1 .callout collapse="true"}
 ### Frequency of Analysis
 - Demand forecasts are updated annually or every planning cycle, depending on jurisdiction. 
+- The literature shows that forecasting is conducted at a variety of intervals (annual, multi-year steps, or decades) with horizons extending from near-term (seasonal or annual forecast) to end-of-century projections, depending on whether the goal is operational planning, infrastructure design, or long-term climate impact assessment.
 
 :::
 
