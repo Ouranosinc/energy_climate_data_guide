@@ -14,9 +14,10 @@ bibliography: references_dam_safety.bib
 
 [![Tailings dam safety management system suggested by the CDA (@zare2024)](image/CDA_guide.png)](https://www.mdpi.com/2075-163X/14/6/551)
 
+There are over 16 000 dams in Canada and 38% are managed by Quebec authorities and only 22% are used for hydroelectricity. 87% of dams can be found in five provinces (Ontario, Quebec, British Columbia, Alberta and Saskatchewan) (@Ozkan2023).
 
 <!-- ADD climate change here??? or in methods?? or ROLE?????  -->
-<mark>Dams present many vulnerabilities linked to climate change which are challenging to quantify. Extreme flood are projected to increase in frequency and severity in many areas across Canada, which directly affect the inflow design flood design. Futermore, there is projected shift in precipitation pattern and flood mecahnisms such as rain-on-snow events or snowmelt-drivent floods which also affects the estimated design flood but also operations and maintenance. Damns located in permafrost regions could be affected by instalbility due to thawing. Rising temperatures could also create large ice movements Access to infrastructures could also be limited by more common extreme events such as forest fires (an Hydro Quebec installation had to be evacuated by workers to let firefighters to their work) (@csa_dams2022, @Islam2024). 
+<mark>Dams present many vulnerabilities linked to climate change which are challenging to quantify. Extreme floods are projected to increase in frequency and severity in many areas across Canada, which directly affect the inflow flood design. Furthermore, there is a projected shift in precipitation pattern and flood mechanisms such as rain-on-snow events or snowmelt-driven floods which also affect the estimated design flood but also operations and maintenance. Dams located in permafrost regions could be affected by instability due to thawing. Rising temperatures could also create large ice movements. Access to infrastructure could also be limited by more common extreme events such as forest fires (for example, Hydro Quebec had an installation that had to be evacuated by workers to let firefighters to their work) (@csa_dams2022, @Islam2024). Reservoir water quality is likely to be affected by climate change due to the rise in temperature (intense stratification leading to anoxic conditions) and switch in precipitation patterns (influx og nutruents and turbidity during snowmelt), among others (@Ozkan2023). Structural stability of concrete dams might also be challenged du to the increase in total horizontal load caused by precipitations and stream flow (@Ozkan2023). 
 <mark> 
 Furthermore, half the dams in Canada are more than 50 years old. This increase the risk of climate change impacts as  insfrastructures are aging and becoming more vulnerable. 
 
@@ -43,9 +44,9 @@ Many methods and models are used for DSR as they can require many inspections ba
 
 Among many others. Please refer to local [legislation](https://cda.ca/dams-in-canada/regulation) for more information. The following sections only tackle a few methods and models used in DSR as a wide variety of field (structure, geotechnical, hydrological, hydraulic, seismic, mechanical, electrical, etc.) expertise is required to perform a comprehensive review. Therefore, methods presented will focus on hydrology aspects affected by climate change. 
 
-The figure below briefly resumes decision-making challenges faced by professionnals in the dam safety sector of the electricity system in Canada. These challenges were shared during the [workshops](../../workshops/intro_workshops.ipynb) held in 2025. These exemples linked together the methods and models as well as characteristics presented in the following section such as [PMP](#probable-maximum-precipitation-(pmp--probable-maximum-flood-(pmf)).
+The figure below briefly resumes decision-making challenges faced by professionnals in the dam safety sector of the electricity system in Canada. These challenges were shared during the [workshops](../../workshops/intro_workshops.ipynb) held in 2025. These exemples linked together the methods and models as well as characteristics presented in the following section such as [PMP](#probable-maximum-precipitation---pmp--probable-maximum-flood-pmf).
 
-<iframe width="768" height="640"  data-external="1" src="https://miro.com/app/live-embed/uXjVINO7YDw=/?focusWidget=3458764634985944622&embedMode=view_only_without_ui&embedId=783828694004" frameborder="0" scrolling="no" allow="fullscreen; clipboard-read; clipboard-write" allowfullscreen></iframe>
+<iframe width="768" id="miro" height="640"  data-external="1" src="https://miro.com/app/live-embed/uXjVINO7YDw=/?focusWidget=3458764634985944622&embedMode=view_only_without_ui&embedId=783828694004" frameborder="0" scrolling="no" allow="fullscreen; clipboard-read; clipboard-write" allowfullscreen></iframe>
 
 For all climate variables listed below, please refer to the [climate dataset section](../../datasets/Climate_Datasets_Overview.ipynb) for guidance and availability.
 
@@ -126,7 +127,7 @@ Depends on the dam classification (from 5 to 10 years)
 :::
 
 ::: {#id1 .callout collapse="true"}
-## Probable Maximum Precipitation (PMP) & Probable Maximum Flood (PMF)
+## Probable Maximum Precipitation - PMP & Probable Maximum Flood PMF
 Extreme consequences dams require design flood (classification), the maximum flow that dam must be able to evacuate, to be estimated with the Probable Maximum Flood (PMF), which itself is estimated with the Probable Maximum Precipitation (PMP). The WMO defines PMP as being "the greatest depth of precipitation for a given duration meteorologically possible for a design watershed or a given storm area at a particular location at a particular time of year, with no allowance made for long-term climatic trends" (@wmo2009_manualPMP). The WMO manual propose six methods to evaluate the PMP (local, transposition, combination, inferential generalized and statistical) with the majority of them based on physical meteorology (@Islam2024).
 
 [![PMP and PMF estimation taken from @Islam2024](https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs42452-024-05814-4/MediaObjects/42452_2024_5814_Fig3_HTML.png?as=webp)](https://link.springer.com/article/10.1007/s42452-024-05814-4)
@@ -209,7 +210,112 @@ However, estimates of PMP and PMF come with high uncertainties. PMP uncertaintie
 
 :::{#id1 .callout collapse="true"}
 ### Frequency of Analysis
-5 to 12 years depending on dam classifcation.  
+5 to 12 years depending on dam classifcation. 
+:::
+:::
+
+:::{#id1 .callout collapse="true"}
+## Methods and models in pratice
+The following section describes the models presented in the [Miro board](#miro) which adress dam safety review for a facility, which therefore includes the dikes (embankments) surrounding the dam. Many groups are involved; hydrology, hydraulic, geotechnical, geology and structural. The review need to demonstrate resistance the facility resistance to seimis and floods. Many stakeholders are involved in these reviews; ministry, municipalities, consultants, etc. 
+
+:::{#id1 .callout collapse="true"}
+### Characteristics
+- **Hydrological models**:
+    - CMP
+    - Internal models (Hydro Quebec has HSAMI & HSAMI+)
+    - Raven ([R and C++](https://raven.uwaterloo.ca/), [Python](https://github.com/Ouranosinc/raven-hydro))
+
+- **Reservoir models**:
+    - [RiverWare](https://riverware.org/)
+    - [HEC-ReSim](https://www.hec.usace.army.mil/software/hec-ressim/)
+
+- **Hydraulic models**: to test dams failure, spillway capacity 
+
+- **Structural models**
+
+- **Getechnical models**: Roc level is important (not just water level)
+    - [GeoStudio](https://www.seequent.com/products-solutions/geostudio-2d/)
+    - [RocScience](https://www.rocscience.com/)
+
+- **Hydrogeological Models**
 
 :::
+
+:::{#id1 .callout collapse="true"}
+### Key Climate Inputs
+- Some datasets used are; internal station data, observations from [Environment and Climate Change Canada](https://climate.weather.gc.ca/historical_data/search_historic_data_e.html), renalaysis ([ERA5-Land](../../datasets/reanalysis_data/ERA5-Land.ipynb), [CaSR](../../datasets/reanalysis_data/CaSR.ipynb)), [interpolated observations](../../datasets/observed_data/Observational_Datasets.ipynb) (Hydat)
+
+- **Frost depth**: Can be calculated with with freezing degree days. Really critical in the North since it can fracture the dam core.
+
+- **[PMF](#probable-maximum-precipitation---pmp--probable-maximum-flood-pmf)**: calculated for each facility
+
+- **[PMP](#probable-maximum-precipitation---pmp--probable-maximum-flood-pmf)**: calculated annually by a consultant
+
+- **Precipitation**: used to calibrate hydrological models. Stations observations, reanalysis and seasonal forecasts are used.
+
+- **Temperature**: used to calibrate hydrological models. Stations observations, reanalysis and seasonal forecasts are used.
+
+- **Snow level**: less looked at
+
+- **Thermal conductivity of soil**
 :::
+
+:::{#id1 .callout collapse="true"}
+### Non-Climate Inputs
+- Required information for each model
+<mark>Need to be completed by champion</mark>
+
+
+:::
+
+:::{#id1 .callout collapse="true"}
+### Model Outputs
+<mark>Need to be completed by champion</mark>
+
+:::
+
+:::{#id1 .callout collapse="true"}
+### Temporal Resolution : data is need historical up to the date safety review happens
+ - **Daily**: inflows, water level, degree-days
+ - **Hourly**: Pressure, PMP
+
+
+:::
+
+:::{#id1 .callout collapse="true"}
+### Spatial Resolution
+Data over the whole province and nearby to cover all watersheds (for example, other provinces or United States)
+
+:::
+
+:::{#id1 .callout collapse="true"}
+### Frequency of Analysis
+10 to 12 years depending on classification 
+:::
+:::
+
+
+
+## Detailed Discussion
+:::{#id1 .callout collapse="true"} 
+### Additional Information
+Many regulators have added considerations of climate change related risks inside their legislation for dam safety (@damsafetybc) while others discuss the need to consider extreme events (@damsafetyontario). @Ozkan2023 report details impacts of climate change on dams and has an extensive review of literature and policies around the globe that bridge these impacts. The report also recommends datasets to be used for dam safety; the Can-CRM4 that has a 0.44° resolution -50 members  
+
+<mark>Marco or Kurt could you add infos about the new CSA standard if it has been accepted</mark> 
+
+
+:::
+
+## Gaps and Recommendations
+:::{#id1 .callout collapse="true"} 
+### Additional Information
+Practitioners have identified important gaps in the dam safety sector. First of all, lots of uncertainties are associated with the PMP and the methodology used has not been updated in the recent years even if there is important limitations highlited in literature such as the like of objectifivity for the storm selection left to the practioner (@martin_pmp). 
+
+There is also a mismatch between some of the internal stations geodetic levels and the dams own level making it challenging to use some of the internally collected data. Practioners also face challenge to have data with spatial and temporal resolution that fit their need. Generally, it is hard to find extreme datasets (1/100, 1/1000), especially when looking at future projections. There is also a lack of wind data; historical and future which is required for rockfill structures. 
+
+There is also a lack of clear guidelines of how to incoporate a non-stationary climate into dam safety reviews. Practioners discussed that these guidelines could be integrated in CSA norms or more interal guidance available to the organisation level (and to their consultants). 
+
+The National Research Council Canada has published a report "Adapatation of dams to climate change: Gap analysis" that had for goals to find Canadian guidelines shortcoming when adressing climate change in dam safety. The report highlighted techical gaps such integrating non-staitonary climate in hydrological modeling, policy gaps (limited climate change aspect in standarts or risk assessment), knowledge gaps (uncertainties linked to climate change) and data gaps (many regions are lacking data in the Norht). (@Ozkan2023)
+:::
+
+## References
