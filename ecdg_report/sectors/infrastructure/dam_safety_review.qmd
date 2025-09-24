@@ -14,12 +14,12 @@ bibliography: references_dam_safety.bib
 
 [![Tailings dam safety management system suggested by the CDA (@zare2024)](image/CDA_guide.png)](https://www.mdpi.com/2075-163X/14/6/551)
 
-There are over 16 000 dams in Canada and 38% are managed by Quebec authorities and only 22% are used for hydroelectricity. 87% of dams can be found in five provinces (Ontario, Quebec, British Columbia, Alberta and Saskatchewan) (@Ozkan2023).
+There are over 16 000 dams in Canada and 38% are managed by Quebec authorities of which 22% are used for hydroelectricity. 87% of dams can be found in five provinces (Ontario, Quebec, British Columbia, Alberta and Saskatchewan) (@Ozkan2023). Additionally, half of Canada dams are older than 50 years old, increasing the risk of climate change impacts due to infrastructure aging making them more vulnerable. 
 
 <!-- ADD climate change here??? or in methods?? or ROLE?????  -->
-<mark>Dams present many vulnerabilities linked to climate change which are challenging to quantify. Extreme floods are projected to increase in frequency and severity in many areas across Canada, which directly affect the inflow flood design. Furthermore, there is a projected shift in precipitation pattern and flood mechanisms such as rain-on-snow events or snowmelt-driven floods which also affect the estimated design flood but also operations and maintenance. Dams located in permafrost regions could be affected by instability due to thawing. Rising temperatures could also create large ice movements. Access to infrastructure could also be limited by more common extreme events such as forest fires (for example, Hydro Quebec had an installation that had to be evacuated by workers to let firefighters to their work) (@csa_dams2022, @Islam2024). Reservoir water quality is likely to be affected by climate change due to the rise in temperature (intense stratification leading to anoxic conditions) and switch in precipitation patterns (influx og nutruents and turbidity during snowmelt), among others (@Ozkan2023). Structural stability of concrete dams might also be challenged du to the increase in total horizontal load caused by precipitations and stream flow (@Ozkan2023). 
+<mark>Dams present many vulnerabilities linked to climate change which are challenging to quantify. Extreme floods are projected to increase in frequency and severity in many areas across Canada, which directly affect the inflow flood design. Furthermore, there is a projected shift in precipitation pattern and flood mechanisms such as rain-on-snow events or snowmelt-driven floods which also affect the estimated design flood as well as operations and maintenance. Dams located in permafrost regions could be affected by instability due to thawing. Rising temperatures could also create large ice movements. Access to infrastructure could also be limited by more common extreme events such as forest fires (for example, Hydro Quebec had an installation evacuated by workers to let firefighters do their work) (@csa_dams2022, @Islam2024). Reservoir water quality is likely to be affected by climate change due to the rise in temperature (intense stratification leading to anoxic conditions) and switch in precipitation patterns (influx of nutrients and turbidity during snowmelt), among others (@Ozkan2023). Structural stability of concrete dams might also be challenged due to the increase in total horizontal load caused by precipitations and streamflow (@Ozkan2023). 
 <mark> 
-Furthermore, half the dams in Canada are more than 50 years old. This increase the risk of climate change impacts as  insfrastructures are aging and becoming more vulnerable. 
+Furthermore, half the dams in Canada are more than 50 years old, increasing the risk of climate change impacts as  insfrastructures are aging and becoming more vulnerable. 
 
 The following sections describe role, method and models, 
 
@@ -28,23 +28,23 @@ The following sections describe role, method and models,
 ## Role in the Electricity System
 ::: {#id1 .callout collapse="true"}
 ### Additional Information
-Dam main purpose is to store water or other liquid for energy production among other uses such as water irrigation. However, dams can pose significant risks to public safety and the environment if they are not maintened and operated properly. Therefore, dam safety is a critical aspect of infrastructure management in the electricity sector as many hazards can cause increasing risks on these structures .
+Dam’s main purpose is to store water or other liquid for various reasons such as energy production and agriculture irrigation. However, dams can pose significant risks to public safety and the environment if they are not maintained and operated properly. Therefore, dam safety review (DSR) is a critical aspect of infrastructure management in the electricity sector as many hazards cause increasing risks on these structures.
 
-"A Dam Safety Review involves a systematic examination and assessment of the data and information about the design, construction, maintenance, operation, processes, and systems affecting a Dam’s safety, including the Dam safety management system. " (@damsafetybc) Overall, a dam safety review is a systematic evaluation of all aspects of a dam based on currrent knowledge and standards (@damsafetyontario) which may not be the same as the ones used in the dam construction. The review needs to be carried out by profesionnal engineers. 
+"A Dam Safety Review involves a systematic examination and assessment of the data and information about the design, construction, maintenance, operation, processes, and systems affecting a Dam’s safety, including the Dam safety management system. " (@damsafetybc) Overall, a dam safety review is a systematic evaluation of all aspects of a dam based on current knowledge and standards (@damsafetyontario) which may not be the same as the ones used in the dam construction. The review needs to be carried out by professional engineers. 
 
-Dams are often classified by Hazard Potential Classification based on assets at risk of dam failure such as population, environnement or infrastructures. The classification determines the level of regulatory oversight, flood design, frequency of inspections, and the stringency of safety requirements, among others. Each province and territory in Canada regulates their own classification systems via regulations and standarts, but are aligned with the CDA's framework to ensure a consistent approach to dam safety across Canada (see, https://cda.ca/dams-in-canada/regulation). Their review is therefore essential to respect stakeholders safety but to also respect regulations.
+Dams are often classified by Hazard Potential Classification based on assets at risk of dam failure such as population, environment or infrastructure. The classification determines the level of regulatory oversight, flood design, frequency of inspections, and the stringency of safety requirements, among others. Each province and territory in Canada regulates their own classification systems via regulations and standards, but are aligned with the Canadian Dam Association (CDA) framework to ensure a consistent approach to dam safety across Canada (see, https://cda.ca/dams-in-canada/regulation). Their review is therefore essential to respect stakeholders safety but to also respect regulations.
 :::
 
 ## Methods and Models
-Many methods and models are used for DSR as they can require many inspections based on dam classifications regulations (@damsafetybc, @damsafetyontario):
+Many methods and models are used for DSR as they can require many inspections and calculations based on dam classifications regulations (@damsafetybc, @damsafetyontario):
 - field reviews
 - interviews with site staff
-- equipement testing
-- extensive understanding of the design, consruction, operation and maintenance
+- equipment testing
+- extensive understanding of the design, construction, operation and maintenance
 
 Among many others. Please refer to local [legislation](https://cda.ca/dams-in-canada/regulation) for more information. The following sections only tackle a few methods and models used in DSR as a wide variety of field (structure, geotechnical, hydrological, hydraulic, seismic, mechanical, electrical, etc.) expertise is required to perform a comprehensive review. Therefore, methods presented will focus on hydrology aspects affected by climate change. 
 
-The figure below briefly resumes decision-making challenges faced by professionnals in the dam safety sector of the electricity system in Canada. These challenges were shared during the [workshops](../../workshops/intro_workshops.ipynb) held in 2025. These exemples linked together the methods and models as well as characteristics presented in the following section such as [PMP](#probable-maximum-precipitation---pmp--probable-maximum-flood-pmf).
+The figure below briefly resumes decision-making challenges faced by professionals in the dam safety sector of the electricity system in Canada. These challenges were shared during the [workshops](../../workshops/intro_workshops.ipynb) held in 2025. These examples linked together the methods and models as well as characteristics presented in the following section such as [PMP](#probable-maximum-precipitation---pmp--probable-maximum-flood-pmf).
 
 <iframe width="768" id="miro" height="640"  data-external="1" src="https://miro.com/app/live-embed/uXjVINO7YDw=/?focusWidget=3458764634985944622&embedMode=view_only_without_ui&embedId=783828694004" frameborder="0" scrolling="no" allow="fullscreen; clipboard-read; clipboard-write" allowfullscreen></iframe>
 
@@ -52,7 +52,7 @@ For all climate variables listed below, please refer to the [climate dataset sec
 
 ::: {#id1 .callout collapse="true"}
 ## Flood Frequency Analysis (FFA)
-Flood frequency analysis (FFA) (@FFA_USGS_17, @Islam2024) is often used to determine the design flood required by regulations. These flood are determined by return period such as 1/100 or 1/1000 years.  Thefore, the goal of FFA is to link flow values with probabilities of occurence (@ouranos2021flood).
+Flood frequency analysis (FFA) (@FFA_USGS_17, @Islam2024) is often used to determine the design flood required by regulations. It is determined by the return period such as 1/100 or 1/1000 years.  Therefore, the goal of FFA is to link flow values with probabilities of occurrence (@ouranos2021flood).
 
 $$
 Aep = 1/T = 1-CDF_{high flows}
@@ -65,23 +65,23 @@ where
 
 :::{#id1 .callout collapse="true"}
 ### Characteristics
-Flow records rarely go up to 100 years (and of course not to 1000). Therefore, a probability densitity function is fit to either flow annual maxima (AM) or [peak-over-threshold](https://www.hec.usace.army.mil/confluence/sspdocs/sspum/2.3.1/peaks-over-threshold-frequently-asked-questions) (POT). POT allows to have more high flows events as some years could have multiple over tresholds and others none. However, it also add issues linked to the independance of events. 
+Flow records rarely go up to 100 years (and, of course, not to 1000). Therefore, a probability density function is fit to either flow annual maxima (AM) or [peak-over-threshold](https://www.hec.usace.army.mil/confluence/sspdocs/sspum/2.3.1/peaks-over-threshold-frequently-asked-questions) (POT). POT allows more events of high flows  to be considered as some years could have multiple events over thresholds and others none. However, it adds issues linked to the independence of events. 
 
-Morever, such analysis require long time observed inflows (at least 30 years based on World Meteorological Organisation criteria) and different method exists to determine the distribution parameters (such as generalized extreme value, generalized Pareto or lognormal) (@wmo89). Different metrics of [goodness of fit](https://en.wikipedia.org/wiki/Goodness_of_fit) can be used to validate the fitted distributions, such as [Aikake](https://en.wikipedia.org/wiki/Akaike_information_criterion) or [Baeysian Information Criteria](https://en.wikipedia.org/wiki/Bayesian_information_criterion), [Kolmogorov-Sminov](https://en.wikipedia.org/wiki/Kolmogorov%E2%80%93Smirnov_test), etc. (@Islam2024).
+Moreover, such analysis requires long timeserie of observed inflows (at least 30 years based on World Meteorological Organisation criteria) and different methods exists to determine the distribution parameters (such as generalized extreme value, generalized Pareto or lognormal) (@wmo89). Different metrics of [goodness of fit](https://en.wikipedia.org/wiki/Goodness_of_fit) can be used to validate the fitted distributions, such as [Aikake](https://en.wikipedia.org/wiki/Akaike_information_criterion) or [Bayesian Information Criteria](https://en.wikipedia.org/wiki/Bayesian_information_criterion), [Kolmogorov-Sminov](https://en.wikipedia.org/wiki/Kolmogorov%E2%80%93Smirnov_test), etc. (@Islam2024).
 
 [![Univariate FFA steps taken from @Islam2024](https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs42452-024-05814-4/MediaObjects/42452_2024_5814_Fig2_HTML.png?as=webp)](https://link.springer.com/article/10.1007/s42452-024-05814-4)
 
-Common FFA methods are univariate and stationnary meaning that climate change and impact of other features others than flows are not taken into account when calculating the design flood. To evaluate non-stationnarity, @ouranos2021flood proposed two techniques to assess non-stationarity using hydrological model fed with large ensemble of [climate projections over](../../datasets/climate_projection_data/Climate_Projection_Datasets.ipynb) 20 years period block.
+Common FFA methods are univariate and stationary, meaning that climate change and impacts of other features than flows are not taken into account when calculating the design flood. To evaluate non-stationarity, @ouranos2021flood proposed two techniques to assess non-stationarity using hydrological model fed with a large ensemble of [climate projections over](../../datasets/climate_projection_data/Climate_Projection_Datasets.ipynb) 20-year period block.
 
 [![Figure taken from @ouranos2021flood](image/FFA_ouranos2021.png)](https://www.ouranos.ca/sites/default/files/2022-07/proj-201419-energie-koenig-finalreport.pdf)
 
-Other, recent studies have looked into non-stationary extreme value distribution, such as integrating linear trends in function of time or climate variables as covariates in distribution parameters (@Islam2024, @Maria2024, @usgs_nonstationary). @usgs_nonstationary used precipitation, annual snowfall, mean annual temperature as covariates in North central United States, where 45% of streamgages were predicted with precipitation, 14% temperature and less than 1% with snowfall as causal mechanisms (36% had no climate variables as causal mechanisms). Northern part had biggest differences between stationnary and non-stationnary FFA (going up to 20%). The study used measured streamflow and climate data from a monthly water balance model which was itself fed by temperature and precipitation data from monthly [NOAA](https://www.ncei.noaa.gov/access/metadata/landing-page/bin/iso?id=gov.noaa.ncdc:C00332) [gridded observations](../../datasets/observed_data/NRCanMET_Gridded_Data.ipynb). 
+Other, recent studies have looked into non-stationary extreme value distribution, such as integrating linear trends in function of time or climate variables as covariates in distribution parameters (@Islam2024, @Maria2024, @usgs_nonstationary). @usgs_nonstationary used precipitation, annual snowfall, mean annual temperature as covariates in North-central United States, where 45% of streamgages were predicted with precipitation, 14% temperature and less than 1% with snowfall as causal mechanisms (36% had no climate variables as causal mechanisms). Northern part had the biggest differences between stationary and non-stationary FFA (going up to 20%). The study used measured streamflow and climate data from a monthly water balance model which was itself fed by temperature and precipitation data from monthly [NOAA](https://www.ncei.noaa.gov/access/metadata/landing-page/bin/iso?id=gov.noaa.ncdc:C00332) [gridded observations](../../datasets/observed_data/NRCanMET_Gridded_Data.ipynb). 
 
 [![Figure taken from @faulkner2024_modelling](https://iwa.silverchair-cdn.com/iwa/content_public/journal/hr/55/2/10.2166_nh.2024.134/2/m_hydrology-d-23-00134gf01.png?Expires=1758257415&Signature=kH371zw5RCLmDd4HBmYFZjJAjF-WPOCX9xX4QaMpdfYNdA6WFN53nhu~vbE3VXYSeUb9ZdE5kG0Ba4aSnKv5RYR-4yZra5BRSH4vWSkYq5dfyoEJGRWz8RMm4hCYA2cc1zQPHXOSmLDQIevSSFD6td~ClPuKhWKkrhAwoRaedaJaV3QQnlZPdJ3iWKJ16LqpTWZMrDn5DVs44vjxgQsuzrozZOCLSNEPAGwbJsrfUkOuiL1TN26rPL-Yw1QhCSgjExCheFnTzbfNFqRaY53HZjm69~6Oxprbaf3SFT9sbYpD~YH59ij2F~73x0Y~32d4nlbR8Mq-AymnNTz4dfyUvQ__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA)](https://iwaponline.com/hr/article/55/2/205/100010/Modelling-non-stationary-flood-frequency-in)
 
-@Maria2024 used the same covariates (rainfall split in two seasons) for a study accross Canada as well as time. Streamflows were acquired from similuations of GEM (1950-2099) which are drived by a member of CanESM2 RCP8.5 ([CMIP5](../../datasets/climate_projection_data/Climate_Projection_Datasets.ipynb)). Non-stationary projected higher increases in 2000-year return levels for 451 dams locations than stationnary FFA. 
+@Maria2024 used the same covariates (rainfall split in two seasons) for a study across Canada as well as time. Streamflows were acquired from simulations of GEM (1950-2099) which are driven by a member of CanESM2 RCP8.5 ([CMIP5](../../datasets/climate_projection_data/Climate_Projection_Datasets.ipynb)). Non-stationary projected higher increases in 2000-year return levels for 451 dams locations than stationary FFA. 
 
-Furthermore, others recent studies have also looked into multivariate FFA, that use copulas to create joint distributions highlithing the interdepdnance between flooding features and have potential for compound flooding (e.g, high precipitation and snowmelt or sea level rise) (@Maria2024, @bizhanimanzar2024joint). 
+Furthermore, other recent studies have also looked into multivariate FFA, that use copulas to create joint distributions highlighting the interdependence between flooding features and have potential for compound flooding (e.g., high precipitation and snowmelt or sea-level rise) (@Maria2024, @bizhanimanzar2024joint). 
 
 :::
 
@@ -128,17 +128,17 @@ Depends on the dam classification (from 5 to 10 years)
 
 ::: {#id1 .callout collapse="true"}
 ## Probable Maximum Precipitation - PMP & Probable Maximum Flood PMF
-Extreme consequences dams require design flood (classification), the maximum flow that dam must be able to evacuate, to be estimated with the Probable Maximum Flood (PMF), which itself is estimated with the Probable Maximum Precipitation (PMP). The WMO defines PMP as being "the greatest depth of precipitation for a given duration meteorologically possible for a design watershed or a given storm area at a particular location at a particular time of year, with no allowance made for long-term climatic trends" (@wmo2009_manualPMP). The WMO manual propose six methods to evaluate the PMP (local, transposition, combination, inferential generalized and statistical) with the majority of them based on physical meteorology (@Islam2024).
+Extreme consequences dams require design flood (classification), the maximum flow that dam must be able to evacuate, to be estimated with the Probable Maximum Flood (PMF), which itself is estimated with the Probable Maximum Precipitation (PMP). The WMO defines PMP as being "the greatest depth of precipitation for a given duration meteorologically possible for a design watershed or a given storm area at a particular location at a particular time of the year, with no allowance made for long-term climatic trends" (@wmo2009_manualPMP). The WMO manual proposes six methods to evaluate the PMP (local, transposition, combination, inferential generalized and statistical) with the majority of them based on physical meteorology (@Islam2024).
 
 [![PMP and PMF estimation taken from @Islam2024](https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs42452-024-05814-4/MediaObjects/42452_2024_5814_Fig3_HTML.png?as=webp)](https://link.springer.com/article/10.1007/s42452-024-05814-4)
 
-PMPs are usually evaluated by meteorologists and are provinded with uncertainty bounds as well as seasonal adjustment factors. 
-FFA with values for rainfall, temperature and snow-accumulation linked to the storm can be estimated from observations to calibrate the hydrolocal models. Soil moisture needs to be maximised when PMF is determined in the hdyrological model and other factors such as the combination of the spring PMP with the 100 year snowpack (@ouranos2015_pmf). 
+PMPs are usually evaluated by meteorologists and are provided with uncertainty bounds as well as seasonal adjustment factors. 
+FFA with values for rainfall, temperature and snow accumulation linked to the storm can be estimated from observations to calibrate the hydrological models. Soil moisture needs to be maximized when PMF is determined in the hydrological model and other factors such as the combination of the spring PMP with the 100-year snowpack (@ouranos2015_pmf). 
 
 
 :::{#id1 .callout collapse="true"}
 ### Characteristics
-One common method to eveluate PMP is moisture maximization, which is advatageous for his lower data requirements (@Islam2024, @wmo2009_manualPMP).
+One common method to evaluate PMP is moisture maximization, which is advantageous for his lower data requirements (@Islam2024, @wmo2009_manualPMP).
 $$
 PMP = P_{obs} * W_{max} / W_{storm}
 $$
@@ -157,15 +157,15 @@ PMP = \overline{X_{n}} + K_{m} * S_{n}
 $$
 
 where  
-- $\overline{X_{n}}$ is the mean annual maximum precipitation for the duration (n) of interest,  
+- $\overline{X_{n}}$ is the mean maximum annual precipitation for the duration (n) of interest,  
 - $S_{n}$ is the standard deviation,  
 - $K_{m}$ is the frequency factor. 
 
-$K_{m}$ is a factor of precipitation duration and mean value. The British Columbia [MetPortal](https://rti-metportal.shinyapps.io/bc_region/) offers PMP calculated with transposition accross the province. 
+$K_{m}$ is a factor of precipitation duration and mean value. The British Columbia [MetPortal](https://rti-metportal.shinyapps.io/bc_region/) offers PMP calculated with transposition across the province. 
 
-These estimates come with high uncertainties and are left in the choice of professionals to determine the most appropriate methods. Recent studies are still loooking into improving PMP calculations and more precisely providing the uncertainties linked to each estimates (@martin_pmp). 
+These estimates come with high uncertainties and are left in the choice of professionals to determine the most appropriate methods. Recent studies are looking into improving PMP calculations and more precisely providing the uncertainties linked to each estimate (@martin_pmp). PMP uncertainties can be assessed via a Monte Carlo techniques and sensitivity analysis need to be done for evaluating PMFs uncertainty (@king2022)
 
-To account for non-stationnarity, studies have used climate simulations to estimate the PMP. @ouranos2015_pmf used [regional climate models](../../datasets/climate_projection_data/Climate_Projection_Datasets.ipynb) to project future PMPs with higher resolution (50 km) in Quebec watersheds which generally showed increase around 10 to 20% for the mid-century. However, one watershed showed a decrease in PMP.  Alternative method than WMO, have been listed in literature as alternative to account for climate change and unvertainties (@martin_pmp). 
+To account for non-stationarity, studies have used climate simulations to estimate the PMP. @ouranos2015_pmf used [regional climate models](../../datasets/climate_projection_data/Climate_Projection_Datasets.ipynb) to project future PMPs with higher resolution (50 km) in three Quebec watersheds which generally showed an increase of 10 to 20% for the mid-century. However, one watershed showed a decrease in PMP.  Alternative methods than WMO, have been listed in literature to account for climate change and uncertainties (@martin_pmp). 
 
 However, estimates of PMP and PMF come with high uncertainties. PMP uncertainties can be assessed via a Monte Carlo techniques and sensitivity analysis need to be done for evaluating PMFs uncertainty (@king_2022).
 
@@ -173,13 +173,13 @@ However, estimates of PMP and PMF come with high uncertainties. PMP uncertaintie
 
 :::{#id1 .callout collapse="true"}
 ### Key Climate Inputs
-- **Specific humidity** : There is limited observation for this variable, but it is provided by [reanalysis](../../datasets/reanalysis_data/Reanalysis_Datasets.ipynb). WMO propose equations to estimates specific humidity from temperature dew point (@wmo2009_manualPMP). Guidance must be followed if reanalysis are used or other [projections](../../datasets/climate_projection_data/Climate_Projection_Datasets.ipynb) products. 
+- **Specific humidity** : There is limited observation for this variable, but it is provided by [reanalysis](../../datasets/reanalysis_data/Reanalysis_Datasets.ipynb). WMO proposes equations to estimate specific humidity from temperature dew point (@wmo2009_manualPMP). Guidance must be followed if reanalysis is used or other [projections](../../datasets/climate_projection_data/Climate_Projection_Datasets.ipynb) products. 
 
 - **Dew point temperature**: Used to estimate specific humidity, since it is often available at [meteorological stations](https://climate.weather.gc.ca/historical_data/search_historic_data_e.html). [Reanalysis](../../datasets/reanalysis_data/Reanalysis_Datasets.ipynb) and [climate projections](../../datasets/) also offer this variable. 
 
-- **Extreme precipitation**: events based on past observations (storm events). In practice, past observations, often [Environment and Climate Change Canada](https://climate.weather.gc.ca/historical_data/search_historic_data_e.html) or internal station are used. [Reanalysis](../../datasets/reanalysis_data/Reanalysis_Datasets.ipynb) data can also be considered, but validation is requried.
+- **Extreme precipitation**: events based on past observations (storm events). In practice, past observations, often [Environment and Climate Change Canada](https://climate.weather.gc.ca/historical_data/search_historic_data_e.html) or internal station is used. [Reanalysis](../../datasets/reanalysis_data/Reanalysis_Datasets.ipynb) data can also be considered, but validation is required.
 
-- **Snow accumulation**: events based on past observations (often corresponding to a high return period such 100 years). In practice, past observations, often [Environment and Climate Change Canada](https://climate.weather.gc.ca/historical_data/search_historic_data_e.html) or internal station are used. [Reanalysis](../../datasets/reanalysis_data/Reanalysis_Datasets.ipynb) data can also be considered, but validation is requried.
+- **Snow accumulation**: events based on past observations (often corresponding to a high return period such 100 years). In practice, past observations, often [Environment and Climate Change Canada](https://climate.weather.gc.ca/historical_data/search_historic_data_e.html) or internal station is used. [Reanalysis](../../datasets/reanalysis_data/Reanalysis_Datasets.ipynb) data can also be considered, but validation is required.
 
 
 :::
@@ -210,13 +210,13 @@ However, estimates of PMP and PMF come with high uncertainties. PMP uncertaintie
 
 :::{#id1 .callout collapse="true"}
 ### Frequency of Analysis
-5 to 12 years depending on dam classifcation. 
+5 to 12 years depending on dam classification. 
 :::
 :::
 
 :::{#id1 .callout collapse="true"}
-## Methods and models in pratice
-The following section describes the models presented in the [Miro board](#miro) which adress dam safety review for a facility, which therefore includes the dikes (embankments) surrounding the dam. Many groups are involved; hydrology, hydraulic, geotechnical, geology and structural. The review need to demonstrate resistance the facility resistance to seimis and floods. Many stakeholders are involved in these reviews; ministry, municipalities, consultants, etc. 
+## Methods and models in practice
+The following section describes the models presented in the [Miro Board](#miro) which address dam safety review for a facility, which therefore includes the dikes (embankments) surrounding the dam. Many groups are involved; hydrology, hydraulic, geotechnical, geology and structural. The review needs to demonstrate resistance the facility resistance to earthquakes and floods. Many stakeholders are involved in these reviews; ministry, municipalities, consultants, etc. 
 
 :::{#id1 .callout collapse="true"}
 ### Characteristics
@@ -233,7 +233,7 @@ The following section describes the models presented in the [Miro board](#miro) 
 
 - **Structural models**
 
-- **Getechnical models**: Roc level is important (not just water level)
+- **Geotechnical models**: Roc level is important (not just water level)
     - [GeoStudio](https://www.seequent.com/products-solutions/geostudio-2d/)
     - [RocScience](https://www.rocscience.com/)
 
@@ -243,9 +243,9 @@ The following section describes the models presented in the [Miro board](#miro) 
 
 :::{#id1 .callout collapse="true"}
 ### Key Climate Inputs
-- Some datasets used are; internal station data, observations from [Environment and Climate Change Canada](https://climate.weather.gc.ca/historical_data/search_historic_data_e.html), renalaysis ([ERA5-Land](../../datasets/reanalysis_data/ERA5-Land.ipynb), [CaSR](../../datasets/reanalysis_data/CaSR.ipynb)), [interpolated observations](../../datasets/observed_data/Observational_Datasets.ipynb) (Hydat)
+- Some datasets used are; internal station data, observations from [Environment and Climate Change Canada](https://climate.weather.gc.ca/historical_data/search_historic_data_e.html), reanalysis ([ERA5-Land](../../datasets/reanalysis_data/ERA5-Land.ipynb), [CaSR](../../datasets/reanalysis_data/CaSR.ipynb)), [interpolated observations](../../datasets/observed_data/Observational_Datasets.ipynb) (Hydat)
 
-- **Frost depth**: Can be calculated with with freezing degree days. Really critical in the North since it can fracture the dam core.
+- **Frost depth**: Can be calculated with freezing degree days. Really critical in the North since it can fracture the dam core.
 
 - **[PMF](#probable-maximum-precipitation---pmp--probable-maximum-flood-pmf)**: calculated for each facility
 
@@ -263,20 +263,20 @@ The following section describes the models presented in the [Miro board](#miro) 
 :::{#id1 .callout collapse="true"}
 ### Non-Climate Inputs
 - Required information for each model
-<mark>Need to be completed by champion</mark>
+<mark>Need to be completed by a champion</mark>
 
 
 :::
 
 :::{#id1 .callout collapse="true"}
 ### Model Outputs
-<mark>Need to be completed by champion</mark>
+<mark>Need to be completed by a champion</mark>
 
 :::
 
 :::{#id1 .callout collapse="true"}
 ### Temporal Resolution : data is need historical up to the date safety review happens
- - **Daily**: inflows, water level, degree-days
+ - **Daily**: inflows, water levels, degree-days
  - **Hourly**: Pressure, PMP
 
 
@@ -284,7 +284,7 @@ The following section describes the models presented in the [Miro board](#miro) 
 
 :::{#id1 .callout collapse="true"}
 ### Spatial Resolution
-Data over the whole province and nearby to cover all watersheds (for example, other provinces or United States)
+Data over the whole province and nearby to cover all watersheds (for example, other provinces or the United States)
 
 :::
 
@@ -299,7 +299,7 @@ Data over the whole province and nearby to cover all watersheds (for example, ot
 ## Detailed Discussion
 :::{#id1 .callout collapse="true"} 
 ### Additional Information
-Many regulators have added considerations of climate change related risks inside their legislation for dam safety (@damsafetybc) while others discuss the need to consider extreme events (@damsafetyontario). @Ozkan2023 report details impacts of climate change on dams and has an extensive review of literature and policies around the globe that bridge these impacts. The report also recommends datasets to be used for dam safety; the Can-CRM4 that has a 0.44° resolution -50 members  
+Many regulators have added considerations of climate change related risks inside their legislation for dam safety (@damsafetybc) while others discuss the need to consider extreme events (@damsafetyontario). @Ozkan2023 report details impacts of climate change on dams and has an extensive review of literature and policies around the globe that bridge these impacts. The report also recommends datasets to be used for dam safety; the Can-CRM4 that has a 0.44° resolution -50 members
 
 <mark>Marco or Kurt could you add infos about the new CSA standard if it has been accepted</mark> 
 
@@ -309,13 +309,13 @@ Many regulators have added considerations of climate change related risks inside
 ## Gaps and Recommendations
 :::{#id1 .callout collapse="true"} 
 ### Additional Information
-Practitioners have identified important gaps in the dam safety sector. First of all, lots of uncertainties are associated with the PMP and the methodology used has not been updated in the recent years even if there is important limitations highlited in literature such as the like of objectifivity for the storm selection left to the practioner (@martin_pmp). 
+Practitioners have identified important gaps in the dam safety sector. First of all, uncertainties are associated with the PMP and the methodology used has not been updated in the recent years even with important limitations highlighted in literature such as the objectivity linked to the storm selection (@martin_pmp). 
 
-There is also a mismatch between some of the internal stations geodetic levels and the dams own level making it challenging to use some of the internally collected data. Practioners also face challenge to have data with spatial and temporal resolution that fit their need. Generally, it is hard to find extreme datasets (1/100, 1/1000), especially when looking at future projections. There is also a lack of wind data; historical and future which is required for rockfill structures. 
+There is also a mismatch between some of the internal stations geodetic levels and the dam’s own level making it challenging to use some of the internally collected data. Practitioners also face challenges to have data with spatial and temporal resolution that fit their need. Generally, it is hard to find extreme datasets (1/100, 1/1000), especially when looking at future projections. There is also a lack of wind data; historical and future which is required for rockfill structures. 
 
-There is also a lack of clear guidelines of how to incoporate a non-stationary climate into dam safety reviews. Practioners discussed that these guidelines could be integrated in CSA norms or more interal guidance available to the organisation level (and to their consultants). 
+There is also a lack of clear guidelines on how to incorporate a non-stationary climate into dam safety reviews. Practitioners discussed that these guidelines could be integrated in CSA norms or more internal guidance available at the organization level (and to their consultants). 
 
-The National Research Council Canada has published a report "Adapatation of dams to climate change: Gap analysis" that had for goals to find Canadian guidelines shortcoming when adressing climate change in dam safety. The report highlighted techical gaps such integrating non-staitonary climate in hydrological modeling, policy gaps (limited climate change aspect in standarts or risk assessment), knowledge gaps (uncertainties linked to climate change) and data gaps (many regions are lacking data in the Norht). (@Ozkan2023)
+The National Research Council of Canada has published a report "Adapatation of dams to climate change: Gap analysis" which objective was to find Canadian guidelines shortcomings when addressing climate change in dam safety. The report highlighted technical gaps such integrating non-stationary climate in hydrological modelling, policy gaps (limited climate change aspect in standards or risk assessment), knowledge gaps (uncertainties linked to climate change) and data gaps (many regions are lacking data in the North). (@Ozkan2023)
 :::
 
 ## References
