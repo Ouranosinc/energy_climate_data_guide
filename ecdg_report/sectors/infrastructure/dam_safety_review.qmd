@@ -17,7 +17,7 @@ bibliography: references_dam_safety.bib
 There are over 16 000 dams in Canada and 38% are managed by Quebec authorities of which 22% are used for hydroelectricity. 87% of dams can be found in five provinces (Ontario, Quebec, British Columbia, Alberta and Saskatchewan) (@Ozkan2023). Additionally, half of Canada dams are older than 50 years old, increasing the risk of climate change impacts due to infrastructure aging making them more vulnerable. 
 
 <!-- ADD climate change here??? or in methods?? or ROLE?????  -->
-<mark>Dams present many vulnerabilities linked to climate change which are challenging to quantify. Extreme floods are projected to increase in frequency and severity in many areas across Canada, which directly affect the inflow flood design. Furthermore, there is a projected shift in precipitation pattern and flood mechanisms such as rain-on-snow events or snowmelt-driven floods which also affect the estimated design flood as well as operations and maintenance. Dams located in permafrost regions could be affected by instability due to thawing. Rising temperatures could also create large ice movements. Access to infrastructure could also be limited by more common extreme events such as forest fires (for example, Hydro Quebec had an installation evacuated by workers to let firefighters do their work) (@csa_dams2022, @Islam2024). Reservoir water quality is likely to be affected by climate change due to the rise in temperature (intense stratification leading to anoxic conditions) and switch in precipitation patterns (influx of nutrients and turbidity during snowmelt), among others (@Ozkan2023). Structural stability of concrete dams might also be challenged due to the increase in total horizontal load caused by precipitations and streamflow (@Ozkan2023). 
+<mark>Dams present many vulnerabilities linked to climate change which are challenging to quantify. Extreme floods are projected to increase in frequency and severity in many areas across Canada, which directly affect the inflow flood design. Furthermore, there is a projected shift in precipitation pattern and flood mechanisms such as rain-on-snow events or snowmelt-driven floods which also affect the estimated design flood as well as operations and maintenance. Dams located in permafrost regions could be affected by instability due to thawing. Rising temperatures could also create large ice movements. Access to infrastructure could also be limited by more common extreme events such as forest fires (i.e. an Hydro Quebec had an installation evacuated by workers to let firefighters do their work) (@csa_dams2022, @Islam2024). Similarly, freezing rain, ice storms or extreme snowfall could limit the ability to access a dam or operate flow control equipment such as pulling logs. Reservoir water quality is likely to be affected by climate change due to the rise in temperature (intense stratification leading to anoxic conditions) and switch in precipitation patterns (influx of nutrients and turbidity during snowmelt), among others (@Ozkan2023). Structural stability of concrete dams might also be challenged due to the increase in total horizontal load caused by precipitations and streamflow (@Ozkan2023). 
 <mark> 
 Furthermore, half the dams in Canada are more than 50 years old, increasing the risk of climate change impacts as  insfrastructures are aging and becoming more vulnerable. 
 
@@ -32,17 +32,17 @@ Dam’s main purpose is to store water or other liquid for various reasons such 
 
 "A Dam Safety Review involves a systematic examination and assessment of the data and information about the design, construction, maintenance, operation, processes, and systems affecting a Dam’s safety, including the Dam safety management system. " (@damsafetybc) Overall, a dam safety review is a systematic evaluation of all aspects of a dam based on current knowledge and standards (@damsafetyontario) which may not be the same as the ones used in the dam construction. The review needs to be carried out by professional engineers. 
 
-Dams are often classified by Hazard Potential Classification based on assets at risk of dam failure such as population, environment or infrastructure. The classification determines the level of regulatory oversight, flood design, frequency of inspections, and the stringency of safety requirements, among others. Each province and territory in Canada regulates their own classification systems via regulations and standards, but are aligned with the Canadian Dam Association (CDA) framework to ensure a consistent approach to dam safety across Canada (see, https://cda.ca/dams-in-canada/regulation). Their review is therefore essential to respect stakeholders safety but to also respect regulations.
+Dams are often classified by Hazard Potential Classification based on the risk that could be posed if there was dam failure such as risks to population, environment or infrastructure. Depending on the jurisdiction, the classification could determine the level of regulatory oversight, flood design, frequency of inspections, and the stringency of safety requirements, among others. Each province and territory in Canada regulates their own classification systems via regulations and standards, but are all generally aligned with the Canadian Dam Association (CDA) framework to ensure a consistent approach to dam safety across Canada (see, https://cda.ca/dams-in-canada/regulation). Their review is therefore essential to respect stakeholders safety but to also respect regulations.
 :::
 
 ## Methods and Models
-Many methods and models are used for DSR as they can require many inspections and calculations based on dam classifications regulations (@damsafetybc, @damsafetyontario):
+Many methods and models are used for DSR as they can require many inspections based on dam  regulations (@damsafetybc, @damsafetyontario) or the practices of utility:
 - field reviews
 - interviews with site staff
 - equipment testing
 - extensive understanding of the design, construction, operation and maintenance
 
-Among many others. Please refer to local [legislation](https://cda.ca/dams-in-canada/regulation) for more information. The following sections only tackle a few methods and models used in DSR as a wide variety of field (structure, geotechnical, hydrological, hydraulic, seismic, mechanical, electrical, etc.) expertise is required to perform a comprehensive review. Therefore, methods presented will focus on hydrology aspects affected by climate change. 
+Among many others. Please refer to local [legislation](https://cda.ca/dams-in-canada/regulation) for more information. The following sections only tackle a few methods and models used in DSR as a wide variety of field (structure, geotechnical, hydrological, hydraulic, seismic, mechanical, electrical, etc.) expertise is required to perform a comprehensive review. Therefore, methods presented will focus on hydrology aspects affected by climate change, with some commentary on other types of models and methods. 
 
 The figure below briefly resumes decision-making challenges faced by professionals in the dam safety sector of the electricity system in Canada. These challenges were shared during the [workshops](../../workshops/intro_workshops.ipynb) held in 2025. These examples linked together the methods and models as well as characteristics presented in the following section such as [PMP](#probable-maximum-precipitation---pmp--probable-maximum-flood-pmf).
 
@@ -213,6 +213,10 @@ However, estimates of PMP and PMF come with high uncertainties. PMP uncertaintie
 5 to 12 years depending on dam classification. 
 :::
 :::
+
+:::{#id1 .callout collapse="true"}
+## Hydrological models
+
 
 :::{#id1 .callout collapse="true"}
 ## Methods and models in practice
