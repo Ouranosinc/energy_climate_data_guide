@@ -7,16 +7,12 @@ title: Demand
 <!--- This is the template for the structure of all sector activity description pages. This is a comment not shown in the quarto website --->
 
 ## Summary Description
-:::{#id1 .callout collapse="true"}
-### Overview
+
 Electricity demand is a vital component in the planning, operation, and resilience of power systems. Climate change is expected to alter electricity demand patterns by affecting not only temperature characteristics, such as mean temperature, frequency of temperature extremes, and seasonal variability, but also consumption behaviours across various sectors. 
 
 Numerous studies project increased cooling demand during hotter summers and reduced heating demand during milder winters as this pattern has been consistently observed across multiple global regions (@Amonkar2023, @Auffhammer2011, @Pilli-Sihvola2010, @Trotter2016, @Wood2015). However, the magnitude and direction of these changes are strongly dependent on region, latitude, and socioeconomic conditions. For example, countries in warmer climates are expected to experience higher overall demand growth due to increased cooling loads (@Bonkaney2023, @Emodi2018, @Zachariadis2014). Climate change also influences electricity consumption by sector and alters temporal demand profiles, including daily and seasonal variations. The residential, commercial, and industrial sectors respond differently to climate drivers (@Dirks2015, @Shaik2024, @Taseska2012). Furthermore, the timing of electricity demand is shifting, with studies projecting changes in peak load hours and seasonal peaks due to rising temperatures and more frequent extreme heat events (@Amonkar2023, @Fonseca2019, @Romitti2022). 
 
 To assess the impacts of climate change on electricity demand, various approaches have been employed. These include the use of climate projections from [General Circulation Models](../../datasets/climate_projection_data/Climate_Projection_Datasets.ipynb) (or Global Climate Models, GCMs) and [Regional Climate Models](../../datasets/climate_projection_data/CORDEX_Dataset.ipynb) (RCMs), often combined with downscaling techniques to capture local climatic variability (@Auffhammer2017, @Auffhammer2011, @Fonseca2019, @Lipson2019, @Trotter2016). Empirical models, such as regression-based analyses, have also been used to estimate historical relationships between temperature and electricity use (@Bonkaney2023, @Emodi2018, @Pilli-Sihvola2010). Additionally, simulation tools and integrated energy-climate models are applied to explore future scenarios under varying socio-economic and climatic conditions (@Dirks2015, @Lipson2019, @Taseska2012).
-
-
-:::
 
 ## Role in the Electricity System
 :::{#id1 .callout collapse="true"} 
@@ -172,4 +168,10 @@ By progressively adapting climate-adjusted data and extreme events into electric
 - Generation Forecasting
 :::
 
-## References
+<details>
+<summary><strong>References (click to expand)</strong></summary>
+
+::: {#refs}
+:::
+
+</details>
