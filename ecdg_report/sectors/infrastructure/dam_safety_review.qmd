@@ -165,9 +165,7 @@ $K_{m}$ is a factor of precipitation duration and mean value. The British Columb
 
 These estimates come with high uncertainties and are left in the choice of professionals to determine the most appropriate methods. Recent studies are looking into improving PMP calculations and more precisely providing the uncertainties linked to each estimate (@martin_pmp). PMP uncertainties can be assessed via a Monte Carlo techniques and sensitivity analysis need to be done for evaluating PMFs uncertainty (@king2022)
 
-To account for non-stationarity, studies have used climate simulations to estimate the PMP. @ouranos2015_pmf used [regional climate models](../../datasets/climate_projection_data/Climate_Projection_Datasets.ipynb) to project future PMPs with higher resolution (50 km) in three Quebec watersheds which generally showed an increase of 10 to 20% for the mid-century. However, one watershed showed a decrease in PMP.  Alternative methods than WMO, have been listed in literature to account for climate change and uncertainties (@martin_pmp). 
-
-However, estimates of PMP and PMF come with high uncertainties. PMP uncertainties can be assessed via a Monte Carlo techniques and sensitivity analysis need to be done for evaluating PMFs uncertainty (@king_2022).
+To account for non-stationarity, studies have used climate simulations to estimate the PMP. @ouranos2015_pmf used [regional climate models](../../datasets/climate_projection_data/Climate_Projection_Datasets.ipynb) to project future PMPs with higher resolution (50 km) in three Quebec watersheds which generally showed an increase of 10 to 20% for the mid-century. However, one watershed showed a decrease in PMP.  Alternative methods than WMO, have been listed in literature to account for climate change and uncertainties (@martin_pmp). Recently, practioners in OPG have used [MRCC5-CMIP6](../../datasets/climate_projection_data/Climate_Projection_Datasets.ipynb) to estimate the PMP. It was reported that SSP 3-7.0 produced lower PMPs values over Ontario than SSP 2-4.5. @Li2024 also observed higher values of PMPs with scenario SSP1-2.6 than SSP3-7.0 over Hong Kong. 
 
 :::
 
@@ -216,7 +214,24 @@ However, estimates of PMP and PMF come with high uncertainties. PMP uncertaintie
 
 :::{#id1 .callout collapse="true"}
 ## Hydrological models
+Hydrological models are important to 
+@Fournier2020 create a report to value hydropower assets under climate change. This report also describe how to integrate climate change data inside the energy modelling chain and more precisely in an hydrologic model. Below are some of the important recommendations you can find in the guide:
 
+* Climate simulations consideration:
+    * Baseline: 30 years is recommended for the baseline to represent natural variability and avoid having predominant a dry or wet events. The baseline must represent current conditions. If [bias-correction](../../datasets/climate_projection_data/Climate_Projection_Datasets.ipynb) is applied to climate projections, the reference product must be the same used to calibrate the hyrdological models.
+    * Consistency is important, variables must come from the same product (such as temperature and precipitation). 
+    * Evaluate the perfomrance of various weather datasets in the hydrology model (weather stations, gridded observations and renalaysis). 
+* Hydrologic modelling considerations:
+    * Hydrologic baseline must be consistent with climatic baseline and representative of current conditions. 
+    * Model need to be calibrated with the same reference used for [bias-correction](../../datasets/climate_projection_data/Climate_Projection_Datasets.ipynb).
+    * Validation of hydrological model run with climate solutions can be done using [hydrologic indices](https://www.uncclearn.org/wp-content/uploads/library/fr.pdf).
+    * A Differential Split-Sample Approach can be used to evaluate robustness and transposition to a period with other climatic conditions. 
+    * Averaging multiple model simulations to run the hydrological can improve performance. 
+    * Sensitivity analysis can be performed to adresse if sensitivty comes from the models parameters or climate simulations. 
+    * It is ideal to used several hydrologic models and post-processing methods. If not, appropriate hydrological model selection (and climate simulations). 
+
+
+:::
 
 :::{#id1 .callout collapse="true"}
 ## Methods and models in practice
