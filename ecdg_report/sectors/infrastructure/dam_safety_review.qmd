@@ -337,4 +337,10 @@ There is also a lack of clear guidelines on how to incorporate a non-stationary 
 The National Research Council of Canada has published a report "Adapatation of dams to climate change: Gap analysis" which objective was to find Canadian guidelines shortcomings when addressing climate change in dam safety. The report highlighted technical gaps such integrating non-stationary climate in hydrological modelling, policy gaps (limited climate change aspect in standards or risk assessment), knowledge gaps (uncertainties linked to climate change) and data gaps (many regions are lacking data in the North). (@Ozkan2023)
 :::
 
-## References
+<details>
+<summary><strong>References (click to expand)</strong></summary>
+
+::: {#refs}
+:::
+
+</details>
