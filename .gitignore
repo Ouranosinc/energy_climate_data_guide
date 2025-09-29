@@ -22,6 +22,7 @@ var/
 wheels/
 share/python-wheels/
 docs/
+ecdg_report/site_libs
 *.egg-info/
 .installed.cfg
 *.egg
