@@ -35,8 +35,8 @@ website:
           - section: "Electricity System Planning"
             href: sectors/planning/grid_planning.ipynb
             contents:
-              - sectors/planning/demand.ipynb
-              - sectors/planning/generation_forecasting.ipynb
+              - sectors/planning/demand.qmd
+              - sectors/planning/generation_forecasting.qmd
               - sectors/planning/capacity_expansion_modelling.ipynb
               - sectors/planning/resource_adequacy_planning.ipynb
           - section: "Operations Planning"
@@ -77,7 +77,6 @@ website:
             contents:
               - datasets/reanalysis_data/CaSR.ipynb
               - datasets/reanalysis_data/ERA5-Land.ipynb
-              - ERA5
           - section: "Climate Projection Data"
             href: datasets/climate_projection_data/Climate_Projection_Datasets.ipynb
             contents:
