@@ -7,12 +7,14 @@ title: Sector Title
 <!--- This is the template for the structure of all sector activity description pages. This is a comment not shown in the quarto website --->
 
 ## Summary Description
-
+:::{#id1 .callout collapse="true"}
+### Overview
 [Lorem ipsum dolor sit amet]{.red-text}, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud [reprehenderit in voluptate velit esse cillum]{.green-text} exercitation ullamco laboris nisi  ut aliquip ex ea commodo consequat. Duis aute irure dolor in dolore eu fugiat nulla pariatur. [Excepteur sint occaecat cupidatat non proident]{.blue-text}, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 ![A figure for the activity (source: bibentry)](image/dataset_generic.png "A symbolic dataset"){fig-alt="A symbolic dataset" width=300}
 
 We can mark stuff [like this]{.mark-red} or <mark>like this</mark> as a reminder to deal with it later (see source for markdown implementation!).
+:::
 
 ## Role in the Electricity System
 :::{#id1 .callout collapse="true"} 
@@ -93,10 +95,4 @@ lorem ipsum bla bla
 ** to consider...this may be part of inputs and outputs** 
 :::
 
-<details>
-<summary><strong>References (click to expand)</strong></summary>
-
-::: {#refs}
-:::
-
-</details>
+## References
