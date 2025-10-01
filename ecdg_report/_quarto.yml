@@ -65,8 +65,8 @@ website:
       - section: "Climate Datasets"
         href: datasets/Climate_Datasets_Overview.ipynb
         contents:
-          - datasets/Good_to_know.ipynb
           - datasets/Dataset_Template.ipynb
+          - datasets/Good_to_know.ipynb
           - section: "Observational Data"
             href: datasets/observed_data/Observational_Datasets.ipynb
             contents:
@@ -80,8 +80,8 @@ website:
           - section: "Climate Projection Data"
             href: datasets/climate_projection_data/Climate_Projection_Datasets.ipynb
             contents:
-              - datasets/climate_projection_data/ESPO-G6_Dataset.ipynb
-              - CanDCS-M6
+              - datasets/climate_projection_data/ESPO-G6.ipynb
+              - datasets/climate_projection_data/CanDCS-M6.ipynb
               - text: CMIP6
                 href: datasets/climate_projection_data/CMIP6_Dataset.ipynb
               - text: CORDEX
