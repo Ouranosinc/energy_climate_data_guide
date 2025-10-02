@@ -5,8 +5,7 @@ bibliography: references_dam_safety.bib
 ---
 
 ## Summary Description
-::: {#id1 .callout collapse="true"}
-### Overview
+
 - standard based on Dam Safety Guidelines - [Canadian Dam Association](https://cda.ca/technical/dam-safety) (CDA)
 - risk-informed approach: undesired events in therms of likelihood and potential consequences
 - provincial and territorial [regulations](https://cda.ca/dams-in-canada/regulation) 
@@ -19,11 +18,8 @@ There are over 16 000 dams in Canada and 38% are managed by Quebec authorities o
 <!-- ADD climate change here??? or in methods?? or ROLE?????  -->
 <mark>Dams present many vulnerabilities linked to climate change which are challenging to quantify. Extreme floods are projected to increase in frequency and severity in many areas across Canada, which directly affect the inflow flood design. Furthermore, there is a projected shift in precipitation pattern and flood mechanisms such as rain-on-snow events or snowmelt-driven floods which also affect the estimated design flood as well as operations and maintenance. Dams located in permafrost regions could be affected by instability due to thawing. Rising temperatures could also create large ice movements. Access to infrastructure could also be limited by more common extreme events such as forest fires (i.e. an Hydro Quebec had an installation evacuated by workers to let firefighters do their work) (@csa_dams2022, @Islam2024). Similarly, freezing rain, ice storms or extreme snowfall could limit the ability to access a dam or operate flow control equipment such as pulling logs. Reservoir water quality is likely to be affected by climate change due to the rise in temperature (intense stratification leading to anoxic conditions) and switch in precipitation patterns (influx of nutrients and turbidity during snowmelt), among others (@Ozkan2023). Structural stability of concrete dams might also be challenged due to the increase in total horizontal load caused by precipitations and streamflow (@Ozkan2023). 
 <mark> 
-Furthermore, half the dams in Canada are more than 50 years old, increasing the risk of climate change impacts as  insfrastructures are aging and becoming more vulnerable. 
 
-The following sections describe role, method and models, 
-
-:::
+The following sections describe the role, some method and models, as well as gaps and recommendations in dam safety review.
 
 ## Role in the Electricity System
 ::: {#id1 .callout collapse="true"}
@@ -90,7 +86,7 @@ Furthermore, other recent studies have also looked into multivariate FFA, that u
 - Flows  
 - Precipitation
 - Temperature
-- sea level
+- Sea level
 
 :::
 
@@ -214,22 +210,75 @@ To account for non-stationarity, studies have used climate simulations to estima
 
 :::{#id1 .callout collapse="true"}
 ## Hydrological models
-Hydrological models are important to 
-@Fournier2020 create a report to value hydropower assets under climate change. This report also describe how to integrate climate change data inside the energy modelling chain and more precisely in an hydrologic model. Below are some of the important recommendations you can find in the guide:
+Hydrological models are computational tools used to simulate the movement, distribution, and quality of water within a watershed. They integrate rainfall, temperature, soil characteristics, and land use to estimate streamflow, reservoir inflows, and extreme events such as floods or droughts. In the context of dam safety reviews, hydrological models are essential for assessing the potential impacts of extreme weather and climate variability on dam operations. They help engineers evaluate flood risks, design spillways, and develop emergency management strategies, ensuring that dams can safely handle both current and future hydrological conditions.
+
+@Fournier2020 gives guidance on estimating the value of hydropower assets under climate change. This report also describes how to integrate climate change data inside the energy modelling chain and more precisely in a hydrologic model. Below are some of the important recommendations found in the guide:
 
 * Climate simulations consideration:
-    * Baseline: 30 years is recommended for the baseline to represent natural variability and avoid having predominant a dry or wet events. The baseline must represent current conditions. If [bias-correction](../../datasets/climate_projection_data/Climate_Projection_Datasets.ipynb) is applied to climate projections, the reference product must be the same used to calibrate the hyrdological models.
+    * Baseline: 30 years is recommended for the baseline to represent natural variability and avoid having predominant dry or wet events. The baseline must represent current conditions. Detrending can be used to represent current conditions. If [bias-correction](../../datasets/climate_projection_data/Climate_Projection_Datasets.ipynb) is applied to climate projections, the reference product must be the same used to calibrate the hydrological models. 
     * Consistency is important, variables must come from the same product (such as temperature and precipitation). 
-    * Evaluate the perfomrance of various weather datasets in the hydrology model (weather stations, gridded observations and renalaysis). 
+    * Evaluate the performance of various weather datasets in the hydrology model (weather stations, gridded observations and reanalysis). 
+    * Quebec Goverment have observed that a minimal spatial resolution 0.44° is required to represent snow processes in the hydrological model (@cehq2022). 
+    * @RondeauGenesse2021 found that higher-resolution simulations can perform better using both RCM and GCM simulations. However, while it may seem intuitive that finer-scale meteorological inputs would yield better results for smaller watersheds, it varies significantly depending on the indicator, the time of year, and the hydrological modelling platform.
+    * The resolution needs to match the one in the hydrological model.
+    * Use multiple scenarios; best practice would be to use all emissions scenarios available while good practices recommend two. However, for short-term horizons (less than 15 years), only one scenario can be used as climate change signal is similar between scenarios. 
+    * Use multiple climate models; best practice is to use as many as available and their newest version while there is no minimum magic number for simulations a good practice would be to use at least 10 to cover uncertainty. 
+    * Multiple post-processing for climate simulations is considered as best practice
+    * Do not average or use statistics for the climate simulations (last step of the modelling chain).
 * Hydrologic modelling considerations:
-    * Hydrologic baseline must be consistent with climatic baseline and representative of current conditions. 
-    * Model need to be calibrated with the same reference used for [bias-correction](../../datasets/climate_projection_data/Climate_Projection_Datasets.ipynb).
+    * Hydrologic baseline must be consistent with the climatic baseline and representative of current conditions. Detrending might be considered to better represent recent conditions.  
+    * Model needs to be calibrated with the same reference used for [bias-correction](../../datasets/climate_projection_data/Climate_Projection_Datasets.ipynb).
     * Validation of hydrological model run with climate solutions can be done using [hydrologic indices](https://www.uncclearn.org/wp-content/uploads/library/fr.pdf).
     * A Differential Split-Sample Approach can be used to evaluate robustness and transposition to a period with other climatic conditions. 
-    * Averaging multiple model simulations to run the hydrological can improve performance. 
-    * Sensitivity analysis can be performed to adresse if sensitivty comes from the models parameters or climate simulations. 
-    * It is ideal to used several hydrologic models and post-processing methods. If not, appropriate hydrological model selection (and climate simulations). 
+    * Since hydrological models are complex and influenced by multiple processes, it is difficult to select only a few climate simulations (e.g., based on percentiles) to predict outcomes such as floods or droughts. The relationships between these events and variables like temperature or precipitation are not linear. Therefore, it is recommended to use as many climate simulations as possible to capture the full range of potential flow outcomes.
+    * If data volume or the number of hydrological model runs is a limiting factor, prioritize climate simulations selection based on indicators most relevant to the study’s objectives (e.g., simulations with the highest or lowest values of maximum daily rainfall).
+    * It is a best practice to use multiple hydrologic models. If not, appropriate hydrological model selection  is required. 
+    * Consistency across climate simulations is crucial; therefore, each simulation should be run individually in the hydrological models, and ensemble statistics (e.g., 5th, 50th, and 95th percentiles) should be computed only at the final step of the modelling chain.
 
+Although such methodology provides many sources of uncertainty, exploring impacts steaming from future scenarios provide a valuable sensitivity analysis. Sensitivity analysis, on the whole modelling change can also be useful to determine what influenced most final results. 
+
+:::{#id1 .callout collapse="true"}
+### Key Climate Inputs
+- Precipitation timeseries. Like mentioned above multiple products can be used; observations, reanalysis and climate model simulations. 
+- Temperature timeseries. Like mentioned above multiple products can be used; observations, reanalysis and climate model simulations. 
+- Solar radiation
+- Wind speed
+- Relative humidity
+- Streamflow
+
+:::
+
+:::{#id1 .callout collapse="true"}
+### Non-Climate Inputs
+- Land use / land cover
+- Digital Elevation Model (DEM) - Topography
+- Soil properties
+- Hydrographic network
+
+:::
+
+:::{#id1 .callout collapse="true"}
+### Model Outputs
+- Flows
+
+:::
+
+:::{#id1 .callout collapse="true"}
+### Temporal Resolution
+Most hydrological models are run sub-daily or daily. However, it depends on the study analysis and scale. 
+
+:::
+
+:::{#id1 .callout collapse="true"}
+### Spatial Resolution
+Usually a resolution under 0.44 degrees is recommended.
+
+:::
+
+:::{#id1 .callout collapse="true"}
+### Frequency of Analysis
+10 to 12 years. 
+:::
 
 :::
 
@@ -318,7 +367,7 @@ Data over the whole province and nearby to cover all watersheds (for example, ot
 ## Detailed Discussion
 :::{#id1 .callout collapse="true"} 
 ### Additional Information
-Many regulators have added considerations of climate change related risks inside their legislation for dam safety (@damsafetybc) while others discuss the need to consider extreme events (@damsafetyontario). @Ozkan2023 report details impacts of climate change on dams and has an extensive review of literature and policies around the globe that bridge these impacts. The report also recommends datasets to be used for dam safety; the Can-CRM4 that has a 0.44° resolution -50 members
+Many regulators have added considerations of climate change related risks inside their legislation for dam safety (@damsafetybc) while others discuss the need to consider extreme events (@damsafetyontario). @Ozkan2023 report details impacts of climate change on dams and has an extensive review of literature and policies around the globe that bridge these impacts. The report also recommends datasets to be used for dam safety the Can-CRM4 that has a 0.44° resolution and 50 members. 
 
 <mark>Marco or Kurt could you add infos about the new CSA standard if it has been accepted</mark> 
 
