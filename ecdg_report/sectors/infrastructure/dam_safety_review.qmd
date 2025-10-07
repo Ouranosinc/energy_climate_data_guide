@@ -131,6 +131,7 @@ Extreme consequences dams require design flood (classification), the maximum flo
 PMPs are usually evaluated by meteorologists and are provided with uncertainty bounds as well as seasonal adjustment factors. 
 FFA with values for rainfall, temperature and snow accumulation linked to the storm can be estimated from observations to calibrate the hydrological models. Soil moisture needs to be maximized when PMF is determined in the hydrological model and other factors such as the combination of the spring PMP with the 100-year snowpack (@ouranos2015_pmf). 
 
+The [xHydro](https://xhydro.readthedocs.io/en/latest/readme.html) python package developed by Hydro-Quebec, ETS and Ouranos offer codes to estimate PMPs and PMFs. 
 
 :::{#id1 .callout collapse="true"}
 ### Characteristics
