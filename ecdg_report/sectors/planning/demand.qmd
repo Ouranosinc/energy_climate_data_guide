@@ -39,6 +39,8 @@ The figure below briefly resumes decision-making challenges faced by professiona
 
 <iframe width="768" height="640" data-external="1" src="https://miro.com/app/live-embed/uXjVINO7YDw=/?focusWidget=3458764634253545086&embedMode=view_only_without_ui&embedId=974916117429&autoplay=true" frameborder="0" scrolling="no" allowfullscreen></iframe>
 
+The workshop examples highlighted how demand forecasting is shaped by the [North American Electric Reliability Corporation (NERC)](https://www.nerc.com/Pages/default.aspx) requirement to maintain a five-year planning reserve margin. As a result, two forecasting horizons are considered: medium-term (11 days to 2 years) and long-term (2 to 20 years). The medium-term is statistically based on historical data (31 years) while the long-term planning is physically based, as described above. The load forecasting model incorporates historical hourly normals for dry bulb temperature, cloud cover, wind speed, dew point and global horizontal irradiance across ten geographic zones in the province. There is a plan to incorporate relative humidity and temperature (heating degree days and cooling degree days) in the forecast. The main sources for these datasets are Environment Canada and external consultants (wind speed and global horizontal irradiance). Climate data is validated by comparing the model's outputs with historical load data, ensuring that the forecasts align with observed patterns.
+
 :::
 
 :::{#id1 .callout collapse="true"}
