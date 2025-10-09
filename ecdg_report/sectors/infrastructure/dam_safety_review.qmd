@@ -238,6 +238,8 @@ Hydrological models are computational tools used to simulate the movement, distr
 
 Although such methodology provides many sources of uncertainty, exploring impacts steaming from future scenarios provide a valuable sensitivity analysis. Sensitivity analysis, on the whole modelling change can also be useful to determine what influenced most final results. 
 
+Recent studies have assessed the ability of artificial intelligence (AI) to reproduce streamflows and compared results to distributed hydrological models. For example, @martel2025 used long short-term memory (LSTM) networks to estimate peak streamflow at ungauged catchments and found that the AI-based simulations performed as well as the Hydrotel hydrological model. The study used the Quebec government’s observed precipitation and temperature dataset (1979–2017, daily at 0.1° resolution) and multiple variables from [ERA5](../../datasets/reanalysis_data/ERA5-Land.ipynb) reanalysis—including maximum and minimum temperature, total precipitation, snowfall, snowmelt, snow water equivalent, dew point temperature, wind velocity and speed, evaporation, downward surface solar radiation, and surface pressure—as inputs to the neural networks. Observed daily averaged streamflows and cathchement descriptors, such as area, slope and land-use were also considered to built networks. 
+
 :::{#id1 .callout collapse="true"}
 ### Key Climate Inputs
 - Precipitation timeseries. Like mentioned above multiple products can be used; observations, reanalysis and climate model simulations. 
