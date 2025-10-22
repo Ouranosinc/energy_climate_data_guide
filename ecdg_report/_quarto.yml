@@ -80,12 +80,12 @@ website:
           - section: "Climate Projection Data"
             href: datasets/climate_projection_data/Climate_Projection_Datasets.ipynb
             contents:
-              - datasets/climate_projection_data/ESPO-G6.ipynb
-              - datasets/climate_projection_data/CanDCS-M6.ipynb
               - text: CMIP6
-                href: datasets/climate_projection_data/CMIP6_Dataset.ipynb
+                href: datasets/climate_projection_data/CMIP6.ipynb
               - text: CORDEX
                 href: datasets/climate_projection_data/CORDEX_Dataset.ipynb
+              - datasets/climate_projection_data/ESPO-G6.ipynb
+              - datasets/climate_projection_data/CanDCS-M6.ipynb
               - CanLEADv1
               - NEX-GDDP (NASA)
           - section: "Analysis Support Tools"
