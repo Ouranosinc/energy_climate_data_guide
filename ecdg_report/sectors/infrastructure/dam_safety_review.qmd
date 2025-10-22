@@ -211,7 +211,7 @@ To account for non-stationarity, studies have used climate simulations to estima
 
 :::{#id1 .callout collapse="true"}
 ## Hydrological models
-Hydrological models are computational tools used to simulate the movement, distribution, and quality of water within a watershed. They integrate rainfall, temperature, soil characteristics, and land use to estimate streamflow, reservoir inflows, and extreme events such as floods or droughts. In the context of dam safety reviews, hydrological models are essential for assessing the potential impacts of extreme weather and climate variability on dam operations. They help engineers evaluate flood risks, design spillways, and develop emergency management strategies, ensuring that dams can safely handle both current and future hydrological conditions.
+Hydrological models are computational tools used to simulate the movement, distribution, and quality of water within a watershed. They integrate rainfall, temperature, soil characteristics, and land use to estimate streamflow, reservoir inflows, and extreme events such as floods or droughts. In the context of dam safety reviews, hydrological models are essential for assessing the potential impacts of extreme weather and climate variability on dam operations. They help engineers evaluate flood risks, design spillways, and develop emergency management strategies, ensuring that dams can safely handle both current and future hydrological conditions. 
 
 @Fournier2020 gives guidance on estimating the value of hydropower assets under climate change. This report also describes how to integrate climate change data inside the energy modelling chain and more precisely in a hydrologic model. Below are some of the important recommendations found in the guide:
 
@@ -237,6 +237,8 @@ Hydrological models are computational tools used to simulate the movement, distr
     * Consistency across climate simulations is crucial; therefore, each simulation should be run individually in the hydrological models, and ensemble statistics (e.g., 5th, 50th, and 95th percentiles) should be computed only at the final step of the modelling chain.
 
 Although such methodology provides many sources of uncertainty, exploring impacts steaming from future scenarios provide a valuable sensitivity analysis. Sensitivity analysis, on the whole modelling change can also be useful to determine what influenced most final results. 
+
+In practice, the [HEC-HMS](https://www.hec.usace.army.mil/software/hec-hms/) watershed model is often used. The Hamon method is also selected to estimate evapotranspiration and use direct imputs of temperature and precipitation. The watersheds modelling is then used to estimate 100 and 1000-year floods with Intensity Duration Frequency cruves. Combination methods can also be used to estimate potential evapotrasnpiration which requires more climate variables inputs (relative humidity, wind speed, short and long wave solar radiation). [HEC-RAS](https://www.hec.usace.army.mil/software/hec-ras/), a river analysis system, can be used to model ice jams, loadings or covers. 
 
 Recent studies have assessed the ability of artificial intelligence (AI) to reproduce streamflows and compared results to distributed hydrological models. For example, @martel2025 used long short-term memory (LSTM) networks to estimate peak streamflow at ungauged catchments and found that the AI-based simulations performed as well as the Hydrotel hydrological model. The study used the Quebec government’s observed precipitation and temperature dataset (1979–2017, daily at 0.1° resolution) and multiple variables from [ERA5](../../datasets/reanalysis_data/ERA5-Land.ipynb) reanalysis—including maximum and minimum temperature, total precipitation, snowfall, snowmelt, snow water equivalent, dew point temperature, wind velocity and speed, evaporation, downward surface solar radiation, and surface pressure—as inputs to the neural networks. Observed daily averaged streamflows and cathchement descriptors, such as area, slope and land-use were also considered to built networks. 
 
@@ -302,9 +304,9 @@ The following section describes the models presented in the [Miro Board](#miro) 
 
 - **Hydraulic models**: to test dams failure, spillway capacity 
 
-- **Structural models**
+- **Structural models**: Ice loading is used in practice in structural models and impacted by climate change. Ice loadings are also inputs to design bridges based on the CSA S6 as well as ice accumulations for structures normed by the CSA S37 such as cables. Of course, snow loads and wind loads are required by the National Building Code for structures (roofs, buildings or signs). Embankments are also affected by ice and freeze-thaw which cause degradation of rip-rap. Degredation caused by freeze-and-thaw cycles can also be observed in concrete structures
 
-- **Geotechnical models**: Roc level is important (not just water level)
+- **Geotechnical models**: Roc level is important (not just water level). Seasonal frost depth can be used to validate if there potential frost-damange to a clay core. Frost depth can also be calculated with air temperature or taken from design charts. 
     - [GeoStudio](https://www.seequent.com/products-solutions/geostudio-2d/)
     - [RocScience](https://www.rocscience.com/)
 
