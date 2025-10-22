@@ -2252,9 +2252,9 @@
   {
     "objectID": "datasets/climate_projection_data/CORDEX_Dataset.html",
     "href": "datasets/climate_projection_data/CORDEX_Dataset.html",
-    "title": "Coordinated Regional Downscaling Experiment - CORDEX",
+    "title": "Climate Data for the Electricity Sector",
     "section": "",
-    "text": "CORDEX provides downscaled projections of variables such as temperature, precipitation, and wind for multiple continental domains, enhancing the usability of global model data for regional infrastructure planning.\nIt is widely used for hydropower, energy demand forecasting, and climate impact analysis in electricity system planning. The CORDEX (Coordinated Regional Downscaling Experiment) initiative, under the World Climate Research Programme (WCRP), provides regional climate projections derived from downscaling CMIP5 and CMIP6 global climate model outputs.\nIts goal is to produce high-resolution regional climate data to support impact studies, risk assessments, and adaptation planning.\nKey features include:\n\nHigh-resolution regional grids (~0.11° to 0.44°)\n\nBias-corrected or raw outputs for different regions\n\nMulti-model ensembles for robust uncertainty analysis\n\n\n\n\n\nExample CORDEX domain map (source: Giorgi et al., 2009)\n\n\n\n\n\n\nCurrent version: CMIP6-driven CORDEX (2020–present)\n\nTemporal coverage: Historical (1950–2014) and future (2015–2100)\n\nTemporal resolution: Daily, monthly, and annual\n\nSpatial coverage: Multiple continental domains (e.g., EUR-11, NA-22, AFR-44)\n\nSpatial resolution: 0.11° (~12 km), 0.22° (~25 km), 0.44° (~50 km)\n\nData type: Gridded NetCDF (regional model output)\n\nWeb references:  Official CORDEX Portal CORDEX Data on ESGF\nReference publications: See references below\n\n\n\n\n\n\n\n\n\n\n\n\n\nStrength\nDescription\n\n\n\n\nHigh Spatial Resolution\nResolves regional topography and local climate patterns better than GCMs.\n\n\nMulti-Model Ensembles\nUses multiple regional climate models (RCMs) and multiple GCM drivers.\n\n\nRegional Relevance\nProvides climate projections tailored to continental or national domains.\n\n\nSupports Impact Studies\nDirectly supports hydropower, urban, and energy risk assessments.\n\n\n\n\n\n\n\n\n\n\n\n\n\nLimitation\nDescription\n\n\n\n\nDomain-limited Coverage\nData is only available for specific continental domains, not truly global.\n\n\nBoundary Dependence\nQuality depends on the driving GCM and boundary conditions.\n\n\nLarge Data Volume\nHigh-resolution and multi-member ensembles require significant storage and processing.\n\n\nBiases Remain\nDownscaling reduces, but does not eliminate, GCM biases.\n\n\n\n\n\n\n\n\n\n\n\n\n\nNoneRecommendations for Electricity Sector Use\n\n\n\n\n\n\nUse bias-corrected CORDEX data for hydropower and temperature-dependent demand studies.\n\nCombine multiple RCMs and GCM drivers to represent uncertainty in electricity planning.\n\nDownscaled wind and temperature data are particularly useful for renewable integration and load projections.\n\nLink CORDEX projections to vulnerability and risk assessments for grid infrastructure and generation planning.\n\n\n\n\n\n\n\n\nLinks to Electricity Sector Activities:\n\nElectricity System Planning – Improved regional demand and renewable resource forecasting\n\nOperations Planning – Assess regional hydropower inflows and extreme event risks\n\nInfrastructure Planning and Asset Management – Evaluate sub-national exposure to heatwaves, droughts, and storms\n\nAssurance and Reporting – Support climate risk disclosure for regional utilities\n\n\n\n\nClick on variable groups to uncollapse\n\n\n\n\n\n\nNoneSurface Air Temperature (tas)\n\n\n\n\n\nDaily and monthly mean near-surface temperature.\n\n\n\n\n\n\n\n\n\nNonePrecipitation (pr)\n\n\n\n\n\nTotal precipitation, essential for hydropower, flood, and drought assessment.\n\n\n\n\n\n\n\n\n\nNoneNear-Surface Wind Speed (sfcWind)\n\n\n\n\n\nSupports wind energy studies and storm risk assessment.\n\n\n\n\n\n\n\n\n\nNoneOther Variables\n\n\n\n\n\nIncludes humidity, radiation, soil moisture, and evaporation in some domains.\n\n\n\n\n\n\n\nOfficial CORDEX Portal: https://cordex.org\n\nESGF Node for CORDEX: https://esgf-node.llnl.gov/search/cordex/\n\nCopernicus CDS (subset): https://cds.climate.copernicus.eu/",
+    "text": "This is a generated draft, do not review yet! # Coordinated Regional Downscaling Experiment - CORDEX",
     "crumbs": [
       "Climate Datasets",
       "Climate Projection Data",
@@ -2264,9 +2264,9 @@
   {
     "objectID": "datasets/climate_projection_data/CORDEX_Dataset.html#summary-description",
     "href": "datasets/climate_projection_data/CORDEX_Dataset.html#summary-description",
-    "title": "Coordinated Regional Downscaling Experiment - CORDEX",
-    "section": "",
-    "text": "CORDEX provides downscaled projections of variables such as temperature, precipitation, and wind for multiple continental domains, enhancing the usability of global model data for regional infrastructure planning.\nIt is widely used for hydropower, energy demand forecasting, and climate impact analysis in electricity system planning. The CORDEX (Coordinated Regional Downscaling Experiment) initiative, under the World Climate Research Programme (WCRP), provides regional climate projections derived from downscaling CMIP5 and CMIP6 global climate model outputs.\nIts goal is to produce high-resolution regional climate data to support impact studies, risk assessments, and adaptation planning.\nKey features include:\n\nHigh-resolution regional grids (~0.11° to 0.44°)\n\nBias-corrected or raw outputs for different regions\n\nMulti-model ensembles for robust uncertainty analysis\n\n\n\n\n\nExample CORDEX domain map (source: Giorgi et al., 2009)",
+    "title": "Climate Data for the Electricity Sector",
+    "section": "Summary Description",
+    "text": "Summary Description\nCORDEX provides downscaled projections of variables such as temperature, precipitation, and wind for multiple continental domains, enhancing the usability of global model data for regional infrastructure planning.\nIt is widely used for hydropower, energy demand forecasting, and climate impact analysis in electricity system planning. The CORDEX (Coordinated Regional Downscaling Experiment) initiative, under the World Climate Research Programme (WCRP), provides regional climate projections derived from downscaling CMIP5 and CMIP6 global climate model outputs.\nIts goal is to produce high-resolution regional climate data to support impact studies, risk assessments, and adaptation planning.\nKey features include:\n\nHigh-resolution regional grids (~0.11° to 0.44°)\n\nBias-corrected or raw outputs for different regions\n\nMulti-model ensembles for robust uncertainty analysis\n\n\n\n\n\nExample CORDEX domain map (source: Giorgi et al., 2009)",
     "crumbs": [
       "Climate Datasets",
       "Climate Projection Data",
@@ -2276,9 +2276,9 @@
   {
     "objectID": "datasets/climate_projection_data/CORDEX_Dataset.html#dataset-characteristics",
     "href": "datasets/climate_projection_data/CORDEX_Dataset.html#dataset-characteristics",
-    "title": "Coordinated Regional Downscaling Experiment - CORDEX",
-    "section": "",
-    "text": "Current version: CMIP6-driven CORDEX (2020–present)\n\nTemporal coverage: Historical (1950–2014) and future (2015–2100)\n\nTemporal resolution: Daily, monthly, and annual\n\nSpatial coverage: Multiple continental domains (e.g., EUR-11, NA-22, AFR-44)\n\nSpatial resolution: 0.11° (~12 km), 0.22° (~25 km), 0.44° (~50 km)\n\nData type: Gridded NetCDF (regional model output)\n\nWeb references:  Official CORDEX Portal CORDEX Data on ESGF\nReference publications: See references below",
+    "title": "Climate Data for the Electricity Sector",
+    "section": "Dataset Characteristics",
+    "text": "Dataset Characteristics\n\nCurrent version: CMIP6-driven CORDEX (2020–present)\n\nTemporal coverage: Historical (1950–2014) and future (2015–2100)\n\nTemporal resolution: Daily, monthly, and annual\n\nSpatial coverage: Multiple continental domains (e.g., EUR-11, NA-22, AFR-44)\n\nSpatial resolution: 0.11° (~12 km), 0.22° (~25 km), 0.44° (~50 km)\n\nData type: Gridded NetCDF (regional model output)\n\nWeb references:  Official CORDEX Portal CORDEX Data on ESGF\nReference publications: See references below",
     "crumbs": [
       "Climate Datasets",
       "Climate Projection Data",
@@ -2288,9 +2288,9 @@
   {
     "objectID": "datasets/climate_projection_data/CORDEX_Dataset.html#strengths-and-limitations",
     "href": "datasets/climate_projection_data/CORDEX_Dataset.html#strengths-and-limitations",
-    "title": "Coordinated Regional Downscaling Experiment - CORDEX",
-    "section": "",
-    "text": "Strength\nDescription\n\n\n\n\nHigh Spatial Resolution\nResolves regional topography and local climate patterns better than GCMs.\n\n\nMulti-Model Ensembles\nUses multiple regional climate models (RCMs) and multiple GCM drivers.\n\n\nRegional Relevance\nProvides climate projections tailored to continental or national domains.\n\n\nSupports Impact Studies\nDirectly supports hydropower, urban, and energy risk assessments.\n\n\n\n\n\n\n\n\n\n\n\n\n\nLimitation\nDescription\n\n\n\n\nDomain-limited Coverage\nData is only available for specific continental domains, not truly global.\n\n\nBoundary Dependence\nQuality depends on the driving GCM and boundary conditions.\n\n\nLarge Data Volume\nHigh-resolution and multi-member ensembles require significant storage and processing.\n\n\nBiases Remain\nDownscaling reduces, but does not eliminate, GCM biases.",
+    "title": "Climate Data for the Electricity Sector",
+    "section": "Strengths and Limitations",
+    "text": "Strengths and Limitations\n\nKey Strengths of CORDEX\n\n\n\n\n\n\n\nStrength\nDescription\n\n\n\n\nHigh Spatial Resolution\nResolves regional topography and local climate patterns better than GCMs.\n\n\nMulti-Model Ensembles\nUses multiple regional climate models (RCMs) and multiple GCM drivers.\n\n\nRegional Relevance\nProvides climate projections tailored to continental or national domains.\n\n\nSupports Impact Studies\nDirectly supports hydropower, urban, and energy risk assessments.\n\n\n\n\n\nKey Limitations of CORDEX\n\n\n\n\n\n\n\nLimitation\nDescription\n\n\n\n\nDomain-limited Coverage\nData is only available for specific continental domains, not truly global.\n\n\nBoundary Dependence\nQuality depends on the driving GCM and boundary conditions.\n\n\nLarge Data Volume\nHigh-resolution and multi-member ensembles require significant storage and processing.\n\n\nBiases Remain\nDownscaling reduces, but does not eliminate, GCM biases.",
     "crumbs": [
       "Climate Datasets",
       "Climate Projection Data",
@@ -2300,9 +2300,9 @@
   {
     "objectID": "datasets/climate_projection_data/CORDEX_Dataset.html#expert-guidance",
     "href": "datasets/climate_projection_data/CORDEX_Dataset.html#expert-guidance",
-    "title": "Coordinated Regional Downscaling Experiment - CORDEX",
-    "section": "",
-    "text": "NoneRecommendations for Electricity Sector Use\n\n\n\n\n\n\nUse bias-corrected CORDEX data for hydropower and temperature-dependent demand studies.\n\nCombine multiple RCMs and GCM drivers to represent uncertainty in electricity planning.\n\nDownscaled wind and temperature data are particularly useful for renewable integration and load projections.\n\nLink CORDEX projections to vulnerability and risk assessments for grid infrastructure and generation planning.",
+    "title": "Climate Data for the Electricity Sector",
+    "section": "Expert Guidance",
+    "text": "Expert Guidance\n\n\n\n\n\n\nNoneRecommendations for Electricity Sector Use\n\n\n\n\n\n\nUse bias-corrected CORDEX data for hydropower and temperature-dependent demand studies.\n\nCombine multiple RCMs and GCM drivers to represent uncertainty in electricity planning.\n\nDownscaled wind and temperature data are particularly useful for renewable integration and load projections.\n\nLink CORDEX projections to vulnerability and risk assessments for grid infrastructure and generation planning.",
     "crumbs": [
       "Climate Datasets",
       "Climate Projection Data",
@@ -2312,9 +2312,9 @@
   {
     "objectID": "datasets/climate_projection_data/CORDEX_Dataset.html#example-applications",
     "href": "datasets/climate_projection_data/CORDEX_Dataset.html#example-applications",
-    "title": "Coordinated Regional Downscaling Experiment - CORDEX",
-    "section": "",
-    "text": "Links to Electricity Sector Activities:\n\nElectricity System Planning – Improved regional demand and renewable resource forecasting\n\nOperations Planning – Assess regional hydropower inflows and extreme event risks\n\nInfrastructure Planning and Asset Management – Evaluate sub-national exposure to heatwaves, droughts, and storms\n\nAssurance and Reporting – Support climate risk disclosure for regional utilities",
+    "title": "Climate Data for the Electricity Sector",
+    "section": "Example Applications",
+    "text": "Example Applications\nLinks to Electricity Sector Activities:\n\nElectricity System Planning – Improved regional demand and renewable resource forecasting\n\nOperations Planning – Assess regional hydropower inflows and extreme event risks\n\nInfrastructure Planning and Asset Management – Evaluate sub-national exposure to heatwaves, droughts, and storms\n\nAssurance and Reporting – Support climate risk disclosure for regional utilities",
     "crumbs": [
       "Climate Datasets",
       "Climate Projection Data",
@@ -2324,9 +2324,9 @@
   {
     "objectID": "datasets/climate_projection_data/CORDEX_Dataset.html#available-variables-in-cordex",
     "href": "datasets/climate_projection_data/CORDEX_Dataset.html#available-variables-in-cordex",
-    "title": "Coordinated Regional Downscaling Experiment - CORDEX",
-    "section": "",
-    "text": "Click on variable groups to uncollapse\n\n\n\n\n\n\nNoneSurface Air Temperature (tas)\n\n\n\n\n\nDaily and monthly mean near-surface temperature.\n\n\n\n\n\n\n\n\n\nNonePrecipitation (pr)\n\n\n\n\n\nTotal precipitation, essential for hydropower, flood, and drought assessment.\n\n\n\n\n\n\n\n\n\nNoneNear-Surface Wind Speed (sfcWind)\n\n\n\n\n\nSupports wind energy studies and storm risk assessment.\n\n\n\n\n\n\n\n\n\nNoneOther Variables\n\n\n\n\n\nIncludes humidity, radiation, soil moisture, and evaporation in some domains.",
+    "title": "Climate Data for the Electricity Sector",
+    "section": "Available Variables in CORDEX",
+    "text": "Available Variables in CORDEX\nClick on variable groups to uncollapse\n\n\n\n\n\n\nNoneSurface Air Temperature (tas)\n\n\n\n\n\nDaily and monthly mean near-surface temperature.\n\n\n\n\n\n\n\n\n\nNonePrecipitation (pr)\n\n\n\n\n\nTotal precipitation, essential for hydropower, flood, and drought assessment.\n\n\n\n\n\n\n\n\n\nNoneNear-Surface Wind Speed (sfcWind)\n\n\n\n\n\nSupports wind energy studies and storm risk assessment.\n\n\n\n\n\n\n\n\n\nNoneOther Variables\n\n\n\n\n\nIncludes humidity, radiation, soil moisture, and evaporation in some domains.",
     "crumbs": [
       "Climate Datasets",
       "Climate Projection Data",
@@ -2336,9 +2336,21 @@
   {
     "objectID": "datasets/climate_projection_data/CORDEX_Dataset.html#data-access",
     "href": "datasets/climate_projection_data/CORDEX_Dataset.html#data-access",
-    "title": "Coordinated Regional Downscaling Experiment - CORDEX",
-    "section": "",
-    "text": "Official CORDEX Portal: https://cordex.org\n\nESGF Node for CORDEX: https://esgf-node.llnl.gov/search/cordex/\n\nCopernicus CDS (subset): https://cds.climate.copernicus.eu/",
+    "title": "Climate Data for the Electricity Sector",
+    "section": "Data Access",
+    "text": "Data Access\n\nOfficial CORDEX Portal: https://cordex.org\n\nESGF Node for CORDEX: https://esgf-node.llnl.gov/search/cordex/\n\nCopernicus CDS (subset): https://cds.climate.copernicus.eu/",
+    "crumbs": [
+      "Climate Datasets",
+      "Climate Projection Data",
+      "CORDEX"
+    ]
+  },
+  {
+    "objectID": "datasets/climate_projection_data/CORDEX_Dataset.html#references",
+    "href": "datasets/climate_projection_data/CORDEX_Dataset.html#references",
+    "title": "Climate Data for the Electricity Sector",
+    "section": "References",
+    "text": "References",
     "crumbs": [
       "Climate Datasets",
       "Climate Projection Data",
