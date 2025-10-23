@@ -40,7 +40,9 @@ The Fire Weather Index (FWI) is used to estimate forest fire risk (potential num
 
 [![Fire Weather Index triangle taken from Climatedata.ca](https://climatedata.ca/assets/uploads/2024/10/Fire-Weather-Infographic-1024x791-1.png "Fire Weather Index taken from Climatedata.ca")](https://climatedata.ca/resource/understanding-fire-weather-and-climate-change-basics/ "Understanding Fire Weather and Climate Change Basics")
 
-FMC are ratings of moisture ocntent of forest floor as well as the dead organic content of pine forests. An higher FMC represents low moisture, hence drier conditions. 
+:::{#id1 .callout collapse="true"}
+### Characteristics
+FMC are ratings of moisture content of forest floor as well as the dead organic content of pine forests. An higher FMC represents low moisture, hence drier conditions. 
  - Fine Fuel Moisture Code represents the moisture content of the litter, it also indicates the potential for human caused ignition.
  - Duff Moisture Code represents the moisture just below the litter which are loosely compacted and indicates lightning caused ignition.
  - Drought Code represents the moisture of the deep ocntact and densily compacted which indicates the potential depth of burn. 
@@ -54,10 +56,6 @@ There are four fire behaviours indices:
 [ECCC offers daily maps of FWI](https://cwfis.cfs.nrcan.gc.ca/maps/fm3?type=fwih) which are estimated with elevation (USGS at 1 km v.GTOPO30), weather data from Canadian and USA stations and ECCC forecasted weather. The methodology behind each calculation is presented in the report [Weather Guyide for the Canadian Forest Fire Danger Rating System](https://ostrnrcan-dostrncan.canada.ca/entities/publication/a07c4db5-6fd5-42e8-b45d-71c23cda22c9). 
 
 ECCC also offers an [application](https://climatedata.ca/app/fire-weather-projections/) that project FWI and other related indexes with future projections. The presented indexes have a 50km resolution and comes from the CanLEAD climate projection dataset which is a daily large-ensemble (temperature, precipitation, relative humidity and wind speed) of the CanRCM4 regional climate model bias-corrected with a multivariate quantile-mapping algorithm (@Cannon2022_CanLEADv1). Using a large-ensemble allows to quantify natural variability, however using only one RCM driven by one GCM is a big limit of the dataset. The application offers the scenario RCP4.5 and 8.5 that project important increase in severity and frequency of high fire weather consditions and longer fire season almost across the whole country (@Vanvliet2024). Work is currently being done to incorporate the new SSPs in the application. 
-
-:::{#id1 .callout collapse="true"}
-### Characteristics
-**Deterministic, Optimization, Econometric, empirical etc**
 
 :::
 
