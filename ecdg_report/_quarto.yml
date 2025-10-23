@@ -50,7 +50,7 @@ website:
             href: sectors/infrastructure/infrastructure_planning.ipynb
             contents:
               - sectors/infrastructure/construction.ipynb
-              - sectors/infrastructure/dam_safety_review.ipynb
+              - sectors/infrastructure/dam_safety_review.qmd
               - sectors/infrastructure/nuclear_safety_review.ipynb
               - sectors/infrastructure/infrastructure_condition_assessment_and_investment_prioritization.ipynb
               - sectors/infrastructure/infrastructure_design.ipynb
@@ -125,7 +125,6 @@ bibliography:
   - sectors/planning/references.bib
   - sectors/planning/generation_forecasting_references.bib
   - sectors/reporting/reporting_references.bib
-
 
 
 
