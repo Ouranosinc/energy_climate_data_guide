@@ -10,6 +10,37 @@ ISSN={2296-665X},
 ABSTRACT={We quantify the biases in the diurnal cycle of air temperature in ERA5, using hourly climate station data for four stations in Saskatchewan, Canada. Compared with ERA-Interim, the biases in ERA5 have been greatly reduced, and show no differences with snow cover. We compute fits to the ERA5 mean air temperature biases based on ERA5 effective cloud albedo. They can be used to improve the ERA5 diurnal cycle of air temperature for modeling agricultural processes. Diurnally, ERA5 has a negative wind speed bias, which increases quasi-linearly with wind speed, and is greater in the daytime than at night. We evaluate ERA5 precipitation against the original climate station precipitation data, and a second generation adjusted precipitation dataset by Mekis and Vincent [2011]. For the warm season, ERA5 has a high bias of 8±9% above the Mekis dataset. ERA5 is -22±7% below the Mekis estimate in winter, suggesting that their correction with snow may be too large. It is likely that the ERA5 precipitation bias is small, which is encouraging for agricultural modelling. Data from a BSRN site near Regina shows that the biases in the downwelling shortwave and longwave radiation estimates in ERA5 are small, and have changed little from ERA-Interim. We showed that the annual cycle of the Saskatchewan surface energy and water budgets in ERA5 are realistic. In particular the damping of extremes in summer precipitation by the extraction of soil water is comparable in ERA5 to our earlier observational estimate based on gravity satellite data.}
 }
 
+﻿@Article{Cannon2018,
+author={Cannon, Alex J.},
+title={Multivariate quantile mapping bias correction: an N-dimensional probability density function transform for climate model simulations of multiple variables},
+journal={Climate Dynamics},
+year={2018},
+month={Jan},
+day={01},
+volume={50},
+number={1},
+pages={31-49},
+abstract={Most bias correction algorithms used in climatology, for example quantile mapping, are applied to univariate time series. They neglect the dependence between different variables. Those that are multivariate often correct only limited measures of joint dependence, such as Pearson or Spearman rank correlation. Here, an image processing technique designed to transfer colour information from one image to another---the N-dimensional probability density function transform---is adapted for use as a multivariate bias correction algorithm (MBCn) for climate model projections/predictions of multiple climate variables. MBCn is a multivariate generalization of quantile mapping that transfers all aspects of an observed continuous multivariate distribution to the corresponding multivariate distribution of variables from a climate model. When applied to climate model projections, changes in quantiles of each variable between the historical and projection period are also preserved. The MBCn algorithm is demonstrated on three case studies. First, the method is applied to an image processing example with characteristics that mimic a climate projection problem. Second, MBCn is used to correct a suite of 3-hourly surface meteorological variables from the Canadian Centre for Climate Modelling and Analysis Regional Climate Model (CanRCM4) across a North American domain. Components of the Canadian Forest Fire Weather Index (FWI) System, a complicated set of multivariate indices that characterizes the risk of wildfire, are then calculated and verified against observed values. Third, MBCn is used to correct biases in the spatial dependence structure of CanRCM4 precipitation fields. Results are compared against a univariate quantile mapping algorithm, which neglects the dependence between variables, and two multivariate bias correction algorithms, each of which corrects a different form of inter-variable correlation structure. MBCn outperforms these alternatives, often by a large margin, particularly for annual maxima of the FWI distribution and spatiotemporal autocorrelation of precipitation fields.},
+issn={1432-0894},
+doi={10.1007/s00382-017-3580-6},
+url={https://doi.org/10.1007/s00382-017-3580-6}
+}
+
+@article{Cannon2022,
+author = {Cannon, Alex J. and Alford, Hunter and Shrestha, Rajesh R. and Kirchmeier-Young, Megan C. and Najafi, Mohammad Reza},
+title = {Canadian Large Ensembles Adjusted Dataset version 1 (CanLEADv1): Multivariate bias-corrected climate model outputs for terrestrial modelling and attribution studies in North America},
+journal = {Geoscience Data Journal},
+volume = {9},
+number = {2},
+pages = {288-303},
+keywords = {bias correction, climate scenarios, counterfactual, downscaling, event attribution, hydrology, land surface, large ensemble, North America, regional climate model},
+doi = {10.1002/gdj3.142},
+url = {https://rmets.onlinelibrary.wiley.com/doi/abs/10.1002/gdj3.142},
+eprint = {https://rmets.onlinelibrary.wiley.com/doi/pdf/10.1002/gdj3.142},
+abstract = {Abstract The Canadian Large Ensembles Adjusted Dataset version 1 (CanLEADv1) contains 50-member ensembles of bias-adjusted near-surface global and regional climate model variables on a 0.5° grid over North America for historical and future scenarios (1950–2100). Canadian Earth System Model Large Ensembles (CanESM2 LE) and Canadian Regional Climate Model Large Ensemble (CanRCM4 LE) datasets are bias-corrected using a multivariate quantile-mapping algorithm for statistical consistency – in terms of marginal distributions and multivariate dependence structure – with two observationally constrained historical meteorological forcing datasets. For each observational dataset, bias-adjusted variables are provided for two sets of 50-member initial-condition CanESM2 ensembles (historical plus RCP8.5 scenarios, 1950–2005 and 2006–2100, respectively; and historicalNAT scenario, 1950–2020, which excludes anthropogenic forcings), and one 50-member CanRCM4 ensemble (historical plus RCP8.5). The archive includes daily minimum temperature, maximum temperature, precipitation, relative humidity, surface pressure, wind speed, incoming shortwave radiation and incoming longwave radiation. Intended uses include hydrological and land surface impact modelling, as well as related event attribution studies.},
+year = {2022}
+}
+
 @Article{Cao2020,
 AUTHOR = {Cao, B. and Gruber, S. and Zheng, D. and Li, X.},
 TITLE = {The ERA5-Land soil temperature bias in permafrost regions},
@@ -452,6 +483,27 @@ URL = {https://esd.copernicus.org/articles/12/253/2021/},
 DOI = {10.5194/esd-12-253-2021}
 }
 
+@Article{Thrasher2022,
+author={Thrasher, Bridget
+and Wang, Weile
+and Michaelis, Andrew
+and Melton, Forrest
+and Lee, Tsengdar
+and Nemani, Ramakrishna},
+title={NASA Global Daily Downscaled Projections, CMIP6},
+journal={Scientific Data},
+year={2022},
+month={Jun},
+day={02},
+volume={9},
+number={1},
+pages={262},
+abstract={We describe the latest version of the NASA Earth Exchange Global Daily Downscaled Projections (NEX-GDDP-CMIP6). The archive contains downscaled historical and future projections for 1950--2100 based on output from Phase 6 of the Climate Model Intercomparison Project (CMIP6). The downscaled products were produced using a daily variant of the monthly bias correction/spatial disaggregation (BCSD) method and are at 1/4-degree horizontal resolution. Currently, eight variables from five CMIP6 experiments (historical, SSP126, SSP245, SSP370, and SSP585) are provided as procurable from thirty-five global climate models.},
+issn={2052-4463},
+doi={10.1038/s41597-022-01393-4},
+url={https://doi.org/10.1038/s41597-022-01393-4}
+}
+
 @article{Vincent2020,
     author = {Lucie A. Vincent and Megan M. Hartwell and Xiaolan L. Wang and},
     title = {A Third Generation of Homogenized Temperature for Trend Analysis and Monitoring Changes in Canada’s Climate},
@@ -544,38 +596,4 @@ abstract = { Trends in indices based on daily temperature and precipitation are 
     issn={2052-4463},
     doi={10.1038/sdata.2018.299},
     url={https://doi.org/10.1038/sdata.2018.299}
-}
-
-@ARTICLE{Thrasher2022-ae,
-  title     = "{NASA} global daily downscaled projections, {CMIP6}",
-  author    = "Thrasher, Bridget and Wang, Weile and Michaelis, Andrew and
-               Melton, Forrest and Lee, Tsengdar and Nemani, Ramakrishna",
-  journal   = "Sci. Data",
-  publisher = "Springer Science and Business Media LLC",
-  volume    =  9,
-  number    =  1,
-  pages     = "262",
-  month     =  jun,
-  year      =  2022,
-  copyright = "https://creativecommons.org/licenses/by/4.0",
-  language  = "en"
-}
-
-
-@ARTICLE{Cannon2022-tb,
-  title     = "Canadian Large Ensembles Adjusted Dataset version 1
-               ({CanLEADv1)}: Multivariate bias‐corrected climate model outputs
-               for terrestrial modelling and attribution studies in North
-               America",
-  author    = "Cannon, Alex J and Alford, Hunter and Shrestha, Rajesh R and
-               Kirchmeier-Young, Megan C and Najafi, Mohammad Reza",
-  journal   = "Geosci. Data J.",
-  publisher = "Wiley",
-  volume    =  9,
-  number    =  2,
-  pages     = "288--303",
-  month     =  nov,
-  year      =  2022,
-  copyright = "http://creativecommons.org/licenses/by/4.0/",
-  language  = "en"
 }
