@@ -60,6 +60,28 @@
     ]
   },
   {
+    "objectID": "datasets/climate_projection_data/Climate_Projection_Datasets.html#global-climate-models",
+    "href": "datasets/climate_projection_data/Climate_Projection_Datasets.html#global-climate-models",
+    "title": "Climate Projection Datasets",
+    "section": "Global Climate Models",
+    "text": "Global Climate Models",
+    "crumbs": [
+      "Climate Datasets",
+      "Climate Projection Data"
+    ]
+  },
+  {
+    "objectID": "datasets/climate_projection_data/Climate_Projection_Datasets.html#regional-climate-models",
+    "href": "datasets/climate_projection_data/Climate_Projection_Datasets.html#regional-climate-models",
+    "title": "Climate Projection Datasets",
+    "section": "Regional Climate Models",
+    "text": "Regional Climate Models",
+    "crumbs": [
+      "Climate Datasets",
+      "Climate Projection Data"
+    ]
+  },
+  {
     "objectID": "datasets/climate_projection_data/Climate_Projection_Datasets.html#climate-projection-datasets",
     "href": "datasets/climate_projection_data/Climate_Projection_Datasets.html#climate-projection-datasets",
     "title": "Climate Projection Datasets",
@@ -97,7 +119,7 @@
     "href": "datasets/climate_projection_data/CanLEAD.html",
     "title": "CanLEAD",
     "section": "",
-    "text": "CanLEADv1 is an ensemble of bias-adjusted climate simulations created by ECCC based on two CMIP5 era large ensembles: the Canadian Earth System Model Large Ensembles (CanESM2 LE) and Canadian Regional Climate Model Large Ensemble (CanRCM4 LE). This means that there are 50 members for for both the global climate model CanESM2 and the regional climate model CanRCM4. It downscales 8 variables for two models and their 50 members using the multivariate bias-adjustment method MBCn. It is performed with two reference datasets (EWEMBI and S14FD). The experiments included are historical (1950-2005), RCP8.5 (2006–2100) and historicalNAT (1950–2020, only for CanESM2-LE). A detailed description of the method is available in Cannon et al. (2022).",
+    "text": "CanLEADv1 is an ensemble of bias-adjusted climate simulations created by ECCC based on two CMIP5 era single model initial-condition large ensembles (SMILEs, Maher et al. (2021)): the Canadian Earth System Model Large Ensembles (CanESM2 LE) and Canadian Regional Climate Model Large Ensemble (CanRCM4 LE). SMILEs are created by running the same simulation multiple times while provoking a different pathway by perturbing inital conditions. CanLEAD consists of 50 members for both the global climate model CanESM2 and the regional climate model CanRCM4. It downscales 8 variables for two models and their 50 members using the multivariate bias-adjustment method MBCn (Cannon (2018)). It is performed with two reference datasets (EWEMBI and S14FD). The experiments included are historical (1950-2005), RCP8.5 (2006–2100) and historicalNAT (1950–2020, only for CanESM2-LE). A detailed description of the dataset is available in Cannon et al. (2022).\n\n\n\nCanLEADv1 domains for (a) CanESM2 et (b) CanRCM4 (source: Cannon et al. (2022))",
     "crumbs": [
       "Climate Datasets",
       "Climate Projection Data",
@@ -109,7 +131,7 @@
     "href": "datasets/climate_projection_data/CanLEAD.html#summary-description",
     "title": "CanLEAD",
     "section": "",
-    "text": "CanLEADv1 is an ensemble of bias-adjusted climate simulations created by ECCC based on two CMIP5 era large ensembles: the Canadian Earth System Model Large Ensembles (CanESM2 LE) and Canadian Regional Climate Model Large Ensemble (CanRCM4 LE). This means that there are 50 members for for both the global climate model CanESM2 and the regional climate model CanRCM4. It downscales 8 variables for two models and their 50 members using the multivariate bias-adjustment method MBCn. It is performed with two reference datasets (EWEMBI and S14FD). The experiments included are historical (1950-2005), RCP8.5 (2006–2100) and historicalNAT (1950–2020, only for CanESM2-LE). A detailed description of the method is available in Cannon et al. (2022).",
+    "text": "CanLEADv1 is an ensemble of bias-adjusted climate simulations created by ECCC based on two CMIP5 era single model initial-condition large ensembles (SMILEs, Maher et al. (2021)): the Canadian Earth System Model Large Ensembles (CanESM2 LE) and Canadian Regional Climate Model Large Ensemble (CanRCM4 LE). SMILEs are created by running the same simulation multiple times while provoking a different pathway by perturbing inital conditions. CanLEAD consists of 50 members for both the global climate model CanESM2 and the regional climate model CanRCM4. It downscales 8 variables for two models and their 50 members using the multivariate bias-adjustment method MBCn (Cannon (2018)). It is performed with two reference datasets (EWEMBI and S14FD). The experiments included are historical (1950-2005), RCP8.5 (2006–2100) and historicalNAT (1950–2020, only for CanESM2-LE). A detailed description of the dataset is available in Cannon et al. (2022).\n\n\n\nCanLEADv1 domains for (a) CanESM2 et (b) CanRCM4 (source: Cannon et al. (2022))",
     "crumbs": [
       "Climate Datasets",
       "Climate Projection Data",
@@ -121,7 +143,7 @@
     "href": "datasets/climate_projection_data/CanLEAD.html#dataset-characteristics",
     "title": "CanLEAD",
     "section": "Dataset Characteristics",
-    "text": "Dataset Characteristics\n\nCurrent version: v1\nTemporal coverage: 1950-2100\nTemporal resolution: daily\nSpatial coverage: CORDEX NAM-44i\nSpatial resolution: 0.5°\nData type: gridded NetCDF\nWeb references:  Government of Canada’s Open data portal\nReference publications: Cannon et al. (2022)",
+    "text": "Dataset Characteristics\n\nCurrent version: v1\nTemporal coverage: 1950-2100\nTemporal resolution: daily\nSpatial coverage: CORDEX NAM-44i\nSpatial resolution: 0.5°\nData type: Bias-adjusted climate projections\nWeb references:  Government of Canada’s Open data portal\nReference publications: Cannon et al. (2022)",
     "crumbs": [
       "Climate Datasets",
       "Climate Projection Data",
@@ -133,7 +155,7 @@
     "href": "datasets/climate_projection_data/CanLEAD.html#strengths-and-limitations",
     "title": "CanLEAD",
     "section": "Strengths and Limitations",
-    "text": "Strengths and Limitations\n\nKey Strengths of CanLead\n\n\n\n\n\n\n\nStrength\nDescription\n\n\n\n\nMultiple variables\nEight variables have been adjusted.\n\n\nMultiple members\n50 members for each model allow to study the natural variability.\n\n\nEvent attribution\nIt can be used for event attribution studies, using the ALL and NAT forcings experiment.\n\n\nTwo references\nThe uncertainty associated with the observational references can be sampled better.\n\n\nEffective for multivariate/compound indices\nThe dataset reproduces multivariate/compound indices (e.g., hot-dry days, precipitation-as-snow) more effectively than datasets using an univariate bias adjustment, which could improve analyses where multivariate dependence matters.\n\n\n\n\n\nKey Limitations of CanLead\n\n\n\n\n\n\n\nLimitation\nDescription\n\n\n\n\nLower resolution\nThe resolution is not as high compared to other bias-adjusted datasets.\n\n\nOnly two models\nOnly includes one RCM and one GCM.\n\n\nOnly one scenario\nOnly includes RCP8.5.\n\n\nCMIP5 era\nThe dataset is based on CMIP5 data, which is not the most recent data available and uses different experiments than CMIP6.",
+    "text": "Strengths and Limitations\n\nKey Strengths of CanLEAD\n\n\n\n\n\n\n\nStrength\nDescription\n\n\n\n\nMultiple variables\nEight variables have been adjusted.\n\n\nMultiple members\n50 members for each model allow to study natural variability.\n\n\nEvent attribution\nThe dataset can be used for event attribution studies, using the ALL and NAT forcings experiment.\n\n\nTwo references\nSome of the uncertainty associated with the observational references can be sampled.\n\n\nEffective for multivariate/compound indices\nThe dataset reproduces multivariate/compound indices (e.g., hot-dry days, precipitation-as-snow) more effectively than datasets using an univariate bias adjustment, which could improve analyses where multivariate dependence matters.\n\n\n\n\n\nKey Limitations of CanLEAD\n\n\n\n\n\n\n\nLimitation\nDescription\n\n\n\n\nLower resolution\nThe spatial resolution is lower compared to other bias-adjusted datasets.\n\n\nOnly two models\nOnly includes one RCM and one GCM, where the RCM is driven by the GCM. Model uncertainty is not sampled with this dataset.\n\n\nOnly one scenario\nOnly emission scenario RCP8.5 is available. Scenario uncertainty is not sampled with this dataset.\n\n\nCMIP5 era\nThe dataset is based on CMIP5 data, which is not the most recent data available and uses different experiments than CMIP6.",
     "crumbs": [
       "Climate Datasets",
       "Climate Projection Data",
@@ -145,7 +167,7 @@
     "href": "datasets/climate_projection_data/CanLEAD.html#expert-guidance",
     "title": "CanLEAD",
     "section": "Expert Guidance",
-    "text": "Expert Guidance\n\n\n\n\n\n\nNoneClick to toggle section collapse\n\n\n\n\n\nThe CanLEADv1 ensemble intended uses include hydrological and land surface impact modelling, event attribution studies and analysis of compound extremes.\nIn their paper (Cannon et al. (2022)), the authors identify a few limitations. First, with its high climate sensitivity GCM and its high emission scenario, the CanLEAD ensemble warms much faster than other datasets. One solution presented by the authors is to show the results in terms of global warming level, rather then by time horizon. Second, even though internal variability and observation reference uncertainties are well covered. This is not the case for model and scenario uncertainties. Third, the resolution might not be high enough for all application. For example, hydrological modelling on small basins is not recommended.",
+    "text": "Expert Guidance\n\n\n\n\n\n\nNoneClick to toggle section collapse\n\n\n\n\n\nThe CanLEADv1 ensemble intended uses include hydrological and land surface impact modelling, event attribution studies and analysis of compound extremes.\n\n\n\nCanLEADv1 description of the ensemble (source: Table 2 from Cannon et al. (2022))\n\n\nCannon et al. (2022) discuss limitations of their product: First, with its high climate sensitivity GCM and its high emission scenario, the CanLEAD ensemble warms much faster than other datasets. One solution presented by the authors is to emplay the dataset for global warming level approaches, rather then by time horizon. Second, even though internal variability and observation reference uncertainties are well covered, this is not the case for model and scenario uncertainties. Third, the resolution might not be high enough for all application. For example, hydrological modelling on small basins is not recommended.\nToDo: What are NAT and ALL experiments for attribution studies?",
     "crumbs": [
       "Climate Datasets",
       "Climate Projection Data",
@@ -157,7 +179,7 @@
     "href": "datasets/climate_projection_data/CanLEAD.html#example-applications",
     "title": "CanLEAD",
     "section": "Example Applications",
-    "text": "Example Applications\nlinks to Electricity Sector Activities",
+    "text": "Example Applications\nlinks to Electricity Sector Activities\nNote: Cannon et al 2020 uses the raw data for CanLEAD! The https://publications.gc.ca/collections/collection_2021/eccc/En4-415-2020-eng.pdf",
     "crumbs": [
       "Climate Datasets",
       "Climate Projection Data",
@@ -169,7 +191,7 @@
     "href": "datasets/climate_projection_data/CanLEAD.html#available-variables-in-canlead",
     "title": "CanLEAD",
     "section": "Available Variables in CanLead",
-    "text": "Available Variables in CanLead\nFor details click on variable group to uncollapse\n\n\n\n\n\n\nNoneTemperature\n\n\n\n\n\n- Daily maximum near-surface (2 m) air temperature (tasmax) [K]\n- Daily minimum near-surface (2 m) air temperature (tasmin) [K]\n\nTasmax and tasmin are derived from bias-adjustment of tas (tasmin + tasmax)/2 and dtr (tasmax − tasmin).\n\n\n\n\n\n\n\n\n\nNonePrecipitation\n\n\n\n\n\n- Daily mean precipitation rate (pr) [kg m−2 s−1]\n\n\n\n\n\n\n\n\n\nNoneRelative humidity\n\n\n\n\n\n- Daily mean near-surface relative humidity (hurs) [%]\nHurs (with respect to liquid water) is derived from specific humidity, temperature and ps (Bolton, 1980). A logit transformation was applied to hurs before the adjustment.\n\n\n\n\n\n\n\n\n\nNonePressure\n\n\n\n\n\n- Daily mean surface air pressure (ps) [Pa]\n\n\n\n\n\n\n\n\n\nNoneWind\n\n\n\n\n\n- Daily mean near-surface (10 metre) wind speed (sfcWind) [m s−1]\n\n\n\n\n\n\n\n\n\nNoneRadiation\n\n\n\n\n\n- Daily mean surface downwelling shortwave radiation (rsds) [W m−2]\n- Daily mean surface downwelling longwave radiation (rlds) [W m−2]",
+    "text": "Available Variables in CanLead\nFor details click on variable group to uncollapse\n\n\n\n\n\n\nNoneTemperature\n\n\n\n\n\n\nDaily maximum near-surface (2 m) air temperature (tasmax) [K]\nDaily minimum near-surface (2 m) air temperature (tasmin) [K]\n\nTasmax and tasmin are derived from bias-adjustment of tas (tasmin + tasmax)/2 and dtr (tasmax − tasmin).\n\n\n\n\n\n\n\n\n\nNonePrecipitation\n\n\n\n\n\n\nDaily mean precipitation rate (pr) [kg m−2 s−1]\n\n\n\n\n\n\n\n\n\n\nNoneRelative humidity\n\n\n\n\n\n\nDaily mean near-surface relative humidity (hurs) [%]\n\nHurs (with respect to liquid water) is derived from specific humidity, temperature and ps (Bolton, 1980). A logit transformation was applied to hurs before the adjustment.\n\n\n\n\n\n\n\n\n\nNonePressure\n\n\n\n\n\n\nDaily mean surface air pressure (ps) [Pa]\n\n\n\n\n\n\n\n\n\n\nNoneWind\n\n\n\n\n\n\nDaily mean near-surface (10 metre) wind speed (sfcWind) [m s−1]\n\n\n\n\n\n\n\n\n\n\nNoneRadiation\n\n\n\n\n\n\nDaily mean surface downwelling shortwave radiation (rsds) [W m−2]\nDaily mean surface downwelling longwave radiation (rlds) [W m−2]",
     "crumbs": [
       "Climate Datasets",
       "Climate Projection Data",
@@ -181,7 +203,7 @@
     "href": "datasets/climate_projection_data/CanLEAD.html#data-access",
     "title": "CanLEAD",
     "section": "Data Access",
-    "text": "Data Access\nThe files are accessible through the Government of Canada’s Open Data Portal.",
+    "text": "Data Access\nThe CanLEADv1 dataset can be downloaded from the Government of Canada’s Open Data Portal.",
     "crumbs": [
       "Climate Datasets",
       "Climate Projection Data",
@@ -193,7 +215,7 @@
     "href": "datasets/climate_projection_data/CanLEAD.html#references",
     "title": "CanLEAD",
     "section": "References",
-    "text": "References\n\n\nCannon, A.J., Alford, H., Shrestha, R.R., Kirchmeier-Young, M.C., Najafi, M.R., 2022. Canadian large ensembles adjusted dataset version 1 (CanLEADv1): Multivariate bias‐corrected climate model outputs for terrestrial modelling and attribution studies in north america. Geosci. Data J. 9, 288–303.",
+    "text": "References\n\n\nCannon, A.J., 2018. Multivariate quantile mapping bias correction: An n-dimensional probability density function transform for climate model simulations of multiple variables. Climate Dynamics 50, 31–49. https://doi.org/10.1007/s00382-017-3580-6\n\n\nCannon, A.J., Alford, H., Shrestha, R.R., Kirchmeier-Young, M.C., Najafi, M.R., 2022. Canadian large ensembles adjusted dataset version 1 (CanLEADv1): Multivariate bias-corrected climate model outputs for terrestrial modelling and attribution studies in north america. Geoscience Data Journal 9, 288–303. https://doi.org/10.1002/gdj3.142\n\n\nMaher, N., Milinski, S., Ludwig, R., 2021. Large ensemble climate model simulations: Introduction, overview, and future prospects for utilising multiple types of large ensemble. Earth System Dynamics 12, 401–418. https://doi.org/10.5194/esd-12-401-2021",
     "crumbs": [
       "Climate Datasets",
       "Climate Projection Data",
@@ -205,7 +227,7 @@
     "href": "datasets/climate_projection_data/CMIP6.html",
     "title": "Coupled Model Intercomparison Project Phase 6 - CMIP6",
     "section": "",
-    "text": "The Coupled Model Intercomparison Project Phase 6 (CMIP6) is the latest iteration of the international effort of providing comparable, state of the art, global climate simulations from multiple modeling centers around the world. CMIP is coordinated by the World Climate Research Programme (WCRP) and is a cornerstone dataset for the Intergovernmental Panel on Climat Changes Assessment Reports (IPCC AR6). CMIP6 includes historical simulations, future scenarios (SSPs), and targeted experiments supporting studies on climate evolution, variability, extremes, and impacts. With the definition of simulation protocols CMIP enables the meaningful comparison of model responses. More than 140 models from 52 institutions representing 26 countries contributed to CMIP6.\n\n\n\n\n\n\nSchematic of the CMIP/CMIP6 experiment design (Source: Eyring et al. (2016))\n\n\n\n\n\n\n\nConceptual visualisation of a Global Climate Model (GCM)\n\n\n\n\n\n\nCMIP6 Global Climate Model Experiments",
+    "text": "The Coupled Model Intercomparison Project Phase 6 (CMIP6) is the latest iteration of the international effort of providing comparable, state of the art, global climate model simulations from multiple modeling centers around the world. CMIP is coordinated by the World Climate Research Programme (WCRP) and is a cornerstone dataset for the Intergovernmental Panel on Climat Changes Assessment Reports (IPCC AR6). CMIP6 includes historical simulations, future scenarios (SSPs), and targeted experiments supporting studies on climate evolution, variability, extremes, and impacts. With the definition of simulation protocols CMIP enables the meaningful comparison of model responses. More than 140 models from 52 institutions representing 26 countries contributed to CMIP6.\n\n\n\n\n\n\nSchematic of the CMIP/CMIP6 experiment design (Source: Eyring et al. (2016))\n\n\n\n\n\n\n\nConceptual visualisation of a Global Climate Model (GCM)\n\n\n\n\n\n\nCMIP6 Global Climate Model Experiments",
     "crumbs": [
       "Climate Datasets",
       "Climate Projection Data",
@@ -217,7 +239,7 @@
     "href": "datasets/climate_projection_data/CMIP6.html#summary-description",
     "title": "Coupled Model Intercomparison Project Phase 6 - CMIP6",
     "section": "",
-    "text": "The Coupled Model Intercomparison Project Phase 6 (CMIP6) is the latest iteration of the international effort of providing comparable, state of the art, global climate simulations from multiple modeling centers around the world. CMIP is coordinated by the World Climate Research Programme (WCRP) and is a cornerstone dataset for the Intergovernmental Panel on Climat Changes Assessment Reports (IPCC AR6). CMIP6 includes historical simulations, future scenarios (SSPs), and targeted experiments supporting studies on climate evolution, variability, extremes, and impacts. With the definition of simulation protocols CMIP enables the meaningful comparison of model responses. More than 140 models from 52 institutions representing 26 countries contributed to CMIP6.\n\n\n\n\n\n\nSchematic of the CMIP/CMIP6 experiment design (Source: Eyring et al. (2016))\n\n\n\n\n\n\n\nConceptual visualisation of a Global Climate Model (GCM)\n\n\n\n\n\n\nCMIP6 Global Climate Model Experiments",
+    "text": "The Coupled Model Intercomparison Project Phase 6 (CMIP6) is the latest iteration of the international effort of providing comparable, state of the art, global climate model simulations from multiple modeling centers around the world. CMIP is coordinated by the World Climate Research Programme (WCRP) and is a cornerstone dataset for the Intergovernmental Panel on Climat Changes Assessment Reports (IPCC AR6). CMIP6 includes historical simulations, future scenarios (SSPs), and targeted experiments supporting studies on climate evolution, variability, extremes, and impacts. With the definition of simulation protocols CMIP enables the meaningful comparison of model responses. More than 140 models from 52 institutions representing 26 countries contributed to CMIP6.\n\n\n\n\n\n\nSchematic of the CMIP/CMIP6 experiment design (Source: Eyring et al. (2016))\n\n\n\n\n\n\n\nConceptual visualisation of a Global Climate Model (GCM)\n\n\n\n\n\n\nCMIP6 Global Climate Model Experiments",
     "crumbs": [
       "Climate Datasets",
       "Climate Projection Data",
@@ -229,7 +251,7 @@
     "href": "datasets/climate_projection_data/CMIP6.html#dataset-characteristics",
     "title": "Coupled Model Intercomparison Project Phase 6 - CMIP6",
     "section": "Dataset Characteristics",
-    "text": "Dataset Characteristics\n\nCurrent version: CMIP6 (2019–present)\nTemporal coverage: 1850–2100+\n\nTemporal resolution: model dependent, from hourly to monthly, all models provide daily.\n\nSpatial coverage: Global (land + ocean)\n\nSpatial resolution: ~1° to ~2° depending on model\n\nData type: Gridded NetCDF (multi-variable, multi-model)\n\nWeb references:  CMIP Phase 6 on WCRP web page CMIP Phase 6 on PCMDI web page (includes a map of the locations of modeling centers)\nReference publications: See references below",
+    "text": "Dataset Characteristics\n\nCurrent version: CMIP6 (2019–present)\nTemporal coverage: 1850–2100+\n\nTemporal resolution: model dependent, from hourly to monthly, all models provide daily.\n\nSpatial coverage: Global (land + ocean)\n\nSpatial resolution: ~1° to ~2° depending on model\n\nData type: raw model output from climate simulations\nWeb references:  CMIP Phase 6 on WCRP web page CMIP Phase 6 on PCMDI web page (includes a map of the locations of modeling centers)\nReference publications: See references below",
     "crumbs": [
       "Climate Datasets",
       "Climate Projection Data",
@@ -277,7 +299,7 @@
     "href": "datasets/climate_projection_data/CMIP6.html#variables-available-in-cmip6",
     "title": "Coupled Model Intercomparison Project Phase 6 - CMIP6",
     "section": "Variables available in CMIP6",
-    "text": "Variables available in CMIP6\nThe IPCC list of standard output from Coupled Ocean-Atmosphere GCMs comprises far over 100 different variables, and many more may be produced by a model (see the Climate and Forecast (CF) Standard Name Table). Depending on the model and its realizations, the respective list of available variables will be determined by the modeling center’s available resources and research focus. Hence, from some models many atmospheric and surface variables will be available, however the common denominator for most CMIP6 model simulations will be the variables listed below.\nClick on variable groups to uncollapse\n\n\n\n\n\n\nNoneTemperature\n\n\n\n\n\nTemperature variables are provided at hourly to daily intervals, depending on the model and realization.\n\nmean temperature (day, 6hr, 3hr, 1hr) [K]\ndaily minimum temperature [K]\ndaily maximum temperature [K]\n\n\n\n\n\n\n\n\n\n\nNonePrecipitation\n\n\n\n\n\nPrecipitation is commonly provided as the sum of solid and liquid precipitation or as snowfall and variables are provided at hourly to daily intervals, depending on the model and realization.\n\nPrecipitation flux (day, 6hr, 3hr, 1hr) [kg m-2 s-1]\nSnowfall flux [kg m-2 s-1]\n\n\n\n\n\n\n\n\n\n\nNoneOther Variables\n\n\n\n\n\nOther variables often provided by a large number of models include:\n\nWind (estward, westward) [m s-1]\nSpecific or relative humidity [%]\nLongwave and shortwave radiation (downwelling and upwelling) [W m-2]\n\nFurther variables related to evaporation, runoff, and cloud cover may be available depending on the model.",
+    "text": "Variables available in CMIP6\nAny of the CMIP6 models may produce variables from the the IPCC list of standard output from Coupled Ocean-Atmosphere GCMs. It comprises far over 100 different variables, and many more may be produced by a model (see the Climate and Forecast (CF) Standard Name Table). Depending on the model and its realizations, the respective list of available variables will be determined by the modeling center’s available resources and research focus. Hence, from some models many atmospheric and surface variables will be available, however the common denominator for most CMIP6 model simulations will be the variables listed below.\nClick on variable groups to uncollapse\n\n\n\n\n\n\nNoneTemperature\n\n\n\n\n\nTemperature variables are provided at hourly to daily intervals, depending on the model and realization.\n\nmean temperature (day, 6hr, 3hr, 1hr) [K]\ndaily minimum temperature [K]\ndaily maximum temperature [K]\n\n\n\n\n\n\n\n\n\n\nNonePrecipitation\n\n\n\n\n\nPrecipitation is commonly provided as the sum of solid and liquid precipitation or as snowfall and variables are provided at hourly to daily intervals, depending on the model and realization.\n\nPrecipitation flux (day, 6hr, 3hr, 1hr) [kg m-2 s-1]\nSnowfall flux [kg m-2 s-1]\n\n\n\n\n\n\n\n\n\n\nNoneOther Variables\n\n\n\n\n\nOther variables often provided by a large number of models include:\n\nWind (estward, westward) [m s-1]\nSpecific or relative humidity [%]\nLongwave and shortwave radiation (downwelling and upwelling) [W m-2]\n\nFurther variables related to evaporation, runoff, and cloud cover may be available depending on the model.",
     "crumbs": [
       "Climate Datasets",
       "Climate Projection Data",
@@ -333,7 +355,7 @@
     "href": "datasets/Climate_Datasets_Overview.html#climate-data",
     "title": "Overview of Climate Data",
     "section": "Climate Data",
-    "text": "Climate Data\nThis section was taken from the Annex of the CSA Standard on Vulnerability Assessment for Dams\nGenerally, climate data can be sourced from historical observation of climate using instrumentation or from climate model simulations. In the context of electricity system planning and design, future climatic conditions should be of primary interest, but observed historical climate data and products derived thereof may also be employed or used in the development of adequate future climate information.\nObserved data is provided as point information at station locations. To provide continuous fields of climate information, station data can be interpolated spatially to produce gridded historical data. They provide a portrait of climate beyond the stations point locations but are impacted by potential interpolation errors, particularly in data sparce regions, or in regions of complex topography (e.g. mountainous areas). The approach that attempts to overcome these drawbacks is the reproduction of historical climate through the combination of a maximum of available climate information with a physical climate simulation approach known as climate reanalysis. Reanalysis products have substantially improved over recent years and are often used as surrogates for observational data in climate science and studies.\nObservational data and reanalysis data provide a representation of the actual evolution and sequence of events as they occurred and provide robust estimates of climate when averaged over climatic periods (usually 30 years). Note, however, that due to natural climate variability, climate estimates would shift with slight temporal shifts of the period, or the data being used.\nSimulated data from climate models used for electricity system planning and design should be sourced from internationally coordinated ensembles of climate model simulations or products derived thereof. These simulations typically cover multiple decades and are available for historical and future periods. They are fully consistent in time and space and are provided on grids. The grid resolution depends on the model or the data product.\nLike observational data, bias-adjusted historical climate simulations may be used to derive climate estimates of historical climate. These estimates will not be identical to climate estimates from observed data yet will generally fall into the range of natural variability of the observed climate. Since climate model simulations extend into the future, estimates for future climate may also be derived. It is important to note that the sequence of events produced by a historical climate simulation is distinct from the sequence of historically observed events, although their respective climate estimate is the robust characteristic they have in common.\n\nClimate data\nfrom the demand section, to be edited\nClimate data is essential for the electricity demand impact assessments under climate change. These data are primarily sourced from Global Climate Models (GCMs), which simulate the Earth’s climate system based on physical laws and boundary conditions. GCMs provide long-term projections of atmospheric variables such as temperature and precipitation, which are critical inputs to electricity demand models, especially in studies focusing on temperatrue-sensitive loads like heating and cooling.\nMany studies assessing future electricity demand have employed GCM outputs from the Coupled Model Intercomparison Project phases, particularly CMIP5 and CMIP6. For example, Fonseca et al. (2019) usedtemperature projections from 20 CMIP5 GCMs to simulate intra-day electricity demand shifts. Similarly, Chidiac et al. (2022) relied on GCMs from the North American CORDEX, which has 23 CMIP6 to assess building heating and cooling demand in Ontario, while Hu et al. (2024) drew on CMIP5 from the EURO-CORDEX to construct the temperature response function. Amonkar et al. (2023) used ERA5 reanalysis data to analyze changes in peak and average thermal demand across the contiguous US. To explore a range of potential future emissions trajectories, studies commonly apply Representative Concentration Pathways (RCPs). These scenarios (i.e., RCP2.6, RCP4.5, RCP6.0, and RCP8.5) represent different greenhouse gas concentration trajectories based on varying degrees of pathway scenarios. The selection of RCPs provides a structured way to assess electricity demand sensitivity under different warming levels. For instance, Hu et al. (2024) employed three major RCPs (2.6, 4.5, and 8.5) to examine how demand profiles shift across Europe. Emodi et al. (2018) and Reyna and Chester (2017) similarly applied four RCPs including RCP6.0 to assess electricity demand responses under climate change, respectively. While Trotter et al. (2016) and Auffhammer et al. (2017) applied two RCPs (4.5 and 8.5), Lipson et al. (2019) only used the worst pathway, RCP8.5, to investigate climate change impact on energy demand through building-urban-atmosphere simulations. On the other hand, Chidiac et al. (2022) evaluated changes of HDDs and CDDs for buildings’ heating and cooling demand under the intermediate scenario, RCP4.5.\nDespite the advances in climate data usage, the literature reveals several challenges and limitations. First, the choice of climate models and RCPs is not always clearly justified or consistent across studies, making comparative assessment difficult. Second, biases in raw climate model outputs can distort demand projections if not corrected or validated using observations. Third, the integration of climate data with energy system models often lacks explicit treatment of uncertainty. Fonseca et al. (2019) noted that climate variables alone explain a limited portion of electricity demand variability as socioeconomic, behavioral, and technological factors may play considerable roles. Additionally, while many studies have applied a single or limited number of climate models, ensemble approaches or various combinations of GCMs and RCMs, as used by Reyna and Chester (2017), Auffhammer et al. (2017), Lipson et al. (2019), Fonseca et al. (2019), Chidiac et al. (2022), Lee and Dessler (2022), and Bonkaney et al. (2023), are therefore essential to improve the robustness of results.",
+    "text": "Climate Data\nGenerally, climate data can be sourced from historical observation of climate using instrumentation or from climate model simulations. In the context of electricity system planning and design, future climatic conditions should be of primary interest, but observed historical climate data and products derived thereof may also be employed or used in the development of adequate future climate information.\nObserved data is provided as point information at station locations. To provide continuous fields of climate information, station data can be interpolated spatially to produce gridded historical data. They provide a portrait of climate beyond the stations point locations but are impacted by potential interpolation errors, particularly in data sparce regions, or in regions of complex topography (e.g. mountainous areas). The approach that attempts to overcome these drawbacks is the reproduction of historical climate through the combination of a maximum of available climate information with a physical climate simulation approach known as climate reanalysis. Reanalysis products have substantially improved over recent years and are often used as surrogates for observational data in climate science and studies.\nObservational data and reanalysis data provide a representation of the actual evolution and sequence of events as they occurred and provide robust estimates of climate when averaged over climatic periods (usually 30 years). Note, however, that due to natural climate variability, climate estimates would shift with slight temporal shifts of the period, or the data being used.\nSimulated data from climate models used for electricity system planning and design should be sourced from internationally coordinated ensembles of climate model simulations or products derived thereof. These simulations typically cover multiple decades and are available for historical and future periods. They are fully consistent in time and space and are provided on grids. The grid resolution depends on the model or the data product.\nLike observational data, bias-adjusted historical climate simulations may be used to derive climate estimates of historical climate. These estimates will not be identical to climate estimates from observed data yet will generally fall into the range of natural variability of the observed climate. Since climate model simulations extend into the future, estimates for future climate may also be derived. It is important to note that the sequence of events produced by a historical climate simulation is distinct from the sequence of historically observed events, although their respective climate estimate is the robust characteristic they have in common.\n\nClimate data\nfrom the demand section, to be edited\nClimate data is essential for the electricity demand impact assessments under climate change. These data are primarily sourced from Global Climate Models (GCMs), which simulate the Earth’s climate system based on physical laws and boundary conditions. GCMs provide long-term projections of atmospheric variables such as temperature and precipitation, which are critical inputs to electricity demand models, especially in studies focusing on temperatrue-sensitive loads like heating and cooling.\nMany studies assessing future electricity demand have employed GCM outputs from the Coupled Model Intercomparison Project phases, particularly CMIP5 and CMIP6. For example, Fonseca et al. (2019) usedtemperature projections from 20 CMIP5 GCMs to simulate intra-day electricity demand shifts. Similarly, Chidiac et al. (2022) relied on GCMs from the North American CORDEX, which has 23 CMIP6 to assess building heating and cooling demand in Ontario, while Hu et al. (2024) drew on CMIP5 from the EURO-CORDEX to construct the temperature response function. Amonkar et al. (2023) used ERA5 reanalysis data to analyze changes in peak and average thermal demand across the contiguous US. To explore a range of potential future emissions trajectories, studies commonly apply Representative Concentration Pathways (RCPs). These scenarios (i.e., RCP2.6, RCP4.5, RCP6.0, and RCP8.5) represent different greenhouse gas concentration trajectories based on varying degrees of pathway scenarios. The selection of RCPs provides a structured way to assess electricity demand sensitivity under different warming levels. For instance, Hu et al. (2024) employed three major RCPs (2.6, 4.5, and 8.5) to examine how demand profiles shift across Europe. Emodi et al. (2018) and Reyna and Chester (2017) similarly applied four RCPs including RCP6.0 to assess electricity demand responses under climate change, respectively. While Trotter et al. (2016) and Auffhammer et al. (2017) applied two RCPs (4.5 and 8.5), Lipson et al. (2019) only used the worst pathway, RCP8.5, to investigate climate change impact on energy demand through building-urban-atmosphere simulations. On the other hand, Chidiac et al. (2022) evaluated changes of HDDs and CDDs for buildings’ heating and cooling demand under the intermediate scenario, RCP4.5.\nDespite the advances in climate data usage, the literature reveals several challenges and limitations. First, the choice of climate models and RCPs is not always clearly justified or consistent across studies, making comparative assessment difficult. Second, biases in raw climate model outputs can distort demand projections if not corrected or validated using observations. Third, the integration of climate data with energy system models often lacks explicit treatment of uncertainty. Fonseca et al. (2019) noted that climate variables alone explain a limited portion of electricity demand variability as socioeconomic, behavioral, and technological factors may play considerable roles. Additionally, while many studies have applied a single or limited number of climate models, ensemble approaches or various combinations of GCMs and RCMs, as used by Reyna and Chester (2017), Auffhammer et al. (2017), Lipson et al. (2019), Fonseca et al. (2019), Chidiac et al. (2022), Lee and Dessler (2022), and Bonkaney et al. (2023), are therefore essential to improve the robustness of results.",
     "crumbs": [
       "Climate Datasets"
     ]
@@ -1219,13 +1241,6 @@
       "Assurance, Reporting and Disclosures",
       "Enterprise Risk Management"
     ]
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this site"
   },
   {
     "objectID": "adaptation/Adaptation.html",
@@ -2194,7 +2209,7 @@
     "href": "datasets/climate_projection_data/NEX-GDDP-CMIP6.html",
     "title": "NEX-GDDP-CMIP6",
     "section": "",
-    "text": "NASA’S Earth Exchange Global Daily Downscaled Projections (NEX-GDDP-CMIP6) is a set of global simulations bias-adjusted by NASA. It downscales 9 variables for 35 global climate models over a historical period (1950–2014) and four future pathways (SSP1-2.6, SSP2-4.5, SSP3-7.0, SSP5-8.5) using the bias correction/spatial disaggregation (BCSD) bias-adjustment method. The reference dataset used is the Global Meteorological Forcing Dataset (GMFD) reference set. A detailed description of the method is available in Thrasher et al. (2022).",
+    "text": "NASA’S Earth Exchange Global Daily Downscaled Projections (NEX-GDDP-CMIP6) is an ensemble of global climate model simulations bias-adjusted by NASA. It downscales 9 variables from 35 models over a historical period (1950–2014) and four future pathways (SSP1-2.6, SSP2-4.5, SSP3-7.0, SSP5-8.5) using the bias correction/spatial disaggregation (BCSD) bias-adjustment method. The reference dataset used is the Global Meteorological Forcing Dataset (GMFD) reference set. A detailed description of the method is available in Thrasher et al. (2022).\n\n\n\nSpatial pattern of years exceeding 2˚C warming (baseline 1950-1979) from the NEX-GDDP-CMIP6 ensemble over North America (source: NASA Earth Exchange)",
     "crumbs": [
       "Climate Datasets",
       "Climate Projection Data",
@@ -2206,7 +2221,7 @@
     "href": "datasets/climate_projection_data/NEX-GDDP-CMIP6.html#summary-description",
     "title": "NEX-GDDP-CMIP6",
     "section": "",
-    "text": "NASA’S Earth Exchange Global Daily Downscaled Projections (NEX-GDDP-CMIP6) is a set of global simulations bias-adjusted by NASA. It downscales 9 variables for 35 global climate models over a historical period (1950–2014) and four future pathways (SSP1-2.6, SSP2-4.5, SSP3-7.0, SSP5-8.5) using the bias correction/spatial disaggregation (BCSD) bias-adjustment method. The reference dataset used is the Global Meteorological Forcing Dataset (GMFD) reference set. A detailed description of the method is available in Thrasher et al. (2022).",
+    "text": "NASA’S Earth Exchange Global Daily Downscaled Projections (NEX-GDDP-CMIP6) is an ensemble of global climate model simulations bias-adjusted by NASA. It downscales 9 variables from 35 models over a historical period (1950–2014) and four future pathways (SSP1-2.6, SSP2-4.5, SSP3-7.0, SSP5-8.5) using the bias correction/spatial disaggregation (BCSD) bias-adjustment method. The reference dataset used is the Global Meteorological Forcing Dataset (GMFD) reference set. A detailed description of the method is available in Thrasher et al. (2022).\n\n\n\nSpatial pattern of years exceeding 2˚C warming (baseline 1950-1979) from the NEX-GDDP-CMIP6 ensemble over North America (source: NASA Earth Exchange)",
     "crumbs": [
       "Climate Datasets",
       "Climate Projection Data",
@@ -2218,7 +2233,7 @@
     "href": "datasets/climate_projection_data/NEX-GDDP-CMIP6.html#dataset-characteristics",
     "title": "NEX-GDDP-CMIP6",
     "section": "Dataset Characteristics",
-    "text": "Dataset Characteristics\n\nCurrent version: (v2.0)[https://www.nccs.nasa.gov/sites/default/files/NEX-GDDP-CMIP6-v2-Tech_Note.pdf]\nTemporal coverage: 1950–2100\nTemporal resolution: daily\nSpatial coverage: global\nSpatial resolution: 0.25 degree\nData type: netCDF\nWeb references:  NASA website\nReference publications: Thrasher et al. (2022),",
+    "text": "Dataset Characteristics\n\nCurrent version: v2.0\nTemporal coverage: 1950–2100\nTemporal resolution: daily\nSpatial coverage: global\nSpatial resolution: 0.25 degree\nData type: Bias-adjusted climate projections\nWeb references:  NASA website\nReference publications: Thrasher et al. (2022)",
     "crumbs": [
       "Climate Datasets",
       "Climate Projection Data",
@@ -2230,7 +2245,7 @@
     "href": "datasets/climate_projection_data/NEX-GDDP-CMIP6.html#strengths-and-limitations",
     "title": "NEX-GDDP-CMIP6",
     "section": "Strengths and Limitations",
-    "text": "Strengths and Limitations\n\nKey Strengths of NEX-GDDP-CMIP6\n\n\n\n\n\n\n\nStrength\nDescription\n\n\n\n\nMulti-Model Ensemble\nOne member of each available GCM was adjusted to give all models equal representation.\n\n\nMultiple emission scenarios\nThe ensemble includes simulations driven by four different emission scenarios, which allows it to span a wide range of possible futures.\n\n\nMultiple variables\nNine variables have been adjusted.\n\n\n\n\n\nKey Limitations of NEX-GDDP-CMIP6\n\n\n\n\n\n\n\nLimitation\nDescription\n\n\n\n\nLower resolution\nThe resolution is not as high compared to other bias-adjusted datasets.",
+    "text": "Strengths and Limitations\n\nKey Strengths of NEX-GDDP-CMIP6\n\n\n\n\n\n\n\nStrength\nDescription\n\n\n\n\nMulti-Model Ensemble\nThe ensemble was composed by choosing one member of each available GCM for bias-adjustment to give all models equal representation.\n\n\nMultiple emission scenarios\nSimulations driven by four different emission scenarios were processed to span a wide range of possible futures.\n\n\nMultiple variables\nNine variables from the simulations were adjusted.\n\n\n\n\n\nKey Limitations of NEX-GDDP-CMIP6\n\n\n\n\n\n\n\nLimitation\nDescription\n\n\n\n\nLower resolution\nThe resolution is relatively low compared to other bias-adjusted datasets, although it is improved compared to the GCM’s resolution.\n\n\nFew references\nThere is little documented experience using this dataset over Canada.",
     "crumbs": [
       "Climate Datasets",
       "Climate Projection Data",
@@ -2242,7 +2257,7 @@
     "href": "datasets/climate_projection_data/NEX-GDDP-CMIP6.html#expert-guidance",
     "title": "NEX-GDDP-CMIP6",
     "section": "Expert Guidance",
-    "text": "Expert Guidance\n\n\n\n\n\n\nNoneClick to toggle section collapse\n\n\n\n\n\nNEX-GDDP-CMIP6 stands out from other bias-adjusted datasets as it covers the whole globe, not only a small domain, and it adjusts 9 variables (tas, tasmax, tasmin, pr, hurs, huss, rlds, rsds, sfcWind).\nThe authors of the dataset highlight a few limitations. First, there is a possible underestimations of the extremes due to diffusion over the spatial distribution when performing the statistical downscaling. Second, the method (like all bias-adjustment methods) makes the assumption that the relative spatial patterns will remain constant under future climate change. Third, the frequency of extremes is not adjusted. The information from the GCM is kept. Fourth, the dataset might not be realistic over smaller islands as the reference dataset (GMFD) have not been validated over the oceans.\nSimilarly to ESPO-G6, the trend of the GCMs is preserved in the bias-adjusted product. This means that “the hot model problem” (Hausfather et al. (2022)) will also be present for this dataset. However, the authors of the dataset provide no guidance on this issue. should this be in a general section ?.\nNote that the SSP5-8.5 scenario is available for this dataset. According to the recommendation of Working Group III, this scenario is currently considered unlikely.\nThe dataset has 35 different models, but not all models are available for all variables and emissions scenarios. The inclusion or exclusion of some models might affect the results when comparing subgroups who don’t have the same members.\nNote that some of that data ended up in a non-physical range, either because of the bias-adjustement method and/or the initial data was already out-of-range. In these rare cases, the extremes values were clipped to a physical limit.\nThe dataset is accompanied by the following warning: “This dataset is intended for use in scientific research only, and use of this dataset for other purposes, such as commercial applications, and engineering or design studies is not recommended without consultation with a qualified expert.”",
+    "text": "Expert Guidance\n\n\n\n\n\n\nNoneClick to toggle section collapse\n\n\n\n\n\nNEX-GDDP-CMIP6 stands out from other bias-adjusted datasets as it covers the whole globe, not only a small domain, and it adjusts 9 variables (mean temperature, maximum temperatur, minimum temperature, precipitation, relative humidity, specific humidity, long wave downwelling radiation, short wave downwelleing radiation, near surface wind speed).\nThe authors of the dataset highlight a few limitations. First, there is a possible underestimations of the extremes due to diffusion over the spatial distribution ??? I don’t understand what that means. when performing the statistical downscaling. Second, the method (like all bias-adjustment methods) makes the assumption that the relative spatial patterns will remain constant under future climate change. Third, the frequency of extremes is not adjusted. The information from the GCM is kept. Fourth, the dataset might not be realistic over smaller islands as the reference dataset (GMFD) has not been validated over oceans.\nSimilarly to ESPO-G6, the trend of the GCMs is preserved in the bias-adjusted product. This means that “the hot model problem” (Hausfather et al. (2022)) will also be present for this dataset. However, the authors of the dataset provide no guidance on this issue. should this be in the general section ?.\nNote that the SSP5-8.5 scenario is available for this dataset. According to the recommendation of Working Group III, this scenario is currently considered unlikely. This should be addressed in the general section and referenced here?.\nThe dataset is composed of 35 different models, but not all models are available for all variables and emissions scenarios. The inclusion or exclusion of some models might affect the results when comparing subgroups who don’t have the same members.\nNote that some of that data ended up in a non-physical range, either because of the bias-adjustement method and/or the initial data was already out-of-range. In these rare cases, the extremes values were clipped to a physically plausible limit.\nThe dataset is accompanied by the following warning: “This dataset is intended for use in scientific research only, and use of this dataset for other purposes, such as commercial applications, and engineering or design studies is not recommended without consultation with a qualified expert.”",
     "crumbs": [
       "Climate Datasets",
       "Climate Projection Data",
@@ -2266,7 +2281,7 @@
     "href": "datasets/climate_projection_data/NEX-GDDP-CMIP6.html#available-variables-in-nex-gddp-cmip6",
     "title": "NEX-GDDP-CMIP6",
     "section": "Available Variables in NEX-GDDP-CMIP6",
-    "text": "Available Variables in NEX-GDDP-CMIP6\nFor details click on variable group to uncollapse\n\n\n\n\n\n\nNoneTemperature\n\n\n\n\n\n- Daily Near-Surface Air Temperature (tas) [K]\n- Daily Maximum Near-Surface Air Temperature (tasmax) [K]\n- Daily Minimum Near-Surface Air Temperature (tasmin) [K]\n\n\n\n\n\n\n\n\n\nNonePrecipitation\n\n\n\n\n\n- Precipitation (mean of the daily precipitation rate, pr) [kg m-2 s-1]\n\n\n\n\n\n\n\n\n\nNoneHumidity\n\n\n\n\n\n- Near-Surface Relative Humidity (hurs) [%]\n- Near-Surface Specific Humidity (huss) [dimensionless ratio (kg/kg)]\n\n\n\n\n\n\n\n\n\nNoneRadiation\n\n\n\n\n\n- Surface Downwelling Longwave Radiation (rlds) [W m-2]\n- Surface Downwelling Shortwave Radiation (rsds) [W m-2]\n\n\n\n\n\n\n\n\n\nNoneWind\n\n\n\n\n\n- Daily-Mean Near-Surface Wind Speed (sfcWind) [m s-1]",
+    "text": "Available Variables in NEX-GDDP-CMIP6\nFor details click on variable group to uncollapse\n\n\n\n\n\n\nNoneTemperature\n\n\n\n\n\n\nDaily Near-Surface Air Temperature (tas) [K]\nDaily Maximum Near-Surface Air Temperature (tasmax) [K]\nDaily Minimum Near-Surface Air Temperature (tasmin) [K]\n\n\n\n\n\n\n\n\n\n\nNonePrecipitation\n\n\n\n\n\n\nPrecipitation (average daily precipitation rate, pr) [kg m-2 s-1]\n\n\n\n\n\n\n\n\n\n\nNoneHumidity\n\n\n\n\n\n\nNear-Surface Relative Humidity (hurs) [%]\nNear-Surface Specific Humidity (huss) [dimensionless ratio (kg/kg)]\n\n\n\n\n\n\n\n\n\n\nNoneRadiation\n\n\n\n\n\n\nSurface Downwelling Longwave Radiation (rlds) [W m-2]\nSurface Downwelling Shortwave Radiation (rsds) [W m-2]\n\n\n\n\n\n\n\n\n\n\nNoneWind\n\n\n\n\n\n\nDaily-Mean Near-Surface Wind Speed (sfcWind) [m s-1]",
     "crumbs": [
       "Climate Datasets",
       "Climate Projection Data",
@@ -2278,7 +2293,7 @@
     "href": "datasets/climate_projection_data/NEX-GDDP-CMIP6.html#data-access",
     "title": "NEX-GDDP-CMIP6",
     "section": "Data Access",
-    "text": "Data Access\nData can be accessed through Amazon Web Services (AWS) or THREDDS. Instructions are available here: https://www.nccs.nasa.gov/services/data-collections/land-based-products/nex-gddp-cmip6",
+    "text": "Data Access\nData can be accessed through Amazon Web Services (AWS) or THREDDS to allow for subsetting of the very large dataset. Instructions are provided by the NASA Center for Climate Simulations - NCCS.",
     "crumbs": [
       "Climate Datasets",
       "Climate Projection Data",
@@ -2290,7 +2305,7 @@
     "href": "datasets/climate_projection_data/NEX-GDDP-CMIP6.html#references",
     "title": "NEX-GDDP-CMIP6",
     "section": "References",
-    "text": "References\n\n\nHausfather, Z., Marvel, K., Schmidt, G.A., Nielsen-Gammon, J.W., Zelinka, M., 2022. Climate simulations: Recognize the ’hot model’ problem. Nature 605, 26–29. https://doi.org/10.1038/d41586-022-01192-2\n\n\nThrasher, B., Wang, W., Michaelis, A., Melton, F., Lee, T., Nemani, R., 2022. NASA global daily downscaled projections, CMIP6. Sci. Data 9, 262.",
+    "text": "References\n\n\nHausfather, Z., Marvel, K., Schmidt, G.A., Nielsen-Gammon, J.W., Zelinka, M., 2022. Climate simulations: Recognize the ’hot model’ problem. Nature 605, 26–29. https://doi.org/10.1038/d41586-022-01192-2\n\n\nThrasher, B., Wang, W., Michaelis, A., Melton, F., Lee, T., Nemani, R., 2022. NASA global daily downscaled projections, CMIP6. Scientific Data 9, 262. https://doi.org/10.1038/s41597-022-01393-4",
     "crumbs": [
       "Climate Datasets",
       "Climate Projection Data",
@@ -2298,11 +2313,11 @@
     ]
   },
   {
-    "objectID": "datasets/climate_projection_data/CORDEX_Dataset.html",
-    "href": "datasets/climate_projection_data/CORDEX_Dataset.html",
-    "title": "Climate Data for the Electricity Sector",
+    "objectID": "datasets/climate_projection_data/CORDEX.html",
+    "href": "datasets/climate_projection_data/CORDEX.html",
+    "title": "Coordinated Regional Downscaling Experiment - CORDEX",
     "section": "",
-    "text": "This is a generated draft, do not review yet! # Coordinated Regional Downscaling Experiment - CORDEX",
+    "text": "The COordinated Regional Downscaling EXperiment (CORDEX) is a framework of the World Climate Research Program (WRCP) aimed at the production and evaluation of regional climate model projections. CORDEX is based on the vision of advancing and coordinating the science and application of regional climate downscaling. Through global partnerships it works to achieve its goals to better understand regional and local climate phenomena, improve and evaluate regional downscaling models and techniques, produce coordinated sets of regional downscaled projections, and to promote communication and knowlege exchange with users of regional climate information. The regional projections are produded over 14 domains covering most of the Earth’s major land masses (see figure below). The CORDEX ensemble providing downscaled CMIP6 global climate model simulations for the North American domain provides a subset of the CMIP6 models simulations, and continues to grow as teams contribute their RCM simulations. The previous generation of CORDEX downscaled CMIP5 simulations from 7 GCMs using 9 differen RCMs, filling a sparse matrix of simulations at 3 different spatial resolution and using 3 differnt RCPs.\n\n\n\nMap of the 14 CORDEX domains (source: CORDEX-CMIP5)",
     "crumbs": [
       "Climate Datasets",
       "Climate Projection Data",
@@ -2310,11 +2325,11 @@
     ]
   },
   {
-    "objectID": "datasets/climate_projection_data/CORDEX_Dataset.html#summary-description",
-    "href": "datasets/climate_projection_data/CORDEX_Dataset.html#summary-description",
-    "title": "Climate Data for the Electricity Sector",
-    "section": "Summary Description",
-    "text": "Summary Description\nCORDEX provides downscaled projections of variables such as temperature, precipitation, and wind for multiple continental domains, enhancing the usability of global model data for regional infrastructure planning.\nIt is widely used for hydropower, energy demand forecasting, and climate impact analysis in electricity system planning. The CORDEX (Coordinated Regional Downscaling Experiment) initiative, under the World Climate Research Programme (WCRP), provides regional climate projections derived from downscaling CMIP5 and CMIP6 global climate model outputs.\nIts goal is to produce high-resolution regional climate data to support impact studies, risk assessments, and adaptation planning.\nKey features include:\n\nHigh-resolution regional grids (~0.11° to 0.44°)\n\nBias-corrected or raw outputs for different regions\n\nMulti-model ensembles for robust uncertainty analysis\n\n\n\n\n\nExample CORDEX domain map (source: Giorgi et al., 2009)",
+    "objectID": "datasets/climate_projection_data/CORDEX.html#summary-description",
+    "href": "datasets/climate_projection_data/CORDEX.html#summary-description",
+    "title": "Coordinated Regional Downscaling Experiment - CORDEX",
+    "section": "",
+    "text": "The COordinated Regional Downscaling EXperiment (CORDEX) is a framework of the World Climate Research Program (WRCP) aimed at the production and evaluation of regional climate model projections. CORDEX is based on the vision of advancing and coordinating the science and application of regional climate downscaling. Through global partnerships it works to achieve its goals to better understand regional and local climate phenomena, improve and evaluate regional downscaling models and techniques, produce coordinated sets of regional downscaled projections, and to promote communication and knowlege exchange with users of regional climate information. The regional projections are produded over 14 domains covering most of the Earth’s major land masses (see figure below). The CORDEX ensemble providing downscaled CMIP6 global climate model simulations for the North American domain provides a subset of the CMIP6 models simulations, and continues to grow as teams contribute their RCM simulations. The previous generation of CORDEX downscaled CMIP5 simulations from 7 GCMs using 9 differen RCMs, filling a sparse matrix of simulations at 3 different spatial resolution and using 3 differnt RCPs.\n\n\n\nMap of the 14 CORDEX domains (source: CORDEX-CMIP5)",
     "crumbs": [
       "Climate Datasets",
       "Climate Projection Data",
@@ -2322,11 +2337,11 @@
     ]
   },
   {
-    "objectID": "datasets/climate_projection_data/CORDEX_Dataset.html#dataset-characteristics",
-    "href": "datasets/climate_projection_data/CORDEX_Dataset.html#dataset-characteristics",
-    "title": "Climate Data for the Electricity Sector",
+    "objectID": "datasets/climate_projection_data/CORDEX.html#dataset-characteristics",
+    "href": "datasets/climate_projection_data/CORDEX.html#dataset-characteristics",
+    "title": "Coordinated Regional Downscaling Experiment - CORDEX",
     "section": "Dataset Characteristics",
-    "text": "Dataset Characteristics\n\nCurrent version: CMIP6-driven CORDEX (2020–present)\n\nTemporal coverage: Historical (1950–2014) and future (2015–2100)\n\nTemporal resolution: Daily, monthly, and annual\n\nSpatial coverage: Multiple continental domains (e.g., EUR-11, NA-22, AFR-44)\n\nSpatial resolution: 0.11° (~12 km), 0.22° (~25 km), 0.44° (~50 km)\n\nData type: Gridded NetCDF (regional model output)\n\nWeb references:  Official CORDEX Portal CORDEX Data on ESGF\nReference publications: See references below",
+    "text": "Dataset Characteristics\n\nCurrent version: CORDEX-CMIP6\n\nTemporal coverage: 1950–2100\n\nTemporal resolution: from hourly to annually, all models provide daily. Dependent on model and CORDEX generation.\n\nSpatial coverage: 14 continental domains\n\nSpatial resolution: 0.11° (~12 km), 0.22° (~25 km), 0.44° (~50 km); availability depends on models and CORDEX generation.\n\nData type: raw model outputs and bias-adjuste climate projections\n\nWeb references:  CORDEX Portal CORDEX North America web site Current CORDEX Domain Activities\nReference publications: See references below",
     "crumbs": [
       "Climate Datasets",
       "Climate Projection Data",
@@ -2334,11 +2349,11 @@
     ]
   },
   {
-    "objectID": "datasets/climate_projection_data/CORDEX_Dataset.html#strengths-and-limitations",
-    "href": "datasets/climate_projection_data/CORDEX_Dataset.html#strengths-and-limitations",
-    "title": "Climate Data for the Electricity Sector",
+    "objectID": "datasets/climate_projection_data/CORDEX.html#strengths-and-limitations",
+    "href": "datasets/climate_projection_data/CORDEX.html#strengths-and-limitations",
+    "title": "Coordinated Regional Downscaling Experiment - CORDEX",
     "section": "Strengths and Limitations",
-    "text": "Strengths and Limitations\n\nKey Strengths of CORDEX\n\n\n\n\n\n\n\nStrength\nDescription\n\n\n\n\nHigh Spatial Resolution\nResolves regional topography and local climate patterns better than GCMs.\n\n\nMulti-Model Ensembles\nUses multiple regional climate models (RCMs) and multiple GCM drivers.\n\n\nRegional Relevance\nProvides climate projections tailored to continental or national domains.\n\n\nSupports Impact Studies\nDirectly supports hydropower, urban, and energy risk assessments.\n\n\n\n\n\nKey Limitations of CORDEX\n\n\n\n\n\n\n\nLimitation\nDescription\n\n\n\n\nDomain-limited Coverage\nData is only available for specific continental domains, not truly global.\n\n\nBoundary Dependence\nQuality depends on the driving GCM and boundary conditions.\n\n\nLarge Data Volume\nHigh-resolution and multi-member ensembles require significant storage and processing.\n\n\nBiases Remain\nDownscaling reduces, but does not eliminate, GCM biases.",
+    "text": "Strengths and Limitations\n\nKey Strengths of CORDEX\n\n\n\n\n\n\n\nStrength\nDescription\n\n\n\n\nHigh Spatial Resolution\nRCMs resolve regional and local climate patterns better than GCMs, particularly in regions of small scale surface features such as mountain terrain and coastal areas.\n\n\nComparable Simulations\nCORDEX provides the framework to produce and provide comparable simulations following a shared producion protocol.\n\n\nMulti-Model Ensembles\nProvides simulations from multiple regional climate models (RCMs) driven by multiple GCMs.\n\n\n\n\n\nKey Limitations of CORDEX\n\n\n\n\n\n\n\nLimitation\nDescription\n\n\n\n\nReduced sampling\nLimited by computational capacities, RCM modeling centers will downscale a subset of GCMs only, thus CORDEX ensembles may not sample the full range of model uncertainty, and emission scenario uncertainty.\n\n\nTime Lag of Availability\nCORDEX data rely on GCM driving data, thus can only be produced after a new generation of GCM simulations have been made available. Hence, RCM ensembles lag behind the latest available GCM data.\n\n\nLarge Data Volume\nHigh-resolution and multi-member ensembles require significant storage and processing capacities.\n\n\nBiases Remain\nDynamical downscaling may reduce, but does not eliminate, GCM biases.",
     "crumbs": [
       "Climate Datasets",
       "Climate Projection Data",
@@ -2346,11 +2361,11 @@
     ]
   },
   {
-    "objectID": "datasets/climate_projection_data/CORDEX_Dataset.html#expert-guidance",
-    "href": "datasets/climate_projection_data/CORDEX_Dataset.html#expert-guidance",
-    "title": "Climate Data for the Electricity Sector",
+    "objectID": "datasets/climate_projection_data/CORDEX.html#expert-guidance",
+    "href": "datasets/climate_projection_data/CORDEX.html#expert-guidance",
+    "title": "Coordinated Regional Downscaling Experiment - CORDEX",
     "section": "Expert Guidance",
-    "text": "Expert Guidance\n\n\n\n\n\n\nNoneRecommendations for Electricity Sector Use\n\n\n\n\n\n\nUse bias-corrected CORDEX data for hydropower and temperature-dependent demand studies.\n\nCombine multiple RCMs and GCM drivers to represent uncertainty in electricity planning.\n\nDownscaled wind and temperature data are particularly useful for renewable integration and load projections.\n\nLink CORDEX projections to vulnerability and risk assessments for grid infrastructure and generation planning.",
+    "text": "Expert Guidance\n\n\n\n\n\n\nNoneClick to toggle section collapse\n\n\n\n\n\nThe COordinated Regional Downscaling EXperiment (CORDEX) ensembles of regional climate model (RCM) simulations provide historical climate simulations and projection data at finer spatial scales for impacts and adaptation work. As a global framework, CORDEX is a diagnostic MIP within CMIP that coordinates domains, protocols, and evaluation practices, emphasizing that RCMs inherit boundary-condition uncertainty from their driving GCMs and that ensemble interpretation must reflect this dependency (Gutowski Jr. et al. (2016)).\nCanada is covered by the North American domain and partially by the Arctic domain. North America CORDEX maintains its own website (NA-CORDEX) which covers the previous generation of RCM simulations that were driven by CMIP5 global simulations and updates for CMIP6 driven simulations are pending. The CORDEX ensemble is built from the contributions of regional modeling centers who choose the respective downscaling experiments they perform. Thus, not all RCMs will downscale the same, and certainly not all, GCM simulations. When using an RCM ensemble it must be noted that, by definition, it may sample a different uncertainty space compared to the driving CMIP ensemble.\nSystematic evaluations of over Europe showed credible continental-scale temperature and precipitation patterns and documented model-specific biases, illustrating the conditional “added value” of higher resolution for orography, coasts, and extremes (Kotlarski et al. (2014)). Lucas-Picher et al. (2017) explored dded value of the Canadian Regional Climate Model’s (CRCM5) simulations over North America. An evaluation of NA-CORDEX-CMIP5 by Bukovsky and Mearns (2020) shows that the downscaled NA-CORDEX ensemble reproduces well the CMIP5 global simulations projections and climate sensitivity. This holds for temperatures at local to continental scales, but only for continental scales for precipitation. The spread of the NA-CORDEX-CMIP5 ensemble is similar for temperature but larger for precipitation. A description of the NA-CORDEX data archive is provided by McGinnis and Mearns (2021), including bias-corrected simulations.\nPublished application of NA-CORDEX-CMIP5 in the energy sector include a study of climate change impacts on wind ressources (Chen (2020)) and a cooling and heating energy demand analysis (Tian et al. (2022)). Other studies and research using NA-CORDEX including hydrological studies can be found on the NA-CORDEX web site’s comprehensive bibliography.\nGenerally, the strengths of CORDEX are (i) finer resolution that can better represent topography, land–sea contrast, mesoscale circulations, and some extremes; (ii) coordinated protocols that enable multi-model, comparisons; and (iii) region-tailored ensemblesand the globally consistent CORDEX-CORE set for broad coverage.\nKey limitations include (i) the inheritance of GCM biases and scenarios — RCMs do not “fix” incorrect large-scale circulation; (ii) non-independence and sparse matrices—ensembles often have shared components and incomplete cross-pairings of GCMs and RCMs, so simple equal-weight means can be misleading; (iii) process and parameter uncertainties — convection, clouds, and land–atmosphere coupling remain challenging; and (iv) heterogeneous availability and formatting, especially during the CMIP6 transition, requiring careful selection, bias adjustment, and documentation checks.\nApplication of CORDEX should start from the most complete regional matrix available and verify evaluation runs (reanalyses-driven) to understand baseline skill. The selection of driving GCMs should span regional circulation patterns and sensitivities, and insure robustness by using multiple RCMs and multiple realizations where available. GCM selection approaches for CORDEX-CMIP6 have been documented by Di Virgilio et al. (2022) for Australia and by Sobolowski2025 for EURO-CORDEX.",
     "crumbs": [
       "Climate Datasets",
       "Climate Projection Data",
@@ -2358,11 +2373,11 @@
     ]
   },
   {
-    "objectID": "datasets/climate_projection_data/CORDEX_Dataset.html#example-applications",
-    "href": "datasets/climate_projection_data/CORDEX_Dataset.html#example-applications",
-    "title": "Climate Data for the Electricity Sector",
+    "objectID": "datasets/climate_projection_data/CORDEX.html#example-applications",
+    "href": "datasets/climate_projection_data/CORDEX.html#example-applications",
+    "title": "Coordinated Regional Downscaling Experiment - CORDEX",
     "section": "Example Applications",
-    "text": "Example Applications\nLinks to Electricity Sector Activities:\n\nElectricity System Planning – Improved regional demand and renewable resource forecasting\n\nOperations Planning – Assess regional hydropower inflows and extreme event risks\n\nInfrastructure Planning and Asset Management – Evaluate sub-national exposure to heatwaves, droughts, and storms\n\nAssurance and Reporting – Support climate risk disclosure for regional utilities",
+    "text": "Example Applications\nLinks to Electricity Sector Activities:",
     "crumbs": [
       "Climate Datasets",
       "Climate Projection Data",
@@ -2370,11 +2385,11 @@
     ]
   },
   {
-    "objectID": "datasets/climate_projection_data/CORDEX_Dataset.html#available-variables-in-cordex",
-    "href": "datasets/climate_projection_data/CORDEX_Dataset.html#available-variables-in-cordex",
-    "title": "Climate Data for the Electricity Sector",
+    "objectID": "datasets/climate_projection_data/CORDEX.html#available-variables-in-cordex",
+    "href": "datasets/climate_projection_data/CORDEX.html#available-variables-in-cordex",
+    "title": "Coordinated Regional Downscaling Experiment - CORDEX",
     "section": "Available Variables in CORDEX",
-    "text": "Available Variables in CORDEX\nClick on variable groups to uncollapse\n\n\n\n\n\n\nNoneSurface Air Temperature (tas)\n\n\n\n\n\nDaily and monthly mean near-surface temperature.\n\n\n\n\n\n\n\n\n\nNonePrecipitation (pr)\n\n\n\n\n\nTotal precipitation, essential for hydropower, flood, and drought assessment.\n\n\n\n\n\n\n\n\n\nNoneNear-Surface Wind Speed (sfcWind)\n\n\n\n\n\nSupports wind energy studies and storm risk assessment.\n\n\n\n\n\n\n\n\n\nNoneOther Variables\n\n\n\n\n\nIncludes humidity, radiation, soil moisture, and evaporation in some domains.",
+    "text": "Available Variables in CORDEX\nCORDEX regional models may produce variables from the the IPCC list of standard output from Coupled Ocean-Atmosphere GCMs. It comprises far over 100 different variables, and many more may be produced by a model (see the Climate and Forecast (CF) Standard Name Table). Depending on the model and its realizations, the respective list of available variables will be determined by the modeling center’s available resources and research focus. Hence, from some models many atmospheric and surface variables will be available, however the common denominator for most CORDEX model simulations will be the variables listed below.\nClick on variable groups to uncollapse\n\n\n\n\n\n\nNoneTemperature\n\n\n\n\n\nTemperature variables are provided at hourly to daily intervals, depending on the model and realization.\n\nmean temperature (day, 6hr, 3hr, 1hr) [K]\ndaily minimum temperature [K]\ndaily maximum temperature [K]\n\n\n\n\n\n\n\n\n\n\nNonePrecipitation\n\n\n\n\n\nPrecipitation is commonly provided as the sum of solid and liquid precipitation or as snowfall and variables are provided at hourly to daily intervals, depending on the model and realization.\n\nPrecipitation flux (day, 6hr, 3hr, 1hr) [kg m-2 s-1]\nSnowfall flux [kg m-2 s-1]\n\n\n\n\n\n\n\n\n\n\nNoneOther Variables\n\n\n\n\n\nOther variables often provided by a large number of models include:\n\nWind (estward, westward) [m s-1]\nSpecific or relative humidity [%]\nLongwave and shortwave radiation (downwelling and upwelling) [W m-2]\n\nFurther variables related to evaporation, runoff, and cloud cover may be available depending on the model.",
     "crumbs": [
       "Climate Datasets",
       "Climate Projection Data",
@@ -2382,11 +2397,11 @@
     ]
   },
   {
-    "objectID": "datasets/climate_projection_data/CORDEX_Dataset.html#data-access",
-    "href": "datasets/climate_projection_data/CORDEX_Dataset.html#data-access",
-    "title": "Climate Data for the Electricity Sector",
+    "objectID": "datasets/climate_projection_data/CORDEX.html#data-access",
+    "href": "datasets/climate_projection_data/CORDEX.html#data-access",
+    "title": "Coordinated Regional Downscaling Experiment - CORDEX",
     "section": "Data Access",
-    "text": "Data Access\n\nOfficial CORDEX Portal: https://cordex.org\n\nESGF Node for CORDEX: https://esgf-node.llnl.gov/search/cordex/\n\nCopernicus CDS (subset): https://cds.climate.copernicus.eu/",
+    "text": "Data Access\nThe web portal for CORDEX North America provides information for data access, pointing to NCAR’s Goescience Data Exchange and respective Earth System Grid Federation (ESGF) Federated Metagrid Nodes. The CMIP6 driven simulations using the Canadian Regional Climate Model (CRCM) add reference when available are available on PAVICS for the North American continent. To avoid downloading very large datasets in their entirety PAVICS allows partial/regional extraction and provides tutorials to do so. With a free PAVICS user account, the Jupyter notebook with the Python code from the tutorials can be directly used on PAVICS.",
     "crumbs": [
       "Climate Datasets",
       "Climate Projection Data",
@@ -2394,11 +2409,11 @@
     ]
   },
   {
-    "objectID": "datasets/climate_projection_data/CORDEX_Dataset.html#references",
-    "href": "datasets/climate_projection_data/CORDEX_Dataset.html#references",
-    "title": "Climate Data for the Electricity Sector",
+    "objectID": "datasets/climate_projection_data/CORDEX.html#references",
+    "href": "datasets/climate_projection_data/CORDEX.html#references",
+    "title": "Coordinated Regional Downscaling Experiment - CORDEX",
     "section": "References",
-    "text": "References",
+    "text": "References\n\n\nBukovsky, M.S., Mearns, L.O., 2020. Regional climate change projections from NA-CORDEX and their relation to climate sensitivity. Climatic Change 162, 645–665. https://doi.org/10.1007/s10584-020-02835-x\n\n\nChen, L., 2020. Impacts of climate change on wind resources over north america based on NA-CORDEX. Renewable Energy 153, 1428–1438. https://doi.org/https://doi.org/10.1016/j.renene.2020.02.090\n\n\nDi Virgilio, G., Ji, F., Tam, E., Nishant, N., Evans, J.P., Thomas, C., Riley, M.L., Beyer, K., Grose, M.R., Narsey, S., Delage, F., 2022. Selecting CMIP6 GCMs for CORDEX dynamical downscaling: Model performance, independence, and climate change signals. Earth’s Future 10, e2021EF002625. https://doi.org/https://doi.org/10.1029/2021EF002625\n\n\nGutowski Jr., W.J., Giorgi, F., Timbal, B., Frigon, A., Jacob, D., Kang, H.-S., Raghavan, K., Lee, B., Lennard, C., Nikulin, G., O’Rourke, E., Rixen, M., Solman, S., Stephenson, T., Tangang, F., 2016. WCRP COordinated regional downscaling EXperiment (CORDEX): A diagnostic MIP for CMIP6. Geoscientific Model Development 9, 4087–4095. https://doi.org/10.5194/gmd-9-4087-2016\n\n\nKotlarski, S., Keuler, K., Christensen, O.B., Colette, A., Déqué, M., Gobiet, A., Goergen, K., Jacob, D., Lüthi, D., Meijgaard, E. van, Nikulin, G., Schär, C., Teichmann, C., Vautard, R., Warrach-Sagi, K., Wulfmeyer, V., 2014. Regional climate modeling on european scales: A joint standard evaluation of the EURO-CORDEX RCM ensemble. Geoscientific Model Development 7, 1297–1333. https://doi.org/10.5194/gmd-7-1297-2014\n\n\nLucas-Picher, P., Laprise, R., Winger, K., 2017. Evidence of added value in north american regional climate model hindcast simulations using ever-increasing horizontal resolutions. Climate Dynamics 48, 2611–2633. https://doi.org/10.1007/s00382-016-3227-z\n\n\nMcGinnis, S., Mearns, L., 2021. Building a climate service for north america based on the NA-CORDEX data archive. Climate Services 22, 100233. https://doi.org/https://doi.org/10.1016/j.cliser.2021.100233\n\n\nTian, C., Huang, G., Piwowar, J.M., Yeh, S.-C., Lu, C., Duan, R., Ren, J., 2022. Stochastic RCM-driven cooling and heating energy demand analysis for residential building. Renewable and Sustainable Energy Reviews 153, 111764. https://doi.org/https://doi.org/10.1016/j.rser.2021.111764",
     "crumbs": [
       "Climate Datasets",
       "Climate Projection Data",
@@ -2542,7 +2557,7 @@
     "href": "datasets/climate_projection_data/ESPO-G6.html#dataset-characteristics",
     "title": "ESPO-G6",
     "section": "Dataset Characteristics",
-    "text": "Dataset Characteristics\n\nCurrent version: 1.0.0\nTemporal coverage: 1950-2100\nTemporal resolution: daily, noleap or 360_day calendar\nSpatial coverage: North American domain from 179.9°W to 10.0°W and from 10.0°N to 83.3°N, only on land.\nSpatial resolution: 0.1°\nData type: Bias-adjusted climate projections\nWeb references:  Ouranos Ensemble of Bias-adjusted Simulations - Global models CMIP6 - CaSR v2.1\nReference publications:  See references below",
+    "text": "Dataset Characteristics\n\nCurrent version: 1.0.0\nTemporal coverage: 1950-2100\nTemporal resolution: daily, noleap or 360_day calendar\nSpatial coverage: North American domain from 179.9°W to 10.0°W and from 10.0°N to 83.3°N, only on land.\nSpatial resolution: 0.1°\nData type: Bias-adjusted climate projections\nWeb references:  Ouranos’ Ensemble of Bias-adjusted Simulations - Global models CMIP6 - CaSR v2.1\nReference publications:  See references below",
     "crumbs": [
       "Climate Datasets",
       "Climate Projection Data",
@@ -2578,7 +2593,7 @@
     "href": "datasets/climate_projection_data/ESPO-G6.html#example-applications",
     "title": "ESPO-G6",
     "section": "Example Applications",
-    "text": "Example Applications\nlinks to Electricity Sector Activities - Electricity System Planning – Demand and generation forecasts under climate change\n- Operations Planning – Assess risks to hydropower operations from variability and extremes\n- Infrastructure Planning and Asset Management – Evaluate long-term exposure to extreme heat and drought for transmission lines and cooling water supply\n- Assurance and Reporting – Provide climate risk evidence for ESG and regulatory disclosures",
+    "text": "Example Applications\nlinks to Electricity Sector Activities",
     "crumbs": [
       "Climate Datasets",
       "Climate Projection Data",
