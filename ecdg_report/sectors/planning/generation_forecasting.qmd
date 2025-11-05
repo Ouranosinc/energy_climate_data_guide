@@ -7,13 +7,10 @@ bibliography: generation_forecasting_references.bib
 <!--- This is the template for the structure of all sector activity description pages. This is a comment not shown in the quarto website --->
 
 ## Summary Description
-:::{#id1 .callout collapse="true"}
 ### Overview
 Electricity generation forecasting under climate change is essential for maintaining a sustainable and reliable power supply. It is required to incorporate climate information in electricity generation and capacity planning. However, a gap remains between advancements in climate data products, models, and analytical methods, and their application in industry practices for planning and implementing generation forecasts. This section bridges that gap by presenting tools and techniques used in both academic research and industry.
 
 The first sub-section outlines the role of climate data and the importance of accounting for its future variations in electricity systems and generation forecasting. The second sub-section describes the climate data products and variables used, along with the methods applied for their analysis, such as downscaling and bias correction before integrating them into generation forecasting models. And then, predictive models or methods tailored to specific generation types is discussed. Additionally, this section summarizes the current status of electricity generation entities in Canada, based primarily on insights gathered during workshops with industry stakeholders. The following section examines projected changes in electricity generation for future periods under various emission scenarios from a Canadian perspective. Finally, gaps and recommendations are presented regarding the use of climate variables, models, and methods for generation forecasting, as well as their interactions with other sectors.
-
-:::
 
 ## Role in the Electricity System
 :::{#id1 .callout collapse="true"} 
@@ -28,11 +25,19 @@ The purpose of this document is to provide practitioners with guidance on select
 
 :::{#id1 .callout collapse="true"}
 ### Climate data processing methods
-The analysis of climate change (CC) impacts on electricity generation systems (EGSs) is not straightforward. It follows several steps (see Figure 1), including the acquisition, emission scenarios selection, preparation of appropriate climate data, and model investigations for CC impact analysis on the EGS. Climate data can be collected from many sources, including the most common platform, the Coupled Model Intercomparison Project (CMIP) (@plaga_methods_2023). The CMIP has different release versions, including CMIP3, CMIP5, and CMIP6. The climate projections vary according to the greenhouse gas (GHG) emission scenario, which depicts the influence of anthropogenic climate change. The most common scenarios used to investigate CC impacts on EGSs are A2 (most pessimistic), A1B (moderate), and B1 (most optimistic) from CMIP3, RCP2.6 (low emission), RCP4.5 (medium emission), and RCP8.5 (high emission) from CMIP5, and SSP1-2.6 (low emission), SSP2-4.5 (moderate), SSP3-7.0 (high emission with limited economic growth), and SSP5-8.5 (high emission with strong economic growth) from CMIP6. Depending on the purpose of the analysis, various scenario projections are used for evaluating climate change.
+The analysis of climate change (CC) impacts on electricity generation systems (EGSs) is not straightforward. It follows several steps (see Figure 1), including the acquisition, emission scenarios selection, preparation of appropriate climate data, and model investigations for CC impact analysis on the EGS. Climate data can be collected from many sources, including the most common platform, the Coupled Model Intercomparison Project (CMIP) (@plaga_methods_2023). The [climate projections](../../datasets/climate_projection_data/Climate_Projection_Datasets.ipynb) vary according to the greenhouse gas (GHG) emission scenario, which depicts the influence of anthropogenic climate change. Depending on the purpose of the analysis, various scenario projections are used for evaluating climate change.
 
 ![Figure 1. Process flow diagram of climate change impact assessment for electricity generation systems](image/Climate_change_impact_assessment.png)
 
-Climate data are obtained from global circulation models (GCMs). These models provide climate projections with a coarse spatial resolution (e.g., 100 km x 100 km), which is impractical for CC impact analysis on EGSs at the regional to local scale. Therefore, it is required to downscale the GCMs' projections to at least the regional scale. Statistical and dynamic downscaling are the two most common methods for spatially downscaling the projections of GCMs. In most cases, statistical downscaling methods are applied to obtain desired finer-resolution climate variables. These methods are based on statistical or empirical relationships and require less computational effort than dynamic methods (@plaga_methods_2023). In recent years, machine learning methods (e.g., RFQ and QRF) have been utilized for statistical downscaling of hydro-meteorological variables from CMIP6 (@zhang_assessment_2022). On the other hand, dynamic downscaling has a complex design structure and a huge computational demand. This type of downscaling is embedded in regional climate models (RCMs) that utilize GCM outputs and lateral boundary conditions to generate regional-scale climate variable projections (@zhang_assessment_2022). Some climate data providers have established methods that can simultaneously bias correct and spatially disaggregate climate data from GCMs. For example, the Bureau of Reclamation has developed a monthly bias-correction and spatial disaggregation (BCSD) method to downscale and bias correct the CMIP5-GCMs data (@turner_climate_2017). Some studies have employed standalone bias correction methods that compare climate projections with observations in the reference period and generate coefficients to correct future predictions. This type of statistical method assumes stationarity; however, climate variable projections are nonstationary, and that could add additional uncertainty (@plaga_methods_2023). A good comparison between statistical and dynamic downscaling methods in terms of their strength and weaknesses is provided in the study of @wilby_sdsm_2002.
+Climate data are obtained from global circulation models (GCMs). These models provide climate projections with a coarse spatial resolution (e.g., 100 km x 100 km), which is impractical for CC impact analysis on EGSs at the regional to local scale. Therefore, it is required to [downscale the GCMs' projections](../../datasets/climate_projection_data/Climate_Projection_Datasets.ipynb) to at least the regional scale. Statistical and dynamic downscaling are the two most common methods for spatially downscaling the projections of GCMs. 
+
+The figure below briefly resumes decision-making challenges faced by professionals in the generation forecasting sector of the electricity system in Canada. These challenges were shared during the [workshops](../../workshops/intro_workshops.ipynb) held in 2025. These examples linked together the methods and models as well as characteristics presented in the following section such as [ key climate inputs](#key-climate-inputs).
+
+<iframe width="768" height="640"  data-external="1" src="https://miro.com/app/live-embed/uXjVINO7YDw=/?focusWidget=3458764634255773971&embedMode=view_only_without_ui&embedId=688029417831" frameborder="0" scrolling="no" allow="fullscreen; clipboard-read; clipboard-write" allowfullscreen></iframe>
+
+As showed in the figure, hydrologic model (e.g., WATFLOOD) calibration relies on bias-corrected reanalysis datasets such as [ESPO-G6](../../datasets/climate_projection_data/ESPO-G6.ipynb), which requires corrected precipitation and temperature data. Validation of these datasets is typically performed against observations from Environment and Climate Change Canada (ECCC) stations, internal networks, or the Water Survey of Canada. Validation is important, for example some internally interpolated datasets have been noted to produce less reliable results when compared to inflows. For future climate projections, GCM/RCM ensembles are commonly used along with multiple scenarios to capture a range of possible outcomes. Some of these dataset are accessed via [Pavics](https://pavics.ouranos.ca/). Short-term forecasts (up to 4 hours), hourly zonal climate variables, and bias-corrected wind speed and solar irradiance are emphasized for wind and solar forecasting. Care is taken to avoid overestimating renewable supply, and model compatibility across different climate data sources is verified to ensure reliable integration into operational planning.
+
+Some electricity generation entities do not use climate change information at all or do not consider potential future climate impacts. Others integrate climate data to quantify projected changes in inflows to generating stations over the next 100 years. Electricity generation entities rely on temperature data (hourly, daily min/max, seasonal averages), wind speed and gusts, solar irradiance, humidity, and cloud cover, often by specific zones. Precipitation data include rainfall, wet snow, freezing rain, snowpack, and extreme storm events (e.g., 100-year floods), with evaporation, lake water temperature, and atmospheric moisture also considered for hydropower planning. These data feed into generation profiles for wind and solar, hydro inflow forecasts, and hydraulic models, alongside watershed-scale precipitation and river flow patterns.
 
 :::
 
@@ -117,32 +122,55 @@ Surface shortwave radiation, typically extracted from global climate models (GCM
 
 :::{#id1 .callout collapse="true"}
 ### Non-Climate Inputs
-- Input A - Description (add links)
-- Input B - Description 
+#### Common Inputs
+- **Installed and available capacity** refers to the rated power output that a generating unit can deliver under standard conditions. It defines the upper boundary of possible generation and serves as the baseline for estimating how climate-induced degradings may affect system adequacy. 
+- **Efficiency and performance characteristics** describe the technical conversion efficiency of turbines or generators from the relationship between available energy resources and electricity output.
+- **Operational constraints** affect real-time generation availability due to maintenance schedule and forced outages. It also includes equipment unavailability or partial operation due to mechanical failure or ambient stress. These are often expressed as equivalent foreced-outage rates.
 
+#### Hydropower
+- **Dam specifications** includes elevation-area-volume relationships, spillway and turbine capacities, and head-discharge characteristics.
+- **Operation rule** describes reservoir water release schedules, flood control requirements, minimum ecological flows, and water allocations to other sectors.
+
+#### Wind Energy
+- **Wind turbine** configuration parameters determines the power curve that maps wind velocity to electricity generation.
+
+#### Solar Energy
+- **Module and inverter specifications**
+
+#### Thermal Energy
+- **Cooling system** is related to thermal efficiency.
+- **Fuel prices and supply conditions** drives dispatch decisions for thermal plants.
 :::
 
 :::{#id1 .callout collapse="true"}
 ### Model Outputs
-- Output A - Description [Link_activities]
+- **Electricity generation (MWh or GWh)** represents the amount of electrical energy produced over a defined period (e.g., sub-hourly, hourly, daily, monthly, or annual scales)
+- **Capacity factor** is the ratio of actual electricity generated to the theoretical maximum if the plant operated at full capacity continuously.
+- **Firm capacity** measures the portion of installed capacity that can reliably produce power.
+- **Derated capacity** indicates the maximum output after accounting for forced outages, maintenance, and environmental deratings.
 
 :::
 
 :::{#id1 .callout collapse="true"}
 ### Temporal Resolution
-Description 
+- **Hydropower** models typically operate at daily to monthly time steps. Daily or sub-daily resolution captures hydrologic variability, while monthly or seasonal resolution is used for strategic reservoir operation and water resources allocation (@Parkinson2015, @kim_climate_2022, @Wasti2022).
+- **Wind and solar generation** forecasting models require hourly or sub-hourly time steps because of rapid variation in meteorological conditions (@yao_climate_2012, @Zhang2022).
+- **Thermal** power models generally use hourly data for dispatch and derating calculations (@Craig2018, @Wang2020).
 
 :::
 
 :::{#id1 .callout collapse="true"}
 ### Spatial Resolution
-Description 
+- **Hydropower** typically use basin or sub-basin scales corresponding to hydrologic catchments.
+- **Wind** projections use global or regional climate data, but further downscaled to turbine-site scales (e.g., 250 m in @Jung2022, 0.44° in @li_impact_2023).
+- **Solar** energy studies often use gridded satellite or RCM radiation datasets at 1–10 km resolution (@zhang_assessment_2022).
+- **Thermal** power and cooling assessments are conducted at plant site and river reach scales.
 
 :::
 
 :::{#id1 .callout collapse="true"}
 ### Frequency of Analysis
-Description 
+The frequency of analysis describes how often generation forecasts are produced, updated, or validated. It depends on the model's time horizon, planning objectives, and new data availability. In practice, short-term forecasts support daily operations, annual assessments guide reservoir and maintenance planning, and multi-year analyses inform investment and policy decisions.
 
 :::
 :::
@@ -151,7 +179,6 @@ Description
 ## Detailed Discussion
 :::{#id1 .callout collapse="true"} 
 ### Additional Information
-lorem ipsum bla bla
 :::
 
 ## Gaps and Recommendations
