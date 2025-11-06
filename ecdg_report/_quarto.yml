@@ -83,7 +83,7 @@ website:
               - text: CMIP6
                 href: datasets/climate_projection_data/CMIP6.ipynb
               - text: CORDEX
-                href: datasets/climate_projection_data/CORDEX_Dataset.ipynb
+                href: datasets/climate_projection_data/CORDEX.ipynb
               - datasets/climate_projection_data/ESPO-G6.ipynb
               - datasets/climate_projection_data/CanDCS-M6.ipynb
               - datasets/climate_projection_data/CanLEAD.ipynb
