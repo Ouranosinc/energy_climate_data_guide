@@ -908,7 +908,7 @@
     "href": "sectors/operations/vegetation_management.html",
     "title": "Vegetation Management",
     "section": "",
-    "text": "Support the enhancement of vegetation management programs to include changes in vegetation growth.",
+    "text": "Vegetation management (VM) incorporates many activities that provide safe and effective operations of power lines and other energy utilities. Examples of activities can range from tree pruning, removal of unwanted plants or fragile trees, selective clearing or pest control. The North American Electric Reliability Corporation (NERC) requires vegetation trimming around transmission lines. VM prevents contact between vegetation and equipment (which can cause fires and outages), maintaining clearances, but must also respect environment protection such as pesticide-free zones, protection of wildlife, control of invasive species and fire risk management. VM also incorporates monitoring activities and coordination with local stakeholders for land use management. Hydro-Quebec undertook 270,000 actions linked to vegetation management on its distribution network and clear their lines every 6 years. For its transmission grid, VM clearance occurs every 3 to 13 years. ((Hydro-Quebec2022?))\nClimate change directly impacts VM. Increasing temperatures in Canada are extending the growing season for vegetation, which might increase the need for tree pruning. Fragile and weakened vegetation might be more present due to increase in extreme heat events and decrease in rainfall frequency (Ontario Ministry of Energy (2024)). Many other climate events can impact VMs such as wind, lightning, freezing rain and storm. There is no clear signal for wind increase or decrease across Canada due to low model agreements (Gutiérrez et al. (2021)). Lightning frequency has increased in some areas of Canada with medium confidence (II (2022)). Studies have shown that freezing rain might increase in colder regions which are less prone to this phenomenon currently, and decrease in the southern region due to increase in temperatures (Gutiérrez et al. (2021), Ouranos (2024)). Species migration might also occur due to rising temperatures (e.g., a decrease in conifer biomass in the North and an increase of broadleaf species).\nMany attributions studies have shown that climate change made recent wildfires more likely, with Canadian events from 2023 being two times more likely to occur. Many factors influence forest fires as shown in the figure below; climate conditions that are hot, dry and windy (which will be more extreme and frequent due to climate change), ignitions (human activity or lightning) and fuel (vegetation types). Fire season is also starting earlier in spring and lasting longer in autumn with some zombies fire going through winter in British Columbia (rare occurrences).\n\n\n\nFire regime triangle taken from Climatedata.ca\n\n\nIn the triangle, weather has the most influence on flame behaviour since wind can increase fire temperature by feeding it in oxygen as well as propagate the flames and embers in unburned areas. Precipitation can stop a fire, and temperature can dry out fuel which can increase fire spread. There are four types of fuels : ground (beneath the surface and generally burn slowly), surface (e.g., pine needles or grass), ladder (e.g., tall shrubs or small trees; bring the fire up) and crown (treetops and canopy) (Canada Wildfire (2025)).\nThe section below describes the role of VM in the electricity system, methods and models used linked to forest fires, a detailed discussion, gaps & recommendations.",
     "crumbs": [
       "Electricity Sector Activities",
       "Operations Planning",
@@ -916,11 +916,11 @@
     ]
   },
   {
-    "objectID": "sectors/operations/vegetation_management.html#description",
-    "href": "sectors/operations/vegetation_management.html#description",
+    "objectID": "sectors/operations/vegetation_management.html#summary-description",
+    "href": "sectors/operations/vegetation_management.html#summary-description",
     "title": "Vegetation Management",
     "section": "",
-    "text": "Support the enhancement of vegetation management programs to include changes in vegetation growth.",
+    "text": "Vegetation management (VM) incorporates many activities that provide safe and effective operations of power lines and other energy utilities. Examples of activities can range from tree pruning, removal of unwanted plants or fragile trees, selective clearing or pest control. The North American Electric Reliability Corporation (NERC) requires vegetation trimming around transmission lines. VM prevents contact between vegetation and equipment (which can cause fires and outages), maintaining clearances, but must also respect environment protection such as pesticide-free zones, protection of wildlife, control of invasive species and fire risk management. VM also incorporates monitoring activities and coordination with local stakeholders for land use management. Hydro-Quebec undertook 270,000 actions linked to vegetation management on its distribution network and clear their lines every 6 years. For its transmission grid, VM clearance occurs every 3 to 13 years. ((Hydro-Quebec2022?))\nClimate change directly impacts VM. Increasing temperatures in Canada are extending the growing season for vegetation, which might increase the need for tree pruning. Fragile and weakened vegetation might be more present due to increase in extreme heat events and decrease in rainfall frequency (Ontario Ministry of Energy (2024)). Many other climate events can impact VMs such as wind, lightning, freezing rain and storm. There is no clear signal for wind increase or decrease across Canada due to low model agreements (Gutiérrez et al. (2021)). Lightning frequency has increased in some areas of Canada with medium confidence (II (2022)). Studies have shown that freezing rain might increase in colder regions which are less prone to this phenomenon currently, and decrease in the southern region due to increase in temperatures (Gutiérrez et al. (2021), Ouranos (2024)). Species migration might also occur due to rising temperatures (e.g., a decrease in conifer biomass in the North and an increase of broadleaf species).\nMany attributions studies have shown that climate change made recent wildfires more likely, with Canadian events from 2023 being two times more likely to occur. Many factors influence forest fires as shown in the figure below; climate conditions that are hot, dry and windy (which will be more extreme and frequent due to climate change), ignitions (human activity or lightning) and fuel (vegetation types). Fire season is also starting earlier in spring and lasting longer in autumn with some zombies fire going through winter in British Columbia (rare occurrences).\n\n\n\nFire regime triangle taken from Climatedata.ca\n\n\nIn the triangle, weather has the most influence on flame behaviour since wind can increase fire temperature by feeding it in oxygen as well as propagate the flames and embers in unburned areas. Precipitation can stop a fire, and temperature can dry out fuel which can increase fire spread. There are four types of fuels : ground (beneath the surface and generally burn slowly), surface (e.g., pine needles or grass), ladder (e.g., tall shrubs or small trees; bring the fire up) and crown (treetops and canopy) (Canada Wildfire (2025)).\nThe section below describes the role of VM in the electricity system, methods and models used linked to forest fires, a detailed discussion, gaps & recommendations.",
     "crumbs": [
       "Electricity Sector Activities",
       "Operations Planning",
@@ -928,181 +928,472 @@
     ]
   },
   {
-    "objectID": "sectors/operations/outage_scheduling.html",
-    "href": "sectors/operations/outage_scheduling.html",
-    "title": "Outage Scheduling",
-    "section": "",
-    "text": "Considerations for outage scheduling constraints due to predominately temperatures related events.",
-    "crumbs": [
-      "Electricity Sector Activities",
-      "Operations Planning",
-      "Outage Scheduling"
-    ]
-  },
-  {
-    "objectID": "sectors/operations/outage_scheduling.html#description",
-    "href": "sectors/operations/outage_scheduling.html#description",
-    "title": "Outage Scheduling",
-    "section": "",
-    "text": "Considerations for outage scheduling constraints due to predominately temperatures related events.",
-    "crumbs": [
-      "Electricity Sector Activities",
-      "Operations Planning",
-      "Outage Scheduling"
-    ]
-  },
-  {
-    "objectID": "sectors/infrastructure/nuclear_safety_review.html",
-    "href": "sectors/infrastructure/nuclear_safety_review.html",
-    "title": "Nuclear Safety Reviews",
-    "section": "",
-    "text": "Includes assessments of PMP, PMF, IDF and other hydrotechnical aspects of dam safety. Also includes failure modes analysis which could include broader climatic indicators.",
-    "crumbs": [
-      "Electricity Sector Activities",
-      "Infrastructure Planning and Asset Management",
-      "Nuclear Safety Reviews"
-    ]
-  },
-  {
-    "objectID": "sectors/infrastructure/nuclear_safety_review.html#description",
-    "href": "sectors/infrastructure/nuclear_safety_review.html#description",
-    "title": "Nuclear Safety Reviews",
-    "section": "",
-    "text": "Includes assessments of PMP, PMF, IDF and other hydrotechnical aspects of dam safety. Also includes failure modes analysis which could include broader climatic indicators.",
-    "crumbs": [
-      "Electricity Sector Activities",
-      "Infrastructure Planning and Asset Management",
-      "Nuclear Safety Reviews"
-    ]
-  },
-  {
-    "objectID": "sectors/infrastructure/support_supply_chain_decision-making.html",
-    "href": "sectors/infrastructure/support_supply_chain_decision-making.html",
-    "title": "Support supply chain decision-making",
-    "section": "",
-    "text": "Where surplus equipment should be located.",
-    "crumbs": [
-      "Electricity Sector Activities",
-      "Infrastructure Planning and Asset Management",
-      "Support supply chain decision-making"
-    ]
-  },
-  {
-    "objectID": "sectors/infrastructure/support_supply_chain_decision-making.html#description",
-    "href": "sectors/infrastructure/support_supply_chain_decision-making.html#description",
-    "title": "Support supply chain decision-making",
-    "section": "",
-    "text": "Where surplus equipment should be located.",
-    "crumbs": [
-      "Electricity Sector Activities",
-      "Infrastructure Planning and Asset Management",
-      "Support supply chain decision-making"
-    ]
-  },
-  {
-    "objectID": "sectors/infrastructure/licensing_and_impact-environmental_assessments.html",
-    "href": "sectors/infrastructure/licensing_and_impact-environmental_assessments.html",
-    "title": "Licensing & Impact/Environmental Assessments",
-    "section": "",
-    "text": "Determines the impact of the project on surrounding areas and how these could interact in the climate change context. Also seeing need for this with CER/OEB emerging regulatory requirements.",
-    "crumbs": [
-      "Electricity Sector Activities",
-      "Infrastructure Planning and Asset Management",
-      "Licensing & Impact/Environmental Assessments"
-    ]
-  },
-  {
-    "objectID": "sectors/infrastructure/licensing_and_impact-environmental_assessments.html#description",
-    "href": "sectors/infrastructure/licensing_and_impact-environmental_assessments.html#description",
-    "title": "Licensing & Impact/Environmental Assessments",
-    "section": "",
-    "text": "Determines the impact of the project on surrounding areas and how these could interact in the climate change context. Also seeing need for this with CER/OEB emerging regulatory requirements.",
-    "crumbs": [
-      "Electricity Sector Activities",
-      "Infrastructure Planning and Asset Management",
-      "Licensing & Impact/Environmental Assessments"
-    ]
-  },
-  {
-    "objectID": "sectors/infrastructure/dam_safety_review.html",
-    "href": "sectors/infrastructure/dam_safety_review.html",
-    "title": "Dam Safety Review",
-    "section": "",
-    "text": "standard based on Dam Safety Guidelines - Canadian Dam Association (CDA)\nrisk-informed approach: undesired events in therms of likelihood and potential consequences\nprovincial and territorial regulations\nevaluation and systematic review of all aspects (including visual inspections of all components)\n\n\n\n\nTailings dam safety management system suggested by the CDA (Zare et al. (2024))\n\n\nThere are over 16 000 dams in Canada and 38% are managed by Quebec authorities of which 22% are used for hydroelectricity. 87% of dams can be found in five provinces (Ontario, Quebec, British Columbia, Alberta and Saskatchewan) (Ozkan et al. (2023)). Additionally, half of Canada dams are older than 50 years old, increasing the risk of climate change impacts due to infrastructure aging making them more vulnerable.\nDams present many vulnerabilities linked to climate change which are challenging to quantify. Extreme floods are projected to increase in frequency and severity in many areas across Canada, which directly affect the inflow flood design. Furthermore, there is a projected shift in precipitation pattern and flood mechanisms such as rain-on-snow events or snowmelt-driven floods which also affect the estimated design flood as well as operations and maintenance. Dams located in permafrost regions could be affected by instability due to thawing. Rising temperatures could also create large ice movements. Access to infrastructure could also be limited by more common extreme events such as forest fires (i.e. an Hydro Quebec had an installation evacuated by workers to let firefighters do their work) (MacTavish et al. (2022), Islam et al. (2024)). Similarly, freezing rain, ice storms or extreme snowfall could limit the ability to access a dam or operate flow control equipment such as pulling logs. Reservoir water quality is likely to be affected by climate change due to the rise in temperature (intense stratification leading to anoxic conditions) and switch in precipitation patterns (influx of nutrients and turbidity during snowmelt), among others (Ozkan et al. (2023)). Structural stability of concrete dams might also be challenged due to the increase in total horizontal load caused by precipitations and streamflow (Ozkan et al. (2023)).\nThe following sections describe the role, some method and models, as well as gaps and recommendations in dam safety review.",
-    "crumbs": [
-      "Electricity Sector Activities",
-      "Infrastructure Planning and Asset Management",
-      "Dam Safety Review"
-    ]
-  },
-  {
-    "objectID": "sectors/infrastructure/dam_safety_review.html#summary-description",
-    "href": "sectors/infrastructure/dam_safety_review.html#summary-description",
-    "title": "Dam Safety Review",
-    "section": "",
-    "text": "standard based on Dam Safety Guidelines - Canadian Dam Association (CDA)\nrisk-informed approach: undesired events in therms of likelihood and potential consequences\nprovincial and territorial regulations\nevaluation and systematic review of all aspects (including visual inspections of all components)\n\n\n\n\nTailings dam safety management system suggested by the CDA (Zare et al. (2024))\n\n\nThere are over 16 000 dams in Canada and 38% are managed by Quebec authorities of which 22% are used for hydroelectricity. 87% of dams can be found in five provinces (Ontario, Quebec, British Columbia, Alberta and Saskatchewan) (Ozkan et al. (2023)). Additionally, half of Canada dams are older than 50 years old, increasing the risk of climate change impacts due to infrastructure aging making them more vulnerable.\nDams present many vulnerabilities linked to climate change which are challenging to quantify. Extreme floods are projected to increase in frequency and severity in many areas across Canada, which directly affect the inflow flood design. Furthermore, there is a projected shift in precipitation pattern and flood mechanisms such as rain-on-snow events or snowmelt-driven floods which also affect the estimated design flood as well as operations and maintenance. Dams located in permafrost regions could be affected by instability due to thawing. Rising temperatures could also create large ice movements. Access to infrastructure could also be limited by more common extreme events such as forest fires (i.e. an Hydro Quebec had an installation evacuated by workers to let firefighters do their work) (MacTavish et al. (2022), Islam et al. (2024)). Similarly, freezing rain, ice storms or extreme snowfall could limit the ability to access a dam or operate flow control equipment such as pulling logs. Reservoir water quality is likely to be affected by climate change due to the rise in temperature (intense stratification leading to anoxic conditions) and switch in precipitation patterns (influx of nutrients and turbidity during snowmelt), among others (Ozkan et al. (2023)). Structural stability of concrete dams might also be challenged due to the increase in total horizontal load caused by precipitations and streamflow (Ozkan et al. (2023)).\nThe following sections describe the role, some method and models, as well as gaps and recommendations in dam safety review.",
-    "crumbs": [
-      "Electricity Sector Activities",
-      "Infrastructure Planning and Asset Management",
-      "Dam Safety Review"
-    ]
-  },
-  {
-    "objectID": "sectors/infrastructure/dam_safety_review.html#role-in-the-electricity-system",
-    "href": "sectors/infrastructure/dam_safety_review.html#role-in-the-electricity-system",
-    "title": "Dam Safety Review",
+    "objectID": "sectors/operations/vegetation_management.html#role-in-the-electricity-system",
+    "href": "sectors/operations/vegetation_management.html#role-in-the-electricity-system",
+    "title": "Vegetation Management",
     "section": "Role in the Electricity System",
-    "text": "Role in the Electricity System\n\n\n\n\n\n\nNoneAdditional Information\n\n\n\n\n\nDam’s main purpose is to store water or other liquid for various reasons such as energy production and agriculture irrigation. However, dams can pose significant risks to public safety and the environment if they are not maintained and operated properly. Therefore, dam safety review (DSR) is a critical aspect of infrastructure management in the electricity sector as many hazards cause increasing risks on these structures.\n“A Dam Safety Review involves a systematic examination and assessment of the data and information about the design, construction, maintenance, operation, processes, and systems affecting a Dam’s safety, including the Dam safety management system.” (Engineers and British Columbia (2023)) Overall, a dam safety review is a systematic evaluation of all aspects of a dam based on current knowledge and standards (Natural Resources (2023)) which may not be the same as the ones used in the dam construction. The review needs to be carried out by professional engineers.\nDams are often classified by Hazard Potential Classification based on the risk that could be posed if there was dam failure such as risks to population, environment or infrastructure. Depending on the jurisdiction, the classification could determine the level of regulatory oversight, flood design, frequency of inspections, and the stringency of safety requirements, among others. Each province and territory in Canada regulates their own classification systems via regulations and standards, but are all generally aligned with the Canadian Dam Association (CDA) framework to ensure a consistent approach to dam safety across Canada (see, https://cda.ca/dams-in-canada/regulation). Their review is therefore essential to respect stakeholders safety but to also respect regulations.",
+    "text": "Role in the Electricity System\n\n\n\n\n\n\nNoneAdditional Information\n\n\n\n\n\nVM is crucial for the electricity system has vegetation is one of the most common causes for power outages. A vulnerability assessment made for Ontario’s distribution system showed that tree contacts are the greatest contributor to customer outages. It is particularly damaging (major outages) when combined with wind which damages trees in the vicinity of overhead conductors. Combined events of lower wind gusts (under 80 km/h) with heavy wet snow or ice accretion on tree branches (Ontario Ministry of Energy (2024)) created major outages in 4 occurrences in the studied period. Even by itself, heavy wet snow and ice accumulation weighting down tree branches can lead to tree contact with cables and create outages. Ontario organizations have also observed an increase in trees contact with overhead cables with wind speed higher than 70km/h.\nForest fires have major impacts on the power grid has shown in the figure below. Forest fires cause permanent damage to infrastructure which can lead to blackouts, e.g., in Quebec 2023 forest fires cause power outages for 500,000 customers when three transmission lines were impacted. Furthermore, the impacts are not limited to power lines, although they are numerous (reduce thermal ratings, cause sag, burns on wooden poles, etc.), solar panels can be affected by wildfire smoke reducing their power output, wind turbine blades can be damaged by the ash and soot, dams can also be damaged by debris found in rivers after forest fire as well as soot, among many others. In California, 10% of wildfires are ignited by powerlines due to component failures, downed lines or conductor slaps. Distribution lines are more at risk than transmission lines when it comes to igniting fires (Vahedi et al. (2025)).\n\n\n\nWildfire and Power system Interaction taken from Vahedi et al. (2025) (p.10)",
     "crumbs": [
       "Electricity Sector Activities",
-      "Infrastructure Planning and Asset Management",
-      "Dam Safety Review"
+      "Operations Planning",
+      "Vegetation Management"
     ]
   },
   {
-    "objectID": "sectors/infrastructure/dam_safety_review.html#methods-and-models",
-    "href": "sectors/infrastructure/dam_safety_review.html#methods-and-models",
-    "title": "Dam Safety Review",
+    "objectID": "sectors/operations/vegetation_management.html#methods-and-models",
+    "href": "sectors/operations/vegetation_management.html#methods-and-models",
+    "title": "Vegetation Management",
     "section": "Methods and Models",
-    "text": "Methods and Models\nMany methods and models are used for DSR as they can require many inspections based on dam regulations (Engineers and British Columbia (2023), Natural Resources (2023)) or the practices of utility: - field reviews - interviews with site staff - equipment testing - extensive understanding of the design, construction, operation and maintenance\nAmong many others. Please refer to local legislation for more information. The following sections only tackle a few methods and models used in DSR as a wide variety of field (structure, geotechnical, hydrological, hydraulic, seismic, mechanical, electrical, etc.) expertise is required to perform a comprehensive review. Therefore, methods presented will focus on hydrology aspects affected by climate change, with some commentary on other types of models and methods.\nThe figure below briefly resumes decision-making challenges faced by professionals in the dam safety sector of the electricity system in Canada. These challenges were shared during the workshops held in 2025. These examples linked together the methods and models as well as characteristics presented in the following section such as PMP.\n\n\nFor all climate variables listed below, please refer to the climate dataset section for guidance and availability.\n\n\n\n\n\n\nNoneFlood Frequency Analysis (FFA)\n\n\n\n\n\nFlood frequency analysis (FFA) (England et al. (2019), Islam et al. (2024)) is often used to determine the design flood required by regulations. It is determined by the return period such as 1/100 or 1/1000 years. Therefore, the goal of FFA is to link flow values with probabilities of occurrence (Ouranos (2021)).\n\\[\nAep = 1/T = 1-CDF_{high flows}\n\\]\nwhere\n- \\(Aep\\) is the annual exceedance probability,\n- \\(T\\) is the return period (years),\n- \\(CDF_{high flows}\\) is the cumulative distribution of high flows.\n\n\n\n\n\n\nNoneCharacteristics\n\n\n\n\n\nFlow records rarely go up to 100 years (and, of course, not to 1000). Therefore, a probability density function is fit to either flow annual maxima (AM) or peak-over-threshold (POT). POT allows more events of high flows to be considered as some years could have multiple events over thresholds and others none. However, it adds issues linked to the independence of events.\nMoreover, such analysis requires long timeserie of observed inflows (at least 30 years based on World Meteorological Organisation criteria) and different methods exists to determine the distribution parameters (such as generalized extreme value, generalized Pareto or lognormal) (World Meteorological Organization (1989)). Different metrics of goodness of fit can be used to validate the fitted distributions, such as Aikake or Bayesian Information Criteria, Kolmogorov-Sminov, etc. (Islam et al. (2024)).\n\n\n\nUnivariate FFA steps taken from Islam et al. (2024)\n\n\nCommon FFA methods are univariate and stationary, meaning that climate change and impacts of other features than flows are not taken into account when calculating the design flood. To evaluate non-stationarity, Ouranos (2021) proposed two techniques to assess non-stationarity using hydrological model fed with a large ensemble of climate projections over 20-year period block.\n\n\n\nFigure taken from Ouranos (2021)\n\n\nOther, recent studies have looked into non-stationary extreme value distribution, such as integrating linear trends in function of time or climate variables as covariates in distribution parameters (Islam et al. (2024), Maria et al. (2024), Levin (2025)). Levin (2025) used precipitation, annual snowfall, mean annual temperature as covariates in North-central United States, where 45% of streamgages were predicted with precipitation, 14% temperature and less than 1% with snowfall as causal mechanisms (36% had no climate variables as causal mechanisms). Northern part had the biggest differences between stationary and non-stationary FFA (going up to 20%). The study used measured streamflow and climate data from a monthly water balance model which was itself fed by temperature and precipitation data from monthly NOAA gridded observations.\n\n\n\nFigure taken from Faulkner et al. (2024)\n\n\nMaria et al. (2024) used the same covariates (rainfall split in two seasons) for a study across Canada as well as time. Streamflows were acquired from simulations of GEM (1950-2099) which are driven by a member of CanESM2 RCP8.5 (CMIP5). Non-stationary projected higher increases in 2000-year return levels for 451 dams locations than stationary FFA.\nFurthermore, other recent studies have also looked into multivariate FFA, that use copulas to create joint distributions highlighting the interdependence between flooding features and have potential for compound flooding (e.g., high precipitation and snowmelt or sea-level rise) (Maria et al. (2024), Bizhanimanzar et al. (2024)).\n\n\n\n\n\n\n\n\n\nNoneKey Climate Inputs\n\n\n\n\n\n\nFlows\n\nPrecipitation\nTemperature\nSea level\n\n\n\n\n\n\n\n\n\n\nNoneNon-Climate Inputs\n\n\n\n\n\n\nInputs for hydrological models\n\n\n\n\n\n\n\n\n\n\nNoneModel Outputs\n\n\n\n\n\n\nFlows (hydrological models)\nAnnual Probability of excedeence\n\n\n\n\n\n\n\n\n\n\nNoneTemporal Resolution\n\n\n\n\n\nDaily or Monthly (as annual maxima is often used)\n\n\n\n\n\n\n\n\n\nNoneSpatial Resolution\n\n\n\n\n\n\nFlows at streamgauge\nHydrological models can usually have less than 1°, resolution\n\n\n\n\n\n\n\n\n\n\nNoneFrequency of Analysis\n\n\n\n\n\nDepends on the dam classification (from 5 to 10 years)\n\n\n\n\n\n\n\n\n\n\n\n\nNoneProbable Maximum Precipitation - PMP & Probable Maximum Flood PMF\n\n\n\n\n\nExtreme consequences dams require design flood (classification), the maximum flow that dam must be able to evacuate, to be estimated with the Probable Maximum Flood (PMF), which itself is estimated with the Probable Maximum Precipitation (PMP). The WMO defines PMP as being “the greatest depth of precipitation for a given duration meteorologically possible for a design watershed or a given storm area at a particular location at a particular time of the year, with no allowance made for long-term climatic trends” (World Meteorological Organization (2009)). The WMO manual proposes six methods to evaluate the PMP (local, transposition, combination, inferential generalized and statistical) with the majority of them based on physical meteorology (Islam et al. (2024)).\n\n\n\nPMP and PMF estimation taken from Islam et al. (2024)\n\n\nPMPs are usually evaluated by meteorologists or hydrologists and are provided with uncertainty bounds as well as seasonal adjustment factors. FFA with values for rainfall, temperature and snow accumulation linked to the storm can be estimated from observations to calibrate the hydrological models. Soil moisture needs to be maximized when PMF is determined in the hydrological model and other factors such as the combination of the spring PMP with the 100-year snowpack (Ouranos (2015)).\nThe xHydro python package developed by Hydro-Quebec, ETS and Ouranos offer codes to estimate PMPs and PMFs.\n\n\n\n\n\n\nNoneCharacteristics\n\n\n\n\n\nOne common method to evaluate PMP is moisture maximization, which is advantageous for his lower data requirements (Islam et al. (2024), World Meteorological Organization (2009)). \\[\nPMP = P_{obs} * W_{max} / W_{storm}\n\\]\nwhere\n- \\(P_{obs}\\) is the maximum observed precipitation (mm),\n- \\(W_{max}\\) is the maximum precipitable water (mm),\n- \\(W_{storm}\\) is actual precipitable water of the observed storm (mm).\n\\(W_{max}\\) can be estimated with dew point temperature.\nAnother method, storm transposition doesn’t require detailed information on watershed specific storms (Islam et al. (2024), World Meteorological Organization (2009)).\n\\[\nPMP = \\overline{X_{n}} + K_{m} * S_{n}\n\\]\nwhere\n- \\(\\overline{X_{n}}\\) is the mean maximum annual precipitation for the duration (n) of interest,\n- \\(S_{n}\\) is the standard deviation,\n- \\(K_{m}\\) is the frequency factor.\n\\(K_{m}\\) is a factor of precipitation duration and mean value. The British Columbia MetPortal offers PMP calculated with transposition across the province.\nThese estimates come with high uncertainties and are left in the choice of professionals to determine the most appropriate methods. Recent studies are looking into improving PMP calculations and more precisely providing the uncertainties linked to each estimate (Martin (2024)). PMP uncertainties can be assessed via a Monte Carlo techniques and sensitivity analysis need to be done for evaluating PMFs uncertainty ((king2022?))\nTo account for non-stationarity, studies have used climate simulations to estimate the PMP. Ouranos (2015) used regional climate models to project future PMPs with higher resolution (50 km) in three Quebec watersheds which generally showed an increase of 10 to 20% for the mid-century. However, one watershed showed a decrease in PMP. Alternative methods than WMO, have been listed in literature to account for climate change and uncertainties (Martin (2024)). Recently, practioners in OPG have used MRCC5-CMIP6 to estimate the PMP. It was reported that SSP 3-7.0 produced lower PMPs values over Ontario than SSP 2-4.5. Chan et al. (2024) also observed higher values of PMPs with scenario SSP1-2.6 than SSP3-7.0 over Hong Kong.\nThe figure below highlights the steps taken by Clavet-Gaumont et al. (2017) for considering climate change in PMP estimates (Ouranos (2015)).\n\n\n\nClavet-Gaumont et al. (2017) workflow to estimate PMP and PMF Figure taken from Clavet-Gaumont et al. (2017)\n\n\nThe workflow is based on the methodology developed by Rousseau et al. (2014) and moisture maximization. The estimates rquire RCM liquid precipitation, precipitatble water and snow water equivalent (snow on ground). The RCMs data were pre-processed when precipitable water was missing (used summation of specific humidty from surface to top level) and mean temperature was used to estimate rainfall from precipitation. Many choices were made based sensitivity analysis such as the thresholds used to select PMPs, the best fitted statistical distributions, etc. The storm definition was made using rainfall events of 24, 48, 72 and 120 hours with a moving window. P~event represent 10% of largest storm of the year. Rainfall events are maximized with EQ1 presented in the above figure and PWH~100 the monthly return period value of precipitable water (fitted with a GEV and the maximum likelihood). The maximum of the maximum ratios multiplied by the P~event represents the PMP.\n\n\n\n\n\n\n\n\n\nNoneKey Climate Inputs\n\n\n\n\n\n\nSpecific humidity : There is limited observation for this variable, but it is provided by reanalysis. WMO proposes equations to estimate specific humidity from temperature dew point (World Meteorological Organization (2009)). Guidance must be followed if reanalysis is used or other projections products.\nDew point temperature: Used to estimate specific humidity, since it is often available at meteorological stations. Reanalysis and climate projections also offer this variable.\nExtreme precipitation: events based on past observations (storm events). In practice, past observations, often Environment and Climate Change Canada or internal station is used. Reanalysis data can also be considered, but validation is required.\nSnow accumulation: events based on past observations (often corresponding to a high return period such 100 years). In practice, past observations, often Environment and Climate Change Canada or internal station is used. Reanalysis data can also be considered, but validation is required.\n\n\n\n\n\n\n\n\n\n\nNoneNon-Climate Inputs\n\n\n\n\n\n\nOther inputs linked to runoff and hydrological models\n\n\n\n\n\n\n\n\n\n\nNoneModel Outputs\n\n\n\n\n\n\nPMP and PMF are the outputs (used to determine the design flood)\n\n\n\n\n\n\n\n\n\n\nNoneTemporal Resolution\n\n\n\n\n\n\nsub-daily or daily\n\n\n\n\n\n\n\n\n\n\nNoneSpatial Resolution\n\n\n\n\n\n\nlowest resolution possible; higher resolution models can be used such as RCM or reanalysis\n\n\n\n\n\n\n\n\n\n\nNoneFrequency of Analysis\n\n\n\n\n\n5 to 12 years depending on dam classification.\n\n\n\n\n\n\n\n\n\n\n\n\nNoneHydrological models\n\n\n\n\n\nHydrological models are computational tools used to simulate the movement, distribution, and quality of water within a watershed. They integrate rainfall, temperature, soil characteristics, and land use to estimate streamflow, reservoir inflows, and extreme events such as floods or droughts. In the context of dam safety reviews, hydrological models are essential for assessing the potential impacts of extreme weather and climate variability on dam operations. They help engineers evaluate flood risks, design spillways, and develop emergency management strategies, ensuring that dams can safely handle both current and future hydrological conditions.\nFournier et al. (2020) gives guidance on estimating the value of hydropower assets under climate change. This report also describes how to integrate climate change data inside the energy modelling chain and more precisely in a hydrologic model. Below are some of the important recommendations found in the guide:\n\nClimate simulations consideration:\n\nBaseline: 30 years is recommended for the baseline to represent natural variability and avoid having predominant dry or wet events. The baseline must represent current conditions. Detrending can be used to represent current conditions. If bias-correction is applied to climate projections, the reference product must be the same used to calibrate the hydrological models.\nConsistency is important, variables must come from the same product (such as temperature and precipitation).\nEvaluate the performance of various weather datasets in the hydrology model (weather stations, gridded observations and reanalysis).\nQuebec Goverment have observed that a minimal spatial resolution 0.44° is required to represent snow processes in the hydrological model (Ministère de l’Environnement, de la Lutte contre les changements climatiques, de la Faune et des Parcs (MELCCFP) (2022)).\nRondeau-Genesse et al. (2021) found that higher-resolution simulations can perform better using both RCM and GCM simulations. However, while it may seem intuitive that finer-scale meteorological inputs would yield better results for smaller watersheds, it varies significantly depending on the indicator, the time of year, and the hydrological modelling platform.\nThe resolution needs to match the one in the hydrological model.\nUse multiple scenarios; best practice would be to use all emissions scenarios available while good practices recommend two. However, for short-term horizons (less than 15 years), only one scenario can be used as climate change signal is similar between scenarios.\nUse multiple climate models; best practice is to use as many as available and their newest version while there is no minimum magic number for simulations a good practice would be to use at least 10 to cover uncertainty.\nMultiple post-processing for climate simulations is considered as best practice\nDo not average or use statistics for the climate simulations (last step of the modelling chain).\n\nHydrologic modelling considerations:\n\nHydrologic baseline must be consistent with the climatic baseline and representative of current conditions. Detrending might be considered to better represent recent conditions.\n\nModel needs to be calibrated with the same reference used for bias-correction.\nValidation of hydrological model run with climate solutions can be done using hydrologic indices.\nA Differential Split-Sample Approach can be used to evaluate robustness and transposition to a period with other climatic conditions.\nSince hydrological models are complex and influenced by multiple processes, it is difficult to select only a few climate simulations (e.g., based on percentiles) to predict outcomes such as floods or droughts. The relationships between these events and variables like temperature or precipitation are not linear. Therefore, it is recommended to use as many climate simulations as possible to capture the full range of potential flow outcomes.\nIf data volume or the number of hydrological model runs is a limiting factor, prioritize climate simulations selection based on indicators most relevant to the study’s objectives (e.g., simulations with the highest or lowest values of maximum daily rainfall).\nIt is a best practice to use multiple hydrologic models. If not, appropriate hydrological model selection is required.\nConsistency across climate simulations is crucial; therefore, each simulation should be run individually in the hydrological models, and ensemble statistics (e.g., 5th, 50th, and 95th percentiles) should be computed only at the final step of the modelling chain.\n\n\nAlthough such methodology provides many sources of uncertainty, exploring impacts steaming from future scenarios provide a valuable sensitivity analysis. Sensitivity analysis, on the whole modelling change can also be useful to determine what influenced most final results.\nIn practice, the HEC-HMS watershed model is often used. The Hamon method is also selected to estimate evapotranspiration and use direct inputs of temperature and precipitation. The watershed modelling is then used to estimate 100 and 1000-year floods with Intensity Duration Frequency Curves. Combination methods can also be used to estimate potential evapotranspiration which requires more climate variables inputs (relative humidity, wind speed, short and long wave solar radiation). HEC-RAS, a river analysis system, can be used to model ice jams, loadings or covers.\nRecent studies have assessed the ability of artificial intelligence (AI) to reproduce streamflows and compared results to distributed hydrological models. For example, Martel et al. (2025) used long short-term memory (LSTM) networks to estimate peak streamflow at ungauged catchments and found that the AI-based simulations performed as well as the Hydrotel hydrological model. The study used the Quebec government’s observed precipitation and temperature dataset (1979–2017, daily at 0.1° resolution) and multiple variables from ERA5 reanalysis—including maximum and minimum temperature, total precipitation, snowfall, snowmelt, snow water equivalent, dew point temperature, wind velocity and speed, evaporation, downward surface solar radiation, and surface pressure—as inputs to the neural networks. Observed daily averaged streamflows and cathchement descriptors, such as area, slope and land-use were also considered to built networks.\n\n\n\n\n\n\nNoneKey Climate Inputs\n\n\n\n\n\n\nPrecipitation timeseries. Like mentioned above multiple products can be used; observations, reanalysis and climate model simulations.\nTemperature timeseries. Like mentioned above multiple products can be used; observations, reanalysis and climate model simulations.\nSolar radiation\nWind speed\nRelative humidity\nStreamflow\n\n\n\n\n\n\n\n\n\n\nNoneNon-Climate Inputs\n\n\n\n\n\n\nLand use / land cover\nDigital Elevation Model (DEM) - Topography\nSoil properties\nHydrographic network\n\n\n\n\n\n\n\n\n\n\nNoneModel Outputs\n\n\n\n\n\n\nFlows\n\n\n\n\n\n\n\n\n\n\nNoneTemporal Resolution\n\n\n\n\n\nMost hydrological models are run sub-daily or daily. However, it depends on the study analysis and scale.\n\n\n\n\n\n\n\n\n\nNoneSpatial Resolution\n\n\n\n\n\nUsually a resolution under 0.44 degrees is recommended.\n\n\n\n\n\n\n\n\n\nNoneFrequency of Analysis\n\n\n\n\n\n10 to 12 years.\n\n\n\n\n\n\n\n\n\n\n\n\nNoneMethods and models in practice\n\n\n\n\n\nThe following section describes the models presented in the Miro Board which address dam safety review for a facility, which therefore includes the dikes (embankments) surrounding the dam. Many groups are involved; hydrology, hydraulic, geotechnical, geology and structural. The review needs to demonstrate resistance the facility resistance to earthquakes and floods. Many stakeholders are involved in these reviews; ministry, municipalities, consultants, etc.\n\n\n\n\n\n\nNoneCharacteristics\n\n\n\n\n\n\nHydrological models:\n\nCMP\nInternal models (Hydro Quebec has HSAMI & HSAMI+)\nRaven (R and C++, Python)\n\nReservoir models:\n\nRiverWare\nHEC-ReSim\n\nHydraulic models: to test dams failure, spillway capacity\nStructural models: Ice loading is used in practice in structural models and impacted by climate change. Ice loadings are also inputs to design bridges based on the CSA S6 as well as ice accumulations for structures normed by the CSA S37 such as cables. Of course, snow loads and wind loads are required by the National Building Code for structures (roofs, buildings or signs). Embankments are also affected by ice and freeze-thaw which cause degradation of riprap. Degradation caused by freeze-and-thaw cycles can also be observed in concrete structures.\nGeotechnical models: Roc level is important (not just water level). Seasonal frost depth can be used to validate if potential frost damage to a clay core. Frost depth can also be calculated with air temperature or taken from design charts.\n\nGeoStudio\nRocScience\n\nHydrogeological Models\n\n\n\n\n\n\n\n\n\n\nNoneKey Climate Inputs\n\n\n\n\n\n\nSome datasets used are; internal station data, observations from Environment and Climate Change Canada, reanalysis (ERA5-Land, CaSR), interpolated observations (Hydat)\nFrost depth: Can be calculated with freezing degree days. Really critical in the North since it can fracture the dam core.\nPMF: calculated for each facility\nPMP: calculated annually by a consultant\nPrecipitation: used to calibrate hydrological models. Stations observations, reanalysis and seasonal forecasts are used.\nTemperature: used to calibrate hydrological models. Stations observations, reanalysis and seasonal forecasts are used.\nSnow level: less looked at\nThermal conductivity of soil\n\n\n\n\n\n\n\n\n\n\nNoneNon-Climate Inputs\n\n\n\n\n\n\nRequired information for each model Need to be completed by a champion\n\n\n\n\n\n\n\n\n\n\nNoneModel Outputs\n\n\n\n\n\nNeed to be completed by a champion\n\n\n\n\n\n\n\n\n\nNoneTemporal Resolution : data is need historical up to the date safety review happens\n\n\n\n\n\n\nDaily: inflows, water levels, degree-days\nHourly: Pressure, PMP\n\n\n\n\n\n\n\n\n\n\nNoneSpatial Resolution\n\n\n\n\n\nData over the whole province and nearby to cover all watersheds (for example, other provinces or the United States)\n\n\n\n\n\n\n\n\n\nNoneFrequency of Analysis\n\n\n\n\n\n10 to 12 years depending on classification",
+    "text": "Methods and Models\nThe methods presented below are linked to forest fires risk.\n\n\n\n\n\n\nNoneFire Weather Index\n\n\n\n\n\nThe Fire Weather Index (FWI) is used to estimate forest fire risk (potential numeric rating) in Canada. It considers daily observations of temperature, relative humidity, wind speed and 24-hour precipitation. From these observations the field, moisture codes (FMCs) are developed has shown in the figure below. From these the fire behaviour indices: initial spread index and buildup index are estimated to evaluate the FWI.\n\n\n\nFire Weather Index triangle taken from Climatedata.ca\n\n\nFMC are ratings of moisture content of the forest floor as well as the dead organic content of pine forests. A higher FMC represents low moisture, hence drier conditions. - Fine Fuel Moisture Code represents the moisture content of the litter, it also indicates the potential for human caused ignition. - Duff Moisture Code represents the moisture just below the litter which is loosely compacted and indicates lightning caused ignition. - Drought Code represents the moisture of the deep contact and densely compacted which indicates the potential depth of burn.\nThere are four fire behaviour indices: - Initial Spread Index is the expected rate of fire spread based on wind and Fine Fuel Moisture Code, higher values indicate faster spread. - Buildup Index represents the total amount of fuel available for combustion. It relies on Duff moisture Code as well as the drought code and higher values indicates dyer fuel. - Fire Weather Index represented the intensity associated with a fire that spreads in a pine forest. It’s based on the Buildup Index and the Initial Spread Index. It indicates the fire danger in Canada. - Daily Severity Rating represents the difficulty to control fires and it’s based on the FWI.\n\n\n\n\n\n\nNoneCharacteristics\n\n\n\n\n\nECCC offers daily maps of FWI which are estimated with elevation (USGS at 1 km v.GTOPO30), weather data from Canadian and USA stations as well as ECCC forecasted weather. The methodology behind each calculation is presented in the report Weather Guide for the Canadian Forest Fire Danger Rating System. Usually weather records should be taken at noon at location and not corrected, the choice for noon was motivated since it is late enough in the day to indicate conditions of peak fire activity in the afternoon but early enough to have accessible codes, indices and forecasts available for planning. Calculations are made starting the moment three consecutive days have had a temperature above 12°C and are continued until snow covers the ground. Approximations are also used to convert wind observed at airports to forest due to surface roughness.\nECCC also offers an application that project FWI and other related indexes with future projections. The presented indexes have a 50 km resolution and comes from the CanLEAD climate projection dataset which is a daily large ensemble (temperature, precipitation, relative humidity and wind speed) of the CanRCM4 regional climate model bias-corrected with a multivariate quantile-mapping algorithm (Cannon et al. (2022)). Using a large ensemble allows quantifying natural variability, however, using only one RCM driven by one GCM is an important limit of the dataset. The application offers the scenario RCP4.5 and 8.5 that project important increase in severity and frequency of high fire weather conditions and longer fire season almost across the whole country (Van Vliet et al. (2024)). Ouranos is currently working on a FWI version for Quebec made with RCMs and SSPs.\n\n\n\n\n\n\n\n\n\nNoneKey Climate Inputs\n\n\n\n\n\n\nTemperature at noon\nRelative humidity; can be estimated from dry-bulb and wet-bulb temperatures\nWind\nPrecipitation\n\n\n\n\n\n\n\n\n\n\nNoneNon-Climate Inputs\n\n\n\n\n\n\nN/A\n\n\n\n\n\n\n\n\n\n\nNoneModel Outputs\n\n\n\n\n\n\nFWI related indexes and codes\n\n\n\n\n\n\n\n\n\n\nNoneTemporal Resolution\n\n\n\n\n\nFWI is usually calculated at a daily timestep and ideally with measurements taken at noon.\n\n\n\n\n\n\n\n\n\nNoneSpatial Resolution\n\n\n\n\n\nFWI is usually calculated at local stations (finer resolution), but can also be computed from reanalysis or climate projections. ECCC application of projected FWI has a 50 km resolution.\n\n\n\n\n\n\n\n\n\nNoneFrequency of Analysis\n\n\n\n\n\nAt present, FWI is calculated and updated daily and monthly by ECCC for Canada.\n\n\n\n\n\n\n\n\n\n\n\n\nNoneBurn-P3 (Fire model)\n\n\n\n\n\nBurn-P3 is a fire model commonly used in academics and practice to simulate forest fires. It is based on the SyncroSim package and maintained by the Canadian Forest Service. It evaluates the likelihood of fire or burn probability over large landscapes.\n\n\n\n\n\n\nNoneCharacteristics\n\n\n\n\n\n\nBurn-P3 is based on the Prometheus fire growth model. Prometheus is a deterministic model based on the FWI and the Fire Behaviour Prediction which simulates ignition and spread of large numbers of fires. A new version of BurnP3, BurnP3+ offers the option to use three fire growth models; Prometheus but also Cell2Fire and FireStarr. Other fire growth models can also be incorporated in BurnP3+. The newest version also offers features such as scenario comparison, flexibility to use Python or R scripts, support for multi-processing and the ability to dynamically connect to landscape change models such as ST-Sim or LANDIS-II.\nFires and ignitions are simulated in each grid cell. Therefore, Burn-P3 runs multiple model iterations to estimate fire probabilities which allows estimating the burn probability of each cell. These iterations are stochastically sampling ignition locations and other inputs, and then tallying up the results of these Monte Carlo simulations.\nMany studies used Burn-P3 with climate change projections to predict future fire activity in Canada. Erni et al. (2024) used Burn-P3 to map wildfire hazards, vulnerability and risk to Canadian communities and found that over 39% of land is considered at high or very high risk of fire. For its estimates, observations from ECCC where combined with provincial meteorological stations as well as gridded observations when stations were missing or the NCEP reanalysis for missing variables such as wind. Gaboriau et al. (2023) made a similar analysis for the boreal forest in Northwest Canada using a dynamic global vegetation model, LPJ-LMfire model to project annual burns and attributes of the boreal trees. Future simulations were run with two GCMs and RCMs as well as with RCPs 4.5 and 8.5. The study showed a decrease of the burn rate in the 21st century due to a decrease of biomass in needle leaf tree species and an increase in broadleaf species. However, some grids in the South East of the studied area showed an increase in fire linked to the increase in needle tree species.\nDawe et al. (2022) used future climate projections from CanESM2, a GCM, in Burn-LP3. Gridded climate projections were downscaled with NrCanMET. Since daily fire weather conditions, which is required as an input to Burn-P3, are inferred at stations, the projections were matched to weather stations with BioSim11. Monthly normals were calculated at 29 stations and for three time periods (2020, 2070, 20120) and fed in LANDIS-II, a forest landscape model, to project vegetation (fuel). Landis-II outputs were directly translated into the Fire Behaviour Prediction System fuel types to incorporate in Burn-P3. The study was done for Saguenay, Quebec and showed an important increase in wildfire risk. The figure below present the methodology of the research.\n\n\n\nWildfire simulation concept diagram taken from Dawe et al. (2022)\n\n\nThe Burn-P3 model is often calibrated and validated with historical fire activity such as the Canadian National Fire Dataset. Burn-P3 is also used to evaluate adaptation strategies, such as the best locations to invest in caribou conservation (Dawe et al. (2022), Stockdale et al. (2018)) or mesh on poles in Manitoba (Huang and Bagen (2024)).\nVahedi et al. (2025) also proposes multiple other fire models, e.g., FireSim or FlamMap, in his paper and highlights the benefits and drawbacks of each.\nMulverhill et al. (2025) used machine learning models to project future forest fires with 8 GCMs downscaled with the ClimateNA software (30m spatial resolution) with four SSPs (1-2.6, 2-4.5, 3-7.0 and 5-8.5). Overall, ecozones showed an increase (except for the Hudson Plains under SSP1-2.6) in burned areas for all 4 SSPs by the end of the century ranging from 4% to 60% relative increase depending on the scenario and ecozone. In terms of communities, Sept-Îles was the most at risk with all 4 scenarios showing an increase over 60% of burn probability. However, Mulverhill et al. (2025) kept his biotic fixed in the fire model.\n\n\n\n\n\n\n\n\n\nNoneKey Climate Inputs\n\n\n\n\n\n\nlocal noon temperature: used in Erni et al. (2024)\nrelative humidity: used in Erni et al. (2024)\nwind speed and direction: used in Erni et al. (2024)\nprecipitation: used in Erni et al. (2024)\nClimate inputs represent daily fire weather conditions and refer to the FWI\n\n\n\n\n\n\n\n\n\n\nNoneNon-Climate Inputs\n\n\n\n\n\n\nTopography: Erni et al. (2024) used EarthENV-DEM90 digital elevation model\nFuels: Canadian Forest Fire Behaviour Prediction System fuel type classification (Stockdale et al. (2018))\nFires zones: based on mean annual ignition density (stratify by season fire causes)\nSeasons: start and stop date of fire weather which can be obtained from the Canadian National Fire Database\n\nFire duration and ignitions: Drawn from distributions of observed datasets\n\n\n\n\n\n\n\n\n\n\nNoneModel Outputs\n\n\n\n\n\n\nIgnition locations\nIndividual fire perimeters (stored in geographic polygons)\nBurn likelihood : result obtained by resuming outputs in summary map\nFire intensity\nFuel consumption\nThe PostBP python package (Liu et al. (2024)) offers code to simplify and visualize outputs from fire models e.g., hexagonal patch network, fire spread analysis, burn & ignition probabilities or source-sink analysis.\n\n\n\n\n\n\n\n\n\n\nNoneTemporal Resolution\n\n\n\n\n\nDaily or monthly\n\n\n\n\n\n\n\n\n\nNoneSpatial Resolution\n\n\n\n\n\nFire model works by cells; all inputs must have the same resolution. Buffers should be added around the study area (to allow spread of burning). Dawe et al. (2022) used a resolution of 0.5 km.\n\n\n\n\n\n\n\n\n\nNoneFrequency of Analysis\n\n\n\n\n\nFor specific projects.",
     "crumbs": [
       "Electricity Sector Activities",
-      "Infrastructure Planning and Asset Management",
-      "Dam Safety Review"
+      "Operations Planning",
+      "Vegetation Management"
     ]
   },
   {
-    "objectID": "sectors/infrastructure/dam_safety_review.html#detailed-discussion",
-    "href": "sectors/infrastructure/dam_safety_review.html#detailed-discussion",
-    "title": "Dam Safety Review",
+    "objectID": "sectors/operations/vegetation_management.html#detailed-discussion",
+    "href": "sectors/operations/vegetation_management.html#detailed-discussion",
+    "title": "Vegetation Management",
     "section": "Detailed Discussion",
-    "text": "Detailed Discussion\n\n\n\n\n\n\nNoneAdditional Information\n\n\n\n\n\nMany regulators have added considerations of climate change related risks inside their legislation for dam safety (Engineers and British Columbia (2023)) while others discuss the need to consider extreme events (Natural Resources (2023)). Ozkan et al. (2023) report details impacts of climate change on dams and has an extensive review of literature and policies around the globe that bridge these impacts. The report also recommends datasets to be used for dam safety the Can-CRM4 that has a 0.44° resolution and 50 members.\nMarco or Kurt could you add infos about the new CSA standard if it has been accepted",
+    "text": "Detailed Discussion\n\n\n\n\n\n\nNoneAdditional Information\n\n\n\n\n\nParticipants in the workshops noted the growing potential of Artificial Intelligence (AI) to enhance VM. For example, predictive models of vegetation growth or tree health—incorporating climate forecasts—could help prioritize interventions in high-risk areas. Savva et al. (2025) reviewed AI-driven remote sensing approaches for VM near power lines, highlighting the integration of AI with LiDAR data and the use of weather variables (such as temperature and wind speed) as model inputs (Wu et al. (2022), Taylor et al. (2022)).\nSome use of climate information in VM practice is also resumed in the figure below. There is an interest in climate variables that can break trees such as wind or freezing rain which can cause power outages.",
     "crumbs": [
       "Electricity Sector Activities",
-      "Infrastructure Planning and Asset Management",
-      "Dam Safety Review"
+      "Operations Planning",
+      "Vegetation Management"
     ]
   },
   {
-    "objectID": "sectors/infrastructure/dam_safety_review.html#gaps-and-recommendations",
-    "href": "sectors/infrastructure/dam_safety_review.html#gaps-and-recommendations",
-    "title": "Dam Safety Review",
+    "objectID": "sectors/operations/vegetation_management.html#gaps-and-recommendations",
+    "href": "sectors/operations/vegetation_management.html#gaps-and-recommendations",
+    "title": "Vegetation Management",
     "section": "Gaps and Recommendations",
-    "text": "Gaps and Recommendations\n\n\n\n\n\n\nNoneAdditional Information\n\n\n\n\n\nPractitioners have identified important gaps in the dam safety sector. First of all, uncertainties are associated with the PMP and the methodology used has not been updated in the recent years even with important limitations highlighted in literature such as the objectivity linked to the storm selection (Martin (2024)).\nThere is also a mismatch between some of the internal stations geodetic levels and the dam’s own level making it challenging to use some of the internally collected data. Practitioners also face challenges to have data with spatial and temporal resolution that fit their need. Generally, it is hard to find extreme datasets (1/100, 1/1000), especially when looking at future projections. There is also a lack of wind data; historical and future which is required for rockfill structures.\nThere is also a lack of clear guidelines on how to incorporate a non-stationary climate into dam safety reviews. Practitioners discussed that these guidelines could be integrated in CSA norms or more internal guidance available at the organization level (and to their consultants).\nThe National Research Council of Canada has published a report “Adapatation of dams to climate change: Gap analysis” which objective was to find Canadian guidelines shortcomings when addressing climate change in dam safety. The report highlighted technical gaps such integrating non-stationary climate in hydrological modelling, policy gaps (limited climate change aspect in standards or risk assessment), knowledge gaps (uncertainties linked to climate change) and data gaps (many regions are lacking data in the North). (Ozkan et al. (2023))\n\n\n\n\n\nReferences (click to expand)\n\n\n\nBizhanimanzar, M., Rondeau-Genesse, G., Caron, L.-P., Lefaivre, D., Mailhot, E., 2024. Joint occurrence of extreme water level and river flows in st. Lawrence river coasts under present and sea level rise conditions. Earth’s Future 12. https://doi.org/10.1029/2023EF004027\n\n\nChan, S.S., Li, J., Lee, T., 2024. Estimation of probable maximum precipitation (PMP) in hong kong under future changing climate based on statistical downscaling. Urban Climate 55, 101988. https://doi.org/https://doi.org/10.1016/j.uclim.2024.101988\n\n\nClavet-Gaumont, J., Huard, D., Frigon, A., Koenig, K., Slota, P., Rousseau, A., Klein, I., Thiémonge, N., Houdré, F., Perdikaris, J., Turcotte, R., Lafleur, J., Larouche, B., 2017. Probable maximum flood in a changing climate: An overview for canadian basins. Journal of Hydrology: Regional Studies 13, 11–25. https://doi.org/https://doi.org/10.1016/j.ejrh.2017.07.003\n\n\nEngineers, British Columbia, geoscientists of, 2023. LEGISLATED DAM SAFETY REVIEWS IN BC.\n\n\nEngland, J.F.Jr., Cohn, T.A., Faber, B.A., Stedinger, J.R., Thomas, W.O.Jr., Veilleux, A.G., Kiang, J.E., Mason, R.R.Jr., 2019. Guidelines for Determining Flood Flow Frequency Bulletin 17C. U.S. Geological Survey.\n\n\nFaulkner, D.S., Longfield, S., Warren, S., Tawn, J.A., 2024. Modelling non-stationary flood frequency in england and wales using physical covariates. Hydrology Research 55, 205–220. https://doi.org/10.2166/nh.2024.134\n\n\nFournier, É., Lamy, A., Pineault, K., Braschi, L., Kornelsen, K., Hannart, A., Chartier, I., Tarel, G., Minville, M., Merleau, J., 2020. Valuation of hydropower assets and climate change physical impacts – a guidebook to integrate climate data in energy production for value modelling. Ouranos, Montreal.\n\n\nIslam, M.R., Fereshtehpour, M., Najafi, M.R., Khaliq, M.N., Khan, A.A., Sushama, L., Nguyen, V.T.V., Elshorbagy, A., Roy, R., Wilson, A., Perdikaris, J., Masud, M.B., Khan, M.S., 2024. Climate-resilience of dams and levess in Canada: A review. Discover Applied Sciences 6. https://doi.org/10.1007/s42452-024-05814-4\n\n\nLevin, S.B., 2025. Nonstationary flood frequency analysis using regression in the north-central united states (No. 2025–5034), Scientific investigations report. U.S. Geological Survey, Reston, Virginia. https://doi.org/10.3133/sir20255034\n\n\nMacTavish, L., Bourgeois, G., Lafleur, C., Ristic, E., 2022. Climate change adaptation for dams: A review of climate vulnerabilities, adaptation measures, and opportunities for growth in the canadian dams context. Canadian Standards Association (CSA Group).\n\n\nMaria, D., Sasmito, A., Sushama, L., Khaliq, M.N., 2024. Non-stationary analysis of future floods using physical covariates and implications for dams across canada. Results in Engineering 24, 103645. https://doi.org/https://doi.org/10.1016/j.rineng.2024.103645\n\n\nMartel, J.-L., Arsenault, R., Turcotte, R., Castañeda-Gonzalez, M., Brissette, F., Armstrong, W., Mailhot, E., Pelletier-Dumont, J., Lachance-Cloutier, S., Rondeau-Genesse, G., Caron, L.-P., 2025. Exploring the ability of LSTM-based hydrological models to simulate streamflow time series for flood frequency analysis. Hydrology and Earth System Sciences 29, 4951–4968. https://doi.org/10.5194/hess-29-4951-2025\n\n\nMartin, A., 2024. Estimation statistique de la précipitation maximale probable à l’aide de la loi de pearson de type i (Master’s thesis). Polytechnique Montréal.\n\n\nMinistère de l’Environnement, de la Lutte contre les changements climatiques, de la Faune et des Parcs (MELCCFP), 2022. Rapport de l’atlas hydroclimatique du québec méridional 2022. MELCCFP.\n\n\nNatural Resources, O.M. of, 2023. Safety reviews for dam owners .\n\n\nOuranos, 2021. Flood frequency analysis and dam safety in the 21st century climate. Ouranos.\n\n\nOuranos, 2015. Probable maximum floods and dam safety in the 21st century climate. Ouranos, Montréal, Québec, Canada.\n\n\nOzkan, I.F., Kadhom, B., Roshani, E., Shirkhani, H., Hiedra-Cobo, J., Cusson, D., Nkinamubanzi, P.-C., 2023. Adaptation of dams to climate change: Gap analysis (No. A1-020144-R01). National Research Council Canada.\n\n\nRondeau-Genesse, G., Braun, M., Caron, L.-P., 2021. Pondération des scénarios climatiques d’INFO-crue sur la base de l’unicité et de la performance des simulations hydrologiques. Ouranos, Montréal, Canada.\n\n\nRousseau, A.N., Klein, I.M., Freudiger, D., Gagnon, P., Frigon, A., Ratté-Fortin, C., 2014. Development of a methodology to evaluate probable maximum precipitation (PMP) under changing climate conditions: Application to southern quebec, canada. Journal of Hydrology 519, 3094–3109. https://doi.org/https://doi.org/10.1016/j.jhydrol.2014.10.053\n\n\nWorld Meteorological Organization, 2009. Manual on estimation of probable maximum precipitation (PMP) (No. WMO-No. 1045). World Meteorological Organization, Geneva, Switzerland.\n\n\nWorld Meteorological Organization, 1989. Statistical distributions for flood frequency analysis (No. 33), Operational hydrology report. World Meteorological Organization; Secretariat of the World Meteorological Organization, Geneva, Switzerland.\n\n\nZare, M., Nasategay, F., Gomez, J.A., Moayedi Far, A., Sattarvand, J., 2024. A Review of Tailings Dam Safety Monitoring Guidelines and Systems. Minerals 551. https://doi.org/10.3390/min14060551",
+    "text": "Gaps and Recommendations\n\n\n\n\n\n\nNoneAdditional Information\n\n\n\n\n\nAs climate information becomes increasingly integrated into VM—especially with the adoption of AI for predictive management—participants in the workshops emphasized the need for practical tools to preprocess and manage climate data within existing field operations and equipment.\nAnother participant highlighted the opportunity to use spatial analogs to improve resiliency against forest fires. By examining regions that have already adapted or enhanced their vegetation management (VM) practices in response to climate change or forest fires, organizations can identify adaptation and resilience strategies that may soon be necessary in their own areas. For example, California has shifted its wildfire mitigation strategy for powerline ignitions: instead of relying solely on tree trimming, utilities now proactively shut down power lines when a branch comes into contact. This approach is feasible due to the redundancy built into California’s grid (Castro-Root and Johnson (2023)).\nClimate change adaptation might require an increase in inspections, to adapt clearing cycles to new weather patterns and to revise VM standards ((Hydro-Quebec2022?)).",
     "crumbs": [
       "Electricity Sector Activities",
-      "Infrastructure Planning and Asset Management",
-      "Dam Safety Review"
+      "Operations Planning",
+      "Vegetation Management"
     ]
   },
   {
-    "objectID": "sectors/electricity_sector_activities.html#overview-of-activities",
-    "href": "sectors/electricity_sector_activities.html#overview-of-activities",
-    "title": "Electricity Sector Activities",
-    "section": "Overview of Activities",
-    "text": "Overview of Activities\n\n\n\n\n\n\nWarningNote\n\n\n\nPlease add your comments on this section in this Google Doc.\n\n\n\nElectricity System Planning\n\nDemand forecasting (deep dive) (a literature review and analysis on demand and demand forecasting) CC impacts on energy/peak demand. Indirect increase from the relationship between climate indicators (e.g. extreme heat) and penetration rates of some technologies (e.g. residential air conditioning).\nGeneration Forecasting (Hydro, Nuclear, Solar, Thermal, Wind) (deep dive) (how does climate data impact generation forecasting processes) It will be important to differentiate long-term climate projection from medium-term forecasting.\nCapacity Expansion Modelling (summary of how this process works, but climate data interactions come from Demand and Generation forecasts)\nResource Adequacy Planning (summary of how this process works, but climate data interactions come from Demand and Generation forecasts)\n\nOperations Planning\n\nElectrical System Operations (deep / intermediate dive) (what seasonal to annual data go into this process?) CondiderFERC/NERC documents pertaining to ambient ratings and extreme temperature scenarios for use in transmission planning. We should confirm with system operators whether or not this should be an area of focus.\nOutage scheduling (What factors are considered for scheduling outages - linked to generation and demand forecast o no real climate data in isolation) From an HQ perspective, most of outage scheduling occurs during summer. This goes beyond generation + demand forecast, but also includes considerations such as redundancy during forest fire season, workers capacity during extreme heat, ambient ratings for transmission lines, degradation rates of components, etc. Just a random thought here: while outage scheduling relies on other factors and no climate data are needed in isolation, it could be interesting to map the interactions between those different activities to better capture which ones serve as inputs for which ones.\nVegetation Management (I think we do a light review of this topic but not a deep dive) Integrate forest fire.\nWorker safety (reference some generic material on safety and health implications of CC) I see two components to this question. 1) Safety and 2) Productivity. Increased heat stress should decrease productivity which might represent a financial or operational risk to some utilities. There is material on quantifying the cost of heat-induced loss of productivity that should be referenced as well.\n\nInfrastructure Planning and Asset Management\n\nConstruction (focus here is the temporary activities during construction. For example a coffer dam doesn’t have the same design criteria as a permanent dam)\nDam Safety Review\nNuclear Safety Review What do you think about wrapping Dam Safety and Nuclear Safety Reviews into a section Infrastructure Design and Review? Effectively, these are a detailed asset condition review and a design review. The actual ‘climate data’ related activities are the same from a DSR or new dam design for example. I think it could make sense to group DSR and NSRs together but somewhat on the fence about including design. While they may have similar data needs, the two activities (designing a new asset vs reviewing the safety of an existing asset) could be quite unique and worth differentiating.\nInfrastructure Condition Assessment & Investment Prioritization (can review some general literature on asset management and tie it to operations challenges and design reviews)\nInfrastructure Design (Hydro, Thermal/Nuclear, Transmission & Distribution) (deep dive) (Do we break these out? We are currently thinking to do a mix of standards/practices and some literature on extremes that inform design parameters. For example, there might not be much on pole design and climate change, but we can see who winds are expected to change and cross reference that with pole design practices. From the perspective of this project the deeper dive will be in the climate data the influence pole design) Do we separate out these asset types? We could have a separate “chapter” on hydro, T&D, etc. However, all generating stations have transformers as does T&D, so we could talk once about extreme temperature as a design value and how it interacts with each of these types of stations. The same is true of extreme flooding. We could repeat sections for each asset type or talk about how it affects each asset. Because the project is focused on climate data, I am leaning towards being able to do a deeper literature review on climate extremes and then relate that back to design values. I am open to others’ thoughts on this structure? I think organizing by climate event makes sense and then pointing to the various types of assets and specific indices used in design… however I’m a bit biased to the climate science side of things. From a design practitioner’s perspective, it might be more intuitive to have a section pertaining to their specific assets. I guess we need to think about who the intended audience is and if there’s a way to find a balance. We could also engage some of the workshop attendees involved in design to get more direct feedback on preferences. I like the idea to survey some workshop attendees on their preference.\nSupport supply chain decision-making (short summary talking about supply chain vulnerabilities)\nLicensing, Impact & Environmental Assessments How much is warranted here? We have three deeper dive topics already and the use of climate data for an EA/IA could be very wide reaching depending on the topic. I think a short summary is suitable here (similar to other non deep dive topics). In some cases there will already be guidance documentation like ECCC’s SACC that we can point to. Is this where content on Indigenous Knowledge would be addressed, or is the vision for a separate section? A topic of interest here should we want to go deeper that reference general guidance documentation would be to look at the question from the cumulative impact of cc + project standpoint. This is where I believe there is a gap in knowledge, but I have the feeling that the gap is not so much from a climate data perspective as much as from a methodological or M&E framework standpoint.\n\nAssurance, Reporting and Disclosures\n\nEnterprise Risk Management (Short overview of generic ERM practices. Climate data comes from infrastructure reviews or demand/generation forecasts)\nESG/Sustainability Reporting (Short overview of ESG reporting. The actual climate data from other areas informs this one.) Would climate related financial disclosures fit into ERM or ESG topic? I think it’s worth addressing this somewhere as it may become a more pressing topic in the foreseeable future which will require climate data. Especially given that standards focus on the reporting side of the disclosure and not as much on the analysis side of it. I feel that there is a high level of variance in the quality of information that is provided in ESG reporting, and I believe that this is partly induced by the variance in the quality (and utilization) of climate data.",
+    "objectID": "sectors/operations/vegetation_management.html#interactions-with-other-sector-activities",
+    "href": "sectors/operations/vegetation_management.html#interactions-with-other-sector-activities",
+    "title": "Vegetation Management",
+    "section": "Interactions with Other Sector Activities",
+    "text": "Interactions with Other Sector Activities\n\n\n\n\n\n\nNoneAdditional Information\n\n\n\n\n\n Link with transmission and distribution \n\n\n\n\n\nReferences (click to expand)\n\n\n\nCanada Wildfire, 2025. Canada wildfire: The canadian partnership for wildland fire science.\n\n\nCannon, A.J., Alford, H., Shrestha, R.R., Kirchmeier-Young, M.C., Najafi, M.R., 2022. Canadian large ensembles adjusted dataset version 1 (CanLEADv1): Multivariate bias-corrected climate model outputs for terrestrial modelling and attribution studies in north america. Geoscience Data Journal 9, 288–303. https://doi.org/10.1002/gdj3.142\n\n\nCastro-Root, G., Johnson, J., 2023. PG&e to trim fewer trees, focus on cutting power instead in major fire-prevention shift. San Francisco Chronicle.\n\n\nDawe, D.A., Parisien, M.-A., Boulanger, Y., Boucher, J., Beauchemin, A., Arseneault, D., 2022. Short- and long-term wildfire threat when adapting infrastructure for wildlife conservation in the boreal forest. Ecological Applications 32, e2606. https://doi.org/10.1002/eap.2606\n\n\nErni, S., Wang, X., Swystun, T., Taylor, S.W., Parisien, M.-A., Robinne, F.-N., Eddy, B., Oliver, J., Armitage, B., Flannigan, M.D., 2024. Mapping wildfire hazard, vulnerability, and risk to canadian communities. International Journal of Disaster Risk Reduction 101, 104221. https://doi.org/https://doi.org/10.1016/j.ijdrr.2023.104221\n\n\nGaboriau, D.M., Chaste, É., Girardin, M.P., Asselin, H., Ali, A.A., Bergeron, Y., Hély, C., 2023. Interactions within the climate-vegetation-fire nexus may transform 21st century boreal forests in northwestern canada. iScience 26, 106807. https://doi.org/https://doi.org/10.1016/j.isci.2023.106807\n\n\nGutiérrez, J.M., Jones, R.G., Narisma, G.T., Alves, L.M., Amjad, M., Gorodetskaya, I.V., Grose, M., Klutse, N.A.B., Krakovska, S., Li, J., Martínez-Castro, D., Mearns, L.O., Mernild, S.H., Ngo-Duc, T., Hurk, B. van den, Yoon, J.-H., 2021. Interactive atlas, in: Masson-Delmotte, V., Zhai, P., Pirani, A., Connors, S.L., Péan, C., Berger, S., Caud, N., Chen, Y., Goldfarb, L., Gomis, M.I., Huang, M., Leitzell, K., Lonnoy, E., Matthews, J.B.R., Maycock, T.K., Waterfield, T., Yelekçi, Ö., Yu, R., Zhou, B. (Eds.), Climate Change 2021: The Physical Science Basis. Contribution of Working Group i to the Sixth Assessment Report of the Intergovernmental Panel on Climate Change. Cambridge University Press, Cambridge, United Kingdom; New York, NY, USA, pp. 1927–2058. https://doi.org/10.1017/9781009157896.021\n\n\nHuang, D., Bagen, B., 2024. Assessment of wildfire risk on transmission assets, in: 2024 18th International Conference on Probabilistic Methods Applied to Power Systems (PMAPS). IEEE, Auckland, New Zealand. https://doi.org/10.1109/PMAPS61648.2024.10667073\n\n\nII, I.W.G., 2022. Chapter 14: North america, in: Climate Change 2022: Impacts, Adaptation and Vulnerability. Contribution of Working Group II to the Sixth Assessment Report of the Intergovernmental Panel on Climate Change. Cambridge University Press, Cambridge, UK; New York, NY, USA.\n\n\nLiu, N., Yemshanov, D., Parisien, M.-A., Stockdale, C., Moore, B., Koch, F.H., 2024. PostBP: A python library to analyze outputs from wildfire growth models. MethodsX 13, 102816. https://doi.org/10.1016/j.mex.2024.102816\n\n\nMulverhill, C., Coops, N.C., Wulder, M.A., Hermosilla, T., White, J.C., Bater, C.W., 2025. Projected future changes in burn probability in canada’s forests and communities under different climate change scenarios. Canadian Journal of Remote Sensing 51, 2560347. https://doi.org/10.1080/07038992.2025.2560347\n\n\nOntario Ministry of Energy, 2024. Energy vulnerability assessment for ontario’s electricity distribution sector. Strategic, Network; Agency Policy Division, Governance, Strategy; Analytics Branch, Toronto, Canada.\n\n\nOuranos, 2024. Évolution de la pluie verglaçante au québec: Synthèse des connaissances (Technical Report). Ouranos, Montréal, Québec, Canada.\n\n\nSavva, A., Kyrkou, C., Kolios, P., Theocharides, T., 2025. Advances in remote sensing and artificial intelligence for vegetation monitoring in power line corridors: A review and future directions. IEEE Geoscience and Remote Sensing Magazine 13, 415–439. https://doi.org/10.1109/MGRS.2025.3558741\n\n\nStockdale, C., Barber, Q., Parisien, M.-A., 2018. Wildfire risk to caribou conservation projects in northeastern alberta. Canadian Forest Service, Natural Resources Canada.\n\n\nTaylor, W.O., Watson, P.L., Cerrai, D., Anagnostou, E.N., 2022. Dynamic modeling of the effects of vegetation management on weather-related power outages. Electric Power Systems Research 207, 107840. https://doi.org/10.1016/j.epsr.2022.107840\n\n\nVahedi, S., Zhao, J., Pierre, B., Lei, F., Anagnostou, E., He, K., Jones, C., Wang, B., 2025. Wildfire and power grid nexus in a changing climate. Nature Reviews Electrical Engineering 2, 225–243. https://doi.org/10.1038/s44287-025-00150-0\n\n\nVan Vliet, L., Fyke, J., Nakoneczny, S., Murdock, T.Q., Jafarpur, P., 2024. Developing user-informed fire weather projections for canada. Climate Services 35, 100505. https://doi.org/https://doi.org/10.1016/j.cliser.2024.100505\n\n\nWu, Y., Zhang, B., Meng, A., Liu, Y.-H., Su, C.-Y., 2022. A hybrid framework combining data-driven and catenary-based methods for wide-area powerline sag estimation. Energies 15. https://doi.org/10.3390/en15145245",
     "crumbs": [
-      "Electricity Sector Activities"
+      "Electricity Sector Activities",
+      "Operations Planning",
+      "Vegetation Management"
+    ]
+  },
+  {
+    "objectID": "sectors/operations/proactive_management_of_heavily_loaded_assets.html",
+    "href": "sectors/operations/proactive_management_of_heavily_loaded_assets.html",
+    "title": "Proactive management of heavily loaded assets",
+    "section": "",
+    "text": "Incorporation of temperature projections to support investment decisions for heavily loaded assets."
+  },
+  {
+    "objectID": "sectors/operations/proactive_management_of_heavily_loaded_assets.html#description",
+    "href": "sectors/operations/proactive_management_of_heavily_loaded_assets.html#description",
+    "title": "Proactive management of heavily loaded assets",
+    "section": "",
+    "text": "Incorporation of temperature projections to support investment decisions for heavily loaded assets."
+  },
+  {
+    "objectID": "sectors/infrastructure/construction.html",
+    "href": "sectors/infrastructure/construction.html",
+    "title": "Construction",
+    "section": "",
+    "text": "Plan and construct various assets including hydropower facilities, transmission/distribution lines, electrical stations. Some special consideration may be required for remote locations and seasonality of the construction season. (MV note: This needs to be refined, just wanted to get something as a placeholder)",
+    "crumbs": [
+      "Electricity Sector Activities",
+      "Infrastructure Planning and Asset Management",
+      "Construction"
+    ]
+  },
+  {
+    "objectID": "sectors/infrastructure/construction.html#description",
+    "href": "sectors/infrastructure/construction.html#description",
+    "title": "Construction",
+    "section": "",
+    "text": "Plan and construct various assets including hydropower facilities, transmission/distribution lines, electrical stations. Some special consideration may be required for remote locations and seasonality of the construction season. (MV note: This needs to be refined, just wanted to get something as a placeholder)",
+    "crumbs": [
+      "Electricity Sector Activities",
+      "Infrastructure Planning and Asset Management",
+      "Construction"
+    ]
+  },
+  {
+    "objectID": "sectors/infrastructure/infrastructure_condition_assessment_and_investment_prioritization.html",
+    "href": "sectors/infrastructure/infrastructure_condition_assessment_and_investment_prioritization.html",
+    "title": "Infrastructure Condition Assessment & Investment Prioritization",
+    "section": "",
+    "text": "Based on existing condition of assets (scope to be expanded to include more robust vulnerabilities) and projected changes to hazard exposure, support in the development of investment prioritization.",
+    "crumbs": [
+      "Electricity Sector Activities",
+      "Infrastructure Planning and Asset Management",
+      "Infrastructure Condition Assessment & Investment Prioritization"
+    ]
+  },
+  {
+    "objectID": "sectors/infrastructure/infrastructure_condition_assessment_and_investment_prioritization.html#description",
+    "href": "sectors/infrastructure/infrastructure_condition_assessment_and_investment_prioritization.html#description",
+    "title": "Infrastructure Condition Assessment & Investment Prioritization",
+    "section": "",
+    "text": "Based on existing condition of assets (scope to be expanded to include more robust vulnerabilities) and projected changes to hazard exposure, support in the development of investment prioritization.",
+    "crumbs": [
+      "Electricity Sector Activities",
+      "Infrastructure Planning and Asset Management",
+      "Infrastructure Condition Assessment & Investment Prioritization"
+    ]
+  },
+  {
+    "objectID": "sectors/infrastructure/infrastructure_design.html",
+    "href": "sectors/infrastructure/infrastructure_design.html",
+    "title": "Infrastructure Design",
+    "section": "",
+    "text": "Parameters used to meet regulatory design criteria, beyond design basis criteria and develop and maintain these assets. Floodplain avoidance/mitigative design.",
+    "crumbs": [
+      "Electricity Sector Activities",
+      "Infrastructure Planning and Asset Management",
+      "Infrastructure Design"
+    ]
+  },
+  {
+    "objectID": "sectors/infrastructure/infrastructure_design.html#description",
+    "href": "sectors/infrastructure/infrastructure_design.html#description",
+    "title": "Infrastructure Design",
+    "section": "",
+    "text": "Parameters used to meet regulatory design criteria, beyond design basis criteria and develop and maintain these assets. Floodplain avoidance/mitigative design.",
+    "crumbs": [
+      "Electricity Sector Activities",
+      "Infrastructure Planning and Asset Management",
+      "Infrastructure Design"
+    ]
+  },
+  {
+    "objectID": "sectors/infrastructure/infrastructure_design.html#hydro",
+    "href": "sectors/infrastructure/infrastructure_design.html#hydro",
+    "title": "Infrastructure Design",
+    "section": "Hydro",
+    "text": "Hydro",
+    "crumbs": [
+      "Electricity Sector Activities",
+      "Infrastructure Planning and Asset Management",
+      "Infrastructure Design"
+    ]
+  },
+  {
+    "objectID": "sectors/infrastructure/infrastructure_design.html#thermal-nuclear",
+    "href": "sectors/infrastructure/infrastructure_design.html#thermal-nuclear",
+    "title": "Infrastructure Design",
+    "section": "Thermal & Nuclear",
+    "text": "Thermal & Nuclear",
+    "crumbs": [
+      "Electricity Sector Activities",
+      "Infrastructure Planning and Asset Management",
+      "Infrastructure Design"
+    ]
+  },
+  {
+    "objectID": "sectors/infrastructure/infrastructure_design.html#transmission-distribution",
+    "href": "sectors/infrastructure/infrastructure_design.html#transmission-distribution",
+    "title": "Infrastructure Design",
+    "section": "Transmission & Distribution",
+    "text": "Transmission & Distribution",
+    "crumbs": [
+      "Electricity Sector Activities",
+      "Infrastructure Planning and Asset Management",
+      "Infrastructure Design"
+    ]
+  },
+  {
+    "objectID": "sectors/infrastructure/infrastructure_planning.html",
+    "href": "sectors/infrastructure/infrastructure_planning.html",
+    "title": "Overview of Infrastruture Planning and Asset Management",
+    "section": "",
+    "text": "WarningNote",
+    "crumbs": [
+      "Electricity Sector Activities",
+      "Infrastructure Planning and Asset Management"
+    ]
+  },
+  {
+    "objectID": "sectors/infrastructure/infrastructure_planning.html#summary-of-the-infrastructure-design",
+    "href": "sectors/infrastructure/infrastructure_planning.html#summary-of-the-infrastructure-design",
+    "title": "Overview of Infrastruture Planning and Asset Management",
+    "section": "Summary of the Infrastructure Design",
+    "text": "Summary of the Infrastructure Design\n\nOutage Scheduling\n… ## Summary of Asset Management",
+    "crumbs": [
+      "Electricity Sector Activities",
+      "Infrastructure Planning and Asset Management"
+    ]
+  },
+  {
+    "objectID": "sectors/Sectors_Template.html",
+    "href": "sectors/Sectors_Template.html",
+    "title": "Sector Title",
+    "section": "",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud reprehenderit in voluptate velit esse cillum exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n\n\n\nA figure for the activity (source: bibentry)\n\n\nWe can mark stuff like this or like this as a reminder to deal with it later (see source for markdown implementation!)."
+  },
+  {
+    "objectID": "sectors/Sectors_Template.html#summary-description",
+    "href": "sectors/Sectors_Template.html#summary-description",
+    "title": "Sector Title",
+    "section": "",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud reprehenderit in voluptate velit esse cillum exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n\n\n\nA figure for the activity (source: bibentry)\n\n\nWe can mark stuff like this or like this as a reminder to deal with it later (see source for markdown implementation!)."
+  },
+  {
+    "objectID": "sectors/Sectors_Template.html#role-in-the-electricity-system",
+    "href": "sectors/Sectors_Template.html#role-in-the-electricity-system",
+    "title": "Sector Title",
+    "section": "Role in the Electricity System",
+    "text": "Role in the Electricity System\n\n\n\n\n\n\nNoneAdditional Information\n\n\n\n\n\nSummary of how this activity contributes to the electricity sector and the purpose of this topic"
+  },
+  {
+    "objectID": "sectors/Sectors_Template.html#methods-and-models",
+    "href": "sectors/Sectors_Template.html#methods-and-models",
+    "title": "Sector Title",
+    "section": "Methods and Models",
+    "text": "Methods and Models\nSummary of the methods and models used goes here. Repeat the below template if there are multiple types of models\n\n\n\n\n\n\nNoneModel Type1\n\n\n\n\n\nDescription of Model Type #1\n\n\n\n\n\n\nNoneCharacteristics\n\n\n\n\n\nDeterministic, Optimization, Econometric, empirical etc\n\n\n\n\n\n\n\n\n\nNoneKey Climate Inputs\n\n\n\n\n\n\nInput A - Description Sample links\nInput B - Description Sample links\nlink to climate projections\n\n\n\n\n\n\n\n\n\n\nNoneNon-Climate Inputs\n\n\n\n\n\n\nInput A - Description (add links)\nInput B - Description\n\n\n\n\n\n\n\n\n\n\nNoneModel Outputs\n\n\n\n\n\n\nOutput A - Description [Link_activities]\n\n\n\n\n\n\n\n\n\n\nNoneTemporal Resolution\n\n\n\n\n\nDescription\n\n\n\n\n\n\n\n\n\nNoneSpatial Resolution\n\n\n\n\n\nDescription\n\n\n\n\n\n\n\n\n\nNoneFrequency of Analysis\n\n\n\n\n\nDescription"
+  },
+  {
+    "objectID": "sectors/Sectors_Template.html#detailed-discussion",
+    "href": "sectors/Sectors_Template.html#detailed-discussion",
+    "title": "Sector Title",
+    "section": "Detailed Discussion",
+    "text": "Detailed Discussion\n\n\n\n\n\n\nNoneAdditional Information\n\n\n\n\n\nlorem ipsum bla bla"
+  },
+  {
+    "objectID": "sectors/Sectors_Template.html#gaps-and-recommendations",
+    "href": "sectors/Sectors_Template.html#gaps-and-recommendations",
+    "title": "Sector Title",
+    "section": "Gaps and Recommendations",
+    "text": "Gaps and Recommendations\n\n\n\n\n\n\nNoneAdditional Information\n\n\n\n\n\nlorem ipsum bla bla"
+  },
+  {
+    "objectID": "sectors/Sectors_Template.html#interactions-with-other-sector-activities",
+    "href": "sectors/Sectors_Template.html#interactions-with-other-sector-activities",
+    "title": "Sector Title",
+    "section": "Interactions with Other Sector Activities",
+    "text": "Interactions with Other Sector Activities\n\n\n\n\n\n\nNoneAdditional Information\n\n\n\n\n\n** to consider…this may be part of inputs and outputs**\n\n\n\n\n\nReferences (click to expand)"
+  },
+  {
+    "objectID": "sectors/reporting/esg_and_sustainability_reporting.html",
+    "href": "sectors/reporting/esg_and_sustainability_reporting.html",
+    "title": "Environmental, Social & Governance (ESG), Sustainability and Financial Reporting",
+    "section": "",
+    "text": "Reporting and financial disclosures are important accountability instruments for electrical utilities. These reports can be created for a variety of reasons. For example, Crown Corporations may be legal reporting requirements stemming from their empowering legal act, publicly registered and traded corporations must produce financial reports for shareholders and some companies produce voluntary reports to build their social license. There are many different forms climate change related reporting can take for electrical utilities including annual ESG Reports, Sustainability Reports, Climate Change Plans, Corporate Strategies or annual Financial Reports.\nThe genesis of many climate related reports comes for the creation of the Task Force on Climate-related Financial Disclosures (TCFD) started by the Financial Stability Board (FSB) in 2015. The underlying driver for the creation of the TCFD was to provide financial markets “clear, comprehensive, high-quality information on the impacts of cliamte change”. In this way investors, insurers and others in the financial sector could properly understand the risks and opportunities their investments were facing from both the physical impacts of climate changes but also from the climate transition related to policy, legal and market changes to combat climate change. The TCFD produced a recommendation report in 2017(Climate-Related Financial Disclosures (2017)) gaining widespread support. Having accomplished it’s task, the TCFD was disbanded in 2023 and the monitoring and progress of climate related disclosures was assigned to the IFRS Foundation. The International Sustainability Standards Board (ISSB) created two financial disclosure standards that incorporated the work of the TCFD. These are IFRS S1 General Requirements fo Disclosure of Sustainability-related Financial Information and IFRS S2 Climate-related Disclosures. These are voluntary international standards that provide guidance on how companies should disclose among other things their climate related risks and adaptation strategies.\nThe Canadian Sustainability Standards Board (CSSB) has released two Canadian Sustainability Disclosure Standards (CSDS) to provide guidance to Canadian companies on financial disclosures. CSDS 1 and CSDS 2 are very closely aligned with the international IFRS S1 and IFRS S2 voluntary reporting standards. These standards are also voluntary for publicly reporting companies until the Canadian Securities Administration (CSA) mandates climate related financial disclosures for Canadian companies. These standards do not apply to all utilities, where Crown Corporations in particular may have their own reporting requirements.\nAmong the key requirements of these standards is the reporting of climate related risks that a electrical utility faces and where possible monitoring those risks and the treatment thereof with metrics and targets. This leads to transparent understanding of risks and progress to addressing those risks. This could include risks related to extreme events impacting infrastructure, climate related changes in generation and revenue profiles or changes in revenue resulting from climate-related impacts.",
+    "crumbs": [
+      "Electricity Sector Activities",
+      "Assurance, Reporting and Disclosures",
+      "Environmental, Social & Governance (ESG), Sustainability and Financial Reporting"
+    ]
+  },
+  {
+    "objectID": "sectors/reporting/esg_and_sustainability_reporting.html#description",
+    "href": "sectors/reporting/esg_and_sustainability_reporting.html#description",
+    "title": "Environmental, Social & Governance (ESG), Sustainability and Financial Reporting",
+    "section": "",
+    "text": "Reporting and financial disclosures are important accountability instruments for electrical utilities. These reports can be created for a variety of reasons. For example, Crown Corporations may be legal reporting requirements stemming from their empowering legal act, publicly registered and traded corporations must produce financial reports for shareholders and some companies produce voluntary reports to build their social license. There are many different forms climate change related reporting can take for electrical utilities including annual ESG Reports, Sustainability Reports, Climate Change Plans, Corporate Strategies or annual Financial Reports.\nThe genesis of many climate related reports comes for the creation of the Task Force on Climate-related Financial Disclosures (TCFD) started by the Financial Stability Board (FSB) in 2015. The underlying driver for the creation of the TCFD was to provide financial markets “clear, comprehensive, high-quality information on the impacts of cliamte change”. In this way investors, insurers and others in the financial sector could properly understand the risks and opportunities their investments were facing from both the physical impacts of climate changes but also from the climate transition related to policy, legal and market changes to combat climate change. The TCFD produced a recommendation report in 2017(Climate-Related Financial Disclosures (2017)) gaining widespread support. Having accomplished it’s task, the TCFD was disbanded in 2023 and the monitoring and progress of climate related disclosures was assigned to the IFRS Foundation. The International Sustainability Standards Board (ISSB) created two financial disclosure standards that incorporated the work of the TCFD. These are IFRS S1 General Requirements fo Disclosure of Sustainability-related Financial Information and IFRS S2 Climate-related Disclosures. These are voluntary international standards that provide guidance on how companies should disclose among other things their climate related risks and adaptation strategies.\nThe Canadian Sustainability Standards Board (CSSB) has released two Canadian Sustainability Disclosure Standards (CSDS) to provide guidance to Canadian companies on financial disclosures. CSDS 1 and CSDS 2 are very closely aligned with the international IFRS S1 and IFRS S2 voluntary reporting standards. These standards are also voluntary for publicly reporting companies until the Canadian Securities Administration (CSA) mandates climate related financial disclosures for Canadian companies. These standards do not apply to all utilities, where Crown Corporations in particular may have their own reporting requirements.\nAmong the key requirements of these standards is the reporting of climate related risks that a electrical utility faces and where possible monitoring those risks and the treatment thereof with metrics and targets. This leads to transparent understanding of risks and progress to addressing those risks. This could include risks related to extreme events impacting infrastructure, climate related changes in generation and revenue profiles or changes in revenue resulting from climate-related impacts.",
+    "crumbs": [
+      "Electricity Sector Activities",
+      "Assurance, Reporting and Disclosures",
+      "Environmental, Social & Governance (ESG), Sustainability and Financial Reporting"
+    ]
+  },
+  {
+    "objectID": "sectors/reporting/esg_and_sustainability_reporting.html#climate-data-used",
+    "href": "sectors/reporting/esg_and_sustainability_reporting.html#climate-data-used",
+    "title": "Environmental, Social & Governance (ESG), Sustainability and Financial Reporting",
+    "section": "Climate Data Used",
+    "text": "Climate Data Used\nClimate data is generally not directly or uniquely used ESG or Financial Reporting. These reports aggregate information from other electricity sector activities. For example, a report could disclose changes in generation revenue coming from Generation Planning or risks to physical assets assessed during infrastructure assessments and further assessed in enterprise risk management practices.",
+    "crumbs": [
+      "Electricity Sector Activities",
+      "Assurance, Reporting and Disclosures",
+      "Environmental, Social & Governance (ESG), Sustainability and Financial Reporting"
+    ]
+  },
+  {
+    "objectID": "sectors/reporting/esg_and_sustainability_reporting.html#gaps",
+    "href": "sectors/reporting/esg_and_sustainability_reporting.html#gaps",
+    "title": "Environmental, Social & Governance (ESG), Sustainability and Financial Reporting",
+    "section": "Gaps",
+    "text": "Gaps\nThis practice remains relatively new to utilities. It was recognized by TCFD and subsequent standards that climate-related disclosures would be a journey that requires multiple iterations. Gaps and recommendations in key sections where climate data is used that contribute to these reports should be reviewed.",
+    "crumbs": [
+      "Electricity Sector Activities",
+      "Assurance, Reporting and Disclosures",
+      "Environmental, Social & Governance (ESG), Sustainability and Financial Reporting"
+    ]
+  },
+  {
+    "objectID": "sectors/reporting/esg_and_sustainability_reporting.html#recommendations",
+    "href": "sectors/reporting/esg_and_sustainability_reporting.html#recommendations",
+    "title": "Environmental, Social & Governance (ESG), Sustainability and Financial Reporting",
+    "section": "Recommendations",
+    "text": "Recommendations\nNot Applicable",
+    "crumbs": [
+      "Electricity Sector Activities",
+      "Assurance, Reporting and Disclosures",
+      "Environmental, Social & Governance (ESG), Sustainability and Financial Reporting"
+    ]
+  },
+  {
+    "objectID": "sectors/reporting/esg_and_sustainability_reporting.html#references",
+    "href": "sectors/reporting/esg_and_sustainability_reporting.html#references",
+    "title": "Environmental, Social & Governance (ESG), Sustainability and Financial Reporting",
+    "section": "References",
+    "text": "References\n\n\nClimate-Related Financial Disclosures, T.F. on, 2017. TCFD report (Report). Financial Stability Board.",
+    "crumbs": [
+      "Electricity Sector Activities",
+      "Assurance, Reporting and Disclosures",
+      "Environmental, Social & Governance (ESG), Sustainability and Financial Reporting"
+    ]
+  },
+  {
+    "objectID": "sectors/innovation_investments.html",
+    "href": "sectors/innovation_investments.html",
+    "title": "Innovation Investments",
+    "section": "",
+    "text": "Use projections to support decision making on geographic needs for non-wire solution, microgrid, BESS, demand management."
+  },
+  {
+    "objectID": "sectors/innovation_investments.html#description",
+    "href": "sectors/innovation_investments.html#description",
+    "title": "Innovation Investments",
+    "section": "",
+    "text": "Use projections to support decision making on geographic needs for non-wire solution, microgrid, BESS, demand management."
+  },
+  {
+    "objectID": "adaptation/Adaptation.html",
+    "href": "adaptation/Adaptation.html",
+    "title": "Adapting to Climate Change",
+    "section": "",
+    "text": "This section discusses the integration of climate data from a climate change adaptation perspective approaches into the use of climate data to address the implicit uncertainty associated with such data. ## Model Chains ### Baseline Selection Consideration from Ouranos report on Asset Valuation",
+    "crumbs": [
+      "Adapting to Climate Change"
+    ]
+  },
+  {
+    "objectID": "adaptation/Adaptation.html#uncertainty",
+    "href": "adaptation/Adaptation.html#uncertainty",
+    "title": "Adapting to Climate Change",
+    "section": "Uncertainty",
+    "text": "Uncertainty",
+    "crumbs": [
+      "Adapting to Climate Change"
+    ]
+  },
+  {
+    "objectID": "adaptation/Adaptation.html#data-confidence",
+    "href": "adaptation/Adaptation.html#data-confidence",
+    "title": "Adapting to Climate Change",
+    "section": "Data Confidence",
+    "text": "Data Confidence\n\nConfidence in the Signal\n\n\nConfidence in use of data",
+    "crumbs": [
+      "Adapting to Climate Change"
+    ]
+  },
+  {
+    "objectID": "adaptation/Adaptation.html#risk-and-vulnerability",
+    "href": "adaptation/Adaptation.html#risk-and-vulnerability",
+    "title": "Adapting to Climate Change",
+    "section": "Risk and Vulnerability",
+    "text": "Risk and Vulnerability\nProvide the IPCC and ISO definitions of risk and vulnerability… recognize that different framework may express these concepts different",
+    "crumbs": [
+      "Adapting to Climate Change"
+    ]
+  },
+  {
+    "objectID": "adaptation/Adaptation.html#evaluating-vulnerability",
+    "href": "adaptation/Adaptation.html#evaluating-vulnerability",
+    "title": "Adapting to Climate Change",
+    "section": "Evaluating Vulnerability",
+    "text": "Evaluating Vulnerability\n\nTop down versus bottom up?\n\n\nStress Testing",
+    "crumbs": [
+      "Adapting to Climate Change"
+    ]
+  },
+  {
+    "objectID": "adaptation/Adaptation.html#evaluating-risk",
+    "href": "adaptation/Adaptation.html#evaluating-risk",
+    "title": "Adapting to Climate Change",
+    "section": "Evaluating Risk",
+    "text": "Evaluating Risk\nDo we include the recent Ouranos work?",
+    "crumbs": [
+      "Adapting to Climate Change"
+    ]
+  },
+  {
+    "objectID": "adaptation/Adaptation.html#decision-making-under-deep-uncertainty",
+    "href": "adaptation/Adaptation.html#decision-making-under-deep-uncertainty",
+    "title": "Adapting to Climate Change",
+    "section": "Decision Making Under Deep Uncertainty",
+    "text": "Decision Making Under Deep Uncertainty\nWe focus previously on stress testing, but where there are multiple dimensions of uncertainty or decision making we run into deeper uncertainty. DMDU may not be required for simple system or component replacements.",
+    "crumbs": [
+      "Adapting to Climate Change"
+    ]
+  },
+  {
+    "objectID": "sectors/reporting/enterprise_risk_management.html",
+    "href": "sectors/reporting/enterprise_risk_management.html",
+    "title": "Enterprise Risk Management",
+    "section": "",
+    "text": "Understanding various exposure risks relative to other ERM/organizational risk profiles\n\n\n\n\n\n\nImportantMaybe consider this!\n\n\n\nThe following were defined as distinct sections!They were initially seen as sub-tasks of “Enterprise Risk Managment.”",
+    "crumbs": [
+      "Electricity Sector Activities",
+      "Assurance, Reporting and Disclosures",
+      "Enterprise Risk Management"
+    ]
+  },
+  {
+    "objectID": "sectors/reporting/enterprise_risk_management.html#description",
+    "href": "sectors/reporting/enterprise_risk_management.html#description",
+    "title": "Enterprise Risk Management",
+    "section": "",
+    "text": "Understanding various exposure risks relative to other ERM/organizational risk profiles\n\n\n\n\n\n\nImportantMaybe consider this!\n\n\n\nThe following were defined as distinct sections!They were initially seen as sub-tasks of “Enterprise Risk Managment.”",
+    "crumbs": [
+      "Electricity Sector Activities",
+      "Assurance, Reporting and Disclosures",
+      "Enterprise Risk Management"
+    ]
+  },
+  {
+    "objectID": "sectors/reporting/enterprise_risk_management.html#infrastructure-condition-assessment",
+    "href": "sectors/reporting/enterprise_risk_management.html#infrastructure-condition-assessment",
+    "title": "Enterprise Risk Management",
+    "section": "Infrastructure Condition Assessment",
+    "text": "Infrastructure Condition Assessment",
+    "crumbs": [
+      "Electricity Sector Activities",
+      "Assurance, Reporting and Disclosures",
+      "Enterprise Risk Management"
+    ]
+  },
+  {
+    "objectID": "sectors/reporting/enterprise_risk_management.html#investment-prioritization",
+    "href": "sectors/reporting/enterprise_risk_management.html#investment-prioritization",
+    "title": "Enterprise Risk Management",
+    "section": "Investment Prioritization",
+    "text": "Investment Prioritization",
+    "crumbs": [
+      "Electricity Sector Activities",
+      "Assurance, Reporting and Disclosures",
+      "Enterprise Risk Management"
+    ]
+  },
+  {
+    "objectID": "sectors/reporting/enterprise_risk_management.html#vegetation-management",
+    "href": "sectors/reporting/enterprise_risk_management.html#vegetation-management",
+    "title": "Enterprise Risk Management",
+    "section": "Vegetation Management",
+    "text": "Vegetation Management",
+    "crumbs": [
+      "Electricity Sector Activities",
+      "Assurance, Reporting and Disclosures",
+      "Enterprise Risk Management"
     ]
   },
   {
@@ -1183,413 +1474,182 @@
     ]
   },
   {
-    "objectID": "sectors/reporting/enterprise_risk_management.html",
-    "href": "sectors/reporting/enterprise_risk_management.html",
-    "title": "Enterprise Risk Management",
+    "objectID": "sectors/electricity_sector_activities.html#overview-of-activities",
+    "href": "sectors/electricity_sector_activities.html#overview-of-activities",
+    "title": "Electricity Sector Activities",
+    "section": "Overview of Activities",
+    "text": "Overview of Activities\n\n\n\n\n\n\nWarningNote\n\n\n\nPlease add your comments on this section in this Google Doc.\n\n\n\nElectricity System Planning\n\nDemand forecasting (deep dive) (a literature review and analysis on demand and demand forecasting) CC impacts on energy/peak demand. Indirect increase from the relationship between climate indicators (e.g. extreme heat) and penetration rates of some technologies (e.g. residential air conditioning).\nGeneration Forecasting (Hydro, Nuclear, Solar, Thermal, Wind) (deep dive) (how does climate data impact generation forecasting processes) It will be important to differentiate long-term climate projection from medium-term forecasting.\nCapacity Expansion Modelling (summary of how this process works, but climate data interactions come from Demand and Generation forecasts)\nResource Adequacy Planning (summary of how this process works, but climate data interactions come from Demand and Generation forecasts)\n\nOperations Planning\n\nElectrical System Operations (deep / intermediate dive) (what seasonal to annual data go into this process?) CondiderFERC/NERC documents pertaining to ambient ratings and extreme temperature scenarios for use in transmission planning. We should confirm with system operators whether or not this should be an area of focus.\nOutage scheduling (What factors are considered for scheduling outages - linked to generation and demand forecast o no real climate data in isolation) From an HQ perspective, most of outage scheduling occurs during summer. This goes beyond generation + demand forecast, but also includes considerations such as redundancy during forest fire season, workers capacity during extreme heat, ambient ratings for transmission lines, degradation rates of components, etc. Just a random thought here: while outage scheduling relies on other factors and no climate data are needed in isolation, it could be interesting to map the interactions between those different activities to better capture which ones serve as inputs for which ones.\nVegetation Management (I think we do a light review of this topic but not a deep dive) Integrate forest fire.\nWorker safety (reference some generic material on safety and health implications of CC) I see two components to this question. 1) Safety and 2) Productivity. Increased heat stress should decrease productivity which might represent a financial or operational risk to some utilities. There is material on quantifying the cost of heat-induced loss of productivity that should be referenced as well.\n\nInfrastructure Planning and Asset Management\n\nConstruction (focus here is the temporary activities during construction. For example a coffer dam doesn’t have the same design criteria as a permanent dam)\nDam Safety Review\nNuclear Safety Review What do you think about wrapping Dam Safety and Nuclear Safety Reviews into a section Infrastructure Design and Review? Effectively, these are a detailed asset condition review and a design review. The actual ‘climate data’ related activities are the same from a DSR or new dam design for example. I think it could make sense to group DSR and NSRs together but somewhat on the fence about including design. While they may have similar data needs, the two activities (designing a new asset vs reviewing the safety of an existing asset) could be quite unique and worth differentiating.\nInfrastructure Condition Assessment & Investment Prioritization (can review some general literature on asset management and tie it to operations challenges and design reviews)\nInfrastructure Design (Hydro, Thermal/Nuclear, Transmission & Distribution) (deep dive) (Do we break these out? We are currently thinking to do a mix of standards/practices and some literature on extremes that inform design parameters. For example, there might not be much on pole design and climate change, but we can see who winds are expected to change and cross reference that with pole design practices. From the perspective of this project the deeper dive will be in the climate data the influence pole design) Do we separate out these asset types? We could have a separate “chapter” on hydro, T&D, etc. However, all generating stations have transformers as does T&D, so we could talk once about extreme temperature as a design value and how it interacts with each of these types of stations. The same is true of extreme flooding. We could repeat sections for each asset type or talk about how it affects each asset. Because the project is focused on climate data, I am leaning towards being able to do a deeper literature review on climate extremes and then relate that back to design values. I am open to others’ thoughts on this structure? I think organizing by climate event makes sense and then pointing to the various types of assets and specific indices used in design… however I’m a bit biased to the climate science side of things. From a design practitioner’s perspective, it might be more intuitive to have a section pertaining to their specific assets. I guess we need to think about who the intended audience is and if there’s a way to find a balance. We could also engage some of the workshop attendees involved in design to get more direct feedback on preferences. I like the idea to survey some workshop attendees on their preference.\nSupport supply chain decision-making (short summary talking about supply chain vulnerabilities)\nLicensing, Impact & Environmental Assessments How much is warranted here? We have three deeper dive topics already and the use of climate data for an EA/IA could be very wide reaching depending on the topic. I think a short summary is suitable here (similar to other non deep dive topics). In some cases there will already be guidance documentation like ECCC’s SACC that we can point to. Is this where content on Indigenous Knowledge would be addressed, or is the vision for a separate section? A topic of interest here should we want to go deeper that reference general guidance documentation would be to look at the question from the cumulative impact of cc + project standpoint. This is where I believe there is a gap in knowledge, but I have the feeling that the gap is not so much from a climate data perspective as much as from a methodological or M&E framework standpoint.\n\nAssurance, Reporting and Disclosures\n\nEnterprise Risk Management (Short overview of generic ERM practices. Climate data comes from infrastructure reviews or demand/generation forecasts)\nESG/Sustainability Reporting (Short overview of ESG reporting. The actual climate data from other areas informs this one.) Would climate related financial disclosures fit into ERM or ESG topic? I think it’s worth addressing this somewhere as it may become a more pressing topic in the foreseeable future which will require climate data. Especially given that standards focus on the reporting side of the disclosure and not as much on the analysis side of it. I feel that there is a high level of variance in the quality of information that is provided in ESG reporting, and I believe that this is partly induced by the variance in the quality (and utilization) of climate data.",
+    "crumbs": [
+      "Electricity Sector Activities"
+    ]
+  },
+  {
+    "objectID": "sectors/infrastructure/dam_safety_review.html",
+    "href": "sectors/infrastructure/dam_safety_review.html",
+    "title": "Dam Safety Review",
     "section": "",
-    "text": "Understanding various exposure risks relative to other ERM/organizational risk profiles\n\n\n\n\n\n\nImportantMaybe consider this!\n\n\n\nThe following were defined as distinct sections!They were initially seen as sub-tasks of “Enterprise Risk Managment.”",
+    "text": "standard based on Dam Safety Guidelines - Canadian Dam Association (CDA)\nrisk-informed approach: undesired events in therms of likelihood and potential consequences\nprovincial and territorial regulations\nevaluation and systematic review of all aspects (including visual inspections of all components)\n\n\n\n\nTailings dam safety management system suggested by the CDA (Zare et al. (2024))\n\n\nThere are over 16 000 dams in Canada and 38% are managed by Quebec authorities of which 22% are used for hydroelectricity. 87% of dams can be found in five provinces (Ontario, Quebec, British Columbia, Alberta and Saskatchewan) (Ozkan et al. (2023)). Additionally, half of Canada dams are older than 50 years old, increasing the risk of climate change impacts due to infrastructure aging making them more vulnerable.\nDams present many vulnerabilities linked to climate change which are challenging to quantify. Extreme floods are projected to increase in frequency and severity in many areas across Canada, which directly affect the inflow flood design. Furthermore, there is a projected shift in precipitation pattern and flood mechanisms such as rain-on-snow events or snowmelt-driven floods which also affect the estimated design flood as well as operations and maintenance. Dams located in permafrost regions could be affected by instability due to thawing. Rising temperatures could also create large ice movements. Access to infrastructure could also be limited by more common extreme events such as forest fires (i.e. an Hydro Quebec had an installation evacuated by workers to let firefighters do their work) (MacTavish et al. (2022), Islam et al. (2024)). Similarly, freezing rain, ice storms or extreme snowfall could limit the ability to access a dam or operate flow control equipment such as pulling logs. Reservoir water quality is likely to be affected by climate change due to the rise in temperature (intense stratification leading to anoxic conditions) and switch in precipitation patterns (influx of nutrients and turbidity during snowmelt), among others (Ozkan et al. (2023)). Structural stability of concrete dams might also be challenged due to the increase in total horizontal load caused by precipitations and streamflow (Ozkan et al. (2023)).\nThe following sections describe the role, some method and models, as well as gaps and recommendations in dam safety review.",
     "crumbs": [
       "Electricity Sector Activities",
-      "Assurance, Reporting and Disclosures",
-      "Enterprise Risk Management"
+      "Infrastructure Planning and Asset Management",
+      "Dam Safety Review"
     ]
   },
   {
-    "objectID": "sectors/reporting/enterprise_risk_management.html#description",
-    "href": "sectors/reporting/enterprise_risk_management.html#description",
-    "title": "Enterprise Risk Management",
+    "objectID": "sectors/infrastructure/dam_safety_review.html#summary-description",
+    "href": "sectors/infrastructure/dam_safety_review.html#summary-description",
+    "title": "Dam Safety Review",
     "section": "",
-    "text": "Understanding various exposure risks relative to other ERM/organizational risk profiles\n\n\n\n\n\n\nImportantMaybe consider this!\n\n\n\nThe following were defined as distinct sections!They were initially seen as sub-tasks of “Enterprise Risk Managment.”",
+    "text": "standard based on Dam Safety Guidelines - Canadian Dam Association (CDA)\nrisk-informed approach: undesired events in therms of likelihood and potential consequences\nprovincial and territorial regulations\nevaluation and systematic review of all aspects (including visual inspections of all components)\n\n\n\n\nTailings dam safety management system suggested by the CDA (Zare et al. (2024))\n\n\nThere are over 16 000 dams in Canada and 38% are managed by Quebec authorities of which 22% are used for hydroelectricity. 87% of dams can be found in five provinces (Ontario, Quebec, British Columbia, Alberta and Saskatchewan) (Ozkan et al. (2023)). Additionally, half of Canada dams are older than 50 years old, increasing the risk of climate change impacts due to infrastructure aging making them more vulnerable.\nDams present many vulnerabilities linked to climate change which are challenging to quantify. Extreme floods are projected to increase in frequency and severity in many areas across Canada, which directly affect the inflow flood design. Furthermore, there is a projected shift in precipitation pattern and flood mechanisms such as rain-on-snow events or snowmelt-driven floods which also affect the estimated design flood as well as operations and maintenance. Dams located in permafrost regions could be affected by instability due to thawing. Rising temperatures could also create large ice movements. Access to infrastructure could also be limited by more common extreme events such as forest fires (i.e. an Hydro Quebec had an installation evacuated by workers to let firefighters do their work) (MacTavish et al. (2022), Islam et al. (2024)). Similarly, freezing rain, ice storms or extreme snowfall could limit the ability to access a dam or operate flow control equipment such as pulling logs. Reservoir water quality is likely to be affected by climate change due to the rise in temperature (intense stratification leading to anoxic conditions) and switch in precipitation patterns (influx of nutrients and turbidity during snowmelt), among others (Ozkan et al. (2023)). Structural stability of concrete dams might also be challenged due to the increase in total horizontal load caused by precipitations and streamflow (Ozkan et al. (2023)).\nThe following sections describe the role, some method and models, as well as gaps and recommendations in dam safety review.",
     "crumbs": [
       "Electricity Sector Activities",
-      "Assurance, Reporting and Disclosures",
-      "Enterprise Risk Management"
+      "Infrastructure Planning and Asset Management",
+      "Dam Safety Review"
     ]
   },
   {
-    "objectID": "sectors/reporting/enterprise_risk_management.html#infrastructure-condition-assessment",
-    "href": "sectors/reporting/enterprise_risk_management.html#infrastructure-condition-assessment",
-    "title": "Enterprise Risk Management",
-    "section": "Infrastructure Condition Assessment",
-    "text": "Infrastructure Condition Assessment",
-    "crumbs": [
-      "Electricity Sector Activities",
-      "Assurance, Reporting and Disclosures",
-      "Enterprise Risk Management"
-    ]
-  },
-  {
-    "objectID": "sectors/reporting/enterprise_risk_management.html#investment-prioritization",
-    "href": "sectors/reporting/enterprise_risk_management.html#investment-prioritization",
-    "title": "Enterprise Risk Management",
-    "section": "Investment Prioritization",
-    "text": "Investment Prioritization",
-    "crumbs": [
-      "Electricity Sector Activities",
-      "Assurance, Reporting and Disclosures",
-      "Enterprise Risk Management"
-    ]
-  },
-  {
-    "objectID": "sectors/reporting/enterprise_risk_management.html#vegetation-management",
-    "href": "sectors/reporting/enterprise_risk_management.html#vegetation-management",
-    "title": "Enterprise Risk Management",
-    "section": "Vegetation Management",
-    "text": "Vegetation Management",
-    "crumbs": [
-      "Electricity Sector Activities",
-      "Assurance, Reporting and Disclosures",
-      "Enterprise Risk Management"
-    ]
-  },
-  {
-    "objectID": "adaptation/Adaptation.html",
-    "href": "adaptation/Adaptation.html",
-    "title": "Adapting to Climate Change",
-    "section": "",
-    "text": "This section discusses the integration of climate data from a climate change adaptation perspective approaches into the use of climate data to address the implicit uncertainty associated with such data. ## Model Chains ### Baseline Selection Consideration from Ouranos report on Asset Valuation",
-    "crumbs": [
-      "Adapting to Climate Change"
-    ]
-  },
-  {
-    "objectID": "adaptation/Adaptation.html#uncertainty",
-    "href": "adaptation/Adaptation.html#uncertainty",
-    "title": "Adapting to Climate Change",
-    "section": "Uncertainty",
-    "text": "Uncertainty",
-    "crumbs": [
-      "Adapting to Climate Change"
-    ]
-  },
-  {
-    "objectID": "adaptation/Adaptation.html#data-confidence",
-    "href": "adaptation/Adaptation.html#data-confidence",
-    "title": "Adapting to Climate Change",
-    "section": "Data Confidence",
-    "text": "Data Confidence\n\nConfidence in the Signal\n\n\nConfidence in use of data",
-    "crumbs": [
-      "Adapting to Climate Change"
-    ]
-  },
-  {
-    "objectID": "adaptation/Adaptation.html#risk-and-vulnerability",
-    "href": "adaptation/Adaptation.html#risk-and-vulnerability",
-    "title": "Adapting to Climate Change",
-    "section": "Risk and Vulnerability",
-    "text": "Risk and Vulnerability\nProvide the IPCC and ISO definitions of risk and vulnerability… recognize that different framework may express these concepts different",
-    "crumbs": [
-      "Adapting to Climate Change"
-    ]
-  },
-  {
-    "objectID": "adaptation/Adaptation.html#evaluating-vulnerability",
-    "href": "adaptation/Adaptation.html#evaluating-vulnerability",
-    "title": "Adapting to Climate Change",
-    "section": "Evaluating Vulnerability",
-    "text": "Evaluating Vulnerability\n\nTop down versus bottom up?\n\n\nStress Testing",
-    "crumbs": [
-      "Adapting to Climate Change"
-    ]
-  },
-  {
-    "objectID": "adaptation/Adaptation.html#evaluating-risk",
-    "href": "adaptation/Adaptation.html#evaluating-risk",
-    "title": "Adapting to Climate Change",
-    "section": "Evaluating Risk",
-    "text": "Evaluating Risk\nDo we include the recent Ouranos work?",
-    "crumbs": [
-      "Adapting to Climate Change"
-    ]
-  },
-  {
-    "objectID": "adaptation/Adaptation.html#decision-making-under-deep-uncertainty",
-    "href": "adaptation/Adaptation.html#decision-making-under-deep-uncertainty",
-    "title": "Adapting to Climate Change",
-    "section": "Decision Making Under Deep Uncertainty",
-    "text": "Decision Making Under Deep Uncertainty\nWe focus previously on stress testing, but where there are multiple dimensions of uncertainty or decision making we run into deeper uncertainty. DMDU may not be required for simple system or component replacements.",
-    "crumbs": [
-      "Adapting to Climate Change"
-    ]
-  },
-  {
-    "objectID": "sectors/innovation_investments.html",
-    "href": "sectors/innovation_investments.html",
-    "title": "Innovation Investments",
-    "section": "",
-    "text": "Use projections to support decision making on geographic needs for non-wire solution, microgrid, BESS, demand management."
-  },
-  {
-    "objectID": "sectors/innovation_investments.html#description",
-    "href": "sectors/innovation_investments.html#description",
-    "title": "Innovation Investments",
-    "section": "",
-    "text": "Use projections to support decision making on geographic needs for non-wire solution, microgrid, BESS, demand management."
-  },
-  {
-    "objectID": "sectors/reporting/esg_and_sustainability_reporting.html",
-    "href": "sectors/reporting/esg_and_sustainability_reporting.html",
-    "title": "Environmental, Social & Governance (ESG), Sustainability and Financial Reporting",
-    "section": "",
-    "text": "Reporting and financial disclosures are important accountability instruments for electrical utilities. These reports can be created for a variety of reasons. For example, Crown Corporations may be legal reporting requirements stemming from their empowering legal act, publicly registered and traded corporations must produce financial reports for shareholders and some companies produce voluntary reports to build their social license. There are many different forms climate change related reporting can take for electrical utilities including annual ESG Reports, Sustainability Reports, Climate Change Plans, Corporate Strategies or annual Financial Reports.\nThe genesis of many climate related reports comes for the creation of the Task Force on Climate-related Financial Disclosures (TCFD) started by the Financial Stability Board (FSB) in 2015. The underlying driver for the creation of the TCFD was to provide financial markets “clear, comprehensive, high-quality information on the impacts of cliamte change”. In this way investors, insurers and others in the financial sector could properly understand the risks and opportunities their investments were facing from both the physical impacts of climate changes but also from the climate transition related to policy, legal and market changes to combat climate change. The TCFD produced a recommendation report in 2017(Climate-Related Financial Disclosures (2017)) gaining widespread support. Having accomplished it’s task, the TCFD was disbanded in 2023 and the monitoring and progress of climate related disclosures was assigned to the IFRS Foundation. The International Sustainability Standards Board (ISSB) created two financial disclosure standards that incorporated the work of the TCFD. These are IFRS S1 General Requirements fo Disclosure of Sustainability-related Financial Information and IFRS S2 Climate-related Disclosures. These are voluntary international standards that provide guidance on how companies should disclose among other things their climate related risks and adaptation strategies.\nThe Canadian Sustainability Standards Board (CSSB) has released two Canadian Sustainability Disclosure Standards (CSDS) to provide guidance to Canadian companies on financial disclosures. CSDS 1 and CSDS 2 are very closely aligned with the international IFRS S1 and IFRS S2 voluntary reporting standards. These standards are also voluntary for publicly reporting companies until the Canadian Securities Administration (CSA) mandates climate related financial disclosures for Canadian companies. These standards do not apply to all utilities, where Crown Corporations in particular may have their own reporting requirements.\nAmong the key requirements of these standards is the reporting of climate related risks that a electrical utility faces and where possible monitoring those risks and the treatment thereof with metrics and targets. This leads to transparent understanding of risks and progress to addressing those risks. This could include risks related to extreme events impacting infrastructure, climate related changes in generation and revenue profiles or changes in revenue resulting from climate-related impacts.",
-    "crumbs": [
-      "Electricity Sector Activities",
-      "Assurance, Reporting and Disclosures",
-      "Environmental, Social & Governance (ESG), Sustainability and Financial Reporting"
-    ]
-  },
-  {
-    "objectID": "sectors/reporting/esg_and_sustainability_reporting.html#description",
-    "href": "sectors/reporting/esg_and_sustainability_reporting.html#description",
-    "title": "Environmental, Social & Governance (ESG), Sustainability and Financial Reporting",
-    "section": "",
-    "text": "Reporting and financial disclosures are important accountability instruments for electrical utilities. These reports can be created for a variety of reasons. For example, Crown Corporations may be legal reporting requirements stemming from their empowering legal act, publicly registered and traded corporations must produce financial reports for shareholders and some companies produce voluntary reports to build their social license. There are many different forms climate change related reporting can take for electrical utilities including annual ESG Reports, Sustainability Reports, Climate Change Plans, Corporate Strategies or annual Financial Reports.\nThe genesis of many climate related reports comes for the creation of the Task Force on Climate-related Financial Disclosures (TCFD) started by the Financial Stability Board (FSB) in 2015. The underlying driver for the creation of the TCFD was to provide financial markets “clear, comprehensive, high-quality information on the impacts of cliamte change”. In this way investors, insurers and others in the financial sector could properly understand the risks and opportunities their investments were facing from both the physical impacts of climate changes but also from the climate transition related to policy, legal and market changes to combat climate change. The TCFD produced a recommendation report in 2017(Climate-Related Financial Disclosures (2017)) gaining widespread support. Having accomplished it’s task, the TCFD was disbanded in 2023 and the monitoring and progress of climate related disclosures was assigned to the IFRS Foundation. The International Sustainability Standards Board (ISSB) created two financial disclosure standards that incorporated the work of the TCFD. These are IFRS S1 General Requirements fo Disclosure of Sustainability-related Financial Information and IFRS S2 Climate-related Disclosures. These are voluntary international standards that provide guidance on how companies should disclose among other things their climate related risks and adaptation strategies.\nThe Canadian Sustainability Standards Board (CSSB) has released two Canadian Sustainability Disclosure Standards (CSDS) to provide guidance to Canadian companies on financial disclosures. CSDS 1 and CSDS 2 are very closely aligned with the international IFRS S1 and IFRS S2 voluntary reporting standards. These standards are also voluntary for publicly reporting companies until the Canadian Securities Administration (CSA) mandates climate related financial disclosures for Canadian companies. These standards do not apply to all utilities, where Crown Corporations in particular may have their own reporting requirements.\nAmong the key requirements of these standards is the reporting of climate related risks that a electrical utility faces and where possible monitoring those risks and the treatment thereof with metrics and targets. This leads to transparent understanding of risks and progress to addressing those risks. This could include risks related to extreme events impacting infrastructure, climate related changes in generation and revenue profiles or changes in revenue resulting from climate-related impacts.",
-    "crumbs": [
-      "Electricity Sector Activities",
-      "Assurance, Reporting and Disclosures",
-      "Environmental, Social & Governance (ESG), Sustainability and Financial Reporting"
-    ]
-  },
-  {
-    "objectID": "sectors/reporting/esg_and_sustainability_reporting.html#climate-data-used",
-    "href": "sectors/reporting/esg_and_sustainability_reporting.html#climate-data-used",
-    "title": "Environmental, Social & Governance (ESG), Sustainability and Financial Reporting",
-    "section": "Climate Data Used",
-    "text": "Climate Data Used\nClimate data is generally not directly or uniquely used ESG or Financial Reporting. These reports aggregate information from other electricity sector activities. For example, a report could disclose changes in generation revenue coming from Generation Planning or risks to physical assets assessed during infrastructure assessments and further assessed in enterprise risk management practices.",
-    "crumbs": [
-      "Electricity Sector Activities",
-      "Assurance, Reporting and Disclosures",
-      "Environmental, Social & Governance (ESG), Sustainability and Financial Reporting"
-    ]
-  },
-  {
-    "objectID": "sectors/reporting/esg_and_sustainability_reporting.html#gaps",
-    "href": "sectors/reporting/esg_and_sustainability_reporting.html#gaps",
-    "title": "Environmental, Social & Governance (ESG), Sustainability and Financial Reporting",
-    "section": "Gaps",
-    "text": "Gaps\nThis practice remains relatively new to utilities. It was recognized by TCFD and subsequent standards that climate-related disclosures would be a journey that requires multiple iterations. Gaps and recommendations in key sections where climate data is used that contribute to these reports should be reviewed.",
-    "crumbs": [
-      "Electricity Sector Activities",
-      "Assurance, Reporting and Disclosures",
-      "Environmental, Social & Governance (ESG), Sustainability and Financial Reporting"
-    ]
-  },
-  {
-    "objectID": "sectors/reporting/esg_and_sustainability_reporting.html#recommendations",
-    "href": "sectors/reporting/esg_and_sustainability_reporting.html#recommendations",
-    "title": "Environmental, Social & Governance (ESG), Sustainability and Financial Reporting",
-    "section": "Recommendations",
-    "text": "Recommendations\nNot Applicable",
-    "crumbs": [
-      "Electricity Sector Activities",
-      "Assurance, Reporting and Disclosures",
-      "Environmental, Social & Governance (ESG), Sustainability and Financial Reporting"
-    ]
-  },
-  {
-    "objectID": "sectors/reporting/esg_and_sustainability_reporting.html#references",
-    "href": "sectors/reporting/esg_and_sustainability_reporting.html#references",
-    "title": "Environmental, Social & Governance (ESG), Sustainability and Financial Reporting",
-    "section": "References",
-    "text": "References\n\n\nClimate-Related Financial Disclosures, T.F. on, 2017. TCFD report (Report). Financial Stability Board.",
-    "crumbs": [
-      "Electricity Sector Activities",
-      "Assurance, Reporting and Disclosures",
-      "Environmental, Social & Governance (ESG), Sustainability and Financial Reporting"
-    ]
-  },
-  {
-    "objectID": "sectors/Sectors_Template.html",
-    "href": "sectors/Sectors_Template.html",
-    "title": "Sector Title",
-    "section": "",
-    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud reprehenderit in voluptate velit esse cillum exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n\n\n\nA figure for the activity (source: bibentry)\n\n\nWe can mark stuff like this or like this as a reminder to deal with it later (see source for markdown implementation!)."
-  },
-  {
-    "objectID": "sectors/Sectors_Template.html#summary-description",
-    "href": "sectors/Sectors_Template.html#summary-description",
-    "title": "Sector Title",
-    "section": "",
-    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud reprehenderit in voluptate velit esse cillum exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n\n\n\nA figure for the activity (source: bibentry)\n\n\nWe can mark stuff like this or like this as a reminder to deal with it later (see source for markdown implementation!)."
-  },
-  {
-    "objectID": "sectors/Sectors_Template.html#role-in-the-electricity-system",
-    "href": "sectors/Sectors_Template.html#role-in-the-electricity-system",
-    "title": "Sector Title",
+    "objectID": "sectors/infrastructure/dam_safety_review.html#role-in-the-electricity-system",
+    "href": "sectors/infrastructure/dam_safety_review.html#role-in-the-electricity-system",
+    "title": "Dam Safety Review",
     "section": "Role in the Electricity System",
-    "text": "Role in the Electricity System\n\n\n\n\n\n\nNoneAdditional Information\n\n\n\n\n\nSummary of how this activity contributes to the electricity sector and the purpose of this topic"
+    "text": "Role in the Electricity System\n\n\n\n\n\n\nNoneAdditional Information\n\n\n\n\n\nDam’s main purpose is to store water or other liquid for various reasons such as energy production and agriculture irrigation. However, dams can pose significant risks to public safety and the environment if they are not maintained and operated properly. Therefore, dam safety review (DSR) is a critical aspect of infrastructure management in the electricity sector as many hazards cause increasing risks on these structures.\n“A Dam Safety Review involves a systematic examination and assessment of the data and information about the design, construction, maintenance, operation, processes, and systems affecting a Dam’s safety, including the Dam safety management system.” (Engineers and British Columbia (2023)) Overall, a dam safety review is a systematic evaluation of all aspects of a dam based on current knowledge and standards (Natural Resources (2023)) which may not be the same as the ones used in the dam construction. The review needs to be carried out by professional engineers.\nDams are often classified by Hazard Potential Classification based on the risk that could be posed if there was dam failure such as risks to population, environment or infrastructure. Depending on the jurisdiction, the classification could determine the level of regulatory oversight, flood design, frequency of inspections, and the stringency of safety requirements, among others. Each province and territory in Canada regulates their own classification systems via regulations and standards, but are all generally aligned with the Canadian Dam Association (CDA) framework to ensure a consistent approach to dam safety across Canada (see, https://cda.ca/dams-in-canada/regulation). Their review is therefore essential to respect stakeholders safety but to also respect regulations.",
+    "crumbs": [
+      "Electricity Sector Activities",
+      "Infrastructure Planning and Asset Management",
+      "Dam Safety Review"
+    ]
   },
   {
-    "objectID": "sectors/Sectors_Template.html#methods-and-models",
-    "href": "sectors/Sectors_Template.html#methods-and-models",
-    "title": "Sector Title",
+    "objectID": "sectors/infrastructure/dam_safety_review.html#methods-and-models",
+    "href": "sectors/infrastructure/dam_safety_review.html#methods-and-models",
+    "title": "Dam Safety Review",
     "section": "Methods and Models",
-    "text": "Methods and Models\nSummary of the methods and models used goes here. Repeat the below template if there are multiple types of models\n\n\n\n\n\n\nNoneModel Type1\n\n\n\n\n\nDescription of Model Type #1\n\n\n\n\n\n\nNoneCharacteristics\n\n\n\n\n\nDeterministic, Optimization, Econometric, empirical etc\n\n\n\n\n\n\n\n\n\nNoneKey Climate Inputs\n\n\n\n\n\n\nInput A - Description Sample links\nInput B - Description Sample links\nlink to climate projections\n\n\n\n\n\n\n\n\n\n\nNoneNon-Climate Inputs\n\n\n\n\n\n\nInput A - Description (add links)\nInput B - Description\n\n\n\n\n\n\n\n\n\n\nNoneModel Outputs\n\n\n\n\n\n\nOutput A - Description [Link_activities]\n\n\n\n\n\n\n\n\n\n\nNoneTemporal Resolution\n\n\n\n\n\nDescription\n\n\n\n\n\n\n\n\n\nNoneSpatial Resolution\n\n\n\n\n\nDescription\n\n\n\n\n\n\n\n\n\nNoneFrequency of Analysis\n\n\n\n\n\nDescription"
+    "text": "Methods and Models\nMany methods and models are used for DSR as they can require many inspections based on dam regulations (Engineers and British Columbia (2023), Natural Resources (2023)) or the practices of utility: - field reviews - interviews with site staff - equipment testing - extensive understanding of the design, construction, operation and maintenance\nAmong many others. Please refer to local legislation for more information. The following sections only tackle a few methods and models used in DSR as a wide variety of field (structure, geotechnical, hydrological, hydraulic, seismic, mechanical, electrical, etc.) expertise is required to perform a comprehensive review. Therefore, methods presented will focus on hydrology aspects affected by climate change, with some commentary on other types of models and methods.\nThe figure below briefly resumes decision-making challenges faced by professionals in the dam safety sector of the electricity system in Canada. These challenges were shared during the workshops held in 2025. These examples linked together the methods and models as well as characteristics presented in the following section such as PMP.\n\n\nFor all climate variables listed below, please refer to the climate dataset section for guidance and availability.\n\n\n\n\n\n\nNoneFlood Frequency Analysis (FFA)\n\n\n\n\n\nFlood frequency analysis (FFA) (England et al. (2019), Islam et al. (2024)) is often used to determine the design flood required by regulations. It is determined by the return period such as 1/100 or 1/1000 years. Therefore, the goal of FFA is to link flow values with probabilities of occurrence (Ouranos (2021)).\n\\[\nAep = 1/T = 1-CDF_{high flows}\n\\]\nwhere\n- \\(Aep\\) is the annual exceedance probability,\n- \\(T\\) is the return period (years),\n- \\(CDF_{high flows}\\) is the cumulative distribution of high flows.\n\n\n\n\n\n\nNoneCharacteristics\n\n\n\n\n\nFlow records rarely go up to 100 years (and, of course, not to 1000). Therefore, a probability density function is fit to either flow annual maxima (AM) or peak-over-threshold (POT). POT allows more events of high flows to be considered as some years could have multiple events over thresholds and others none. However, it adds issues linked to the independence of events.\nMoreover, such analysis requires long timeserie of observed inflows (at least 30 years based on World Meteorological Organisation criteria) and different methods exists to determine the distribution parameters (such as generalized extreme value, generalized Pareto or lognormal) (World Meteorological Organization (1989)). Different metrics of goodness of fit can be used to validate the fitted distributions, such as Aikake or Bayesian Information Criteria, Kolmogorov-Sminov, etc. (Islam et al. (2024)).\n\n\n\nUnivariate FFA steps taken from Islam et al. (2024)\n\n\nCommon FFA methods are univariate and stationary, meaning that climate change and impacts of other features than flows are not taken into account when calculating the design flood. To evaluate non-stationarity, Ouranos (2021) proposed two techniques to assess non-stationarity using hydrological model fed with a large ensemble of climate projections over 20-year period block.\n\n\n\nFigure taken from Ouranos (2021)\n\n\nOther, recent studies have looked into non-stationary extreme value distribution, such as integrating linear trends in function of time or climate variables as covariates in distribution parameters (Islam et al. (2024), Maria et al. (2024), Levin (2025)). Levin (2025) used precipitation, annual snowfall, mean annual temperature as covariates in North-central United States, where 45% of streamgages were predicted with precipitation, 14% temperature and less than 1% with snowfall as causal mechanisms (36% had no climate variables as causal mechanisms). Northern part had the biggest differences between stationary and non-stationary FFA (going up to 20%). The study used measured streamflow and climate data from a monthly water balance model which was itself fed by temperature and precipitation data from monthly NOAA gridded observations.\n\n\n\nFigure taken from Faulkner et al. (2024)\n\n\nMaria et al. (2024) used the same covariates (rainfall split in two seasons) for a study across Canada as well as time. Streamflows were acquired from simulations of GEM (1950-2099) which are driven by a member of CanESM2 RCP8.5 (CMIP5). Non-stationary projected higher increases in 2000-year return levels for 451 dams locations than stationary FFA.\nFurthermore, other recent studies have also looked into multivariate FFA, that use copulas to create joint distributions highlighting the interdependence between flooding features and have potential for compound flooding (e.g., high precipitation and snowmelt or sea-level rise) (Maria et al. (2024), Bizhanimanzar et al. (2024)).\n\n\n\n\n\n\n\n\n\nNoneKey Climate Inputs\n\n\n\n\n\n\nFlows\n\nPrecipitation\nTemperature\nSea level\n\n\n\n\n\n\n\n\n\n\nNoneNon-Climate Inputs\n\n\n\n\n\n\nInputs for hydrological models\n\n\n\n\n\n\n\n\n\n\nNoneModel Outputs\n\n\n\n\n\n\nFlows (hydrological models)\nAnnual Probability of excedeence\n\n\n\n\n\n\n\n\n\n\nNoneTemporal Resolution\n\n\n\n\n\nDaily or Monthly (as annual maxima is often used)\n\n\n\n\n\n\n\n\n\nNoneSpatial Resolution\n\n\n\n\n\n\nFlows at streamgauge\nHydrological models can usually have less than 1°, resolution\n\n\n\n\n\n\n\n\n\n\nNoneFrequency of Analysis\n\n\n\n\n\nDepends on the dam classification (from 5 to 10 years)\n\n\n\n\n\n\n\n\n\n\n\n\nNoneProbable Maximum Precipitation - PMP & Probable Maximum Flood PMF\n\n\n\n\n\nExtreme consequences dams require design flood (classification), the maximum flow that dam must be able to evacuate, to be estimated with the Probable Maximum Flood (PMF), which itself is estimated with the Probable Maximum Precipitation (PMP). The WMO defines PMP as being “the greatest depth of precipitation for a given duration meteorologically possible for a design watershed or a given storm area at a particular location at a particular time of the year, with no allowance made for long-term climatic trends” (World Meteorological Organization (2009)). The WMO manual proposes six methods to evaluate the PMP (local, transposition, combination, inferential generalized and statistical) with the majority of them based on physical meteorology (Islam et al. (2024)).\n\n\n\nPMP and PMF estimation taken from Islam et al. (2024)\n\n\nPMPs are usually evaluated by meteorologists or hydrologists and are provided with uncertainty bounds as well as seasonal adjustment factors. FFA with values for rainfall, temperature and snow accumulation linked to the storm can be estimated from observations to calibrate the hydrological models. Soil moisture needs to be maximized when PMF is determined in the hydrological model and other factors such as the combination of the spring PMP with the 100-year snowpack (Ouranos (2015)).\nThe xHydro python package developed by Hydro-Quebec, ETS and Ouranos offer codes to estimate PMPs and PMFs.\n\n\n\n\n\n\nNoneCharacteristics\n\n\n\n\n\nOne common method to evaluate PMP is moisture maximization, which is advantageous for his lower data requirements (Islam et al. (2024), World Meteorological Organization (2009)). \\[\nPMP = P_{obs} * W_{max} / W_{storm}\n\\]\nwhere\n- \\(P_{obs}\\) is the maximum observed precipitation (mm),\n- \\(W_{max}\\) is the maximum precipitable water (mm),\n- \\(W_{storm}\\) is actual precipitable water of the observed storm (mm).\n\\(W_{max}\\) can be estimated with dew point temperature.\nAnother method, storm transposition doesn’t require detailed information on watershed specific storms (Islam et al. (2024), World Meteorological Organization (2009)).\n\\[\nPMP = \\overline{X_{n}} + K_{m} * S_{n}\n\\]\nwhere\n- \\(\\overline{X_{n}}\\) is the mean maximum annual precipitation for the duration (n) of interest,\n- \\(S_{n}\\) is the standard deviation,\n- \\(K_{m}\\) is the frequency factor.\n\\(K_{m}\\) is a factor of precipitation duration and mean value. The British Columbia MetPortal offers PMP calculated with transposition across the province.\nThese estimates come with high uncertainties and are left in the choice of professionals to determine the most appropriate methods. Recent studies are looking into improving PMP calculations and more precisely providing the uncertainties linked to each estimate (Martin (2024)). PMP uncertainties can be assessed via a Monte Carlo techniques and sensitivity analysis need to be done for evaluating PMFs uncertainty ((king2022?))\nTo account for non-stationarity, studies have used climate simulations to estimate the PMP. Ouranos (2015) used regional climate models to project future PMPs with higher resolution (50 km) in three Quebec watersheds which generally showed an increase of 10 to 20% for the mid-century. However, one watershed showed a decrease in PMP. Alternative methods than WMO, have been listed in literature to account for climate change and uncertainties (Martin (2024)). Recently, practioners in OPG have used MRCC5-CMIP6 to estimate the PMP. It was reported that SSP 3-7.0 produced lower PMPs values over Ontario than SSP 2-4.5. Chan et al. (2024) also observed higher values of PMPs with scenario SSP1-2.6 than SSP3-7.0 over Hong Kong.\nThe figure below highlights the steps taken by Clavet-Gaumont et al. (2017) for considering climate change in PMP estimates (Ouranos (2015)).\n\n\n\nClavet-Gaumont et al. (2017) workflow to estimate PMP and PMF Figure taken from Clavet-Gaumont et al. (2017)\n\n\nThe workflow is based on the methodology developed by Rousseau et al. (2014) and moisture maximization. The estimates rquire RCM liquid precipitation, precipitatble water and snow water equivalent (snow on ground). The RCMs data were pre-processed when precipitable water was missing (used summation of specific humidty from surface to top level) and mean temperature was used to estimate rainfall from precipitation. Many choices were made based sensitivity analysis such as the thresholds used to select PMPs, the best fitted statistical distributions, etc. The storm definition was made using rainfall events of 24, 48, 72 and 120 hours with a moving window. P~event represent 10% of largest storm of the year. Rainfall events are maximized with EQ1 presented in the above figure and PWH~100 the monthly return period value of precipitable water (fitted with a GEV and the maximum likelihood). The maximum of the maximum ratios multiplied by the P~event represents the PMP.\n\n\n\n\n\n\n\n\n\nNoneKey Climate Inputs\n\n\n\n\n\n\nSpecific humidity : There is limited observation for this variable, but it is provided by reanalysis. WMO proposes equations to estimate specific humidity from temperature dew point (World Meteorological Organization (2009)). Guidance must be followed if reanalysis is used or other projections products.\nDew point temperature: Used to estimate specific humidity, since it is often available at meteorological stations. Reanalysis and climate projections also offer this variable.\nExtreme precipitation: events based on past observations (storm events). In practice, past observations, often Environment and Climate Change Canada or internal station is used. Reanalysis data can also be considered, but validation is required.\nSnow accumulation: events based on past observations (often corresponding to a high return period such 100 years). In practice, past observations, often Environment and Climate Change Canada or internal station is used. Reanalysis data can also be considered, but validation is required.\n\n\n\n\n\n\n\n\n\n\nNoneNon-Climate Inputs\n\n\n\n\n\n\nOther inputs linked to runoff and hydrological models\n\n\n\n\n\n\n\n\n\n\nNoneModel Outputs\n\n\n\n\n\n\nPMP and PMF are the outputs (used to determine the design flood)\n\n\n\n\n\n\n\n\n\n\nNoneTemporal Resolution\n\n\n\n\n\n\nsub-daily or daily\n\n\n\n\n\n\n\n\n\n\nNoneSpatial Resolution\n\n\n\n\n\n\nlowest resolution possible; higher resolution models can be used such as RCM or reanalysis\n\n\n\n\n\n\n\n\n\n\nNoneFrequency of Analysis\n\n\n\n\n\n5 to 12 years depending on dam classification.\n\n\n\n\n\n\n\n\n\n\n\n\nNoneHydrological models\n\n\n\n\n\nHydrological models are computational tools used to simulate the movement, distribution, and quality of water within a watershed. They integrate rainfall, temperature, soil characteristics, and land use to estimate streamflow, reservoir inflows, and extreme events such as floods or droughts. In the context of dam safety reviews, hydrological models are essential for assessing the potential impacts of extreme weather and climate variability on dam operations. They help engineers evaluate flood risks, design spillways, and develop emergency management strategies, ensuring that dams can safely handle both current and future hydrological conditions.\nFournier et al. (2020) gives guidance on estimating the value of hydropower assets under climate change. This report also describes how to integrate climate change data inside the energy modelling chain and more precisely in a hydrologic model. Below are some of the important recommendations found in the guide:\n\nClimate simulations consideration:\n\nBaseline: 30 years is recommended for the baseline to represent natural variability and avoid having predominant dry or wet events. The baseline must represent current conditions. Detrending can be used to represent current conditions. If bias-correction is applied to climate projections, the reference product must be the same used to calibrate the hydrological models.\nConsistency is important, variables must come from the same product (such as temperature and precipitation).\nEvaluate the performance of various weather datasets in the hydrology model (weather stations, gridded observations and reanalysis).\nQuebec Goverment have observed that a minimal spatial resolution 0.44° is required to represent snow processes in the hydrological model (Ministère de l’Environnement, de la Lutte contre les changements climatiques, de la Faune et des Parcs (MELCCFP) (2022)).\nRondeau-Genesse et al. (2021) found that higher-resolution simulations can perform better using both RCM and GCM simulations. However, while it may seem intuitive that finer-scale meteorological inputs would yield better results for smaller watersheds, it varies significantly depending on the indicator, the time of year, and the hydrological modelling platform.\nThe resolution needs to match the one in the hydrological model.\nUse multiple scenarios; best practice would be to use all emissions scenarios available while good practices recommend two. However, for short-term horizons (less than 15 years), only one scenario can be used as climate change signal is similar between scenarios.\nUse multiple climate models; best practice is to use as many as available and their newest version while there is no minimum magic number for simulations a good practice would be to use at least 10 to cover uncertainty.\nMultiple post-processing for climate simulations is considered as best practice\nDo not average or use statistics for the climate simulations (last step of the modelling chain).\n\nHydrologic modelling considerations:\n\nHydrologic baseline must be consistent with the climatic baseline and representative of current conditions. Detrending might be considered to better represent recent conditions.\n\nModel needs to be calibrated with the same reference used for bias-correction.\nValidation of hydrological model run with climate solutions can be done using hydrologic indices.\nA Differential Split-Sample Approach can be used to evaluate robustness and transposition to a period with other climatic conditions.\nSince hydrological models are complex and influenced by multiple processes, it is difficult to select only a few climate simulations (e.g., based on percentiles) to predict outcomes such as floods or droughts. The relationships between these events and variables like temperature or precipitation are not linear. Therefore, it is recommended to use as many climate simulations as possible to capture the full range of potential flow outcomes.\nIf data volume or the number of hydrological model runs is a limiting factor, prioritize climate simulations selection based on indicators most relevant to the study’s objectives (e.g., simulations with the highest or lowest values of maximum daily rainfall).\nIt is a best practice to use multiple hydrologic models. If not, appropriate hydrological model selection is required.\nConsistency across climate simulations is crucial; therefore, each simulation should be run individually in the hydrological models, and ensemble statistics (e.g., 5th, 50th, and 95th percentiles) should be computed only at the final step of the modelling chain.\n\n\nAlthough such methodology provides many sources of uncertainty, exploring impacts steaming from future scenarios provide a valuable sensitivity analysis. Sensitivity analysis, on the whole modelling change can also be useful to determine what influenced most final results.\nIn practice, the HEC-HMS watershed model is often used. The Hamon method is also selected to estimate evapotranspiration and use direct inputs of temperature and precipitation. The watershed modelling is then used to estimate 100 and 1000-year floods with Intensity Duration Frequency Curves. Combination methods can also be used to estimate potential evapotranspiration which requires more climate variables inputs (relative humidity, wind speed, short and long wave solar radiation). HEC-RAS, a river analysis system, can be used to model ice jams, loadings or covers.\nRecent studies have assessed the ability of artificial intelligence (AI) to reproduce streamflows and compared results to distributed hydrological models. For example, Martel et al. (2025) used long short-term memory (LSTM) networks to estimate peak streamflow at ungauged catchments and found that the AI-based simulations performed as well as the Hydrotel hydrological model. The study used the Quebec government’s observed precipitation and temperature dataset (1979–2017, daily at 0.1° resolution) and multiple variables from ERA5 reanalysis—including maximum and minimum temperature, total precipitation, snowfall, snowmelt, snow water equivalent, dew point temperature, wind velocity and speed, evaporation, downward surface solar radiation, and surface pressure—as inputs to the neural networks. Observed daily averaged streamflows and cathchement descriptors, such as area, slope and land-use were also considered to built networks.\n\n\n\n\n\n\nNoneKey Climate Inputs\n\n\n\n\n\n\nPrecipitation timeseries. Like mentioned above multiple products can be used; observations, reanalysis and climate model simulations.\nTemperature timeseries. Like mentioned above multiple products can be used; observations, reanalysis and climate model simulations.\nSolar radiation\nWind speed\nRelative humidity\nStreamflow\n\n\n\n\n\n\n\n\n\n\nNoneNon-Climate Inputs\n\n\n\n\n\n\nLand use / land cover\nDigital Elevation Model (DEM) - Topography\nSoil properties\nHydrographic network\n\n\n\n\n\n\n\n\n\n\nNoneModel Outputs\n\n\n\n\n\n\nFlows\n\n\n\n\n\n\n\n\n\n\nNoneTemporal Resolution\n\n\n\n\n\nMost hydrological models are run sub-daily or daily. However, it depends on the study analysis and scale.\n\n\n\n\n\n\n\n\n\nNoneSpatial Resolution\n\n\n\n\n\nUsually a resolution under 0.44 degrees is recommended.\n\n\n\n\n\n\n\n\n\nNoneFrequency of Analysis\n\n\n\n\n\n10 to 12 years.\n\n\n\n\n\n\n\n\n\n\n\n\nNoneMethods and models in practice\n\n\n\n\n\nThe following section describes the models presented in the Miro Board which address dam safety review for a facility, which therefore includes the dikes (embankments) surrounding the dam. Many groups are involved; hydrology, hydraulic, geotechnical, geology and structural. The review needs to demonstrate resistance the facility resistance to earthquakes and floods. Many stakeholders are involved in these reviews; ministry, municipalities, consultants, etc.\n\n\n\n\n\n\nNoneCharacteristics\n\n\n\n\n\n\nHydrological models:\n\nCMP\nInternal models (Hydro Quebec has HSAMI & HSAMI+)\nRaven (R and C++, Python)\n\nReservoir models:\n\nRiverWare\nHEC-ReSim\n\nHydraulic models: to test dams failure, spillway capacity\nStructural models: Ice loading is used in practice in structural models and impacted by climate change. Ice loadings are also inputs to design bridges based on the CSA S6 as well as ice accumulations for structures normed by the CSA S37 such as cables. Of course, snow loads and wind loads are required by the National Building Code for structures (roofs, buildings or signs). Embankments are also affected by ice and freeze-thaw which cause degradation of riprap. Degradation caused by freeze-and-thaw cycles can also be observed in concrete structures.\nGeotechnical models: Roc level is important (not just water level). Seasonal frost depth can be used to validate if potential frost damage to a clay core. Frost depth can also be calculated with air temperature or taken from design charts.\n\nGeoStudio\nRocScience\n\nHydrogeological Models\n\n\n\n\n\n\n\n\n\n\nNoneKey Climate Inputs\n\n\n\n\n\n\nSome datasets used are; internal station data, observations from Environment and Climate Change Canada, reanalysis (ERA5-Land, CaSR), interpolated observations (Hydat)\nFrost depth: Can be calculated with freezing degree days. Really critical in the North since it can fracture the dam core.\nPMF: calculated for each facility\nPMP: calculated annually by a consultant\nPrecipitation: used to calibrate hydrological models. Stations observations, reanalysis and seasonal forecasts are used.\nTemperature: used to calibrate hydrological models. Stations observations, reanalysis and seasonal forecasts are used.\nSnow level: less looked at\nThermal conductivity of soil\n\n\n\n\n\n\n\n\n\n\nNoneNon-Climate Inputs\n\n\n\n\n\n\nRequired information for each model Need to be completed by a champion\n\n\n\n\n\n\n\n\n\n\nNoneModel Outputs\n\n\n\n\n\nNeed to be completed by a champion\n\n\n\n\n\n\n\n\n\nNoneTemporal Resolution : data is need historical up to the date safety review happens\n\n\n\n\n\n\nDaily: inflows, water levels, degree-days\nHourly: Pressure, PMP\n\n\n\n\n\n\n\n\n\n\nNoneSpatial Resolution\n\n\n\n\n\nData over the whole province and nearby to cover all watersheds (for example, other provinces or the United States)\n\n\n\n\n\n\n\n\n\nNoneFrequency of Analysis\n\n\n\n\n\n10 to 12 years depending on classification",
+    "crumbs": [
+      "Electricity Sector Activities",
+      "Infrastructure Planning and Asset Management",
+      "Dam Safety Review"
+    ]
   },
   {
-    "objectID": "sectors/Sectors_Template.html#detailed-discussion",
-    "href": "sectors/Sectors_Template.html#detailed-discussion",
-    "title": "Sector Title",
+    "objectID": "sectors/infrastructure/dam_safety_review.html#detailed-discussion",
+    "href": "sectors/infrastructure/dam_safety_review.html#detailed-discussion",
+    "title": "Dam Safety Review",
     "section": "Detailed Discussion",
-    "text": "Detailed Discussion\n\n\n\n\n\n\nNoneAdditional Information\n\n\n\n\n\nlorem ipsum bla bla"
+    "text": "Detailed Discussion\n\n\n\n\n\n\nNoneAdditional Information\n\n\n\n\n\nMany regulators have added considerations of climate change related risks inside their legislation for dam safety (Engineers and British Columbia (2023)) while others discuss the need to consider extreme events (Natural Resources (2023)). Ozkan et al. (2023) report details impacts of climate change on dams and has an extensive review of literature and policies around the globe that bridge these impacts. The report also recommends datasets to be used for dam safety the Can-CRM4 that has a 0.44° resolution and 50 members.\nMarco or Kurt could you add infos about the new CSA standard if it has been accepted",
+    "crumbs": [
+      "Electricity Sector Activities",
+      "Infrastructure Planning and Asset Management",
+      "Dam Safety Review"
+    ]
   },
   {
-    "objectID": "sectors/Sectors_Template.html#gaps-and-recommendations",
-    "href": "sectors/Sectors_Template.html#gaps-and-recommendations",
-    "title": "Sector Title",
+    "objectID": "sectors/infrastructure/dam_safety_review.html#gaps-and-recommendations",
+    "href": "sectors/infrastructure/dam_safety_review.html#gaps-and-recommendations",
+    "title": "Dam Safety Review",
     "section": "Gaps and Recommendations",
-    "text": "Gaps and Recommendations\n\n\n\n\n\n\nNoneAdditional Information\n\n\n\n\n\nlorem ipsum bla bla"
-  },
-  {
-    "objectID": "sectors/Sectors_Template.html#interactions-with-other-sector-activities",
-    "href": "sectors/Sectors_Template.html#interactions-with-other-sector-activities",
-    "title": "Sector Title",
-    "section": "Interactions with Other Sector Activities",
-    "text": "Interactions with Other Sector Activities\n\n\n\n\n\n\nNoneAdditional Information\n\n\n\n\n\n** to consider…this may be part of inputs and outputs**\n\n\n\n\n\nReferences (click to expand)"
-  },
-  {
-    "objectID": "sectors/infrastructure/infrastructure_planning.html",
-    "href": "sectors/infrastructure/infrastructure_planning.html",
-    "title": "Overview of Infrastruture Planning and Asset Management",
-    "section": "",
-    "text": "WarningNote",
-    "crumbs": [
-      "Electricity Sector Activities",
-      "Infrastructure Planning and Asset Management"
-    ]
-  },
-  {
-    "objectID": "sectors/infrastructure/infrastructure_planning.html#summary-of-the-infrastructure-design",
-    "href": "sectors/infrastructure/infrastructure_planning.html#summary-of-the-infrastructure-design",
-    "title": "Overview of Infrastruture Planning and Asset Management",
-    "section": "Summary of the Infrastructure Design",
-    "text": "Summary of the Infrastructure Design\n\nOutage Scheduling\n… ## Summary of Asset Management",
-    "crumbs": [
-      "Electricity Sector Activities",
-      "Infrastructure Planning and Asset Management"
-    ]
-  },
-  {
-    "objectID": "sectors/infrastructure/infrastructure_design.html",
-    "href": "sectors/infrastructure/infrastructure_design.html",
-    "title": "Infrastructure Design",
-    "section": "",
-    "text": "Parameters used to meet regulatory design criteria, beyond design basis criteria and develop and maintain these assets. Floodplain avoidance/mitigative design.",
+    "text": "Gaps and Recommendations\n\n\n\n\n\n\nNoneAdditional Information\n\n\n\n\n\nPractitioners have identified important gaps in the dam safety sector. First of all, uncertainties are associated with the PMP and the methodology used has not been updated in the recent years even with important limitations highlighted in literature such as the objectivity linked to the storm selection (Martin (2024)).\nThere is also a mismatch between some of the internal stations geodetic levels and the dam’s own level making it challenging to use some of the internally collected data. Practitioners also face challenges to have data with spatial and temporal resolution that fit their need. Generally, it is hard to find extreme datasets (1/100, 1/1000), especially when looking at future projections. There is also a lack of wind data; historical and future which is required for rockfill structures.\nThere is also a lack of clear guidelines on how to incorporate a non-stationary climate into dam safety reviews. Practitioners discussed that these guidelines could be integrated in CSA norms or more internal guidance available at the organization level (and to their consultants).\nThe National Research Council of Canada has published a report “Adapatation of dams to climate change: Gap analysis” which objective was to find Canadian guidelines shortcomings when addressing climate change in dam safety. The report highlighted technical gaps such integrating non-stationary climate in hydrological modelling, policy gaps (limited climate change aspect in standards or risk assessment), knowledge gaps (uncertainties linked to climate change) and data gaps (many regions are lacking data in the North). (Ozkan et al. (2023))\n\n\n\n\n\nReferences (click to expand)\n\n\n\nBizhanimanzar, M., Rondeau-Genesse, G., Caron, L.-P., Lefaivre, D., Mailhot, E., 2024. Joint occurrence of extreme water level and river flows in st. Lawrence river coasts under present and sea level rise conditions. Earth’s Future 12. https://doi.org/10.1029/2023EF004027\n\n\nChan, S.S., Li, J., Lee, T., 2024. Estimation of probable maximum precipitation (PMP) in hong kong under future changing climate based on statistical downscaling. Urban Climate 55, 101988. https://doi.org/https://doi.org/10.1016/j.uclim.2024.101988\n\n\nClavet-Gaumont, J., Huard, D., Frigon, A., Koenig, K., Slota, P., Rousseau, A., Klein, I., Thiémonge, N., Houdré, F., Perdikaris, J., Turcotte, R., Lafleur, J., Larouche, B., 2017. Probable maximum flood in a changing climate: An overview for canadian basins. Journal of Hydrology: Regional Studies 13, 11–25. https://doi.org/https://doi.org/10.1016/j.ejrh.2017.07.003\n\n\nEngineers, British Columbia, geoscientists of, 2023. LEGISLATED DAM SAFETY REVIEWS IN BC.\n\n\nEngland, J.F.Jr., Cohn, T.A., Faber, B.A., Stedinger, J.R., Thomas, W.O.Jr., Veilleux, A.G., Kiang, J.E., Mason, R.R.Jr., 2019. Guidelines for Determining Flood Flow Frequency Bulletin 17C. U.S. Geological Survey.\n\n\nFaulkner, D.S., Longfield, S., Warren, S., Tawn, J.A., 2024. Modelling non-stationary flood frequency in england and wales using physical covariates. Hydrology Research 55, 205–220. https://doi.org/10.2166/nh.2024.134\n\n\nFournier, É., Lamy, A., Pineault, K., Braschi, L., Kornelsen, K., Hannart, A., Chartier, I., Tarel, G., Minville, M., Merleau, J., 2020. Valuation of hydropower assets and climate change physical impacts – a guidebook to integrate climate data in energy production for value modelling. Ouranos, Montreal.\n\n\nIslam, M.R., Fereshtehpour, M., Najafi, M.R., Khaliq, M.N., Khan, A.A., Sushama, L., Nguyen, V.T.V., Elshorbagy, A., Roy, R., Wilson, A., Perdikaris, J., Masud, M.B., Khan, M.S., 2024. Climate-resilience of dams and levess in Canada: A review. Discover Applied Sciences 6. https://doi.org/10.1007/s42452-024-05814-4\n\n\nLevin, S.B., 2025. Nonstationary flood frequency analysis using regression in the north-central united states (No. 2025–5034), Scientific investigations report. U.S. Geological Survey, Reston, Virginia. https://doi.org/10.3133/sir20255034\n\n\nMacTavish, L., Bourgeois, G., Lafleur, C., Ristic, E., 2022. Climate change adaptation for dams: A review of climate vulnerabilities, adaptation measures, and opportunities for growth in the canadian dams context. Canadian Standards Association (CSA Group).\n\n\nMaria, D., Sasmito, A., Sushama, L., Khaliq, M.N., 2024. Non-stationary analysis of future floods using physical covariates and implications for dams across canada. Results in Engineering 24, 103645. https://doi.org/https://doi.org/10.1016/j.rineng.2024.103645\n\n\nMartel, J.-L., Arsenault, R., Turcotte, R., Castañeda-Gonzalez, M., Brissette, F., Armstrong, W., Mailhot, E., Pelletier-Dumont, J., Lachance-Cloutier, S., Rondeau-Genesse, G., Caron, L.-P., 2025. Exploring the ability of LSTM-based hydrological models to simulate streamflow time series for flood frequency analysis. Hydrology and Earth System Sciences 29, 4951–4968. https://doi.org/10.5194/hess-29-4951-2025\n\n\nMartin, A., 2024. Estimation statistique de la précipitation maximale probable à l’aide de la loi de pearson de type i (Master’s thesis). Polytechnique Montréal.\n\n\nMinistère de l’Environnement, de la Lutte contre les changements climatiques, de la Faune et des Parcs (MELCCFP), 2022. Rapport de l’atlas hydroclimatique du québec méridional 2022. MELCCFP.\n\n\nNatural Resources, O.M. of, 2023. Safety reviews for dam owners .\n\n\nOuranos, 2021. Flood frequency analysis and dam safety in the 21st century climate. Ouranos.\n\n\nOuranos, 2015. Probable maximum floods and dam safety in the 21st century climate. Ouranos, Montréal, Québec, Canada.\n\n\nOzkan, I.F., Kadhom, B., Roshani, E., Shirkhani, H., Hiedra-Cobo, J., Cusson, D., Nkinamubanzi, P.-C., 2023. Adaptation of dams to climate change: Gap analysis (No. A1-020144-R01). National Research Council Canada.\n\n\nRondeau-Genesse, G., Braun, M., Caron, L.-P., 2021. Pondération des scénarios climatiques d’INFO-crue sur la base de l’unicité et de la performance des simulations hydrologiques. Ouranos, Montréal, Canada.\n\n\nRousseau, A.N., Klein, I.M., Freudiger, D., Gagnon, P., Frigon, A., Ratté-Fortin, C., 2014. Development of a methodology to evaluate probable maximum precipitation (PMP) under changing climate conditions: Application to southern quebec, canada. Journal of Hydrology 519, 3094–3109. https://doi.org/https://doi.org/10.1016/j.jhydrol.2014.10.053\n\n\nWorld Meteorological Organization, 2009. Manual on estimation of probable maximum precipitation (PMP) (No. WMO-No. 1045). World Meteorological Organization, Geneva, Switzerland.\n\n\nWorld Meteorological Organization, 1989. Statistical distributions for flood frequency analysis (No. 33), Operational hydrology report. World Meteorological Organization; Secretariat of the World Meteorological Organization, Geneva, Switzerland.\n\n\nZare, M., Nasategay, F., Gomez, J.A., Moayedi Far, A., Sattarvand, J., 2024. A Review of Tailings Dam Safety Monitoring Guidelines and Systems. Minerals 551. https://doi.org/10.3390/min14060551",
     "crumbs": [
       "Electricity Sector Activities",
       "Infrastructure Planning and Asset Management",
-      "Infrastructure Design"
+      "Dam Safety Review"
     ]
   },
   {
-    "objectID": "sectors/infrastructure/infrastructure_design.html#description",
-    "href": "sectors/infrastructure/infrastructure_design.html#description",
-    "title": "Infrastructure Design",
+    "objectID": "sectors/infrastructure/licensing_and_impact-environmental_assessments.html",
+    "href": "sectors/infrastructure/licensing_and_impact-environmental_assessments.html",
+    "title": "Licensing & Impact/Environmental Assessments",
     "section": "",
-    "text": "Parameters used to meet regulatory design criteria, beyond design basis criteria and develop and maintain these assets. Floodplain avoidance/mitigative design.",
+    "text": "Determines the impact of the project on surrounding areas and how these could interact in the climate change context. Also seeing need for this with CER/OEB emerging regulatory requirements.",
     "crumbs": [
       "Electricity Sector Activities",
       "Infrastructure Planning and Asset Management",
-      "Infrastructure Design"
+      "Licensing & Impact/Environmental Assessments"
     ]
   },
   {
-    "objectID": "sectors/infrastructure/infrastructure_design.html#hydro",
-    "href": "sectors/infrastructure/infrastructure_design.html#hydro",
-    "title": "Infrastructure Design",
-    "section": "Hydro",
-    "text": "Hydro",
-    "crumbs": [
-      "Electricity Sector Activities",
-      "Infrastructure Planning and Asset Management",
-      "Infrastructure Design"
-    ]
-  },
-  {
-    "objectID": "sectors/infrastructure/infrastructure_design.html#thermal-nuclear",
-    "href": "sectors/infrastructure/infrastructure_design.html#thermal-nuclear",
-    "title": "Infrastructure Design",
-    "section": "Thermal & Nuclear",
-    "text": "Thermal & Nuclear",
-    "crumbs": [
-      "Electricity Sector Activities",
-      "Infrastructure Planning and Asset Management",
-      "Infrastructure Design"
-    ]
-  },
-  {
-    "objectID": "sectors/infrastructure/infrastructure_design.html#transmission-distribution",
-    "href": "sectors/infrastructure/infrastructure_design.html#transmission-distribution",
-    "title": "Infrastructure Design",
-    "section": "Transmission & Distribution",
-    "text": "Transmission & Distribution",
-    "crumbs": [
-      "Electricity Sector Activities",
-      "Infrastructure Planning and Asset Management",
-      "Infrastructure Design"
-    ]
-  },
-  {
-    "objectID": "sectors/infrastructure/infrastructure_condition_assessment_and_investment_prioritization.html",
-    "href": "sectors/infrastructure/infrastructure_condition_assessment_and_investment_prioritization.html",
-    "title": "Infrastructure Condition Assessment & Investment Prioritization",
+    "objectID": "sectors/infrastructure/licensing_and_impact-environmental_assessments.html#description",
+    "href": "sectors/infrastructure/licensing_and_impact-environmental_assessments.html#description",
+    "title": "Licensing & Impact/Environmental Assessments",
     "section": "",
-    "text": "Based on existing condition of assets (scope to be expanded to include more robust vulnerabilities) and projected changes to hazard exposure, support in the development of investment prioritization.",
+    "text": "Determines the impact of the project on surrounding areas and how these could interact in the climate change context. Also seeing need for this with CER/OEB emerging regulatory requirements.",
     "crumbs": [
       "Electricity Sector Activities",
       "Infrastructure Planning and Asset Management",
-      "Infrastructure Condition Assessment & Investment Prioritization"
+      "Licensing & Impact/Environmental Assessments"
     ]
   },
   {
-    "objectID": "sectors/infrastructure/infrastructure_condition_assessment_and_investment_prioritization.html#description",
-    "href": "sectors/infrastructure/infrastructure_condition_assessment_and_investment_prioritization.html#description",
-    "title": "Infrastructure Condition Assessment & Investment Prioritization",
+    "objectID": "sectors/infrastructure/support_supply_chain_decision-making.html",
+    "href": "sectors/infrastructure/support_supply_chain_decision-making.html",
+    "title": "Support supply chain decision-making",
     "section": "",
-    "text": "Based on existing condition of assets (scope to be expanded to include more robust vulnerabilities) and projected changes to hazard exposure, support in the development of investment prioritization.",
+    "text": "Where surplus equipment should be located.",
     "crumbs": [
       "Electricity Sector Activities",
       "Infrastructure Planning and Asset Management",
-      "Infrastructure Condition Assessment & Investment Prioritization"
+      "Support supply chain decision-making"
     ]
   },
   {
-    "objectID": "sectors/infrastructure/construction.html",
-    "href": "sectors/infrastructure/construction.html",
-    "title": "Construction",
+    "objectID": "sectors/infrastructure/support_supply_chain_decision-making.html#description",
+    "href": "sectors/infrastructure/support_supply_chain_decision-making.html#description",
+    "title": "Support supply chain decision-making",
     "section": "",
-    "text": "Plan and construct various assets including hydropower facilities, transmission/distribution lines, electrical stations. Some special consideration may be required for remote locations and seasonality of the construction season. (MV note: This needs to be refined, just wanted to get something as a placeholder)",
+    "text": "Where surplus equipment should be located.",
     "crumbs": [
       "Electricity Sector Activities",
       "Infrastructure Planning and Asset Management",
-      "Construction"
+      "Support supply chain decision-making"
     ]
   },
   {
-    "objectID": "sectors/infrastructure/construction.html#description",
-    "href": "sectors/infrastructure/construction.html#description",
-    "title": "Construction",
+    "objectID": "sectors/infrastructure/nuclear_safety_review.html",
+    "href": "sectors/infrastructure/nuclear_safety_review.html",
+    "title": "Nuclear Safety Reviews",
     "section": "",
-    "text": "Plan and construct various assets including hydropower facilities, transmission/distribution lines, electrical stations. Some special consideration may be required for remote locations and seasonality of the construction season. (MV note: This needs to be refined, just wanted to get something as a placeholder)",
+    "text": "Includes assessments of PMP, PMF, IDF and other hydrotechnical aspects of dam safety. Also includes failure modes analysis which could include broader climatic indicators.",
     "crumbs": [
       "Electricity Sector Activities",
       "Infrastructure Planning and Asset Management",
-      "Construction"
+      "Nuclear Safety Reviews"
     ]
   },
   {
-    "objectID": "sectors/operations/proactive_management_of_heavily_loaded_assets.html",
-    "href": "sectors/operations/proactive_management_of_heavily_loaded_assets.html",
-    "title": "Proactive management of heavily loaded assets",
+    "objectID": "sectors/infrastructure/nuclear_safety_review.html#description",
+    "href": "sectors/infrastructure/nuclear_safety_review.html#description",
+    "title": "Nuclear Safety Reviews",
     "section": "",
-    "text": "Incorporation of temperature projections to support investment decisions for heavily loaded assets."
+    "text": "Includes assessments of PMP, PMF, IDF and other hydrotechnical aspects of dam safety. Also includes failure modes analysis which could include broader climatic indicators.",
+    "crumbs": [
+      "Electricity Sector Activities",
+      "Infrastructure Planning and Asset Management",
+      "Nuclear Safety Reviews"
+    ]
   },
   {
-    "objectID": "sectors/operations/proactive_management_of_heavily_loaded_assets.html#description",
-    "href": "sectors/operations/proactive_management_of_heavily_loaded_assets.html#description",
-    "title": "Proactive management of heavily loaded assets",
+    "objectID": "sectors/operations/outage_scheduling.html",
+    "href": "sectors/operations/outage_scheduling.html",
+    "title": "Outage Scheduling",
     "section": "",
-    "text": "Incorporation of temperature projections to support investment decisions for heavily loaded assets."
+    "text": "Considerations for outage scheduling constraints due to predominately temperatures related events.",
+    "crumbs": [
+      "Electricity Sector Activities",
+      "Operations Planning",
+      "Outage Scheduling"
+    ]
+  },
+  {
+    "objectID": "sectors/operations/outage_scheduling.html#description",
+    "href": "sectors/operations/outage_scheduling.html#description",
+    "title": "Outage Scheduling",
+    "section": "",
+    "text": "Considerations for outage scheduling constraints due to predominately temperatures related events.",
+    "crumbs": [
+      "Electricity Sector Activities",
+      "Operations Planning",
+      "Outage Scheduling"
+    ]
   },
   {
     "objectID": "sectors/operations/electrical_system_operations.html",
@@ -1614,20 +1674,6 @@
       "Operations Planning",
       "Electrical System Operations"
     ]
-  },
-  {
-    "objectID": "sectors/operations/forest_fire_monitoring_and_awareness.html",
-    "href": "sectors/operations/forest_fire_monitoring_and_awareness.html",
-    "title": "Forest Fire Monitoring and Awareness",
-    "section": "",
-    "text": "Use of projections to inform future wildfire resilience investments (e.g. pole wrapping)."
-  },
-  {
-    "objectID": "sectors/operations/forest_fire_monitoring_and_awareness.html#description",
-    "href": "sectors/operations/forest_fire_monitoring_and_awareness.html#description",
-    "title": "Forest Fire Monitoring and Awareness",
-    "section": "",
-    "text": "Use of projections to inform future wildfire resilience investments (e.g. pole wrapping)."
   },
   {
     "objectID": "sectors/operations/operations_planning.html",
