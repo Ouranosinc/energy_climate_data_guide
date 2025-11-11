@@ -12,7 +12,7 @@ sectors:
   - source: Demand Forecasting
     targets:
       - [load forecast, 2]
-      - [peak demand, 1]
+      - [peak demand, 2]
   - source: Eletrical System Operations
     targets:
       - [mitigation and adaptation<br>indigenous communities, 1]  
@@ -42,6 +42,7 @@ sectors:
       - [future streamflow, 2]
       - [drought impact, 1]
       - [reservoir operations, 2]
+      - [long-term resources<br>planning, 1]
   - source: Generation Forecast - Wind
     targets:
       - [wind energy generation, 2]
@@ -66,6 +67,7 @@ sectors:
       - [vulnerability assessment, 2]
       - [reservoir operations, 1]
       - [new projects risk, 1]
+      - [enterprise hazard<br>risk assessment, 1]
   - source: Resource Adequacy Planning
     targets:
       - [ressource adequacy assessments, 1]
@@ -133,6 +135,11 @@ variables:
   - source: drought impact
     targets:
       - [water levels, 1]
+  - source: enterprise hazard<br>risk assessment
+    targets:
+      - [fire, 1]
+      - [storm, 1]
+      - [cascading risk, 1]
   - source: emergency plans
     targets:
       - [wind, 1]
@@ -201,6 +208,11 @@ variables:
      # - [load forecast, 1]
       - [radiation, 1]
       - [wind, 1]
+  - source: long-term resources<br>planning
+    targets:
+      - [snow, 1]
+      - [precipitation, 1]
+      - [inflows, 1]
   - source: mitigation and adaptation<br>indigenous communities
     targets:
       - [water levels, 1]
@@ -229,10 +241,10 @@ variables:
       - [radiation, 1]
   - source: peak demand
     targets:
-      - [temperature, 1]
+      - [temperature, 2]
       - [humidity, 1]
-      - [wind, 1]
-      - [cloud cover, 1]
+      - [wind, 2]
+      - [cloud cover, 2]
       - [radiation, 1]
   - source: peak-demand shift
     targets:
@@ -370,12 +382,12 @@ types:
       - [extreme, 2]
   - source: temperature
     targets:
-      - [minimum, 7]
-      - [maximum, 10]
+      - [minimum, 8]
+      - [maximum, 11]
       - [daily, 2]
       - [dry bulb, 3]
       - [freeze and thaw, 1]
-      - [hourly, 5]
+      - [hourly, 6]
       - [days < -35dgC, 1]
       - [sub-daily, 2]
       - [monthly, 1]
@@ -386,7 +398,7 @@ types:
       - [30degC, 1]
   - source: wind
     targets:
-      - [speed, 11]
+      - [speed, 12]
       - [direction, 1]
       - [seasonal, 1]
       - [extreme, 2]
@@ -399,7 +411,7 @@ types:
       - [60m, 1]
       - [510m, 1]
       - [gust, 4]
-      - [hourly, 5]
+      - [hourly, 6]
       - [4hrs forecast, 1]
       - [1/50, 1]
 
