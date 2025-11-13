@@ -350,7 +350,7 @@ types:
       - [speed, 12]
       - [direction, 1]
       - [seasonal, 1]
-      - [extreme (gust), 6]
+      - [extreme, 6]
       - [10m, 1]
       - [40m, 1]
       - [80m, 1]
