@@ -30,8 +30,7 @@ sectors:
       - [power plant design, 1]
   - source: Generation Forecast - Hydro
     targets:
-      - [water supply, 1]
-      - [flows<br>(historical and future), 3]
+      - [flows<br>(historical and future), 4]
       - [drought impact, 1]
       - [reservoir operations, 2]
       - [long term planning, 1]
@@ -151,8 +150,8 @@ variables:
       - [extreme events, 1]
   - source: flows<br>(historical and future)
     targets:
-      - [temperature, 3]
-      - [precipitation, 3]
+      - [temperature, 4]
+      - [precipitation, 4]
   - source: GHG emission
     targets:
       - [temperature, 2]
@@ -263,7 +262,7 @@ variables:
       - [compound events, 1]
   - source: transmission line corridor
     targets:
-      - [freezing rain, 1]
+      - [compound events, 1]
       - [wind, 1]
       - [temperature, 1]
   - source: underground system
@@ -275,15 +274,11 @@ variables:
     targets:
       - [extreme events, 1]
       - [temperature, 1]
-  - source: water supply
-    targets:
-      - [temperature, 1]
-      - [precipitation, 1]
   - source: wind energy generation
     targets:
       - [wind, 1]
       - [precipitation, 1]
-      - [freezing rain, 1]
+      - [compound events, 1]
 
 # ---- TYPES ----
 types:
@@ -295,7 +290,7 @@ types:
       - [high temperature & low wind, 1]
       - [ice & wind, 2]
       - [snow & wind, 2]
-      - [freezing rain (extreme), 2]
+      - [freezing rain, 4]
       - [wet snow, 1]
   - source: extreme events
     targets:
