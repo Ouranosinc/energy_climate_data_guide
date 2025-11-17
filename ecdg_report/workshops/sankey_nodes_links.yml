@@ -100,7 +100,7 @@ variables:
       - [radiation, 1]
   - source: design values<br>with climate change
     targets:
-      - [wind, 1]
+      - [wind, 1] 
       - [compound events, 1]
       - [temperature, 1]
   - source: dam safety review
