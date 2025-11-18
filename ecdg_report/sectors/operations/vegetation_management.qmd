@@ -176,7 +176,8 @@ For specific projects.
 Participants in the [workshops](../../workshops/intro_workshops.ipynb) noted the growing potential of Artificial Intelligence (AI) to enhance VM. For example, predictive models of vegetation growth or tree health—incorporating climate forecasts—could help prioritize interventions in high-risk areas. @Savva2025 reviewed AI-driven remote sensing approaches for VM near power lines, highlighting the integration of AI with LiDAR data and the use of weather variables (such as temperature and wind speed) as model inputs (@wu2022, @Taylor2022VegetationMgmtOutages).
 
 Some use of climate information in VM practice is also resumed in the figure below. There is an interest in climate variables that can break trees such as wind or freezing rain which can cause power outages. 
-<iframe width="768" height="640" data-external="1" src="https://miro.com/app/live-embed/uXjVINO7YDw=/?focusWidget=3458764636812783740&embedMode=view_only_without_ui&embedId=570604741026" frameborder="0" scrolling="no" allow="fullscreen; clipboard-read; clipboard-write" allowfullscreen></iframe>
+
+<iframe width="768" height="640" data-external="1" src="https://miro.com/app/live-embed/uXjVJqigpIU=/?focusWidget=3458764648311918983&embedMode=view_only_without_ui&embedId=866452356677" frameborder="0" scrolling="no" allow="fullscreen; clipboard-read; clipboard-write" allowfullscreen></iframe>
 
 :::
 
