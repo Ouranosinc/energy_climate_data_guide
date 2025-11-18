@@ -40,7 +40,7 @@ Among many others. Please refer to local [legislation](https://cda.ca/dams-in-ca
 
 The figure below briefly resumes decision-making challenges faced by professionals in the dam safety sector of the electricity system in Canada. These challenges were shared during the [workshops](../../workshops/intro_workshops.ipynb) held in 2025. These examples linked together the methods and models as well as characteristics presented in the following section such as [PMP](#probable-maximum-precipitation---pmp--probable-maximum-flood-pmf).
 
-<iframe width="768" id="miro" height="640"  data-external="1" src="https://miro.com/app/live-embed/uXjVINO7YDw=/?focusWidget=3458764634985944622&embedMode=view_only_without_ui&embedId=783828694004" frameborder="0" scrolling="no" allow="fullscreen; clipboard-read; clipboard-write" allowfullscreen></iframe>
+<iframe width="768" height="640"  data-external="1" src="https://miro.com/app/live-embed/uXjVJqigpIU=/?focusWidget=3458764648311837665&embedMode=view_only_without_ui&embedId=860608574556" frameborder="0" scrolling="no" allow="fullscreen; clipboard-read; clipboard-write" allowfullscreen></iframe>
 
 For all climate variables listed below, please refer to the [climate dataset section](../../datasets/Climate_Datasets_Overview.ipynb) for guidance and availability.
 
