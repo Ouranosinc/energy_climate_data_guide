@@ -119,13 +119,13 @@ variables:
       - [water levels, 1]
   - source: enterprise hazard<br>risk assessment
     targets:
-      - [extreme events, 2]
-      - [cascading events, 1]
+      - [high impact events, 2]
+      - [compound events, 1]
   - source: emergency plans
     targets:
       - [wind, 1]
       - [temperature, 1]
-      - [extreme events, 3]
+      - [high impact events, 3]
   - source: energy & revenue
     targets:
       - [temperature, 1]
@@ -142,12 +142,12 @@ variables:
       - [temperature, 2]
       - [wind, 1]
       - [precipitation, 1]
-      - [extreme events, 3]
+      - [high impact events, 3]
       - [radiation, 1]
       #- [lake temperature, 1]
   - source: facilitate adaptation
     targets:
-      - [extreme events, 1]
+      - [high impact events, 1]
   - source: flows<br>(historical and future)
     targets:
       - [temperature, 4]
@@ -190,7 +190,7 @@ variables:
       - [temperature, 1]
       - [precipitation, 1]
       - [wind, 1]
-      - [extreme events, 1]
+      - [high impact events, 1]
   - source: outages process
     targets:
       - [radiation, 1]
@@ -225,7 +225,7 @@ variables:
     targets:
       - [precipitation, 1]
       - [flows, 1]
-      - [extreme events, 2]
+      - [high impact events, 2]
       - [temperature, 1]
   - source: reliability outlook
     targets:
@@ -248,7 +248,7 @@ variables:
       - [precipitation, 3]
       - [snow, 2]
       - [radiation, 1]
-      - [extreme events, 1]
+      - [high impact events, 1]
   - source: system reliability
     targets:
       - [temperature, 4]
@@ -258,7 +258,7 @@ variables:
       - [flows, 2]
       - [cloud cover, 2]
       - [humidity, 2]
-      - [extreme events, 1]
+      - [high impact events, 1]
       - [compound events, 1]
   - source: transmission line corridor
     targets:
@@ -267,12 +267,12 @@ variables:
       - [temperature, 1]
   - source: underground system
     targets:
-      - [extreme events, 2]
+      - [high impact events, 2]
       - [temperature, 2]
       - [moisture, 1]
   - source: vulnerability assessment
     targets:
-      - [extreme events, 1]
+      - [high impact events, 1]
       - [temperature, 1]
   - source: wind energy generation
     targets:
@@ -292,7 +292,7 @@ types:
       - [snow & wind, 2]
       - [freezing rain, 4]
       - [wet snow, 1]
-  - source: extreme events
+  - source: high impact events
     targets:
       - [storm, 2]
       - [flood, 5]
@@ -305,13 +305,13 @@ types:
   - source: ice
     targets:
       - [accumulation, 1]
-      - [extreme, 2]
+      - [extreme / tail distribution, 2]
   - source: flows
     targets:
       - [monthly, 1]
   - source: precipitation
     targets:
-      - [extreme, 3]
+      - [extreme / tail distribution, 3]
       - [hourly, 2]
       - [sub-daily, 2]
       - [5min, 1]
@@ -323,10 +323,10 @@ types:
   - source: snow
     targets:
       - [accumulation, 4]
-      - [extreme, 2]
+      - [extreme / tail distribution, 2]
   - source: temperature
     targets:
-      - [extreme, 19]
+      - [extreme / tail distribution, 19]
       - [daily, 2]
       - [dry bulb, 3]
       - [freeze and thaw, 1]
@@ -345,7 +345,7 @@ types:
       - [speed, 12]
       - [direction, 1]
       - [seasonal, 1]
-      - [extreme, 6]
+      - [extreme / tail distribution, 6]
       - [10m, 1]
       - [40m, 1]
       - [80m, 1]
