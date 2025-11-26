@@ -47,6 +47,8 @@ website:
               - sectors/operations/outage_scheduling.ipynb
               - sectors/operations/vegetation_management.ipynb
               # - sectors/operations/worker_safety.ipynb    
+              - sectors/operations/vegetation_management.qmd
+              # - sectors/operations/worker_safety.ipynb    
           - section: "Infrastructure Planning and Asset Management"
             href: sectors/infrastructure/infrastructure_planning.ipynb
             contents:
