@@ -32,6 +32,7 @@ website:
       - section: "Electricity Sector Activities"
         href: sectors/electricity_sector_activities.ipynb
         contents:
+          - sectors/Sectors_Template.qmd
           - section: "Electricity System Planning"
             href: sectors/planning/grid_planning.ipynb
             contents:
@@ -42,31 +43,31 @@ website:
           - section: "Operations Planning"
             href: sectors/operations/operations_planning.ipynb
             contents:
-              - sectors/operations/electrical_system_operations.ipynb
+              # - sectors/operations/electrical_system_operations.ipynb
               - sectors/operations/outage_scheduling.ipynb
               - sectors/operations/vegetation_management.ipynb
-              - sectors/operations/worker_safety.ipynb    
+              # - sectors/operations/worker_safety.ipynb    
           - section: "Infrastructure Planning and Asset Management"
             href: sectors/infrastructure/infrastructure_planning.ipynb
             contents:
-              - sectors/infrastructure/construction.ipynb
+              # - sectors/infrastructure/construction.ipynb
               - sectors/infrastructure/dam_safety_review.qmd
-              - sectors/infrastructure/nuclear_safety_review.ipynb
+              # - sectors/infrastructure/nuclear_safety_review.ipynb
               - sectors/infrastructure/infrastructure_condition_assessment_and_investment_prioritization.ipynb
               - sectors/infrastructure/infrastructure_design.ipynb
-              - sectors/infrastructure/support_supply_chain_decision-making.ipynb
-              - sectors/infrastructure/licensing_and_impact-environmental_assessments.ipynb
+              # - sectors/infrastructure/support_supply_chain_decision-making.ipynb
+              # - sectors/infrastructure/licensing_and_impact-environmental_assessments.ipynb
           - section: "Assurance, Reporting and Disclosures"
             href: sectors/reporting/reporting_disclosure.qmd
             contents:  
-              - sectors/reporting/enterprise_risk_management.ipynb
+              # - sectors/reporting/enterprise_risk_management.ipynb
               - sectors/reporting/esg_and_sustainability_reporting.ipynb
       # The section on climate datasets
       - section: "Climate Datasets"
         href: datasets/Climate_Datasets_Overview.ipynb
         contents:
           - datasets/Dataset_Template.ipynb
-          - datasets/Good_to_know.ipynb
+          - datasets/Climate_Data_Fundamentals.ipynb
           - section: "Observational Data"
             href: datasets/observed_data/Observational_Datasets.ipynb
             contents:
@@ -91,6 +92,7 @@ website:
           - section: "Analysis Support Tools"
             href: datasets/tools/Analysis_Support_Tools.ipynb
             contents:
+              - datasets/tools/Point_Location_Compare.ipynb
       - section: Workshops
         href: workshops/intro_workshops.ipynb
         contents:
