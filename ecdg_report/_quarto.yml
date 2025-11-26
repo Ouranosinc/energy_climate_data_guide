@@ -45,7 +45,7 @@ website:
             contents:
               # - sectors/operations/electrical_system_operations.ipynb
               - sectors/operations/outage_scheduling.ipynb
-              - sectors/operations/vegetation_management.ipynb
+              # - sectors/operations/vegetation_management.ipynb
               # - sectors/operations/worker_safety.ipynb    
               - sectors/operations/vegetation_management.qmd
               # - sectors/operations/worker_safety.ipynb    
