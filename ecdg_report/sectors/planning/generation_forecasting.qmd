@@ -1,10 +1,9 @@
 ---
 title: Generation Forecasting
-bibliography: generation_forecasting_references.bib
-#uncomment upper line to add bibliography 
----
+<!--- bibliography: generation_forecasting_references.bib --->
+#uncomment upper line to add bibliography
 
-<!--- This is the template for the structure of all sector activity description pages. This is a comment not shown in the quarto website --->
+---
 
 ## Summary Description
 ### Overview
