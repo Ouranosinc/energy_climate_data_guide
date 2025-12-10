@@ -20,6 +20,41 @@ width: 0.8em;
 margin: 0 0.8em 0.2em -1em;  vertical-align: middle;
 }
 
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+{ counter-reset: source-line 0; }
+pre.numberSource code > span
+{ position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+{ content: counter(source-line);
+position: relative; left: -1em; text-align: right; vertical-align: baseline;
+border: none; display: inline-block;
+-webkit-touch-callout: none; -webkit-user-select: none;
+-khtml-user-select: none; -moz-user-select: none;
+-ms-user-select: none; user-select: none;
+padding: 0 4px; width: 4em;
+}
+pre.numberSource { margin-left: 3em; padding-left: 4px; }
+div.sourceCode
+{ }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+
 div.csl-bib-body { }
 div.csl-entry {
 clear: both;
@@ -4298,7 +4333,7 @@ text-align: center;
   <li><a href="#key-limitations-of-cmip6" id="toc-key-limitations-of-cmip6" class="nav-link" data-scroll-target="#key-limitations-of-cmip6">Key Limitations of CMIP6</a></li>
   </ul></li>
   <li><a href="#expert-guidance" id="toc-expert-guidance" class="nav-link" data-scroll-target="#expert-guidance">Expert Guidance</a></li>
-  <li><a href="#example-applications" id="toc-example-applications" class="nav-link" data-scroll-target="#example-applications">Example Applications</a></li>
+  <li><a href="#applications-exemples" id="toc-applications-exemples" class="nav-link" data-scroll-target="#applications-exemples">Applications exemples</a></li>
   <li><a href="#variables-available-in-cmip6" id="toc-variables-available-in-cmip6" class="nav-link" data-scroll-target="#variables-available-in-cmip6">Variables available in CMIP6</a></li>
   <li><a href="#data-access" id="toc-data-access" class="nav-link" data-scroll-target="#data-access">Data Access</a></li>
   <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
@@ -4476,9 +4511,115 @@ text-align: center;
 </div>
 </div>
 </section>
-<section id="example-applications" class="level2">
-<h2 class="anchored" data-anchor-id="example-applications">Example Applications</h2>
-<p><em>Links to Electricity Sector Activities</em>:</p>
+<section id="applications-exemples" class="level2">
+<h2 class="anchored" data-anchor-id="applications-exemples">Applications exemples</h2>
+<p>The following section gives an example of how to use CMIP6 projections to estimate the Probable Maximum Precipitation [PMP] using the xhydro package developed by Hydro-Quebec, ETS and Ouranos. For more details about the PMP, please visit the <a href="../../sectors/infrastructure/dam_safety_review.html">PMP section</a> of this guide and for a more detailed example the <a href="https://xhydro.readthedocs.io/en/latest/notebooks/pmp.html#Probable-Maximum-Precipitation-(PMP)">xhydro readthedocs</a>. The example describes the method developed by <a href="https://linkinghub.elsevier.com/retrieve/pii/S2214581817301696">Clavet-Gaumont et al., 2017</a>.</p>
+<p>The dataset used in this exemple, CanESM5 member r1i1p1f1 with the historical experimental, comes from the xhydro testing dataset. However, to download GCMs simulations for variables at different pressure levels, which are not available on that are not available on the <a href="https://pavics.ouranos.ca/datasets.html#a">PAVICS website</a>, it is possible to use the Python Package <a href="https://intake-esgf.readthedocs.io/en/latest/beginner.html">Intake-ESGF</a>. The package allows acces to the <a href="https://esgf.github.io/esg-search/ESGF_Search_RESTful_API.html">EsGF API</a> to query the catalog for specific GCM, member, experiment or variables.</p>
+<p>Using a Regional Climate Model could also be an improvement since it provides higher resolution which can improve the representation of storm events. Since the requested variables and pressures levels are not available on <a href="https://pavics.ouranos.ca/datasets.html#a">PAVICS</a>, please contact <a href="mailto:soutien-climat@ouranos.ca">Ouranos Soutien Climat team</a> to obtain the required datasets for the CRCM5-CMIP6 regional climate model covering North America.</p>
+<div id="874cdc42" class="cell" data-execution_count="1">
+<details class="code-fold">
+<summary>Code</summary>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># import the necessary libraries</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> pathlib <span class="im">import</span> Path</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pooch</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> xarray <span class="im">as</span> xr</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> xhydro <span class="im">as</span> xh</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> xhydro.testing.helpers <span class="im">import</span> deveraux</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> xhydro <span class="im">as</span> xh</span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a><span class="co"># load the simulated tes data from xhydro (CanESM5 model)</span></span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>path_day_zip <span class="op">=</span> deveraux().fetch(</span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;pmp/CMIP.CCCma.CanESM5.historical.r1i1p1f1.day.gn.zarr.zip&quot;</span>,</span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>    pooch.Unzip(),</span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>ds_day <span class="op">=</span> xr.open_zarr(Path(path_day_zip[<span class="dv">0</span>]).parents[<span class="dv">0</span>])</span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a>path_fx_zip <span class="op">=</span> deveraux().fetch(</span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;pmp/CMIP.CCCma.CanESM5.historical.r1i1p1f1.fx.gn.zarr.zip&quot;</span>,</span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a>    pooch.Unzip(),</span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a>ds_fx <span class="op">=</span> xr.open_zarr(Path(path_fx_zip[<span class="dv">0</span>]).parents[<span class="dv">0</span>])</span>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a><span class="co"># There are a few issues with attributes in this dataset that we need to address</span></span>
+<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a>ds_day[<span class="st">&quot;pr&quot;</span>].attrs <span class="op">=</span> {<span class="st">&quot;units&quot;</span>: <span class="st">&quot;mm&quot;</span>, <span class="st">&quot;long_name&quot;</span>: <span class="st">&quot;precipitation&quot;</span>}</span>
+<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a>ds_day[<span class="st">&quot;prsn&quot;</span>].attrs <span class="op">=</span> {<span class="st">&quot;units&quot;</span>: <span class="st">&quot;mm&quot;</span>, <span class="st">&quot;long_name&quot;</span>: <span class="st">&quot;snowfall&quot;</span>}</span>
+<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a>ds_day[<span class="st">&quot;rf&quot;</span>].attrs <span class="op">=</span> {<span class="st">&quot;units&quot;</span>: <span class="st">&quot;mm&quot;</span>, <span class="st">&quot;long_name&quot;</span>: <span class="st">&quot;rainfall&quot;</span>}</span>
+<span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a><span class="co"># add lat-lon</span></span>
+<span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a>ds_day.coords[<span class="st">&quot;lat&quot;</span>] <span class="op">=</span> ds_day.coords[<span class="st">&quot;y&quot;</span>]</span>
+<span id="cb1-33"><a href="#cb1-33" aria-hidden="true" tabindex="-1"></a>ds_day.coords[<span class="st">&quot;lat&quot;</span>].attrs <span class="op">=</span> {<span class="st">&quot;unites&quot;</span>: <span class="st">&quot;degrees_north&quot;</span>, <span class="st">&quot;long_name&quot;</span>: <span class="st">&quot;latitude&quot;</span>}</span>
+<span id="cb1-34"><a href="#cb1-34" aria-hidden="true" tabindex="-1"></a>ds_day.coords[<span class="st">&quot;lon&quot;</span>] <span class="op">=</span> (ds_day.coords[<span class="st">&#39;x&#39;</span>] <span class="op">+</span> <span class="dv">180</span>) <span class="op">%</span> <span class="dv">360</span> <span class="op">-</span> <span class="dv">180</span></span>
+<span id="cb1-35"><a href="#cb1-35" aria-hidden="true" tabindex="-1"></a>ds_day.coords[<span class="st">&quot;lon&quot;</span>].attrs <span class="op">=</span> {<span class="st">&quot;unites&quot;</span>: <span class="st">&quot;degrees_north&quot;</span>, <span class="st">&quot;long_name&quot;</span>: <span class="st">&quot;latitude&quot;</span>}</span>
+<span id="cb1-36"><a href="#cb1-36" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-37"><a href="#cb1-37" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-38"><a href="#cb1-38" aria-hidden="true" tabindex="-1"></a><span class="co"># Combine both datasets</span></span>
+<span id="cb1-39"><a href="#cb1-39" aria-hidden="true" tabindex="-1"></a>ds <span class="op">=</span> ds_day.convert_calendar(<span class="st">&quot;standard&quot;</span>)</span>
+<span id="cb1-40"><a href="#cb1-40" aria-hidden="true" tabindex="-1"></a>ds[<span class="st">&quot;orog&quot;</span>] <span class="op">=</span> ds_fx[<span class="st">&quot;orog&quot;</span>]</span>
+<span id="cb1-41"><a href="#cb1-41" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-42"><a href="#cb1-42" aria-hidden="true" tabindex="-1"></a><span class="co"># Filter the precipitation data to retain only the 10% most intense storms</span></span>
+<span id="cb1-43"><a href="#cb1-43" aria-hidden="true" tabindex="-1"></a>precipitation_events <span class="op">=</span> xh.indicators.pmp.major_precipitation_events(</span>
+<span id="cb1-44"><a href="#cb1-44" aria-hidden="true" tabindex="-1"></a>    ds.rf, windows<span class="op">=</span>[<span class="dv">1</span>], quantile<span class="op">=</span><span class="fl">0.9</span></span>
+<span id="cb1-45"><a href="#cb1-45" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb1-46"><a href="#cb1-46" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-47"><a href="#cb1-47" aria-hidden="true" tabindex="-1"></a><span class="co"># Compute precipitable water (integrate the vertical column of humidity)</span></span>
+<span id="cb1-48"><a href="#cb1-48" aria-hidden="true" tabindex="-1"></a>pw <span class="op">=</span> xh.indicators.pmp.precipitable_water(</span>
+<span id="cb1-49"><a href="#cb1-49" aria-hidden="true" tabindex="-1"></a>    hus<span class="op">=</span>ds.hus,</span>
+<span id="cb1-50"><a href="#cb1-50" aria-hidden="true" tabindex="-1"></a>    zg<span class="op">=</span>ds.zg,</span>
+<span id="cb1-51"><a href="#cb1-51" aria-hidden="true" tabindex="-1"></a>    orog<span class="op">=</span>ds.orog,</span>
+<span id="cb1-52"><a href="#cb1-52" aria-hidden="true" tabindex="-1"></a>    windows<span class="op">=</span>[<span class="dv">1</span>],</span>
+<span id="cb1-53"><a href="#cb1-53" aria-hidden="true" tabindex="-1"></a>    add_pre_lay<span class="op">=</span><span class="va">False</span>,</span>
+<span id="cb1-54"><a href="#cb1-54" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb1-55"><a href="#cb1-55" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-56"><a href="#cb1-56" aria-hidden="true" tabindex="-1"></a><span class="co"># Compute the monthly 100-year precipitable water using GEV distribution (value is limited to 20% greater than the maximum observed value)</span></span>
+<span id="cb1-57"><a href="#cb1-57" aria-hidden="true" tabindex="-1"></a>pw100 <span class="op">=</span> xh.indicators.pmp.precipitable_water_100y(</span>
+<span id="cb1-58"><a href="#cb1-58" aria-hidden="true" tabindex="-1"></a>    pw.sel(window<span class="op">=</span><span class="dv">1</span>).chunk(<span class="bu">dict</span>(time<span class="op">=-</span><span class="dv">1</span>)),</span>
+<span id="cb1-59"><a href="#cb1-59" aria-hidden="true" tabindex="-1"></a>    dist<span class="op">=</span><span class="st">&quot;genextreme&quot;</span>,</span>
+<span id="cb1-60"><a href="#cb1-60" aria-hidden="true" tabindex="-1"></a>    method<span class="op">=</span><span class="st">&quot;ML&quot;</span>,</span>
+<span id="cb1-61"><a href="#cb1-61" aria-hidden="true" tabindex="-1"></a>    mf<span class="op">=</span><span class="fl">0.2</span>,</span>
+<span id="cb1-62"><a href="#cb1-62" aria-hidden="true" tabindex="-1"></a>    rebuild_time<span class="op">=</span><span class="va">True</span>,</span>
+<span id="cb1-63"><a href="#cb1-63" aria-hidden="true" tabindex="-1"></a>).compute()</span>
+<span id="cb1-64"><a href="#cb1-64" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-65"><a href="#cb1-65" aria-hidden="true" tabindex="-1"></a><span class="co"># Precipitable water on the day of the major precipitation events.</span></span>
+<span id="cb1-66"><a href="#cb1-66" aria-hidden="true" tabindex="-1"></a>pw_events <span class="op">=</span> pw.where(precipitation_events <span class="op">&gt;</span> <span class="dv">0</span>)</span>
+<span id="cb1-67"><a href="#cb1-67" aria-hidden="true" tabindex="-1"></a>ratio <span class="op">=</span> pw100 <span class="op">/</span> pw_events</span>
+<span id="cb1-68"><a href="#cb1-68" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-69"><a href="#cb1-69" aria-hidden="true" tabindex="-1"></a><span class="co"># Apply the ratio onto precipitation itself</span></span>
+<span id="cb1-70"><a href="#cb1-70" aria-hidden="true" tabindex="-1"></a>precipitation_max <span class="op">=</span> ratio <span class="op">*</span> precipitation_events</span>
+<span id="cb1-71"><a href="#cb1-71" aria-hidden="true" tabindex="-1"></a>precipitation_max.name <span class="op">=</span> <span class="st">&quot;maximized_precipitation&quot;</span></span>
+<span id="cb1-72"><a href="#cb1-72" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-73"><a href="#cb1-73" aria-hidden="true" tabindex="-1"></a><span class="co"># Create a mask to separate events: rain-on-snow (spring) and rain-alone (summer)</span></span>
+<span id="cb1-74"><a href="#cb1-74" aria-hidden="true" tabindex="-1"></a>mask <span class="op">=</span> xh.indicators.pmp.compute_spring_and_summer_mask(</span>
+<span id="cb1-75"><a href="#cb1-75" aria-hidden="true" tabindex="-1"></a>    ds.snw,</span>
+<span id="cb1-76"><a href="#cb1-76" aria-hidden="true" tabindex="-1"></a>    thresh<span class="op">=</span><span class="st">&quot;1 cm&quot;</span>,</span>
+<span id="cb1-77"><a href="#cb1-77" aria-hidden="true" tabindex="-1"></a>    window_wint_end<span class="op">=</span><span class="dv">14</span>,  <span class="co"># Since the dataset used does not have a lot of snow, we need to be more lenient</span></span>
+<span id="cb1-78"><a href="#cb1-78" aria-hidden="true" tabindex="-1"></a>    freq<span class="op">=</span><span class="st">&quot;YS-SEP&quot;</span>,</span>
+<span id="cb1-79"><a href="#cb1-79" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb1-80"><a href="#cb1-80" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-81"><a href="#cb1-81" aria-hidden="true" tabindex="-1"></a><span class="co"># Estimates of PMP for rain-on-snow and rain-alone events (maximum over time dimension)</span></span>
+<span id="cb1-82"><a href="#cb1-82" aria-hidden="true" tabindex="-1"></a>pmp_spring <span class="op">=</span> (precipitation_max <span class="op">*</span> mask.mask_spring).<span class="bu">max</span>(<span class="st">&quot;time&quot;</span>).compute()</span>
+<span id="cb1-83"><a href="#cb1-83" aria-hidden="true" tabindex="-1"></a>pmp_summer <span class="op">=</span> (precipitation_max <span class="op">*</span> mask.mask_summer).<span class="bu">max</span>(<span class="st">&quot;time&quot;</span>).compute()</span>
+<span id="cb1-84"><a href="#cb1-84" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-85"><a href="#cb1-85" aria-hidden="true" tabindex="-1"></a><span class="co"># Plot the results</span></span>
+<span id="cb1-86"><a href="#cb1-86" aria-hidden="true" tabindex="-1"></a>plt.subplots(<span class="dv">1</span>, <span class="dv">2</span>, figsize<span class="op">=</span>[<span class="dv">12</span>, <span class="dv">5</span>])</span>
+<span id="cb1-87"><a href="#cb1-87" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-88"><a href="#cb1-88" aria-hidden="true" tabindex="-1"></a>ax <span class="op">=</span> plt.subplot(<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">1</span>)</span>
+<span id="cb1-89"><a href="#cb1-89" aria-hidden="true" tabindex="-1"></a>pmp_spring.sel(window<span class="op">=</span><span class="dv">1</span>).plot(x<span class="op">=</span><span class="st">&quot;lon&quot;</span>, y<span class="op">=</span><span class="st">&quot;lat&quot;</span>, vmin<span class="op">=</span><span class="dv">30</span>, vmax<span class="op">=</span><span class="dv">100</span>)</span>
+<span id="cb1-90"><a href="#cb1-90" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&quot;Spring PMP&quot;</span>)</span>
+<span id="cb1-91"><a href="#cb1-91" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&quot;Longitute&quot;</span>)</span>
+<span id="cb1-92"><a href="#cb1-92" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&quot;Latitude&quot;</span>)</span>
+<span id="cb1-93"><a href="#cb1-93" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-94"><a href="#cb1-94" aria-hidden="true" tabindex="-1"></a>ax <span class="op">=</span> plt.subplot(<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">2</span>)</span>
+<span id="cb1-95"><a href="#cb1-95" aria-hidden="true" tabindex="-1"></a>pmp_summer.sel(window<span class="op">=</span><span class="dv">1</span>).plot(x<span class="op">=</span><span class="st">&quot;lon&quot;</span>, y<span class="op">=</span><span class="st">&quot;lat&quot;</span>, vmin<span class="op">=</span><span class="dv">30</span>, vmax<span class="op">=</span><span class="dv">100</span>)</span>
+<span id="cb1-96"><a href="#cb1-96" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&quot;Summer PMP&quot;</span>)</span>
+<span id="cb1-97"><a href="#cb1-97" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&quot;Longitute&quot;</span>)</span>
+<span id="cb1-98"><a href="#cb1-98" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&quot;Latitude&quot;</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
+</div>
+<p>The same methodology can be applied to the SSPs projections to evaluate the PMPs in the future.</p>
 </section>
 <section id="variables-available-in-cmip6" class="level2">
 <h2 class="anchored" data-anchor-id="variables-available-in-cmip6">Variables available in CMIP6</h2>
@@ -4565,6 +4706,23 @@ Maher, N., Milinski, S., Ludwig, R., 2021. Large ensemble climate model simulati
 <div id="ref-Tebaldi2021" class="csl-entry" role="listitem">
 Tebaldi, C., Debeire, K., Eyring, V., Fischer, E., Fyfe, J., Friedlingstein, P., Knutti, R., Lowe, J., O’Neill, B., Sanderson, B., Vuuren, D. van, Riahi, K., Meinshausen, M., Nicholls, Z., Tokarska, K.B., Hurtt, G., Kriegler, E., Lamarque, J.-F., Meehl, G., Moss, R., Bauer, S.E., Boucher, O., Brovkin, V., Byun, Y.-H., Dix, M., Gualdi, S., Guo, H., John, J.G., Kharin, S., Kim, Y., Koshiro, T., Ma, L., Olivié, D., Panickal, S., Qiao, F., Rong, X., Rosenbloom, N., Schupfner, M., Séférian, R., Sellar, A., Semmler, T., Shi, X., Song, Z., Steger, C., Stouffer, R., Swart, N., Tachiiri, K., Tang, Q., Tatebe, H., Voldoire, A., Volodin, E., Wyser, K., Xin, X., Yang, S., Yu, Y., Ziehn, T., 2021. Climate model projections from the scenario model intercomparison project (ScenarioMIP) of CMIP6. Earth System Dynamics 12, 253–293. <a href="https://doi.org/10.5194/esd-12-253-2021">https://doi.org/10.5194/esd-12-253-2021</a>
 </div>
+</div>
+<div id="92b0d776" class="cell" data-execution_count="2">
+<details class="code-fold">
+<summary>Code</summary>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Extract lat/lon from ds, converting from y/x if needed (no xclim utility exists)</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> (<span class="st">&quot;lat&quot;</span> <span class="kw">in</span> ds.coords) <span class="kw">and</span> (<span class="st">&quot;lon&quot;</span> <span class="kw">in</span> ds.coords):</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>    lat <span class="op">=</span> ds[<span class="st">&quot;lat&quot;</span>]</span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>    lon <span class="op">=</span> ds[<span class="st">&quot;lon&quot;</span>]</span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="cf">elif</span> (<span class="st">&quot;y&quot;</span> <span class="kw">in</span> ds.coords) <span class="kw">and</span> (<span class="st">&quot;x&quot;</span> <span class="kw">in</span> ds.coords):</span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>    lat <span class="op">=</span> ds[<span class="st">&quot;y&quot;</span>]</span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>    lon <span class="op">=</span> ds[<span class="st">&quot;x&quot;</span>]</span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a><span class="cf">else</span>:</span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a>    lat <span class="op">=</span> <span class="va">None</span></span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a>    lon <span class="op">=</span> <span class="va">None</span></span>
+<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Latitude:&quot;</span>, lat.values <span class="cf">if</span> lat <span class="kw">is</span> <span class="kw">not</span> <span class="va">None</span> <span class="cf">else</span> <span class="st">&quot;Not found&quot;</span>)</span>
+<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Longitude:&quot;</span>, lon.values <span class="cf">if</span> lon <span class="kw">is</span> <span class="kw">not</span> <span class="va">None</span> <span class="cf">else</span> <span class="st">&quot;Not found&quot;</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
 </div>
 
 
