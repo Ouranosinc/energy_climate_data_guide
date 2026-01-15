@@ -44,10 +44,10 @@ website:
               - sectors/infrastructure/dam_safety_review.qmd
               - sectors/infrastructure/infrastructure_condition_assessment_and_investment_prioritization.ipynb
               - sectors/infrastructure/infrastructure_design.ipynb
-          - section: "Assurance, Reporting and Disclosures"
-            href: sectors/reporting/reporting_disclosure.qmd
-            contents:  
-              - sectors/reporting/esg_and_sustainability_reporting.ipynb
+          # - section: "Assurance, Reporting and Disclosures"
+          #   href: sectors/reporting/reporting_disclosure.qmd
+          #   contents:  
+          - sectors/reporting/esg_and_sustainability_reporting.ipynb
       # The section on climate datasets
       - section: "Climate Datasets"
         href: datasets/Climate_Datasets_Overview.ipynb
