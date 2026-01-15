@@ -1,0 +1,112 @@
+---
+title: Outage Scheduling
+#bibliography: sector_references.bib 
+#uncomment upper line to add bibliography 
+---
+
+<!--- This is the template for the structure of all sector activity description pages. This is a comment not shown in the quarto website --->
+
+## Summary Description
+
+Regular maintenance is critical to the reliable functioning of the electricity system and comes in the form of planned and unplanned maintenance activities. Climate data or information derived from climate data is important for the scheduling of planned maintenance or outages. In many cases, undertaking maintenance activities requires that an asset be taken out of service for a period of time, which is referred to as being on outage. When scheduling outages the goal is to minimize the downtime of the asset and to schedule the outage at a time which will have the least overall impact on the electricity system. As a result, outages are carefully planned and approved and ensure there is sufficient capacity on the electricity system to meet reliability requirements and satisfy customer demand.
+
+
+
+## Role in the Electricity System
+:::{#id1 .callout collapse="true"} 
+### Additional Information
+Outage scheduling is a generic term used to describe how planned maintenance activities are planned and approved to minimize the impact of the outages on the utility or system as a whole. Depending on the rules of the electricity market, these outages could be coordinated. For example, if a transmission line needs to be taken out a coordinated outage on a generating station could minimize the need for future disruptions.
+
+Outage scheduling takes place at various timescales, with different forms of climate data contributing depending on the timescale. Large outages are typically scheduled years in advance and may rely on seasonal forecasts or climatology to pick the best windows for maintenance. Smaller outages can be scheduled within the year and could benefit from additional seasonal to sub-seasonal forecasts being considered in addition to climatology and short term outages could be scheduled or cancelled within weeks or days if it is needed to maintain reliability.
+:::
+
+## Methods and Models
+
+There are various models and methods used for outage planning and the considerations vary depending on the role within the electricity sector.
+
+- Hydroelectricity is characterized by changing flow patterns throughout the year. Generally, units should be available when there is water to generate. Particularly at generating stations with multiple units, major outages are scheduled during the dryer months (i.e. summer) and are planned to allow enough units to remain online to take advantage of the available water. This is often based on the climatology of historic streamflow, but may additionally include seasonal forecasts.
+- Transmission and Distribution outages are planned considering the accessibility of the location, and risks posed by the outages. Some remote sites in Canada are harder to access through the snow in the winter period. Additionally, it is important to monitor the moisture in the environment as bringing mechanical equipment into dry areas increases the risk of igniting [wildfires](../operations/vegetation_management.qmd).
+- Ice can be an important consideration for maintenance activities in northern Canada. Some areas rely on the availability of ice roads to move in heavy equipment or event as a platform for doing construction on lakes and rivers. 
+- Utilities, such as generators, or transmission and distribution companies, work with electricity system operators to plan and approve outages. The electricity system operator will have a total picture of the electricity system and modify their [generation forecasts](../planning/generation_forecasting.qmd) and compare that with updates to the [demand forecast](../planning/demand.qmd) to ensure the reliability of the electricity system. This is done over both short and long term planning horizons as part of [resource adequacy planning](../planning/resource_adequacy_planning.ipynb). An upcoming outage may be cancelled if there are unplanned outages elsewhere on the grid limiting electricity supply or if an event such as a heat wave increases demand requiring more resources. This also applies to transmission and distribution outages if they could result in areas of a jurisdiction being without power.
+- Internal working temperature is important for worker safety. Many generating stations are self-heated when operating, where the generating units themselves produce sufficient heat to meet the building needs. In the summer time, most are air cooled and not air-conditioned. As a result the temperature within a generating station can become very hot in the summer and worker safety is a consideration when planning and managing maintenance. This is also a consideration that is taken into account when planning outages.
+
+:::{#id1 .callout collapse="true"}
+### Characteristics
+The data used in models today is primarily based on historical climate data and historic climatology. Data are generally used in a deterministic fashion.
+
+:::
+
+:::{#id1 .callout collapse="true"}
+### Key Climate Inputs
+- Streamflow - Used for planning hydroelectric outages
+- Air Temperature - Input to demand forecasts and consideration for work scheduling
+- Drought indicators - Various drought indicators are used to mitigate wildfire risks
+
+:::
+
+:::{#id1 .callout collapse="true"}
+### Non-Climate Inputs
+- Consumer electricity demand - Partially tied to temperature, but also economy and population
+- Grid outages - Provides context for other impactful outages
+- Market prices - As an indicator of demand and capacity
+- Asset condition assessments and safety assessments are used to determine the maintenance that is required
+
+:::
+
+:::{#id1 .callout collapse="true"}
+### Model Outputs
+- Approved Outage Window
+
+:::
+
+:::{#id1 .callout collapse="true"}
+### Temporal Resolution
+The temporal resolution is variable. Some processes occur with daily or monthly data, whereas resource adequacy is planned for the peak hours of the day.  
+
+:::
+
+:::{#id1 .callout collapse="true"}
+### Spatial Resolution
+Outage planning is done with respect to the specific location(s) at which the outage would be occurring. It would be considered by a system operator in the broader context of the electricity system. Climate data would be applied locally to each site. 
+
+:::
+
+:::{#id1 .callout collapse="true"}
+### Frequency of Analysis
+The frequency of outage planning varies based on the utility and application. Most large outages and planned more than a year in advance with updates to overall outage plans occurring annually. These plans may then be adjusted multiple times within a year as needs and conditions change or forced outages necessitate. 
+
+Electricity system operators will review outage schedules on a daily or weekly basis to ensure reliability of the electricity grid with the context of current demand and supply, which is partially weather driven, and availability of resources on the grid.
+
+:::
+:::
+
+
+## Detailed Discussion
+:::{#id1 .callout collapse="true"} 
+### Additional Information
+N/A
+:::
+
+## Gaps and Recommendations
+:::{#id1 .callout collapse="true"} 
+### Additional Information
+Typical outage planning processes rely heavily on historic data and occur within planning windows of only a few years (<5-10 years) into the future. The reliance on historic data in a non-stationary climate could result in sub-optimal timing of outages. Long-term planning will require the integration of initial climate conditions of the present day with seasonal to multi-year outlooks. This could be done by adjusting climatology or blending/subsetting climate models based on currently observed conditions to better represent the period of interest. Further research is needed to provide better guidance into these time horizons, as the weather forecast horizon (days to weeks) and climate horizons (30 years) receive more attention in research activities and seasonal to inter-annual horizons.  
+
+Climate hazards can also interact with long-term planning of the electricity system to account for unplanned outages. The Electrical Power Research Institute (EPRI) conducted a synthetic case study on the electricity grid in the state of Texas using a [capacity expansion model](../planning/capacity_expansion_modelling.ipynb). Derates and outages from climate hazards were integrated into the capacity expansion model to compare climate change impacts with those on a system where assets are hardened against climate change to reduce these impacts ([Developing a Climate Informed Modelling Framework for Power System Planning: A synthetic Texas cas study](https://interactive.epri.com/texas-case-study/p/1)). The findings of this study should be viewed as specific to the case study, but identified the benefits of generation hardening and building more transmission earlier so enough power can be transmitted as weather hazards increase demand and disrupt local generation.
+:::
+
+## Interactions with Other Sector Activities
+:::{#id1 .callout collapse="true"} 
+### Additional Information
+[Demand Forecasting](../planning/demand.qmd)
+[Generation Forecasting](../planning/generation_forecasting.qmd)
+[Resource Adequacy Planning](../planning/resource_adequacy_planning.ipynb)
+:::
+
+<details>
+<summary><strong>References (click to expand)</strong></summary>
+
+::: {#refs}
+:::
+
+</details>

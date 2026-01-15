@@ -36,7 +36,7 @@ website:
           - section: "Operations Planning"
             href: sectors/operations/operations_planning.ipynb
             contents:
-              - sectors/operations/outage_scheduling.ipynb
+              - sectors/operations/outage_scheduling.qmd
               - sectors/operations/vegetation_management.qmd
           - section: "Infrastructure Planning and Asset Management"
             href: sectors/infrastructure/infrastructure_planning.ipynb
@@ -113,6 +113,7 @@ bibliography:
   - sectors/planning/references.bib
   - sectors/planning/generation_forecasting_references.bib
   - sectors/reporting/reporting_references.bib
+  - sectors/infrastructure/references_dam_safety.bib
 
 
 
