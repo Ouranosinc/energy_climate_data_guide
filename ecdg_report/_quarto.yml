@@ -36,7 +36,7 @@ website:
           - section: "Operations Planning"
             href: sectors/operations/operations_planning.ipynb
             contents:
-              - sectors/operations/outage_scheduling.qmd
+              - sectors/operations/outage_scheduling.ipynb
               - sectors/operations/vegetation_management.qmd
           - section: "Infrastructure Planning and Asset Management"
             href: sectors/infrastructure/infrastructure_planning.ipynb
@@ -44,10 +44,10 @@ website:
               - sectors/infrastructure/dam_safety_review.qmd
               - sectors/infrastructure/infrastructure_condition_assessment_and_investment_prioritization.ipynb
               - sectors/infrastructure/infrastructure_design.ipynb
-          - section: "Assurance, Reporting and Disclosures"
-            href: sectors/reporting/reporting_disclosure.qmd
-            contents:  
-              - sectors/reporting/esg_and_sustainability_reporting.ipynb
+          # - section: "Assurance, Reporting and Disclosures"
+          - sectors/reporting/reporting_disclosure.qmd
+          #   contents:  
+          # - sectors/reporting/esg_and_sustainability_reporting.ipynb
       # The section on climate datasets
       - section: "Climate Datasets"
         href: datasets/Climate_Datasets_Overview.ipynb
@@ -113,7 +113,6 @@ bibliography:
   - sectors/planning/references.bib
   - sectors/planning/generation_forecasting_references.bib
   - sectors/reporting/reporting_references.bib
-  - sectors/infrastructure/references_dam_safety.bib
 
 
 
