@@ -54,6 +54,8 @@ website:
         href: datasets/Climate_Datasets_Overview.ipynb
         contents:
           - datasets/Dataset_Template.ipynb
+          - datasets/Example_Applications.ipynb
+          - datasets/Climate_Information_Ressources.ipynb
           - datasets/Climate_Data_Fundamentals.ipynb
           - section: "Observational Data"
             href: datasets/observed_data/Observational_Datasets.ipynb
