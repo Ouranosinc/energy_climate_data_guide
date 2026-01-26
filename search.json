@@ -975,7 +975,7 @@
     "href": "sectors/planning/resource_adequacy_planning.html",
     "title": "Resource Adequacy Planning",
     "section": "",
-    "text": "Planning for adequate resources to meet capacity for peak and energy demands. This might encompass several imbedded criteria such as a drought planning criterion.",
+    "text": "Resource adequacy planning is a structured analytical process used to assess whether an electricity system has sufficient capacity and energy resources to reliably meet forecasted electricity demand over defined planning horizons, while explicitly accounting for uncertainty in demand, generator availability, and system conditions. Resource adequacy assessments compare projected demand with available supply, incorporating generator outages, deratings, transmission constraints, and reserve requirements to determine the risk of supply shortfalls and the need for corrective actions (IESO (2025)). Unlike capacity expansion modelling, which focuses on identifying least-cost long-term investment pathways, resource adequacy planning evaluates the reliability sufficiency of a given resource portfolio under expected and stressed conditions. These assessments are performed across multiple time horizons, including long-term, seasonal, near-term outlooks, with increasing levels of operational specificity as the assessment horizon shortens ((IESO2024a?), (IESO2024b?)). A defining characteristic of resource adequacy planning is the use of explicit reliability criteria to determine acceptable levels of risk, such as probabilistic loss-of-load expectation criterion, which provides a quantitative benchmark against which supply sufficiency and reserve requirements are assessed. Resource adequacy assessment incorporates both deterministic and probabilistic elements. Deterministic inputs include projected demand, committed supply resources, planned outages, and transmission transfer capabilities, while probabilistic components represent forced outages, and load forecast uncertainty. Weather and climate conditions play an important role in resource adequacy planning because they affect both electricity demand levels and resource availability. Adequacy methodologies therefore explicitly incorporate weather-sensitive demand forecasts and uncertainty distributions from historical weather variability, to present the impact of extreme temperatures and other weather conditions on reliability risk (IESO (2025)). Overall, resource adequacy planning serves as a reliability assurance function withing the electricity system, translating forecasts of demand, supply availability, and uncertainty into quantitative indicators of system sufficiency. The results inform decisions related to reserve requirements, outage coordination, market signals, and operational readiness.",
     "crumbs": [
       "Electricity Sector Activities",
       "Electricity System Planning",
@@ -983,11 +983,59 @@
     ]
   },
   {
-    "objectID": "sectors/planning/resource_adequacy_planning.html#description",
-    "href": "sectors/planning/resource_adequacy_planning.html#description",
+    "objectID": "sectors/planning/resource_adequacy_planning.html#summary-description",
+    "href": "sectors/planning/resource_adequacy_planning.html#summary-description",
     "title": "Resource Adequacy Planning",
     "section": "",
-    "text": "Planning for adequate resources to meet capacity for peak and energy demands. This might encompass several imbedded criteria such as a drought planning criterion.",
+    "text": "Resource adequacy planning is a structured analytical process used to assess whether an electricity system has sufficient capacity and energy resources to reliably meet forecasted electricity demand over defined planning horizons, while explicitly accounting for uncertainty in demand, generator availability, and system conditions. Resource adequacy assessments compare projected demand with available supply, incorporating generator outages, deratings, transmission constraints, and reserve requirements to determine the risk of supply shortfalls and the need for corrective actions (IESO (2025)). Unlike capacity expansion modelling, which focuses on identifying least-cost long-term investment pathways, resource adequacy planning evaluates the reliability sufficiency of a given resource portfolio under expected and stressed conditions. These assessments are performed across multiple time horizons, including long-term, seasonal, near-term outlooks, with increasing levels of operational specificity as the assessment horizon shortens ((IESO2024a?), (IESO2024b?)). A defining characteristic of resource adequacy planning is the use of explicit reliability criteria to determine acceptable levels of risk, such as probabilistic loss-of-load expectation criterion, which provides a quantitative benchmark against which supply sufficiency and reserve requirements are assessed. Resource adequacy assessment incorporates both deterministic and probabilistic elements. Deterministic inputs include projected demand, committed supply resources, planned outages, and transmission transfer capabilities, while probabilistic components represent forced outages, and load forecast uncertainty. Weather and climate conditions play an important role in resource adequacy planning because they affect both electricity demand levels and resource availability. Adequacy methodologies therefore explicitly incorporate weather-sensitive demand forecasts and uncertainty distributions from historical weather variability, to present the impact of extreme temperatures and other weather conditions on reliability risk (IESO (2025)). Overall, resource adequacy planning serves as a reliability assurance function withing the electricity system, translating forecasts of demand, supply availability, and uncertainty into quantitative indicators of system sufficiency. The results inform decisions related to reserve requirements, outage coordination, market signals, and operational readiness.",
+    "crumbs": [
+      "Electricity Sector Activities",
+      "Electricity System Planning",
+      "Resource Adequacy Planning"
+    ]
+  },
+  {
+    "objectID": "sectors/planning/resource_adequacy_planning.html#role-in-the-electricity-system",
+    "href": "sectors/planning/resource_adequacy_planning.html#role-in-the-electricity-system",
+    "title": "Resource Adequacy Planning",
+    "section": "Role in the Electricity System",
+    "text": "Role in the Electricity System\nResource adequacy planning functions as the reliability assurance within the electricity system. Its role is to determine whether the electricity system, given a defined set of resources and operating assumptions, meets established reliability standards over specified time horizons, and to identify when additional actions or resources may be required ((IESO2024a?)). In practice, resource adequacy planning provides a link between long-term planning and system operation. Long-term and seasonal adequacy assessments inform system planners about potential future capacity shortfalls and guide decisions related to reserve requirements, outage coordination, and resource procurement timing. Near-term adequacy assessments support operational readiness by identifying periods of elevated reliability risk based on updated demand forecasts, outage schedules, and system conditions ((IESO2024b?), IESO (2025)). Resource adequacy planning also supports coordination across system functions by providing a common analytical bases for transmission planning, outage management, and market signaling. By quantifying the timing, location, and duration of potential reliability risks, adequacy assessments inform decisions on outage rescheduling, emergency preparedness measures, and the need for short- or medium-term interventions, while remaining analytically distinct from real-time dispatch and market operations ((IESO2024a?), IESO (2025)).",
+    "crumbs": [
+      "Electricity Sector Activities",
+      "Electricity System Planning",
+      "Resource Adequacy Planning"
+    ]
+  },
+  {
+    "objectID": "sectors/planning/resource_adequacy_planning.html#key-inputs",
+    "href": "sectors/planning/resource_adequacy_planning.html#key-inputs",
+    "title": "Resource Adequacy Planning",
+    "section": "Key Inputs",
+    "text": "Key Inputs",
+    "crumbs": [
+      "Electricity Sector Activities",
+      "Electricity System Planning",
+      "Resource Adequacy Planning"
+    ]
+  },
+  {
+    "objectID": "sectors/planning/resource_adequacy_planning.html#model-outputs",
+    "href": "sectors/planning/resource_adequacy_planning.html#model-outputs",
+    "title": "Resource Adequacy Planning",
+    "section": "Model Outputs",
+    "text": "Model Outputs",
+    "crumbs": [
+      "Electricity Sector Activities",
+      "Electricity System Planning",
+      "Resource Adequacy Planning"
+    ]
+  },
+  {
+    "objectID": "sectors/planning/resource_adequacy_planning.html#detailed-discussion",
+    "href": "sectors/planning/resource_adequacy_planning.html#detailed-discussion",
+    "title": "Resource Adequacy Planning",
+    "section": "Detailed Discussion",
+    "text": "Detailed Discussion\nFrom IESO, • Studies that quantify the reduction (percentage) in operating efficiency of thermal units at certain extreme temperatures compared to standard operating conditions • Impacts on hydropower by changes of evaporation and precipitation levels • Guide to cover the climate data used to determine performance changes",
     "crumbs": [
       "Electricity Sector Activities",
       "Electricity System Planning",
@@ -1719,7 +1767,7 @@
     "href": "sectors/planning/capacity_expansion_modelling.html",
     "title": "Capacity Expansion Modelling",
     "section": "",
-    "text": "Modelling of growth in grid requirements taking demand, supply, costs, etc. as inputs to determine how to best meet demand in the lowest costs method Power Sector Modeling 101\n\n\nfrom a System planning perspective\nIf you build a new line this should go here\nBuilding in a way that the system is resilience depending on how much energy I need to send to a certain condition and where should the line go. What kind of poles, conductors, transformers etc.",
+    "text": "Capacity expansion models (CEMs) are long-term electricity system planning tools used to identify optimal investment and retirement pathways for generation, storage, and supporting infrastructure required to meet projected electricity demand while satisfying policy, technical, and reliability constraints. These models typically optimize system outcomes over multi-decadal horizons by minimizing total system cost subject to assumptions on demand growth, technology performance and costs, fuel prices, resource availability, and planning constraints ((DOE2016?), EPRI (2024)). CEMs are widely applied to support integrated resource planning, policy evaluation, and long-term system transformation analysis, including decarbonization pathways and electrification scenarios. Recent literature emphasizes the needs of adaptation of climate change and the corresponding system vulnerability in the CEMs, such that climate impacts are translated into planning-relevant model inputs rather than treated implicitly or assumed stationary. Climate change affects capacity expansion outcomes, including changes in electricity demand requirements, generation resource availability, and infrastructure performance limits (EPRI (2024), (PNNL2021?)). On the demand side, temperature increases and extreme heat events alter energy consumption levels, peak demand magnitude, and load profiles, which in turn affect capacity needs and investment timing. Planning studies therefore treat demand as an exogenous requirement informed by climate conditioned load projections rather than as an endogenous outcome of capacity expansion modelling ((PNNL2023?)). On the supply side, climate change influences generator performance and availability, particularly for thermoelectric and hydropower resources. Thermal generation performance is sensitive to ambient air temperature and cooling water conditions, which can result in capacity deratings or reduced availability during extreme heat or water stress. Hydropower generation is affected by changes in precipitation, snowmelt timing, evaporation, and interannual hydrologic variability, which challenge the assumption of stationary inflows traditionally used in long-term planning ((PNNL2021?), Ray et al. (2018), (Hydro-Québec2022?)). These effects are increasingly represented in CEMs through climate informed resource availability assumptions or scenario-based stress testing, rather than single deterministic forecasts (EPRI (2024)). CEMs play a central role in screening long-term investment strategies and identifying candidate resource portfolios that are economically efficient and policy compliant under assumed future conditions. In response to deep uncertainty surrounding future climate conditions, CEMs are used to explore multiple plausible futures, enabling planners to compare system costs, resource mixes, and vulnerabilities across climate, policy, and technology scenarios (Marchau et al. (2019), (PNNL2023?), (NARUC-NASEO2021?)).",
     "crumbs": [
       "Electricity Sector Activities",
       "Electricity System Planning",
@@ -1727,11 +1775,59 @@
     ]
   },
   {
-    "objectID": "sectors/planning/capacity_expansion_modelling.html#description",
-    "href": "sectors/planning/capacity_expansion_modelling.html#description",
+    "objectID": "sectors/planning/capacity_expansion_modelling.html#summary-description",
+    "href": "sectors/planning/capacity_expansion_modelling.html#summary-description",
     "title": "Capacity Expansion Modelling",
     "section": "",
-    "text": "Modelling of growth in grid requirements taking demand, supply, costs, etc. as inputs to determine how to best meet demand in the lowest costs method Power Sector Modeling 101\n\n\nfrom a System planning perspective\nIf you build a new line this should go here\nBuilding in a way that the system is resilience depending on how much energy I need to send to a certain condition and where should the line go. What kind of poles, conductors, transformers etc.",
+    "text": "Capacity expansion models (CEMs) are long-term electricity system planning tools used to identify optimal investment and retirement pathways for generation, storage, and supporting infrastructure required to meet projected electricity demand while satisfying policy, technical, and reliability constraints. These models typically optimize system outcomes over multi-decadal horizons by minimizing total system cost subject to assumptions on demand growth, technology performance and costs, fuel prices, resource availability, and planning constraints ((DOE2016?), EPRI (2024)). CEMs are widely applied to support integrated resource planning, policy evaluation, and long-term system transformation analysis, including decarbonization pathways and electrification scenarios. Recent literature emphasizes the needs of adaptation of climate change and the corresponding system vulnerability in the CEMs, such that climate impacts are translated into planning-relevant model inputs rather than treated implicitly or assumed stationary. Climate change affects capacity expansion outcomes, including changes in electricity demand requirements, generation resource availability, and infrastructure performance limits (EPRI (2024), (PNNL2021?)). On the demand side, temperature increases and extreme heat events alter energy consumption levels, peak demand magnitude, and load profiles, which in turn affect capacity needs and investment timing. Planning studies therefore treat demand as an exogenous requirement informed by climate conditioned load projections rather than as an endogenous outcome of capacity expansion modelling ((PNNL2023?)). On the supply side, climate change influences generator performance and availability, particularly for thermoelectric and hydropower resources. Thermal generation performance is sensitive to ambient air temperature and cooling water conditions, which can result in capacity deratings or reduced availability during extreme heat or water stress. Hydropower generation is affected by changes in precipitation, snowmelt timing, evaporation, and interannual hydrologic variability, which challenge the assumption of stationary inflows traditionally used in long-term planning ((PNNL2021?), Ray et al. (2018), (Hydro-Québec2022?)). These effects are increasingly represented in CEMs through climate informed resource availability assumptions or scenario-based stress testing, rather than single deterministic forecasts (EPRI (2024)). CEMs play a central role in screening long-term investment strategies and identifying candidate resource portfolios that are economically efficient and policy compliant under assumed future conditions. In response to deep uncertainty surrounding future climate conditions, CEMs are used to explore multiple plausible futures, enabling planners to compare system costs, resource mixes, and vulnerabilities across climate, policy, and technology scenarios (Marchau et al. (2019), (PNNL2023?), (NARUC-NASEO2021?)).",
+    "crumbs": [
+      "Electricity Sector Activities",
+      "Electricity System Planning",
+      "Capacity Expansion Modelling"
+    ]
+  },
+  {
+    "objectID": "sectors/planning/capacity_expansion_modelling.html#role-in-the-electricity-system",
+    "href": "sectors/planning/capacity_expansion_modelling.html#role-in-the-electricity-system",
+    "title": "Capacity Expansion Modelling",
+    "section": "Role in the Electricity System",
+    "text": "Role in the Electricity System\nCEMs play a strategic planning role within the electricity system by informing long-term investment and retirement decisions that shape the future composition of generation, storage, and supporting infrastructure. Their primary function is not to operate the power system, but to support future planning processes, such as integrated resource planning, long-term transmission planning, and policy evaluation, by identifying resources availability for meeting projected demand and policy objectives at least system cost ((DOE2016?), (NARUC-NASEO2021?)). From a reliability perspective, CEMs contribute indirectly by ensuring that sufficient capacity is planned to meet forecasted energy and peak demand requirements under planning reserve criteria. However, they generally do not resolve short-duration events, extreme weather stress, or correlated outage in sufficient detail to assess loss-of-load risk. Rather, their outputs are commonly used as inputs to resource adequacy planning, where probabilistic methods are applied to evaluate reliability under uncertainty ((PNNL2023?), IESO (2024)). In the context of climate change, the role of CEMs has expanded to include system-level screening of climate risks and adaptation options. Planning guidance emphasizes that CEMs are well suited to evaluating how climate-drive changes, such as increased temperature-sensitive demand, altered hydropower availability, or reduced thermal generator performance during extreme heat, may affect long-term capacity needs, technology choices, and investment timing, provided these impacts are represented through climate-informed planning assumptions ((PNNL2021?), EPRI (2024), (Hydro-Québec2022?)). More recent planning frameworks further highlights the role of CEMs in decision-making under deep uncertainty, where future climate, policy, and technology pathways cannot be described by a single forecast. In such contexts, CEMs are used to compare system outcomes across multiple plausible scenarios, supporting the identification of resource portfolios that remain viable across a wide range of future conditions rather than optimizing for a single expected case (Marchau et al. (2019), (PNNL2023?), (NARUC-NASEO2021?)).",
+    "crumbs": [
+      "Electricity Sector Activities",
+      "Electricity System Planning",
+      "Capacity Expansion Modelling"
+    ]
+  },
+  {
+    "objectID": "sectors/planning/capacity_expansion_modelling.html#key-inputs",
+    "href": "sectors/planning/capacity_expansion_modelling.html#key-inputs",
+    "title": "Capacity Expansion Modelling",
+    "section": "Key Inputs",
+    "text": "Key Inputs\n\nElectricity demand and load characteristics: including annual energy demand and peak demand. These projections may reflect assumptions that are included in the demand forecasting, such as economic growth, electrification, demand-side measures, and weather sensitivity.\nTechnology cost and performance characteristics: These parameters explain which technologies are selected in least-cost solutions.\nFuel price assumptions: Prices of natural gas, coal, biomass, and fuel supply or transportation constraints affect operating costs and dispatch decisions.\nPolicy and planning constraints: Emission limits, renewable portfolio standards, clean energy targets, retirement schedules, or technology deployment limits.\nResource availability and system constraints: Renewable resource potentials (e.g., wind, solar, hydropower), transmission limits or expansion options, reserve or adequacy requirements, and operational simplification.\nClimate and weather-related inputs: Climate variables, and hydrologic inflow scenarios derived from historical data or climate projections reflect climate variability and change on system planning.",
+    "crumbs": [
+      "Electricity Sector Activities",
+      "Electricity System Planning",
+      "Capacity Expansion Modelling"
+    ]
+  },
+  {
+    "objectID": "sectors/planning/capacity_expansion_modelling.html#model-outputs",
+    "href": "sectors/planning/capacity_expansion_modelling.html#model-outputs",
+    "title": "Capacity Expansion Modelling",
+    "section": "Model Outputs",
+    "text": "Model Outputs\n\nCapacity expansion and retirement decisions: What types of resources are built or retired, in what quantities, and in which years over the planning horizon.\nGeneration and energy mix: Electricity production by technology in a specific time step, which provides insight into how demand is met across different resources.\nSystem costs: Total system cost, investment costs, operating costs, and fuel expenditures.\nEmissions and environmental indicators: Carbon dioxide and other pollutant emissions.\nReliability and adequacy indicators: Reserve margins, capacity credits, or curtailment levels, which provide a screening-level indication of whether future capacity portfolios can meet demand.\nScenario comparison insights: Trade-offs among cost, emissions, technology deployment, and resilience outcomes across different assumptions, including climate-informed scenarios.",
+    "crumbs": [
+      "Electricity Sector Activities",
+      "Electricity System Planning",
+      "Capacity Expansion Modelling"
+    ]
+  },
+  {
+    "objectID": "sectors/planning/capacity_expansion_modelling.html#detailed-discussion",
+    "href": "sectors/planning/capacity_expansion_modelling.html#detailed-discussion",
+    "title": "Capacity Expansion Modelling",
+    "section": "Detailed Discussion",
+    "text": "Detailed Discussion\nFrom IESO, • Studies that quantify the reduction (percentage) in operating efficiency of thermal units at certain extreme temperatures compared to standard operating conditions • Impacts on hydropower by changes of evaporation and precipitation levels • Guide to cover the climate data used to determine performance changes",
     "crumbs": [
       "Electricity Sector Activities",
       "Electricity System Planning",
