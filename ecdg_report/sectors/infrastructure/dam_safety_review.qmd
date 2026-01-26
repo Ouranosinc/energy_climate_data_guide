@@ -378,7 +378,12 @@ Data over the whole province and nearby to cover all watersheds (for example, ot
 ### Additional Information
 Many regulators have added considerations of climate change related risks inside their legislation for dam safety (@damsafetybc) while others discuss the need to consider extreme events (@damsafetyontario). @Ozkan2023 report details impacts of climate change on dams and has an extensive review of literature and policies around the globe that bridge these impacts. The report also recommends datasets to be used for dam safety the Can-CRM4 that has a 0.44° resolution and 50 members. 
 
-<mark>Marco or Kurt could you add infos about the new CSA standard if it has been accepted</mark> 
+### Vulnerability Assessment of Dams
+The Canadian Standards Association (CSA) release CSA S910.1:25 - Climate change vulnerability assessment for dams in Canada (@csas910) which documents a flexible, yet standardized process for conducting vulnerability assessments. The standard follows common steps for climate risk and vulnerability analysis, integrating them with guidelines published by the CDA. The standard emphasizes a team approach to understand the dam as interacting systems, components and elements, any of which could be exposed to and influenced by climate hazards. A sensitivity analysis is used to determine how vulnerable a system, component or element may be to a particular climate hazard. 
+
+This section of the guide documents the fundamental components of a dam safety review, that being extreme precipitation, flood hazards, geotechnical and structural models. However, different types of climate data may be needed throughout a DSR based on the physical conditions of the dam itself. This could be as complex as conditions changing the probable maximum flood, or a button on a control pedestal that could become inaccessible and prevent the operation of spillway gates. As a result, the description of climate variables and data described above are far from exhaustive.
+
+The standard is agnostic on the particular climate data to be used, so long as it can be proven fit for purpose and properly accounts for the uncertainty of climate information. This could include statistically or dynamically downscaled climate models, the use of weather generators or some other form of climatic data. The emphasis is on appropriately qualified personnel to be conducting the assessment and practicing within their scope of knowledge. This may require a dam owner finding access to appropriate climate expertise.
 
 
 :::
@@ -388,11 +393,11 @@ Many regulators have added considerations of climate change related risks inside
 ### Additional Information
 Practitioners have identified important gaps in the dam safety sector. First of all, uncertainties are associated with the PMP and the methodology used has not been updated in the recent years even with important limitations highlighted in literature such as the objectivity linked to the storm selection (@martin_pmp). 
 
-There is also a mismatch between some of the internal stations geodetic levels and the dam’s own level making it challenging to use some of the internally collected data. Practitioners also face challenges to have data with spatial and temporal resolution that fit their need. Generally, it is hard to find extreme datasets (1/100, 1/1000), especially when looking at future projections. There is also a lack of wind data; historical and future which is required for rockfill structures. 
+There is also a mismatch between some of the internal stations geodetic levels and the dam’s own level making it challenging to use some of the internally collected data. Practitioners also face challenges to have data with spatial and temporal resolution that fit their need. Generally, it is hard to find extreme datasets (1/100, 1/1000), especially when looking at future projections. There is also a lack of wind data; historical and future which is required for rockfill structures or for determining dam freeboard where waves can have significant impacts. 
 
 There is also a lack of clear guidelines on how to incorporate a non-stationary climate into dam safety reviews. Practitioners discussed that these guidelines could be integrated in CSA norms or more internal guidance available at the organization level (and to their consultants). 
 
-The National Research Council of Canada has published a report "Adapatation of dams to climate change: Gap analysis" which objective was to find Canadian guidelines shortcomings when addressing climate change in dam safety. The report highlighted technical gaps such integrating non-stationary climate in hydrological modelling, policy gaps (limited climate change aspect in standards or risk assessment), knowledge gaps (uncertainties linked to climate change) and data gaps (many regions are lacking data in the North). (@Ozkan2023)
+The National Research Council of Canada has published a report "Adaptation of dams to climate change: Gap analysis" which objective was to find Canadian guidelines shortcomings when addressing climate change in dam safety. The report highlighted technical gaps such integrating non-stationary climate in hydrological modelling, policy gaps (limited climate change aspect in standards or risk assessment), knowledge gaps (uncertainties linked to climate change) and data gaps (many regions are lacking data in the North). (@Ozkan2023)
 :::
 
 <details>

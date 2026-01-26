@@ -22,6 +22,7 @@ website:
     #search: true
     contents:
       - Introduction.ipynb
+      - QuartoFunctionalityExamples.ipynb
       - section: "Electricity Sector Activities"
         href: sectors/electricity_sector_activities.ipynb
         contents:
@@ -36,7 +37,7 @@ website:
           - section: "Operations Planning"
             href: sectors/operations/operations_planning.ipynb
             contents:
-              - sectors/operations/outage_scheduling.ipynb
+              - sectors/operations/outage_scheduling.qmd
               - sectors/operations/vegetation_management.qmd
           - section: "Infrastructure Planning and Asset Management"
             href: sectors/infrastructure/infrastructure_planning.ipynb
@@ -44,15 +45,17 @@ website:
               - sectors/infrastructure/dam_safety_review.qmd
               - sectors/infrastructure/infrastructure_condition_assessment_and_investment_prioritization.ipynb
               - sectors/infrastructure/infrastructure_design.ipynb
-          - section: "Assurance, Reporting and Disclosures"
-            href: sectors/reporting/reporting_disclosure.qmd
-            contents:  
-              - sectors/reporting/esg_and_sustainability_reporting.ipynb
+          # - section: "Assurance, Reporting and Disclosures"
+          - sectors/reporting/reporting_disclosure.qmd
+          #   contents:  
+          # - sectors/reporting/esg_and_sustainability_reporting.ipynb
       # The section on climate datasets
       - section: "Climate Datasets"
         href: datasets/Climate_Datasets_Overview.ipynb
         contents:
           - datasets/Dataset_Template.ipynb
+          - datasets/Example_Applications.ipynb
+          - datasets/Climate_Information_Ressources.ipynb
           - datasets/Climate_Data_Fundamentals.ipynb
           - section: "Observational Data"
             href: datasets/observed_data/Observational_Datasets.ipynb
@@ -62,8 +65,8 @@ website:
           - section: "Reanalysis Data"
             href: datasets/reanalysis_data/Reanalysis_Datasets.ipynb
             contents:
-              - datasets/reanalysis_data/CaSR.ipynb
               - datasets/reanalysis_data/ERA5-Land.ipynb
+              - datasets/reanalysis_data/CaSR.ipynb
           - section: "Climate Projection Data"
             href: datasets/climate_projection_data/Climate_Projection_Datasets.ipynb
             contents:
@@ -98,7 +101,10 @@ format:
     code-fold: true
     smooth-scroll: true
     #csl: styles/nature.csl # only superscript numbers in the text
-    csl: styles/elsevier-harvard.csl # Author (year) in the text
+    #csl: styles/elsevier-harvard.csl # Author (year) in the text
+    #csl: styles/harvard-cite-them-right-no-et-al.csl # Author (year) in the text
+    csl: styles/cambridge-university-press-author-date.csl
+    #csl: styles/lancaster-university-harvard.csl
     # citation-style: numeric
     # cite-method: biblatex
     # biblatexoptions:
