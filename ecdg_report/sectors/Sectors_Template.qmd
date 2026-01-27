@@ -1,5 +1,5 @@
 ---
-title: Sector Page Template
+title: Sector Page Template (for development only!)
 #bibliography: sector_references.bib 
 #uncomment upper line to add bibliography 
 ---
