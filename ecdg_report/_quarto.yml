@@ -54,8 +54,6 @@ website:
         href: datasets/Climate_Datasets_Overview.ipynb
         contents:
           - datasets/Dataset_Template.ipynb
-          - datasets/Example_Applications.ipynb
-          - datasets/Climate_Information_Ressources.ipynb
           - datasets/Climate_Data_Fundamentals.ipynb
           - section: "Observational Data"
             href: datasets/observed_data/Observational_Datasets.ipynb
@@ -78,6 +76,8 @@ website:
               - datasets/climate_projection_data/CanDCS-M6.ipynb
               - datasets/climate_projection_data/CanLEAD.ipynb
               - datasets/climate_projection_data/NEX-GDDP-CMIP6.ipynb
+          - datasets/Climate_Information_Ressources.ipynb
+          - datasets/Example_Applications.ipynb
           - section: "Analysis Support Tools"
             href: datasets/tools/Analysis_Support_Tools.ipynb
             contents:
