@@ -116,8 +116,10 @@ format:
 bibliography:
   - datasets/references.bib
   - sectors/references.bib
-  - sectors/planning/references.bib
-  - sectors/planning/generation_forecasting_references.bib
+  - sectors/planning/Demand.bib
+  - sectors/planning/Generation.bib
+  - sectors/planning/CEM.bib
+  - sectors/planning/RAP.bib
   - sectors/reporting/reporting_references.bib
 
 
