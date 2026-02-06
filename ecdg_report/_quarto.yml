@@ -32,8 +32,8 @@ website:
             contents:
               - sectors/planning/demand.qmd
               - sectors/planning/generation_forecasting.qmd
-              - sectors/planning/capacity_expansion_modelling.ipynb
-              - sectors/planning/resource_adequacy_planning.ipynb
+              - sectors/planning/capacity_expansion_modelling.qmd
+              - sectors/planning/resource_adequacy_planning.qmd
           - section: "Operations Planning"
             href: sectors/operations/operations_planning.ipynb
             contents:
@@ -117,11 +117,12 @@ format:
 bibliography:
   - datasets/references.bib
   - sectors/references.bib
-  - sectors/planning/Demand.bib
-  - sectors/planning/Generation.bib
-  - sectors/planning/CEM.bib
-  - sectors/planning/RAP.bib
+  - sectors/planning/references.bib
+  - sectors/planning/generation_forecasting.bib
+  - sectors/planning/resource_adequacy_planning.bib
+  - sectors/planning/capacity_expansion_modelling.bib
   - sectors/reporting/reporting_references.bib
+  
 
 
 

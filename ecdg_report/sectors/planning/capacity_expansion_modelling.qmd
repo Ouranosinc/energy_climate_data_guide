@@ -1,7 +1,5 @@
 ---
 title: Capacity Expansion Modelling
-bibliography: CEM.bib 
-#uncomment upper line to add bibliography
 
 ---
 
