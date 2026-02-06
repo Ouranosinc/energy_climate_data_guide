@@ -39,6 +39,7 @@ website:
             contents:
               - sectors/operations/outage_scheduling.qmd
               - sectors/operations/vegetation_management.qmd
+              - sectors/operations/vegetation_management-Copy.qmd
           - section: "Infrastructure Planning and Asset Management"
             href: sectors/infrastructure/infrastructure_planning.ipynb
             contents:
