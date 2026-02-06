@@ -1,7 +1,5 @@
 ---
 title: Resource Adequacy Planning
-bibliography: RAP.bib 
-#uncomment upper line to add bibliography
 
 ---
 
