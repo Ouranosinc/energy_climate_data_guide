@@ -2,198 +2,194 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://Ouranosinc.github.io/energy_climate_data_guide/Introduction.html</loc>
-    <lastmod>2026-02-06T18:04:09.148Z</lastmod>
+    <lastmod>2026-02-06T20:30:41.265Z</lastmod>
   </url>
   <url>
     <loc>https://Ouranosinc.github.io/energy_climate_data_guide/workshops/content_particip.html</loc>
-    <lastmod>2026-02-06T18:04:09.203Z</lastmod>
+    <lastmod>2026-02-06T20:30:41.319Z</lastmod>
   </url>
   <url>
     <loc>https://Ouranosinc.github.io/energy_climate_data_guide/workshops/intro_workshops.html</loc>
-    <lastmod>2026-02-06T18:04:09.219Z</lastmod>
+    <lastmod>2026-02-06T20:30:41.336Z</lastmod>
   </url>
   <url>
     <loc>https://Ouranosinc.github.io/energy_climate_data_guide/datasets/climate_projection_data/ESPO-G6.html</loc>
-    <lastmod>2026-02-06T18:04:09.150Z</lastmod>
+    <lastmod>2026-02-06T20:30:41.267Z</lastmod>
   </url>
   <url>
     <loc>https://Ouranosinc.github.io/energy_climate_data_guide/datasets/climate_projection_data/CanDCS-M6.html</loc>
-    <lastmod>2026-02-06T18:04:09.150Z</lastmod>
+    <lastmod>2026-02-06T20:30:41.267Z</lastmod>
   </url>
   <url>
     <loc>https://Ouranosinc.github.io/energy_climate_data_guide/datasets/climate_projection_data/CORDEX.html</loc>
-    <lastmod>2026-02-06T18:04:09.149Z</lastmod>
+    <lastmod>2026-02-06T20:30:41.267Z</lastmod>
   </url>
   <url>
     <loc>https://Ouranosinc.github.io/energy_climate_data_guide/datasets/climate_projection_data/NEX-GDDP-CMIP6.html</loc>
-    <lastmod>2026-02-06T18:04:09.150Z</lastmod>
+    <lastmod>2026-02-06T20:30:41.267Z</lastmod>
   </url>
   <url>
     <loc>https://Ouranosinc.github.io/energy_climate_data_guide/datasets/Climate_Datasets_Overview.html</loc>
-    <lastmod>2026-02-06T18:04:09.149Z</lastmod>
+    <lastmod>2026-02-06T20:30:41.266Z</lastmod>
   </url>
   <url>
     <loc>https://Ouranosinc.github.io/energy_climate_data_guide/datasets/Climate_Data_Fundamentals.html</loc>
-    <lastmod>2026-02-06T18:04:09.149Z</lastmod>
+    <lastmod>2026-02-06T20:30:41.266Z</lastmod>
   </url>
   <url>
     <loc>https://Ouranosinc.github.io/energy_climate_data_guide/datasets/tools/NRCanMET_check.html</loc>
-    <lastmod>2026-02-06T18:04:09.183Z</lastmod>
+    <lastmod>2026-02-06T20:30:41.299Z</lastmod>
   </url>
   <url>
     <loc>https://Ouranosinc.github.io/energy_climate_data_guide/datasets/reanalysis_data/Reanalysis_leftovers.html</loc>
-    <lastmod>2026-02-06T18:04:09.181Z</lastmod>
+    <lastmod>2026-02-06T20:30:41.298Z</lastmod>
   </url>
   <url>
     <loc>https://Ouranosinc.github.io/energy_climate_data_guide/datasets/reanalysis_data/Reanalysis_Datasets.html</loc>
-    <lastmod>2026-02-06T18:04:09.181Z</lastmod>
+    <lastmod>2026-02-06T20:30:41.298Z</lastmod>
   </url>
   <url>
     <loc>https://Ouranosinc.github.io/energy_climate_data_guide/datasets/Dataset_Template.html</loc>
-    <lastmod>2026-02-06T18:04:09.149Z</lastmod>
+    <lastmod>2026-02-06T20:30:41.266Z</lastmod>
   </url>
   <url>
     <loc>https://Ouranosinc.github.io/energy_climate_data_guide/datasets/observed_data/NRCanMET_Gridded_Data.html</loc>
-    <lastmod>2026-02-06T18:04:09.181Z</lastmod>
+    <lastmod>2026-02-06T20:30:41.297Z</lastmod>
   </url>
   <url>
     <loc>https://Ouranosinc.github.io/energy_climate_data_guide/sectors/planning/generation_forecasting.html</loc>
-    <lastmod>2026-02-06T18:04:09.198Z</lastmod>
+    <lastmod>2026-02-06T20:30:41.315Z</lastmod>
   </url>
   <url>
     <loc>https://Ouranosinc.github.io/energy_climate_data_guide/sectors/planning/infrastructure_condition_assessment_and_investment_prioritization.html</loc>
-    <lastmod>2026-02-06T18:04:09.201Z</lastmod>
-  </url>
-  <url>
-    <loc>https://Ouranosinc.github.io/energy_climate_data_guide/sectors/planning/capacity_expansion_modelling.html</loc>
-    <lastmod>2026-02-06T18:04:09.198Z</lastmod>
-  </url>
-  <url>
-    <loc>https://Ouranosinc.github.io/energy_climate_data_guide/sectors/planning/resource_adequacy_planning.html</loc>
-    <lastmod>2026-02-06T18:04:09.202Z</lastmod>
-  </url>
-  <url>
-    <loc>https://Ouranosinc.github.io/energy_climate_data_guide/sectors/operations/vegetation_management.html</loc>
-    <lastmod>2026-02-06T18:04:09.197Z</lastmod>
-  </url>
-  <url>
-    <loc>https://Ouranosinc.github.io/energy_climate_data_guide/sectors/operations/outage_scheduling.html</loc>
-    <lastmod>2026-02-06T18:04:09.196Z</lastmod>
-  </url>
-  <url>
-    <loc>https://Ouranosinc.github.io/energy_climate_data_guide/sectors/infrastructure/infrastructure_design.html</loc>
-    <lastmod>2026-02-06T18:04:09.190Z</lastmod>
-  </url>
-  <url>
-    <loc>https://Ouranosinc.github.io/energy_climate_data_guide/sectors/infrastructure/infrastructure_planning.html</loc>
-    <lastmod>2026-02-06T18:04:09.190Z</lastmod>
-  </url>
-  <url>
-    <loc>https://Ouranosinc.github.io/energy_climate_data_guide/sectors/Sectors_Template.html</loc>
-    <lastmod>2026-02-06T18:04:09.185Z</lastmod>
-  </url>
-  <url>
-    <loc>https://Ouranosinc.github.io/energy_climate_data_guide/sectors/innovation_investments.html</loc>
-    <lastmod>2026-02-06T18:04:09.190Z</lastmod>
-  </url>
-  <url>
-    <loc>https://Ouranosinc.github.io/energy_climate_data_guide/adaptation/Adaptation.html</loc>
-    <lastmod>2026-02-06T18:04:09.148Z</lastmod>
-  </url>
-  <url>
-    <loc>https://Ouranosinc.github.io/energy_climate_data_guide/QuartoFunctionalityExamples.html</loc>
-    <lastmod>2026-02-06T18:04:09.148Z</lastmod>
-  </url>
-  <url>
-    <loc>https://Ouranosinc.github.io/energy_climate_data_guide/sectors/reporting/reporting_disclosure.html</loc>
-    <lastmod>2026-02-06T18:04:09.202Z</lastmod>
-  </url>
-  <url>
-    <loc>https://Ouranosinc.github.io/energy_climate_data_guide/sectors/electricity_sector_activities.html</loc>
-    <lastmod>2026-02-06T18:04:09.185Z</lastmod>
-  </url>
-  <url>
-    <loc>https://Ouranosinc.github.io/energy_climate_data_guide/sectors/infrastructure/dam_safety_review.html</loc>
-    <lastmod>2026-02-06T18:04:09.185Z</lastmod>
-  </url>
-  <url>
-    <loc>https://Ouranosinc.github.io/energy_climate_data_guide/sectors/infrastructure/infrastructure_condition_assessment_and_investment_prioritization.html</loc>
-    <lastmod>2026-02-06T18:04:09.190Z</lastmod>
-  </url>
-  <url>
-    <loc>https://Ouranosinc.github.io/energy_climate_data_guide/sectors/operations/proactive_management_of_heavily_loaded_assets.html</loc>
-    <lastmod>2026-02-06T18:04:09.197Z</lastmod>
-  </url>
-  <url>
-    <loc>https://Ouranosinc.github.io/energy_climate_data_guide/sectors/operations/operations_planning.html</loc>
-    <lastmod>2026-02-06T18:04:09.196Z</lastmod>
+    <lastmod>2026-02-06T20:30:41.318Z</lastmod>
   </url>
   <url>
     <loc>https://Ouranosinc.github.io/energy_climate_data_guide/sectors/planning/grid_planning.html</loc>
-    <lastmod>2026-02-06T18:04:09.199Z</lastmod>
+    <lastmod>2026-02-06T20:30:41.315Z</lastmod>
   </url>
   <url>
-    <loc>https://Ouranosinc.github.io/energy_climate_data_guide/sectors/planning/references_generation.html</loc>
-    <lastmod>2026-02-06T18:04:09.202Z</lastmod>
+    <loc>https://Ouranosinc.github.io/energy_climate_data_guide/sectors/operations/operations_planning.html</loc>
+    <lastmod>2026-02-06T20:30:41.313Z</lastmod>
+  </url>
+  <url>
+    <loc>https://Ouranosinc.github.io/energy_climate_data_guide/sectors/operations/proactive_management_of_heavily_loaded_assets.html</loc>
+    <lastmod>2026-02-06T20:30:41.313Z</lastmod>
+  </url>
+  <url>
+    <loc>https://Ouranosinc.github.io/energy_climate_data_guide/sectors/infrastructure/infrastructure_condition_assessment_and_investment_prioritization.html</loc>
+    <lastmod>2026-02-06T20:30:41.307Z</lastmod>
+  </url>
+  <url>
+    <loc>https://Ouranosinc.github.io/energy_climate_data_guide/sectors/infrastructure/dam_safety_review.html</loc>
+    <lastmod>2026-02-06T20:30:41.302Z</lastmod>
+  </url>
+  <url>
+    <loc>https://Ouranosinc.github.io/energy_climate_data_guide/sectors/electricity_sector_activities.html</loc>
+    <lastmod>2026-02-06T20:30:41.302Z</lastmod>
+  </url>
+  <url>
+    <loc>https://Ouranosinc.github.io/energy_climate_data_guide/sectors/reporting/reporting_disclosure.html</loc>
+    <lastmod>2026-02-06T20:30:41.318Z</lastmod>
+  </url>
+  <url>
+    <loc>https://Ouranosinc.github.io/energy_climate_data_guide/QuartoFunctionalityExamples.html</loc>
+    <lastmod>2026-02-06T20:30:41.265Z</lastmod>
+  </url>
+  <url>
+    <loc>https://Ouranosinc.github.io/energy_climate_data_guide/adaptation/Adaptation.html</loc>
+    <lastmod>2026-02-06T20:30:41.265Z</lastmod>
+  </url>
+  <url>
+    <loc>https://Ouranosinc.github.io/energy_climate_data_guide/sectors/innovation_investments.html</loc>
+    <lastmod>2026-02-06T20:30:41.307Z</lastmod>
+  </url>
+  <url>
+    <loc>https://Ouranosinc.github.io/energy_climate_data_guide/sectors/Sectors_Template.html</loc>
+    <lastmod>2026-02-06T20:30:41.302Z</lastmod>
+  </url>
+  <url>
+    <loc>https://Ouranosinc.github.io/energy_climate_data_guide/sectors/infrastructure/infrastructure_planning.html</loc>
+    <lastmod>2026-02-06T20:30:41.307Z</lastmod>
+  </url>
+  <url>
+    <loc>https://Ouranosinc.github.io/energy_climate_data_guide/sectors/infrastructure/infrastructure_design.html</loc>
+    <lastmod>2026-02-06T20:30:41.307Z</lastmod>
+  </url>
+  <url>
+    <loc>https://Ouranosinc.github.io/energy_climate_data_guide/sectors/operations/outage_scheduling.html</loc>
+    <lastmod>2026-02-06T20:30:41.313Z</lastmod>
+  </url>
+  <url>
+    <loc>https://Ouranosinc.github.io/energy_climate_data_guide/sectors/operations/vegetation_management.html</loc>
+    <lastmod>2026-02-06T20:30:41.314Z</lastmod>
+  </url>
+  <url>
+    <loc>https://Ouranosinc.github.io/energy_climate_data_guide/sectors/planning/resource_adequacy_planning.html</loc>
+    <lastmod>2026-02-06T20:30:41.318Z</lastmod>
+  </url>
+  <url>
+    <loc>https://Ouranosinc.github.io/energy_climate_data_guide/sectors/planning/capacity_expansion_modelling.html</loc>
+    <lastmod>2026-02-06T20:30:41.315Z</lastmod>
   </url>
   <url>
     <loc>https://Ouranosinc.github.io/energy_climate_data_guide/sectors/planning/demand.html</loc>
-    <lastmod>2026-02-06T18:04:09.198Z</lastmod>
+    <lastmod>2026-02-06T20:30:41.315Z</lastmod>
   </url>
   <url>
     <loc>https://Ouranosinc.github.io/energy_climate_data_guide/datasets/observed_data/AHCCD_Station_Data.html</loc>
-    <lastmod>2026-02-06T18:04:09.181Z</lastmod>
+    <lastmod>2026-02-06T20:30:41.297Z</lastmod>
   </url>
   <url>
     <loc>https://Ouranosinc.github.io/energy_climate_data_guide/datasets/observed_data/Observational_Datasets.html</loc>
-    <lastmod>2026-02-06T18:04:09.181Z</lastmod>
+    <lastmod>2026-02-06T20:30:41.298Z</lastmod>
   </url>
   <url>
     <loc>https://Ouranosinc.github.io/energy_climate_data_guide/datasets/reanalysis_data/CaSR.html</loc>
-    <lastmod>2026-02-06T18:04:09.181Z</lastmod>
+    <lastmod>2026-02-06T20:30:41.298Z</lastmod>
   </url>
   <url>
     <loc>https://Ouranosinc.github.io/energy_climate_data_guide/datasets/reanalysis_data/ERA5-Land.html</loc>
-    <lastmod>2026-02-06T18:04:09.181Z</lastmod>
+    <lastmod>2026-02-06T20:30:41.298Z</lastmod>
   </url>
   <url>
     <loc>https://Ouranosinc.github.io/energy_climate_data_guide/datasets/tools/Analysis_Support_Tools.html</loc>
-    <lastmod>2026-02-06T18:04:09.181Z</lastmod>
+    <lastmod>2026-02-06T20:30:41.298Z</lastmod>
   </url>
   <url>
     <loc>https://Ouranosinc.github.io/energy_climate_data_guide/datasets/tools/Point_Location_Compare.html</loc>
-    <lastmod>2026-02-06T18:04:09.184Z</lastmod>
+    <lastmod>2026-02-06T20:30:41.301Z</lastmod>
   </url>
   <url>
     <loc>https://Ouranosinc.github.io/energy_climate_data_guide/datasets/Example_Applications.html</loc>
-    <lastmod>2026-02-06T18:04:09.149Z</lastmod>
+    <lastmod>2026-02-06T20:30:41.266Z</lastmod>
   </url>
   <url>
     <loc>https://Ouranosinc.github.io/energy_climate_data_guide/datasets/TextSectionParkingLot.html</loc>
-    <lastmod>2026-02-06T18:04:09.149Z</lastmod>
+    <lastmod>2026-02-06T20:30:41.266Z</lastmod>
   </url>
   <url>
     <loc>https://Ouranosinc.github.io/energy_climate_data_guide/datasets/climate_projection_data/CMIP6.html</loc>
-    <lastmod>2026-02-06T18:08:05.487Z</lastmod>
+    <lastmod>2026-02-06T20:33:51.527Z</lastmod>
   </url>
   <url>
     <loc>https://Ouranosinc.github.io/energy_climate_data_guide/datasets/climate_projection_data/CanLEAD.html</loc>
-    <lastmod>2026-02-06T18:04:09.150Z</lastmod>
+    <lastmod>2026-02-06T20:30:41.267Z</lastmod>
   </url>
   <url>
     <loc>https://Ouranosinc.github.io/energy_climate_data_guide/datasets/climate_projection_data/Climate_Projection_Datasets.html</loc>
-    <lastmod>2026-02-06T18:04:09.150Z</lastmod>
+    <lastmod>2026-02-06T20:30:41.267Z</lastmod>
   </url>
   <url>
     <loc>https://Ouranosinc.github.io/energy_climate_data_guide/datasets/Climate_Information_Ressources.html</loc>
-    <lastmod>2026-02-06T18:04:09.149Z</lastmod>
+    <lastmod>2026-02-06T20:30:41.266Z</lastmod>
   </url>
   <url>
     <loc>https://Ouranosinc.github.io/energy_climate_data_guide/workshops/findings.html</loc>
-    <lastmod>2026-02-06T18:04:09.203Z</lastmod>
+    <lastmod>2026-02-06T20:30:41.319Z</lastmod>
   </url>
   <url>
     <loc>https://Ouranosinc.github.io/energy_climate_data_guide/index.html</loc>
-    <lastmod>2026-02-06T18:04:09.185Z</lastmod>
+    <lastmod>2026-02-06T20:30:41.302Z</lastmod>
   </url>
 </urlset>
