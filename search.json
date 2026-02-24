@@ -2821,7 +2821,7 @@
     "href": "datasets/Climate_Information_Ressources.html#epri",
     "title": "Climate Information Resources",
     "section": "EPRI",
-    "text": "EPRI\n\nwhat it is and why use it.",
+    "text": "EPRI\n\nwhat it is and why use it.\nhttps://apps.epri.com/climate-data-user-guide/en/",
     "crumbs": [
       "Climate Datasets",
       "Climate Information Resources"
@@ -2839,11 +2839,55 @@
     ]
   },
   {
+    "objectID": "datasets/Climate_Information_Ressources.html#portraits-climatiques",
+    "href": "datasets/Climate_Information_Ressources.html#portraits-climatiques",
+    "title": "Climate Information Resources",
+    "section": "Portraits Climatiques",
+    "text": "Portraits Climatiques\n\nhttps://portraits.ouranos.ca",
+    "crumbs": [
+      "Climate Datasets",
+      "Climate Information Resources"
+    ]
+  },
+  {
+    "objectID": "datasets/Climate_Information_Ressources.html#desing-value-explorer",
+    "href": "datasets/Climate_Information_Ressources.html#desing-value-explorer",
+    "title": "Climate Information Resources",
+    "section": "Desing Value Explorer",
+    "text": "Desing Value Explorer\n\nhttps://www.uvic.ca/pcic/data-analysis-tools/analysis-tools/design-value-explorer/index.php",
+    "crumbs": [
+      "Climate Datasets",
+      "Climate Information Resources"
+    ]
+  },
+  {
+    "objectID": "datasets/Climate_Information_Ressources.html#crbcpi-report",
+    "href": "datasets/Climate_Information_Ressources.html#crbcpi-report",
+    "title": "Climate Information Resources",
+    "section": "CRBCPI Report",
+    "text": "CRBCPI Report\n\nhttps://climate-scenarios.canada.ca/?page=buildings-report-overview",
+    "crumbs": [
+      "Climate Datasets",
+      "Climate Information Resources"
+    ]
+  },
+  {
     "objectID": "datasets/Climate_Information_Ressources.html#ouranos-information-pages",
     "href": "datasets/Climate_Information_Ressources.html#ouranos-information-pages",
     "title": "Climate Information Resources",
     "section": "Ouranos Information Pages",
     "text": "Ouranos Information Pages\n\nRessoures on climate and topics",
+    "crumbs": [
+      "Climate Datasets",
+      "Climate Information Resources"
+    ]
+  },
+  {
+    "objectID": "datasets/Climate_Information_Ressources.html#canadian-centre-for-climate-services-cccs-support-desk",
+    "href": "datasets/Climate_Information_Ressources.html#canadian-centre-for-climate-services-cccs-support-desk",
+    "title": "Climate Information Resources",
+    "section": "Canadian Centre for Climate Services (CCCS) Support Desk",
+    "text": "Canadian Centre for Climate Services (CCCS) Support Desk\n\nhttps://climate-change.canada.ca/support-desk/Index",
     "crumbs": [
       "Climate Datasets",
       "Climate Information Resources"
