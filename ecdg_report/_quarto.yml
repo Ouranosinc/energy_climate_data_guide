@@ -39,7 +39,6 @@ website:
             contents:
               - sectors/operations/outage_scheduling.qmd
               - sectors/operations/vegetation_management.qmd
-              - sectors/operations/vegetation_management-Copy.qmd
           - section: "Infrastructure Planning and Asset Management"
             href: sectors/infrastructure/infrastructure_planning.ipynb
             contents:
@@ -60,7 +59,7 @@ website:
             href: datasets/observed_data/Observational_Datasets.ipynb
             contents:
               - datasets/observed_data/AHCCD_Station_Data.ipynb
-              - datasets/observed_data/NRCanMET_Gridded_Data.ipynb
+              - datasets/observed_data/NRCANmet_Gridded_Data.ipynb
           - section: "Reanalysis Data"
             href: datasets/reanalysis_data/Reanalysis_Datasets.ipynb
             contents:
@@ -110,7 +109,11 @@ format:
     # cite-method: biblatex
     # biblatexoptions:
     #   - citestyle = authoryear
-    include-after-body: link-target.js
+    include-after-body:
+      - link-target.js
+      # - auto-open-callout.js
+      - text: |
+          <script src="auto-open-callout.js"></script>
     embed-resources: true
     allow-raw-html: true
 
