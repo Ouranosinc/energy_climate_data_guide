@@ -5,7 +5,7 @@ bibliography: vegetation_management_references.bib
 ---
 
 ## Summary Description
-Vegetation management (VM) incorporates many activities that provide safe and effective operations of power lines and other energy utilities.  VM prevents contact between vegetation and equipment (which can cause fires and outages), maintaining clearances, but must also respect environment protection such as pesticide-free zones, protection of wildlife, control of invasive species and fire risk management.
+Vegetation management (VM) incorporates many activities that provide safe and effective operations of power lines and other energy utilities. VM prevents contact between vegetation and equipment (which can cause fires and outages), maintaining clearances, but must also respect environment protection such as pesticide-free zones, protection of wildlife, control of invasive species and fire risk management.
 
 Climate change directly impacts VM. For example, increasing temperatures in Canada are extending the growing season for vegetation, which might increase the need for VM programs and cycle frequency. Species migration (e.g., a decrease in conifer biomass in the North and an increase of broadleaf species) might also occur due to rising temperatures.  Other climate events such as wind, lightning, freezing rain and storm can also impact VM.  
 
@@ -20,7 +20,7 @@ The section below describes the role of VM in the electricity system, methods an
 ### Additional Information
 VM is crucial for the electricity system as vegetation is one of the most common causes for power outages. A vulnerability assessment completed for Ontario's distribution system showed that tree contacts are the greatest contributor to customer outages.  Ontario organizations have also observed an increase in trees contact with overhead cables with wind speed higher than 70km/h. 
 
-Wildfires have major impacts on the power grid as shown in the figure below. Wildfire cause permanent damage to infrastructure which can lead to blackouts.  Furthermore, the impacts are not limited to direct power line damage; impacts can also include reduced thermal ratings, line sag, and damage to wooden poles.  Wildfire can also impact generation assets: solar panels can also be affected by wildfire smoke reducing their power output; wind turbine blades can be damaged by the ash and soot; and dams can also be damaged by debris found in rivers after forest fire as well as soot.  
+Wildfires have major impacts on the power grid as shown in the figure below. Wildfire cause permanent damage to infrastructure which can lead to blackouts. Furthermore, the impacts are not limited to direct power line damage; impacts can also include reduced thermal ratings, line sag, and damage to wooden poles. Wildfire can also impact generation assets: solar panels can also be affected by wildfire smoke reducing their power output; wind turbine blades can be damaged by the ash and soot; and dams can also be damaged by debris found in rivers after forest fire as well as soot.  
 
 [![Wildfire and Power system Interaction taken from @Vahedi2025 (p.10)](image/powergrid_fores_fires.png "Wildfire and Power system Interaction taken from @Vahedi2025 (p.10)")](https://www.osti.gov/servlets/purl/2565134 "Wildfire and power grid nexus in a changing climate")
 
