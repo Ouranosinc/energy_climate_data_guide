@@ -10,6 +10,7 @@ project:
   resources:
     - link-target.js  # This ensures it gets copied to output
     - auto-open-callout.js
+    - maturity_matrix/*.xlsx
 
 website:
   title: "Climate Data for the Electricity Sector"
