@@ -1,14 +1,9 @@
 ---
 title: Dam Safety Review 
-bibliography: references_dam_safety.bib
-#csl: styles/elsevier-harvard.csl
+
 ---
 
 ## Summary Description
-
-
-
-
 
 - standard based on Dam Safety Guidelines - [Canadian Dam Association](https://cda.ca/technical/dam-safety) (CDA)
 - risk-informed approach: undesired events in therms of likelihood and potential consequences
