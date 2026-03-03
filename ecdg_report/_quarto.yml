@@ -9,6 +9,7 @@ project:
   output-dir: ../docs
   resources:
     - link-target.js  # This ensures it gets copied to output
+    - auto-open-callout.js
 
 website:
   title: "Climate Data for the Electricity Sector"
@@ -87,7 +88,8 @@ website:
         contents:
           - workshops/content_particip.ipynb
           - workshops/findings.ipynb      
-      - adaptation/Adaptation.ipynb        
+      - adaptation/Adaptation.ipynb      
+      - maturity_matrix/Maturity_Matrix.qmd
 
 format:
   html:
