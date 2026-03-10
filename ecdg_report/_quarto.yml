@@ -10,6 +10,7 @@ project:
   resources:
     - link-target.js  # This ensures it gets copied to output
     - auto-open-callout.js
+    - maturity_matrix/*.xlsx
 
 website:
   title: "Climate Data for the Electricity Sector"
@@ -83,6 +84,9 @@ website:
             href: datasets/tools/Analysis_Support_Tools.ipynb
             contents:
               - datasets/tools/Point_Location_Compare.ipynb
+      - section: "Guidance"
+        contents:
+          - guidance/Climate_Data_Decision_Tree.qmd        
       - section: Workshops
         href: workshops/intro_workshops.ipynb
         contents:

@@ -3,42 +3,69 @@ title: Maturity Matrix for Climate Assessment
 
 ---
 
-<!--- This is the template for the structure of all sector activity description pages. This is a comment not shown in the quarto website --->
-
 ## Summary Description
 
-[Lorem ipsum dolor sit amet]{.red-text}, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud [reprehenderit in voluptate velit esse cillum]{.green-text} exercitation ullamco laboris nisi  ut aliquip ex ea commodo consequat. Duis aute irure dolor in dolore eu fugiat nulla pariatur. [Excepteur sint occaecat cupidatat non proident]{.blue-text}, sunt in culpa qui officia deserunt mollit anim id est laborum.
+The Climate Data Maturity Matrix is a structured self-assessment tool designed to help energy sector practitioners evaluate how climate information is integrated into planning, operations, and investment decisions. It covers organizational capacity, climate understanding, planning integration, data practices, validation processes, fitness-for-purpose considerations, and the treatment of uncertainty. The matrix is intended to support internal reflection and structured improvement rather than external benchmarking.
 
+[Download the Maturity Matrix (Excel)](Maturity_Matrix_v2.xlsx)
+
+<!-- 
 ![A figure for the activity (source: bibentry)](./image/spreadsheet-symbol.jpg "A symbolic spreadsheet"){fig-alt="A symbolic spreadsheet" width=300}
 
-We can mark stuff [like this]{.mark-red} or <mark>like this</mark> as a reminder to deal with it later (see source for markdown implementation!).
+We can mark stuff [like this]{.mark-red} or <mark>like this</mark> as a reminder to deal with it later (see source for markdown implementation!). 
+-->
 
-## Role in the Electricity System (aka "Climate Assessment/Adaption Process?)
+## Purpose and Scope
 
-How does the maturity matrix for the climate assessment link into similar assessment (matrices)?
+The Climate Data Maturity Matrix is a structured framework that enables energy utilities to assess how climate information is integrated into organizational processes, technical workflows, and decision practices. It examines maturity across organizational capacity, climate change understanding, planning and deployment strategy, data acquisition and quality control, and the fitness-for-purpose use of climate information. It also evaluates whether uncertainties and limitations are clearly understood and reflected in applications. By defining progressive levels of capability, the matrix supports systematic improvement from informal or siloed practices to coordinated, well-governed integration of climate data.
 
+Intended for practitioners in planning, engineering, operations, asset management, and risk management, the matrix supports more transparent and defensible infrastructure and resilience decisions. It helps determine whether climate data are appropriately selected, validated, and aligned with specific operational or investment contexts, thereby reducing the risk of misapplication. By identifying gaps in governance, expertise, or technical processes, it provides a basis for prioritizing capacity-building and data improvements. Used as a cross-functional tool, it strengthens alignment between technical analysis and strategic decision-making in long-term energy system planning.
+
+<!-- 
 :::{#id1 .callout collapse="true"}
 ### Additional Information
 Summary of how this activity contributes to the electricity sector and the purpose of this topic
 :::
+-->
 
-## Methodology and Application
-
-Summary of the methodology and use of the maturity matrix here.
-
-## Detailed Discussion
+## Using the Maturity Matrix: Interpretation and Application
 :::{#id1 .callout collapse="true"} 
-### Additional Information
-lorem ipsum bla bla
+### How to Use the Maturity Matrix
+The Climate Data Maturity Matrix is not a benchmarking or performance ranking instrument. It does not assess regulatory compliance, corporate climate commitments, or absolute modeling sophistication, nor is it intended to compare organizations or generate external scores. Strong performance in one technical dimension does not necessarily indicate overall maturity if governance, validation, or decision alignment are weak. Rather than serving as an external evaluation tool, the matrix supports internal reflection and dialogue, enabling practitioners to identify gaps, clarify responsibilities, and prioritize improvements in how climate information is selected, validated, and applied within their own operational and planning contexts.
+
+Maturity levels (1–5) represent progressive stages in how consistently and effectively climate information is integrated into organizational processes and decision-making. At lower levels, climate data use is typically ad hoc or siloed, with limited governance, documentation, or validation. As maturity advances, practices become more structured and coordinated, with clearer roles and responsibilities, improved data acquisition and quality control, and more explicit consideration of uncertainty and application constraints. At the highest level, climate information is systematically selected, validated, and aligned with specific operational and investment decisions, supported by documented processes and cross-functional integration. Progression across levels therefore reflects increasing reliability, transparency, and fitness-for-purpose alignment, rather than simply more advanced modeling or analytical sophistication.
+
+
+Maturity levels influence resilience outcomes by determining how consistently climate risks are identified, evaluated, and integrated into planning and operational decisions. Where organizational capacity is limited, climate understanding is uneven, or data practices are informal, resilience efforts may be reactive and vulnerable to misinterpretation or misplaced confidence. As maturity increases, clearer governance, stronger internal expertise, structured planning integration, and systematic data acquisition and validation improve the credibility of risk assessments and investment strategies. Ensuring that climate information is fit for purpose and that uncertainties are explicitly acknowledged allows infrastructure and operational measures to be aligned with realistic future conditions. In practice, higher maturity translates into more anticipatory, cost-effective, and defensible resilience outcomes across the energy system.
+
+Results from the maturity matrix can serve as the foundation of a focused and achievable improvement plan. By identifying gaps that most directly influence critical operational risks or major capital decisions, practitioners can prioritize actions that strengthen governance, clarify roles and responsibilities, improve data selection and validation, and better align climate information with asset management and planning cycles. Sequencing these improvements according to risk exposure and investment timelines helps ensure resources are directed where they have the greatest impact. Assigning accountability and revisiting the assessment periodically allows organizations to track progress and steadily advance toward more consistent, resilient, and decision-relevant use of climate information.
 :::
 
-## Gaps and Recommendations
+## Understanding the maturity matrix
 :::{#id1 .callout collapse="true"} 
-### Additional Information
-lorem ipsum bla bla
+### Short description of the different categories
+**Organizational Capacity & Resources**:  Assesses whether the organization has the people, expertise, time, and budget needed to use climate information effectively. It also examines whether roles and responsibilities are clearly defined and coordinated across teams.
+
+
+**Climate Change Understanding and Readiness**: Evaluates how well practitioners understand climate variability, long-term change, and associated uncertainties. It considers whether this understanding is sufficient to inform planning and operational decisions.
+
+
+**Planning and Deployment Strategy**: Assesses how climate information is integrated into planning, asset management, and investment processes. It distinguishes between one-off analyses and systematic, decision-driven use.
+
+
+**Data acquisition and sanity check**: Examines how climate data are selected and whether their source, relevance, and basic credibility are reviewed before use. It focuses on initial screening to avoid inappropriate or misaligned datasets.
+
+
+**Quality Control & Validation**: Assesses whether climate data and analyses are technically reviewed, tested, and documented before informing decisions. It considers whether assumptions and methods are transparent and reproducible.
+
+
+**Fitness-for-Purpose & Constraints**: Evaluates whether the climate information matches the scale, timeframe, and operational context of the decision. It also considers practical constraints such as resolution, availability, and usability.
+
+
+**Understanding Data Limitations and Impact on Application**: Assesses whether uncertainties and limitations are clearly identified and communicated. It examines whether these constraints are explicitly considered in decision-making.
 :::
 
-
+<!-- 
 <details>
 <summary><strong>References (click to expand)</strong></summary>
 
@@ -46,3 +73,4 @@ lorem ipsum bla bla
 :::
 
 </details>
+-->
