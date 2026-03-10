@@ -101,6 +101,7 @@ format:
     toc-depth: 4
     code-fold: true
     smooth-scroll: true
+    email-obfuscation: javascript
     #csl: styles/nature.csl # only superscript numbers in the text
     #csl: styles/elsevier-harvard.csl # Author (year) in the text
     #csl: styles/harvard-cite-them-right-no-et-al.csl # Author (year) in the text
