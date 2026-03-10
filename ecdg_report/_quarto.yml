@@ -84,6 +84,9 @@ website:
             href: datasets/tools/Analysis_Support_Tools.ipynb
             contents:
               - datasets/tools/Point_Location_Compare.ipynb
+      - section: "Guidance"
+        contents:
+          - guidance/Climate_Data_Decision_Tree.qmd        
       - section: Workshops
         href: workshops/intro_workshops.ipynb
         contents:
