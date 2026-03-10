@@ -13,7 +13,7 @@ notebooks=(
     "./datasets/climate_projection_data/Climate_Projection_Datasets.ipynb"
     "./datasets/climate_projection_data/ESPO-G6_Dataset.ipynb"
     "./datasets/observed_data/AHCCD_Station_Data.ipynb"
-    "./datasets/observed_data/NRCanMET_Gridded_Data.ipynb"
+    "./datasets/observed_data/NRCANmet_Gridded_Data.ipynb"
     "./datasets/observed_data/Observational_Datasets.ipynb"
     "./datasets/reanalysis_data/CaSR.ipynb"
     "./datasets/reanalysis_data/ERA5-Land.ipynb"

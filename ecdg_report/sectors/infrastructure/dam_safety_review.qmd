@@ -6,6 +6,10 @@ bibliography: references_dam_safety.bib
 
 ## Summary Description
 
+
+
+
+
 - standard based on Dam Safety Guidelines - [Canadian Dam Association](https://cda.ca/technical/dam-safety) (CDA)
 - risk-informed approach: undesired events in therms of likelihood and potential consequences
 - provincial and territorial [regulations](https://cda.ca/dams-in-canada/regulation) 
@@ -69,7 +73,7 @@ Common FFA methods are univariate and stationary, meaning that climate change an
 
 [![Figure taken from @ouranos2021flood](image/FFA_ouranos2021.png)](https://www.ouranos.ca/sites/default/files/2022-07/proj-201419-energie-koenig-finalreport.pdf)
 
-Other, recent studies have looked into non-stationary extreme value distribution, such as integrating linear trends in function of time or climate variables as covariates in distribution parameters (@Islam2024, @Maria2024, @usgs_nonstationary). @usgs_nonstationary used precipitation, annual snowfall, mean annual temperature as covariates in North-central United States, where 45% of streamgages were predicted with precipitation, 14% temperature and less than 1% with snowfall as causal mechanisms (36% had no climate variables as causal mechanisms). Northern part had the biggest differences between stationary and non-stationary FFA (going up to 20%). The study used measured streamflow and climate data from a monthly water balance model which was itself fed by temperature and precipitation data from monthly [NOAA](https://www.ncei.noaa.gov/access/metadata/landing-page/bin/iso?id=gov.noaa.ncdc:C00332) [gridded observations](../../datasets/observed_data/NRCanMET_Gridded_Data.ipynb). 
+Other, recent studies have looked into non-stationary extreme value distribution, such as integrating linear trends in function of time or climate variables as covariates in distribution parameters (@Islam2024, @Maria2024, @usgs_nonstationary). @usgs_nonstationary used precipitation, annual snowfall, mean annual temperature as covariates in North-central United States, where 45% of streamgages were predicted with precipitation, 14% temperature and less than 1% with snowfall as causal mechanisms (36% had no climate variables as causal mechanisms). Northern part had the biggest differences between stationary and non-stationary FFA (going up to 20%). The study used measured streamflow and climate data from a monthly water balance model which was itself fed by temperature and precipitation data from monthly [NOAA](https://www.ncei.noaa.gov/access/metadata/landing-page/bin/iso?id=gov.noaa.ncdc:C00332) [gridded observations](../../datasets/observed_data/NRCANmet_Gridded_Data.ipynb). 
 
 [![Figure taken from @faulkner2024_modelling](https://iwa.silverchair-cdn.com/iwa/content_public/journal/hr/55/2/10.2166_nh.2024.134/2/m_hydrology-d-23-00134gf01.png?Expires=1758257415&Signature=kH371zw5RCLmDd4HBmYFZjJAjF-WPOCX9xX4QaMpdfYNdA6WFN53nhu~vbE3VXYSeUb9ZdE5kG0Ba4aSnKv5RYR-4yZra5BRSH4vWSkYq5dfyoEJGRWz8RMm4hCYA2cc1zQPHXOSmLDQIevSSFD6td~ClPuKhWKkrhAwoRaedaJaV3QQnlZPdJ3iWKJ16LqpTWZMrDn5DVs44vjxgQsuzrozZOCLSNEPAGwbJsrfUkOuiL1TN26rPL-Yw1QhCSgjExCheFnTzbfNFqRaY53HZjm69~6Oxprbaf3SFT9sbYpD~YH59ij2F~73x0Y~32d4nlbR8Mq-AymnNTz4dfyUvQ__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA)](https://iwaponline.com/hr/article/55/2/205/100010/Modelling-non-stationary-flood-frequency-in)
 
