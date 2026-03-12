@@ -4000,7 +4000,7 @@ text-align: center;
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../Introduction.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Introduction</span></a>
+ <span class="menu-text">Purpose of the Guide</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -4151,8 +4151,8 @@ text-align: center;
       <ul id="quarto-sidebar-section-6" class="collapse list-unstyled sidebar-section depth2 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../datasets/observed_data/AHCCD_Station_Data.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Adjusted and Homogenized Canadian Climate Data - AHCCD &amp; CanHomT/P</span></a>
+  <a href="../datasets/observed_data/AHCCD-CanHom_Station_Data.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Adjusted and Homogenized Canadian Climate Data - AHCCD &amp; CanHom</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -4339,7 +4339,18 @@ text-align: center;
   <li><a href="#ensemble-datasets" id="toc-ensemble-datasets" class="nav-link" data-scroll-target="#ensemble-datasets">Ensemble Datasets</a></li>
   <li><a href="#uncertainties" id="toc-uncertainties" class="nav-link" data-scroll-target="#uncertainties">Uncertainties</a></li>
   <li><a href="#the-unlikeliness-of-the-emission-scenarios-rcp8.5-and-ssp5-8.5" id="toc-the-unlikeliness-of-the-emission-scenarios-rcp8.5-and-ssp5-8.5" class="nav-link" data-scroll-target="#the-unlikeliness-of-the-emission-scenarios-rcp8.5-and-ssp5-8.5">The Unlikeliness of the emission scenarios RCP8.5 and SSP5-8.5</a></li>
-  <li><a href="#data-formats" id="toc-data-formats" class="nav-link" data-scroll-target="#data-formats">Data formats</a></li>
+  <li><a href="#data-formats" id="toc-data-formats" class="nav-link" data-scroll-target="#data-formats">Data formats</a>
+  <ul>
+  <li><a href="#netcdf-network-common-data-form" id="toc-netcdf-network-common-data-form" class="nav-link" data-scroll-target="#netcdf-network-common-data-form">netCDF (Network Common Data Form)</a></li>
+  <li><a href="#grib-gridded-binary" id="toc-grib-gridded-binary" class="nav-link" data-scroll-target="#grib-gridded-binary">GRIB (GRIdded Binary)</a></li>
+  <li><a href="#hdf5-hierarchical-data-format-version-5" id="toc-hdf5-hierarchical-data-format-version-5" class="nav-link" data-scroll-target="#hdf5-hierarchical-data-format-version-5">HDF5 (Hierarchical Data Format version 5)</a></li>
+  <li><a href="#cf-conventions-climate-and-forecast-metadata-conventions" id="toc-cf-conventions-climate-and-forecast-metadata-conventions" class="nav-link" data-scroll-target="#cf-conventions-climate-and-forecast-metadata-conventions">CF Conventions (Climate and Forecast Metadata Conventions)</a></li>
+  <li><a href="#zarr" id="toc-zarr" class="nav-link" data-scroll-target="#zarr">Zarr</a></li>
+  <li><a href="#geotiff-geographic-tagged-image-file-format" id="toc-geotiff-geographic-tagged-image-file-format" class="nav-link" data-scroll-target="#geotiff-geographic-tagged-image-file-format">GeoTIFF (Geographic Tagged Image File Format)</a></li>
+  <li><a href="#esri-shapefile" id="toc-esri-shapefile" class="nav-link" data-scroll-target="#esri-shapefile">ESRI Shapefile</a></li>
+  <li><a href="#ascii-txt-and-fixed-width-tables" id="toc-ascii-txt-and-fixed-width-tables" class="nav-link" data-scroll-target="#ascii-txt-and-fixed-width-tables">ASCII / TXT and Fixed-Width Tables</a></li>
+  <li><a href="#csv-comma-separated-values" id="toc-csv-comma-separated-values" class="nav-link" data-scroll-target="#csv-comma-separated-values">CSV (Comma-Separated Values)</a></li>
+  </ul></li>
   <li><a href="#software-tools" id="toc-software-tools" class="nav-link" data-scroll-target="#software-tools">Software tools</a></li>
   <li><a href="#a-simple-example-of-accessing-data-on-pavics" id="toc-a-simple-example-of-accessing-data-on-pavics" class="nav-link" data-scroll-target="#a-simple-example-of-accessing-data-on-pavics">A simple Example of accessing data on PAVICS</a></li>
   <li><a href="#todo-access-a-climate-simulation-ensemble" id="toc-todo-access-a-climate-simulation-ensemble" class="nav-link" data-scroll-target="#todo-access-a-climate-simulation-ensemble">ToDo: Access a climate simulation ensemble</a></li>
@@ -4453,8 +4464,250 @@ text-align: center;
 </section>
 <section id="data-formats" class="level2">
 <h2 class="anchored" data-anchor-id="data-formats">Data formats</h2>
-<p>A section about the standard netCDF format for climate data.</p>
-<p>See: https://climatedata.ca/ask-a-climate-expert-how-do-i-use-netcdf-files/</p>
+<p>Climate and weather data are stored and distributed in different file formats. These formats are adapted to commonly stored information, depending on the type of data. Below is a list of data or file formats the user of climate information will likely be confronted with.</p>
+<section id="netcdf-network-common-data-form" class="level3">
+<h3 class="anchored" data-anchor-id="netcdf-network-common-data-form">netCDF (Network Common Data Form)</h3>
+<div id="id" class="callout callout-style-simple callout-none no-icon callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">None</span>Click for details
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-1" class="callout-1-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p><strong>Created by:</strong> <a href="https://www.unidata.ucar.edu/">Unidata</a> (UCAR) in 1989<br> <strong>Purpose:</strong> Portable, self-describing storage format for multidimensional scientific data<br> <strong>Typical use:</strong> Climate model outputs (e.g., CMIP), reanalysis datasets (ERA5), observational gridded datasets<br> <strong>Distinguishing features:</strong><br></p>
+<ul>
+<li>Self-describing metadata embedded in the file</li>
+<li>Efficient storage of multidimensional arrays</li>
+<li>Platform-independent binary format</li>
+<li>Extensive support across scientific software (Python, MATLAB, R, C, Fortran)</li>
+<li>Designed for large scientific datasets</li>
+</ul>
+<p><strong>Description</strong><br> NetCDF is the dominant format used in climate science for storing multidimensional geophysical data such as temperature, precipitation, wind, or pressure fields. It was designed to solve a recurring problem in scientific computing: storing large arrays together with the metadata required to interpret them correctly. The metadata of netCDF files includes information about variables, units, coordinate systems, or dimensions directly in the file structure. This allows datasets to be self-describing and portable across different platforms and software environments. Climate model archives such as CMIP and many reanalysis products distribute data primarily in netCDF format, often following metadata conventions to ensure interoperability (see <a href="#cf-conventions-climate-and-forecast-metadata-conventions">CF-conventions</a>). Because of its simplicity, stability, and strong ecosystem support, netCDF remains the standard exchange format for climate model and gridded environmental data. Under the hood, netCDF is a specific, restriced subset of <a href="#hdf5-hierarchical-data-format-version-5">HDF5</a>. ClimateData.ca has a more detailed description of <a href="https://climatedata.ca/ask-a-climate-expert-how-do-i-use-netcdf-files/">how to use the netCDF format</a>.</p>
+</div>
+</div>
+</div>
+</section>
+<section id="grib-gridded-binary" class="level3">
+<h3 class="anchored" data-anchor-id="grib-gridded-binary">GRIB (GRIdded Binary)</h3>
+<div id="id" class="callout callout-style-simple callout-none no-icon callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">None</span>Click for details
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-2" class="callout-2-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p><strong>Created by:</strong> <a href="https://public.wmo.int/">World Meteorological Organization (WMO)</a> in 1985<br> <strong>Purpose:</strong> Efficient storage and transfer of gridded meteorological data<br> <strong>Typical use:</strong> Numerical weather prediction outputs and operational forecast data<br> <strong>Distinguishing features:</strong> <br></p>
+<ul>
+<li>Highly compressed binary encoding</li>
+<li>Optimized for fast transfer and storage</li>
+<li>Structure that allows multiple fields in one file</li>
+<li>Standardized by international meteorological agencies</li>
+<li>Designed for operational forecasting environments</li>
+</ul>
+<p><strong>Description</strong><br> GRIB is the standard format used by operational meteorological centers to distribute numerical weather prediction outputs. It was developed by the World Meteorological Organization to support efficient international exchange of forecast data. GRIB files store gridded meteorological fields such as temperature, wind, or pressure using compact binary encoding and strong compression, allowing very large forecast datasets to be transmitted quickly between forecasting centers. Unlike <a href="#netcdf-network-common-data-form">netCDF</a>, GRIB is optimized primarily for operational efficiency rather than human readability or flexible metadata structures. As a result, GRIB files require specialized libraries such as ECMWF’s ecCodes to interpret them. Most global weather models distribute forecasts in GRIB format, while many climate data archives convert GRIB outputs into netCDF for easier scientific analysis.</p>
+</div>
+</div>
+</div>
+</section>
+<section id="hdf5-hierarchical-data-format-version-5" class="level3">
+<h3 class="anchored" data-anchor-id="hdf5-hierarchical-data-format-version-5">HDF5 (Hierarchical Data Format version 5)</h3>
+<div id="id" class="callout callout-style-simple callout-none no-icon callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-3-contents" aria-controls="callout-3" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">None</span>Click for details
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-3" class="callout-3-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p><strong>Created by:</strong> <a href="https://www.ncsa.illinois.edu/">National Center for Supercomputing Applications (NCSA)</a> in 1987, maintained by the <a href="https://www.hdfgroup.org">HDF Group</a><br> <strong>Purpose:</strong> Storage of large, complex scientific datasets with hierarchical organization<br> <strong>Typical use:</strong> Satellite observations, Earth observation missions, and large scientific archives<br> <strong>Distinguishing features:</strong> <br></p>
+<ul>
+<li>Hierarchical data structure similar to a file system</li>
+<li>Supports extremely large datasets</li>
+<li>Flexible metadata system</li>
+<li>Efficient parallel I/O for high-performance computing</li>
+<li>Underlying storage layer used by several scientific formats</li>
+</ul>
+<p><strong>Description</strong><br> HDF5 is a general-purpose scientific data format designed to store large and complex datasets with a hierarchical structure. Data are organized in groups and datasets, similar to folders and files within a filesystem. This architecture allows diverse types of scientific information to be stored in a single container while maintaining relationships between variables. HDF5 is widely used in satellite and Earth observation missions, including many NASA products. It supports high-performance parallel input/output, making it suitable for extremely large datasets generated by modern instruments and simulations. Several scientific formats, including newer versions of <a href="#netcdf-network-common-data-form">netCDF</a> (netCDF-4), are built on top of the HDF5 storage layer. This makes HDF5 an important foundation technology for Earth system data infrastructure.</p>
+</div>
+</div>
+</div>
+</section>
+<section id="cf-conventions-climate-and-forecast-metadata-conventions" class="level3">
+<h3 class="anchored" data-anchor-id="cf-conventions-climate-and-forecast-metadata-conventions">CF Conventions (Climate and Forecast Metadata Conventions)</h3>
+<div id="id" class="callout callout-style-simple callout-none no-icon callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-4-contents" aria-controls="callout-4" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">None</span>Click for details
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-4" class="callout-4-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p><strong>Created by:</strong> International climate science community (NOAA, UCAR, and others) in 2003 (release of CF-1.0)<br> <strong>Purpose:</strong> Standardized metadata conventions for climate and forecast datasets<br> <strong>Typical use:</strong> Metadata framework for <a href="#netcdf-network-common-data-form">netCDF</a> climate datasets<br> <strong>Distinguishing features:</strong> <br></p>
+<ul>
+<li>Standard variable naming conventions</li>
+<li>Standardized coordinate definitions</li>
+<li>Units and metadata specifications</li>
+<li>Interoperability across climate datasets and integration into software tools</li>
+<li>Community-maintained open standard</li>
+</ul>
+<p><strong>Description</strong><br> CF Conventions are not a data format themselves but a widely adopted metadata standard used primarily with <a href="#netcdf-network-common-data-form">netCDF</a> files. They define how variables, coordinates, units, and metadata should be described so that datasets can be interpreted consistently across software tools and research communities. For example, CF specifies how latitude, longitude, time, and vertical coordinates should be encoded, as well as standard variable names such as “<em>air_temperature</em>.” This allows climate analysis software to automatically recognize and process datasets without manual interpretation. Most modern climate datasets, including CMIP and CORDEX climate model simulations and many reanalysis products follow CF conventions. By ensuring consistent metadata structure across thousands of datasets, CF conventions play a critical role in enabling interoperability and large-scale climate data analysis.</p>
+</div>
+</div>
+</div>
+</section>
+<section id="zarr" class="level3">
+<h3 class="anchored" data-anchor-id="zarr">Zarr</h3>
+<div id="id" class="callout callout-style-simple callout-none no-icon callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-5-contents" aria-controls="callout-5" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">None</span>Click for details
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-5" class="callout-5-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p><strong>Created by:</strong> <a href="https://zarr.dev/">Zarr Open-source scientific computing community</a> in 2016<br> <strong>Purpose:</strong> Cloud-native storage of large multidimensional array data<br> <strong>Typical use:</strong> Cloud-hosted climate datasets and large-scale data analysis platforms<br> <strong>Distinguishing features:</strong> <br></p>
+<ul>
+<li>Chunked array storage</li>
+<li>Cloud-optimized architecture</li>
+<li>Parallel read/write access</li>
+<li>Compatible with distributed computing systems</li>
+<li>Works well with object storage (e.g., cloud data lakes)</li>
+</ul>
+<p><strong>Description</strong><br> Zarr (<strong>Z</strong>ipped <strong>arr</strong>ay) is a storage format designed for large multidimensional arrays stored in distributed or cloud environments. Unlike traditional formats such as <a href="#netcdf-network-common-data-form">netCDF</a> or <a href="#hdf5-hierarchical-data-format-version-5">HDF5</a> that store data in a single file, Zarr stores datasets as collections of compressed chunks organized in directories or object storage systems. This structure allows efficient parallel access and partial loading of datasets without reading entire files. Zarr has become popular in cloud-based scientific computing environments such as the <a href="https://pangeo.io/">Pangeo ecosystem</a>, where massive climate datasets are accessed by distributed analysis tools. Many large climate archives are experimenting with converting netCDF collections into Zarr format to improve performance and accessibility for large-scale data analysis in cloud computing environments.</p>
+</div>
+</div>
+</div>
+</section>
+<section id="geotiff-geographic-tagged-image-file-format" class="level3">
+<h3 class="anchored" data-anchor-id="geotiff-geographic-tagged-image-file-format">GeoTIFF (Geographic Tagged Image File Format)</h3>
+<div id="id" class="callout callout-style-simple callout-none no-icon callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-6-contents" aria-controls="callout-6" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">None</span>Click for details
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-6" class="callout-6-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p><strong>Created by:</strong> <a href="https://www.jpl.nasa.gov/">NASA Jet Propulsion Laboratory</a> in the early 1990s, since 2019 published as the <a href="https://www.ogc.org/standards/geotiff/">Open Geospatial Consortium GeoTIFF standard</a><br> <strong>Purpose:</strong> Storage of georeferenced raster imagery<br> <strong>Typical use:</strong> Satellite imagery, elevation data, climate indicators, GIS analysis<br> <strong>Distinguishing features:</strong> <br></p>
+<ul>
+<li>Embeds geospatial coordinate information</li>
+<li>Based on the TIFF image format</li>
+<li>Supported by nearly all GIS software</li>
+<li>Efficient storage of raster grids</li>
+<li>Supports compression and metadata tags</li>
+</ul>
+<p><strong>Description</strong><br> GeoTIFF is a widely used raster format for storing geospatial data such as satellite imagery, elevation models, and gridded environmental variables. It extends the TIFF image format by embedding geographic metadata directly in the file, including coordinate reference systems, spatial resolution, and geographic boundaries. This allows GIS software to automatically place the raster data correctly on maps. While GeoTIFF is commonly used in geospatial analysis and mapping applications, it is less commonly used for large multidimensional climate datasets because it is primarily designed for two-dimensional raster imagery rather than multidimensional scientific arrays. Nevertheless, it is frequently used to distribute derived climate indicators or processed geospatial datasets derived from climate models or observations.</p>
+</div>
+</div>
+</div>
+</section>
+<section id="esri-shapefile" class="level3">
+<h3 class="anchored" data-anchor-id="esri-shapefile">ESRI Shapefile</h3>
+<div id="id" class="callout callout-style-simple callout-none no-icon callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-7-contents" aria-controls="callout-7" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">None</span>Click for details
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-7" class="callout-7-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p><strong>Created by:</strong> <a href="https://www.esri.com/">Esri</a> (Environmental Systems Research Institute) in the early 1990s<br> <strong>Purpose:</strong> Storage of vector geographic features<br> <strong>Typical use:</strong> Administrative boundaries, infrastructure layers, geographic context for climate analysis<br> <strong>Distinguishing features:</strong> <br></p>
+<ul>
+<li>Stores vector geometries (points, lines, polygons)</li>
+<li>Multi-file structure (at least .shp, .shx, .dbf)</li>
+<li>Widely supported by GIS software</li>
+<li>Stores attribute tables linked to geometry</li>
+<li>Lightweight format for spatial vector data</li>
+</ul>
+<p><strong>Description</strong><br> The ESRI Shapefile format is one of the most widely used formats for storing vector geographic data. It represents spatial features such as points, lines, and polygons together with attribute information describing those features. Although shapefiles are not used to store climate or weather data themselves, they play an important supporting role in geospatial analysis. For example, shapefiles are often used to define administrative boundaries, watershed regions, power grid infrastructure, or other categories when analyzing climate datasets. Climate variables stored in formats like <a href="#netcdf-network-common-data-form">netCDF</a> or GeoTIFF are frequently combined with shapefile boundaries to compute regional statistics or visualize spatial impacts. Despite its age and limitations, the format remains widely used because of its simplicity and universal GIS support. ESRI Shapefile is a proprietary format, modern alternative and open formats are the <a href="https://www.ogc.org/standards/geopackage/">GeoPackage</a> or the <a href="https://www.ogc.org/standards/eo-geojson/">GeoJSON</a> format.</p>
+</div>
+</div>
+</div>
+</section>
+<section id="ascii-txt-and-fixed-width-tables" class="level3">
+<h3 class="anchored" data-anchor-id="ascii-txt-and-fixed-width-tables">ASCII / TXT and Fixed-Width Tables</h3>
+<div id="id" class="callout callout-style-simple callout-none no-icon callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-8-contents" aria-controls="callout-8" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">None</span>Click for details
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-8" class="callout-8-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p><strong>Created by:</strong> <a href="https://www.ansi.org/">American National Standards Institute (ANSI)</a> defined the ASCII character encoding standard in 1963<br> <strong>Purpose:</strong> Simple human-readable storage of numeric and text data<br> <strong>Typical use:</strong> Historical station records and legacy climate datasets<br> <strong>Distinguishing features:</strong> <br></p>
+<ul>
+<li>Plain text format readable by any software</li>
+<li>Fixed column widths for structured data</li>
+<li>Extremely simple and portable</li>
+<li>Easy manual inspection and editing</li>
+<li>Often accompanied by metadata documentation files</li>
+</ul>
+<p><strong>Description</strong><br> Plain ASCII text files are among the oldest formats used to store meteorological observations and climate records. Many historical datasets, including early weather station archives, were distributed as fixed-width tables in which each column corresponds to a variable or time field. The simplicity of text formats makes them highly portable and easy to inspect without specialized software. However, this simplicity also creates limitations: metadata, coordinate systems, and variable definitions are typically stored separately rather than embedded in the data file. As climate datasets grew larger and more complex, binary scientific formats such as <a href="#netcdf-network-common-data-form">netCDF</a> replaced text files for most applications. Nevertheless, ASCII and fixed-width formats remain common in historical climate archives and small observational datasets.</p>
+</div>
+</div>
+</div>
+</section>
+<section id="csv-comma-separated-values" class="level3">
+<h3 class="anchored" data-anchor-id="csv-comma-separated-values">CSV (Comma-Separated Values)</h3>
+<div id="id" class="callout callout-style-simple callout-none no-icon callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-9-contents" aria-controls="callout-9" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">None</span>Click for details
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-9" class="callout-9-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p><strong>Created by:</strong> Storing comma separated values emerged as an early spreadsheet and data sharing format in the early 1970s<br> <strong>Purpose:</strong> Simple exchange format for tabular data<br> <strong>Typical use:</strong> Weather station observations, climate indicators, time series datasets<br> <strong>Distinguishing features:</strong> <br></p>
+<ul>
+<li>Rows represent records and columns represent variables</li>
+<li>Simple comma delimiter-based structure</li>
+<li>Easily imported into spreadsheets, databases, and programming environments</li>
+<li>Human readable</li>
+<li>Extremely portable and widely supported</li>
+</ul>
+<p><strong>Description</strong><br> CSV files are one of the simplest and most widely used formats for storing tabular climate and weather data. Each row typically represents an observation, such as a daily measurement from a weather station, while columns represent variables like temperature, precipitation, or wind speed. Because CSV files are plain text and rely only on simple delimiters, they can be opened and processed by nearly any software environment. This makes them ideal for distributing small observational datasets and climate indicators. However, CSV files lack built-in metadata structures, which means that units, coordinate information, and variable definitions must be documented separately. For large multidimensional datasets such as climate model output, formats like <a href="#netcdf-network-common-data-form">netCDF</a> are far more suitable.</p>
+</div>
+</div>
+</div>
+</section>
 </section>
 <section id="software-tools" class="level2">
 <h2 class="anchored" data-anchor-id="software-tools">Software tools</h2>
