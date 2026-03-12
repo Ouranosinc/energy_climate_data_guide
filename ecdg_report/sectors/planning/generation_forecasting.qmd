@@ -49,8 +49,9 @@ As shown in Figure 1, the prediction of electricity generation varies depending 
 In general, downscaled and bias-corrected climate variables (e.g., precipitation and temperatures) from different scenarios are forced into hydrologic models to investigate the hydrologic regime and to generate future flow conditions. These flows are then used as input to hydropower potential estimation models. The distribution of the estimated electricity is compared with the historical observation to analyze the impact of climate change on generation. In literature, a quite good range of hydropower potential station models or methods, including empirical formula (@Parkinson2015), reservoir optimization algorithm-Sampling Stochastic Dynamic Programming (SSDP) (@Haguma2014), WEAP (@Boehlert2016) and MODSIM (@Kim2022), have been used. One representative example of an empirical method is represented by equation 1.
 
 $$
-E=ρghQ
+E = \rho g h Q
 $$ {#eq-1}
+
 
 In equation 1, $E$ is the hydropower potential with projected streamflow $Q$ at a hydraulic head $h$, $p$ and $g$ are the density of water and gravitational acceleration.
 
@@ -63,14 +64,15 @@ Unlike the ROA, MODSIM, a complex surface water network system, can also be used
 The impact of climate change on future wind energy generation is generally estimated based on the operational wind speed at hub height. Under different emission scenarios (e.g., RCP8.5), future projections for wind speed at 10 m height from surface level are obtained from climate models (e.g., GCMs and RCMs) (@Yao2012, @Zhang2022, @Li2023). For wind turbine design, cut-in and cut-out wind speeds at hub height play a crucial role, and they typically range from 4 m/s to 25 m/s. Based on the design criteria, hub height varies from 50 m to 120 m, however, the average hub height in Canada is 83 m (@CWTD2022). The wind speed at hub height is estimated using the following power-law relation (Equation 2) (@Yao2012, @Zhang2022, @Plaga2023, @Li2023).
 
 $$
-frac{V_H}{V_{10}} =(\\frac{Z_H}{Z_{10}})^α
+\frac{V_H}{V_{10}} = \left( \frac{Z_H}{Z_{10}} \right)^{\alpha}
 $$ {#eq-2}
 
 In equation 2, $V_H$ is the wind speed at hub height $H$ ($Z_H$), and $V_10$ is the wind speed at 10 m height ($Z_10$). The exponent $α$ varies with the topographic terrain conditions, codes, and standards. For a natural, stable terrain profile, the $α$ value is 0.14 (@Yao2012, @Plaga2023, @Li2023). The wind speed at hub height is then converted to wind energy by multiplying it by the wind energy density (@Li2023).
 
 $$
-W_E = \\frac{1}{2} \\rho A V_H^3 C_p
+W_E = \frac{1}{2} \rho A V_H^3 C_p
 $$ {#eq-3}
+
 
 In equation 3, $W_E$ is the wind energy, ρ is the air density at hub height that varies with the temperature and wind profile, A is the cross-sectional area, and $C_p$ is the power coefficient. For climate change impact analysis, $W_E$ is simulated at each grid point or station, and then trend analysis is conducted. The t-test or the Mann-Kendell approach can be used for trend detection.  In their study, Li (@Li2023) utilized a t-test using a linear regression for trend detection. Another study (@Yao2012) used the Weibull distribution for comparing wind production in the future period under different scenarios with reference to the period.
 
