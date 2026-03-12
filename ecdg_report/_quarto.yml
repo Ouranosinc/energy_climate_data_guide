@@ -60,7 +60,7 @@ website:
           - section: "Observational Data"
             href: datasets/observed_data/Observational_Datasets.ipynb
             contents:
-              - datasets/observed_data/AHCCD_Station_Data.ipynb
+              - datasets/observed_data/AHCCD-CanHom_Station_Data.ipynb
               - datasets/observed_data/NRCANmet_Gridded_Data.ipynb
           - section: "Reanalysis Data"
             href: datasets/reanalysis_data/Reanalysis_Datasets.ipynb
@@ -132,7 +132,7 @@ bibliography:
   - sectors/planning/resource_adequacy_planning.bib
   - sectors/planning/capacity_expansion_modelling.bib
   - sectors/reporting/reporting_references.bib
-  
+  - sectors/infrastructure/references_dam_safety.bib
 
 
 
