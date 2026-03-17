@@ -2405,7 +2405,7 @@
     "href": "guidance/Climate_Data_Decision_Tree.html",
     "title": "Climate Data Decision Tree",
     "section": "",
-    "text": "This page provides guidance for selecting appropriate climate datasets depending on the decision context and analysis requirements.",
+    "text": "This page provides guidance for selecting the appropriate type of climate data for a given application.",
     "crumbs": [
       "Guidance",
       "Climate Data Decision Tree"
@@ -2416,7 +2416,29 @@
     "href": "guidance/Climate_Data_Decision_Tree.html#overview",
     "title": "Climate Data Decision Tree",
     "section": "",
-    "text": "This page provides guidance for selecting appropriate climate datasets depending on the decision context and analysis requirements.",
+    "text": "This page provides guidance for selecting the appropriate type of climate data for a given application.",
+    "crumbs": [
+      "Guidance",
+      "Climate Data Decision Tree"
+    ]
+  },
+  {
+    "objectID": "guidance/Climate_Data_Decision_Tree.html#summary",
+    "href": "guidance/Climate_Data_Decision_Tree.html#summary",
+    "title": "Climate Data Decision Tree",
+    "section": "Summary",
+    "text": "Summary\nStation observations (in situ): Best for local truth at point locations (e.g., a substation, a met mast, a river gauge) and for direct validation of any gridded dataset.\nReanalysis: Best for spatially complete, temporally consistent, multivariate historical fields.\nGlobal climate model (GCM) projections: Best for characterizing large‑scale climate change signals. Not designed to reproduce the exact timing of historical weather.\nRegional climate model (RCM) projections: Best when regional processes/topography/coasts matter (extreme precipitation, wind regimes, snow processes) and when decision scales require finer spatial detail than a GCM. Not designed to reproduce the exact timing of historical weather.\nBias‑adjusted climate projections (bias-adjusted GCM/RCM): Best when an application is bias‑sensitive and one needs locally plausible distributions for impact models. Not designed to reproduce the exact timing of historical weather.",
+    "crumbs": [
+      "Guidance",
+      "Climate Data Decision Tree"
+    ]
+  },
+  {
+    "objectID": "guidance/Climate_Data_Decision_Tree.html#rule-of-thumb-for-choosing-data",
+    "href": "guidance/Climate_Data_Decision_Tree.html#rule-of-thumb-for-choosing-data",
+    "title": "Climate Data Decision Tree",
+    "section": "“Rule of thumb” for choosing data",
+    "text": "“Rule of thumb” for choosing data\n\nIf you need observed historical frequency/intensity at a site (e.g., design‑value validation), start with station data. If trends/extremes are important, make sure to use homogenized station data.\nIf you need spatially complete, multivariate, hourly‑to‑daily historical forcing for system models (e.g. wind/solar generation, demand models spanning a service territory), begin with reanalysis, then validate and apply corrections if necessary.\nIf you need future climate change information, use RCMs if the decision depends on regional detail (e.g. complex terrain, coastal winds, convective precipitation, snow), otherwise use GCMs.\nUse bias-adjusted datasets when the impact model is demonstrably bias‑sensitive (e.g., degree‑day thresholds, heat‑stress exceedances, precipitation intensity‑duration metrics).",
     "crumbs": [
       "Guidance",
       "Climate Data Decision Tree"
@@ -2427,18 +2449,18 @@
     "href": "guidance/Climate_Data_Decision_Tree.html#decision-tree",
     "title": "Climate Data Decision Tree",
     "section": "Decision Tree",
-    "text": "Decision Tree\nThe figure below provides a high-level guide for selecting climate datasets based on whether the application is focused on historical conditions or future climate change, the need for spatial completeness, physical consistency, local detail, and bias sensitivity.\n\n\n\n\n\n%%{init: {'themeVariables': { 'fontSize': '40px'}, 'flowchart': { 'nodeSpacing': 90, 'rankSpacing': 50, 'padding': 30 }} }%%\nflowchart LR\n\n    A([Define decision context]) --&gt; B{Need future climate change?}\n\n    %% Historical / baseline branch\n    B -- No --&gt; C{Need spatially complete gridded fields?}\n    C -- No --&gt; D[Station observational data]\n    C -- Yes --&gt; E{Need multivariate physical consistency?}\n  \n    E -- Yes --&gt; F[Reanalysis data]\n    E -- No --&gt; T{Need complex variables?}\n\n    T -- Yes --&gt; F[Reanalysis data]\n    T -- No --&gt; U{In a region with little or no observations?}\n\n    U -- Yes --&gt; F[Reanalysis data]\n    U -- No --&gt; V[Spatially interpolated observations]\n\n    %% Future / planning branch\n    B -- Yes --&gt; K{Is the application bias- or threshold-sensitive?}\n\n    K -- No --&gt; H{Is regional detail important?}\n    K -- Yes --&gt; M{Does the application rely on more than one variable?}\n\n    H -- No --&gt; I[GCM projections ensemble]\n    H -- Yes --&gt; J[RCM projections ensemble]\n\n    M -- No --&gt; N[Bias-adjusted projections]\n    M -- Yes --&gt; O{Is the physical consistency between the variables important?}\n\n    O -- No --&gt; N[Bias-adjusted projections]\n    O -- Yes --&gt; S[Multivariate bias-adjusted projections]\n\n    %% Reanalysis bias check\n    %% F --&gt; P{Bias too large for decision metric?}\n    %% P -- No --&gt; Q[Proceed with reanalysis]\n    %% P -- Yes --&gt; R[Apply targeted bias correction]\n\n    %% Styling\n    classDef start fill:#f5f5f5,stroke:#333,stroke-width:1.5px;\n    classDef obs fill:#dceeff,stroke:#4a78a8,stroke-width:1px;\n    classDef rean fill:#e3f7df,stroke:#5a8f5a,stroke-width:1px;\n    classDef proj fill:#ffe9cc,stroke:#c48a3a,stroke-width:1px;\n    classDef adjust fill:#f3e5ff,stroke:#8a63b8,stroke-width:1px;\n    classDef decision fill:#ffffff,stroke:#555,stroke-width:1.5px;\n\n    class A start;\n    class B,C,E,H,K,M,O,U,T decision;\n    class D,V obs;\n    class F rean;\n    class I,J proj;\n    class N,S adjust;",
+    "text": "Decision Tree\nThe figure below provides a high-level guide for selecting climate datasets based on whether the application is focused on historical conditions or future climate change, the need for spatial completeness, physical consistency, local detail, and bias sensitivity.\n\n\n\n\n\n%%{init: {'themeVariables': { 'fontSize': '30px'}, 'flowchart': { 'nodeSpacing': 50, 'rankSpacing': 50, 'padding': 30, 'curve': 'basis', 'htmlLabels': true, 'useMaxWidth': true }} }%%\nflowchart TD\n\n    A([Define decision context]) --&gt; B{Need future climate change?}\n\n    %% Historical / baseline branch\n    B -- No --&gt; C{Need spatially complete gridded fields?}\n    C -- No --&gt; D[Station observational data]\n    C -- Yes --&gt; E{Need multivariate physical consistency?}\n  \n    E -- Yes --&gt; F[Reanalysis data]\n    E -- No --&gt; T{Need complex variables?}\n\n    T -- Yes --&gt; F[Reanalysis data]\n    T -- No --&gt; U{In a region with a dense observational network?}\n\n    U -- No --&gt; F[Reanalysis data]\n    U -- Yes --&gt; V[Spatially interpolated observations]\n\n    %% Future / planning branch\n    B -- Yes --&gt; K{Is the application bias- or threshold-sensitive?}\n\n    K -- No --&gt; H{Is regional detail important?}\n    K -- Yes --&gt; M{Does the application rely on more than one variable?}\n\n    H -- No --&gt; I[GCM projections ensemble]\n    H -- Yes --&gt; J[RCM projections ensemble]\n\n    M -- No --&gt; N[Bias-adjusted projections]\n    M -- Yes --&gt; O{Is the physical consistency between the variables important?}\n\n    O -- No --&gt; N[Bias-adjusted projections]\n    O -- Yes --&gt; S[Multivariate bias-adjusted projections]\n\n    %% Reanalysis bias check\n    %% F --&gt; P{Bias too large for decision metric?}\n    %% P -- No --&gt; Q[Proceed with reanalysis]\n    %% P -- Yes --&gt; R[Apply targeted bias correction]\n\n    %% Styling\n    classDef start fill:#f5f5f5,stroke:#333,stroke-width:1.5px;\n    classDef obs fill:#dceeff,stroke:#4a78a8,stroke-width:1px;\n    classDef rean fill:#e3f7df,stroke:#5a8f5a,stroke-width:1px;\n    classDef proj fill:#ffe9cc,stroke:#c48a3a,stroke-width:1px;\n    classDef adjust fill:#f3e5ff,stroke:#8a63b8,stroke-width:1px;\n    classDef decision fill:#ffffff,stroke:#555,stroke-width:1.5px;\n\n    class A start;\n    class B,C,E,H,K,M,O,U,T decision;\n    class D,V obs;\n    class F rean;\n    class I,J proj;\n    class N,S adjust;",
     "crumbs": [
       "Guidance",
       "Climate Data Decision Tree"
     ]
   },
   {
-    "objectID": "guidance/Climate_Data_Decision_Tree.html#notes",
-    "href": "guidance/Climate_Data_Decision_Tree.html#notes",
+    "objectID": "guidance/Climate_Data_Decision_Tree.html#decision-rules",
+    "href": "guidance/Climate_Data_Decision_Tree.html#decision-rules",
     "title": "Climate Data Decision Tree",
-    "section": "Notes",
-    "text": "Notes\n\nStation observational data: best for site-scale historical analysis and local truth.\nReanalysis data: appropriate where spatially complete and physically consistent fields are needed and to palliate the absence of observational data.\nGCM projections: appropriate for large-scale future climate change assessment.\nRCM projections: appropriate where regional or local detail is decision-relevant.\nBias-adjusted projections: appropriate for applications or impact models that are sensitive to systematic biases or that rely on threholds.",
+    "section": "Decision rules",
+    "text": "Decision rules\nThe decision tree is based on the following rules:\n\nRule set 1: historical vs future\n\nIf you need historical truth at a point (calibration/validation, observed exceedances), select station data (ideally homogenized for trends/extremes).\nIf you need historical gridded data across a large area or territory with many variables, select reanalysis data, then validate and, if necessary, locally correct the specific variables that drive your impact metrics.\nIf you need to take into account the future climate, you must use GCM or RCM projections.\n\n\n\nRule set 2: scale and “added value” of downscaling\n\nIf decisions are driven by large-scale averages, select GCM projections; downscaling may not add value and may in fact increase uncertainty.\nIf decisions are driven by regional detail (complex topography/coasts, basin hydrology, convective precipitation extremes), consider RCM projections.\n\n\n\nRule set 3: bias tolerance and physical consistency\n\nIf you are using an impact model that is threshold/tail sensitive (e.g., cooling-degree exceedances, turbine cut-out events, flood peak triggers), select bias-adjusted climate projections.\nIf your application depends on multivariate dependence (e.g., coincident temperature + humidity for demand; wind + radiation for renewables; compound hazards), avoid univariate-only bias correction that breaks dependence; consider multivariate methods and explicitly check joint behaviour.\nIf physical consistency is paramount (e.g., modelling processes rather than just distributions), prioritise reanalysis, RCM or GCM raw physics.",
     "crumbs": [
       "Guidance",
       "Climate Data Decision Tree"

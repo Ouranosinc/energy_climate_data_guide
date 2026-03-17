@@ -7188,8 +7188,15 @@ text-align: center;
    
   <ul>
   <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">Overview</a></li>
+  <li><a href="#summary" id="toc-summary" class="nav-link" data-scroll-target="#summary">Summary</a></li>
+  <li><a href="#rule-of-thumb-for-choosing-data" id="toc-rule-of-thumb-for-choosing-data" class="nav-link" data-scroll-target="#rule-of-thumb-for-choosing-data">“Rule of thumb” for choosing data</a></li>
   <li><a href="#decision-tree" id="toc-decision-tree" class="nav-link" data-scroll-target="#decision-tree">Decision Tree</a></li>
-  <li><a href="#notes" id="toc-notes" class="nav-link" data-scroll-target="#notes">Notes</a></li>
+  <li><a href="#decision-rules" id="toc-decision-rules" class="nav-link" data-scroll-target="#decision-rules">Decision rules</a>
+  <ul>
+  <li><a href="#rule-set-1-historical-vs-future" id="toc-rule-set-1-historical-vs-future" class="nav-link" data-scroll-target="#rule-set-1-historical-vs-future">Rule set 1: historical vs future</a></li>
+  <li><a href="#rule-set-2-scale-and-added-value-of-downscaling" id="toc-rule-set-2-scale-and-added-value-of-downscaling" class="nav-link" data-scroll-target="#rule-set-2-scale-and-added-value-of-downscaling">Rule set 2: scale and “added value” of downscaling</a></li>
+  <li><a href="#rule-set-3-bias-tolerance-and-physical-consistency" id="toc-rule-set-3-bias-tolerance-and-physical-consistency" class="nav-link" data-scroll-target="#rule-set-3-bias-tolerance-and-physical-consistency">Rule set 3: bias tolerance and physical consistency</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -7217,7 +7224,24 @@ text-align: center;
 
 <section id="overview" class="level2">
 <h2 class="anchored" data-anchor-id="overview">Overview</h2>
-<p>This page provides guidance for selecting appropriate climate datasets depending on the decision context and analysis requirements.</p>
+<p>This page provides guidance for selecting the appropriate type of climate data for a given application.</p>
+</section>
+<section id="summary" class="level2">
+<h2 class="anchored" data-anchor-id="summary">Summary</h2>
+<p><strong>Station observations</strong> (in situ): Best for local truth at point locations (e.g., a substation, a met mast, a river gauge) and for direct validation of any gridded dataset.</p>
+<p><strong>Reanalysis</strong>: Best for spatially complete, temporally consistent, multivariate historical fields.</p>
+<p><strong>Global climate model (GCM) projections</strong>: Best for characterizing large‑scale climate change signals. Not designed to reproduce the exact timing of historical weather.</p>
+<p><strong>Regional climate model (RCM) projections</strong>: Best when regional processes/topography/coasts matter (extreme precipitation, wind regimes, snow processes) and when decision scales require finer spatial detail than a GCM. Not designed to reproduce the exact timing of historical weather.</p>
+<p><strong>Bias‑adjusted climate projections (bias-adjusted GCM/RCM)</strong>: Best when an application is bias‑sensitive and one needs locally plausible distributions for impact models. Not designed to reproduce the exact timing of historical weather.</p>
+</section>
+<section id="rule-of-thumb-for-choosing-data" class="level2">
+<h2 class="anchored" data-anchor-id="rule-of-thumb-for-choosing-data">“Rule of thumb” for choosing data</h2>
+<ul>
+<li><p>If you need observed historical frequency/intensity at a site (e.g., design‑value validation), start with station data. If trends/extremes are important, make sure to use homogenized station data.</p></li>
+<li><p>If you need spatially complete, multivariate, hourly‑to‑daily historical forcing for system models (e.g. wind/solar generation, demand models spanning a service territory), begin with reanalysis, then validate and apply corrections if necessary.</p></li>
+<li><p>If you need future climate change information, use RCMs if the decision depends on regional detail (e.g. complex terrain, coastal winds, convective precipitation, snow), otherwise use GCMs.</p></li>
+<li><p>Use bias-adjusted datasets when the impact model is demonstrably bias‑sensitive (e.g., degree‑day thresholds, heat‑stress exceedances, precipitation intensity‑duration metrics).</p></li>
+</ul>
 </section>
 <section id="decision-tree" class="level2">
 <h2 class="anchored" data-anchor-id="decision-tree">Decision Tree</h2>
@@ -7227,8 +7251,8 @@ text-align: center;
 <div>
 <p></p><figure class="figure"><p></p>
 <div>
-<pre class="mermaid mermaid-js">%%{init: {&#39;themeVariables&#39;: { &#39;fontSize&#39;: &#39;40px&#39;}, &#39;flowchart&#39;: { &#39;nodeSpacing&#39;: 90, &#39;rankSpacing&#39;: 50, &#39;padding&#39;: 30 }} }%%
-flowchart LR
+<pre class="mermaid mermaid-js">%%{init: {&#39;themeVariables&#39;: { &#39;fontSize&#39;: &#39;30px&#39;}, &#39;flowchart&#39;: { &#39;nodeSpacing&#39;: 50, &#39;rankSpacing&#39;: 50, &#39;padding&#39;: 30, &#39;curve&#39;: &#39;basis&#39;, &#39;htmlLabels&#39;: true, &#39;useMaxWidth&#39;: true }} }%%
+flowchart TD
 
     A([Define decision context]) --&gt; B{Need future climate change?}
 
@@ -7241,10 +7265,10 @@ flowchart LR
     E -- No --&gt; T{Need complex variables?}
 
     T -- Yes --&gt; F[Reanalysis data]
-    T -- No --&gt; U{In a region with little or no observations?}
+    T -- No --&gt; U{In a region with a dense observational network?}
 
-    U -- Yes --&gt; F[Reanalysis data]
-    U -- No --&gt; V[Spatially interpolated observations]
+    U -- No --&gt; F[Reanalysis data]
+    U -- Yes --&gt; V[Spatially interpolated observations]
 
     %% Future / planning branch
     B -- Yes --&gt; K{Is the application bias- or threshold-sensitive?}
@@ -7287,17 +7311,41 @@ flowchart LR
 </div>
 </div>
 </section>
-<section id="notes" class="level2">
-<h2 class="anchored" data-anchor-id="notes">Notes</h2>
+<section id="decision-rules" class="level2">
+<h2 class="anchored" data-anchor-id="decision-rules">Decision rules</h2>
+<p>The decision tree is based on the following rules:</p>
+<section id="rule-set-1-historical-vs-future" class="level3">
+<h3 class="anchored" data-anchor-id="rule-set-1-historical-vs-future">Rule set 1: historical vs future</h3>
 <ul>
-<li><strong>Station observational data</strong>: best for site-scale historical analysis and local truth.</li>
-<li><strong>Reanalysis data</strong>: appropriate where spatially complete and physically consistent fields are needed and to palliate the absence of observational data.</li>
-<li><strong>GCM projections</strong>: appropriate for large-scale future climate change assessment.</li>
-<li><strong>RCM projections</strong>: appropriate where regional or local detail is decision-relevant.</li>
-<li><strong>Bias-adjusted projections</strong>: appropriate for applications or impact models that are sensitive to systematic biases or that rely on threholds.</li>
+<li>If you need historical truth at a point (calibration/validation, observed exceedances), select station data (ideally homogenized for trends/extremes).</li>
+<li>If you need historical gridded data across a large area or territory with many variables, select reanalysis data, then validate and, if necessary, locally correct the specific variables that drive your impact metrics.</li>
+<li>If you need to take into account the future climate, you must use GCM or RCM projections.</li>
 </ul>
+</section>
+<section id="rule-set-2-scale-and-added-value-of-downscaling" class="level3">
+<h3 class="anchored" data-anchor-id="rule-set-2-scale-and-added-value-of-downscaling">Rule set 2: scale and “added value” of downscaling</h3>
+<ul>
+<li>If decisions are driven by large-scale averages, select GCM projections; downscaling may not add value and may in fact increase uncertainty.</li>
+<li>If decisions are driven by regional detail (complex topography/coasts, basin hydrology, convective precipitation extremes), consider RCM projections.</li>
+</ul>
+</section>
+<section id="rule-set-3-bias-tolerance-and-physical-consistency" class="level3">
+<h3 class="anchored" data-anchor-id="rule-set-3-bias-tolerance-and-physical-consistency">Rule set 3: bias tolerance and physical consistency</h3>
+<ul>
+<li>If you are using an impact model that is threshold/tail sensitive (e.g., cooling-degree exceedances, turbine cut-out events, flood peak triggers), select bias-adjusted climate projections.</li>
+<li>If your application depends on multivariate dependence (e.g., coincident temperature + humidity for demand; wind + radiation for renewables; compound hazards), avoid univariate-only bias correction that breaks dependence; consider multivariate methods and explicitly check joint behaviour.</li>
+<li>If physical consistency is paramount (e.g., modelling processes rather than just distributions), prioritise reanalysis, RCM or GCM raw physics.</li>
+</ul>
+<!-- ## Notes
+- **Station observational data**: best for site-scale historical analysis and local truth.
+- **Reanalysis data**: appropriate where spatially complete and physically consistent fields are needed and to palliate the absence of observational data.
+- **GCM projections**: appropriate for large-scale future climate change assessment.
+- **RCM projections**: appropriate where regional or local detail is decision-relevant.
+- **Bias-adjusted projections**: appropriate for applications or impact models that are sensitive to systematic biases or that rely on threholds.
+-->
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
