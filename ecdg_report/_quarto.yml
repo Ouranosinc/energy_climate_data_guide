@@ -64,7 +64,7 @@ website:
           - section: "Observational Data"
             href: datasets/observed_data/Observational_Datasets.ipynb
             contents:
-              - datasets/observed_data/AHCCD_Station_Data.ipynb
+              - datasets/observed_data/AHCCD-CanHom_Station_Data.ipynb
               - datasets/observed_data/NRCANmet_Gridded_Data.ipynb
           - section: "Reanalysis Data"
             href: datasets/reanalysis_data/Reanalysis_Datasets.ipynb
@@ -90,7 +90,8 @@ website:
               - datasets/tools/Point_Location_Compare.ipynb
       - section: "Guidance"
         contents:
-          - guidance/Climate_Data_Decision_Tree.qmd        
+          - guidance/Climate_Data_Decision_Tree.qmd
+          - guidance/gaps.qmd       
       - section: Workshops
         href: workshops/intro_workshops.ipynb
         contents:
