@@ -30,19 +30,19 @@ website:
         contents:
           - sectors/Sectors_Template.qmd
           - section: "Electricity System Planning"
-            href: sectors/planning/grid_planning.ipynb
+            # href: sectors/planning/grid_planning.ipynb # File to be removed!
             contents:
               - sectors/planning/demand.qmd
               - sectors/planning/generation_forecasting.qmd
               - sectors/planning/capacity_expansion_modelling.qmd
               - sectors/planning/resource_adequacy_planning.qmd
           - section: "Operations Planning"
-            href: sectors/operations/operations_planning.ipynb
+            # href: sectors/operations/operations_planning.ipynb # File to be removed!
             contents:
               - sectors/operations/outage_scheduling.qmd
               - sectors/operations/vegetation_management.qmd
           - section: "Infrastructure Planning and Asset Management"
-            href: sectors/infrastructure/infrastructure_planning.ipynb
+            # href: sectors/infrastructure/infrastructure_planning.ipynb # File to be removed!
             contents:
               - sectors/infrastructure/dam_safety_review.qmd
               - sectors/infrastructure/infrastructure_condition_assessment_and_investment_prioritization.ipynb
@@ -56,11 +56,15 @@ website:
         href: datasets/Climate_Datasets_Overview.ipynb
         contents:
           - datasets/Dataset_Template.ipynb
-          - datasets/Climate_Data_Fundamentals.ipynb
+          - section: "Climate Data Fundamentals"
+            href: datasets/climate_data_fundamentals/Climate_Data_Fundamentals.ipynb
+            contents:
+              - datasets/climate_data_fundamentals/Deprecated_Climate_Data_Fundamentals.ipynb
+              - datasets/climate_data_fundamentals/Data_Formats.ipynb
           - section: "Observational Data"
             href: datasets/observed_data/Observational_Datasets.ipynb
             contents:
-              - datasets/observed_data/AHCCD_Station_Data.ipynb
+              - datasets/observed_data/AHCCD-CanHom_Station_Data.ipynb
               - datasets/observed_data/NRCANmet_Gridded_Data.ipynb
           - section: "Reanalysis Data"
             href: datasets/reanalysis_data/Reanalysis_Datasets.ipynb
@@ -86,7 +90,8 @@ website:
               - datasets/tools/Point_Location_Compare.ipynb
       - section: "Guidance"
         contents:
-          - guidance/Climate_Data_Decision_Tree.qmd        
+          - guidance/Climate_Data_Decision_Tree.qmd
+          - guidance/gaps.qmd       
       - section: Workshops
         href: workshops/intro_workshops.ipynb
         contents:
