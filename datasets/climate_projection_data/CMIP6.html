@@ -20,41 +20,6 @@ width: 0.8em;
 margin: 0 0.8em 0.2em -1em;  vertical-align: middle;
 }
 
-html { -webkit-text-size-adjust: 100%; }
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-{ counter-reset: source-line 0; }
-pre.numberSource code > span
-{ position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-{ content: counter(source-line);
-position: relative; left: -1em; text-align: right; vertical-align: baseline;
-border: none; display: inline-block;
--webkit-touch-callout: none; -webkit-user-select: none;
--khtml-user-select: none; -moz-user-select: none;
--ms-user-select: none; user-select: none;
-padding: 0 4px; width: 4em;
-}
-pre.numberSource { margin-left: 3em; padding-left: 4px; }
-div.sourceCode
-{ }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-}
-
 div.csl-bib-body { }
 div.csl-entry {
 clear: both;
@@ -3987,8 +3952,7 @@ opacity: 1;
 }
 .caption {
 text-align: center;
-}
-</style>
+}</style>
 </head>
 
 <body class="nav-sidebar docked quarto-light">
@@ -4282,7 +4246,7 @@ text-align: center;
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../datasets/Climate_Information_Ressources.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Climate Information Resources</span></a>
+ <span class="menu-text">Online Resources</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -4380,13 +4344,13 @@ text-align: center;
   <ul>
   <li><a href="#summary-description" id="toc-summary-description" class="nav-link active" data-scroll-target="#summary-description">Summary Description</a></li>
   <li><a href="#dataset-characteristics" id="toc-dataset-characteristics" class="nav-link" data-scroll-target="#dataset-characteristics">Dataset Characteristics</a></li>
+  <li><a href="#when-to-use-cmip6" id="toc-when-to-use-cmip6" class="nav-link" data-scroll-target="#when-to-use-cmip6">When to use CMIP6</a></li>
   <li><a href="#strengths-and-limitations" id="toc-strengths-and-limitations" class="nav-link" data-scroll-target="#strengths-and-limitations">Strengths and Limitations</a>
   <ul>
   <li><a href="#key-strengths-of-cmip6" id="toc-key-strengths-of-cmip6" class="nav-link" data-scroll-target="#key-strengths-of-cmip6">Key Strengths of CMIP6</a></li>
   <li><a href="#key-limitations-of-cmip6" id="toc-key-limitations-of-cmip6" class="nav-link" data-scroll-target="#key-limitations-of-cmip6">Key Limitations of CMIP6</a></li>
   </ul></li>
   <li><a href="#expert-guidance" id="toc-expert-guidance" class="nav-link" data-scroll-target="#expert-guidance">Expert Guidance</a></li>
-  <li><a href="#use-this-dataset-when" id="toc-use-this-dataset-when" class="nav-link" data-scroll-target="#use-this-dataset-when">Use this dataset when …</a></li>
   <li><a href="#variables-available-in-cmip6" id="toc-variables-available-in-cmip6" class="nav-link" data-scroll-target="#variables-available-in-cmip6">Variables available in CMIP6</a></li>
   <li><a href="#data-access" id="toc-data-access" class="nav-link" data-scroll-target="#data-access">Data Access</a></li>
   <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
@@ -4430,6 +4394,7 @@ text-align: center;
 <h2 class="anchored" data-anchor-id="dataset-characteristics">Dataset Characteristics</h2>
 <ul>
 <li><strong>Current version:</strong> CMIP6 (2019–present)</li>
+<li><strong>Available variables:</strong> standard variables like temperature &amp; precipitation, often many more; availability will vary by model and simulation (see <a href="#variables-available-in-cmip6">variables section below</a>)</li>
 <li><strong>Temporal coverage:</strong> 1850–2100+<br>
 </li>
 <li><strong>Temporal resolution:</strong> model dependent, from hourly to monthly, all models provide daily.<br>
@@ -4439,8 +4404,22 @@ text-align: center;
 <li><strong>Spatial resolution:</strong> ~1° to ~2° depending on model<br>
 </li>
 <li><strong>Data type:</strong> raw model output from climate simulations</li>
+<li><strong>Data format:</strong> <a href="../../datasets/climate_data_fundamentals/Data_Formats.html#netcdf">netCDF</a></li>
 <li><strong>Web references:</strong> <br> <a href="https://wcrp-cmip.org/cmip-phases/cmip6/">CMIP Phase 6 on WCRP web page</a><br> <a href="https://pcmdi.llnl.gov/CMIP6/">CMIP Phase 6 on PCMDI web page</a> (includes a map of the locations of modeling centers)<br></li>
 <li><strong>Reference:</strong><br> <span class="citation" data-cites="Eyring2016">Eyring <em>et al.</em> (<a href="#ref-Eyring2016" role="doc-biblioref">2016</a>)</span></li>
+<li><strong>Contact:</strong> For general CMIP6 inquiries, feedback, or information, contact the <a href="mailto:cmip-ipo@esa.int?subject=%5BCMIP6%5D%20Request:%20%3Cplease%20specify%3E&amp;body=%3CPlease%20specify%20your%20request%3E%0A">CMIP International Project Office (IPO)</a><br>For specific data queries or issues with Canadian data, contact the <a href="https://climate-change.canada.ca/support-desk">Climate Services Support Desk</a></li>
+</ul>
+</section>
+<section id="when-to-use-cmip6" class="level2">
+<h2 class="anchored" data-anchor-id="when-to-use-cmip6">When to use CMIP6</h2>
+<ul>
+<li>When you need <strong>long-term climate change projections of future climate</strong></li>
+<li>When you want to assess <strong>how different emissions pathways (SSPs)</strong> impact future climate conditions</li>
+<li>When you want to explore <strong>uncertainty across climate models</strong> using <strong>multi-model ensembles</strong></li>
+<li>When you are comfortable working with <strong>coarse spatial resolution (~100–250 km)</strong> and understand its limitations for local applications</li>
+<li>When you need <strong>standardized experiments and protocols</strong> across many climate models</li>
+<li>When you want to study <strong>large-scale climate processes</strong> (e.g., circulation, teleconnections, feedbacks)</li>
+<li>When you need <strong>global, physically consistent simulations</strong> of the Earth system</li>
 </ul>
 </section>
 <section id="strengths-and-limitations" class="level2">
@@ -4449,8 +4428,8 @@ text-align: center;
 <h3 class="anchored" data-anchor-id="key-strengths-of-cmip6">Key Strengths of CMIP6</h3>
 <table class="tbl table-striped table-light table-sm small caption-top table">
 <colgroup>
-<col style="width: 31%">
-<col style="width: 68%">
+<col style="width: 25%">
+<col style="width: 75%">
 </colgroup>
 <thead>
 <tr class="header">
@@ -4486,8 +4465,8 @@ text-align: center;
 <h3 class="anchored" data-anchor-id="key-limitations-of-cmip6">Key Limitations of CMIP6</h3>
 <table class="tbl table-striped table-light table-sm small caption-top table">
 <colgroup>
-<col style="width: 31%">
-<col style="width: 68%">
+<col style="width: 25%">
+<col style="width: 75%">
 </colgroup>
 <thead>
 <tr class="header">
@@ -4546,13 +4525,9 @@ text-align: center;
 </div>
 </div>
 </section>
-<section id="use-this-dataset-when" class="level2">
-<h2 class="anchored" data-anchor-id="use-this-dataset-when">Use this dataset when …</h2>
-<p><em>Use cases for this dataset</em></p>
-</section>
 <section id="variables-available-in-cmip6" class="level2">
 <h2 class="anchored" data-anchor-id="variables-available-in-cmip6">Variables available in CMIP6</h2>
-<p>Any of the CMIP6 models may produce variables from the the <a href="https://pcmdi.llnl.gov/mips/cmip3/variableList.html">IPCC list of standard output from Coupled Ocean-Atmosphere GCMs</a>. It comprises far over 100 different variables, and many more may be produced by a model (see the <a href="https://cfconventions.org/Data/cf-standard-names/current/build/cf-standard-name-table.html">Climate and Forecast (CF) Standard Name Table</a>). Depending on the model and its realizations, the respective list of available variables will be determined by the modeling center’s available resources and research focus. Hence, from some models many atmospheric and surface variables will be available, however the common denominator for most CMIP6 model simulations will be the variables listed below.</p>
+<p>Any of the CMIP6 models may produce variables from the the <a href="https://pcmdi.llnl.gov/mips/cmip3/variableList.html">IPCC list of standard output from Coupled Ocean-Atmosphere GCMs</a>. It comprises far over 100 different variables, and many more may be produced by a model and according to the <a href="../../datasets/climate_data_fundamentals/Data_Formats.html#cf-conventions">CF-Conventions</a> (see the <a href="https://cfconventions.org/Data/cf-standard-names/current/build/cf-standard-name-table.html">Climate and Forecast (CF) Standard Name Table</a>). Depending on the model and its realizations, the respective list of available variables will be determined by the modeling center’s available resources and research focus. Hence, from some models many atmospheric and surface variables will be available, however the common denominator for most CMIP6 model simulations will be the variables listed below.</p>
 <p><em>Click on variable groups to uncollapse</em></p>
 <div id="tas" class="callout callout-style-simple callout-none no-icon callout-titled">
 <div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
@@ -4638,23 +4613,6 @@ Maher, N., Milinski, S., &amp; Ludwig, R. (2021). <a href="https://doi.org/10.51
 <div id="ref-Tebaldi2021" class="csl-entry" role="listitem">
 Tebaldi, C., Debeire, K., Eyring, V., … Ziehn, T. (2021). <a href="https://doi.org/10.5194/esd-12-253-2021">Climate model projections from the scenario model intercomparison project (ScenarioMIP) of CMIP6</a>. <em>Earth System Dynamics</em>, <strong>12</strong>(1), 253–293.
 </div>
-</div>
-<div id="92b0d776" class="cell" data-execution_count="1">
-<details class="code-fold">
-<summary>Code</summary>
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Extract lat/lon from ds, converting from y/x if needed (no xclim utility exists)</span></span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> (<span class="st">&quot;lat&quot;</span> <span class="kw">in</span> ds.coords) <span class="kw">and</span> (<span class="st">&quot;lon&quot;</span> <span class="kw">in</span> ds.coords):</span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>    lat <span class="op">=</span> ds[<span class="st">&quot;lat&quot;</span>]</span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>    lon <span class="op">=</span> ds[<span class="st">&quot;lon&quot;</span>]</span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="cf">elif</span> (<span class="st">&quot;y&quot;</span> <span class="kw">in</span> ds.coords) <span class="kw">and</span> (<span class="st">&quot;x&quot;</span> <span class="kw">in</span> ds.coords):</span>
-<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>    lat <span class="op">=</span> ds[<span class="st">&quot;y&quot;</span>]</span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>    lon <span class="op">=</span> ds[<span class="st">&quot;x&quot;</span>]</span>
-<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="cf">else</span>:</span>
-<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>    lat <span class="op">=</span> <span class="va">None</span></span>
-<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>    lon <span class="op">=</span> <span class="va">None</span></span>
-<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Latitude:&quot;</span>, lat.values <span class="cf">if</span> lat <span class="kw">is</span> <span class="kw">not</span> <span class="va">None</span> <span class="cf">else</span> <span class="st">&quot;Not found&quot;</span>)</span>
-<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Longitude:&quot;</span>, lon.values <span class="cf">if</span> lon <span class="kw">is</span> <span class="kw">not</span> <span class="va">None</span> <span class="cf">else</span> <span class="st">&quot;Not found&quot;</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-</details>
 </div>
 
 

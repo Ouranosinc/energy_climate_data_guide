@@ -3927,8 +3927,7 @@ opacity: 1;
 }
 .caption {
 text-align: center;
-}
-</style>
+}</style>
 </head>
 
 <body class="nav-sidebar docked quarto-light">
@@ -4222,7 +4221,7 @@ text-align: center;
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../datasets/Climate_Information_Ressources.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Climate Information Resources</span></a>
+ <span class="menu-text">Online Resources</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -4319,15 +4318,17 @@ text-align: center;
    
   <ul>
   <li><a href="#summary-description" id="toc-summary-description" class="nav-link active" data-scroll-target="#summary-description">Summary Description</a></li>
-  <li><a href="#dataset-characteristics" id="toc-dataset-characteristics" class="nav-link" data-scroll-target="#dataset-characteristics">Dataset Characteristics</a></li>
+  <li><a href="#dataset-characteristics" id="toc-dataset-characteristics" class="nav-link" data-scroll-target="#dataset-characteristics">Dataset Characteristics</a>
+  <ul>
+  <li><a href="#when-to-use-canleadv1" id="toc-when-to-use-canleadv1" class="nav-link" data-scroll-target="#when-to-use-canleadv1">When to use CanLEADv1</a></li>
+  </ul></li>
   <li><a href="#strengths-and-limitations" id="toc-strengths-and-limitations" class="nav-link" data-scroll-target="#strengths-and-limitations">Strengths and Limitations</a>
   <ul>
   <li><a href="#key-strengths-of-canlead" id="toc-key-strengths-of-canlead" class="nav-link" data-scroll-target="#key-strengths-of-canlead">Key Strengths of CanLEAD</a></li>
   <li><a href="#key-limitations-of-canlead" id="toc-key-limitations-of-canlead" class="nav-link" data-scroll-target="#key-limitations-of-canlead">Key Limitations of CanLEAD</a></li>
   </ul></li>
   <li><a href="#expert-guidance" id="toc-expert-guidance" class="nav-link" data-scroll-target="#expert-guidance">Expert Guidance</a></li>
-  <li><a href="#use-this-dataset-when" id="toc-use-this-dataset-when" class="nav-link" data-scroll-target="#use-this-dataset-when">Use this dataset when …</a></li>
-  <li><a href="#available-variables-in-canlead" id="toc-available-variables-in-canlead" class="nav-link" data-scroll-target="#available-variables-in-canlead">Available Variables in CanLead</a></li>
+  <li><a href="#variables-available-in-canlead" id="toc-variables-available-in-canlead" class="nav-link" data-scroll-target="#variables-available-in-canlead">Variables available in CanLead</a></li>
   <li><a href="#data-access" id="toc-data-access" class="nav-link" data-scroll-target="#data-access">Data Access</a></li>
   <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
   </ul>
@@ -4372,14 +4373,29 @@ text-align: center;
 <h2 class="anchored" data-anchor-id="dataset-characteristics">Dataset Characteristics</h2>
 <ul>
 <li><strong>Current version:</strong> v1</li>
+<li><strong>Available variables:</strong> temperature, precipitation, wind, relative humidity, surface pressure, longwave and shortwave radiation (see <a href="#variables-available-in-canlead">variables section below</a>)</li>
 <li><strong>Temporal coverage</strong>: 1950-2100</li>
 <li><strong>Temporal resolution:</strong> daily</li>
 <li><strong>Spatial coverage:</strong> North America</li>
 <li><strong>Spatial resolution:</strong> 0.5°</li>
 <li><strong>Data type:</strong> Bias-adjusted climate projections</li>
+<li><strong>Data format:</strong> <a href="../../datasets/climate_data_fundamentals/Data_Formats.html#netcdf">netCDF</a></li>
 <li><strong>Web references:</strong> <br> <a href="https://open.canada.ca/data/en/dataset/a97edbc1-7fda-4ebc-b135-691505d9a595">Government of Canada’s Open data portal</a></li>
 <li><strong>Reference:</strong> <br><span class="citation" data-cites="Cannon2022">Cannon <em>et al.</em> (<a href="#ref-Cannon2022" role="doc-biblioref">2022</a>)</span></li>
+<li><strong>Contact:</strong> <a href="mailto:alex.cannon@ec.gc.ca?subject=%5BCanLeadv1%5D%20Request:%20%3Cplease%20specify%3E&amp;body=%3CPlease%20specify%20your%20request%3E%0A">Alex J. Cannon</a> Climate Research Division, Victoria, BC</li>
 </ul>
+<section id="when-to-use-canleadv1" class="level3">
+<h3 class="anchored" data-anchor-id="when-to-use-canleadv1">When to use CanLEADv1</h3>
+<ul>
+<li>When you need <strong>large ensembles of climate projections</strong></li>
+<li>When you want to quantify <strong>uncertainty arising from natural variability</strong> rather than model differences</li>
+<li>When you want to assess <strong>risk or robust statistics of extreme events</strong> using many realizations of the same model (e.g., return periods, tail risks)</li>
+<li>When you need <strong>probabilistic information</strong> (e.g., likelihood of exceeding thresholds)</li>
+<li>When you want to separate <strong>forced climate change signals from internal variability</strong></li>
+<li>When you want to evaluate <strong>year-to-year and decade-to-decade variability</strong> in future climate due to the chaotic nature of the climate system itself.</li>
+<li>When you want to complement <strong>multi-model ensembles (e.g., CMIP6)</strong> with <strong>large initial-condition ensembles</strong></li>
+</ul>
+</section>
 </section>
 <section id="strengths-and-limitations" class="level2">
 <h2 class="anchored" data-anchor-id="strengths-and-limitations">Strengths and Limitations</h2>
@@ -4491,12 +4507,8 @@ text-align: center;
 </div>
 </div>
 </section>
-<section id="use-this-dataset-when" class="level2">
-<h2 class="anchored" data-anchor-id="use-this-dataset-when">Use this dataset when …</h2>
-<p><em>Use cases for this dataset</em></p>
-</section>
-<section id="available-variables-in-canlead" class="level2">
-<h2 class="anchored" data-anchor-id="available-variables-in-canlead">Available Variables in CanLead</h2>
+<section id="variables-available-in-canlead" class="level2">
+<h2 class="anchored" data-anchor-id="variables-available-in-canlead">Variables available in CanLead</h2>
 <p><em>For details click on variable group to uncollapse</em></p>
 <div id="id" class="callout callout-style-simple callout-none no-icon callout-titled">
 <div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
@@ -4514,7 +4526,7 @@ text-align: center;
 <li>Daily maximum near-surface (2 m) air temperature (tasmax) [K]</li>
 <li>Daily minimum near-surface (2 m) air temperature (tasmin) [K]</li>
 </ul>
-<p>Tasmax and tasmin are derived from bias-adjustment of tas (tasmin + tasmax)/2 and dtr (tasmax − tasmin).</p>
+<p>Minimum and maximum temperature are derived from bias-adjustment of the mean daily temperature (tasmin + tasmax)/2 and the daily temperature range (dtr = tasmax − tasmin).</p>
 </div>
 </div>
 </div>
@@ -4542,16 +4554,15 @@ text-align: center;
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">None</span>Relative humidity
+<span class="screen-reader-only">None</span>Wind
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
 <div id="callout-4" class="callout-4-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <ul>
-<li>Daily mean near-surface relative humidity (hurs) [%]</li>
+<li>Daily mean near-surface (10 metre) wind speed (sfcWind) [m s−1]</li>
 </ul>
-<p>Hurs (with respect to liquid water) is derived from specific humidity, temperature and ps (Bolton, 1980). A logit transformation was applied to hurs before the adjustment.</p>
 </div>
 </div>
 </div>
@@ -4561,15 +4572,16 @@ text-align: center;
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">None</span>Pressure
+<span class="screen-reader-only">None</span>Relative humidity
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
 <div id="callout-5" class="callout-5-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <ul>
-<li>Daily mean surface air pressure (ps) [Pa]</li>
+<li>Daily mean near-surface relative humidity (hurs) [%]</li>
 </ul>
+<p>Relative humidity (with respect to liquid water) is derived from specific humidity (huss), temperature (tas) and surface air pressure (ps) (Bolton, 1980). A logit transformation was applied to relative humidity (hurs) before the adjustment.</p>
 </div>
 </div>
 </div>
@@ -4579,14 +4591,14 @@ text-align: center;
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">None</span>Wind
+<span class="screen-reader-only">None</span>Pressure
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
 <div id="callout-6" class="callout-6-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <ul>
-<li>Daily mean near-surface (10 metre) wind speed (sfcWind) [m s−1]</li>
+<li>Daily mean surface air pressure (ps) [Pa]</li>
 </ul>
 </div>
 </div>

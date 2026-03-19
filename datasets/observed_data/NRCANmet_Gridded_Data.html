@@ -3927,8 +3927,7 @@ opacity: 1;
 }
 .caption {
 text-align: center;
-}
-</style>
+}</style>
 </head>
 
 <body class="nav-sidebar docked quarto-light">
@@ -4222,7 +4221,7 @@ text-align: center;
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../datasets/Climate_Information_Ressources.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Climate Information Resources</span></a>
+ <span class="menu-text">Online Resources</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -4372,23 +4371,26 @@ text-align: center;
 <h2 class="anchored" data-anchor-id="dataset-characteristics">Dataset Characteristics</h2>
 <ul>
 <li><strong>Current version:</strong> No official versioning, <a href="#expert-guidance">see Expert Guidance</a>. The latest version was generated in 2022.</li>
+<li><strong>Available variables:</strong> temperature &amp; precipitation (see <a href="#nrcanmet">variables section below</a></li>
 <li><strong>Temporal coverage</strong>: 1950–2020</li>
 <li><strong>Temporal resolution</strong>: Daily and monthly</li>
 <li><strong>Spatial coverage</strong>: Canadian landmass <span class="mark-red">(The latest version covers Can &amp; US, check when this will be on PAVICS and modify spatial coverage accordingly!)</span></li>
 <li><strong>Spatial resolution</strong>: ~10 km grid spacing (0.1°)</li>
 <li><strong>Data type</strong>: Quality-controlled station observations interpolated using ANUSPLIN</li>
+<li><strong>Data format:</strong> <a href="../../datasets/climate_data_fundamentals/Data_Formats.html#netcdf">netCDF</a>, <a href="../../datasets/climate_data_fundamentals/Data_Formats.html#geotiff">GeoTIFF</a></li>
 <li><strong>Web references:</strong> <br> NRCANmet data descriptions are provided on the Northern Climate Data Report and Inventory (NCDRI) Web Site for <a href="https://nordata.physics.utoronto.ca/en/annexes-datasets-descriptions/71-temperature/anusplin-gridded-canadian-temperature-dataset/">temperature</a> and <a href="https://nordata.physics.utoronto.ca/en/annexes-datasets-descriptions/72-precipitation/anusplin-gridded-canadian-precipitation-dataset/">precipitation</a>.</li>
 <li><strong>Reference:</strong> <br><span class="citation" data-cites="MacDonald2020">MacDonald <em>et al.</em> (<a href="#ref-MacDonald2020" role="doc-biblioref">2020</a>)</span></li>
+<li><strong>Contact:</strong> <a href="mailto:dan.mckenney@canada.ca?subject=%5BNRCANmet%5D%20Request:%20%3Cplease%20specify%3E&amp;body=%3CPlease%20specify%20your%20request%3E%0A">Dan McKenney, NRCan</a></li>
 </ul>
 </section>
 <section id="when-to-use-nrcanmet" class="level2">
 <h2 class="anchored" data-anchor-id="when-to-use-nrcanmet">When to use NRCANmet</h2>
 <ul>
-<li>When you need information about the <strong>past</strong>.</li>
-<li>When you only need <strong>precipitation</strong> or <strong>near-surface temperature</strong>.</li>
+<li>When you need information about <strong>past climate</strong>.</li>
+<li>When you only need <strong>precipitation</strong> and/or <strong>near-surface temperature</strong>.</li>
 <li>When you need a <strong>spatially complete</strong> and <strong>temporally continuous</strong> gridded product.</li>
 <li>When the region of interest is <strong>well covered by in-situ measurements</strong>.</li>
-<li>When you need an observational dataset that is consistent with future climate projections available on <a href="https://climatedata.ca/"><strong>climatedata.ca</strong></a>.</li>
+<li>When you need an observational dataset that is consistent with future climate projections available on <a href="https://climatedata.ca/"><strong>ClimateData.ca</strong></a>.</li>
 </ul>
 </section>
 <section id="strengths-and-limitations" class="level2">
@@ -4396,6 +4398,10 @@ text-align: center;
 <section id="key-strengths-of-nrcanmet" class="level3">
 <h3 class="anchored" data-anchor-id="key-strengths-of-nrcanmet">Key Strengths of NRCANmet</h3>
 <table class="tbl table-striped table-light table-sm small caption-top table">
+<colgroup>
+<col style="width: 25%">
+<col style="width: 75%">
+</colgroup>
 <thead>
 <tr class="header">
 <th>Strength</th>
@@ -4426,8 +4432,8 @@ text-align: center;
 <h3 class="anchored" data-anchor-id="key-limitations-of-nrcanmet">Key Limitations of NRCANmet</h3>
 <table class="tbl table-striped table-light table-sm small caption-top table">
 <colgroup>
-<col style="width: 40%">
-<col style="width: 60%">
+<col style="width: 25%">
+<col style="width: 75%">
 </colgroup>
 <thead>
 <tr class="header">
@@ -4488,7 +4494,7 @@ text-align: center;
 <li>v2018: Called v2 at Ouranos, covers 1950-2017</li>
 <li>v2018PB: Called v2 at PCIC. A modified version of v2018 was used in PCIC-Blend temperatures. The modifications include a correction of temperature inversion, where Tmin &gt; Tmax which sometimes leads to temperature at a grid point much higher than their neighbors. It should be noted that the conversion from K to degC was using 273 K, instead of 273.15 K.</li>
 <li>NRCANmet-Adjusted v2021: used in PCIC-Blend precipitation, cover 1950-2015 (<span class="citation" data-cites="MacDonald2021">MacDonald <em>et al.</em> (<a href="#ref-MacDonald2021" role="doc-biblioref">2021</a>)</span>)</li>
-<li>v2024: covers 1949-2020</li>
+<li>v2022: covers 1949-2020</li>
 </ul>
 <p>The versions are generally very similar in their temperature values, with later versions having less temperature reversals. Regarding precipitation, the v2018 version is somewhat dryer than v2014. For Northern and Eastern stations, biases compared to stations are lower for v2018. The dataset is particulary dryer over the western mountains which motivated the generation of PCIC-Blend, a combination of NRCANmet with a distinct gridded dataset over western Canada and the north-western US .</p>
 </section>
@@ -4559,7 +4565,7 @@ text-align: center;
 </section>
 <section id="data-access" class="level2">
 <h2 class="anchored" data-anchor-id="data-access">Data Access</h2>
-<p>NRCANmet gridded data is freely available upon contact with Dr. Dan McKenney, Canadian Forest Service, Natural Resources Canada, Dan.Mckenney@canada.ca.</p>
+<p>NRCANmet gridded data is freely available upon contact with Dr. Dan McKenney, Canadian Forest Service, Natural Resources Canada, <a href="mailto:dan.mckenney@canada.ca?subject=%5BNRCANmet%5D%20Request:%20%3Cplease%20specify%3E&amp;body=%3CPlease%20specify%20your%20request%3E%0A">dan.mckenney@canada.ca</a></p>
 <p><span class="mark-red"><strong>ToDo:</strong> Check: Can we put <a href="https://ftp.maps.canada.ca/pub/nrcan_rncan/Climate-archives_Archives-climatologiques/daily/">this link to the daily data on NRCan’S FTP - Check with NRCan!</a>?</span></p>
 <p>The dataset is also available on <a href="https://pavics.ouranos.ca/datasets.html#b">PAVICS</a>. To avoid downloading very large datasets in their entirety PAVICS allows partial/regional extraction and provides a <a href="https://pavics-sdi.readthedocs.io/en/latest/notebooks/CaSR_basic.html">tutorial</a> to do so, using the CaSR reanalysis as an example . With a free PAVICS user account, the Jupyter notebook with the Python code in the tutorial can be <a href="https://pavics.ouranos.ca/jupyter/hub/user-redirect/lab/tree/tutorial-notebooks/CaSR_basic.ipynb">directly used on PAVICS</a>.</p>
 <p>Another option to obtain NRCANmet is from the website of the <a href="https://pacificclimate.org/data/daily-gridded-meteorological-datasets">Pacific Climate Impacts Consortium</a>. Note that this version covers only the time period 1950-2012.</p>

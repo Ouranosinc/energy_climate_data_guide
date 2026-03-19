@@ -3907,8 +3907,7 @@ opacity: 1;
 }
 .caption {
 text-align: center;
-}
-</style>
+}</style>
 </head>
 
 <body class="nav-sidebar docked quarto-light">
@@ -4202,7 +4201,7 @@ text-align: center;
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../datasets/Climate_Information_Ressources.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Climate Information Resources</span></a>
+ <span class="menu-text">Online Resources</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -4313,7 +4312,7 @@ text-align: center;
   </ul></li>
   <li><a href="#supporting-data-formats" id="toc-supporting-data-formats" class="nav-link" data-scroll-target="#supporting-data-formats">Supporting Data Formats</a>
   <ul>
-  <li><a href="#esri-shapefile" id="toc-esri-shapefile" class="nav-link" data-scroll-target="#esri-shapefile">ESRI Shapefile</a></li>
+  <li><a href="#geospatial-formats-shapefile-geojson-geopackage" id="toc-geospatial-formats-shapefile-geojson-geopackage" class="nav-link" data-scroll-target="#geospatial-formats-shapefile-geojson-geopackage">Geospatial Formats (shapefile, GeoJSON, GeoPackage, …)</a></li>
   <li><a href="#cf-conventions" id="toc-cf-conventions" class="nav-link" data-scroll-target="#cf-conventions">CF Conventions</a></li>
   </ul></li>
   </ul>
@@ -4543,8 +4542,8 @@ text-align: center;
 <section id="supporting-data-formats" class="level2">
 <h2 class="anchored" data-anchor-id="supporting-data-formats">Supporting Data Formats</h2>
 <p>These auxiliary formats and standards are often used in the definition and subsetting of geospatial datasets.</p>
-<section id="esri-shapefile" class="level3">
-<h3 class="anchored" data-anchor-id="esri-shapefile">ESRI Shapefile</h3>
+<section id="geospatial-formats-shapefile-geojson-geopackage" class="level3">
+<h3 class="anchored" data-anchor-id="geospatial-formats-shapefile-geojson-geopackage">Geospatial Formats (shapefile, GeoJSON, GeoPackage, …)</h3>
 <div id="id" class="callout callout-style-simple callout-none no-icon callout-titled">
 <div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-8-contents" aria-controls="callout-8" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
@@ -4557,15 +4556,19 @@ text-align: center;
 </div>
 <div id="callout-8" class="callout-8-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<p><strong>Created by:</strong> <a href="https://www.esri.com/">Esri</a> (Environmental Systems Research Institute) in the early 1990s<br> <strong>Purpose:</strong> Storage of vector geographic features<br> <strong>Typical use:</strong> Administrative boundaries, infrastructure layers, geographic context for climate analysis<br> <strong>Distinguishing features:</strong> <br></p>
+<p><strong>Created by:</strong> Various organizations in the geospatial community, including <a href="https://www.esri.com/">Esri</a> (Shapefile, 1998), the <a href="https://www.ietf.org/">Internet Engineering Task Force (IETF)</a> (GeoJSON, 2016; RFC 7946), and the <a href="https://www.ogc.org/">Open Geospatial Consortium (OGC)</a> (GeoPackage, 2014)<br> <strong>Purpose:</strong> Storage and exchange of vector-based geographic features and their associated attributes<br> <strong>Typical use:</strong> Administrative boundaries, infrastructure networks, catchment areas, land-use classifications, and other spatial reference layers used in geospatial analysis of climate or environmental data<br> <strong>Distinguishing features:</strong></p>
 <ul>
-<li>Stores vector geometries (points, lines, polygons)</li>
-<li>Multi-file structure (at least .shp, .shx, .dbf)</li>
-<li>Widely supported by GIS software</li>
-<li>Stores attribute tables linked to geometry</li>
-<li>Lightweight format for spatial vector data</li>
+<li>Store geographic vector geometries such as points, lines, and polygons<br>
+</li>
+<li>Store attribute tables linked to spatial geometries<br>
+</li>
+<li>Widely supported across GIS software and geospatial libraries<br>
+</li>
+<li>Formats may be file-based (Shapefile), text-based (GeoJSON), or database-based (GeoPackage)<br>
+</li>
+<li>Optimized for spatial queries, mapping, and geospatial analysis</li>
 </ul>
-<p><strong>Description</strong><br> The ESRI Shapefile format is one of the most widely used formats for storing vector geographic data. It represents spatial features such as points, lines, and polygons together with attribute information describing those features. Although shapefiles are not used to store climate or weather data themselves, they play an important supporting role in geospatial analysis. For example, shapefiles are often used to define administrative boundaries, watershed regions, power grid infrastructure, or other categories when analyzing climate datasets. Climate variables stored in formats like <a href="#netcdf-network-common-data-form">netCDF</a> or GeoTIFF are frequently combined with shapefile boundaries to compute regional statistics or visualize spatial impacts. Despite its age and limitations, the format remains widely used because of its simplicity and universal GIS support. ESRI Shapefile is a proprietary format, modern alternative and open formats are the <a href="https://www.ogc.org/standards/geopackage/">GeoPackage</a> or the <a href="https://www.ogc.org/standards/eo-geojson/">GeoJSON</a> format.</p>
+<p><strong>Description</strong><br> Vector geospatial formats store geographic features such as points, lines, and polygons together with associated attribute information. Common examples include <a href="https://en.wikipedia.org/wiki/Shapefile">Esri Shapefiles</a>, <a href="https://www.ogc.org/standards/eo-geojson/">GeoJSON</a>, and <a href="https://www.ogc.org/standards/geopackage/">GeoPackage</a>. These formats are widely used in geographic information systems (GIS) and geospatial analysis workflows. In climate data applications, they typically serve as supporting datasets rather than primary data containers. Geospatial files are used to define administrative boundaries, watershed regions, infrastructure networks, or other categories when analyzing, subsetting or visualizing climate data stored in gridded data formats such as <a href="#netcdf">netCDF</a>, <a href="#grib">GRIB</a>, or <a href="#geotiff">GeoTIFF</a>. While these formats differ technically they share a common purpose: representing feature-based geographic information that provides spatial context for environmental and climate datasets.</p>
 </div>
 </div>
 </div>
