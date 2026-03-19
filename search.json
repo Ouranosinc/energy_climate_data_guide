@@ -667,7 +667,7 @@
     "href": "datasets/reanalysis_data/Reanalysis_Datasets.html",
     "title": "Reanalysis Data",
     "section": "",
-    "text": "Reanalyses are gridded climate datasets built by running a fixed (“frozen”) weather model with an unchanging data-assimilation method across past decades. Every n hours, the system ingests all observations available at that time to reconstruct the surface or the atmosphere and surface. Because the model and assimilation stay constant, the result is a dynamically consistent estimate at each time step. What does change is the observing system feeding the model (e.g., radiosondes, satellites, buoys, aircraft and ship reports) which inevitably evolves over time.\nThe “Copernicus ECMWF” YouTube channel provides a short video introduction to reanalysis data:\nMore information can be found on the ECMWF web site What is climate reanalysis?.",
+    "text": "Reanalyses are gridded datasets of historical climate built by running a fixed (“frozen”) weather model with an unchanging data-assimilation method across past decades. Every n hours, the system ingests all observations available at that time to reconstruct the surface or the atmosphere and surface. Because the model and assimilation stay constant, the result is a dynamically consistent estimate at each time step. What does change is the observing system feeding the model (e.g., radiosondes, satellites, buoys, aircraft and ship reports) which inevitably evolves over time. The reanalysis product coincides with the sequence of historically observed events and expands them in time and space.\nThe “Copernicus ECMWF” YouTube channel provides a short video introduction to reanalysis data:\nMore information can be found on the ECMWF web site What is climate reanalysis?.",
     "crumbs": [
       "Climate Datasets",
       "Reanalysis Data"
@@ -1654,7 +1654,7 @@
     "href": "datasets/climate_projection_data/CanLEAD.html#variables-available-in-canlead",
     "title": "CanLEAD",
     "section": "Variables available in CanLead",
-    "text": "Variables available in CanLead\nFor details click on variable group to uncollapse\n\n\n\n\n\n\nNoneTemperature\n\n\n\n\n\n\nDaily maximum near-surface (2 m) air temperature (tasmax) [K]\nDaily minimum near-surface (2 m) air temperature (tasmin) [K]\n\nMinimum and maximum temperature are derived from bias-adjustment of the mean daily temperature (tasmin + tasmax)/2 and the daily temperature range (dtr = tasmax − tasmin).\n\n\n\n\n\n\n\n\n\nNonePrecipitation\n\n\n\n\n\n\nDaily mean precipitation rate (pr) [kg m−2 s−1]\n\n\n\n\n\n\n\n\n\n\nNoneWind\n\n\n\n\n\n\nDaily mean near-surface (10 metre) wind speed (sfcWind) [m s−1]\n\n\n\n\n\n\n\n\n\n\nNoneRelative humidity\n\n\n\n\n\n\nDaily mean near-surface relative humidity (hurs) [%]\n\nRelative humidity (with respect to liquid water) is derived from specific humidity (huss), temperature (tas) and surface air pressure (ps) (Bolton, 1980). A logit transformation was applied to relative humidity (hurs) before the adjustment.\n\n\n\n\n\n\n\n\n\nNonePressure\n\n\n\n\n\n\nDaily mean surface air pressure (ps) [Pa]\n\n\n\n\n\n\n\n\n\n\nNoneRadiation\n\n\n\n\n\n\nDaily mean surface downwelling shortwave radiation (rsds) [W m−2]\nDaily mean surface downwelling longwave radiation (rlds) [W m−2]",
+    "text": "Variables available in CanLead\nFor details click on variable group to uncollapse\n\n\n\n\n\n\nNoneTemperature\n\n\n\n\n\n\nDaily maximum near-surface (2 m) air temperature (tasmax) [K]\nDaily minimum near-surface (2 m) air temperature (tasmin) [K]\n\nMinimum and maximum temperature are derived from bias-adjustment of the mean daily temperature (tasmin + tasmax)/2 and the daily temperature range (dtr = tasmax − tasmin).\n\n\n\n\n\n\n\n\n\nNonePrecipitation\n\n\n\n\n\n\nDaily mean precipitation rate (pr) [kg m−2 s−1]\n\n\n\n\n\n\n\n\n\n\nNoneWind\n\n\n\n\n\n\nDaily mean near-surface (10 metre) wind speed (sfcWind) [m s−1]\n\n\n\n\n\n\n\n\n\n\nNoneRelative humidity\n\n\n\n\n\n\nDaily mean near-surface relative humidity (hurs) [%]\n\nRelative humidity (with respect to liquid water) is derived from specific humidity (huss), temperature (tas) and surface air pressure (ps) (Bolton, 1980). A logit transformation was applied to relative humidity (hurs) before the adjustment.\n\n\n\n\n\n\n\n\n\nNoneRadiation\n\n\n\n\n\n\nDaily mean surface downwelling shortwave radiation (rsds) [W m−2]\nDaily mean surface downwelling longwave radiation (rlds) [W m−2]\n\n\n\n\n\n\n\n\n\n\nNonePressure\n\n\n\n\n\n\nDaily mean surface air pressure (ps) [Pa]",
     "crumbs": [
       "Climate Datasets",
       "Climate Projection Data",
@@ -1971,18 +1971,7 @@
     "href": "datasets/Climate_Information_Ressources.html",
     "title": "Online Resources",
     "section": "",
-    "text": "title: Online Resources\n\nThis document provides information on online resources available to the electricity sector in Canada. They are public portals and websites that offer reliable and authoritative climate information and data.",
-    "crumbs": [
-      "Climate Datasets",
-      "Online Resources"
-    ]
-  },
-  {
-    "objectID": "datasets/Climate_Information_Ressources.html#section",
-    "href": "datasets/Climate_Information_Ressources.html#section",
-    "title": "Online Resources",
-    "section": "",
-    "text": "title: Online Resources\n\nThis document provides information on online resources available to the electricity sector in Canada. They are public portals and websites that offer reliable and authoritative climate information and data.",
+    "text": "This document provides information on online resources available to the electricity sector in Canada. They are public portals and websites that offer reliable and authoritative climate information and data.",
     "crumbs": [
       "Climate Datasets",
       "Online Resources"
