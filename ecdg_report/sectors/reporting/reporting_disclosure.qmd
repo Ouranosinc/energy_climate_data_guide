@@ -25,7 +25,7 @@ Reporting and disclosures play an important role in transparency and accountabil
 :::
 
 ## Methods and Models
-Methods and models are not used directly in this process. Metrics, targets and reporting are often a consolidation of information from other processes such as [dam safety reviews](../infrastructure/dam_safety_review.qmd), [capacity expansion modelling](../planning/capacity_expansion_modelling.ipynb), [generation forecasting](../planning/generation_forecasting.qmd), and other types of [infrastructure assessments](../planning/infrastructure_condition_assessment_and_investment_prioritization.ipynb).
+Methods and models are not used directly in this process. Metrics, targets and reporting are often a consolidation of information from other processes such as [dam safety reviews](../infrastructure/dam_safety_review.qmd), [capacity expansion modelling](../planning/capacity_expansion_modelling.qmd), [generation forecasting](../planning/generation_forecasting.qmd), and other types of [infrastructure assessments](../planning/infrastructure_condition_assessment_and_investment_prioritization.ipynb).
 
 :::{#id1 .callout collapse="true"}
 ## Acces to other group modelling
