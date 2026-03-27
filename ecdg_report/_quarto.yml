@@ -57,6 +57,7 @@ website:
             href: datasets/climate_data_fundamentals/Climate_Data_Fundamentals.ipynb
             contents:
               - datasets/climate_data_fundamentals/Deprecated_Climate_Data_Fundamentals.ipynb
+              - datasets/climate_data_fundamentals/Temporal_Horizons_Predictability.ipynb
               - datasets/climate_data_fundamentals/Data_Formats.ipynb
           - section: "Observational Data"
             href: datasets/observed_data/Observational_Datasets.ipynb
