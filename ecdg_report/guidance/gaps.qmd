@@ -6,107 +6,90 @@ title: Gaps
 
 This page identifies gaps in climate information, datasets, and methods relevant for the use of climate data in the electricity sector.
 
+## Climate Data and Information Gaps
 
-
-
-## Gaps associated with climate data and climate information
-
-
+::: {#id .callout collapse="true"}
+### Click for details
 ### 1. Mismatch between decision scale and climate data scale
 
-The most obvious gap.
-
-#### Insufficient temporal resolution for operational decisions
-
+- Insufficient **temporal resolution** for operational decisions</br>
 Utilities often need hourly or sub-hourly information, but climate datasets remain monthly or daily.
-
-
-#### Insufficient spatial resolution for operational decisions
-
+- Insufficient **spatial resolution** for operational decisions</br>
 Energy applications need local information, models provide the average conditions over a large area.
-
 
 ### 2. Sparse, discontinuous, or non-representative observational records
 
-Common problems include short records, changes in instruments or siting, missing data, weak coverage in mountains, coasts, northern service territories, forested corridors, and near reservoirs or hydro basins, plus poor representation of variables utilities need directly.
-
+- Common problems include short records, changes in instruments or siting, missing data, weak coverage in mountains, along coasts, in northern service territories or forested corridors, and near reservoirs or hydro basins, plus poor representation of variables utilities need.
 
 ### 3. Design-relevant extremes are often inadequately characterized
 
-Utilities do not just need mean temperature or annual precipitation. They need the tails, but many datasets resolve these poorly, especially when events are short-lived or localized.
-
+- Utilities do not just need mean temperature or annual precipitation. They need the tails, but many datasets resolve these poorly, especially when events are short-lived or localized.
 
 ### 4. Lack of information on compound and correlated hazards
 
-Failures are frequently caused by combinations of hazards, but scientific literature (and data) of compound events is relatively limited.
-
+- Failures are frequently caused by combinations of hazards, but scientific literature and data on compound events is relatively limited.
 
 ### 5. Future climate uncertainty is difficult to translate into operational decisions  
 
-Climate information is often delivered in forms that are scientifically valid but operationally awkward: emissions scenarios, ensemble spreads, percentile changes, or annual mean anomalies. Also, no probability assigned to future CMIP climate scenario. 
-
+- Climate information is often delivered in forms that are scientifically valid but operationally awkward: [emissions scenarios](../datasets/climate_projection_data/Climate_Projection_Datasets.ipynb#emission-scenarios), ensemble spreads, percentile changes, or annual mean anomalies. Also, no probabilities are assigned to future CMIP climate scenarios. 
 
 ### 6. Data uncertainty is often difficult to translate into operational decisions 
 
-Uncertainty of datasets like reanalysis is difficult to evaluate, let alone use.
-
+- Uncertainty related to datasets like reanalysis is difficult to evaluate and use in practice.
 
 ### 7. Hydrology and land-surface process gaps for water-dependent utilities
 
-Very few products provide information on hydrology and land-surface processes in Canada.
-
+- Very few operational products provide information on hydrology and land-surface processes in Canada.
 
 ### 9. Limited subseasonal-to-decadal (S2D) actionable information
 
-Many utility actions sit between weather and climate timescales, leaving a gap between short-range meteorology and long-range climate planning
+- Many utility actions sit between weather and climate timescales, leaving a gap between short-range meteorology and long-range climate planning.
 
+### 10. Climate Projections end in 2100
 
-## Gaps associated with the organizations and utilities themselves
+- Planning horizons for infrastructure may exceed the temporal horizon of current climate projections, which are produced and abundant until 2100. While some simulations extend beyond 2100 and until 2300, very little information and data is available.
+:::
 
+## Organizational Gaps
 
+::: {#id .callout collapse="true"}
+### Click for details
 ### 1. Limited internal climate literacy
 
-A common organizational gap is not absence of data, but lack of internal capacity to interpret what different datasets are for and how to use them, interpret ensembles, downscaling methods, scenario structure, bias correction, etc.
+- A common organizational gap is not the absence of data, but lack of internal capacity to interpret datasets purpose and how to use them, interpret [multi-model ensembles](../datasets/climate_projection_data/Climate_Projection_Datasets.ipynb#ensembles), [downscaling methods](../datasets/climate_projection_data/Climate_Projection_Datasets.ipynb), scenario structure [I don't understand, what do you mean by 'structure'?!]{.mark-red}, [bias adjustment](../datasets/climate_projection_data/Climate_Projection_Datasets.ipynb#bias-adjustment), etc.
 
+### 2. Siloes between departments that need or use the same information
 
-### 2. Siloes between departments that need the same information
+- Different teams often use different datasets, assumptions, and hazard definitions. This creates conflicting baselines and duplicated work.
 
-Different teams often use different datasets, assumptions, and hazard definitions. This creates conflicting baselines and duplicated work.
+### 3. Internal data management/governance is often limited
 
-
-### 3. Internal data management/governance is often very limited
-
-Utilities often lack version control, dataset approval processes, reproducible workflows, and clear ownership of climate assumptions. They will tend to use the dataset that their colleague is using because it is available, without making sure that it is fit for purpose.
-
+- Utilities often lack version control, dataset approval processes, reproducible workflows, and clear ownership of climate assumptions. They will tend to use the dataset that their colleague is using and because it is available, without assuring its fit for purpose.
 
 ### 4. Consultant dependence without informed oversight
 
-Utilities outsource climate analysis but lack the internal expertise to specify requirements, evaluate methodological quality, or challenge inappropriate products.
-
+- Utilities outsource climate analysis but lack the internal expertise to specify requirements, evaluate methodological quality, or challenge inappropriate products.
 
 ### 5. Existing standards are based on historical values
 
-Different practices (e.g. design codes, return-period assumptions) are often built around historical climatology and regulatory conventions. Even when people recognize climate change risk, the approved methods and standards may not allow them to incorporate it.
+- Often industry practices (e.g. design codes, return-period assumptions) are built around historical climatology and regulatory conventions. When people recognize climate change risk, the approved methods and standards may not allow them to incorporate it.
 
 ### 6. Inadequate handling of uncertainty
 
-Utilities typically respond to (certain type of) uncertainty by ignoring it.
-
+- Utilities tend to respond to unfamiliar uncertainty such as climate data uncertainty by ignoring it.
 
 ### 7. Climate information exists but is not embedded in core models and workflows
 
-Information exists, but it is not operationalized (e.g. information sits in reports).
+- Climate information is available, but it is not operationalized (e.g. information sits in reports).
 
+### 8. Organizations privilege historical experience over forward-looking evidence
 
-### 8. Organization may privilege historical experience over forward-looking evidence
-
-Operations and engineering teams may trust observed past events more than modeled futures.
-
+- Operations and engineering teams tend to trust observed past events more than modeled futures, overseeing that the historical experience will not hold going forward.
 
 ### 9. Business cases for climate information are hard to quantify
 
-Some utilities struggle to demonstrate the economic value of climate information or climate data internally.
-
+- Utilities struggle to internally demonstrate the economic value of climate assessment, climate information and climate data.
+:::
 
 <!-- Addtional info:
 https://homepages.see.leeds.ac.uk/~lecajd/papers/nclimate2350.pdf
