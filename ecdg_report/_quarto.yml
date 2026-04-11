@@ -90,7 +90,8 @@ website:
               - datasets/tools/Point_Location_Compare.ipynb
       - section: "Guidance"
         contents:
-          - guidance/Climate_Data_Decision_Tree.qmd     
+          - guidance/Climate_Data_Decision_Tree.qmd   
+          - guidance/traditional_knowledge.qmd  
       - section: "Gaps and Barriers"
         contents:
           - gaps/gaps_data.qmd 
