@@ -1,5 +1,5 @@
 ---
-title: Maturity Matrix for Climate Assessment
+title: Maturity Matrix for Self-Assessment
 
 ---
 
