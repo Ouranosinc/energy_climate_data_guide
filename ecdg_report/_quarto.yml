@@ -48,6 +48,8 @@ website:
           - sectors/reporting/reporting_disclosure.qmd
           #   contents:  
           # - sectors/reporting/esg_and_sustainability_reporting.ipynb
+      # The page for the maturity matrix
+      - maturity_matrix/Maturity_Matrix.qmd  
       # The section on climate datasets
       - section: "Climate Datasets"
         href: datasets/Climate_Datasets_Overview.ipynb
@@ -88,15 +90,18 @@ website:
               - datasets/tools/Point_Location_Compare.ipynb
       - section: "Guidance"
         contents:
-          - guidance/Climate_Data_Decision_Tree.qmd
-          - guidance/gaps.qmd       
+          - guidance/Climate_Data_Decision_Tree.qmd   
+          - guidance/traditional_knowledge.qmd  
+      - section: "Gaps and Barriers"
+        contents:
+          - gaps/gaps_data.qmd 
+          - gaps/gaps_organization.qmd  
       - section: Workshops
         href: workshops/intro_workshops.ipynb
         contents:
           - workshops/content_particip.ipynb
           - workshops/findings.ipynb      
       - adaptation/Adaptation.ipynb      
-      - maturity_matrix/Maturity_Matrix.qmd
 
 format:
   html:
