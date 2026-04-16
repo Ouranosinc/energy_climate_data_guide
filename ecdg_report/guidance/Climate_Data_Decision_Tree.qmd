@@ -42,7 +42,11 @@ flowchart TD
 
     %% Historical / baseline branch
     B -- No --> C{Need spatially complete gridded fields?}
-    C -- No --> D[Station observational data]
+    C -- No --> D{Do you have a reliable observation station nearby?}
+    
+    D -- Yes --> DD[Station observational data] 
+    D -- No --> F[Reanalysis data]
+    
     C -- Yes --> E{Need multivariate physical consistency?}
   
     E -- Yes --> F[Reanalysis data]
@@ -90,7 +94,7 @@ flowchart TD
     class N,S adjust;
 ```
 
-## Decision rules
+<!-- ## Notes  ## Decision rules
 
 The decision tree is based on the following rules:
 
@@ -110,7 +114,7 @@ The decision tree is based on the following rules:
 - If you are using an impact model that is threshold/tail sensitive (e.g., cooling-degree exceedances, turbine cut-out events, flood peak triggers), select bias-adjusted climate projections.
 - If your application depends on multivariate dependence (e.g., coincident temperature + humidity for demand; wind + radiation for renewables; compound hazards), avoid univariate-only bias correction that breaks dependence; consider multivariate methods and explicitly check joint behaviour. 
 - If physical consistency is paramount (e.g., modelling processes rather than just distributions), prioritise reanalysis, RCM or GCM raw physics.
-
+-->
 
 <!-- ## Notes
 - **Station observational data**: best for site-scale historical analysis and local truth.
