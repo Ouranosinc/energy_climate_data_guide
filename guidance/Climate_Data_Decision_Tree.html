@@ -7599,12 +7599,6 @@ text-align: center;
   <li><a href="#summary" id="toc-summary" class="nav-link" data-scroll-target="#summary">Summary</a></li>
   <li><a href="#rule-of-thumb-for-choosing-data" id="toc-rule-of-thumb-for-choosing-data" class="nav-link" data-scroll-target="#rule-of-thumb-for-choosing-data">“Rule of thumb” for choosing data</a></li>
   <li><a href="#decision-tree" id="toc-decision-tree" class="nav-link" data-scroll-target="#decision-tree">Decision Tree</a></li>
-  <li><a href="#decision-rules" id="toc-decision-rules" class="nav-link" data-scroll-target="#decision-rules">Decision rules</a>
-  <ul>
-  <li><a href="#rule-set-1-historical-vs-future" id="toc-rule-set-1-historical-vs-future" class="nav-link" data-scroll-target="#rule-set-1-historical-vs-future">Rule set 1: historical vs future</a></li>
-  <li><a href="#rule-set-2-scale-and-added-value-of-downscaling" id="toc-rule-set-2-scale-and-added-value-of-downscaling" class="nav-link" data-scroll-target="#rule-set-2-scale-and-added-value-of-downscaling">Rule set 2: scale and “added value” of downscaling</a></li>
-  <li><a href="#rule-set-3-bias-tolerance-and-physical-consistency" id="toc-rule-set-3-bias-tolerance-and-physical-consistency" class="nav-link" data-scroll-target="#rule-set-3-bias-tolerance-and-physical-consistency">Rule set 3: bias tolerance and physical consistency</a></li>
-  </ul></li>
   </ul>
 </nav>
     </div>
@@ -7666,7 +7660,11 @@ flowchart TD
 
     %% Historical / baseline branch
     B -- No --&gt; C{Need spatially complete gridded fields?}
-    C -- No --&gt; D[Station observational data]
+    C -- No --&gt; D{Do you have a reliable observation station nearby?}
+    
+    D -- Yes --&gt; DD[Station observational data] 
+    D -- No --&gt; F[Reanalysis data]
+    
     C -- Yes --&gt; E{Need multivariate physical consistency?}
   
     E -- Yes --&gt; F[Reanalysis data]
@@ -7718,32 +7716,27 @@ flowchart TD
 </div>
 </div>
 </div>
-</section>
-<section id="decision-rules" class="level2">
-<h2 class="anchored" data-anchor-id="decision-rules">Decision rules</h2>
-<p>The decision tree is based on the following rules:</p>
-<section id="rule-set-1-historical-vs-future" class="level3">
-<h3 class="anchored" data-anchor-id="rule-set-1-historical-vs-future">Rule set 1: historical vs future</h3>
-<ul>
-<li>If you need historical truth at a point (calibration/validation, observed exceedances), select station data (ideally homogenized for trends/extremes).</li>
-<li>If you need historical gridded data across a large area or territory with many variables, select reanalysis data, then validate and, if necessary, locally correct the specific variables that drive your impact metrics.</li>
-<li>If you need to take into account the future climate, you must use GCM or RCM projections.</li>
-</ul>
-</section>
-<section id="rule-set-2-scale-and-added-value-of-downscaling" class="level3">
-<h3 class="anchored" data-anchor-id="rule-set-2-scale-and-added-value-of-downscaling">Rule set 2: scale and “added value” of downscaling</h3>
-<ul>
-<li>If decisions are driven by large-scale averages, select GCM projections; downscaling may not add value and may in fact increase uncertainty.</li>
-<li>If decisions are driven by regional detail (complex topography/coasts, basin hydrology, convective precipitation extremes), consider RCM projections.</li>
-</ul>
-</section>
-<section id="rule-set-3-bias-tolerance-and-physical-consistency" class="level3">
-<h3 class="anchored" data-anchor-id="rule-set-3-bias-tolerance-and-physical-consistency">Rule set 3: bias tolerance and physical consistency</h3>
-<ul>
-<li>If you are using an impact model that is threshold/tail sensitive (e.g., cooling-degree exceedances, turbine cut-out events, flood peak triggers), select bias-adjusted climate projections.</li>
-<li>If your application depends on multivariate dependence (e.g., coincident temperature + humidity for demand; wind + radiation for renewables; compound hazards), avoid univariate-only bias correction that breaks dependence; consider multivariate methods and explicitly check joint behaviour.</li>
-<li>If physical consistency is paramount (e.g., modelling processes rather than just distributions), prioritise reanalysis, RCM or GCM raw physics.</li>
-</ul>
+<!-- ## Notes  ## Decision rules
+
+The decision tree is based on the following rules:
+
+### Rule set 1: historical vs future
+
+- If you need historical truth at a point (calibration/validation, observed exceedances), select station data (ideally homogenized for trends/extremes).
+- If you need historical gridded data across a large area or territory with many variables, select reanalysis data, then validate and, if necessary, locally correct the specific variables that drive your impact metrics.
+- If you need to take into account the future climate, you must use GCM or RCM projections.
+
+### Rule set 2: scale and “added value” of downscaling
+
+- If decisions are driven by large-scale averages, select GCM projections; downscaling may not add value and may in fact increase uncertainty.
+- If decisions are driven by regional detail (complex topography/coasts, basin hydrology, convective precipitation extremes), consider RCM projections.
+
+### Rule set 3: bias tolerance and physical consistency
+
+- If you are using an impact model that is threshold/tail sensitive (e.g., cooling-degree exceedances, turbine cut-out events, flood peak triggers), select bias-adjusted climate projections.
+- If your application depends on multivariate dependence (e.g., coincident temperature + humidity for demand; wind + radiation for renewables; compound hazards), avoid univariate-only bias correction that breaks dependence; consider multivariate methods and explicitly check joint behaviour. 
+- If physical consistency is paramount (e.g., modelling processes rather than just distributions), prioritise reanalysis, RCM or GCM raw physics.
+-->
 <!-- ## Notes
 - **Station observational data**: best for site-scale historical analysis and local truth.
 - **Reanalysis data**: appropriate where spatially complete and physically consistent fields are needed and to palliate the absence of observational data.
@@ -7753,7 +7746,6 @@ flowchart TD
 -->
 
 
-</section>
 </section>
 
 </main> <!-- /main -->
