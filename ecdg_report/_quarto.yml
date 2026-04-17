@@ -1,8 +1,5 @@
 project:
   type: website
-  #render:
-  #   - "*.ipynb"
-  #   - "!FullReport_MSWord.ipynb"
   preview:
     port: 3210
     browser: false
@@ -134,6 +131,7 @@ format:
 bibliography:
   - datasets/references.bib
   - sectors/references.bib
+  - sectors/infrastructure/references_dam_safety.bib
   - sectors/planning/references.bib
   - sectors/planning/generation_forecasting.bib
   - sectors/planning/resource_adequacy_planning.bib
