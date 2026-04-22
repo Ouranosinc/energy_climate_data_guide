@@ -26,7 +26,7 @@ Energy applications need local information, models provide the average condition
 
 ## 5. Future climate uncertainty is difficult to translate into operational decisions  
 
-- Climate information is often delivered in forms that are scientifically valid but operationally awkward: [emissions scenarios](../datasets/climate_projection_data/Climate_Projection_Datasets.ipynb#emission-scenarios), ensemble spreads, percentile changes, or annual mean anomalies. Also, no probabilities are assigned to future CMIP climate scenarios. 
+- Climate information is often delivered in forms that are scientifically valid but operationally awkward: [emissions scenarios](../datasets/climate_projection_data/Climate_Projection_Datasets.qmd#emissions-scenarios), ensemble spreads, percentile changes, or annual mean anomalies. Also, no probabilities are assigned to future CMIP climate scenarios. 
 
 ## 6. Data uncertainty is often difficult to translate into operational decisions 
 
