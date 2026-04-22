@@ -1,0 +1,1456 @@
+---
+title: "Climate Vulnerability and Risk Assessments"
+bibliography: adaptation.bib 
+editor: 
+  markdown: 
+    wrap: 72
+---
+
+# Climate Vulnerability and Risk Assessments
+
+Climate vulnerability and risk assessments are tools for understanding
+how climate change may impact electricity sector activities. These types
+of analysis can be scaled to meet the needs of the sector activity. They
+could be conducted in a very limited way for an individual component or
+could be expanded to an entire generating station, transmission corridor
+or other asset classes.
+
+For a vulnerability and risk assessment to be most successful it should
+be integrating into existing processes. For example, the assessment
+could be conducted as part of a dam safety review or as part of a
+planning exercise of a new transmission line. The overall process will
+be very similar.
+
+::: {#std .callout collapse="true"}
+## Existing Standards and Guides
+
+These various codes and standards are produced by standards
+organizations such as the International Standards Organization (ISO) or
+the Canadian Standards Assocation (CSA), government agencies such as
+Environment and Climate Change Canada (ECCC) or the Canadian Nuclear
+Safety Commissions (CNSC) as well as industry groups such as the
+Electric Power Research Institute (EPRI) or the Canadian Dam Association
+(CDA). In some cases climate data is explicitly included in the
+standard, which has already been extracted by climate experts. In other
+cases they outline a process which must be followed to understand
+climate risks and vulnerabilities.
+
+There are many guidance documents and standards that exist for
+conducting climate vulnerability and risk assessments. Each has their
+own uses, strengths and weaknesses. For the purposes of this guidance
+several existing guides and standards have been referenced capturing the
+best elements of each and filling in gaps where they were identified.
+
+In almost all cases the available documents are about the process of
+climate risk and vulnerability assessments and few provide concrete
+guidance on the use of climate data in that process, unless they have
+been explicitly included in data tables for calculation.
+
+|  Type   | Document | Notes | Reference |
+|:-------:|----------|-------|-----------|
+| General |          |       |           |
+
+                 International Organization for Standardization (ISO) 14091: Adaptation to Climate Change -- Guidelines on vulnerability, impacts and risk assessment   |                                                       
+                                                                                                                                                                                                                                
+                                                                                                                                                                         Internationally recognized framework                   | (\@ISO14091) |
+
+| Hydroelectric \| Canadian Standards Association (CSA) S9101.1: Climate change vulnerability assessments for dams in Canada  \| Aligns with Canadian Dam Association (CDA) processes  \| (\@CSAS910) \|
+|    Nuclear \| Electric Power Research Institute (EPRI) 3002023814: Climate vulnerability assessment guidance for Nuclear Power Plants  \| Specific for nuclear power industry  \| (\@epri_n) \|
+|    General \| Environment and Climate Change Canada ECCC SACC-CCR: Strategic assessment of climate change: Assessing climate change resilience  \| For projects subject to Impact Assessments  \| (\@sacc) \|
+|    General \| Electric Power Research Institute (EPRI) 3002029124: Climate READi asset vulnerability assessments: Considerations and resources  \| Framework for energy sector  \| (\@readi) \|
+:::
+
+A generic framework for conducting a climate change risk assessment is
+shown below. Following the scope and purpose of this guide the greatest
+detail will focus on the use of climate data and therefore the actual
+elements of vulnerability and risk assessments. The previously mentioned
+guidance documents are good sources of information for sector specific
+guidance on framing and assessment and undersanding a system.
+
+```{mermaid}
+flowchart TD
+    A[Develop Scope] -->|Assemble Team| B[Understand System]
+    B --> C[Identify Climate Hazards and Exposure]
+    C --> |Collect Climate Data| D[Vulnerability Assessment]
+    D --> |No Vulnerability| G[Institutionalize Decision]
+    D --> E[Risk Assessment]
+    E --> |Risk Not Acceptable| F[Adaptation Plan]
+    E --> |Risk Acceptable| H[Institutionalize Decision]
+```
+
+::: {#doctip .callout-tip collapse="true" title="Transparency & Documentation"}
+Clear and transparent documentation of a vulnerability and risk
+assessment is important. The whole process should be documented well
+enough that it could be easily repeated by an independent group and
+either come to the same conclusions or clearly understand how
+conclusions were drawn. This should include any assumptions (implicit
+and explicit), rationale for choices made and conclusions reached.
+:::
+
+## Establish the Scope and Context
+
+The scope and context of the assessment should first be established.
+This step sets the foundation for the full climate vulnerability and
+risk assessment by defining what is being assessed, why it is being
+assessed, and how results will be used.
+
+The starting point is a clear understanding of the application for the
+assessment, including the purpose, intended decisions, and the problem
+the assessment is intended to address. This step also clarifies what
+"unacceptable" looks like for the system by confirming performance
+requirements (if they exist), and vulnerability/risk evaluation
+criteria. Teams should use this information to choose a practical
+assessment approach, including procedures for testing potential
+solutions in later steps, and to set the depth of analysis to match the
+system and decision context (for example, a high-level screening
+assessment, a spreadsheet-based analysis, or a more detailed modelling
+exercise).
+
+::: {#S1_integration .callout-tip title="Integration" collapse="true"}
+This step should be integrated into existing processes rather than
+recreating them. The problem statement, risk evaluation criteria, and
+critical thresholds are typically available through standard governance,
+processes, and documentation, such as risk registers, a Business
+Requirements Document (BRD), design basis documents, historical
+performance information, or input from system owners and subject matter
+experts.
+:::
+
+::: {#S1_alignment .callout title="Alignment" collapse="true"}
+Teams should align the assessment with internal and external
+requirements (if applicable) that may influence the methodology. This
+stage may also integrate with existing processes (if applicable) to
+align the climate assessment methodology with regulatory or industry
+processes. For example, CSA S910.1 (@CSAS910) links climate
+vulnerability work for dams to established hydropower programs such as
+dam safety review (DSR) and failure modes and effects assessment (FMEA),
+while EPRI 3002023814 (@epri_n) links climate vulnerability work to
+nuclear programs such as equipment reliability, seasonal readiness,
+asset management, margin management and probabilistic risk assessments
+(PRA).
+:::
+
+Where relevant and current, previous assessment findings may be used to
+reduce effort in later steps by providing existing system descriptions,
+hazard screens, or vulnerability findings; however, teams should first
+confirm the earlier assessment fits the current objective and
+application, and confirm that key inputs (such as climate datasets,
+assumptions, and performance criteria) remain up to date. For example, a
+previous assessment could have been completed on an system where climate
+vulnerability has already been completed. This may reduce the effort
+needed and the objective of the new assessment may be focused on
+improving climate vulnerability or risk understanding of the system and
+strengthening adaptation planning and implementation.
+
+::: {#s1_outcomes .callout collapse="true"}
+### Outcomes of this step may include:
+
+-   Documented scope and context statement, tailored to the application
+    / use-case
+-   Confirmed objectives and evaluation criteria for the assessment
+-   Defined assessment approach and level of effort, considering
+    alignment with internal and external requirements (e.g., regulatory)
+-   Identified and summarized applicable regulatory and code
+    requirements under which the work will be completed
+-   Defined and documented system, geographic and time boundaries for
+    the assessment
+-   Recorded assumptions that define how results will be compared and
+    prioritized
+-   Identified and documented aligned programs and interfaces where
+    outputs will be used
+-   Identified and reviewed prior climate assessment content with
+    documented disposition (leveraged/reused/updated/replaced)
+-   Project team established with defined roles, responsibilities, and
+    escalation points
+-   Stakeholders identified who need to be informed, consulted, or
+    engaged
+-   Interested parties that may require participation
+-   Plan defined for obtaining climate science support where required
+-   Plan defined for embedding transparency into the assessment process
+    (traceability of methods, decisions, assumptions)
+-   Record maintained of key decisions, assumptions, and stakeholder
+    inputs that influence subsequent steps
+:::
+
+### Objectives and Evaluation Criteria
+
+Teams should confirm or establish the objective of the assessment in
+practical terms (e.g., inform an investment decision, support a design
+change, prioritize maintenance actions, update emergency planning, etc.)
+and then define the criteria used to evaluate climate-related
+assessment. Objectives and evaluation criteria describe what the
+assessment is intended to achieve and how results will be interpreted to
+support decisions.
+
+::: {#s1_crit .callout-tip collapse="true" title="Criteria"}
+Criteria are most useful when they connect to decision needs and are
+stated in measurable or clearly described terms, such as safety impacts,
+service delivery impacts, environmental impacts, financial impacts,
+compliance impacts, and reputational impacts. Where possible, teams may
+also confirm critical thresholds and unacceptable outcomes, such as
+conditions that could lead to worker or public harm, loss of essential
+function, exceedance of design or operating limits, or prolonged outage
+beyond acceptable recovery time.
+:::
+
+Typical inputs for this step may include the decision statement and
+intended use of results, existing corporate or project objectives, risk
+criteria used, performance requirements and operating limits and any
+existing risk register entries or business requirements.
+
+### Regulatory Context
+
+Teams should identify applicable laws, permits, regulatory guidance, and
+engineering codes early so the assessment can support compliance while
+remaining decision useful. Regulatory drivers may exist and influence
+the scope of the assessment through requirements that can restrict the
+approach, specify minimum design elements, or impose other constraints.
+
+Typical inputs for this step may include applicable regulatory
+requirements and code obligations for the system or activity, the
+approval or assessment processes being triggered, and any regulatory
+guidance on climate-related expectations.
+
+::: {#s1_code .callout-caution collapse="true" title="Codes and Standards"}
+Codes and standards often set minimum design or performance
+requirements; these minimums may be effective in the near term but may
+not fully account for future climate conditions, particularly where
+requirements are based on historical or retrospective design values. The
+climate assessment process presented in this standard supports
+forward-looking, prudent decisions to manage systems and assets, where
+analysis often times goes beyond minimum codes and requirements.
+:::
+
+### System, Geographic and Time Boundaries
+
+System, geographic and time boundaries define where and when climate
+conditions are evaluated, and they help ensure climate information is
+fit for the system and decision being supported.
+
+The system boundary should define the functional extent of the system
+and should identify if the boundary is limited to the system form, the
+physical system itself, or function, how it operates. It should also
+state if the assessment is considering an SSC in isolation or if
+interactions with other systems upstream or downstream are to be
+considered.
+
+The geographic boundary should define the spatial representativeness and
+scale of influence of the system, recognizing that some decisions are
+driven by very local conditions (e.g., a single piece of equipment)
+while others require a broader scale (e.g., a watershed-level approach
+for a dam system). Geographic boundaries should reflect how the SSC
+functions in practice, including dependencies such as site access,
+staffing, supply chains, and requirements for human intervention during
+extreme events.
+
+Time boundaries (time horizons) should reflect at least expected
+lifespan of the system or the period during which climate impacts may
+become critical. Multiple time horizons or scenarios may be used to
+capture a range of plausible futures.
+
+::: {.callout-tip collapse="true"}
+Assessing beyond the lifespan of the system may be useful if decisions
+made could result in lock-in or the exclusion of options in the future.
+:::
+
+Climate analyses commonly used multi-decade periods of at least 30 years
+to reflect how climate statistics are derived and interpreted. The
+selected horizon(s) should also match the decision type, such as
+near-term operational planning versus long-term asset management.
+
+## Establish a Project Team
+
+The size and composition of the project team should reflect the scope
+and complexity of the assessment. For simple or low-complexity system, a
+single individual may undertake this work. For broader, higher-risk, or
+safety-critical systems, teams are typically cross-functional and may
+include project leads, system engineers, operations and maintenance
+staff, consultants, asset owners, risk practitioners, and other subject
+matter experts. Depending on scope, agreements, or regulatory
+obligations, participation may also include community or stakeholder
+representatives. The project team should include at least one person
+with practical knowledge of how climate conditions affect the type of
+systems being assessed (e.g., how heat, icing, wind, flooding, low
+water, or wildfire can change performance, access, or reliability). For
+complex assessments, teams may include climate science expertise to
+support data selection, scenario interpretation, and uncertainty
+communication.
+
+## Understand the System, Structure, Component(s)
+
+This step builds a clear, practical understanding of the system being
+assessed, in the context of climate change. Teams should review how the
+system is designed, built, operated, maintained, and how it influences
+other systems to deliver its intended service. This understanding helps
+the assessment stay focused on the parts of the systems that matter most
+for safety, performance, and continuity, and it provides the system
+information needed to assess climate hazards and exposure. The level of
+detail should match the scope and objective confirmed previously. For a
+simple assessment, the system may be a single component. For a
+system-wide or higher-risk assessment, the system may include multiple
+critical structures, components, sub-components, and supporting
+services.
+
+::: {.callout-note collapse="true" title="Inputs"}
+Typical inputs for this step include engineering drawings and design
+basis information, system specifications, operating procedures,
+maintenance strategies, condition and inspection reports, operational
+experience, and prior risk or event documentation (such as near misses).
+:::
+
+::: {.callout collapse="true" title="Actions"}
+Actions for this step may include reviewing the available documentation,
+walking down the system where practical, and engaging station staff and
+subject matter experts (SMEs) to confirm how it works in practice, how
+it is maintained, what has changed since installation, and what current
+condition and age imply for performance. This step also includes
+checking for "design intent versus current reality" and avoiding
+assumptions that aging systems will continue to perform as originally
+specified, even in the face of a changing climate.
+:::
+
+::: {.callout collapse="true"}
+### Outcomes of this step may include:
+
+-   Documented understanding of the system and how it works with other
+    systems to deliver its intended service, written at a level of
+    detail that fits the assessment scope and decision need
+-   List of systems, structures and components critical aspects that
+    will be included in the assessment
+-   For each critical aspect identified for the system, the output
+    typically captures key specifications, known condition issues,
+    relevant operating experience (OPEX) or reports, and SME insights.
+    This step may also produce a preliminary view of climate sensitivity
+    by identifying design and operating thresholds linked to
+    meteorological or climate indicators (e.g., precipitation
+    intensities, flood levels, wind speeds, temperature operating
+    ranges, icing conditions, or low-water constraints). Staff "lived
+    experience" is often a useful input at this stage, especially where
+    performance changes or operational challenges have been observed
+    during past weather events.
+:::
+
+## Hazard and Exposure Assessment
+
+This step identifies which climate hazards are relevant to the system
+and determines which critical aspects of the system are exposed to those
+hazards. Hazard and exposure work is often described together, but they
+serve different purposes. Hazard identification asks, "*What
+climate-related events or long-term changes occur here?*", whereas
+exposure assessment asks, "*Which parts of the SSC could be affected,
+either directly or indirectly, if that hazard occurs?*". Keeping
+exposure separate from vulnerability helps avoid jumping too early to
+conclusions about whether the system will fail or perform poorly; that
+deeper evaluation is developed in later steps using thresholds, system
+behaviour, and risk criteria.
+
+::: {.callout-note collapse="true" title="What comes first...?"}
+In many assessments, teams identify relevant hazards first and then
+complete an exposure analysis for each hazard. In practice, hazard
+identification and exposure screening may also be iterative or completed
+in parallel, particularly when uncertainty exists about the hazard list,
+the system boundaries, or how it depends on supporting infrastructure.
+This step builds on scope, objectives, evaluation criteria, and
+boundaries. It produces documented inputs that can be carried forward
+consistently. Hazards and exposures may also be identified concurrently
+when developing an understanding of the system.
+:::
+
+::: {.callout collapse="true" title="Inputs"}
+Typical inputs for this step may include: \* Scope and boundaries \* The
+system description and list of critical aspects \* Site and regional
+characteristics \* Applicable regulatory requirements that specify
+hazards or metrics \* Previous internal or external climate assessments
+\* Stakeholder involvement \* Available climate datasets.
+:::
+
+Details on selecting relevant climate hazards, completing an exposure
+analysis, and selecting appropriate indicators and data is presented
+below.
+
+::: {.callout collapse="true"}
+###Expected outcomes of this step may include: \* Documented relevant
+climate hazards that could affect the system \* Documented direct and
+indirect Sexposures for each hazard based on the scope of the
+assessment. Excluded interactions that are screened out due to no
+exposure should be included \* Documented climate indicators used to
+represent each relevant climate hazard for each hazard-system
+interaction, including the use of multiple indicators for a single
+hazard where different system interactions apply \* Performance criteria
+for each selected climate indicator, including critical thresholds and
+any margins, are defined and documented \* An initial set of climate- or
+weather- related design and operating thresholds and "lived experience"
+observations that indicate where climate conditions may affect
+performance, access, safety, or reliability. \* Historical and projected
+climate datasets for the relevant hazards and indicators, including
+scenarios and time horizons, are gathered and prepared for vulnerability
+and risk analysis \* Documented validation summary confirming the
+climate data are fit-for-purpose
+:::
+
+### Hazard & Climate Driver Identification
+
+Climate hazards that may affect the SSC within the defined geographic
+boundary and time horizon(s) should be documented. Hazard identification
+typically focuses on the site and regional setting (e.g., watershed
+conditions, coastal or riverine influences, terrain, and known weather
+patterns) and then uses available evidence to confirm which hazards are
+relevant to the SSC.
+
+::: {.callout-note collapse="true"}
+Teams should draw on internal and external sources, including previous
+climate assessments (especially those for the same SSC or nearby sites),
+regional studies, and sector guidance. Information gathered previously
+is also a key input, particularly design and operating thresholds, known
+sensitivities, historical disruptions, and "live experience"
+observations from station staff.
+:::
+
+Hazard selection is often straightforward for most applications, and in
+some cases, hazards are partly predetermined by regulatory expectations,
+assessment types, or technology-specific programs. Where this occurs,
+required hazards may be used as a starting point and then supplemented
+based on SSC-specific conditions and dependencies.
+
+::: {.callout collapse="true" title="Inputs"}
+Typical inputs for this step may include: \* SSC description and
+thresholds \* Site and regional physical characteristics \* Previous
+assessments and literature \* Any hazard requirements tied to regulatory
+or program needs
+:::
+
+### Exposure Assessment
+
+Aspects of the SSC that are exposed to each relevant climate hazard
+should be documented. Screened out hazards or SSC aspects that do not
+require further evaluation may be documented. Exposure may be direct
+(the hazard physically affects the SSC) or indirect (the SSC is not
+physically exposed but depends on other SSCs or services that are
+exposed). ::: {.callout-tip collapse="true"} For example, equipment
+inside a building may not be directly exposed to wind-driven rain, but
+may still be indirectly exposed if power, controls access routes,
+cooling water, or communications are impacted by the same hazard. :::
+
+A practical exposure screening approach typically includes identifying
+direct and indirect exposures for each hazard; grouping SSCs with
+similar exposure profiles to reduce repetitive screening where
+appropriate; using system information (design parameters, technical
+specifications, condition, and OPEX) to confirm exposure pathways; and
+documenting a preliminary impact concern where exposure exists. Where no
+exposure pathway exists, the SSC aspect (or hazard interaction) can be
+screened out. Documentation of screened out exposure pathways, and
+rationale why they were excluded may be required or considered best
+practice depending on the purpose of the assessment (e.g. assessments
+completed for Impact Assessments). During exposure screening, teams may
+identify additional hazards or dependencies that were not captured
+initially; where this occurs, the hazard and exposure assessment should
+be updated. Hazard and exposure may also be revisited at the initial
+stages of vulnerability analysis.
+
+::: {.callout-tip collapse="true" title="Impact Notes"}
+Early impact notes are optional, but they often help clarify why an
+interaction matters and provide a useful bridge into vulnerability and
+risk analysis.
+:::
+
+::: {.callout collapse="true" title="Inputs"}
+Typical inputs include the hazard list, the SSC boundaries and critical
+aspects, dependency information (power, water, access, staffing,
+suppliers), design and operating parameters, and OPEX and event
+histories.
+:::
+
+### Selecting Appropriate Indicators
+
+One or more climate indicators should be selected to represent each
+relevant hazard in a consistent, measurable way. Indicators translate a
+hazard into information that can be screened, compared, and, where
+needed, quantified. Indicators may include monthly or annual
+aggregations (i.e. annual average temperature, or annual maximum
+temperature), indices (i.e. number of days above 30℃) or
+threshold/probabilistic or return period indicators (i.e. 1:100-year
+rainfall or probability of exceedance). The indicator set is typically
+built from the hazard list and the exposure pathways identified earlier,
+and it is refined to match the depth of assessment. ::: {.callout-tip
+collapse="true" title="Screening"} Screening-level assessments typically
+use indicators that are widely understood and easy to interpret (e.g.,
+the presence of heat spells or the temperature on the hottest day of the
+year can serve as indicators for extreme heat). Detailed analysis may
+require more specific variables, higher-resolution datasets, or time
+series to evaluate thresholds and operational constraints.\
+:::
+
+::: {.callout-tip collapse="true" title="Selection and Multi-hazards"}
+Indicator selection works best when it focuses on climate drivers linked
+to how the SSC performs. Some common hazard indicators represent
+multiple drivers and may need to be expressed using a combination of
+indicators. For example, 'thunderstorm" is a multi-hazard that may
+involve heavy precipitation and strong winds, with the potential for
+lightning or hail. Climate models often provide precipitation and wind
+variables directly, but not a single "thunderstorm" variable. In these
+cases, the assessment should document which indicators are used to
+represent the hazard and whether the drivers can be evaluated separately
+or whether co-occurrence is important for the SSC.
+:::
+
+More than one climate indicator is often selected for the same hazard
+because different SSC aspects may interact with different parts of that
+hazard. For example, one component may be susceptible to extreme heat
+(e.g., maximum temperature), while another may be susceptible to
+longer-duration heat conditions (e.g. heating degree days or heat
+spells). In this example, both indicators for the same climate hazard
+would need to be assessed. Selecting multiple indicators for a single
+hazard is typically appropriate when it reflects distinct exposure
+pathways and performance concerns.
+
+::: {.callout collapse="true" title="Inputs"}
+Typical inputs for this step may include the relevant hazard list, the
+exposure matrix (direct and indirect exposures), SSC design and
+operating information from the system review, the decision context and
+level of analysis, and available data sources.
+:::
+
+### Performance Criteria
+
+Performance criteria *should* be defined for each selected climate
+indicator so the assessment can interpret climate conditions in SSC
+terms. Performance criteria are the benchmarks used to judge whether the
+SSC remains reliable and fit for service under a given climate stress.
+Criteria are most useful when they connect the indicator to an
+operational limit, a design constraint, a safety requirement, or an
+acceptable level of degraded performance. This sub-step uses information
+gathered during the SSC review and exposure assessment, including design
+and operating parameters, dependencies, known sensitivities, condition
+information, and operational experience.
+
+Performance criteria may include a critical threshold that defines the
+point at which performance becomes unacceptable when exposed to a
+climate indicator. Where practical, teams may also define a margin (or
+trigger level) that signals the SSC is approaching a critical threshold
+and may warrant monitoring, operational changes, or planned upgrades.
+These thresholds and margins become the reference points used later when
+comparing projected climate conditions in the vulnerability assessment
+and risk assessment.
+
+Two approaches are commonly used:
+
+**A performance-based threshold approach** uses established design or
+functional limits where these are available and meaningful, and it helps
+keep results actionable. For climate assessments, it is important to
+represent unacceptable levels of performance or reliability.
+
+**A risk-informed approach** is often used when a clear performance
+threshold does not exist or when partial functionality is acceptable. In
+those cases, teams define what level of performance reduction is
+acceptable (e.g., allowable derating) and for what duration, consistent
+with the decision context and the organizations risk tolerance. This
+approach relies on SMEs experience with the SSC or supporting literature
+to inform the performance criteria selection.
+
+::: {.callout-note collapse="true"}
+Many assessments use both approaches because some indicators have
+well-defined limits (e.g., extreme precipitation thresholds in certain
+designs) while others may not (e.g., changes in freeze-thaw cycles).
+:::
+
+::: {.callout collapse="true" title="Inputs"}
+Typical inputs for this step may include the indicator list, exposure
+pathways and preliminary impact concerns, SSC design limits and
+operating ranges, condition and maintenance information, operational
+experience, and the evaluation criteria and risk tolerance established
+earlier.
+:::
+
+## Gather and Validate Climate Data
+
+This sub-step gathers and validates the climate data needed to evaluate
+selected indicators over the relevant geographic area and time
+horizon(s). Data selection supports two needs: representing historical
+conditions to provide context and support reasonableness checks and
+representing future conditions to test how hazards may change over the
+SSC life.
+
+::: callout-important
+The dataset should cover a broad enough range of plausible climate
+conditions to meaningfully test the SSC against the performance
+criteria.
+:::
+
+For more information on climate data and projections refer to [the
+overview on climate
+datasets](./datasets/Climate_Datasets_Overview.ipynb)
+
+### Assessing Data Suitability
+
+Data suitability should be assessed before analysis begins, and ensure
+that:
+
+The range of climate drivers is broad enough to encompass all plausible
+conditions that could impact the SSC. This should include collecting
+climate data for all relevant hazards and climate indicators identified,
+under one or more climate scenarios (i.e. SSP2-4.5, SSP5-8.5). Refer to
+[Core Concepts: Climate Data](./adaptation/core_concepts_data.qmd) and
+the [Climate Data Decision
+Tree](guidance/Climate_Data_Decision_Tree.qmd)for more details on
+climate data.
+
+Data is collected for all relevant time horizons (e.g., 2030s, 2050s,
+2080s) to represent the time boundaries identified in [System,
+Geographic and Time
+Boundaries](###System,%20Geographic%20and%20Time%20Boundaries). Climate
+data time horizons selected should capture the life of the SSC and/or
+should align with the purpose and objective of the assessment.
+
+Select one or more appropriate future value or range criteria to
+represent the future climate condition in which the SSC performance
+criteria will be compared against for a given climate scenario and time
+horizon. This may be a consistent future value or range criteria across
+climate hazards and indicators or may vary depending on the specific
+climate hazard exposure interactions, and their criticality to SSC
+performance or operations.
+
+::: {.callout collapse="true" title="\"Inputs"}
+Typical inputs for this step may include the indicator list and required
+variables, geographic and time boundaries, chosen scenarios and time
+horizons, internal datasets, candidate external datasets, and any known
+data limitations.
+:::
+
+## Climate Vulnerability Assessment
+
+This step identifies how vulnerable the critical aspects of the SSC are
+to the climate hazards and indicators identified in [the previous
+step](##Hazard%20and%20Exposure%20Assessment). In some climate
+assessments, the term vulnerability is sometimes erroneously used
+interchangeably with exposure or risk, but the concepts are different
+([see Core Concepts - Understanding
+Adaptation](./core_concepts_adapt.qmd) . Exposure describes whether the
+SSC interacts with a climate driver (directly or indirectly).
+Vulnerability describes how the SSC performs when exposed, based on its
+sensitivity (how strongly it responds to a stress) and its adaptive
+capacity (how well it can cope using measures that already exist). Risk
+adds likelihood or probability and is addressed later. The core question
+is "how sensitive is the SSC to the relevant climate drivers and how
+much existing capacity does it have to cope under those drivers"?
+
+The intergovernmental Panel on Climate Change (IPCC) adopts the
+following definition of vulnerability:
+
+$$
+V = f (S, AC)
+$$
+
+where vulnerability $V$; Sensitivity $S$; and Adaptive Capacity $AC$
+
+Vulnerability assessments should be as quantitative as practical, given
+available information and the decision context. This step uses outputs
+from the [exposure and hazard
+assessment](##Hazard%20and%20Exposure%20Assessment) to estimate
+vulnerability for each critical SSC aspect and exposure interaction, and
+to identify what follow-up actions or decisions are needed. The
+following sections provide detail on how these concepts are completed
+and used to estimate climate vulnerability.
+
+::: {.callout collapse="true" title="Outcomes"}
+Expected outcomes of this step may include: \* Estimation of climate
+sensitivities of the SSC's critical aspects across relevant climate
+hazards (and indicators) interactions \* Estimation of existing adaptive
+capacity of the SSC that may reduce sensitivity to relevant climate
+hazards and indicators \* Estimation of climate vulnerabilities of the
+SSC's critical aspects across relevant hazards (and indicator)
+interactions \* Clear and documented decision-making in response to each
+vulnerability identified \*Documented vulnerability assessment process,
+including findings, methodologies used and how sensitivity and adaptive
+capacity were incorporated
+:::
+
+### Sensitivity Assessment
+
+Sensitivity should be evaluated by comparing projected climate
+conditions (for each selected indicator, scenario and time horizon)
+against the SSC performance criteria established in [Performance
+Criteria](###%20Performance%20Criteria). A sensitivity assessment
+analyzes how susceptible the critical aspects of the SSC are to a
+particular climatic driver.
+
+Sensitivity may be estimated using different industry methods depending
+on data availability, complexity, and purpose. Common approaches may
+include:
+
+-   Simple design margin-based screening (sometimes described as
+    "bounding" analysis). This approach simply determines if the design
+    is within the range of potential climate data and assumes
+    sensitivity is not an issue if it designed to handle those
+    requirements;
+
+-   Manufacturer or design data where available can be used to relate
+    SSC performance and climate drivers.
+
+-   Fragility-style relationships are sometimes developed that link
+    stress levels to probability of failure either through empirical
+    data or laboratory testing
+
+-   Stress testing methods that use modelling or expert judgement
+    approaches to evaluate system response under increasing stress from
+    climate drivers.
+
+::: {#stress .callout collapse="true" title:"Conducting a Stress Test"}
+\### Conducting a Stress Test A stress test systematically alters
+climate variables or other external drivers to assess how an SSC
+responds under increasingly stressful conditions. The goal is to
+determine where performance criteria are no longer met. Stress testing
+can be performed at various levels of complexity, depending on available
+data, models, and the confidence required in the results.
+
+**Types of Stress Tests**
+
+Stress testing is an industry recognized method that can be used to
+perform quantitative and semi-quantitative sensitivity analyses. Stress
+testing can also be used to estimate SSC vulnerability, accounting for
+existing adaptative capacity measures, as well as used in adaptation
+measure analysis and selection. The type of stress test performed will
+vary depending on the available data. Different types of stress test
+methods are presented below depending on if quantitative or
+semi-quantitative data is available.
+
+::: {.callout collapse="true" title="Expert-Driven Stress Test"}
+A semi-quantitative method for assessing an SSC when no formal model
+exists or interactions are difficult to model. It relies on
+knowledgeable systems experts who understand both general SSC behavior
+under climate hazards and the specific SSC being evaluated. Experts
+review technical documents, operational reports, and prior system
+reviews, then use available climate data to assess expected performance
+across multiple hazard scenarios. Comparing scenario outcomes helps
+identify vulnerabilities, and results should include some quantitative
+expressions, often a categorical ranking of performance.
+
+::: callout-tip
+Because expert judgment can be influenced by bias or incomplete system
+knowledge, the process should include multiple experts, independent
+review, and thorough documentation of assumptions and decisions to
+ensure transparency and repeatability.
+:::
+
+This approach is best suited to simple systems or as an initial
+screening tool, and it can be useful where complex interactions make
+modeling difficult. If high vulnerability or uncertainty is found, more
+detailed model-based analysis should follow. The assessment should also
+consider lifecycle effects by documenting how vulnerability changes as
+the SSC ages, degrades, and is maintained until rehabilitation or
+renewal.
+:::
+
+::: {.callout collapse="true" title="Simple Stress Test"}
+A simple quantitative stress test evaluates an SSC by
+applying empirically derived equations or existing/new simple
+models that represent SSC behavior, but only after the model
+is developed, calibrated, and validated to ensure it is fit for
+simulating responses to climate drivers. Practitioners
+then systematically vary input variables or run the model multiple
+times to explore sensitivity and analyze/plot outputs and performance
+metrics to show how performance changes with inputs. Extra caution is
+needed when using climatic inputs outside the calibration range, since
+models may be unreliable for extrapolation and results may not be valid.
+Where appropriate, several simple models can be applied to individual
+components, with their interactions then integrated via an expert-driven
+approach to infer overall system performance.
+:::
+
+::: {.callout collapse="true" title="Detailed Quantitative Stress Test"}
+A complex quantitative modelling approach assesses an SSC using more
+sophisticated models than simple methods, such as higher-dimensional,
+numerically complex, or coupled impact models. As with any modelling,
+these models must be calibrated, validated, and confirmed
+fit-for-purpose. Practitioners then systematically vary climatic and
+other key inputs to evaluate sensitivity to different climate drivers
+and produce performance response curves or surfaces. Because complex
+models often demand greater computational resources and longer run
+times, these constraints are managed by using larger stress increments
+(fewer runs), adding computing capacity, or simplifying model structure.
+In some cases, multiple models are applied to individual components, and
+their interactions are integrated using expert judgment to understand
+overall system performance.
+:::
+
+**Stress Test Example**
+
+The figure below illustrates a hypothetical single-metric stress
+test where a climate driver is systematically increased -- here using
+an ensemble of climate model data -- to evaluate SSC response,
+showing progressive performance degradation until a threshold beyond
+which the SSC no longer performs acceptably. In some cases, equivalent
+stress-test information (e.g., performance or fragility curves) may
+already exist from manufacturers or other sources, provided it spans
+a sufficient range of conditions.
+
+![](images/stresstest-01.png)
+
+::: callout-note
+The guidance describes three stress-test levels mainly for clear
+communication and suggests applying them sequentially (increasing
+complexity) until confidence is adequate, though analysts can also
+select any level upfront based on available, trusted models or data. In
+practice, hybrid/continuous levels of complexity are common. The central
+requirement is having enough evidence to confidently assess SSC
+sensitivity or vulnerability, while exercising caution when
+extrapolating beyond the conditions for which the model or data were
+developed.
+:::
+
+The stress test shown above could be completed with a multiple climate
+hazards or multiple performance measures so long as there was a model or
+method to map those drivers to performance. For multiple climate
+hazards, this would be done by varying combinations of two inputs to
+determine the system response. For example, an external powerline could
+be subject to loading from both wind and ice accretion. Combinations of
+both climate hazards could be tested in a loading model to see how they
+interact to affect line loading. :::
+
+This guide describes two approaches for sensitivity assessment: a
+preferred quantitative approach which uses data to link system response
+to a climate driver and a semi-quantitative approach where data is
+limited, and expert judgement needs to be considered.
+
+::: {.callout-note collapse="true" title="Adaptive capacity"}
+Modifications to the sensitivity of the system due to operational
+procedures or temporary modifications are considered adaptative capacity
+and reflected in the overall sensitivity of the system following the
+consideration of adaptive capacity.
+:::
+
+**Option 1: Quantitative Data Approaches**
+
+The quantitative approach allows for the visualization of the SSC
+sensitivity using lines or other functions that map system performance
+against climate indicators under one or more climate scenarios. This is
+done using quantitative data (measured or modelled SSC performance) to
+map SSC performance under a specific climate driver or indicator.
+
+The type of quantitative data (simple or complex modeling) used for this
+approach will depend on the data available at the time of the
+assessment, the level of analysis required to satisfy the purpose of the
+assessment, and the level of complexity of the climate interaction with
+the SSC. However, the outputs should include some quantification
+expression of sensitivity, and calibrated/validated to ensure the
+approach is fit for simulating the SSC response to the climate
+condition. This validation may require multiple experts, particularly in
+situations where no formal model exists or it is difficult to capture
+SSC performance when exposed to the climate driver.
+
+::: {.callout-caution collapse="true" title="\"Relationships"}
+These relationships may be linear, non-linear, or exhibit step changes
+(e.g., systems with automatic shutdowns when thresholds are exceeded).
+While simple examples are one-dimensional, real-world cases may require
+multi-dimensional analysis with multiple climate hazards, climate
+scenarios and performance criteria.
+:::
+
+This approach should use performance data provided by a manufacturer or
+another credible entity, information from laboratory testing or the
+results from empirical or numerical stress testing to establish how the
+SSC will respond to climate drivers.
+
+::: {.callout-note collpase="true" title="Range of Conditions"}
+The range of conditions in both the quantitative and semi-quantitative
+sensitivity approaches should be plausible (i.e. encompass all historic
+and potential future conditions for all scenarios). The only goal for
+vulnerability is to understand the SSC response under various
+circumstances and under what circumstances the SSC fails to perform. It
+is therefore likely that the vulnerability assessment will show the
+breaking point of the system, even if it is unlikely to occur in
+reality. Likelihood/probability of the event occurring is assessed in
+the [risk analysis](##%20Risk%20Assessment).
+:::
+
+::: {.callout collapse="true" title="Example"}
+
+An example presented in the figure above, illustrates how SSC
+sensitivity can be mapped against a climate indicator. In the example,
+the performance criteria (safety margin and critical thresholds) have
+been defined for an SSC. Two specific SSC types/units are being compared
+to the same projected climate indicator stress or driver (e.g., 35℃).
+
+In the example, the SSCs are more sensitive as the climate driver
+increases in intensity which is represented by decreasing SSC
+performance. The key concept is that the SSCs are systematically
+evaluated against changes in the plausible range of the climate
+projection data and does not consider the likelihood or timing of the
+scenario. The climate driver being considered is sampled broadly enough
+to capture any plausible conditions. The SSC represented by the blue
+line has greater sensitivity to the climate condition than the SSC
+represented by the yellow line. That is, we see the SSC performance
+represented by the blue line reaching unacceptable levels faster than
+the yellow line. This may be due to a variety of reasons such as the age
+of the SSCs, model/type of the SSCs, physical location of the SSCs, etc.
+
+**Outcome:** As the climate hazard increases in intensity the SSC
+performance crosses the critical threshold (unacceptable performance) at
+a range that is beyond historic conditions but within the range of the
+climate projections (e.g., as temperature increases beyond 35℃).
+
+:::
+
+**Option 2: Semi-Quantitative Approach** There are situations in which
+the quantitative Option 1 approach is not possible due to a lack of data
+or modelling, limitations in climate projection models (i.e. hazards
+such as tornados not captured by models), or complex interactions in the
+SSC that make modelling impractical. In these situations, a
+semi-qualitative approach to sensitivity can be used. This approach aims
+to achieve the same objective of Option 1, where the performance of the
+system is described (qualitatively) or mapped in a similar way to the
+quantitative approach, but the performance is determined through OPEX
+and expert judgement to develop representative proxies.
+
+::: {.callout-caution collapse="true" title="Uncertainty"}
+It is important to note that since this approach requires qualitative
+inputs, higher uncertainty is likely to exist in the estimation of
+sensitivity. As a result, this approach may be best implemented as an
+initial screening approach or higher-level assessments (e.g., portfolio
+assessments) and should be refined once more data is available.
+:::
+
+This approach involves identifying proxy for the SSC that can be
+categorically mapped to the relevant climate indicators. Proxy selection
+relies on knowledgeable SSC SMEs who understand general SSC behavior
+under the relevant climate hazards being assessed. Proxies are often
+thought of as variables that increase SSC sensitivity when exposed to a
+climate indicator (e.g., age of the SSC). To identify relevant
+sensitivity indicators, SSC SMEs will review technical documents,
+operational reports, and prior system reviews. One or multiple proxies
+may be selected and assessed for each relevant climate indicator,
+depending on the [exposure assessment](###%20Exposure%20Assessment)
+results.
+
+Next, climate data that has been collected is used to assess SSC
+sensitivity across the proxies for each climate indicator. Similar to
+the Option 1 approach, the climate driver being considered is sampled
+broadly enough to capture any plausible conditions. The results of this
+analysis should include some expression or level of sensitivity for each
+proxy. This is often represented with a categorical ranking of SSC
+performance. The categorical ranking process often involves developing a
+tiered scale.
+
+::: {.callout collapse="true" title="Example"}
+An example of how this semi-quantitative approach may be implemented is
+presented in the Table below. In this example tornados and thunderstorms
+are being evaluated as hazards, where two climate indicator stressors
+were selected to represent the hazards.
+
+Based on the review of the SSC, SMEs determine that infrastructure age,
+and SSC response time to react to the climate indicators have been
+selected as relevant proxies that would make the SSC more susceptible to
+the climate indicator. A five tiered scale was developed to categorize
+sensitivity to the climate indicators; very low sensitivity (1), low
+sensitivity (2), moderate sensitivity (3), high sensitivity (4), or very
+high sensitivity (5), where a moderate sensitivity (3) would represent
+the potential for a critical threshold exceedance event, based on the
+SMEs knowledge of the SSC.
+
++----------------+----------------+----------------+----------------+
+| Climate Hazard | Climate        | Proxy          | Proxy          |
+|                | Indicator      | Indicator 1 -  | Indicator 2 -  |
+|                | Stress         | Age of System  | System         |
+|                |                |                | Response Time  |
++================+================+================+================+
+|                | Description    | Very Low \<10  | Very Low \<2   |
+|                |                | years          | hours          |
+|                |                |                |                |
+|                |                | Low 10-15      | Low 2-3 hours  |
+|                |                | years          |                |
+|                |                |                | Moderate 3-5   |
+|                |                | Moderate 15-25 | hours          |
+|                |                | years          |                |
+|                |                |                | High 5-7 hours |
+|                |                | High 25-30     |                |
+|                |                | years          | Very High \>7  |
+|                |                |                | hours          |
+|                |                | Very High \>30 |                |
+|                |                | years          |                |
++----------------+----------------+----------------+----------------+
+| Tornados       | Fujita Scale   | High (4)       | High (4)       |
++----------------+----------------+----------------+----------------+
+| Thunderstorms  | Number of      | Moderate (3)   | Low (2)        |
+|                | Lightning      |                |                |
+|                | Strikes        |                |                |
++----------------+----------------+----------------+----------------+
+
+: Example of Scale Approach to Sensitivity or Vulnerability
+
+**Outcome:** the SSC has been estimated to have high sensitivity when
+exposed to tornado events. Based on the established performance criteria
+of a medium sensitivity level or higher representing potential
+unacceptable performance, these results would result in unacceptable
+performance for the SSC. For thunderstorm events, moderate sensitivity
+(unacceptable performance) has only been estimated for the one
+sensitivity indicator.
+:::
+
+This example highlights how higher uncertainty may exist in this
+approach, since there is subjectivity involved in selecting proxies that
+would represent the performance criteria of the SSC, as well as
+subjectivity when selecting sensitivity criteria level (low, medium
+high). As such, this approach should be used when data limitations exist
+and be revisited once further data is available to refine the assessment
+findings.
+
+::: {.callout-caution collapse="true"}
+Since expert judgment can be influenced by bias or incomplete system
+knowledge, the process should include multiple experts, independent
+review, and thorough documentation of assumptions and decisions to
+ensure transparency and repeatability.
+:::
+
+For both Quantitative and Semi-Quantitative sensitivity analysis
+approaches, analysis should include the maximum bounding conditions that
+exist in the climate projection data, which may extend beyond the
+operating conditions of the SSC. A common industry methodology used to
+assess SSC sensitivity is a Stress Test. A Stress Tests can be completed
+for both quantitative and semi-quantitative approaches presented above.
+Refer to Appendix E for more details on Stress Tests, and the types of
+Stress Tests that can be completed.
+
+### Adaptive Capacity
+
+The existing adaptive capacity that describes the SSC's current ability
+to cope with climate stresses using measures that already exist should
+be documented. It differs from adaptation measures (Step 6), which are
+new actions implemented in response to unacceptable vulnerability or
+risk. Existing adaptive capacity includes SSC temporary modifications or
+operational procedures available that help maintain acceptable
+performance during adverse conditions. If/when new adaptation measures
+are implemented (Step 6), they become part of the SSC's existing
+adaptive capacity for future climate assessments.
+
+Identifying existing adaptive capacity of an SSC will involve technical
+expertise and an overall operational understanding of the SSC. Some
+systems have existing temporary modifications or operational procedures
+that allow SSCs to adapt more readily than others, depending on factors
+such as financial resources, regulatory environments, and organizational
+flexibility. Adaptive capacity can offset the primary sensitivity to an
+SSC by ensuring there are existing options to increase resilience and
+reliability, and the institutional capacity to execute those options.
+Refer to Appendix C.1.5 and C.1.6 for more details on system reliability
+and resilience.
+
+Key Considerations:
+
+In order to assess how existing temporary modifications or operational
+procedures may reduce the SSC climate sensitivity, key adaptive capacity
+considerations (presented below) should be identified and assessed
+against the climate interaction.
+
+Financial Capacity: The financial resources available to maintain
+systems, purchase supplies, flexible budget allocation, fund repairs,
+and support emergency actions.
+
+Technical Capacity: The condition and reliability of equipment and
+infrastructure, including maintenance practices, early warning signs,
+testing frequency, and system performance during disruptions.
+
+Human Capacity: The skills, training, and knowledge required for staff
+to operate systems and make effective decisions during times where
+adaptive measures are in place.
+
+Regulatory Capacity: The ability to meet legal, safety, and
+environmental regulatory requirements, execute mandated emergency
+procedures, and maintain compliance during climate events.
+
+Emergency Preparedness: The plans, drills, communication protocols,
+awareness, training programs, and coordination mechanisms that guide
+operational response during disruptions.
+
+#### Estimating Adaptive Capacity
+
+Adaptative capacity should be estimated by critically assessing what key
+considerations (presented above) are applicable and currently exist for
+the SSC being assessed, in the context of their overall ability to
+reduce sensitivity. For example, when evaluating adaptive capacity of an
+SSC when exposed to extreme temperatures, the SSC may have:
+
+Technical adaptive capacity -- the technical ability to alter or modify
+maintenance, operations or SSC performance when exposed to extreme heat.
+
+Financial adaptive capacity -- financial resources to maintain systems,
+complete repairs and implement emergency response actions when exposed
+to extreme heat.
+
+Human adaptive capacity -- onsite staff with the expertise to operate
+the SSC when exposed to extreme heat.
+
+Regulatory adaptive capacity -- flexibility in the regulatory boundaries
+in which the SSC operates within.
+
+Emergency preparedness adaptive capacity -- existing SSC protocols have
+the capabilities to support the resilience of the SSC when exposed to
+the relevant hazards or indicators.
+
+Other considerations may be to understand the sensitivity of the
+temporary modification or operational procedure being assessed to
+understand its reliability or performance when exposed to the same
+climate interaction.
+
+Once key adaptive capacity considerations are identified for the SSC,
+the influence of these adaptive capacity considerations can be estimated
+to understand how they may reduce sensitivity when exposed to climate
+hazards and indicators. This process can be subjective and difficult to
+estimate, where biases can overestimate the perceived adaptive capacity
+of an SSC to reduce sensitivity. For these reasons, it is important to
+be objective and challenge findings to ensure adaptive capacity is not
+being overly credited for reducing a climate vulnerability.
+
+This may involve weighing each of the key considerations available in
+terms of importance or relevance to reducing the SSC sensitivity. At the
+end of this evaluation, an expression of reduction to the SSC
+sensitivity should be established for the temporary modification or
+operational procedure assessed. This may be informed by quantitative
+inputs when measured or modelled data exists for the adaptive capacity,
+as well as semi-quantitative data, based on knowledgeable system SMEs
+who understand general SSC behavior and the efficacy of the temporary
+modification or operational procedure assessed.
+
+Example:
+
+The objective of adaptive capacity estimations is to utilize all
+quantitative (e.g., measured or modelled) and semi-quantitative (e.g.,
+SSC experts, lived experience or observations) data to estimate the
+ability for the temporary modification or operational procedure to
+reduce the SSC sensitivity.
+
+Using the extreme heat example above, the assessment of adaptive
+capacity using quantitative data could be as follows:
+
+Technical adaptive capacity -- cooling fans or system has been
+identified within the vicinity of the SSC. These cooling systems
+performance criteria indicate that they will remain operational when
+exposed to the projected extreme heat conditions. When the cooling fans
+or system is turned on, it has been observed through logged measurements
+that SSC operating temperatures drop between 3-5℃.
+
+Financial adaptive capacity -- financial resources allocated in current
+O&M budget to operate these cooling systems for a limited number of
+hours for a given year.
+
+Human adaptive capacity -- staff are onsite and able to turn on cooling
+fans/system when extreme temperatures are experienced.
+
+Additional insights from the SSC SMEs may be collected to accompany the
+above information. This may include understanding how much OPEX budget
+is currently allocated to running cooling fans or system and comparing
+this information to anticipated run times under the projected future
+conditions. Similarly, how much response time is there from when staff
+turn on cooling systems to when the SSC experiences cooling? If a clear
+understanding of how adaptative capacity will influence SSC sensitivity,
+this information can then be integrated into the sensitivity analysis to
+determine vulnerability (Section 1.3.5.3).
+
+If further refinement is needed to understand how the temporary
+modification or operational procedure will reduce SSC sensitivity, key
+considerations can be mapped or categorically evaluated to help refine
+understanding. Criteria definitions for each key consideration can be
+developed to understand how each key consideration will influence
+sensitivity, as well as the relevance or importance of each key
+consideration identified. For example, the technical adaptive capacity
+of the cooling fans or system, a low adaptive capacity may represent a
+temperature reduction to the SSC of 0-2 ℃, where a high adaptive
+capacity would represent a temperature reduction to the SSC of 8-10 ℃.
+
+It is also important to consider the calculation method in which
+adaptive capacity estimation is completed. Some key considerations
+identified may be more critical to reducing the overall SSC sensitivity,
+and as such weighing the key considerations may be completed to reflect
+that importance. For example, it may be determined that the cooling fans
+or system have a high adaptive capacity (e.g., ability to reduce SSC
+temperatures to acceptable levels) but a low adaptive capacity for the
+cooling fans or system to respond to the climate event (e.g., long
+response time). This would mean the ability to cool the SSC is there,
+however the SSC sensitivity may remain the same since the adaptive
+capacity can not cool the SSC within an acceptable amount of time to
+avoid performance entering unacceptable levels.
+
+The outcomes of the adaptive capacity estimations can be integrated with
+the sensitivity analysis results to estimate climate vulnerability (see
+Section 1.3.5.3 below).
+
+Adaptive capacity does not always need to be evaluated as a separate
+sub-step. If the sensitivity method already accounts for existing
+temporary modifications or operational procedures (e.g., if performance
+thresholds and operating procedures already reflect how the SSC is
+managed during extreme conditions) then adaptive capacity may already be
+embedded in the sensitivity results. A separate adaptive capacity
+evaluation is most useful when coping measures exist outside the SSC's
+design limits or performance data and therefore are not captured in the
+sensitivity analysis (e.g., manual interventions, temporary equipment,
+discretionary operational changes, or organizational response
+capabilities).
+
+Definitions of adaptive capacity vary across guidance documents, with
+each source framing the concept differently based on its purpose and
+context. For more information on adaptive capacity or for comparing an
+assessment with notable external industry standards and guidance on this
+topic.
+
+### Assess Vulnerability
+
+The overall climate vulnerability should be estimated where sensitivity
+and adaptive capacity results can be combined to establish vulnerability
+(see climate vulnerability equation in Section 1.3.6 above). As noted
+above, if the sensitivity analysis approach taken incorporates existing
+adaptive capacities for the SSC, the sensitivity analysis results should
+be considered the estimated climate vulnerability. In these situations,
+estimated vulnerability can follow next steps for unacceptable
+vulnerability presented below.
+
+However, if sensitivity and adaptive capacity of the SSC were estimated
+separately, these estimates need to be combined to understand the SSC's
+climate vulnerability. How this is completed can vary depending on the
+approaches taken to estimate SSC sensitivity. The approach for
+estimating vulnerability should fit the need of the overall purpose or
+objective of the assessment. Table 18 below provides a high-level
+summary and considerations of how climate vulnerability can be
+estimated, depending on the assessment approaches taken for sensitivity.
+
+Table 18. Estimating Climate Vulnerability
+
+Quantitative Approach
+
+Semi-quantitative Approach
+
+Reanalysis of performance curve accounting for quantitative adaptive
+capacity measurements (if available).
+
+Review semi-quantitative adaptive capacity considerations, and where
+appropriate, adjust performance curve, safety margin or critical
+thresholds.
+
+Review quantitative and semi-quantitative adaptive capacity estimates
+and apply appropriate reductions to sensitivity indictor in coordination
+with SSC SMEs. This will be completed by applying a reduction factor to
+the sensitivity for each proxy indicator.
+
+An example of what this may look like following the quantitative
+sensitivity approach is presented in Figure 6. In this figure the
+initial SSC sensitivity curve represented by the solid blue line was
+created. Following this, existing adaptive capacity was assessed and
+applied to estimate SSC vulnerability to the climate indicator,
+represented by the blue dashed line.
+
+Figure 6 Diagram showing SSC vulnerability with and without adaptive
+capacity using the Quantitative Sensitivity Approach
+
+An example of what this may look like following the semi-quantitative
+sensitivity approach is presented in Table 19. In this table, initial
+SSC sensitivity level was estimated to be high for a particular proxy
+indicator. Following this, existing adaptive capacity was assessed and
+applied as a reduction factor to estimate vulnerability level for the
+proxy indicator.
+
+Table 19. Example showing SSC vulnerability with and without adaptive
+capacity using the Semi-quantitative Sensitivity Approach
+
+Climate Hazard
+
+Climate indicator
+
+Sensitivity -- Proxy Indicator 1
+
+Vulnerability -- Proxy Indicator 1 (considering adaptive capacity)
+
+Tornados
+
+Tornado frequency -- Fujita Scale
+
+High (4/5)
+
+Moderate (3/5)
+
+At the conclusion of the vulnerability assessment, there should be a
+clear and well-documented understanding of how sensitive the SSC is to
+relevant climate hazards and indicators. This information should be
+institutionalized -- formally recorded -- along with a determination of
+whether the identified vulnerability is acceptable (i.e., not expected
+to compromise performance) or if further action is required. If the
+vulnerability is low, then there may be justification to accept the
+situation and not proceed further or implement a monitoring plan to
+determine if the situation is changing.
+
+Vulnerability analysis does not assess the likelihood of conditions but
+focuses on system response should those conditions occur. The domain for
+analysis should fully encompass all plausible conditions which can be
+informed by historic data, climate projections, proxies, or expert
+input.
+
+### Next Steps for Unacceptable Vulnerability
+
+If the assessment identifies unacceptable performance under certain
+climate conditions, several pathways are available. The choice of next
+steps should be guided by the specific context and informed discretion:
+
+Proceed to Climate Risk Assessment: Many guidance documents, including
+those used for regulatory purposes (such as SACC CCR during an Impact
+Assessment), recommend moving from vulnerability assessment to a risk
+assessment. This next step adds complexity by estimating the probability
+that climate hazards will reach levels that could impact performance and
+helps prioritize adaptation actions. Note that risk assessment may
+require specialized climate expertise and can be resource intensive.
+
+Consider Adaptation Options Directly: In some cases, it may be more
+practical to address the identified vulnerability with adaptation
+measures, rather than conducting a full risk assessment. The CSA S910.1
+allows for the direct evaluation of adaptation options when the cost or
+complexity of a risk assessment is not justified by the potential
+impact. For example, if a water control structure is found to be
+vulnerable to icing, installing heaters or bubbler systems may be a
+straightforward solution that is less costly than a risk
+assessment---especially if a risk assessment would likely lead to the
+same recommendation.
+
+Document and Institutionalize Findings: Regardless of the chosen
+pathway, it is essential to document the assessment results, the
+acceptability of the vulnerability, and the rationale for any further
+actions. This ensures transparency, repeatability, and accountability in
+decision-making.
+
+Not all vulnerabilities require a risk assessment; the decision should
+be based on the potential impact, cost, and complexity of the issue.
+Adaptation options can often be implemented directly if they are clearly
+justified by the vulnerability assessment. For high-impact or complex
+vulnerabilities, a more detailed risk assessment may be warranted to
+guide effective prioritization and resource allocation.
+
+Following these steps ensures that climate vulnerability assessments
+lead to informed, practical, and cost-effective decisions that enhance
+the resilience of OPG's assets and operations.
+
+# fd
+
+Selecting a Vulnerability Assessment Approach
+
+Figure 11 provides the approach to completing climate vulnerability
+assessments. This methodology has been tailored to meet the variety of
+needs within OPG, and aims to provide the greatest flexibility, to allow
+the approach to be scalable and customizable depending on the purpose
+and objective of the assessment. For each variable used to determine
+vulnerability (sensitivity and adaptive capacity), two analysis options
+for both sensitivity and adaptive capacity have been provided which can
+be selected based on the data and level of information available when
+completing the assessment.
+
+Figure 12 Climate Vulnerability Methodology Flow Diagram
+
+For the sensitivity assessment, the two approaches include:
+
+Quantitative Approach -- Generally used when a high degree of data and
+information is available. This approach yields higher confidence in
+measuring SSC sensitivity as it relies on quantitative data inputs that
+are measurable and observable.
+
+Semi-quantitative Approach -- Generally used when there are limitations
+in the data or current understanding, or when the purpose/objective of
+the assessment does not require a detail analysis approach (e.g.,
+screening-level assessment or portfolio assessments). This approach
+yields lower confidence in measuring SSC sensitivity as it relies on
+identifying appropriate sensitivity indicators to represent what would
+make the SSC sensitive to a climate indicator or driver.
+
+Below are some industry recognized methods that can be used to complete
+quantitative and semi-quantitative sensitivity assessments:
+
+Margin Management (sometimes described as a bounding analysis) assesses
+whether the SSC's design envelope covers the full range of projected
+climate extremes. If the SSC is already robust enough to withstand these
+extremes, further analysis may not be necessary. This analysis can serve
+as a screening tool.
+
+Manufacturer Data may be available from a manufacturer or designer. This
+information should directly link the performance of the SSC to the
+climate indicator and can be used to determine the sensitivity of the
+system to climate hazards.
+
+Fragility Curves are a terminology used in EPRI's Climate READi program
+which depict the probability of system failure under varying climate
+stresses (e.g., utility pole failure due to wind or ice). These can be
+determined by testing or empirical data.
+
+Stress Testing is recommended by CSA S910.1 offering generalized methods
+for vulnerability assessment through robust approaches to identify how
+the system response changes with changing climate driver. These methods
+can be applied using expert judgment or quantitative modelling
+approaches. Additional details on Stress Testing methods is presented in
+Appendix E.
+
+When assessing adaptive capacity, the assessment generally requires
+considering both quantitatively measured or modelled data and
+semi-quantitative data through SSC experts or lived experience for the
+existing temporary modifications or operational procedures being
+considered. The level of confidence in the adaptive capacity assessment
+varies depending on how quantitative or semi-quantitative data can be
+correlated to SSC performance under the climate condition, or the level
+of understanding/experience with the adaptive capacity measure when
+applied under the climate condition.
+
+Key adaptive capacity considerations should be identified for each
+temporary modification or operational procedure being considered and
+assessed to understand how each key consideration may reduced the SSC
+sensitivity to the climate indicator stress. This may involve mapping or
+categorically scoring key considerations to help refine understanding.
+Criteria definitions for each key consideration can be developed to
+define how temporary modifications or operational procedures reduce SSC
+sensitivity as well as the relevance or importance of each key
+consideration identified.
+
+Where possible, it is preferred to incorporate existing adaptive
+capacity into the sensitivity analysis directly. This is due to the
+subjectivity involved with estimating existing adaptive capacity
+measures that are external to the SSC (i.e. separate pieces of
+equipment, management or operational procedures, etc.). However, this
+may be unavoidable in some cases and stresses the importance of
+involving technical expertise in this process who have a strong
+understanding of the overall operations of the SSC and surrounding
+systems.
+
+When combining sensitivity and adaptive capacity assessment results to
+estimate vulnerability, the approach taken will be dependant on the
+approaches taken to estimate sensitivity assessment. For quantitative
+sensitivity approaches, this will involve adjusting the mapped SSC
+performance to account for the findings in the adaptive capacity
+assessment. For the semi-quantitative approach, this will involve
+applying reduction factors to the criteria categories selected for each
+of the key adaptive capacity considerations. Depending on the situation,
+key adaptive capacity considerations may also be weighted differently
+depending on the expected influence the adaptive capacity measure will
+have on the SSC. \# Adapting to Climate Change The IPCC defines
+adaptation as "*the process of adjustment to actual or expected climate
+and its effects, in order to moderate harm or exploit beneficial
+opportunities*" (@IPCC_2022_WGII). Adaptation is an active process, in
+which climatic data and information is incorporated decision making and
+analysis to inform the actual adjustments being made. Adaptation could
+come in the form of analysis, changed operating practices, modification
+to assets or maintenance practices, risk transfer processes or retreat
+and relocation.
+
+This section of the guide discusses the integration of climate data from
+a climate change adaptation perspective approaches into the use of
+climate data to address the implicit uncertainty associated with such
+data. It is important to realize that adaptation science is far more
+encompassing than is in scope for this guide. It includes modelling and
+analysis, governance, decision science, planning and more.
+
+Climate hazards can affect the electricity system in many ways some of
+which are highlighed in (@Braun2016). These can be the result of acute
+climate hazards brought on by extreme events or slow degradations in
+performance or increased maintenance costs caused by gradual changes in
+climate. The cost benefit analysis of adaptation strategies that are
+well informed are almost always cost-effective often resulting in an
+expectation to save many dollars for every dollar spent on adaptation
+(@EPRI2022). An important caveat is that adaptation must be well
+informed otherwise it leads to the potential for mal-adaptation to
+occur.
+
+<details>
+
+<summary><strong>References (click to expand)</strong></summary>
+
+::: {#refs}
+:::
+
+</details>

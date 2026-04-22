@@ -101,7 +101,17 @@ website:
         contents:
           - workshops/content_particip.ipynb
           - workshops/findings.ipynb      
-      - adaptation/Adaptation.ipynb      
+      - section: Adaptation
+        href: adaptation/Adaptation.qmd
+        contents:
+          - section: "Core Concepts"
+            contents:
+              - adaptation/core_concepts.qmd
+              - adaptation/core_concepts_data.qmd
+              - adaptation/core_concepts_adapt.qmd
+          - adaptation/model_integration.qmd
+          - adaptation/risk_assessment.qmd
+               
 
 format:
   html:
