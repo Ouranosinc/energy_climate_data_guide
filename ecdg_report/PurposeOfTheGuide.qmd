@@ -2,7 +2,6 @@
 title: Purpose of the Guide
 ---
 
-
 ## Context
 
 Energy practitioners need reliable climate data to understand how weather and climate conditions influence electricity systems and how these conditions may evolve over time. This guide is intended to support the use of climate information in energy sector analysis and decision-making by providing a clear entry point to relevant climate datasets and to illustrate how these data can inform electric energy-related analyses. The datasets highlighted in this guide are drawn from authoritative scientific sources and represent widely used, state-of-the-art climate information available for research and application.
@@ -20,7 +19,6 @@ The guide is designed as a practical resource that helps users connect electrici
 [**ToDo:** Should the following section have additional links added (I put one to the maturity matrix)]{.mark-blue}
 
 By connecting climate datasets with real-world applications, the guide aims to make climate information more accessible and usable for energy practitioners. It provides a structured overview of available data and practical guidance on how climate information can be incorporated into analysis workflows. In doing so, the guide supports consistent and informed consideration of climate conditions in energy sector planning, operations, and management. The guide also includes a tool for self-assessment, a [Maturity Matrix](./maturity_matrix/Maturity_Matrix.qmd), that helps organizations reflect on how climate information is currently incorporated into their processes and identify opportunities to strengthen climate-informed practices over time.
-
 
 This is an example of using [`mermaid`](https://mermaid.js.org/) to generate a flowchart in Quarto.)
 
