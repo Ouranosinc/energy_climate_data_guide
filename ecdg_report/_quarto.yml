@@ -9,6 +9,8 @@ project:
   output-dir: ../docs
   resources:
     - link-target.js  # This ensures it gets copied to output
+    - auto-open-callout.js
+    - maturity_matrix/*.xlsx
 
 website:
   title: "Climate Data for the Electricity Sector"
@@ -22,48 +24,53 @@ website:
     #search: true
     contents:
       - Introduction.ipynb
+      - QuartoFunctionalityExamples.ipynb
       - section: "Electricity Sector Activities"
         href: sectors/electricity_sector_activities.ipynb
         contents:
           - sectors/Sectors_Template.qmd
           - section: "Electricity System Planning"
-            href: sectors/planning/grid_planning.ipynb
             contents:
               - sectors/planning/demand.qmd
               - sectors/planning/generation_forecasting.qmd
-              - sectors/planning/capacity_expansion_modelling.ipynb
-              - sectors/planning/resource_adequacy_planning.ipynb
+              - sectors/planning/capacity_expansion_modelling.qmd
+              - sectors/planning/resource_adequacy_planning.qmd
           - section: "Operations Planning"
-            href: sectors/operations/operations_planning.ipynb
             contents:
-              - sectors/operations/outage_scheduling.ipynb
+              - sectors/operations/outage_scheduling.qmd
               - sectors/operations/vegetation_management.qmd
           - section: "Infrastructure Planning and Asset Management"
-            href: sectors/infrastructure/infrastructure_planning.ipynb
             contents:
               - sectors/infrastructure/dam_safety_review.qmd
               - sectors/infrastructure/infrastructure_condition_assessment_and_investment_prioritization.ipynb
               - sectors/infrastructure/infrastructure_design.ipynb
-          - section: "Assurance, Reporting and Disclosures"
-            href: sectors/reporting/reporting_disclosure.qmd
-            contents:  
-              - sectors/reporting/esg_and_sustainability_reporting.ipynb
+          # - section: "Assurance, Reporting and Disclosures"
+          - sectors/reporting/reporting_disclosure.qmd
+          #   contents:  
+          # - sectors/reporting/esg_and_sustainability_reporting.ipynb
+      # The page for the maturity matrix
+      - maturity_matrix/Maturity_Matrix.qmd  
       # The section on climate datasets
       - section: "Climate Datasets"
         href: datasets/Climate_Datasets_Overview.ipynb
         contents:
           - datasets/Dataset_Template.ipynb
-          - datasets/Climate_Data_Fundamentals.ipynb
+          - section: "Climate Data Fundamentals"
+            href: datasets/climate_data_fundamentals/Climate_Data_Fundamentals.ipynb
+            contents:
+              - datasets/climate_data_fundamentals/Deprecated_Climate_Data_Fundamentals.ipynb
+              - datasets/climate_data_fundamentals/Temporal_Horizons_Predictability.ipynb
+              - datasets/climate_data_fundamentals/Data_Formats.ipynb
           - section: "Observational Data"
             href: datasets/observed_data/Observational_Datasets.ipynb
             contents:
-              - datasets/observed_data/AHCCD_Station_Data.ipynb
-              - datasets/observed_data/NRCanMET_Gridded_Data.ipynb
+              - datasets/observed_data/AHCCD-CanHom_Station_Data.ipynb
+              - datasets/observed_data/NRCANmet_Gridded_Data.ipynb
           - section: "Reanalysis Data"
             href: datasets/reanalysis_data/Reanalysis_Datasets.ipynb
             contents:
-              - datasets/reanalysis_data/CaSR.ipynb
               - datasets/reanalysis_data/ERA5-Land.ipynb
+              - datasets/reanalysis_data/CaSR.ipynb
           - section: "Climate Projection Data"
             href: datasets/climate_projection_data/Climate_Projection_Datasets.ipynb
             contents:
@@ -75,16 +82,26 @@ website:
               - datasets/climate_projection_data/CanDCS-M6.ipynb
               - datasets/climate_projection_data/CanLEAD.ipynb
               - datasets/climate_projection_data/NEX-GDDP-CMIP6.ipynb
+          - datasets/Climate_Information_Ressources.ipynb
+          - datasets/Example_Applications.ipynb
           - section: "Analysis Support Tools"
             href: datasets/tools/Analysis_Support_Tools.ipynb
             contents:
               - datasets/tools/Point_Location_Compare.ipynb
+      - section: "Guidance"
+        contents:
+          - guidance/Climate_Data_Decision_Tree.qmd   
+          - guidance/traditional_knowledge.qmd  
+      - section: "Gaps and Barriers"
+        contents:
+          - gaps/gaps_data.qmd 
+          - gaps/gaps_organization.qmd  
       - section: Workshops
         href: workshops/intro_workshops.ipynb
         contents:
           - workshops/content_particip.ipynb
           - workshops/findings.ipynb      
-      - adaptation/Adaptation.ipynb        
+      - adaptation/Adaptation.ipynb      
 
 format:
   html:
@@ -98,12 +115,19 @@ format:
     code-fold: true
     smooth-scroll: true
     #csl: styles/nature.csl # only superscript numbers in the text
-    csl: styles/elsevier-harvard.csl # Author (year) in the text
+    #csl: styles/elsevier-harvard.csl # Author (year) in the text
+    #csl: styles/harvard-cite-them-right-no-et-al.csl # Author (year) in the text
+    csl: styles/cambridge-university-press-author-date.csl
+    #csl: styles/lancaster-university-harvard.csl
     # citation-style: numeric
     # cite-method: biblatex
     # biblatexoptions:
     #   - citestyle = authoryear
-    include-after-body: link-target.js
+    include-after-body:
+      - link-target.js
+      # - auto-open-callout.js
+      - text: |
+          <script src="auto-open-callout.js"></script>
     embed-resources: true
     allow-raw-html: true
 
@@ -111,8 +135,11 @@ bibliography:
   - datasets/references.bib
   - sectors/references.bib
   - sectors/planning/references.bib
-  - sectors/planning/generation_forecasting_references.bib
+  - sectors/planning/generation_forecasting.bib
+  - sectors/planning/resource_adequacy_planning.bib
+  - sectors/planning/capacity_expansion_modelling.bib
   - sectors/reporting/reporting_references.bib
+  
 
 
 

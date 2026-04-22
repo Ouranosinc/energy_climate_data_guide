@@ -9,11 +9,11 @@ bibliography: reporting_references.bib
 ### Overview
 The physical impacts of climate change and the energy transition to mitigate climate change both represent potentially material risks to businesses. Physical risks result from the direct impacts of climate change on electricity sector assets, which could include increased risk of asset failures due to extreme events, decreased potential production due to lower cooling capacity, changes in streamflow impacting hydropower production and wind or fires damaging linear infrastructure such as transmission lines. [Adaptation Case Studies in the Energy Sector (@Braun2016)](https://www.ouranos.ca/en/projects-publications/adaptation-case-studies-energy-sector) provides some examples of adaptations options to physical climate risks. Physical risks also carry financial consequences in terms of production losses, insurance payouts and premium increases, legal liability risks or contractual losses.
 
-Transition risks resulting from the impact to an organizations business or business model as a result of the energy transition. This could include government policies, regulations, changes in customer preference or financial industry operations that impact that sector. For example, government mandated limits on greenhouse gas emissions or the application of a carbon tax could impact the viability of a business or leave it with stranded assets that policy or market conditions leave unviable. 
+Transition risks resulting from the impact to an organizations business or business model as a result of the energy transition. This could include government policies, regulations, changes in customer preference or financial industry operations that impact that sector. For example, government mandated limits on greenhouse gas emissions or the application of a carbon tax could impact the viability of a business or leave it with stranded assets that policy or market conditions leave un-viable. 
 
-Most organizations are on a journey to better understand these types of risks on their own operations and there are also a number of external influences who also have a vested interest in understanding an organizations physical and transition risks. These risks could also result from impacts to the value chain of an organization, not just the organization itself. For government organizations and Crown Corporations, this could take the form of government's, elected officials and citizens who are interested how these risks could impact the organization. For corporations there are shareholders, investors and insurers who have a vested interest in the financial health of the corporation. These individuals want to make good business decisions and earn a return on their investment. For this reason managing material risks to an organziation is important and so is tranparency in reporting and disclosing those risks and how they are managed by the organization.
+Most organizations are on a journey to better understand these types of risks on their own operations and there are also a number of external influences who also have a vested interest in understanding an organizations physical and transition risks. These risks could also result from impacts to the value chain of an organization, not just the organization itself. For government organizations and Crown Corporations, this could take the form of government's, elected officials and citizens who are interested how these risks could impact the organization. For corporations there are shareholders, investors and insurers who have a vested interest in the financial health of the corporation. These individuals want to make good business decisions and earn a return on their investment. For this reason managing material risks to an organization is important and so is transparency in reporting and disclosing those risks and how they are managed by the organization.
 
-The Financial Stability Board (FSB) launched the Task Force on Climate-related Financial Dislcosures (TCFD) in 2017 to develop recommendations for corporations on how to managed and diclose climate related risks. Having completed it's mandate the TCFD was disbanded and its function was turned over to the [International Sustainability Standards Board (ISSB)](https://www.ifrs.org/groups/international-sustainability-standards-board/). The board issued the voluntary [International Financial Reporting Standards (IFRS) S1 and S2](https://www.ifrs.org/issued-standards/ifrs-sustainability-standards-navigator/ifrs-s2-climate-related-disclosures/) standards which provide corporations a consistent way to report on and disclosue to investors and other institutions in the financial industry about the climate related and financial risks. IFRS S2 has been larged adopted in many jurisdictions, such as in Canada by the [Canadian Sustainability Standards Board (CSSB)](https://www.frascanada.ca/en/cssb) who issued the [Canadian Sustainability Disclose Standard (CSDS)](hhttps://www.frascanada.ca/en/sustainability). The CSDS largely mirror the IFRS S2 standard, which has also been adopted as a regulatory requirement for corporations in many jurisdictions. These standards require the disclosure of material climate related risks to a corporation itself, risks to the organizations value chain. These are best captured using metrics and targets where available, for example the percent of assets or business activities at risk or the financing towards climate related risks and opportunities.
+The Financial Stability Board (FSB) launched the Task Force on Climate-related Financial Disclosures (TCFD) in 2017 to develop recommendations for corporations on how to managed and diclose climate related risks. Having completed it's mandate the TCFD was disbanded and its function was turned over to the [International Sustainability Standards Board (ISSB)](https://www.ifrs.org/groups/international-sustainability-standards-board/). The board issued the voluntary [International Financial Reporting Standards (IFRS) S1 and S2](https://www.ifrs.org/issued-standards/ifrs-sustainability-standards-navigator/ifrs-s2-climate-related-disclosures/) standards which provide corporations a consistent way to report on and disclosure to investors and other institutions in the financial industry about the climate related and financial risks. IFRS S2 has been largely adopted in many jurisdictions, such as in Canada by the [Canadian Sustainability Standards Board (CSSB)](https://www.frascanada.ca/en/cssb) who issued the [Canadian Sustainability Disclose Standard (CSDS)](https://www.frascanada.ca/en/sustainability). The CSDS largely mirror the IFRS S2 standard, which has also been adopted as a regulatory requirement for corporations in many jurisdictions. These standards require the disclosure of material climate related risks to a corporation itself, risks to the organizations value chain. These are best captured using metrics and targets where available, for example the percent of assets or business activities at risk or the financing towards climate related risks and opportunities.
 
 We can mark stuff [like this]{.mark-red} or <mark>like this</mark> as a reminder to deal with it later (see source for markdown implementation!).
 :::
@@ -25,7 +25,7 @@ Reporting and disclosures play an important role in transparency and accountabil
 :::
 
 ## Methods and Models
-Methods and models are not used directly in this process. Metrics, targets and reporting are often a consolidation of information from other processes such as [dam safety reviews](../infrastructure/dam_safety_review.qmd), [capacity expansion modelling](../planning/capacity_expansion_modelling.ipynb), [generation forecasting](../planning/generation_forecasting.qmd), and other types of [infrastructure assessments](../planning/infrastructure_condition_assessment_and_investment_prioritization.ipynb).
+Methods and models are not used directly in this process. Metrics, targets and reporting are often a consolidation of information from other processes such as [dam safety reviews](../infrastructure/dam_safety_review.qmd), [capacity expansion modelling](../planning/capacity_expansion_modelling.qmd), [generation forecasting](../planning/generation_forecasting.qmd), and other types of [infrastructure assessments](../planning/infrastructure_condition_assessment_and_investment_prioritization.ipynb).
 
 :::{#id1 .callout collapse="true"}
 ## Acces to other group modelling
@@ -33,12 +33,12 @@ This activity requires good documentation and modelling in other sector activiti
 
 :::{#id1 .callout collapse="true"}
 ### Characteristics
-Models vary but the outputs of this process are generally discrete values or qualitative statements where numbers are provided
+Models vary but the outputs of this process are generally discrete values or qualitative statements. Where possible quantitative information is summarized as it is derived from other processes.
 :::
 
 :::{#id1 .callout collapse="true"}
 ### Key Climate Inputs
-- Not Applicable.
+- Climate data is not a direct input to this process. Transparency is highly encouraged through the various reporting frameworks. As a result, disclosing the climate data used or sources of information in assessments to improve transparency should be considered an asset.
 :::
 
 :::{#id1 .callout collapse="true"}
@@ -46,21 +46,23 @@ Models vary but the outputs of this process are generally discrete values or qua
 - Asset Condition Reports
 - Business Forecasts
 - Strategic Plans
+- Climate Risks Assessments
+- Climate Risks realized during the reporting period
 <mark> TODO - Consider adding comprehensive sector activities list here or below </mark>
 
 :::
 
 :::{#id1 .callout collapse="true"}
 ### Model Outputs
-- Statement on physical and transition risks
+- Statement on physical and transition risks and the companies strategy to manage these risks
 - Integrated business metrics (i.e. percent of assets at risk)
 
 :::
 
 :::{#id1 .callout collapse="true"}
 ### Temporal Resolution
-- Reporting updates are generally conducted quarterly with a major report published annually which is retrospective of the previous year with some forward looking statments.
-- Specialized report such as a climate change adaptation plan may occur at a different periodic frequency (i.e. every 5 years)
+- Reporting updates are generally conducted quarterly with a major report published annually which is retrospective of the previous year with some forward looking statements.
+- Specialized report such as a Climate Change Adaptation Plan or broader Sustainability Report may occur at a different periodic frequency (i.e. every 5 years) and generally cover the entirety of the reporting period.
 
 :::
 
@@ -73,7 +75,7 @@ Integration of the footprint of the entire organization.
 :::{#id1 .callout collapse="true"}
 ### Frequency of Analysis
 - Reporting updates are generally conducted quarterly with a major report published annually. 
-- Specialized report such as a climate change adaptation plan may occur at a different periodic frequency (i.e. every 5 years)
+- Specialized report such as a Climate Change Adaptation Plan or broader Sustainability Report may occur at a different periodic frequency (i.e. every 5 years)
 
 :::
 :::
@@ -83,7 +85,7 @@ Integration of the footprint of the entire organization.
 ### Additional Information
 The TCFD recognized early that climate related disclosures and metrics would be a **journey** for most organizations and there is an inherent expectation that organizations should be improving this practice over time. The practice in the electricity sector in Canada is still considered to be in it's early stages and is generally integrated into sustainability or environmental, social and governance (ESG) reporting @Lesnikowski_2024. A comprehensive review on this topic, as of 2024, was conducted by @Lesnikowski_2024 and a summary of the findings can be found [in an online video](https://www.ouranos.ca/en/webinars/monitoring-and-evaluation-resilient-electricity-sector).
 
-The electricity sector has fairly mature practices to understand the condition and safety of it's assets and frameworks are emerging to better understand the interaction of these assessments with climate change <mark>INSERT CROSS REFERENCES TO STANDARDS</mark>. The IFRS S2 standard requires the disclosure of metrics such as "the amount and percentage of assets or business activities vulnerable to climate-related physical risks" and "transition risks". As pointed out by @Lesnikowski_2024, there remains ambiguity about how to apply this in practice. Virtually all electricity sector assets are by their nature exposed and to some extent vulnerable to climate as shown by @Braun2016. To date there is no consensus on what represents a low, medium or high level of vulnerability which makes the disclosure of such metrics difficult to contextualize for the sector. For example, hydropower dams are subject to changes in water flow which could impact generation and there could be interactions with [dam safety](../infrastructure/dam_safety_review.qmd). The potential impacts to generation (@Fournier2020) and dam safety design flows (REFS) have been studied, but it is important to recognize that dam safety practices following industry standard practices recommended by the [Canadian Dam Association](https://cda.ca/) are inherently conservative and contain a high degree of public protection even in the face of climate change. For example, @Huard_2022 demonstrates that extreme floods are expected to change across Canada with several watersheds projected to experience increased magnitude of the regulatory 1:1,000 and 1:10,000 year return events by the end of the century. These return values are based on Quebec dam safety legislation, where higher design values are required for dams with higher consequences of failure. However, a 1:10,000 year flood event is already an inherently extreme and uncertain scenario without climate change so a strong argument exists about the inherent resilience of large hydropower dams even if climate change is ignored.
+The electricity sector has fairly mature practices to understand the condition and safety of it's assets and frameworks are emerging to better understand the interaction of these assessments with climate change such as @CSAS910. The IFRS S2 standard requires the disclosure of metrics such as "the amount and percentage of assets or business activities vulnerable to climate-related physical risks" and "transition risks". As pointed out by @Lesnikowski_2024, there remains ambiguity about how to apply this in practice. Virtually all electricity sector assets are by their nature exposed and to some extent vulnerable to climate as shown by @Braun2016. To date there is no consensus on what represents a low, medium or high level of vulnerability which makes the disclosure of such metrics difficult to contextualize for the sector. For example, hydropower dams are subject to changes in water flow which could impact generation and there could be interactions with [dam safety](../infrastructure/dam_safety_review.qmd). The potential impacts to generation (@Fournier2020) and dam safety design flows (@CLAVETGAUMONT2017, @ouranos2015_pmf) have been studied, but it is important to recognize that dam safety practices following industry standard practices recommended by the [Canadian Dam Association](https://cda.ca/) are inherently conservative and contain a high degree of public protection even in the face of climate change. For example, @Huard_2022 demonstrates that extreme floods are expected to change across Canada with several watersheds projected to experience increased magnitude of the regulatory 1:1,000 and 1:10,000 year return events by the end of the century. These return values are based on Quebec dam safety legislation, where higher design values are required for dams with higher consequences of failure. However, a 1:10,000 year flood event is already an inherently extreme and uncertain scenario without climate change so a strong argument exists about the inherent resilience of large hydropower dams even if climate change is ignored.
 
 As a result, there is continued discussion within the electricity sector about how to fairly and accurately meet disclosure requirements, allow for fair intercomparison of the various organizations and accurately represent the nuances of climate vulnerability and it's potential enhancement with anthropogenic climate change.
 :::
@@ -91,13 +93,15 @@ As a result, there is continued discussion within the electricity sector about h
 ## Gaps and Recommendations
 :::{#id1 .callout collapse="true"} 
 ### Additional Information
-lorem ipsum bla bla
+There remains inconsistency in how to interpret the disclosure requirements in various financial reporting standards (@Lesnikowski_2024), which hampers the ability to make meaningful disclosures that can be compared. For this reason it is important to contextualize information provided in reports and disclosures. To properly meet requirements the electricity sector will need to shift to a position where climate data is integrated into various other sector activities, which can be drawn upon for reporting purposes. Following established standards or consistent approaches, where they exist, for sector activities will allow a reasonable inter-comparison among various disclosures. However, it should also be recognized that there is not currently a definitive standard for climate risk and vulnerability assessments, but many standards which continue to evolve with research, development and practice.
 :::
 
 ## Interactions with Other Sector Activities
 :::{#id1 .callout collapse="true"} 
 ### Additional Information
-<mark>** to consider...this may be part of inputs and outputs**</mark>
+<mark>** to consider...this may be part of inputs and outputs**</mar
 :::
 
 ## References
+::: {#refs}
+:::
