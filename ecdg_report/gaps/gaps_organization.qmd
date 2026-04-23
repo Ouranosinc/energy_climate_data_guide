@@ -6,7 +6,7 @@ This page identifies gaps and barriers related to the use of climate data in the
 
 ## 1. Limited internal climate literacy
 
-- A common organizational gap is not the absence of data, but lack of internal capacity to interpret datasets purpose and how to use them, interpret [multi-model ensembles](../datasets/climate_projection_data/Climate_Projection_Datasets.ipynb#ensembles), [downscaling methods](../datasets/climate_projection_data/Climate_Projection_Datasets.ipynb), scenario structure [I don't understand, what do you mean by 'structure'?!]{.mark-red}, [bias adjustment](../datasets/climate_projection_data/Climate_Projection_Datasets.ipynb#bias-adjustment), etc.
+- A common organizational gap is not the absence of data, but lack of internal capacity to interpret datasets purpose and how to use them, interpret [multi-model ensembles](../datasets/climate_projection_data/Climate_Projection_Datasets.qmd#ensembles), [downscaling methods](../datasets/climate_projection_data/Climate_Projection_Datasets.qmd), scenario structure [I don't understand, what do you mean by 'structure'?!]{.mark-red}, [bias adjustment](../datasets/climate_projection_data/Climate_Projection_Datasets.qmd#bias-adjustment), etc.
 
 ## 2. Siloes between departments that need the same information
 
