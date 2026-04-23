@@ -7601,7 +7601,10 @@ margin-left: 2.0em;
   <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">Overview</a></li>
   <li><a href="#summary" id="toc-summary" class="nav-link" data-scroll-target="#summary">Summary</a></li>
   <li><a href="#rule-of-thumb-for-choosing-data" id="toc-rule-of-thumb-for-choosing-data" class="nav-link" data-scroll-target="#rule-of-thumb-for-choosing-data">“Rule of thumb” for choosing data</a></li>
-  <li><a href="#decision-tree" id="toc-decision-tree" class="nav-link" data-scroll-target="#decision-tree">Decision Tree</a></li>
+  <li><a href="#decision-tree" id="toc-decision-tree" class="nav-link" data-scroll-target="#decision-tree">Decision Tree</a>
+  <ul>
+  <li><a href="#climate-projection-data-decision-tree" id="toc-climate-projection-data-decision-tree" class="nav-link" data-scroll-target="#climate-projection-data-decision-tree">Climate Projection Data Decision Tree</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -7719,6 +7722,68 @@ flowchart TD
 </div>
 </div>
 </div>
+<section id="climate-projection-data-decision-tree" class="level3">
+<h3 class="anchored" data-anchor-id="climate-projection-data-decision-tree">Climate Projection Data Decision Tree</h3>
+<p><strong>A first AI generated, still stupid draft!</strong></p>
+<div class="cell" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class="figure"><p></p>
+<div>
+<pre class="mermaid mermaid-js">%%{init: {&#39;themeVariables&#39;: { &#39;fontSize&#39;: &#39;30px&#39;}, &#39;flowchart&#39;: { &#39;nodeSpacing&#39;: 50, &#39;rankSpacing&#39;: 50, &#39;padding&#39;: 30, &#39;curve&#39;: &#39;basis&#39;, &#39;htmlLabels&#39;: true, &#39;useMaxWidth&#39;: true }} }%%
+flowchart TD
+
+    A[&quot;Start: What type of question?&quot;]
+    
+    A --&gt; B{&quot;Process understanding or applied impact study?&quot;}
+    
+    %% PROCESS BRANCH
+    B --&gt;|Process understanding| C{&quot;Spatial scale needed?&quot;}
+    C --&gt;|Continental / large-scale| D{&quot;Need to quantify internal variability?&quot;}
+    C --&gt;|Regional / local detail| E{&quot;Need strong physical consistency?&quot;}
+    
+    D --&gt;|Yes| F[&quot;CanLEAD&quot;]
+    D --&gt;|No| G[&quot;CMIP6&quot;]
+    
+    E --&gt;|Yes| H[&quot;CORDEX-NA&quot;]
+    E --&gt;|No| I{&quot;Willing to bias-correct yourself?&quot;}
+    
+    I --&gt;|Yes| H
+    I --&gt;|No| J{&quot;Geographic domain?&quot;}
+    
+    J --&gt;|Canada| K[&quot;CanDCS-M6&quot;]
+    J --&gt;|North America| L[&quot;ESPO-G6&quot;]
+    
+    %% IMPACT BRANCH
+    B --&gt;|Applied impact / thresholds| M{&quot;Do absolute values and thresholds matter?&quot;}
+    
+    M --&gt;|No (relative change ok)| C
+    M --&gt;|Yes| N{&quot;Geographic domain?&quot;}
+    
+    N --&gt;|Canada| K
+    N --&gt;|North America| L
+    N --&gt;|Global| O[&quot;NEX-GDDP-CMIP6&quot;]
+    
+    %% UNCERTAINTY REFINEMENT
+    K --&gt; P{&quot;Need larger model spread?&quot;}
+    L --&gt; P
+    O --&gt; P
+    
+    P --&gt;|Yes| Q[&quot;Consider CMIP6 or CORDEX alongside&quot;]
+    P --&gt;|No| R[&quot;Use selected dataset&quot;]
+    
+    G --&gt; S{&quot;Need regional refinement later?&quot;}
+    S --&gt;|Yes| H
+    S --&gt;|No| R
+    
+    F --&gt; R
+    H --&gt; R
+</pre>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
 <!-- ## Notes  ## Decision rules
 
 The decision tree is based on the following rules:
@@ -7749,6 +7814,7 @@ The decision tree is based on the following rules:
 -->
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
