@@ -85,3 +85,7 @@
 .caption {
    text-align: center;
 }
+
+.list-indent {
+  margin-left: 2.0em;   /* same visual offset as a <ul> */
+}
