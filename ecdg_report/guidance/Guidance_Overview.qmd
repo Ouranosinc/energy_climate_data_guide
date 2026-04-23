@@ -1,0 +1,15 @@
+---
+title: Guidance Overview
+---
+
+This section of the Guide provides:
+
+- **Climate Data Decision Trees** to help users to identify datasets for a specific decision context.
+- **Guidenace on using Traditional Knowledge** to include Indigenous Knowledge about climate.
+- **Climate Data Fundamentals** introducing common concepts and practices for climate data use.
+- **Online Ressources** for data, learning and analysis.
+- **Example Applications** in the electricity sector.
+- **Analysis Support Tools** for getting started with using the documented datasets.
+
+[**ToDo:** put links to the respective pages]{.mark-blue}
+
