@@ -863,7 +863,6 @@ the [risk analysis](##%20Risk%20Assessment).
 :::
 
 ::: {.callout collapse="true" title="Example"}
-
 An example presented in the figure above, illustrates how SSC
 sensitivity can be mapped against a climate indicator. In the example,
 the performance criteria (safety margin and critical thresholds) have
@@ -887,7 +886,6 @@ of the SSCs, model/type of the SSCs, physical location of the SSCs, etc.
 performance crosses the critical threshold (unacceptable performance) at
 a range that is beyond historic conditions but within the range of the
 climate projections (e.g., as temperature increases beyond 35℃).
-
 :::
 
 **Option 2: Semi-Quantitative Approach** There are situations in which
@@ -946,33 +944,40 @@ high sensitivity (5), where a moderate sensitivity (3) would represent
 the potential for a critical threshold exceedance event, based on the
 SMEs knowledge of the SSC.
 
-+----------------+----------------+----------------+----------------+
-| Climate Hazard | Climate        | Proxy          | Proxy          |
-|                | Indicator      | Indicator 1 -  | Indicator 2 -  |
-|                | Stress         | Age of System  | System         |
-|                |                |                | Response Time  |
-+================+================+================+================+
-|                | Description    | Very Low \<10  | Very Low \<2   |
-|                |                | years          | hours          |
-|                |                |                |                |
-|                |                | Low 10-15      | Low 2-3 hours  |
-|                |                | years          |                |
-|                |                |                | Moderate 3-5   |
-|                |                | Moderate 15-25 | hours          |
-|                |                | years          |                |
-|                |                |                | High 5-7 hours |
-|                |                | High 25-30     |                |
-|                |                | years          | Very High \>7  |
-|                |                |                | hours          |
-|                |                | Very High \>30 |                |
-|                |                | years          |                |
-+----------------+----------------+----------------+----------------+
-| Tornados       | Fujita Scale   | High (4)       | High (4)       |
-+----------------+----------------+----------------+----------------+
-| Thunderstorms  | Number of      | Moderate (3)   | Low (2)        |
-|                | Lightning      |                |                |
-|                | Strikes        |                |                |
-+----------------+----------------+----------------+----------------+
++-----------+-----------+-----------+-----------+
+| Climate   | Climate   | Proxy     | Proxy     |
+| Hazard    | Indicator | Indicator | Indicator |
+|           | Stress    | 1 - Age   | 2 -       |
+|           |           | of System | System    |
+|           |           |           | Response  |
+|           |           |           | Time      |
++===========+===========+===========+===========+
+|           | D e       | Very Low  | Very Low  |
+|           | scription | \<10      | \<2 hours |
+|           |           | years     |           |
+|           |           |           | Low 2-3   |
+|           |           | Low 10-15 | hours     |
+|           |           | years     |           |
+|           |           |           | Moderate  |
+|           |           | Moderate  | 3-5 hours |
+|           |           | 15-25     |           |
+|           |           | years     | High 5-7  |
+|           |           |           | hours     |
+|           |           | High      |           |
+|           |           | 25-30     | Very High |
+|           |           | years     | \>7 hours |
+|           |           |           |           |
+|           |           | Very High |           |
+|           |           | \>30      |           |
+|           |           | years     |           |
++-----------+-----------+-----------+-----------+
+| Tornados  | Fujita    | High (4)  | High (4)  |
+|           | Scale     |           |           |
++-----------+-----------+-----------+-----------+
+| T h u n   | Number of | Moderate  | Low (2)   |
+| derstorms | Lightning | (3)       |           |
+|           | Strikes   |           |           |
++-----------+-----------+-----------+-----------+
 
 : Example of Scale Approach to Sensitivity or Vulnerability
 
@@ -1004,12 +1009,12 @@ ensure transparency and repeatability.
 
 The existing adaptive capacity that describes the SSC's current ability
 to cope with climate stresses using measures that already exist should
-be documented. It differs from [adaptation measures](##Adaptation), which are
-new actions implemented in response to unacceptable vulnerability or
-risk. Existing adaptive capacity includes SSC temporary modifications or
-operational procedures available that help maintain acceptable
-performance during adverse conditions. If/when new adaptation measures
-are implemented, they become part of the SSC's existing
+be documented. It differs from [adaptation measures](##Adaptation),
+which are new actions implemented in response to unacceptable
+vulnerability or risk. Existing adaptive capacity includes SSC temporary
+modifications or operational procedures available that help maintain
+acceptable performance during adverse conditions. If/when new adaptation
+measures are implemented, they become part of the SSC's existing
 adaptive capacity for future climate assessments.
 
 Identifying existing adaptive capacity of an SSC will involve technical
@@ -1022,7 +1027,6 @@ SSC by ensuring there are existing options to increase resilience and
 reliability, and the institutional capacity to execute those options.
 
 ::: {.callout collapse="true" title="Key Considerations"}
-
 In order to assess how existing temporary modifications or operational
 procedures may reduce the SSC climate sensitivity, key adaptive capacity
 considerations (presented below) should be identified and assessed
@@ -1036,8 +1040,8 @@ and support emergency actions.
 infrastructure, including maintenance practices, early warning signs,
 testing frequency, and system performance during disruptions.
 
-**Human Capacity:** The skills, training, and knowledge required for staff
-to operate systems and make effective decisions during times where
+**Human Capacity:** The skills, training, and knowledge required for
+staff to operate systems and make effective decisions during times where
 adaptive measures are in place.
 
 **Regulatory Capacity:** The ability to meet legal, safety, and
@@ -1054,11 +1058,11 @@ operational response during disruptions.
 Adaptative capacity should be estimated by critically assessing what key
 considerations (presented above) are applicable and currently exist for
 the SSC being assessed, in the context of their overall ability to
-reduce sensitivity. 
+reduce sensitivity.
 
 ::: {.callout collapse="true" title="Example"}
-When evaluating adaptive capacity of an
-SSC when exposed to extreme temperatures, the SSC may have:
+When evaluating adaptive capacity of an SSC when exposed to extreme
+temperatures, the SSC may have:
 
 Technical adaptive capacity -- the technical ability to alter or modify
 maintenance, operations or SSC performance when exposed to extreme heat.
@@ -1076,7 +1080,6 @@ in which the SSC operates within.
 Emergency preparedness adaptive capacity -- existing SSC protocols have
 the capabilities to support the resilience of the SSC when exposed to
 the relevant hazards or indicators.
-
 :::
 
 Other considerations may be to understand the sensitivity of the
@@ -1104,7 +1107,6 @@ who understand general SSC behavior and the efficacy of the temporary
 modification or operational procedure assessed.
 
 ::: {.callout collapse="true" title="Example continued"}
-
 The objective of adaptive capacity estimations is to utilize all
 quantitative (e.g., measured or modelled) and semi-quantitative (e.g.,
 SSC experts, lived experience or observations) data to estimate the
@@ -1129,9 +1131,9 @@ Human adaptive capacity -- staff are onsite and able to turn on cooling
 fans/system when extreme temperatures are experienced.
 
 Additional insights from the SSC SMEs may be collected to accompany the
-above information. This may include understanding how much budget
-is currently allocated to running cooling fans or system and comparing
-this information to anticipated run times under the projected future
+above information. This may include understanding how much budget is
+currently allocated to running cooling fans or system and comparing this
+information to anticipated run times under the projected future
 conditions. Similarly, how much response time is there from when staff
 turn on cooling systems to when the SSC experiences cooling? If a clear
 understanding of how adaptative capacity will influence SSC sensitivity,
@@ -1177,9 +1179,11 @@ topic.
 ### Assess Vulnerability
 
 The overall climate vulnerability should be estimated where sensitivity
-and adaptive capacity results can be combined to establish vulnerability. How this is completed can vary depending on the approaches taken to estimate SSC sensitivity. The approach for
+and adaptive capacity results can be combined to establish
+vulnerability. How this is completed can vary depending on the
+approaches taken to estimate SSC sensitivity. The approach for
 estimating vulnerability should fit the need of the overall purpose or
-objective of the assessment. 
+objective of the assessment.
 
 At the conclusion of the vulnerability assessment, there should be a
 clear and well-documented understanding of how sensitive the SSC is to
@@ -1192,7 +1196,7 @@ situation and not proceed further or implement a monitoring plan to
 determine if the situation is changing.
 
 Vulnerability analysis does not assess the likelihood of conditions but
-focuses on system response should those conditions occur. 
+focuses on system response should those conditions occur.
 
 ### Next Steps for Unacceptable Vulnerability
 
@@ -1200,27 +1204,27 @@ If the assessment identifies unacceptable performance under certain
 climate conditions, several pathways are available. The choice of next
 steps should be guided by the specific context and informed discretion:
 
-Proceed to [Climate Risk Assessment](## Climate Risk Assessment): Many guidance documents, including
-those used for regulatory purposes (such as SACC CCR during an Impact
-Assessment), recommend moving from vulnerability assessment to a risk
-assessment. This next step adds complexity by estimating the probability
-that climate hazards will reach levels that could impact performance and
-helps prioritize adaptation actions. Note that risk assessment may
-require specialized climate expertise and can be resource intensive.
+Proceed to [Climate Risk Assessment](##%20Climate%20Risk%20Assessment):
+Many guidance documents, including those used for regulatory purposes
+(such as SACC CCR during an Impact Assessment), recommend moving from
+vulnerability assessment to a risk assessment. This next step adds
+complexity by estimating the probability that climate hazards will reach
+levels that could impact performance and helps prioritize adaptation
+actions. Note that risk assessment may require specialized climate
+expertise and can be resource intensive.
 
-[Consider Adaptation Options Directly](## Adaptation): In some cases, it may be more
-practical to address the identified vulnerability with adaptation
-measures, rather than conducting a full risk assessment. The CSA S910.1
-allows for the direct evaluation of adaptation options when the cost or
-complexity of a risk assessment is not justified by the potential
-impact. 
+[Consider Adaptation Options Directly](##%20Adaptation): In some cases,
+it may be more practical to address the identified vulnerability with
+adaptation measures, rather than conducting a full risk assessment. The
+CSA S910.1 allows for the direct evaluation of adaptation options when
+the cost or complexity of a risk assessment is not justified by the
+potential impact.
 
 ::: {.callout collapse="true" title="Example"}
-For example, if a water control structure is found to be
-vulnerable to icing, installing heaters or bubbler systems may be a
-straightforward solution that is less costly than a risk
-assessment---especially if a risk assessment would likely lead to the
-same recommendation.
+For example, if a water control structure is found to be vulnerable to
+icing, installing heaters or bubbler systems may be a straightforward
+solution that is less costly than a risk assessment---especially if a
+risk assessment would likely lead to the same recommendation.
 :::
 
 **Document and Institutionalize Findings:** Regardless of the chosen
@@ -1229,7 +1233,7 @@ acceptability of the vulnerability, and the rationale for any further
 actions. This ensures transparency, repeatability, and accountability in
 decision-making.
 
-::: {.callout-note}
+::: callout-note
 Not all vulnerabilities require a risk assessment; the decision should
 be based on the potential impact, cost, and complexity of the issue.
 Adaptation options can often be implemented directly if they are clearly
@@ -1242,326 +1246,827 @@ Following these steps ensures that climate vulnerability assessments
 lead to informed, practical, and cost-effective decisions that enhance
 the resilience of the agencies assets and operations.
 
-## Climate Risk Assessment 
+## Climate Risk Assessment
 
-This step may be completed which estimates climate risk for each relevant climate interaction with the SSC by combining: the climate [hazard](### Hazard and Climate Driver Identification) *(what could occur)*, [exposure](### Exposure Assessment) *(what parts of the SSC are in direct/indirect contact with the hazard)*, and [vulnerability](## Climate Vulnerability Assessment) *(how the SSC responds, based on sensitivity and existing capacity to cope)*. Risk can be described using the IPCC framing and formula: 
+This step may be completed which estimates climate risk for each
+relevant climate interaction with the SSC by combining: the climate
+[hazard](###%20Hazard%20and%20Climate%20Driver%20Identification) *(what
+could occur)*, [exposure](###%20Exposure%20Assessment) *(what parts of
+the SSC are in direct/indirect contact with the hazard)*, and
+[vulnerability](##%20Climate%20Vulnerability%20Assessment) *(how the SSC
+responds, based on sensitivity and existing capacity to cope)*. Risk can
+be described using the IPCC framing and formula:
 
 $$
 R = f(H,E,V)
 $$
 
+where Risk ($R$); Hazard ($H$); Exposure ($E$); and Vulnerability ($V$).
 
-where Risk ($R$); Hazard ($H$); Exposure ($E$); and Vulnerability ($V$). 
-
-This risk concept is beneficial for understanding how different key factors influence the overall risk of an SSC and how modification of one of these factors can reduce the overall risk. See [Core Concepts: Understanding Adaptation](./core_concepts_adapt.qmd) for more details. It can also be directly mapped to the traditional definition of risk: 
+This risk concept is beneficial for understanding how different key
+factors influence the overall risk of an SSC and how modification of one
+of these factors can reduce the overall risk. See [Core Concepts:
+Understanding Adaptation](./core_concepts_adapt.qmd) for more details.
+It can also be directly mapped to the traditional definition of risk:
 
 $$
 R = L × C 
-$$
-where Risk ($R$); Likelihood ($L$); and Consequence ($C$), 
+$$ where Risk ($R$); Likelihood ($L$); and Consequence ($C$),
 
-In this framing, likelihood is driven by the hazard (for selected scenarios, time horizons, and indicator values), while consequence is driven by the exposure and vulnerability (how the SSC performs if the event occurs). The relationship between the IPCC concept of risk and traditional risk definitions are discussed in [Core Concepts: Understanding Adaptation](./core_concepts_adapt.qmd). The relationship between likelihood and consequence to estimate risk is typically visually represented with a risk matrix or heat map and can vary depending on the type of risk assessment that is completed.  
+In this framing, likelihood is driven by the hazard (for selected
+scenarios, time horizons, and indicator values), while consequence is
+driven by the exposure and vulnerability (how the SSC performs if the
+event occurs). The relationship between the IPCC concept of risk and
+traditional risk definitions are discussed in [Core Concepts:
+Understanding Adaptation](./core_concepts_adapt.qmd). The relationship
+between likelihood and consequence to estimate risk is typically
+visually represented with a risk matrix or heat map and can vary
+depending on the type of risk assessment that is completed.
 
 ::: {.callout-note collapse="true" title="Challenge"}
-Climate risk assessment is often challenging because both likelihood and consequence are uncertain, and uncertainty generally increases further into the future. For that reason, risk may be better represented as a range of results across scenarios and time horizons rather than a single value, and it may be impractical to represent climate risk as a single point on a traditional probability-consequence matrix. The objective of the assessment should be to evaluate multiple climate scenarios to understand a range of possible risks for any given climate interaction with an SSC. Accurately assessing climate risk may require a nuanced understanding of the climate data and specialized climate science expertise to complement engineering teams. 
+Climate risk assessment is often challenging because both likelihood and
+consequence are uncertain, and uncertainty generally increases further
+into the future. For that reason, risk may be better represented as a
+range of results across scenarios and time horizons rather than a single
+value, and it may be impractical to represent climate risk as a single
+point on a traditional probability-consequence matrix. The objective of
+the assessment should be to evaluate multiple climate scenarios to
+understand a range of possible risks for any given climate interaction
+with an SSC. Accurately assessing climate risk may require a nuanced
+understanding of the climate data and specialized climate science
+expertise to complement engineering teams.
 :::
 
-This step supports forward-looking decisions by documenting how likelihood and consequence are estimated, showing how results change across scenarios, and clearly describing confidence and uncertainty so decision-makers can understand what is known, what is uncertain, and what could change the outcome. 
+This step supports forward-looking decisions by documenting how
+likelihood and consequence are estimated, showing how results change
+across scenarios, and clearly describing confidence and uncertainty so
+decision-makers can understand what is known, what is uncertain, and
+what could change the outcome.
 
-::: {#simple_risk .callout collapse="true" title="Simple Climate Risk Assessment"} 
-
-In a simple risk assessment, a critical threshold (a performance-based criteria) should be clearly identified in [Performance Criteria](### Performance Criteria). This may be a failure criterion, a limit at which a factor of safety is exceeded or any other pre-defined value. This is considered a simple risk assessment because single consequence is defined based on exceeding this threshold makes the climate risk assessment a function of likelihood, since crossing the critical threshold will always result in the same outcome. The risk is effectively univariate. This is the type of risk assessment primarily documented in the body of this section in the following sub-steps. 
+::: {#simple_risk .callout collapse="true" title="Simple Climate Risk Assessment"}
+In a simple risk assessment, a critical threshold (a performance-based
+criteria) should be clearly identified in [Performance
+Criteria](###%20Performance%20Criteria). This may be a failure
+criterion, a limit at which a factor of safety is exceeded or any other
+pre-defined value. This is considered a simple risk assessment because
+single consequence is defined based on exceeding this threshold makes
+the climate risk assessment a function of likelihood, since crossing the
+critical threshold will always result in the same outcome. The risk is
+effectively univariate. This is the type of risk assessment primarily
+documented in the body of this section in the following sub-steps.
 
 ::: {#complex_risk .callout collapse="true" title="Complex Climate Risk Assessment"}
-
-A complex climate risk assessment occurs where a critical threshold is poorly defined or does not exist (a risk-informed criteria) requiring a decision maker to determine their risk tolerance in order to take further action. It is considered complex because the risk matrix will require consideration of distinct likelihood-consequence points, making the risk bi-variate. For example, climate change may impact the production of a generating station. As the projected climate indicator increases, production will decrease and a decision maker will need to decide how much loss is acceptable in order to make an adaptation decision.  
+A complex climate risk assessment occurs where a critical threshold is
+poorly defined or does not exist (a risk-informed criteria) requiring a
+decision maker to determine their risk tolerance in order to take
+further action. It is considered complex because the risk matrix will
+require consideration of distinct likelihood-consequence points, making
+the risk bi-variate. For example, climate change may impact the
+production of a generating station. As the projected climate indicator
+increases, production will decrease and a decision maker will need to
+decide how much loss is acceptable in order to make an adaptation
+decision.
 :::
 
-Refer to Appendix C.1.4 for additional information relating to likelihood and consequence determination, and how climate risk assessments are completed. 
-
-Expected outcomes of this step may include:  
-
-Mapping of the consequence values from the vulnerability assessment 
-
-Development of likelihood values including method and approach, as well as key assumptions that were made when completing the likelihood analysis 
-
-Calculation of the risk, including all climate scenarios and time horizons evaluated 
-
-Development of the level of concern matrix for each risk, documenting the level of uncertainty associated with each estimated climate risk.  
-
-Documentation of risk prioritization and rationales (if applicable).  
-
-Industry standard or guidance documents that can provide additional context and guidance on completing climate risk assessments is presented in Table 21. 
-
-
-### Assess Consequence 
-
-This sub-step estimates consequence (severity) for each relevant climate interaction using the exposure and vulnerability results. Consequence describes what would happen if the climate condition occurred; it does not consider probability.  
-
-The consequence is the result of a risk event being realized and should be directly derived from the vulnerability. For a simple climate risk assessment, the critical threshold used in the vulnerability assessment (Step 4) should be evaluated to determine the magnitude of the consequence, making the consequence the result of SSC performance only. Figure 6 provides a flow diagram for determining consequence.  
-
- 
-
-Figure 7 Consequence Determination Diagram 
-
- For example, if passing beyond a critical threshold resulted in the consequence of a unit tripping off, there would be an impact financially to revenue, there may be a reputational impact, environmental impact or safety impact which are defined in the consequence/severity scale. Impact as a result of the consequence may reflect the scales used in OPG’s ERM process (OPG-PROC-0094 Enterprise Risk Management Reporting). If preliminary impacts were developed as part of the exposure assessment (Step 3), they should be reviewed as part of this step and considered in the consequence/severity scale. For each climate interaction, a consequence/severity level(s) should be determined, and applicable impacts (financial, environmental, reputational, etc.) associated with the consequence should be documented. Consequence scores will then be carried forward and combined with the likelihood of the interaction to estimate risk.   
-
-For most simple risk assessments, the same impact will apply to the consequence regardless of the scenario (i.e. a dam failure will have the same impact to human life regardless of the warming scenario). In some instances, differences in impacts may be expected across scenarios being assessed. For example, the value of money may change between the near term and long-term or the local population may be expected to change resulting in a greater impact from an SSC failure in the later future scenarios.  
-
- 
-
-### Assess Likelihood 
-
-This sub-step estimates the likelihood that a climate indicator will reach levels that matter for SSC performance, within the selected scenario(s) and time horizon(s). Likelihood methods depend on the type and quality of climate data available. Refer to Appendix D for more details on the types of climate data sources. Where modelled projections are available for the indicator, likelihood may be estimated quantitatively. 
-
-Select Climate Scenarios: Before quantifying risk, determine which climate scenarios to analyze. This includes deciding how to represent time (e.g., based on the design life of the SSC) and which climate scenarios to use (e.g., different emissions pathways or global warming levels). For long-lived assets, multiple scenarios may be needed; for shorter-lived assets, a single scenario may suffice. Rationale for choices should be clearly documented. For more details on climate scenarios, refer to Appendix D). Examples of scenarios include: 
-
-Probability of an event under different global warming levels (e.g., 2°C, 2.5°C, 3°C). Refer to Appendix D.2.3 for more details on global warming levels.  
-
-Probability of an event under specific climate scenarios (e.g., SSP2-4.5, SSP5-8.5) for different future time windows (e.g., 2050s, 2080s). 
-
-The more climate scenarios and time horizons needed for the assessment, the more likelihood values will need to be calculated for each climate indicator. For example, if SSP2-4.5 and SSP5-8.5 climate scenarios are selected for the 2°C global warming level, under two future time horizons (2050s and 2080s time periods), then four distinct likelihood values will need to be calculated and compared in the analysis. The time window selected should include 30 years to capture climate variability, but does not need to exceed SSC design life beyond that. 
-
-Select the Future Value or Range Criteria: For each scenario, determine the historic and future value or range in which likelihood will be calculated. That is, the future value or range of possibilities within the climate scenario ensembles in which statistical analysis will be calculated against. For simple risk assessments, the future value or range criteria is the critical threshold (performance-based criteria) identified in Step 3 for the SSC. Percentiles could also be used to add some conservatism, at the cost of sample size. For example, the number of 75th percentile or greater events that exceed the critical threshold could be compared to the total number of events that exceed the 75th percentile of the climate projection data. Refer to Appendix C.1.4 for more details on selecting future value or range criteria.  
-
-Assess Probability: For each scenario, determine the probability of relevant hazards and indicators. This is completed through statistical analysis to calculate the probability of the future value or range exceeding the selected threshold (performance criteria) established in Step 3. For simple risk assessments, the probability should be calculated following the classical formula, or other established statistical methods, for determine the probability of event X occurring: 
-
- 
-
-! INSERT EQUATION
-
-This formula is applied with respect to a pre-defined threshold. In the simple climate risk analysis scenario, where a critical threshold has been identified, this should be the number of times the climate data in a 30+ year window exceeds the critical threshold divided by the total number of data points. For complex risk assessments, this probability calculation may vary. Refer to Appendix F for more details on complex risk assessments.  
-
-Note: The classic probability formula assumes data are stationary, which means there is no long-term trend. This assumption is false, but may be useful. Climate data should be compared in 30-40 year windows where stationarity assumptions are more valid and not used for long periods of time. Alternatively, probabilities may be estimated from fitted probability distributions, some of which may be applied to non-stationary data. For screening and other high-level assessments, the probability may be able to be reasonable estimated visually. 
-
-Mapping Probability: Once the probabilities of a climate indicator exceeding the performance criteria is calculated, map each of the scenario probabilities to a likelihood scale or criteria. This is done so that risk can be estimated by combining the likelihood level with the consequence level. This will result in a likelihood value for each scenario and time horizon evaluated for a given climate indictor. An example of what this may look like is presented in the ‘Quantitative Description’ column in Table 17 below. 
-
- 
-
-Semi-Quantitative Likelihood Analysis 
-
-For climate hazards and indicators where limitations exist in the climate data and quantitative analysis of likelihood is not possible (e.g., non-modelled hazards), likelihood can be estimated semi-quantitatively. In these situations, likelihood level is informed by relevant and available literature or studies associated with the climate hazard or indicator and compared against the performance criteria established for the climate interaction. Some examples of climate hazards that would require semi-quantitative likelihood scoring would be hailstorms, lightning strikes or tornados.  
-
-Like the quantitative method, expected future likelihood level needs to be mapped to a likelihood scale or criteria in order to estimate risk. Depending on the nature of the climate risk assessment and the relevant hazards, the assessment may need to estimate likelihood using both quantitative and semi-quantitative approaches. This may be unavoidable. In these situations, it is best practice to map likelihood level to the same likelihood scale, so risk can be estimated in a similar manner. An example of what this may look like is presented in the ‘Semi-quantitative Description’ column in Table 22 below. 
-
-Semi-quantitative likelihood scoring contains a higher level of uncertainty, as the process involves more subjectivity in the scoring process, and relies on relevant literature being available and relevant for the hazard or climate indicator. As noted above, semi-quantitative likelihood scoring may be unavoidable in some situations, and climate risks estimated using this likelihood approach should be carefully reviewed when evaluating the Level of Concern in Section 1.3.6.4 below. 
-
-Table 22. Example Likelihood Scale or Criteria 
-
-Likelihood Level Criteria 
-
-Quantitative Description 
-
-Semi-quantitative Description 
-
-Criteria 1 (e.g., Rare) 
-
-Probability (P) value exceeds the performance criteria threshold less than X% of the time. 
-
-The event is highly unlikely to occur.  
-
-Criteria 2 (e.g., Unlikely) 
-
-P value exceeds the performance criteria threshold between X% to X% of the time.  
-
-There is a possibility that the event may occur at some point in time.  
-
-Criteria 3 (e.g., Occasionally) 
-
-P value exceeds the performance criteria threshold between X% to X% of the time. 
-
-There is an increased probability that the event may occur at some time.  
-
-Criteria 4 (e.g., Likely) 
-
-P value exceeds the performance criteria threshold between X% to X% of the time. 
-
-There is a probability that the event will occur at some point.  
-
-Criteria 5 (e.g., Frequent) 
-
-Probability (P) value exceeds the performance criteria threshold more than X% of the time. 
-
-There is an expectation that the event will occur.  
-
- 
-
-### Risk Quantification 
-
-The final risk (risk level) is determined quantitatively as the product of the likelihood and the consequence (impact) or may be qualitatively evaluated using likelihood and consequence results. This is commonly mapped to a risk matrix. Risks should be calculated for each climate interaction, scenario, and time horizon that have been included in the assessment. This may result in multiple risk values for a given interaction, if multiple climate scenarios and time horizons are considered in the assessment.  
-
-When risk, likelihood and consequence are determined semi-quantitatively, care should be taken to ensure the resulting analysis is meaningful. Often categorical values have a tendency to select middle values and are selected very subjectively. In these situations, ensure values are non-biased, founded on information and granular enough to suit the needs of the assessment. 
-
-Risk of Extreme Events  
-
-Extreme events serve as an important design basis for critical infrastructure, particularly in nuclear and hydroelectric. These design events are very rare, often being expressed as an event which has a return period of 10-5 to 10-7 of occurring in any given year. This makes the likelihood in the risk equation extremely small and the overall risk consistently low despite large and unacceptable consequences. These events should be handled as special cases if compared to other forms of asset risk. 
-
-DS-PO-19 – Dam Safety Portfolio Risk Index and HTO-REP-08410.1-00.0091-0001 - OPG Dam Safety Portfolio Risk Index – Methodology describes a portfolio indexing method to address risks in the dam safety program. The risk may also be better reflected by increasing the consequence scale of the event to increase the risk, as it does not need to be commensurate with the likelihood scale. Another option may be in properly defining the risk event itself. The criteria may be established as a SSC failure with an extremely low probability (i.e. 1:10,000 year event), or it may be framed as not meeting a regulatory requirement or risk tolerance of being able to operate an SSC up to a 1:10,000 year event, which could scale the problem to be commensurate with other risks. 
-
-### Level of Concern 
-
-Recognizing uncertainty and understanding the confidence in the analysis is an important part of a climate risk assessment. There is natural variability in the climate system and human actions will determine the emissions pathway altering climate outcomes in the future. In addition, not all climate model parameters or vulnerability and risk assessment methods offer the same degree of confidence. As a result, it is important to integrate both the level of risk, the uncertainty and confidence in the analysis when finalizing the assessment. Identifying the level of concern allows for the consideration of both risk and uncertainty. 
-
-Key Steps for Determining Level of Concern 
-
-Risk: Using the risk from the risk assessment to plot the position on the vertical axis of a Level of Concern diagram for each climate interaction assessed (see Figure 9 below). The vertical axis represents the amount of risk, as determined by the risk assessment. Where multiple climate risks exist for a single climate interaction (e.g., multiple climate scenarios and time horizons assessed), it is often best practice to select one conservative future risk level, to simplify the analysis depending on the objective of the assessment. The analytical uncertainty will guard against overly conservative and costly adaptation actions. The future risk level mapped for the climate interaction should be documented and justified to fit the purpose of the assessment.  
-
-Analytical Uncertainty: Assign the analytical uncertainty on the horizontal axis. This value reflects the uncertainty in climate projections, the confidence in the ability of climate models to represent relevant hazards, and the confidence in the vulnerability assessment process. This step is inherently subjective unless there is detailed knowledge of the uncertainties involved. 
-
-Involve climate science and engineering experts to help assess uncertainty and avoid bias – whether it be overconfidence or under confidence in the data and models. 
-
-By combining risk magnitude with analytical uncertainty, it is possible to identify the overall level of concern for each risk. This approach will help prioritize adaptation actions and ensure decision-makers understand both the risks and the confidence in the underlying analysis. 
-
- 
-
-Figure 8 Level of concern diagram 
-
-### Adaptation Strategy Quadrants 
-
-Building on the level of concern diagram, adaptation strategies for associated climate risks can be categorized based on the risk level and the confidence in the analysis can be identified. A four-quadrant approach is presented in Figure 10, and are aimed to support adaptation strategy development in Step 6 of this assessment process. Adaptation quadrant descriptions include: 
-
-Quadrant I – Standard Planning and Design Guidance: Projects in this category are well-suited to standard evaluation processes. The assumption of stationary (unchanging) past design conditions is generally valid, and uncertainty is well understood. Standard safety margins may be sufficient, but engineers should remain cautious and consider whether additional analysis is warranted, especially for SSC where there is low tolerance for risk of failure. 
-
-Quadrant II – Robust Actions: Here, there is confidence that future conditions will be stressful for the system. Adaptation actions should prioritize robust options that can withstand these challenging conditions. Where multiple options exist, incremental cost analysis (ICA) may be used to determine the most cost-effective and effective solution (see Appendix D.1.6 for more details and examples of adaptation option analyses). If a clear winner emerges, it should be prioritized. 
-
-Quadrant III – Flexible Actions: This quadrant presents the challenge of low risk combined with higher uncertainty. In these cases, it may not be justifiable to conduct detailed design analyses. Instead, develop a limited set of flexible adaptation pathways, and select scenarios that are relevant or appropriately conservative. Focus on options that can be adjusted as new information becomes available and institutionalize a monitoring plan to track changing conditions. 
-
-Quadrant IV – Robust and Flexible Actions: Projects in this quadrant are the most challenging, as they involve both high risk and high uncertainty. Strategies should combine robust, immediate actions (possibly identified through incremental cost analysis) with flexible adaptation pathways. Implement robust measures where risk tolerance is lowest or impacts are most imminent and establish a monitoring plan to support ongoing adaptation as more information becomes available. 
-
- 
-
-Figure 9 Level of concern and adaptation strategies diagram' 
-
-Following this structured approach ensures that adaptation strategies are well-matched to both the level of risk and the confidence in the analysis, supporting resilient and cost-effective decision-making for OPG’s assets and operations. This approach will help inform adaptation strategy development in step 6 of this assessment process. 
-
-### Risk Prioritization 
-
-If the risk assessment is being done for a larger facility or multiple SSC, an additional step may be required to prioritize the risks that will be treated. The risk and the level of concern can be used to prioritize risks to be addressed. Adaptations plans for each risk can then be institutionalized or an organizational risk tolerance threshold can be applied to determine which risks needs to be addressed and in which order. 
-
-# fd
-
-Selecting a Vulnerability Assessment Approach
-
-Figure 11 provides the approach to completing climate vulnerability
-assessments. This methodology has been tailored to meet the variety of
-needs within OPG, and aims to provide the greatest flexibility, to allow
-the approach to be scalable and customizable depending on the purpose
-and objective of the assessment. For each variable used to determine
-vulnerability (sensitivity and adaptive capacity), two analysis options
-for both sensitivity and adaptive capacity have been provided which can
-be selected based on the data and level of information available when
-completing the assessment.
-
-Figure 12 Climate Vulnerability Methodology Flow Diagram
-
-For the sensitivity assessment, the two approaches include:
-
-Quantitative Approach -- Generally used when a high degree of data and
-information is available. This approach yields higher confidence in
-measuring SSC sensitivity as it relies on quantitative data inputs that
-are measurable and observable.
-
-Semi-quantitative Approach -- Generally used when there are limitations
-in the data or current understanding, or when the purpose/objective of
-the assessment does not require a detail analysis approach (e.g.,
-screening-level assessment or portfolio assessments). This approach
-yields lower confidence in measuring SSC sensitivity as it relies on
-identifying appropriate sensitivity indicators to represent what would
-make the SSC sensitive to a climate indicator or driver.
-
-Below are some industry recognized methods that can be used to complete
-quantitative and semi-quantitative sensitivity assessments:
-
-Margin Management (sometimes described as a bounding analysis) assesses
-whether the SSC's design envelope covers the full range of projected
-climate extremes. If the SSC is already robust enough to withstand these
-extremes, further analysis may not be necessary. This analysis can serve
-as a screening tool.
-
-Manufacturer Data may be available from a manufacturer or designer. This
-information should directly link the performance of the SSC to the
-climate indicator and can be used to determine the sensitivity of the
-system to climate hazards.
-
-Fragility Curves are a terminology used in EPRI's Climate READi program
-which depict the probability of system failure under varying climate
-stresses (e.g., utility pole failure due to wind or ice). These can be
-determined by testing or empirical data.
-
-Stress Testing is recommended by CSA S910.1 offering generalized methods
-for vulnerability assessment through robust approaches to identify how
-the system response changes with changing climate driver. These methods
-can be applied using expert judgment or quantitative modelling
-approaches. Additional details on Stress Testing methods is presented in
-Appendix E.
-
-When assessing adaptive capacity, the assessment generally requires
-considering both quantitatively measured or modelled data and
-semi-quantitative data through SSC experts or lived experience for the
-existing temporary modifications or operational procedures being
-considered. The level of confidence in the adaptive capacity assessment
-varies depending on how quantitative or semi-quantitative data can be
-correlated to SSC performance under the climate condition, or the level
-of understanding/experience with the adaptive capacity measure when
-applied under the climate condition.
-
-Key adaptive capacity considerations should be identified for each
-temporary modification or operational procedure being considered and
-assessed to understand how each key consideration may reduced the SSC
-sensitivity to the climate indicator stress. This may involve mapping or
-categorically scoring key considerations to help refine understanding.
-Criteria definitions for each key consideration can be developed to
-define how temporary modifications or operational procedures reduce SSC
-sensitivity as well as the relevance or importance of each key
-consideration identified.
-
-Where possible, it is preferred to incorporate existing adaptive
-capacity into the sensitivity analysis directly. This is due to the
-subjectivity involved with estimating existing adaptive capacity
-measures that are external to the SSC (i.e. separate pieces of
-equipment, management or operational procedures, etc.). However, this
-may be unavoidable in some cases and stresses the importance of
-involving technical expertise in this process who have a strong
-understanding of the overall operations of the SSC and surrounding
-systems.
-
-When combining sensitivity and adaptive capacity assessment results to
-estimate vulnerability, the approach taken will be dependant on the
-approaches taken to estimate sensitivity assessment. For quantitative
-sensitivity approaches, this will involve adjusting the mapped SSC
-performance to account for the findings in the adaptive capacity
-assessment. For the semi-quantitative approach, this will involve
-applying reduction factors to the criteria categories selected for each
-of the key adaptive capacity considerations. Depending on the situation,
-key adaptive capacity considerations may also be weighted differently
-depending on the expected influence the adaptive capacity measure will
-have on the SSC. \# Adapting to Climate Change The IPCC defines
-adaptation as "*the process of adjustment to actual or expected climate
-and its effects, in order to moderate harm or exploit beneficial
-opportunities*" (@IPCC_2022_WGII). Adaptation is an active process, in
-which climatic data and information is incorporated decision making and
-analysis to inform the actual adjustments being made. Adaptation could
-come in the form of analysis, changed operating practices, modification
-to assets or maintenance practices, risk transfer processes or retreat
-and relocation.
-
-This section of the guide discusses the integration of climate data from
-a climate change adaptation perspective approaches into the use of
-climate data to address the implicit uncertainty associated with such
-data. It is important to realize that adaptation science is far more
-encompassing than is in scope for this guide. It includes modelling and
-analysis, governance, decision science, planning and more.
-
-Climate hazards can affect the electricity system in many ways some of
-which are highlighed in (@Braun2016). These can be the result of acute
-climate hazards brought on by extreme events or slow degradations in
-performance or increased maintenance costs caused by gradual changes in
-climate. The cost benefit analysis of adaptation strategies that are
-well informed are almost always cost-effective often resulting in an
-expectation to save many dollars for every dollar spent on adaptation
-(@EPRI2022). An important caveat is that adaptation must be well
-informed otherwise it leads to the potential for mal-adaptation to
-occur.
+::: {.callout collapse="true" title="Outcomes"}
+Expected outcomes of this step may include:\
+\* Mapping of the consequence values from the vulnerability assessment
+\* Development of likelihood values including method and approach, as
+well as key assumptions that were made when completing the likelihood
+analysis \* Calculation of the risk, including all climate scenarios and
+time horizons evaluated \* Development of the level of concern matrix
+for each risk, documenting the level of uncertainty associated with each
+estimated climate risk.\
+\* Documentation of risk prioritization and rationales (if applicable).
+:::
+
+### Assess Consequence
+
+This sub-step estimates consequence (severity) for each relevant climate
+interaction using the exposure and vulnerability results. Consequence
+describes what would happen if the climate condition occurred; it does
+not consider probability.
+
+The consequence is the result of a risk event being realized and should
+be directly derived from the vulnerability.
+
+![](images/consequence.png)
+
+If preliminary impacts were developed as part of the \[exposure
+assessment\](### Exposure Assessment), they should be reviewed as part
+of this step and considered in the consequence/severity scale. For each
+climate interaction, a consequence/severity level(s) should be
+determined, and applicable impacts (financial, environmental,
+reputational, etc.) associated with the consequence should be
+documented. Consequence scores will then be carried forward and combined
+with the likelihood of the interaction to estimate risk.
+
+::: {.callout collapse="true" title="Simple Risk Assessment"}
+For a simple climate risk assessment, the critical threshold used in the
+[vulnerability assessment](##%20Climate%20Vulnerability%20Assessment)
+should be evaluated to determine the magnitude of the consequence,
+making the consequence the result of SSC performance only. The figure
+below provides a flow diagram for determining consequence.
+
+For example, if passing beyond a critical threshold resulted in the
+consequence of a unit tripping off, there would be an impact financially
+to revenue, there may be a reputational impact, environmental impact or
+safety impact which are defined in the consequence/severity scale.
+
+For most simple risk assessments, the same impact will apply to the
+consequence regardless of the scenario (i.e. a dam failure will have the
+same impact to human life regardless of the warming scenario). In some
+instances, differences in impacts may be expected across scenarios being
+assessed. For example, the value of money may change between the near
+term and long-term or the local population may be expected to change
+resulting in a greater impact from an SSC failure in the later future
+scenarios.
+:::
+
+::: {.callout collapse="true" title="Complex Risk Assessment"}
+A complex risk assessment is when a well-defined threshold does not
+exist, and more reliance is placed on a decision maker to determine risk
+tolerance. For example, if assessing how much production is expected
+under future climate scenarios, there is not likely to be a well-defined
+threshold for what an acceptable amount would be. Instead, a decision
+maker may need to look at changing conditions and determine if profits
+or risk of decreased performance is acceptable.
+
+In a complex risk assessment, the likelihood and consequence must be
+co-evaluated as a paired value and derived together. The likelihood, by
+definition, must be the probability of an event. Without a threshold
+based on the SSC a new value shall be selected. This may be the baseline
+performance (i.e. using a historic expected value) or it could be
+variable, (i.e. the likelihood of exceeding a series of values). Other
+appropriate values may also be used.
+
+The likelihood and consequence are determined together choosing first a
+climate indicator value, scenario or consequence from the vulnerability
+assessment and then the likelihood of that scenario occurring. The risk
+is then calculated or placed on the matrix to show how likelihood and
+consequence change in relationship to each other.
+
+For example, hydroelectric production is expected to change as a
+function changing precipitation, but a clear threshold below which
+production is unacceptable cannot be easily defined. A model can be used
+in a stress test to simulate the production from various scenarios using
+total annual precipitation as an indicator to develop a vulnerability
+curve. The 50th percentile of historic annual production of 100GWh may
+be selected as a baseline. For SSP2-4.5 and SSP5-8.5 the likelihood of
+exceeding 90GWh, 100GWh, 110GWh, etc. can be calculated for the 2050's
+and 2080's and compared by a decision maker to the baseline value to
+make an informed decision about the significance of the risk and any
+adaptation options they wish to pursue.
+:::
+
+### Assess Likelihood
+
+This sub-step estimates the likelihood that a climate indicator will
+reach levels that matter for SSC performance, within the selected
+scenario(s) and time horizon(s). Likelihood methods depend on the type
+and quality of climate data available. Where modelled projections are
+available for the indicator, likelihood may be estimated quantitatively.
+
+Select Climate Scenarios: Before quantifying risk, determine which
+climate scenarios to analyze. This includes deciding how to represent
+time (e.g., based on the design life of the SSC) and which climate
+scenarios to use (e.g., different emissions pathways or global warming
+levels). For long-lived assets, multiple scenarios may be needed; for
+shorter-lived assets, a single scenario may suffice. Rationale for
+choices should be clearly documented.
+
+::: {.callout collapse="true" title="Example Scenarios} \*Probability of
+an event under different global warming levels (e.g., 2°C, 2.5°C, 3°C).
+Refer to Appendix D.2.3 for more details on global warming levels.
+
+-   Probability of an event under specific climate scenarios (e.g.,
+    SSP2-4.5, SSP5-8.5) for different future time windows (e.g., 2050s,
+    2080s).
+:::
+
+::: {.callout-note collapse="true" title="Note on time"}
+The more climate scenarios and time horizons needed for the assessment,
+the more likelihood values will need to be calculated for each climate
+indicator. For example, if SSP2-4.5 and SSP5-8.5 climate scenarios are
+selected for the 2°C global warming level, under two future time
+horizons (2050s and 2080s time periods), then four distinct likelihood
+values will need to be calculated and compared in the analysis. The time
+window selected should include 30 years to capture climate variability,
+but does not need to exceed SSC design life beyond that.
+:::
+
+**Select the Future Value or Range Criteria:** For each scenario,
+determine the historic and future value or range in which likelihood
+will be calculated. That is, the future value or range of possibilities
+within the climate scenario ensembles in which statistical analysis will
+be calculated against. Percentiles could also be used to add some
+conservatism, at the cost of sample size. For example, the number of
+75th percentile or greater events that exceed the critical threshold
+could be compared to the total number of events that exceed the 75th
+percentile of the climate projection data.
+
+**Assess Probability:** For each scenario, determine the probability of
+relevant hazards and indicators. This is completed through statistical
+analysis to calculate the probability of the future value or range
+exceeding the selected threshold (performance criteria) established
+previously. For simple risk assessments, the probability should be
+calculated following the classical formula, or other established
+statistical methods, for determine the probability of event $X$
+occurring:
+
+$$
+L(X) = \frac{\text{Number of times X occurs}}{\text{Total Number of Events}}
+$$
+
+This formula is applied with respect to a pre-defined threshold. In the
+simple climate risk analysis scenario, where a critical threshold has
+been identified, this should be the number of times the climate data in
+a 30+ year window exceeds the critical threshold divided by the total
+number of data points. For complex risk assessments, this probability
+calculation may vary.
+
+![](images/Likelihood.png)
+
+::: {.callout-note collapse="true" title="Stationarity Assumptions"}
+The classic probability formula assumes data are stationary, which means
+there is no long-term trend. This assumption is false, but may be
+useful. Climate data should be compared in 30-40 year windows where
+stationarity assumptions are more valid and not used for long periods of
+time. Alternatively, probabilities may be estimated from fitted
+probability distributions, some of which may be applied to
+non-stationary data. For screening and other high-level assessments, the
+probability may be able to be reasonable estimated visually.
+:::
+
+**Mapping Probability:** Once the probabilities of a climate indicator
+exceeding the performance criteria is calculated, map each of the
+scenario probabilities to a likelihood scale or criteria. This is done
+so that risk can be estimated by combining the likelihood level with the
+consequence level. This will result in a likelihood value for each
+scenario and time horizon evaluated for a given climate indicator.
+
+::: {.callout collapse="true" title="Semi-Quantitative Likelihood Analysis"}
+For climate hazards and indicators where limitations exist in the
+climate data and quantitative analysis of likelihood is not possible
+(e.g., non-modelled hazards), likelihood can be estimated
+semi-quantitatively. In these situations, likelihood level is informed
+by relevant and available literature or studies associated with the
+climate hazard or indicator and compared against the performance
+criteria established for the climate interaction. Some examples of
+climate hazards that would require semi-quantitative likelihood scoring
+would be hailstorms, lightning strikes or tornados.
+
+Like the quantitative method, expected future likelihood level needs to
+be mapped to a likelihood scale or criteria in order to estimate risk.
+Depending on the nature of the climate risk assessment and the relevant
+hazards, the assessment may need to estimate likelihood using both
+quantitative and semi-quantitative approaches. This may be unavoidable.
+In these situations, it is best practice to map likelihood level to the
+same likelihood scale, so risk can be estimated in a similar manner.
+
+Semi-quantitative likelihood scoring contains a higher level of
+uncertainty, as the process involves more subjectivity in the scoring
+process, and relies on relevant literature being available and relevant
+for the hazard or climate indicator.
+:::
+
+### Risk Quantification
+
+The final risk (risk level) is determined quantitatively as the product
+of the likelihood and the consequence (impact) or may be qualitatively
+evaluated using likelihood and consequence results. This is commonly
+mapped to a risk matrix. Risks should be calculated for each climate
+interaction, scenario, and time horizon that have been included in the
+assessment. This may result in multiple risk values for a given
+interaction, if multiple climate scenarios and time horizons are
+considered in the assessment.
+
+::: {.callout.caution collapse="true" title="Central Tendency"}
+When risk, likelihood and consequence are determined
+semi-quantitatively, care should be taken to ensure the resulting
+analysis is meaningful. Often categorical values have a tendency to
+select middle values and are selected very subjectively. In these
+situations, ensure values are non-biased, founded on information and
+granular enough to suit the needs of the assessment.
+:::
+
+::: {.callout collapse="true" title="Risk of Extreme Events"}
+Extreme events serve as an important design basis for critical
+infrastructure, particularly in nuclear and hydroelectric. These design
+events are very rare, often being expressed as an event which has a
+return period of $10^{-5}$ to $10^{-7}$ of occurring in any given year.
+This makes the likelihood in the risk equation extremely small and the
+overall risk consistently low despite large and unacceptable
+consequences. These events should be handled as special cases if
+compared to other forms of asset risk.
+
+The risk may be better reflected by increasing the consequence scale of
+the event to increase the risk, as it does not need to be commensurate
+with the likelihood scale. Another option may be in properly defining
+the risk event itself. The criteria may be established as a SSC failure
+with an extremely low probability (i.e. 1:10,000 year event), or it may
+be framed as not meeting a regulatory requirement or risk tolerance of
+being able to operate an SSC up to a 1:10,000 year event, which could
+scale the problem to be commensurate with other risks.
+:::
+
+### Level of Concern
+
+Recognizing uncertainty and understanding the confidence in the analysis
+is an important part of a climate risk assessment. There is natural
+variability in the climate system and human actions will determine the
+emissions pathway altering climate outcomes in the future. In addition,
+not all climate model parameters or vulnerability and risk assessment
+methods offer the same degree of confidence. As a result, it is
+important to integrate both the level of risk, the uncertainty and
+confidence in the analysis when finalizing the assessment. Identifying
+the level of concern allows for the consideration of both risk and
+uncertainty.
+
+#### Key Steps for Determining Level of Concern
+
+**Risk:** Using the risk from the risk assessment to plot the position
+on the vertical axis of a Level of Concern diagram for each climate
+interaction assessed. The vertical axis represents the amount of risk,
+as determined by the risk assessment.
+
+::: {.callout-tip collapse="true" title="Simplification"}
+Where multiple climate risks exist for a single climate interaction
+(e.g., multiple climate scenarios and time horizons assessed), it is
+often best practice to select one conservative future risk level, to
+simplify the analysis depending on the objective of the assessment. The
+analytical uncertainty will guard against overly conservative and costly
+adaptation actions. The future risk level mapped for the climate
+interaction should be documented and justified to fit the purpose of the
+assessment.
+:::
+
+**Analytical Uncertainty:** Assign the analytical uncertainty on the
+horizontal axis. This value reflects the uncertainty in climate
+projections, the confidence in the ability of climate models to
+represent relevant hazards, and the confidence in the vulnerability
+assessment process. This step is inherently subjective unless there is
+detailed knowledge of the uncertainties involved. Information on
+uncertainty and confidence can be found [here](/core_concepts_data.qmd)
+
+Involve climate science and engineering experts to help assess
+uncertainty and avoid bias -- whether it be overconfidence or under
+confidence in the data and models.
+
+By combining risk magnitude with analytical uncertainty, it is possible
+to identify the overall level of concern for each risk. This approach
+will help prioritize adaptation actions and ensure decision-makers
+understand both the risks and the confidence in the underlying analysis.
+
+![Level of Concern](images/levelofconcern.png)
+
+### Adaptation Strategy Quadrants
+
+Building on the level of concern diagram, adaptation strategies for
+associated climate risks can be categorized based on the risk level and
+the confidence in the analysis can be identified. A four-quadrant
+approach is presented, and are aimed to support adaptation strategy
+development in thne next step of this assessment process. Adaptation
+quadrant descriptions include:
+
+::: {.callout collapse="true" title="Quadrant I -- Standard Planning and Design Guidance"}
+Projects in this category are well-suited to standard evaluation
+processes. The assumption of stationary (unchanging) past design
+conditions is generally valid, and uncertainty is well understood.
+Standard safety margins may be sufficient, but engineers should remain
+cautious and consider whether additional analysis is warranted,
+especially for SSC where there is low tolerance for risk of failure.
+:::
+
+::: {.callout collapse="true" title="Quadrant II -- Robust Actions"}
+Here, there is confidence that future conditions will be stressful for
+the system. Adaptation actions should prioritize robust options that can
+withstand these challenging conditions. Where multiple options exist,
+incremental cost analysis (ICA) may be used to determine the most
+cost-effective and effective solution. If a clear winner emerges, it
+should be prioritized.
+:::
+
+::: {.callout collapse="true" title="Quadrant III -- Flexible Actions"}
+This quadrant presents the challenge of low risk combined with higher
+uncertainty. In these cases, it may not be justifiable to conduct
+detailed design analyses. Instead, develop a limited set of flexible
+adaptation pathways, and select scenarios that are relevant or
+appropriately conservative. Focus on options that can be adjusted as new
+information becomes available and institutionalize a monitoring plan to
+track changing conditions.
+:::
+
+::: {.callout collapse="true" title="Quadrant IV -- Robust and Flexible Actions"}
+Projects in this quadrant are the most challenging, as they involve both
+high risk and high uncertainty. Strategies should combine robust,
+immediate actions (possibly identified through incremental cost
+analysis) with flexible adaptation pathways. Implement robust measures
+where risk tolerance is lowest or impacts are most imminent and
+establish a monitoring plan to support ongoing adaptation as more
+information becomes available.
+:::
+
+![](images/quadrant_actions.png)
+
+Following this structured approach ensures that adaptation strategies
+are well-matched to both the level of risk and the confidence in the
+analysis, supporting resilient and cost-effective decision-making.
+
+### Risk Prioritization
+
+If the risk assessment is being done for a larger facility or multiple
+SSC, an additional step may be required to prioritize the risks that
+will be treated. The risk and the level of concern can be used to
+prioritize risks to be addressed. Adaptations plans for each risk can
+then be institutionalized or an organizational risk tolerance threshold
+can be applied to determine which risks needs to be addressed and in
+which order.
+
+## Adaptation
+
+Adaptation strategies should be developed to address risks or
+vulnerabilities that have been identified as unacceptable. It involves
+taking actions to reduce the impacts of climate change on SSCs.
+Adaptation can take many forms: 
+
+**Reducing Exposure**: Some actions lower exposure to hazards, such as
+relocating an SSC away from areas at risk of flooding.  **Reducing
+Vulnerability**: Most adaptation measures focus on decreasing the
+system's vulnerability to climate hazards. This can be achieved by
+strengthening the SSC or modifying its operation to better withstand
+adverse conditions.  **Enhancing Reliability and Resilience**: Certain
+adaptation actions improve the reliability of the SSC, ensuring it
+continues to perform even as climate conditions worsen. Others enhance
+resilience by minimizing the impact of an event or enabling faster
+recovery after disruption.  **Transferring Risk:** Some elements of risk
+can be transferred through contractual obligations, rate regulation or
+insurance. 
+
+::: {.callout collapse="true" title="Types of Adaptation} **Structural
+Adaptation:** This involves modifying or replacing physical assets or
+components. These changes are typically implemented through maintenance
+activities or capital projects. Examples include upgrading equipment,
+increasing the capacity of turbines, or reinforcing infrastructure.
+
+**Operational Adaptation:** This focuses on changing how assets are
+operated rather than altering the assets themselves. Examples include
+adjusting operating schedules, increasing inspection frequencies, or
+updating maintenance programs. These changes are usually introduced
+through revised procedures or work instructions. Where feasible,
+operational adaptations should be considered before structural
+adaptations, as they may offer effective, lower-cost solutions.
+
+Both structural and operational adaptation depends on informational
+adaptation -- the provision of climate data, expertise, and monitoring
+technology to support informed decision-making. :::
+
+The figure illustrates how SSC adaptation measures can be implemented
+over time to achieve resilience. The solid blue line represents SSC
+climate vulnerability/risk to a climate indicator without the
+implementation of adaptation measures. In this situation, we see the SSC
+entering unacceptable performance criteria well before its expected
+design life. The dash blue line represented SSC climate vulnerability
+after an adaptation measure has been implemented. In this situation, the
+adaption strategy reduces vulnerability for a period, but as climate
+hazards intensify, and the SSC enters unacceptable performance criteria
+before its expected design life. As such, a second adaptation becomes
+necessary to maintain acceptable performance through the SSC design
+life. This example highlights the importance of flexible adaptation
+pathways and planning as well as the timing and institutionalizing when
+implementing adaptation strategies. 
+
+![Reduced vulnerability with adaptation](images/adaptation.png)
+
+::: {.callout-note collapse="true"}
+While most climate vulnerability and risk guidance documents emphasize
+the importance of managing climate risks and implementing adaptation
+actions, they often lack detailed instructions on how to evaluate and
+select the best adaptation options. When choosing adaptation measures to
+address climate risks or vulnerabilities the model or method used (i.e.
+stress test), can also be used to assess potential adaptation actions.
+This ensures that each option is measured against the same performance
+criteria and under comparable scenarios. 
+:::
+
+::: {.callout-note collapse="true" title="Adaptation Timing"}
+Not all adaptation actions are urgent. The urgency of adaptation should
+be determined through a risk evaluation process. Often, adaptation can
+be incorporated into regular asset life-cycle management. For example,
+if a valve is scheduled for replacement every ten years, it may be
+cost-effective to wait until the next scheduled replacement to install a
+climate-resilient model -- unless inspections show accelerated
+deterioration that would require earlier action.
+:::
+
+::: {.callout collapse="true" title="Expected Outcomes"}
+-   Clear documentation of the key adaptation measures considered and
+    why. 
+-   The preferred adaptation measure(s) to be implemented and the
+    rationale as to why. 
+:::
+
+Following these steps systematically identifies, evaluates, and
+implements adaptation measures that effectively reduce climate-related
+risks and enhance the long-term performance and resilience of assets.
+
+###Identifying Adaptation Options 
+
+Effective adaptation strategies should be tailored to the level of risk
+or *vulnerability* identified and the *confidence* placed in the
+analysis. The goal is to select actions or a range of actions that can
+reduce the likelihood or consequence of reaching critical performance
+thresholds. The scope and complexity of these actions should reflect the
+nature and cost of the problem or system being addressed.  
+
+Use the results from [Level of Concern](###Level%20of%20Concern) in the
+risk assessment will guide the selection of adaptation actions. Unless
+there is an option that is a clear winner, first identify multiple
+possible actions to ensure flexibility and resilience. Options should
+also be considered to minimize regret, meaning options that would
+minimize future opportunities or were fragile (i.e. not effective) under
+certain future conditions. 
+
+Where the risk assessment results select Quadrant 1, standard methods
+can be used to address the risk. If findings are in Quadrant 2, the
+various adaptation options considered should be evaluated and the best
+option selected. 
+
+Where the risk assessment results in Quadrants 3 or 4, robust or robust
+and flexible actions are to be considered. [Adaptation
+pathways](###%20Adaptation%20Pathways) are a valuable tool for
+developing a long-term, flexible plan. These pathways identify a
+sequence of adaptation measures, some of which may not need to be
+implemented immediately, allowing the organization to respond as
+conditions evolve.
+
+### Adaptation Pathways 
+
+An adaptation pathway (@hasnoot2013) is a strategic tool for evaluating
+a sequence of adaptation options, along with their associated costs and
+benefits over time to manage uncertainty. This approach is particularly
+valuable for situations characterized by higher uncertainty or risk
+(Quadrants 3 and 4) but may be used in multiple scenarios. By mapping
+out a series of potential actions, adaptation pathways help
+organizations develop flexible, long-term plans to address climate risks
+as conditions evolve. Adaptation pathways consider not a single but
+multiple pathways. Decisions or actions at some point in time may remove
+one pathway for consideration or justify the shift to a different path
+than originally envisioned. 
+
+::: {.callout collapse="true" title="Key Elements of Adaptation Pathways"}
+-   **Sequential Options**: A pathway consists of multiple adaptation
+    actions that can be implemented in sequence. Each action is linked
+    to a specific trigger a threshold or indicator showing that current
+    measures are no longer sufficient. 
+
+-   **Triggers and Decision Points**: Triggers are identified early
+    through a robust monitoring plan. When a trigger is reached, it
+    signals the need for a decision, such as initiating a new investment
+    or changing operational procedures. Triggers must provide enough
+    lead time for planning and implementation before the SSC's
+    performance becomes unacceptable. 
+
+-   **Monitoring Plans**: Effective adaptation pathways rely on ongoing
+    monitoring. In OPG, this could involve integration with risk
+    monitoring, equipment reliability, asset health programs, or safety
+    analyses. Monitoring ensures that triggers are detected promptly and
+    that actions can be taken when needed. 
+
+-   **Pre-Planning and Flexibility**: Pre-planning the entire adaptation
+    pathway helps avoid "buyer's remorse" in the future or unnecessary
+    overspending now to address uncertain future risks. While the full
+    pathway should be considered, immediate actions and near-term
+    decisions should be the focus of rigorous analysis. Actions planned
+    for the distant future can be explored with less detail, as
+    conditions may change. 
+
+-   **No-Regrets and Flexible Solutions**: When analytical uncertainty
+    is high, prioritize "no-regrets" actions -- measures that are
+    beneficial under a wide range of scenarios -- combined with a strong
+    monitoring plan. Consider the costs of delayed action, such as
+    increased future expenses or missed opportunities for efficiency
+    (e.g., combining projects to save on excavation costs). 
+
+-   **Institutional Capacity**: Choose pathways that align with OPG's
+    existing processes and resources. Monitoring programs that are easy
+    to implement and manage will increase the likelihood of successful
+    adaptation. 
+:::
+
+::: {.callout collapse="true" title="Developing and Adaptation Pathway"}
+The figure below shows the current state and four different possible
+actions. Various adaptation options are linked in a pathway and
+considered in terms of their benefits and co-benefits. The primary
+driver on the x-axis is the climate driver which is the sole determinant
+of the need to change the system. A secondary and tertiary axis are
+added to show the relative high-end and low-end time projections for the
+increase of the given climatic driver or hazard (i.e. when will that
+intensity of the climate change be reached under high and low emissions
+scenarios). This figure can be interpreted similar to a subway map
+starting at the left and moving through actions or decisions on
+different pathways. Some pathways such as Action B (green) will only be
+effective up to a certain climate value. When this end is reached there
+will need to be a transition to a different action pathway (going up to
+A or down to C or D). The terminology of pathway is used because
+individual actions can be used sequentially creating paths AB or BCD,
+etc.
+
+![](images/adapt_pathway.png)
+
+In this example, the conditions have changed such that the current
+policy (black) will soon be stressed beyond the desired threshold. At a
+trigger point (triangle) an initial investment is initiated and work is
+executed (i.e. a project represented by rectangle) is required to
+implement an adaptation measure and switch to Action C, representing a
+robust immediate action. A monitoring program will then be
+institutionalized to monitor for the conditions that indicate Action C
+may no longer be effective, representing a flexible action. If the
+trigger level of the climate driver (pink triangle) is reached a new
+adaptation (i.e. project, operational change, etc.), represented by the
+pink square, will be required to transition from Action C and Action D.
+This C-D pathway (Pathway 8 in right sub-figure) has modest benefits
+compared to other pathways but is the lowest cost option. Also, in a low
+climate change scenario, there may not be a requirement to deviate from
+Action C to a more expensive option.
+
+Developing an adaptation pathway could be done qualitatively or
+quantitatively. For example, using expert knowledge a simple qualitative
+analysis could be conducted as shown above to identify relative costs
+(i.e. number of money symbols) and benefits/co-benefits. Alternatively,
+a detailed model could be setup and run for each pathway with an
+included financial analysis to quantify the costs and value of each
+identified benefit.
+:::
+
+### Evaluating Adaptation Pathways
+
+-   Compare pathways based on costs, benefits, and co-benefits,
+    including avoided losses. 
+-   Use qualitative methods (e.g., expert judgment, simple scoring) or
+    quantitative models (e.g., detailed financial analyses) as
+    appropriate. 
+-   Consider the time horizons for each action, and how quickly triggers
+    might be reached under different climate scenarios. 
+
+Developing adaptation pathways can create resilient, phased strategies
+that adapt to changing climate risks over time -- balancing immediate
+needs with long-term flexibility and cost-effectiveness.
+
+## Reporting or Institutionalizing the Decision
+
+Once the assessment and decision-making process are complete,
+documentation of the analysis and formally institutionalization of the
+decisions made should be completed. The level of detail in the report
+should match the scope and complexity of the assessment. 
+
+::: {.callout collapse="true" title="Expected Outcomes"}
+* Documentation of what was completed as part of the assessment
+    process following the key criteria and documentation analysis
+    steps.
+* Documentation should include how assessment result will be
+    integrated into existing processes, how operations may be transitioned
+    to consider the assessment results, any long-term monitoring and
+    triggers that may be required, as well as the need for independent
+    reviews of the assessment.
+:::
+
+::: {.callout collapse="true" title="Key Criteria for Reporting}
+**Reproducibility**: The analysis and decisions must be documented
+    in a way that ensures reproducibility. Ideally, if the same
+    assessment were conducted independently, it would yield similar
+    results. Future teams should also be able to clearly understand the
+    rationale behind each decision. 
+
+**Transparency**: Clearly outline the methods, data sources,
+    assumptions, and reasoning used throughout the assessment and
+    decision-making process. 
+
+**Clarity**: The report should be organized and written so that it
+    is accessible to both technical and non-technical audiences. 
+
+**Institutionalization**: Ensure that decisions are formally
+    integrated into relevant policies, procedures, or operational plans.
+    This may involve updating risk registers, asset management plans, or
+    standard operating procedures to reflect the chosen adaptation
+    actions. 
+
+**Budget**: The budget for climate adaptation should be considered.
+    In many cases a project or upgrade may be required even in the
+    absence of climate change adaptation (i.e. end of component life).
+    The budget should be recorded based on a base (like for like) case
+    as well as the higher cost of adaptation. This way the organization
+    can better track and manage the incremental costs of climate
+    adaptation. 
+:::
+
+Clear, thorough records help support transparency, enable continuous
+improvement, and provide a reference for future projects or audits. When
+documenting the analysis consider the following: 
+
+**Purpose of the Assessment**: Clearly state the objectives and
+    scope. 
+
+**Methods Used**: Describe the methodologies, tools, and data
+    sources. 
+
+**Key Assumptions**: Document any assumptions made during the
+    analysis. 
+
+**Findings and Conclusions**: Summarize the results and key
+    insights. 
+
+**Recommendations and Actions**: Outline any proposed adaptation
+    measures or next steps. 
+
+**Supporting Evidence**: Include relevant data, references, and
+    appendices as needed. 
+
+Adapting the level of detail to match the complexity and significance of
+the activity ensures documentation remains practical and valuable for
+both current and future stakeholders. 
+
+Thoroughly documenting and institutionalizing decisions supports
+organizational learning, transparency, and the long-term resilience of
+assets and operations. 
+
+#### Process Integration 
+
+OPG manages assets and systems through a series of established
+processes.  
+
+Many adaptation needs can be addressed through operational changes or as
+part of ongoing asset management activities. Typically, an effective
+adaptation plan might begin with operational changes, followed by
+identification of larger projects for inclusion in the Investment
+Planning process. 
+
+**Operational Changes**: Institutionalize by updating procedures,
+    work instructions, or inspection requirements. These changes may
+    also impact operating budgets as reflected in the Business Plan. 
+
+**Asset and System Changes**: Needs for asset changes typically
+    arise from risk assessments, plant condition assessments, or
+    performance improvement initiatives.Early identification of adaptation
+    needs ensures climate impacts are considered in the design and
+    operation of assets over their entire lifecycle. 
+
+Once a project is initiated, the adaptation plan and pathways inform the
+project team's solution development, allowing for further refinement as
+more detailed information becomes available. 
+
+#### Transitioning to Operations
+
+After project close-out, monitoring plans for flexible actions should be
+updated and transitioned teams that will operationalize the plan. This
+may involve: 
+
+-   Updating equipment reliability monitoring 
+-   Modifying monitoring plans in risk registers or plant condition
+    assessments 
+-   Revising governance documents and work instructions as necessary 
+
+#### Documentation and Continuity 
+
+To ensure continuity and future reference, all adaptation pathways and
+decisions should be documented in accessible corporate records.
+Monitoring actions should be integrated into appropriate processes --
+such as engineering risk assessment program (ERAP), equipment
+reliability (ER), business unit, or station risk registers. 
+
+#### Long-term Monitoring and Triggers
+
+Longer-term actions should be linked to specific triggers and monitored
+for opportunities to integrate with complementary projects. For
+instance, a future adaptation may be triggered by a threshold exceedance
+or aligned with another project to maximize efficiency and
+cost-effectiveness. Taking advantage of windows of opportunity -- such
+as co-funding or heightened interest after major events -- can also
+improve outcomes. 
+
+When flexible adaptation plans are needed, it is important to institutionalize this plan. There are several processes which may be used for this process including equipment reliability, safety analysis, risk registers, asset management or aging management processes. The performance of the SSC should be regularly reviewed to determine if performance continues to be acceptable. The plan should not only exist in a report of the risk assessment process.  
+
+The monitoring plan should also include a trigger value. This value identifies when a decision about adaptation is required. A trigger should be set to occur prior to reaching an unacceptable level of performance so that there is time to take action, including time for OPG processes to implement an action, prior to unacceptable levels or risk or performance being reached. 
+
+#### Monitoring Challenges
+
+Some climate variables, such as extreme conditions (e.g., peak river
+discharge), can be difficult to monitor due to natural variability and
+limited data. In such cases, monitoring covariates that are easier to
+track may provide a practical solution. 
+
+#### Independent Review 
+
+Several guiding documents emphasize the importance of periodic and
+independent reviews of climate risk and adaptation assessments. To
+facilitate effective review, assessments should be conducted and
+documented in a manner that allows an independent third party to easily
+understand the process and reach the same conclusions. When a risk
+report serves as the institutional record of a decision, both the report
+and the associated risk process should be reviewed regularly to account
+for changes in equipment condition, updates to design standards, or new
+climate data. Periodic reviews are already a well-established practice
+within safety programs, ensuring that adaptation decisions remain current, relevant, and robust over time.
 
 <details>
 
