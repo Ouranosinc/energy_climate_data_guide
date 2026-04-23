@@ -20,18 +20,6 @@ The guide is designed as a practical resource that helps users connect electrici
 
 By connecting climate datasets with real-world applications, the guide aims to make climate information more accessible and usable for energy practitioners. It provides a structured overview of available data and practical guidance on how climate information can be incorporated into analysis workflows. In doing so, the guide supports consistent and informed consideration of climate conditions in energy sector planning, operations, and management. The guide also includes a tool for self-assessment, a [Maturity Matrix](./maturity_matrix/Maturity_Matrix.qmd), that helps organizations reflect on how climate information is currently incorporated into their processes and identify opportunities to strengthen climate-informed practices over time.
 
-This is an example of using [`mermaid`](https://mermaid.js.org/) to generate a flowchart in Quarto.)
-
-```{mermaid}
-flowchart LR
-  A[What data are out there] --> B(An Inventory)
-  B --> C{Interviews with\nEnergy Sector\nChampions}
-  C --> D[Best practices]
-  C --> E[Gap analysis]
-```
-
-**A demo for including video:**
-{{< video https://www.youtube.com/watch?v=KrWZmIQxUz8 >}}
 
 
 
