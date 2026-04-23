@@ -40,6 +40,6 @@ Along with historical data, this document only provides information on climate p
 
 - [[climatedata.ca]()]{.mark-red} (upcoming)
 
-![Prediction Types and their temporal horizons](../image/PredictionTypesAndTimeFrames_Meehletal2009.png)
+![Prediction Types and their temporal horizons](./image/PredictionTypesAndTimeFrames_Meehletal2009.png)
 
 
