@@ -1,0 +1,11 @@
+---
+title: Climate Data Fundamentals
+jupyter: python3
+---
+
+
+This section presents general knowledge about climate data and their usage, including aspects about temporal horizons, data gaps, ensemble datasets use, uncertainty considerations, data formats and access.
+
+
+
+

@@ -83,7 +83,7 @@ FWI is usually calculated at a daily timestep and ideally with measurements take
 
 :::{#id1 .callout collapse="true"}
 ### Spatial Resolution
-FWI is usually calculated at local stations (finer resolution), but can also be computed from [reanalysis](../../datasets/reanalysis_data/Reanalysis_Datasets.ipynb) or [climate projections](../../datasets/climate_projection_data/Climate_Projection_Datasets.ipynb). ECCC application of projected FWI has a 50 km resolution. 
+FWI is usually calculated at local stations (finer resolution), but can also be computed from [reanalysis](../../datasets/reanalysis_data/Reanalysis_Datasets.ipynb) or [climate projections](../../datasets/climate_projection_data/Climate_Projection_Datasets.qmd). ECCC application of projected FWI has a 50 km resolution. 
 
 :::
 
@@ -107,7 +107,7 @@ Fires and ignitions are simulated in each grid cell. Therefore, Burn-P3 runs mul
 
 Many studies used Burn-P3 with climate change projections to predict future fire activity in Canada. @erni2024 used Burn-P3 to map wildfire hazards, vulnerability and risk to Canadian communities and found that over 39% of land is considered at high or very high risk of fire. For its estimates, observations from ECCC where combined with provincial meteorological stations as well as gridded observations when stations were missing or the NCEP reanalysis for missing variables such as wind. @gabariau2023 made a similar analysis for the boreal forest in Northwest Canada using a dynamic global vegetation model, [LPJ-LMfire model](https://gmd.copernicus.org/articles/6/643/2013/) to project annual burns and attributes of the boreal trees. Future simulations were run with two GCMs and RCMs as well as with RCPs 4.5 and 8.5. The study showed a decrease of the burn rate in the 21st century due to a decrease of biomass in needle leaf tree species and an increase in broadleaf species. However, some grids in the South East of the studied area showed an increase in fire linked to the increase in needle tree species. 
 
-@Dawe2022 used future climate projections from CanESM2, a [GCM](../../datasets/climate_projection_data/Climate_Projection_Datasets.ipynb), in Burn-LP3. Gridded climate projections were downscaled with [NRCANmet](../../datasets/observed_data/NRCANmet_Gridded_Data.ipynb). Since daily fire weather conditions, which is required as an input to Burn-P3, are inferred at stations, the projections were matched to weather stations with [BioSim11](https://cfs.nrcan.gc.ca/projets/133). Monthly normals were calculated at 29 stations and for three time periods (2020, 2070, 20120) and fed in [LANDIS-II](https://www.landis-ii.org/), a forest landscape model, to project vegetation (fuel).  Landis-II outputs were directly translated into the Fire Behaviour Prediction System fuel types to incorporate in Burn-P3. The study was done for Saguenay, Quebec and showed an important increase in wildfire risk. The figure below present the methodology of the research. 
+@Dawe2022 used future climate projections from CanESM2, a [GCM](../../datasets/climate_projection_data/Climate_Projection_Datasets.qmd), in Burn-LP3. Gridded climate projections were downscaled with [NRCANmet](../../datasets/observed_data/NRCANmet_Gridded_Data.ipynb). Since daily fire weather conditions, which is required as an input to Burn-P3, are inferred at stations, the projections were matched to weather stations with [BioSim11](https://cfs.nrcan.gc.ca/projets/133). Monthly normals were calculated at 29 stations and for three time periods (2020, 2070, 20120) and fed in [LANDIS-II](https://www.landis-ii.org/), a forest landscape model, to project vegetation (fuel).  Landis-II outputs were directly translated into the Fire Behaviour Prediction System fuel types to incorporate in Burn-P3. The study was done for Saguenay, Quebec and showed an important increase in wildfire risk. The figure below present the methodology of the research. 
 
 [![Wildfire simulation concept diagram taken from @Dawe2022](image/eap2606-fig-0003-m.jpg)](https://esajournals.onlinelibrary.wiley.com/doi/10.1002/eap.2606 "Wildfire simulation concept diagram taken from @Dawe2022")
 
@@ -196,8 +196,10 @@ Climate change adaptation might require an increase in inspections, to adapt cle
 <mark> Link with transmission and distribution <mark>
 :::
 
+## References
+
 <details>
-<summary><strong>References (click to expand)</strong></summary>
+<summary><strong>(click to expand)</strong></summary>
 
 ::: {#refs}
 :::
