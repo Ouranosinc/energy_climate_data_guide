@@ -88,7 +88,18 @@ website:
       - section: "Guidance"
         contents:
           - guidance/Climate_Data_Decision_Tree.qmd   
+<<<<<<< climate_dataset_section
           - guidance/traditional_knowledge.qmd  
+=======
+          - guidance/traditional_knowledge.qmd
+          - guidance/Climate_Information_Ressources.qmd
+          - guidance/Datasets_by_Variable.qmd
+          - guidance/Example_Applications.ipynb
+          - section: "Analysis Support Tools"
+            href: guidance/tools/Analysis_Support_Tools.ipynb
+            contents:
+              - guidance/tools/Point_Location_Compare.ipynb
+>>>>>>> local
       - section: "Gaps and Barriers"
         contents:
           - gaps/gaps_data.qmd 
