@@ -104,7 +104,10 @@ website:
 format:
   html:
     output-dir: ../html
-    theme: flatly
+    theme: 
+      - flatly
+      - styles/custom.scss
+    #linkcolor: "#070BAB" # "#052946" # Ouranos blue
     css: styles/styles.css
     toc: true
     toc-title: Content
