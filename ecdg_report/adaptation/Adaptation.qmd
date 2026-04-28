@@ -103,16 +103,6 @@ It is important to recognize that with a number of risk and vulnerability guidan
 Conducting climate vulnerability and risk assessments is a common pathway to adaptation, but information can also be integrated into existing processes without necessarily conducting a risk assessment, although there will likely be a lot of similarity in terms of the concepts and steps when doing a climate risk assessment. For example, climate data could be directly integrated into capacity expansion modelling either to conduct a risk assessment or as a fundamental step of electricity system planning in an operational sense. Both require the consideration of uncertainty, careful handling of relevant climate data and understanding of how to make decisions with the output of the climate information. This may require specialized knowledge of the data and the process it will be used for. Some tips and important background can be found at [Model Integration](adaptation/model_integration.qmd)
 
 
-::: {#id1 .callout collapse="true"}
-
-
-
-
-<details>
-
-<summary><strong>References (click to expand)</strong></summary>
-
+## References
 ::: {#refs}
 :::
-
-</details>

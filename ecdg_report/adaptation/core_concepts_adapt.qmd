@@ -1,9 +1,7 @@
 ---
-title: "Core Concepts - Understanding Adaptation"
+title: "Understanding Adaptation, Risk and Vulnerability"
 bibliography: adaptation.bib 
 ---
-
-# Core Concepts: Understanding Adaptation, Risk and Vulnerability
 
 A clear understanding of fundamental definitions is critical to successfully understanding and conducting effective climate vulnerability and risk assessments. Terms such as "risk" and "vulnerability" often have multiple meanings, depending on which context they are applied. Inconsistent or incorrect use of these terms -- such as merging, reinventing, or misapplying definitions -- can lead to confusion and misinterpretation in assessments.
 
@@ -69,7 +67,7 @@ Sensitivity is a measure of how the system responds to changes in climate driver
 
 There is not yet a clearly established definition of adaptive capacity but numerous concepts which are coming into alignment of the concept. Adaptive capacity are actions that are taken to reduce the overall vulnerability of sensitivity of the system. For the purposes of this guide, we consider adaptive capacity to be interventions that are beyond the inherent design of the system. These could be things like emergency management plans, operational procedures, or temporary measures that are pre-established to be called upon if there is a need. This could be measures like plans for sand-bagging if there is flooding, additional but temporary cooling of a system, de-rating of a system, etc. In this way, adaptive capacity may be linked to the concept of \[resilience\](#Resilience) more than it is \[reliability\](#Reliability).
 
-![Representation of the vulnerability of the system to a changing climatic condition.](images/vulnerability.png)
+![Representation of the vulnerability of the system to a changing climatic condition.](images/vulnerability.png){.lightbox width=500}
 
 The figure above explains this concept. As the climate driver (i.e. temperature) increases, the system performance (i.e. operating efficiency) begins to drop. As the climate continues to worsen the the performance begins to drop into the range of safety margins and then fails to perform. In this case, the overall vulnerability is mitigated by the adaptive capacity which is a measure that allows the system to function under higher levels of climate stress.
 
@@ -135,11 +133,7 @@ The consequence is what occurs if the event is realized. Climate variation or un
 
 The terms consequence and impact are sometimes used interchangeably and there does not seem to be a consistent definition. The terms should be well defined and used consistently in your work. For the purposes of this guide, the consequence $C$ is directly related to the vulnerability and used for determining a risk event. It is tied directly to vulnerability $V$. The term impact is reserved for what happens as a result of a risk event being realized. For example, if a risk is realized and the degree of vulnerability show us that a system will fail, the impact of that failure could be a financial loss, reputational loss, etc.
 
-<details>
-
-<summary><strong>References (click to expand)</strong></summary>
-
+## References
 ::: {#refs}
 :::
 
-</details>

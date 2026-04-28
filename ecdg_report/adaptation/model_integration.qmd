@@ -1,9 +1,8 @@
 ---
-title: "Climate Change Adaptation"
+title: "Adapting to Climate Change"
 bibliography: adaptation.bib 
 ---
 
-# Adapting to Climate Change
 The IPCC defines adaptation as "*the process of adjustment to actual or expected climate and its effects, in order to moderate harm or exploit beneficial opportunities*" (@IPCC_2022_WGII). Adaptation is an active process, in which climatic data and information is incorporated decision making and analysis to inform the actual adjustments being made. Adaptation could come in the form of analysis, changed operating practices, modification to assets or maintenance practices, risk transfer processes or retreat and relocation.
 
 This section of the guide discusses the integration of climate data from a climate change adaptation perspective approaches into the use of climate data to address the implicit uncertainty associated with such data. It is important to realize that adaptation science is far more encompassing than is in scope for this guide. It includes modelling and analysis, governance, decision science, planning and more. 
@@ -76,13 +75,6 @@ Figure 1.5 in Ara Begum, R., R. Lempert, E. Ali, T.A. Benjaminsen, T. Bernauer, 
 We focus previously on stress testing, but where there are multiple dimensions of uncertainty or decision making we run into deeper uncertainty. DMDU may not be required for simple system or component replacements.
 Do we include the recent Ouranos work?
 
-
-
-
-<details>
-<summary><strong>References (click to expand)</strong></summary>
-
+## References
 ::: {#refs}
 :::
-
-</details>

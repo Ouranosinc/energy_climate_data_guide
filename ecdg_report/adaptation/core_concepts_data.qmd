@@ -1,9 +1,7 @@
 ---
-title: "Core Concepts: Understanding Climate Data"
+title: "Understanding Climate Data"
 bibliography: adaptation.bib 
 ---
-
-# Core Concepts: Understanding Climate Data
 
 Climate data, whether historical observations or future projections, has many distinct features from other types of data or applications. The Earth's climate system is an inherently complex system with many small scale interactions resulting in potentially large impacts to human society. Climate data is at best a sample or representation of that complex system. Observational data sets may be subject to instrument errors or biases in where those instruments are placed. A similar reading may be different only a few meters away. Reanalysis and projections provide gridded data representative of a larger area, but may miss small scale dynamics important to the site of interest. It is always critical to understand the source of the data being used and the assumptions which are inherently being made with the use of the data.
 
@@ -69,8 +67,8 @@ A global warming level (GWL) considers the climate scenario on the basis of a 30
 
 Typical years used for the start of the respective GWL's used by the IPCC is shown in the table below.
 
-| Global Warming Level (℃) | SSP1-2.6  | SSP2-4.5  | SSP3-7.0  | SSP5-8.5  |
-|--------------------------|-----------|-----------|-----------|-----------|
+| Global Warming Level (℃) | SSP1-2.6 | SSP2-4.5  | SSP3-7.0  | SSP5-8.5  |
+|:--------------------------:|:-----------:|:-----------:|:-----------:|:-----------:|
 | 1.5                      | 2023-2042 | 2021-2040 | 2021-2040 | 2018-2037 |
 | 2.0                      |           | 2043-2062 | 2037-2056 | 2032-2051 |
 | 3.0                      |           |           | 2066-2085 | 2055-2074 |
@@ -78,11 +76,7 @@ Typical years used for the start of the respective GWL's used by the IPCC is sho
 
 : Summary of 20-year average GWL based on multiple lines of evidence. This is the first 20-year period in which the global average temperature exceeds the threshold in comparison to pre-industrial (1850-1900) levels (Adapted from IPCC Cross-Section, box TS.1, Table 1)
 
-<details>
-
-<summary><strong>References (click to expand)</strong></summary>
-
+## References
 ::: {#refs}
 :::
 
-</details>

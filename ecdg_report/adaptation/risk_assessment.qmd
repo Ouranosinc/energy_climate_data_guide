@@ -6,8 +6,6 @@ editor:
     wrap: 72
 ---
 
-# Climate Vulnerability and Risk Assessments
-
 Climate vulnerability and risk assessments are tools for understanding
 how climate change may impact electricity sector activities. These types
 of analysis can be scaled to meet the needs of the sector activity. They
@@ -2068,11 +2066,6 @@ for changes in equipment condition, updates to design standards, or new
 climate data. Periodic reviews are already a well-established practice
 within safety programs, ensuring that adaptation decisions remain current, relevant, and robust over time.
 
-<details>
-
-<summary><strong>References (click to expand)</strong></summary>
-
+## References
 ::: {#refs}
 :::
-
-</details>
