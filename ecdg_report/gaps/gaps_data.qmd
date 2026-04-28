@@ -1,66 +1,48 @@
 ---
-title: Datasets
+title: Climate Data and Information Gaps
 ---
-
-## Overview
 
 This page identifies gaps in climate information, datasets, and methods relevant for the use of climate data in the electricity sector.
 
 
-## Gaps associated with climate data and climate information
+## 1. Mismatch between decision scale and climate data scale
 
-
-### 1. Mismatch between decision scale and climate data scale
-
-The most obvious gap.
-
-#### Insufficient temporal resolution for operational decisions
-
+- Insufficient **temporal resolution** for operational decisions</br>
 Utilities often need hourly or sub-hourly information, but climate datasets remain monthly or daily.
-
-
-#### Insufficient spatial resolution for operational decisions
-
+- Insufficient **spatial resolution** for operational decisions</br>
 Energy applications need local information, models provide the average conditions over a large area.
 
+## 2. Sparse, discontinuous, or non-representative observational records
 
-### 2. Sparse, discontinuous, or non-representative observational records
+- Common problems include short records, changes in instruments or siting, missing data, weak coverage in mountains, along coasts, in northern service territories or forested corridors, and near reservoirs or hydro basins, plus poor representation of variables that utilities need, such as urban vs rural data.
 
-Common problems include short records, changes in instruments or siting, missing data, weak coverage in mountains, coasts, northern service territories, forested corridors, and near reservoirs or hydro basins, plus poor representation of variables utilities need directly. e.g. urban vs rural data
+## 3. Design-relevant extremes are often inadequately characterized
 
+- Utilities do not just need mean temperature or annual precipitation. They need the tails, but many datasets resolve these poorly, especially when events are short-lived or localized. Also, historical information on some past hazard are simply lacking (e.g. freezing rain).
 
-### 3. Design-relevant extremes are often inadequately characterized
+## 4. Lack of information on compound and correlated hazards
 
-Utilities do not just need mean temperature or annual precipitation. They need the tails, but many datasets resolve these poorly, especially when events are short-lived or localized. Also, historical information on some past hazard are simply lacking (e.g. freezing rain).
+- Failures are frequently caused by combinations of hazards, but scientific literature and data on compound events is relatively limited.
 
+## 5. Future climate uncertainty is difficult to translate into operational decisions  
 
-### 4. Lack of information on compound and correlated hazards
+- Climate information is often delivered in forms that are scientifically valid but operationally awkward: [emissions scenarios](../datasets/climate_projection_data/Climate_Projection_Datasets.qmd#emissions-scenarios), ensemble spreads, percentile changes, or annual mean anomalies. Also, no probabilities are assigned to future CMIP climate scenarios. 
 
-Failures are frequently caused by combinations of hazards, but scientific literature (and data) of compound events is relatively limited.
+## 6. Data uncertainty is often difficult to translate into operational decisions 
 
+- Uncertainty related to datasets like reanalysis is difficult to evaluate and use in practice.
 
-### 5. Future climate uncertainty is difficult to translate into operational decisions  
+## 7. Hydrology and land-surface process gaps for water-dependent utilities
 
-Climate information is often delivered in forms that are scientifically valid but operationally awkward: emissions scenarios, ensemble spreads, percentile changes, or annual mean anomalies. Also, no probability assigned to future CMIP climate scenario. 
+- Very few operational products provide information on hydrology and land-surface processes in Canada.
 
+## 9. Limited subseasonal-to-decadal (S2D) actionable information
 
-### 6. Data uncertainty is often difficult to translate into operational decisions 
+- Many utility actions sit between weather and climate timescales, leaving a gap between short-range meteorology and long-range climate planning.
 
-Uncertainty of datasets like reanalysis is difficult to evaluate, let alone use.
+## 10. Climate Projections end in 2100
 
-
-### 7. Hydrology and land-surface process gaps for water-dependent utilities
-
-Very few products provide information on hydrology and land-surface processes in Canada.
-
-
-### 9. Limited subseasonal-to-decadal (S2D) actionable information
-
-Many utility actions sit between weather and climate timescales, leaving a gap between short-range meteorology and long-range climate planning
-
-
-
-
+- Planning horizons for infrastructure may exceed the temporal horizon of current climate projections, which are produced and abundant until 2100. While some simulations extend beyond 2100 and until 2300, very little information and data is available.
 
 
 <!-- Addtional info:
