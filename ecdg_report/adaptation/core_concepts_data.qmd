@@ -1,0 +1,88 @@
+---
+title: "Core Concepts: Understanding Climate Data"
+bibliography: adaptation.bib 
+---
+
+# Core Concepts: Understanding Climate Data
+
+Climate data, whether historical observations or future projections, has many distinct features from other types of data or applications. The Earth's climate system is an inherently complex system with many small scale interactions resulting in potentially large impacts to human society. Climate data is at best a sample or representation of that complex system. Observational data sets may be subject to instrument errors or biases in where those instruments are placed. A similar reading may be different only a few meters away. Reanalysis and projections provide gridded data representative of a larger area, but may miss small scale dynamics important to the site of interest. It is always critical to understand the source of the data being used and the assumptions which are inherently being made with the use of the data.
+
+Uncertainty is also a normal part of investment and everyday decision-making. Everyday humans make plans for retirement savings now knowing what a market will do, choose to switch jobs or simply drive down the highway managing signal from other drivers, infer their actions and drive accordingly without perfect foresight. We are actually fairly adept at making decisions with a certain degree of uncertainty. Therefore, climate-related decisions should not be dismissed simply because of uncertainty or because new information continues to emerge.
+
+## Uncertainty
+
+Understanding uncertainty is critical when working with climate change scenarios and projections. In this context, uncertainty refers to the differences among various future projections. There are three primary sources of uncertainty:
+
+**Aleatory Uncertainty (Natural Variability)**: this type of uncertainty arises from the inherent randomness and natural fluctuations within the climate system. Climate models address aleatory uncertainty through random sampling and by simulating a range of possible outcomes.
+
+**Epistemic Uncertainty (Knowledge Gaps)**: this type of uncertainty is related to what we do not know about the system. No model is perfect -- differences in the physics behind climate models and variability in the socio-economic scenarios (such as Shared Socioeconomic Pathways \[SSP\]) can lead to different climate projections. Using multiple models helps to account for these knowledge gaps.
+
+**Deep Uncertainty**: this type of uncertainty encompasses a broader set of unknowns, including aleatory and epistemic uncertainty, as well as unpredictable factors such as policy choices, evolving societal values, technological changes, and the interconnectedness of decisions. Deep uncertainty is especially relevant for complex projects with significant societal impacts.
+
+This guide primarily addresses aleatory and epistemic uncertainty related to climate change, which is suitable for most OPG applications. Managing deep uncertainty may require specialized tools or approaches, particularly for complex development projects or systems with extensive societal interactions. For more information on deep uncertainty please see [The Society for Decision Making under Deep Uncertainty](https://www.deepuncertainty.org/).
+
+## Confidence in the Analysis
+
+Confidence is not the same as uncertainty. It refers to the level of reliability or trust that can be applied to a climate dataset, projection, or parameter. According to the IPCC, confidence is defined as the "validity of a finding, based on the type, amount, quality, and consistency of evidence (e.g., mechanistic understanding, theory, data, models, expert judgment) and the degree of agreement \[between models\]." (@mastrandrea_2010).
+
+It is important to distinguish confidence from uncertainty. For example, a parameter might have a wide range of possible values (high uncertainty), but if those values are well-supported by extensive research and consistent evidence, we can still have high confidence in the analysis. Conversely, a narrow range of projections might be less trustworthy if the underlying models do not adequately represent key processes.
+
+The IPCC communicates findings using both confidence levels (ranging from "very low" to "very high") and likelihood terms (such as "virtually certain" or "exceptionally unlikely") to describe the probability of specific climate outcomes. Likelihood terms are tied to quantitative probability ranges, while confidence levels reflect the quality, consistency, and agreement of the scientific evidence.
+
+Cannon et al. (@cannon_2020) have also produced generic confidence tiers to regional-scale projections for all of Canada. They recommend using high to medium confidence indicators for engineering design, as they are supported by strong evidence. Medium to low indicators are suitable for risk analysis, cost/benefit analysis, and exploratory studies, and may sometimes be used in design. Low confidence indicators can be used for exploring the impacts of climate change or loading or structural reliability.
+
+**Signal Confidence:** This is the amount of confidence that can be placed in the overall trend in terms of magnitude and direction of the climate data or climate indicator.
+
+**Data Confidence:** This is the amount of confidence that can be placed in the quantitative use of the climate data itself for applications.
+
+The signal confidence is generally higher than the confidence we may place in data. For example, we may have numerous studies and agreement among climate models that gives greater confidence in a *signal* that extreme precipitation is increasing. However, those same studies may give a range of values for a 1:100 year flood so there may be somewhat less confidence in the *data* itself as it is used directly. Both forms of confidence should be considered in decision making.
+
+## Climate Scenarios
+
+The IPCC is a United Nations body for assessing the science related to climate change. The IPCC is primarily a scientific review body, developing reports based on meta-analysis of reports and peer-reviewed academic literature. In order to have comparable results for analysis the Coupled Model Intercomparison Project (CMIP) was developed. In these projects, climate modelers from across the globe agree to a set of scenarios upon which to run their individual climate models. This framework allows for direct comparisons and for pooling the various models as an ensemble to evaluate the uncertainty of future projections. The IPCC provides Assessment Reports approximately every 7-10 years, which provide guidance on the latest climate science and how climate scenarios should be considered.
+
+The most recently completed IPCC 6th Assessment Report uses Shared Socioeconomic Pathway (SSP) scenarios to represent potential emission futures. SSP scenarios are a set of standardized global socioeconomic "storylines" widely used to explore different climate futures. They describe how society might develop (e.g., population change, economic growth, technology, energy use, inequality, urbanization, and governance) which in turn impacts future emissions and land use (drivers of climate change), as well as capacity to mitigate and adapt (important for risk and impacts).
+
+SSP scenarios are not climate outcomes. They are socioeconomic pathways that can be paired with different levels of climate radiative forcing: 2.6, 4.5, 7.0, 8.5 (in `W/m^2`), which determines the level of 'warming' when running climate models. Industry common climate scenarios that are widely used in practice include: SS1-2.6, SSP2-4.5, SSP3-7.0, SSP5-8.5. Notably, Representative Concentration Pathway (RCP) climate scenarios developed in IPCC 5th Assessment Report may also be appropriate to use depending on previous assessment work completed and the purpose of the assessment. The general signal between CMIP5 and CMIP6 is consistent.
+
+## Climate Models
+
+Climate models are computer simulations of the Earth system used to understand and project how climate responds to changes in energy balance and composition of the atmosphere. Climate models simulate the response of climate scenarios. That is, climate models are the tools that translate climate scenario pathways into projected climate conditions (warming patterns, rainfall changes, extremes, sea ice decline, etc.). For any given climate model climate projections may vary due to structural differences in the model, climate variability, or different initial conditions between models. As such, it is important to use climate projection data that utilize multi-model ensembles for climate assessments, since the ensemble ranges characterize the uncertainty or variation of the possible climate futures within a climate scenario.
+
+## Time Horizons
+
+Time boundaries (time horizons) should reflect the expected lifespan of the SSC or the period during which climate impacts may become critical. Multiple time horizons or scenarios may be used to capture a range of plausible futures. Climate analyses commonly used multi-decade periods of at least 30 years to reflect how climate statistics are derived an interpreted. The selected horizon(s) should also match the decision type, such as near-term operational planning versus long-term asset management. For climate assessments, there are four common time horizons that may be used in the assessed:
+
+**Baseline or Historical Time Horizon:** 30-year period representing the current/historical climate conditions.
+
+**Near-term Time Horizon:** (sometimes also referred to as the Near-Century or 2030s) -- 30-year period representing the near-term period of the century (e.g., 2021-2050).
+
+**Mid-term Time Horizon:** (sometimes also referred to as the Mid-Century or 2050s) -- 30-year period representing the mid period of the century (e.g., 2041-2070).
+
+**Long-term Time Horizon:** (sometimes also referred to as the End-of-Century or 2080s) -- 30-year period representing the end period of the century (e.g., 2071-2100).
+
+The actual 30-year start end dates may vary and time horizons may overlap depending on the assessment requirements. Currently, high variability and uncertainty exist in climate models when projecting past 2100. If the climate assessment requires climate data past 2100, please consult the Environment and Climate Change or the Water Resources team.
+
+## Global Warming Levels
+
+A global warming level (GWL) considers the climate scenario on the basis of a 30-year period, with the prescribed global average amount of warming rather than a time-scenario basis. For example, the scenario would be a world with an average increase in temperatures of 2.0℃. This method has the distinct advantage of being agnostic to the scenario being considered so that data from SSP2-4.5 and SSP5-8.5 can be mixed and may reduce the uncertainty of the assessment. Since some GCMs tend to warm faster than others a time basis may result in larger uncertainty because a 1.5℃ warmer model is mixed with a 2.0℃ warmer model. Similarly, the threshold will be reached sooner in SSP2-4.5 than in SSP5-8.5 so a 30-year period in the 2070's under SSP2-4.5 will be mixed with the 2050's in SSP5-8.5 and importantly they will represent the same climatic conditions. This also potentially increases the size of the ensemble being considered. If 10 GCMs were available for each SSP, then 30 GCMs are available for a 1.5℃ scenario, whereas only 10 GCMs are available for SS2-4.5 in the 2030's (2021-2040).
+
+Typical years used for the start of the respective GWL's used by the IPCC is shown in the table below.
+
+| Global Warming Level (℃) | SSP1-2.6  | SSP2-4.5  | SSP3-7.0  | SSP5-8.5  |
+|--------------------------|-----------|-----------|-----------|-----------|
+| 1.5                      | 2023-2042 | 2021-2040 | 2021-2040 | 2018-2037 |
+| 2.0                      |           | 2043-2062 | 2037-2056 | 2032-2051 |
+| 3.0                      |           |           | 2066-2085 | 2055-2074 |
+| 4.0                      |           |           |           | 2075-2094 |
+
+: Summary of 20-year average GWL based on multiple lines of evidence. This is the first 20-year period in which the global average temperature exceeds the threshold in comparison to pre-industrial (1850-1900) levels (Adapted from IPCC Cross-Section, box TS.1, Table 1)
+
+<details>
+
+<summary><strong>References (click to expand)</strong></summary>
+
+::: {#refs}
+:::
+
+</details>
