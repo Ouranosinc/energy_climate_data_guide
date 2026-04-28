@@ -84,6 +84,7 @@ website:
           - guidance/Climate_Data_Decision_Tree.qmd   
           - guidance/traditional_knowledge.qmd
           - guidance/Climate_Information_Ressources.qmd
+          - guidance/Datasets_by_Variable.qmd
           - guidance/Example_Applications.ipynb
           - section: "Analysis Support Tools"
             href: guidance/tools/Analysis_Support_Tools.ipynb
@@ -113,7 +114,10 @@ website:
 format:
   html:
     output-dir: ../html
-    theme: flatly
+    theme: 
+      - flatly
+      - styles/custom.scss
+    #linkcolor: "#070BAB" # "#052946" # Ouranos blue
     css: styles/styles.css
     toc: true
     toc-title: Content
