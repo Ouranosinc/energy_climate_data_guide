@@ -1,12 +1,10 @@
 ---
-title: "Climate Change Adaptation"
+title: "Adapting to Climate Change"
 bibliography: adaptation.bib 
 editor: 
   markdown: 
     wrap: 72
 ---
-
-# Adapting to Climate Change
 
 The IPCC defines adaptation as "*the process of adjustment to actual or
 expected climate and its effects, in order to moderate harm or exploit
