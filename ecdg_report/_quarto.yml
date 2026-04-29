@@ -103,8 +103,8 @@ website:
         href: adaptation/Adaptation.qmd
         contents:
           - section: "Core Concepts"
+            href: adaptation/core_concepts.qmd
             contents:
-              - adaptation/core_concepts.qmd
               - adaptation/core_concepts_data.qmd
               - adaptation/core_concepts_adapt.qmd
           - adaptation/model_integration.qmd
