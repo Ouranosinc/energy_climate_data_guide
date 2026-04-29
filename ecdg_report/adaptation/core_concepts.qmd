@@ -8,4 +8,3 @@ Adaptation to climate change and integrating climate data into electricity secto
 
 - [To learn about the core concepts of climate data click here](adaptation/core_concepts_data.qmd)
 - [To learn about the core concepts of adaptation practice click here](adaptation/core_concepts_adapt.qmd)
-
