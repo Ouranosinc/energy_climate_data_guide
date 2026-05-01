@@ -9,40 +9,37 @@ editor:
 The IPCC defines adaptation as "*the process of adjustment to actual or
 expected climate and its effects, in order to moderate harm or exploit
 beneficial opportunities*" (@IPCC_2022_WGII). Adaptation is an active
-process, in which climatic data and information is incorporated decision
+process, in which climatic data and information is incorporated into decision
 making and analysis to inform the actual adjustments being made.
 Adaptation could come in the form of analysis, changed operating
 practices, modification to assets or maintenance practices, risk
 transfer processes or retreat and relocation.
 
 This section of the guide discusses the integration of climate data from
-a climate change adaptation perspective approaches into the use of
-climate data to address the implicit uncertainty associated with such
+a climate change adaptation perspective with approaches to address the implicit uncertainty associated with such
 data. It is important to realize that adaptation science is far more
 encompassing than is in scope for this guide. It includes modelling and
 analysis, governance, decision science, planning and more.
 
-Climate hazards can affect the electricity system in many ways some of
-which are highlighted in (@Braun2016). These can be the result of acute
+Climate hazards can affect the electricity system in many ways, some of
+which are highlighted in @Braun2016. These can be the result of acute
 climate hazards brought on by extreme events or slow degradation in
 performance or increased maintenance costs caused by gradual changes in
-climate. The cost benefit analysis of adaptation strategies that are
-well informed are almost always cost-effective often resulting in an
+climate. Well informed cost benefit analysis of adaptation strategies are almost always cost-effective, often resulting in an
 expectation to save many dollars for every dollar spent on adaptation
 (@EPRI2022). An important caveat is that adaptation must be well
-informed otherwise it leads to the potential for mal-adaptation to
-occur.
+informed, otherwise it potentially leads to costly or riskful mal-adaptation.
 
 ## The Role of Codes and Standards
 
-These various codes and standards are produced by standards
+Various codes and standards are produced by standards
 organizations such as the International Standards Organization (ISO) or
 the Canadian Standards Assocation (CSA), government agencies such as
 Environment and Climate Change Canada (ECCC) or the Canadian Nuclear
 Safety Commissions (CNSC) as well as industry groups such as the
 Electric Power Research Institute (EPRI) or the Canadian Dam Association
-(CDA). In some cases climate data is explicitly included in the
-standard, which has already been extracted by climate experts. In other
+(CDA). In some cases climate data is explicitly included in
+standards, and has already been extracted by climate experts. In other
 cases they outline a process which must be followed to understand
 climate risks and vulnerabilities.
 
@@ -50,7 +47,6 @@ In almost all cases the available documents are about the process of
 climate risk and vulnerability assessments and few provide concrete
 guidance on the use of climate data in that process, unless they have
 been explicitly included in data tables for calculation.
-:::
 
 ## The Adaptation Process
 
@@ -59,23 +55,17 @@ processes which already apply to the electricity sector, which take
 various forms. Practitioners in adaptation should be aware of any codes,
 standards, regulations or guidance which may apply to their particular
 activities in the sector. In some cases these form mandatory
-requirements and in others they may provide guidance. There are
-currently many of these documents currently available and knowledge of
+requirements and in others they may provide guidance. Currently many such documents are available and knowledge of
 multiple processes is important to understand the strengths and
 weaknesses of each approach. Since climate change will have regionally
 specific impacts, it is important that locally relevant climate data be
 used to inform the adaptation process.
 
-Some guidance documents are explicit about the use of climate data. For
-example, [CSA W231:25 Developing and Interpreting
-Intensity-Duration-Frequency (IDF) Information Under a Changing
-Climate](https://scc-ccn.ca/standards/notices-of-intent/csa-group/developing-and-interpreting-intensity-duration-frequency-idf)
-is explicit about the use of climate data to inform the development of
-IDF curves, which is an important design parameter.
+Some guidance documents are explicit about the use of climate data. For example, the CSA standard for Developing and Interpreting Intensity-Duration-Frequency (IDF) Information Under a Changing Climate (@csa_w231:25) is explicit about the use of climate data to inform the development of IDF curves, which is an important design parameter.
 
 ### Vulnerability and Risk Assessments
 
-Climate vulnerability and risk assessments are another way that adaptation can be integrated into business activities. These can take the form of stand-alone assessments are various scales or be integrated directly into a business process, such as asset management.
+Climate vulnerability and risk assessments are another way that adaptation can be integrated into business activities. These can take the form of stand-alone assessments at various scales or be integrated directly into a business process, such as asset management.
 
 There are a larger number of guidance documents that develop a broader
 approach to adaptation, following processes similar to [ISO 14091 -
@@ -84,6 +74,8 @@ A generic process for doing risk and vulnerability assessments is shown
 here.
 
 ```{mermaid}
+%%| fig-align: center
+%%| fig-cap: "Generic Workflow for Adaptation"
 flowchart TD
     A[Develop Scope] -->|Assemble Team| B[Understand System]
     B --> C[Identify Climate Hazards]
@@ -94,11 +86,11 @@ flowchart TD
     E --> |Risk Acceptable| H[End]
 ```
 
-It is important to recognize that with a number of risk and vulnerability guidance documents published, there are occasions were terms and concepts are modified to fit the purposes of the agency creating the standard or are simply used in error. To understand the core concepts aligned with IPCC and ISO definitions please see [Adaptation Core Concepts](adaptation/core_concepts_adapt.qmd) and the generic steps for conducting a climate vulnerability and risk assessment can be found at [Climate Vulnerability and Risk](adaptaiton/risk_assessment.qmd).
+It is important to recognize that with a number of risk and vulnerability guidance documents published, there are occasions were terms and concepts are modified to fit the purposes of the agency creating the standard or are simply used in error. To understand the core concepts aligned with IPCC and ISO definitions please see the [Adaptation Core Concepts](./core_concepts_adapt.qmd) and the generic steps for conducting a climate vulnerability and risk assessment can be found at [Climate Vulnerability and Risk](./risk_assessment.qmd).
 
 ### Climate Information Integration
 
-Conducting climate vulnerability and risk assessments is a common pathway to adaptation, but information can also be integrated into existing processes without necessarily conducting a risk assessment, although there will likely be a lot of similarity in terms of the concepts and steps when doing a climate risk assessment. For example, climate data could be directly integrated into capacity expansion modelling either to conduct a risk assessment or as a fundamental step of electricity system planning in an operational sense. Both require the consideration of uncertainty, careful handling of relevant climate data and understanding of how to make decisions with the output of the climate information. This may require specialized knowledge of the data and the process it will be used for. Some tips and important background can be found at [Model Integration](adaptation/model_integration.qmd)
+Conducting climate vulnerability and risk assessments is a common pathway to adaptation, but information can also be integrated into existing processes without necessarily conducting a risk assessment. Nevertheless, there will likely be a lot of similarity in terms of the concepts and steps when doing a climate risk assessment. For example, climate data could be directly integrated into capacity expansion modelling either to conduct a risk assessment or as a fundamental step of electricity system planning in an operational sense. Both require the consideration of uncertainty, careful handling of relevant climate data, and understanding of how to make decisions with the output of the climate information. This may require specialized knowledge of the data and the process it will be used for. Some tips and important background can be found in the section [Model Integration](./model_integration.qmd).
 
 ## References
 ::: {#refs}
