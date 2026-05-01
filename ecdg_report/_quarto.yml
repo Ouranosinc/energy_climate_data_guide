@@ -79,12 +79,12 @@ website:
               - datasets/climate_projection_data/CanDCS-M6.ipynb
               - datasets/climate_projection_data/CanLEAD.ipynb
               - datasets/climate_projection_data/NEX-GDDP-CMIP6.ipynb
+          - datasets/Datasets_by_Variable.qmd
       - section: "Guidance"
         contents:
           - guidance/Climate_Data_Decision_Tree.qmd   
           - guidance/traditional_knowledge.qmd
           - guidance/Climate_Information_Ressources.qmd
-          - guidance/Datasets_by_Variable.qmd
           - guidance/Example_Applications.ipynb
           - section: "Analysis Support Tools"
             href: guidance/tools/Analysis_Support_Tools.ipynb
