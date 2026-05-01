@@ -115,7 +115,7 @@ format:
   html:
     output-dir: ../html
     theme: 
-      - flatly
+      - flatly #simplex #united #superhero #zephyr #spacelab #morph #flatly
       - styles/custom.scss
     #linkcolor: "#070BAB" # "#052946" # Ouranos blue
     css: styles/styles.css
