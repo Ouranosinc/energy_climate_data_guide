@@ -17,7 +17,6 @@ The first sub-section outlines the role of climate data and the importance of ac
 Electricity systems are highly sensitive to climate variability and change, as temperature, precipitation, wind patterns, and extreme weather events directly influence both electricity demand and generation capacity. Accurate forecasting, supported by robust climate data and models, plays a critical role in ensuring the reliability, resilience, and efficiency of these systems. Understanding climate impacts helps operators anticipate changes in resource availability, such as hydropower inflows, wind speeds, or solar radiation, while also preparing for shifts in demand patterns driven by heating and cooling needs. Integrating climate information into electricity system planning and operation supports proactive decision-making, reduces the risk of supply disruptions, and enhances the system’s ability to adapt to future climate conditions.
 
 The purpose of this document is to provide practitioners with guidance on selecting and preparing climate data, as well as applying appropriate methods and models, to support accurate and reliable electricity generation forecasting.
-
 :::
 
 ## Methods and Models
@@ -51,7 +50,6 @@ $$
 E = \rho g h Q
 $$ {#eq-1}
 
-
 In equation 1, $E$ is the hydropower potential with projected streamflow $Q$ at a hydraulic head $h$, $p$ and $g$ are the density of water and gravitational acceleration.
 
 Reservoir optimization algorithms (ROAs) are used to determine operation rules or policies that include an average release from hydropower dams and energy production. The projected inflow simulations from the hydrologic model are fed to the ROA to determine operating policies under future climatic conditions obtained from different emission scenarios. Then they are compared with the baseline period policy in order to determine the impact of climate change on hydropower generation.
@@ -72,7 +70,6 @@ In equation 2, $V_H$ is the wind speed at hub height $H$ ($Z_H$), and $V_10$ is 
 $$
 W_E = \frac{1}{2} \rho A V_H^3 C_p
 $$ {#eq-3}
-
 
 In equation 3, $W_E$ is the wind energy, ρ is the air density at hub height that varies with the temperature and wind profile, A is the cross-sectional area, and $C_p$ is the power coefficient. For climate change impact analysis, $W_E$ is simulated at each grid point or station, and then trend analysis is conducted. The t-test or the Mann-Kendell approach can be used for trend detection.  In their study, Li (@Li2023) utilized a t-test using a linear regression for trend detection. Another study (@Yao2012) used the Weibull distribution for comparing wind production in the future period under different scenarios with reference to the period. High-resolution meteorological datasets can also serve as useful inputs for climate-informed wind generation forecasting. Numerical weather prediction-based datasets provide multi-decadal wind speed that can support the development of wind generation profiles (@Bracken2023). These datasets are recommended for power system planning studies that require detailed weather inputs for renewable generation modelling (@ESIG2023).
 
@@ -151,7 +148,6 @@ In addition to the key climate inputs described above, electricity generation ou
 The model outputs correspond to generation forecasting models that estimate electricity production under varying climate and non-climate conditions.
 
 - **Electricity generation (MWh or GWh)** represents the amount of electrical energy produced over a defined period (e.g., sub-hourly, hourly, daily, monthly, or annual scales)
-
 :::
 
 :::{#id1 .callout collapse="true"}
@@ -159,7 +155,6 @@ The model outputs correspond to generation forecasting models that estimate elec
 - **Hydropower** models typically operate at daily to monthly time steps. Daily or sub-daily resolution captures hydrologic variability, while monthly or seasonal resolution is used for strategic reservoir operation and water resources allocation (@Parkinson2015, @Kim2022, @Wasti2022).
 - **Wind and solar generation** forecasting models require hourly or sub-hourly time steps because of rapid variation in meteorological conditions (@Yao2012, @Zhang2022).
 - **Thermal** power models generally use hourly data for dispatch and derating calculations (@Craig2018, @Wang2020).
-
 :::
 
 :::{#id1 .callout collapse="true"}
@@ -168,16 +163,12 @@ The model outputs correspond to generation forecasting models that estimate elec
 - **Wind** projections use global or regional climate data, but further downscaled to turbine-site scales (e.g., 250 m in @Jung2022, 0.44° in @Li2023).
 - **Solar** energy studies often use gridded satellite or RCM radiation datasets at 1 to 10 km resolution (@Zhang2022).
 - **Thermal** power and cooling assessments are conducted at plant site and river reach scales.
-
 :::
 
 :::{#id1 .callout collapse="true"}
 ### Frequency of Analysis
 The frequency of analysis reflects that generation forecasting is conducted across multiple timescales, from short-term operational forecasting to long-term planning analyses. It describes how often generation forecasts are produced, updated, or validated. The frequency depends on the model’s time horizon, planning objectives, and new data availability. In practice, short-term forecasts may be updated daily to support operations, and longer-term analyses are conducted periodically to inform investment and policy decisions.
-
 :::
-:::
-
 
 ## Detailed Discussion
 :::{#id1 .callout collapse="true"} 
