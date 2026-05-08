@@ -1,0 +1,187 @@
+---
+jupyter: python3
+---
+
+<!--- This is just a comment in the markup --->
+
+---
+title: Climate Data Formats
+  
+---
+
+Climate and weather data are stored and distributed in different file formats. These formats are adapted to the structure, type and volume of commonly stored information. Below is a list of data or file formats the user of climate information will likely be confronted with.
+
+## Gridded Data Formats
+
+These data formats store large quantities of numerical data, usually as binary encoded multidimensional data blocks or grids.
+
+### netCDF
+::: {#id .callout collapse="true"}
+### Click for details
+**Created by:** [Unidata](https://www.unidata.ucar.edu/) (UCAR) in 1989</br>
+**Purpose:** Portable, self-describing storage format for multidimensional scientific data</br>
+**Typical use:** Climate model outputs (e.g., CMIP), reanalysis datasets (ERA5), observational gridded datasets</br>
+**Distinguishing features:**</br>
+
+- Self-describing metadata embedded in the file
+- Efficient storage of multidimensional arrays
+- Platform-independent binary format
+- Extensive support across scientific software (Python, MATLAB, R, C, Fortran)
+- Designed for large scientific datasets
+
+**Description**</br>
+The **Net**work **C**ommon **D**ata **F**orm (netCDF) is the dominant format used in climate science for storing multidimensional geophysical data such as temperature, precipitation, wind, or pressure fields. It was designed to solve a recurring problem in scientific computing: storing large arrays together with the metadata required to interpret them correctly. The metadata of netCDF files includes information about variables, units, coordinate systems, or dimensions directly in the file structure. This allows datasets to be self-describing and portable across different platforms and software environments. Climate model archives such as CMIP and many reanalysis products distribute data primarily in netCDF format, often following metadata conventions to ensure interoperability (see [CF-conventions](#cf-conventions-climate-and-forecast-metadata-conventions)). Because of its simplicity, stability, and strong ecosystem support, netCDF remains the standard exchange format for climate model and gridded environmental data. Under the hood, netCDF is a specific, restriced subset of [HDF5](#hdf5-hierarchical-data-format-version-5). ClimateData.ca has a more detailed description of [how to use the netCDF format](https://climatedata.ca/ask-a-climate-expert-how-do-i-use-netcdf-files/). 
+:::
+
+### Zarr 
+::: {#id .callout collapse="true"}
+### Click for details
+**Created by:** [Zarr Open-source scientific computing community](https://zarr.dev/) in 2016</br>
+**Purpose:** Cloud-native storage of large multidimensional array data</br>
+**Typical use:** Cloud-hosted climate datasets and large-scale data analysis platforms</br>
+**Distinguishing features:** </br>
+
+- Chunked array storage
+- Cloud-optimized architecture
+- Parallel read/write access
+- Compatible with distributed computing systems
+- Works well with object storage (e.g., cloud data lakes)
+
+**Description**</br>
+Zarr (**Z**ipped **arr**ay) is a binary storage format designed for large multidimensional arrays stored in distributed or cloud environments. Unlike traditional formats such as [netCDF](#netcdf-network-common-data-form) or [HDF5](#hdf5-hierarchical-data-format-version-5) that store data in a single file, Zarr stores datasets as collections of compressed chunks organized in directories or object storage systems. This structure allows efficient parallel access and partial loading of datasets without reading entire files. Zarr has become popular in cloud-based scientific computing environments such as the [Pangeo ecosystem](https://pangeo.io/), where massive climate datasets are accessed by distributed analysis tools. Many large climate archives are experimenting with converting netCDF collections into Zarr format to improve performance and accessibility for large-scale data analysis in cloud computing environments.
+:::
+
+### GeoTIFF
+::: {#id .callout collapse="true"}
+### Click for details
+**Created by:** [NASA Jet Propulsion Laboratory](https://www.jpl.nasa.gov/) in the early 1990s, since 2019 published as the [Open Geospatial Consortium GeoTIFF standard](https://www.ogc.org/standards/geotiff/)</br>
+**Purpose:** Storage of georeferenced raster imagery</br>
+**Typical use:** Satellite imagery, elevation data, climate indicators, GIS analysis</br>
+**Distinguishing features:** </br>
+
+- Efficient binary storage of raster grids
+- Based on the TIFF image format
+- Supports compression and metadata tags
+- Embeds geospatial coordinate information
+- Supported by nearly all GIS software
+
+**Description**</br>
+The **Geo**graphic **T**agged **I**mage **F**ile **F**ormat (GeoTIFF) is a widely used binary raster format for storing geospatial data such as satellite imagery, elevation models, and gridded environmental variables. It extends the TIFF image format by embedding geographic metadata directly in the file, including coordinate reference systems, spatial resolution, and geographic boundaries. This allows GIS software to automatically place the raster data correctly on maps. While GeoTIFF is commonly used in geospatial analysis and mapping applications, it is less commonly used for large multidimensional climate datasets because it is primarily designed for two-dimensional raster imagery rather than multidimensional scientific arrays. Nevertheless, it is frequently used to distribute derived climate indicators or processed geospatial datasets derived from climate models or observations.
+:::
+
+### HDF5
+::: {#id .callout collapse="true"}
+### Click for details
+**Created by:** [National Center for Supercomputing Applications (NCSA)](https://www.ncsa.illinois.edu/) in 1987, maintained by the [HDF Group](https://www.hdfgroup.org)</br>
+**Purpose:** Storage of large, complex scientific datasets with hierarchical organization</br>
+**Typical use:** Satellite observations, Earth observation missions, and large scientific archives</br>
+**Distinguishing features:** </br>
+
+- Hierarchical data structure similar to a file system
+- Supports extremely large datasets
+- Flexible metadata system
+- Efficient parallel I/O for high-performance computing
+- Underlying storage layer used by several scientific formats
+
+**Description**</br>
+The **H**ierarchical **D**ata **F**ormat version 5 (HDF5) is a general-purpose scientific binary data format designed to store large and complex datasets with a hierarchical structure. Data are organized in groups and datasets, similar to folders and files within a filesystem. This architecture allows diverse types of scientific information to be stored in a single container while maintaining relationships between variables. HDF5 is widely used in satellite and Earth observation missions, including many NASA products. It supports high-performance parallel input/output, making it suitable for extremely large datasets generated by modern instruments and simulations. Several scientific formats, including newer versions of [netCDF](#netcdf-network-common-data-form) (netCDF-4), are built on top of the HDF5 storage layer. This makes HDF5 an important foundation technology for Earth system data infrastructure.
+:::
+
+### GRIB
+::: {#id .callout collapse="true"}
+### Click for details
+**Created by:** [World Meteorological Organization (WMO)](https://public.wmo.int/) in 1985</br>
+**Purpose:** Efficient storage and transfer of gridded meteorological data</br>
+**Typical use:** Numerical weather prediction outputs and operational forecast data</br>
+**Distinguishing features:** </br>
+
+- Highly compressed binary encoding
+- Optimized for fast transfer and storage
+- Structure that allows multiple fields in one file
+- Standardized by international meteorological agencies
+- Designed for operational forecasting environments
+
+**Description**</br>
+GRIB (**GRI**dded **B**inary) is the standard format used by operational meteorological centers to distribute numerical weather prediction outputs. It was developed by the World Meteorological Organization to support efficient international exchange of forecast data. GRIB files store gridded meteorological fields such as temperature, wind, or pressure using compact binary encoding and strong compression, allowing very large forecast datasets to be transmitted quickly between forecasting centers. Unlike [netCDF](#netcdf-network-common-data-form), GRIB is optimized primarily for operational efficiency rather than human readability or flexible metadata structures. As a result, GRIB files require specialized libraries such as ECMWF’s ecCodes to interpret them. Most global weather models distribute forecasts in GRIB format, while many climate data archives convert GRIB outputs into netCDF for easier scientific analysis.
+:::
+
+## Text-based Data Formats
+
+These formats store data in human readable format, commonly used for station data storage and transfer.
+
+### CSV
+::: {#id .callout collapse="true"}
+### Click for details
+**Created by:** Storing comma separated values emerged as an early spreadsheet and data sharing format in the early 1970s</br>
+**Purpose:** Simple exchange format for tabular data</br>
+**Typical use:** Weather station observations, climate indicators, time series datasets</br>
+**Distinguishing features:** </br>
+
+- Rows represent records and columns represent variables
+- Simple comma delimiter-based structure
+- Easily imported into spreadsheets, databases, and programming environments
+- Human readable
+- Extremely portable and widely supported
+
+**Description**</br>
+**C**omma-**S**eparated **V**alues (CSV) files are one of the simplest and most widely used formats for storing tabular climate and weather data. Each row typically represents an observation, such as a daily measurement from a weather station, while columns represent variables like temperature, precipitation, or wind speed. Because CSV files are plain text and rely only on simple delimiters, they can be opened and processed by nearly any software environment. This makes them ideal for distributing small observational datasets and climate indicators. However, CSV files lack built-in metadata structures, which means that units, coordinate information, and variable definitions must be documented separately. For large multidimensional datasets such as climate model output, formats like [netCDF](#netcdf-network-common-data-form) are far more suitable.
+:::
+
+### ASCII / TXT and Fixed-Width Tables
+::: {#id .callout collapse="true"}
+### Click for details
+**Created by:** [American National Standards Institute (ANSI)](https://www.ansi.org/) defined the ASCII character encoding standard in 1963</br>
+**Purpose:** Simple human-readable storage of numeric and text data</br>
+**Typical use:** Historical station records and legacy climate datasets</br>
+**Distinguishing features:** </br>
+
+- Plain text format readable by any software
+- Fixed column widths for structured data
+- Extremely simple and portable
+- Easy manual inspection and editing
+- Often accompanied by metadata documentation files
+
+**Description**</br>
+The **A**merican **S**tandard **C**ode for **I**nformation **I**nterchange (ASCII) defines standard text files. They are among the oldest formats used to store meteorological observations and climate records. Many historical datasets, including early weather station archives, were distributed as fixed-width tables in which each column corresponds to a variable or time field. The simplicity of text formats makes them highly portable and easy to inspect without specialized software. However, this simplicity also creates limitations: metadata, coordinate systems, and variable definitions are typically stored separately rather than embedded in the data file. As climate datasets grew larger and more complex, binary scientific formats such as [netCDF](#netcdf-network-common-data-form) replaced text files for most applications. Nevertheless, ASCII and fixed-width formats remain common in historical climate archives and small observational datasets.
+:::
+
+## Supporting Data Formats
+
+These auxiliary formats and standards are often used in the definition and subsetting of geospatial datasets.
+
+### Geospatial Formats (shapefile, GeoJSON, GeoPackage, ...)
+::: {#id .callout collapse="true"}
+### Click for details
+**Created by:** Various organizations in the geospatial community, including [Esri](https://www.esri.com/) (Shapefile, 1998), the [Internet Engineering Task Force (IETF)](https://www.ietf.org/) (GeoJSON, 2016; RFC 7946), and the [Open Geospatial Consortium (OGC)](https://www.ogc.org/) (GeoPackage, 2014)</br>
+**Purpose:** Storage and exchange of vector-based geographic features and their associated attributes</br>
+**Typical use:** Administrative boundaries, infrastructure networks, catchment areas, land-use classifications, and other spatial reference layers used in geospatial analysis of climate or environmental data</br>
+**Distinguishing features:**
+
+- Store geographic vector geometries such as points, lines, and polygons  
+- Store attribute tables linked to spatial geometries  
+- Widely supported across GIS software and geospatial libraries  
+- Formats may be file-based (Shapefile), text-based (GeoJSON), or database-based (GeoPackage)  
+- Optimized for spatial queries, mapping, and geospatial analysis
+
+**Description**</br>
+Vector geospatial formats store geographic features such as points, lines, and polygons together with associated attribute information. Common examples include [Esri Shapefiles](https://en.wikipedia.org/wiki/Shapefile), [GeoJSON](https://www.ogc.org/standards/eo-geojson/), and [GeoPackage](https://www.ogc.org/standards/geopackage/). These formats are widely used in geographic information systems (GIS) and geospatial analysis workflows. In climate data applications, they typically serve as supporting datasets rather than primary data containers. Geospatial files are used to define administrative boundaries, watershed regions, infrastructure networks, or other categories when analyzing, subsetting or visualizing climate data stored in gridded data formats such as [netCDF](#netcdf), [GRIB](#grib), or [GeoTIFF](#geotiff). While these formats differ technically they share a common purpose: representing feature-based geographic information that provides spatial context for environmental and climate datasets.
+:::
+
+### CF Conventions
+::: {#id .callout collapse="true"}
+### Click for details
+**Created by:** International climate science community (NOAA, UCAR, and others) in 2003 (release of CF-1.0)</br>
+**Purpose:** Standardized metadata conventions for climate and forecast datasets</br>
+**Typical use:** Metadata framework for [netCDF](#netcdf-network-common-data-form) climate datasets</br>
+**Distinguishing features:** </br>
+
+- Standard variable naming conventions
+- Standardized coordinate definitions
+- Units and metadata specifications
+- Interoperability across climate datasets and integration into software tools
+- Community-maintained open standard
+
+**Description**</br>
+The **C**limate and **F**orecast Metadata Conventions (CF Conventions) are not a data format themselves but a widely adopted metadata standard used primarily with [netCDF](#netcdf-network-common-data-form) files. They define how variables, coordinates, units, and metadata should be described so that datasets can be interpreted consistently across software tools and research communities. For example, CF specifies how latitude, longitude, time, and vertical coordinates should be encoded, as well as standard variable names such as “*air_temperature*.” This allows climate analysis software to automatically recognize and process datasets without manual interpretation. Most modern climate datasets, including CMIP and CORDEX climate model simulations and many reanalysis products follow CF conventions. By ensuring consistent metadata structure across thousands of datasets, CF conventions play a critical role in enabling interoperability and large-scale climate data analysis.
+:::
+
