@@ -1,0 +1,344 @@
+---
+title: "Step 3: Hazard and Exposure Assessment"
+bibliography: adaptation.bib 
+editor: 
+  markdown: 
+    wrap: 72
+---
+
+This step identifies which climate hazards are relevant to the system
+and determines which critical aspects of the system are exposed to those
+hazards. Hazard and exposure work is often described together, but they
+serve different purposes. Hazard identification asks: 
+
+> What climate-related events or long-term changes occur here?
+
+Whereas exposure assessment asks: 
+
+> Which parts of the system could be affected, either directly or indirectly, if that hazard occurs?
+
+Keeping exposure separate from vulnerability helps avoid jumping too early to
+conclusions about whether the system will fail or perform poorly; that
+deeper evaluation is developed in later steps using thresholds, system
+behaviour, and risk criteria.
+
+```{mermaid}
+%%| fig-align: center
+%%| fig-cap: "Generic Workflow for Adaptation"
+---
+config:
+    flowchart:
+        curve: linear
+---
+flowchart-elk TD
+    A[Step 1: Develop Scope]:::basic --> B[Step 2: Understand System]:::basic
+    B --> C[Step 3: Hazard & Exposure Assessment]:::focus
+    C --> D[Step 4: Vulnerability Assessment]:::basic
+    H[Step 7: Institutionalize Decision]:::basic
+    D --> |No Vulnerability| H
+    D --> |Vulnerable| E[Step 5: Risk Assessment]:::basic
+    F[Step 6: Adaptation Plan]:::basic
+    D & E --- J1[ ]:::join
+    J1 --> |Unacceptable Vulnerability or Risk| F
+    E --> |Risk Acceptable| H
+    F --> H
+
+    classDef basic fill:#CAD4D6
+    classDef focus fill:#CAD4D6, stroke:#CE153D, color:#CE153D
+    classDef join height:0px
+```
+
+::: {.callout-note collapse="true" title="What comes first...?"}
+In many assessments, teams identify relevant hazards first and then
+complete an exposure analysis for each hazard. In practice, hazard
+identification and exposure screening may also be iterative or completed
+in parallel, particularly when uncertainty exists about the hazard list,
+the system boundaries, or how it depends on supporting infrastructure.
+This step builds on scope, objectives, evaluation criteria, and
+boundaries. It produces documented inputs that can be carried forward
+consistently. Hazards and exposures may also be identified concurrently
+when developing an understanding of the system.
+:::
+
+::: {.callout collapse="true" title="Inputs"}
+Typical inputs for this step may include: 
+- Scope and boundaries 
+- The system description and list of critical aspects 
+- Site and regional characteristics 
+- Applicable regulatory requirements that specify hazards or metrics 
+- Previous internal or external climate assessments
+- Stakeholder involvement 
+- Available climate datasets.
+:::
+
+Details on selecting relevant climate hazards, completing an exposure
+analysis, and selecting appropriate indicators and data is presented
+below.
+
+::: {.callout collapse="true" title="Outcomes"}
+- Documented relevant climate hazards that could affect the system 
+- Documented direct and indirect exposures for each hazard based on the scope of the assessment.Excluded interactions that are screened out due to no exposure should be
+included
+- Documented climate indicators used to represent each
+relevant climate hazard for each hazard-system interaction, including
+the use of multiple indicators for a single hazard where different
+system interactions apply 
+- Performance criteria for each selected climate indicator, including critical thresholds and any margins, are
+defined and documented 
+- An initial set of climate- or weather- related
+design and operating thresholds and "lived experience" observations that
+indicate where climate conditions may affect performance, access,
+safety, or reliability. 
+- Historical and projected climate datasets for
+the relevant hazards and indicators, including scenarios and time
+horizons, are gathered and prepared for vulnerability and risk analysis
+- Documented validation summary confirming the climate data are
+fit-for-purpose
+:::
+
+## Hazard & Climate Driver Identification
+
+Climate hazards that may affect the system within the defined geographic
+boundary and time horizon(s) should be documented. Hazard identification
+typically focuses on the site and regional setting (e.g., watershed
+conditions, coastal or riverine influences, terrain, and known weather
+patterns) and then uses available evidence to confirm which hazards are
+relevant to the system.
+
+::: {.callout-note collapse="true"}
+Teams should draw on internal and external sources, including previous
+climate assessments (especially those for the same system or nearby
+sites), regional studies, and sector guidance. Information gathered
+previously is also a key input, particularly design and operating
+thresholds, known sensitivities, historical disruptions, and "live
+experience" observations from station staff.
+:::
+
+Hazard selection is often straightforward for most applications, and in
+some cases, hazards are partly predetermined by regulatory expectations,
+assessment types, or technology-specific programs. Where this occurs,
+required hazards may be used as a starting point and then supplemented
+based on system-specific conditions and dependencies.
+
+::: {.callout collapse="true" title="Inputs"}
+Typical inputs for this step may include: 
+- System description and thresholds 
+- Site and regional physical characteristics 
+- Previous assessments and literature 
+- Any hazard requirements tied to regulatory or program needs
+:::
+
+## Exposure Assessment
+
+Aspects of the system that are exposed to each relevant climate hazard
+should be documented. Screened out hazards or system aspects that do not
+require further evaluation may be documented. Exposure may be direct
+(the hazard physically affects the system) or indirect (the system is
+not physically exposed but depends on other systems or services that are
+exposed). For example, equipment inside a building may not be directly exposed to wind-driven rain, but may still
+be indirectly exposed if power, controls access routes, cooling water,
+or communications are impacted by the same hazard. 
+
+A practical exposure screening approach typically includes identifying
+direct and indirect exposures for each hazard; grouping systems with
+similar exposure profiles to reduce repetitive screening where
+appropriate; using system information (design parameters, technical
+specifications, condition, and OPEX) to confirm exposure pathways; and
+documenting a preliminary impact concern where exposure exists. Where no
+exposure pathway exists, the system aspect (or hazard interaction) can
+be screened out. Documentation of screened out exposure pathways, and
+rationale why they were excluded may be required or considered best
+practice depending on the purpose of the assessment (e.g. assessments
+completed for Impact Assessments). During exposure screening, teams may
+identify additional hazards or dependencies that were not captured
+initially; where this occurs, the hazard and exposure assessment should
+be updated. Hazard and exposure may also be revisited at the initial
+stages of vulnerability analysis.
+
+::: {.callout-tip collapse="true" title="Impact Notes"}
+Early impact notes are optional, but they often help clarify why an
+interaction matters and provide a useful bridge into vulnerability and
+risk analysis.
+:::
+
+::: {.callout collapse="true" title="Inputs"}
+Typical inputs include:
+- Hazard list
+- System boundaries 
+- Critical aspects
+- Dependency information (power, water, access,staffing, suppliers)
+- Design and operating parameters
+- OPEX 
+- Event histories
+:::
+
+## Selecting Appropriate Indicators
+
+One or more climate indicators should be selected to represent each
+relevant hazard in a consistent, measurable way. Indicators translate a
+hazard into information that can be screened, compared, and, where
+needed, quantified. Indicators may include monthly or annual
+aggregations (i.e. annual average temperature, or annual maximum
+temperature), indices (i.e. number of days above 30℃) or
+threshold/probabilistic or return period indicators (i.e. 1:100-year
+rainfall or probability of exceedance). The indicator set is typically
+built from the hazard list and the exposure pathways identified earlier,
+and it is refined to match the depth of assessment. 
+
+::: {.callout-tip collapse="true" title="Screening"} 
+Screening-level assessments typically
+use indicators that are widely understood and easy to interpret (e.g.,
+the presence of heat spells or the temperature on the hottest day of the
+year can serve as indicators for extreme heat). Detailed analysis may
+require more specific variables, higher-resolution datasets, or time
+series to evaluate thresholds and operational constraints.
+:::
+
+::: {.callout-tip collapse="true" title="Selection and Multi-hazards"}
+Indicator selection works best when it focuses on climate drivers linked
+to how the system performs. Some common hazard indicators represent
+multiple drivers and may need to be expressed using a combination of
+indicators. For example, 'thunderstorm" is a multi-hazard that may
+involve heavy precipitation and strong winds, with the potential for
+lightning or hail. Climate models often provide precipitation and wind
+variables directly, but not a single "thunderstorm" variable. In these
+cases, the assessment should document which indicators are used to
+represent the hazard and whether the drivers can be evaluated separately
+or whether co-occurrence is important for the system.
+:::
+
+More than one climate indicator is often selected for the same hazard
+because different system aspects may interact with different parts of
+that hazard. For example, one component may be susceptible to extreme
+heat (e.g., maximum temperature), while another may be susceptible to
+longer-duration heat conditions (e.g. heating degree days or heat
+spells). In this example, both indicators for the same climate hazard
+would need to be assessed. Selecting multiple indicators for a single
+hazard is typically appropriate when it reflects distinct exposure
+pathways and performance concerns.
+
+::: {.callout collapse="true" title="Inputs"}
+Typical inputs for this step may include:
+- Relevant hazard list
+- Exposure matrix (direct and indirect exposures)
+- System design and operating information from the system review
+- Decision context and level of analysis
+- Available data sources.
+:::
+
+## Performance Criteria
+
+Performance criteria *should* be defined for each selected climate
+indicator so the assessment can interpret climate conditions in system
+terms. Performance criteria are the benchmarks used to judge whether the
+system remains reliable and fit for service under a given climate
+stress. Criteria are most useful when they connect the indicator to an
+operational limit, a design constraint, a safety requirement, or an
+acceptable level of degraded performance. This sub-step uses information
+gathered during the system review and exposure assessment, including
+design and operating parameters, dependencies, known sensitivities,
+condition information, and operational experience.
+
+Performance criteria may include a critical threshold that defines the
+point at which performance becomes unacceptable when exposed to a
+climate indicator. Where practical, teams may also define a margin (or
+trigger level) that signals the system is approaching a critical
+threshold and may warrant monitoring, operational changes, or planned
+upgrades. These thresholds and margins become the reference points used
+later when comparing projected climate conditions in the vulnerability
+assessment and risk assessment.
+
+Two approaches are commonly used:
+
+**A performance-based threshold approach** uses established design or
+functional limits where these are available and meaningful, and it helps
+keep results actionable. For climate assessments, it is important to
+represent unacceptable levels of performance or reliability.
+
+**A risk-informed approach** is often used when a clear performance
+threshold does not exist or when partial functionality is acceptable. In
+those cases, teams define what level of performance reduction is
+acceptable (e.g., allowable derating) and for what duration, consistent
+with the decision context and the organizations risk tolerance. This
+approach relies on SMEs experience with the system or supporting
+literature to inform the performance criteria selection.
+
+::: {.callout-note collapse="true"}
+Many assessments use both approaches because some indicators have
+well-defined limits (e.g., extreme precipitation thresholds in certain
+designs) while others may not (e.g., changes in freeze-thaw cycles).
+:::
+
+::: {.callout collapse="true" title="Inputs"}
+Typical inputs for this step may include: 
+- Indicator list, exposure pathways and preliminary impact concerns
+- System design limits and operating ranges
+- Condition and maintenance information
+- Operational experience
+- Evaluation criteria and risk tolerance established earlier.
+:::
+
+## Gather and Validate Climate Data
+
+This sub-step gathers and validates the climate data needed to evaluate
+selected indicators over the relevant geographic area and time
+horizon(s). Data selection supports two needs: representing historical
+conditions to provide context and support reasonableness checks and
+representing future conditions to test how hazards may change over the
+system life.
+
+::: {callout-important}
+The dataset should cover a broad enough range of plausible climate
+conditions to meaningfully test the system against the performance
+criteria.
+:::
+
+For more information on climate data and projections refer to [the
+overview on climate
+datasets](../datasets/Climate_Datasets_Overview.ipynb)
+
+### Assessing Data Suitability
+
+Data suitability should be assessed before analysis begins, and ensure
+that:
+
+The range of climate drivers is broad enough to encompass all plausible
+conditions that could impact the system. This should include collecting
+climate data for all relevant hazards and climate indicators identified,
+under one or more climate scenarios (i.e. SSP2-4.5, SSP5-8.5). Refer to
+[Core Concepts: Climate Data](./core_concepts_data.qmd) and
+the [Climate Data Decision
+Tree](../guidance/Climate_Data_Decision_Tree.qmd)for more details on
+climate data.
+
+Data is collected for all relevant time horizons (e.g., 2030s, 2050s,
+2080s) to represent the time boundaries identified in [System,
+Geographic and Time Boundaries](###%20System,%20Geographic%20and%20Time%20Boundaries).
+Climate data time horizons selected should capture the life of the
+system and/or should align with the purpose and objective of the
+assessment.
+
+Select one or more appropriate future value or range criteria to
+represent the future climate condition in which the system performance
+criteria will be compared against for a given climate scenario and time
+horizon. This may be a consistent future value or range criteria across
+climate hazards and indicators or may vary depending on the specific
+climate hazard exposure interactions, and their criticality to system
+performance or operations.
+
+::: {.callout collapse="true" title="Inputs"}
+Typical inputs for this step may include:
+
+- Indicator list and required variables
+- Geographic and time boundaries
+- Chosen scenarios and time horizons
+- Internal datasets
+- Candidate external datasets
+- Any known data limitations
+:::
+
+
+# References
+
+::: {#refs}
+:::

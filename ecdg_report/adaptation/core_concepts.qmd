@@ -3,8 +3,7 @@ title: "Core Concepts"
 bibliography: adaptation.bib 
 ---
 
-# Fundamental Information
 Adaptation to climate change and integrating climate data into electricity sector processes is a potentially complex task that may involve new terms, concepts or the modification of concepts with which you are already familiar into the context of climate change. This section of the guide focuses on these fundamentals as a foundation for understanding more advanced concepts. The aim is to provide a basic fluency and competency but should not be viewed as a substitute for training or consultation with experts who have years of training and experience.
 
-- [To learn about the core concepts of climate data click here](adaptation/core_concepts_data.qmd)
-- [To learn about the core concepts of adaptation practice click here](adaptation/core_concepts_adapt.qmd)
+- To learn about the core concepts of climate data: [click here](./core_concepts_data.qmd)
+- To learn about the core concepts of adaptation practice: [click here](./core_concepts_adapt.qmd)

@@ -76,14 +76,27 @@ here.
 ```{mermaid}
 %%| fig-align: center
 %%| fig-cap: "Generic Workflow for Adaptation"
-flowchart TD
-    A[Develop Scope] -->|Assemble Team| B[Understand System]
-    B --> C[Identify Climate Hazards]
-    C --> |Collect Climate Data| D[Vulnerability Assessment]
-    D --> |No Vulnerability| G[End]
-    D --> E[Risk Assessment]
-    E --> |Risk Not Acceptable| F[Adaptation Plan]
-    E --> |Risk Acceptable| H[End]
+---
+config:
+    flowchart:
+        curve: linear
+---
+flowchart-elk TD
+    A[Step 1: Develop Scope]:::basic --> B[Step 2: Understand System]:::basic
+    B --> C[Step 3: Hazard & Exposure Assessment]:::basic
+    C --> D[Step 4: Vulnerability Assessment]:::basic
+    H[Step 7: Institutionalize Decision]:::basic
+    D --> |No Vulnerability| H
+    D --> |Vulnerable| E[Step 5: Risk Assessment]:::basic
+    F[Step 6: Adaptation Plan]:::basic
+    D & E --- J1[ ]:::join
+    J1 --> |Unacceptable Vulnerability or Risk| F
+    E --> |Risk Acceptable| H
+    F --> H
+
+    classDef basic fill:#CAD4D6
+    classDef focus fill:#CAD4D6, stroke:#CE153D, color:#CE153D
+    classDef join height:0px
 ```
 
 It is important to recognize that with a number of risk and vulnerability guidance documents published, there are occasions were terms and concepts are modified to fit the purposes of the agency creating the standard or are simply used in error. To understand the core concepts aligned with IPCC and ISO definitions please see the [Adaptation Core Concepts](./core_concepts_adapt.qmd) and the generic steps for conducting a climate vulnerability and risk assessment can be found at [Climate Vulnerability and Risk](./risk_assessment.qmd).

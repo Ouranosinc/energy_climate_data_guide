@@ -1,0 +1,196 @@
+---
+title: "Step 7: Reporting or Institutionalizing the Decision"
+bibliography: adaptation.bib 
+editor: 
+  markdown: 
+    wrap: 72
+---
+
+Once the assessment and decision-making process are complete,
+documentation of the analysis and formally institutionalization of the
+decisions made should be completed. The level of detail in the report
+should match the scope and complexity of the assessment. 
+
+```{mermaid}
+%%| fig-align: center
+%%| fig-cap: "Generic Workflow for Adaptation"
+---
+config:
+    flowchart:
+        curve: linear
+---
+flowchart-elk TD
+    A[Step 1: Develop Scope]:::basic --> B[Step 2: Understand System]:::basic
+    B --> C[Step 3: Hazard & Exposure Assessment]:::basic
+    C --> D[Step 4: Vulnerability Assessment]:::basic
+    H[Step 7: Institutionalize Decision]:::focus
+    D --> |No Vulnerability| H
+    D --> |Vulnerable| E[Step 5: Risk Assessment]:::basic
+    F[Step 6: Adaptation Plan]:::basic
+    D & E --- J1[ ]:::join
+    J1 --> |Unacceptable Vulnerability or Risk| F
+    E --> |Risk Acceptable| H
+    F --> H
+
+    classDef basic fill:#CAD4D6
+    classDef focus fill:#CAD4D6, stroke:#CE153D, color:#CE153D
+    classDef join height:0px
+```
+
+::: {.callout collapse="true" title="Expected Outcomes"}
+-   Documentation of what was completed as part of the assessment
+    process following the key criteria and documentation analysis steps.
+-   Documentation should include how assessment result will be
+    integrated into existing processes, how operations may be
+    transitioned to consider the assessment results, any long-term
+    monitoring and triggers that may be required, as well as the need
+    for independent reviews of the assessment.
+:::
+
+::: {.callout collapse="true" title="Key Criteria for Reporting}
+**Reproducibility**: The analysis and decisions must be documented in a
+way that ensures reproducibility. Ideally, if the same assessment were
+conducted independently, it would yield similar results. Future teams
+should also be able to clearly understand the rationale behind each
+decision. 
+
+**Transparency**: Clearly outline the methods, data sources,
+assumptions, and reasoning used throughout the assessment and
+decision-making process. 
+
+**Clarity**: The report should be organized and written so that it is
+accessible to both technical and non-technical audiences. 
+
+**Institutionalization**: Ensure that decisions are formally integrated
+into relevant policies, procedures, or operational plans. This may
+involve updating risk registers, asset management plans, or standard
+operating procedures to reflect the chosen adaptation actions. 
+
+**Budget**: The budget for climate adaptation should be considered. In
+many cases a project or upgrade may be required even in the absence of
+climate change adaptation (i.e. end of component life). The budget
+should be recorded based on a base (like for like) case as well as the
+higher cost of adaptation. This way the organization can better track
+and manage the incremental costs of climate adaptation.  
+:::
+
+Clear, thorough records help support transparency, enable continuous
+improvement, and provide a reference for future projects or audits. When
+documenting the analysis consider the following: 
+
+**Purpose of the Assessment**: Clearly state the objectives and scope. 
+
+**Methods Used**: Describe the methodologies, tools, and data sources. 
+
+**Key Assumptions**: Document any assumptions made during the analysis. 
+
+**Findings and Conclusions**: Summarize the results and key insights. 
+
+**Recommendations and Actions**: Outline any proposed adaptation
+measures or next steps. 
+
+**Supporting Evidence**: Include relevant data, references, and
+appendices as needed. 
+
+Adapting the level of detail to match the complexity and significance of
+the activity ensures documentation remains practical and valuable for
+both current and future stakeholders. 
+
+Thoroughly documenting and institutionalizing decisions supports
+organizational learning, transparency, and the long-term resilience of
+assets and operations.
+
+## Process Integration 
+
+Utilities manages assets and systems through a series of established
+processes.  
+
+Many adaptation needs can be addressed through operational changes or as
+part of ongoing asset management activities. Typically, an effective
+adaptation plan might begin with operational changes, followed by
+identification of larger projects for inclusion in the Investment
+Planning process. 
+
+**Operational Changes**: Institutionalize by updating procedures, work
+instructions, or inspection requirements. These changes may also impact
+operating budgets as reflected in the Business Plan. 
+
+**Asset and System Changes**: Needs for asset changes typically arise
+from risk assessments, plant condition assessments, or performance
+improvement initiatives.Early identification of adaptation needs ensures
+climate impacts are considered in the design and operation of assets
+over their entire lifecycle. 
+
+Once a project is initiated, the adaptation plan and pathways inform the
+project team's solution development, allowing for further refinement as
+more detailed information becomes available. 
+
+## Transitioning to Operations
+
+After project close-out, monitoring plans for flexible actions should be
+updated and transitioned teams that will operationalize the plan. This
+may involve: 
+
+-   Updating equipment reliability monitoring 
+-   Modifying monitoring plans in risk registers or plant condition
+    assessments 
+-   Revising governance documents and work instructions as necessary 
+
+## Documentation and Continuity 
+
+To ensure continuity and future reference, all adaptation pathways and
+decisions should be documented in accessible corporate records.
+Monitoring actions should be integrated into appropriate processes --
+such as engineering risk assessment program (ERAP), equipment
+reliability (ER), business unit, or station risk registers. 
+
+## Long-term Monitoring and Triggers
+
+Longer-term actions should be linked to specific triggers and monitored
+for opportunities to integrate with complementary projects. For
+instance, a future adaptation may be triggered by a threshold exceedance
+or aligned with another project to maximize efficiency and
+cost-effectiveness. Taking advantage of windows of opportunity -- such
+as co-funding or heightened interest after major events -- can also
+improve outcomes. 
+
+When flexible adaptation plans are needed, it is important to
+institutionalize this plan. There are several processes which may be
+used for this process including equipment reliability, safety analysis,
+risk registers, asset management or aging management processes. The
+performance of the system should be regularly reviewed to determine if
+performance continues to be acceptable. The plan should not only exist
+in a report of the risk assessment process.
+
+The monitoring plan should also include a trigger value. This value
+identifies when a decision about adaptation is required. A trigger
+should be set to occur prior to reaching an unacceptable level of
+performance so that there is time to take action, including time for OPG
+processes to implement an action, prior to unacceptable levels or risk
+or performance being reached.
+
+### Monitoring Challenges
+
+Some climate variables, such as extreme conditions (e.g., peak river
+discharge), can be difficult to monitor due to natural variability and
+limited data. In such cases, monitoring covariates that are easier to
+track may provide a practical solution.
+
+## Independent Review 
+
+Several guiding documents emphasize the importance of periodic and
+independent reviews of climate risk and adaptation assessments. To
+facilitate effective review, assessments should be conducted and
+documented in a manner that allows an independent third party to easily
+understand the process and reach the same conclusions. When a risk
+report serves as the institutional record of a decision, both the report
+and the associated risk process should be reviewed regularly to account
+for changes in equipment condition, updates to design standards, or new
+climate data. Periodic reviews are already a well-established practice
+within safety programs, ensuring that adaptation decisions remain
+current, relevant, and robust over time.
+
+# References
+
+::: {#refs}
+:::
