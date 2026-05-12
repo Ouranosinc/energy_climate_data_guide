@@ -7503,8 +7503,11 @@ margin-left: 2.0em;
       </ul>
   </li>
           <li class="sidebar-item">
- <span class="menu-text">datasets/Datasets_by_Variable.qmd</span>
-  </li>
+  <div class="sidebar-item-container"> 
+  <a href="../datasets/Datasets_by_Variable.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Datasets by Variable</span></a>
+  </div>
+</li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
@@ -7643,12 +7646,65 @@ margin-left: 2.0em;
  <span class="menu-text">Adapting to Climate Change</span></a>
   </div>
 </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../adaptation/risk_assessment.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Vulnerability &amp; Risk</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-16" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-16" class="collapse list-unstyled sidebar-section depth2 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../adaptation/risk_assessment.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Climate Vulnerability and Risk Assessments</span></a>
   </div>
 </li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adaptation/risk_step1.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Step 1: Establish the Scope and Context</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adaptation/risk_step2_system.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Step 2: Understand the System, Structure, and Component(s)</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adaptation/risk_step3_hazard.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Step 3: Hazard and Exposure Assessment</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adaptation/risk_step4_vulnerability.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Step 4: Climate Vulnerability Assessment</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adaptation/risk_step5_risk.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Step 5: Climate Risk Assessment</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adaptation/risk_step6_adapt.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Step 6: Adaptation Plan</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adaptation/risk_step7_institute.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Step 7: Reporting or Institutionalizing the Decision</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
       </ul>
   </li>
     </ul>
@@ -7714,14 +7770,27 @@ margin-left: 2.0em;
 <div>
 <p></p><figure class="figure"><p></p>
 <div>
-<pre class="mermaid mermaid-js">flowchart TD
-    A[Develop Scope] --&gt;|Assemble Team| B[Understand System]
-    B --&gt; C[Identify Climate Hazards]
-    C --&gt; |Collect Climate Data| D[Vulnerability Assessment]
-    D --&gt; |No Vulnerability| G[End]
-    D --&gt; E[Risk Assessment]
-    E --&gt; |Risk Not Acceptable| F[Adaptation Plan]
-    E --&gt; |Risk Acceptable| H[End]
+<pre class="mermaid mermaid-js">---
+config:
+    flowchart:
+        curve: linear
+---
+flowchart-elk TD
+    A[Step 1: Develop Scope]:::basic --&gt; B[Step 2: Understand System]:::basic
+    B --&gt; C[Step 3: Hazard &amp; Exposure Assessment]:::basic
+    C --&gt; D[Step 4: Vulnerability Assessment]:::basic
+    H[Step 7: Institutionalize Decision]:::basic
+    D --&gt; |No Vulnerability| H
+    D --&gt; |Vulnerable| E[Step 5: Risk Assessment]:::basic
+    F[Step 6: Adaptation Plan]:::basic
+    D &amp; E --- J1[ ]:::join
+    J1 --&gt; |Unacceptable Vulnerability or Risk| F
+    E --&gt; |Risk Acceptable| H
+    F --&gt; H
+
+    classDef basic fill:#CAD4D6
+    classDef focus fill:#CAD4D6, stroke:#CE153D, color:#CE153D
+    classDef join height:0px
 </pre>
 </div>
 <p></p><figcaption> Generic Workflow for Adaptation</figcaption> </figure><p></p>
