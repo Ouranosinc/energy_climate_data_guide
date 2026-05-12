@@ -81,6 +81,13 @@ config:
     flowchart:
         curve: linear
 ---
+%%| fig-align: center
+%%| fig-cap: "Generic Workflow for Adaptation"
+---
+config:
+    flowchart:
+        curve: linear
+---
 flowchart-elk TD
     A[Step 1: Develop Scope]:::basic --> B[Step 2: Understand System]:::basic
     B --> C[Step 3: Hazard & Exposure Assessment]:::basic
@@ -94,8 +101,8 @@ flowchart-elk TD
     E --> |Risk Acceptable| H
     F --> H
 
-    classDef basic fill:#052946
-    classDef focus fill:#CE153D
+    classDef basic fill:#CAD4D6
+    classDef focus fill:#CAD4D6, stroke:#CE153D, color:#CE153D
     classDef join height:0px
 ```
 

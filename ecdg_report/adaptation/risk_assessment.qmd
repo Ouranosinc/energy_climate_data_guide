@@ -81,8 +81,8 @@ flowchart-elk TD
     E --> |Risk Acceptable| H
     F --> H
 
-    classDef basic fill:#052946
-    classDef focus fill:#CE153D
+    classDef basic fill:#CAD4D6
+    classDef focus fill:#CAD4D6, stroke:#CE153D, color:#CE153D
     classDef join height:0px
 ```
 
