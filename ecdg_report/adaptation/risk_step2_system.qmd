@@ -1,12 +1,10 @@
 ---
-title: "Step 2: Understand the System"
+title: "Step 2: Understand the System, Structure, and Component(s)"
 bibliography: adaptation.bib 
 editor: 
   markdown: 
     wrap: 72
 ---
-
-# Step 2: Understand the System, Structure, Component(s)
 
 This step builds a clear, practical understanding of the system being
 assessed, in the context of climate change. Teams should review how the

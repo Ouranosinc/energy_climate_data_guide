@@ -6,12 +6,10 @@ editor:
     wrap: 72
 ---
 
-# Step 5: Climate Risk Assessment
-
 This step may be completed which estimates climate risk for each
 relevant climate interaction with the system by combining: the climate
-[hazard](./risk_step3_hazard.qmd/##%20Hazard%20and%20Climate%20Driver%20Identification) *(what
-could occur)*, [exposure](./risk_step3_hazard.qmd/##%20Exposure%20Assessment) *(what parts of
+[hazard](./risk_step3_hazard.qmd##%20Hazard%20and%20Climate%20Driver%20Identification) *(what
+could occur)*, [exposure](./risk_step3_hazard.qmd##%20Exposure%20Assessment) *(what parts of
 the system are in direct/indirect contact with the hazard)*, and
 [vulnerability](./risk_step4_vulnerability.qmd) *(how the
 system responds, based on sensitivity and existing capacity to cope)*.
@@ -141,7 +139,7 @@ be directly derived from the vulnerability.
 
 ![](images/consequence.png){fig-align="center"}
 
-If preliminary impacts were developed as part of the [exposure assessment](./risk_step3_hazard.qmd/##%20Exposure Assessment), they should be reviewed as part
+If preliminary impacts were developed as part of the [exposure assessment](./risk_step3_hazard.qmd##%20Exposure Assessment), they should be reviewed as part
 of this step and considered in the consequence/severity scale. For each
 climate interaction, a consequence/severity level(s) should be
 determined, and applicable impacts (financial, environmental,

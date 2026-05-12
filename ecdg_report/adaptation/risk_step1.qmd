@@ -1,12 +1,10 @@
 ---
-title: "Step 1 Scope and Context"
+title: "Step 1: Establish the Scope and Context"
 bibliography: adaptation.bib 
 editor: 
   markdown: 
     wrap: 72
 ---
-
-# Step 1: Establish the Scope and Context
 
 The scope and context of the assessment should first be established.
 This step sets the foundation for the full climate vulnerability and

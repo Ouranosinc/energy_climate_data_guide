@@ -21,7 +21,7 @@ This guide primarily addresses aleatory and epistemic uncertainty related to cli
 
 ## Confidence in the Analysis
 
-Confidence is not the same as uncertainty. It refers to the level of reliability or trust that can be applied to a climate dataset, projection, or parameter. According to the IPCC, confidence is defined as the "validity of a finding, based on the type, amount, quality, and consistency of evidence (e.g., mechanistic understanding, theory, data, models, expert judgment) and the degree of agreement \[between models\]." (@mastrandrea_2010).
+Confidence is not the same as uncertainty. It refers to the level of reliability or trust that can be applied to a climate dataset, projection, or parameter. According to the IPCC, confidence is defined as the "validity of a finding, based on the type, amount, quality, and consistency of evidence (e.g., mechanistic understanding, theory, data, models, expert judgment) and the degree of agreement \[between models\]." (@mastrandrea2010).
 
 It is important to distinguish confidence from uncertainty. For example, a parameter might have a wide range of possible values (high uncertainty), but if those values are well-supported by extensive research and consistent evidence, we can still have high confidence in the analysis. Conversely, a narrow range of projections might be less trustworthy if the underlying models do not adequately represent key processes.
 

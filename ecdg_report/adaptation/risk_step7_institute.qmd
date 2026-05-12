@@ -1,12 +1,10 @@
 ---
-title: "Step 7: Institutionalize Decisions and Reporting"
+title: "Step 7: Reporting or Institutionalizing the Decision"
 bibliography: adaptation.bib 
 editor: 
   markdown: 
     wrap: 72
 ---
-
-# Step 7: Reporting or Institutionalizing the Decision
 
 Once the assessment and decision-making process are complete,
 documentation of the analysis and formally institutionalization of the
