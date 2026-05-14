@@ -3,9 +3,9 @@ title: "Understanding Adaptation, Risk and Vulnerability"
 bibliography: adaptation.bib 
 ---
 
-A clear understanding of fundamental definitions is critical to successfully understanding and conducting effective climate vulnerability and risk assessments. Terms such as "risk" and "vulnerability" often have multiple meanings, depending on which context they are applied. Inconsistent or incorrect use of these terms -- such as merging, reinventing, or misapplying definitions -- can lead to confusion and misinterpretation in assessments.
+A clear understanding of fundamental definitions is critical to successfully conducting effective climate vulnerability and risk assessments. Terms such as "risk" and "vulnerability" often have multiple meanings, depending on which context they are applied. Inconsistent or incorrect use of these terms -- such as merging, reinventing, or misapplying definitions -- can lead to confusion and misinterpretation in assessments.
 
-To ensure clarity and consistency, this guidance aligns with definitions established by ISO and the Intergovernmental Panel on Climate Change (IPCC). By adhering to standardized terminology, we can ensure that assessments are accurate, comparable, and aligned with industry best practices.
+To ensure clarity and consistency, this guide aligns with definitions established by ISO and the Intergovernmental Panel on Climate Change ([IPCC](https://www.ipcc.ch/)). By adhering to standardized terminology, we can ensure that assessments are accurate, comparable, and aligned with industry best practices.
 
 ## Adaptation
 
@@ -17,7 +17,7 @@ Reliability is the quality of performing consistently well. In the climate chang
 
 ### Resilience
 
-Resilience is the capacity to recover to performance targets from a disturbance. The capacity of systems to cope with a hazardous events or trends or disturbances, responding or reorganizing in ways that maintain their essential function and structure, while also maintaining the capacity for adaptation. In the figure below, we see where an acute hazard interrupts the performance of the system. A resilient system is less impacted and is able to recover quickly. For example, it may be acceptable for a generating unit to not be fully reliable under extreme heat, but a derate could be acceptable as long as the occurrence is infrequent or below a certain magnitude.
+Resilience is the capacity to recover to performance targets from a disturbance. The capacity of systems to cope with a hazardous events, trends or disturbances, and responding or reorganizing in ways that maintain their essential function and structure, while also maintaining the capacity for adaptation. In the figure below, we see where an acute hazard interrupts the performance of the system. A resilient system is less impacted and is able to recover quickly. For example, it may be acceptable for a generating unit to not be fully reliable under extreme heat, but a derate could be acceptable as long as the occurrence is infrequent or below a certain magnitude.
 
 ![](images/resilience-01.png)
 
