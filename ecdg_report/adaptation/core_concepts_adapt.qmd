@@ -23,9 +23,9 @@ Resilience is the capacity to recover to performance targets from a disturbance.
 
 ## Top-Down and Bottom-Up Approaches to Climate Vulnerability and Risk
 
-Within climate assessments, there are two primary philosophical approaches: top-down and bottom-up. In the context of climate vulnerability and risk assessments, these approaches have a very specific meaning, that may differ from typical understanding in traditional engineering applications. At a high level, the process flow figure presented in Figure 10 provides the basic steps for each approach.
+Within climate assessments, there are two primary philosophical approaches: top-down and bottom-up. In the context of climate vulnerability and risk assessments, these approaches have a very specific meaning, that may differ from typical understanding in traditional engineering applications. At a high level, the process flow figure presented in the Figure below provides the basic steps for each approach.
 
-[![Adapted from: Adapting Infrastructure and Civil Engineering Practice to a Changing Climate - Scientific Figure on ResearchGate. Available from: https://www.researchgate.net/figure/A-comparison-of-top-down-and-bottom-up-approaches-to-climate-change-adaptation_fig3_284672926 \[accessed 22 Apr 2026\]](images/topdownbottomup.png)](https://www.researchgate.net/figure/A-comparison-of-top-down-and-bottom-up-approaches-to-climate-change-adaptation_fig3_284672926/actions#reference)
+[![Adapted from: Adapting Infrastructure and Civil Engineering Practice to a Changing Climate (@Olsen2025)](images/topdownbottomup.png)](https://www.researchgate.net/publication/284672926_Adapting_Infrastructure_and_Civil_Engineering_Practice_to_a_Changing_Climate/figures)
 
 **Bottom-Up Approach:** This approach begins by building a thorough understanding of the asset, operation, or service being assessed and how it behaves across a broad range of conditions. This includes identifying performance requirements, operating limits, dependencies, and failure modes, and then determining which climate-related drivers could realistically challenge those requirements. Typical inputs for a bottom-up approach include system design and operating information, performance criteria, historical disruption and incident information, dependency mapping and any existing risk assessments. Typical outputs include a documented system description, a list of climate-sensitive functions and thresholds, and a prioritized set of climate drivers to analyze.
 
@@ -53,7 +53,7 @@ $$
 V = f(S,AC)
 $$
 
-where $V$ is the the vulnerability expressed as a function $f()$ of sensitivity ($S$) and adaptive capacity ($AC$).
+where $V$ is the the vulnerability expressed as a function $f$ of sensitivity $S$ and adaptive capacity $AC$.
 
 Fundamentally, vulnerability is the measure of the sensitivity of the system to a particular climate driver, where the sensitivity is determined by the performance of the system. The adaptative capacity of the system is the ability of systems, institutions, humans, and other organisms to adjust to potential damage, to take advantage of opportunities, or to respond to climate indicator stress. For the purposes of this guide, adaptive capacity refers to the existing temporary modifications or operational procedures system state that would increase the system ability to manage or cope with the climate driver or indicator. These would be temporary modifications or operational procedures that already exist for the system.
 
@@ -65,21 +65,21 @@ Sensitivity is a measure of how the system responds to changes in climate driver
 
 ### Adaptive Capacity
 
-There is not yet a clearly established definition of adaptive capacity but numerous concepts which are coming into alignment of the concept. Adaptive capacity are actions that are taken to reduce the overall vulnerability of sensitivity of the system. For the purposes of this guide, we consider adaptive capacity to be interventions that are beyond the inherent design of the system. These could be things like emergency management plans, operational procedures, or temporary measures that are pre-established to be called upon if there is a need. This could be measures like plans for sand-bagging if there is flooding, additional but temporary cooling of a system, de-rating of a system, etc. In this way, adaptive capacity may be linked to the concept of \[resilience\](#Resilience) more than it is \[reliability\](#Reliability).
+There is not yet a clearly established definition of adaptive capacity but numerous approaches which are coming into alignment of the concept. Adaptive capacity are actions that are taken to reduce the overall vulnerability or sensitivity of the system. For the purposes of this guide, we consider adaptive capacity to be interventions that are beyond the inherent design of the system. These could be things like emergency management plans, operational procedures, or temporary measures that are pre-established to be called upon if there is a need. This could be measures like plans for sand-bagging if there is flooding, additional but temporary cooling of a system, de-rating of a system, etc. In this way, adaptive capacity may be linked to the concept of [resilience](#resilience) more than it is [reliability](#reliability).
 
 ![Representation of the vulnerability of the system to a changing climatic condition.](images/vulnerability.png){.lightbox width=500}
 
-The figure above explains this concept. As the climate driver (i.e. temperature) increases, the system performance (i.e. operating efficiency) begins to drop. As the climate continues to worsen the the performance begins to drop into the range of safety margins and then fails to perform. In this case, the overall vulnerability is mitigated by the adaptive capacity which is a measure that allows the system to function under higher levels of climate stress.
+The figure above illustrates this concept. As the climate driver (i.e. temperature) increases, the system performance (i.e. operating efficiency) begins to drop. As the climate continues to warm the performance begins to drop into the range of safety margins and then fails to perform. In this case, the overall vulnerability is mitigated by the adaptive capacity which is a measure that allows the system to function under higher levels of climate stress.
 
 ## Climate Risk
 
 Climate-related risks generally fall into two categories:
 
-Physical Risks: These are risks resulting directly from changes in climate or weather, such as rising temperatures, heatwaves flooding, and wildfires.
+**Physical Risks:** These are risks resulting directly from changes in climate or weather, such as rising temperatures, heatwaves flooding, and wildfires.
 
-Transitional Risks: These are risks of events that may negatively affect business operations or development projects and arise from the socioeconomic changes in policy, legal, market and technology that occur as part of the transition to a low-carbon economy.
+**Transitional Risks:** These are risks of events that may negatively affect business operations or development projects and arise from the socioeconomic changes in policy, legal, market and technology that occur as part of the transition to a low-carbon economy.
 
-Climate opportunities (physical and transitional) may exist and relate to an advantageous condition related to a changing climate. However, the primary purpose of this standard is assessing and managing physical risks. Future guidance will be provided on how to assess and manage climate opportunities.
+Climate opportunities (physical and transitional) may exist and relate to an advantageous condition related to a changing climate. However, the primary purpose of this standard is assessing and managing physical risks.
 
 Risk results from the interaction of vulnerability, exposure and hazard, which ISO 14091 expresses as:
 
