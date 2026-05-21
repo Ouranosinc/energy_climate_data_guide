@@ -1,5 +1,5 @@
 ---
-jupyter: python3
+<!-- jupyter: python3 -->
 ---
 
 <!--- This is just a comment in the markup --->

@@ -47,12 +47,18 @@ website:
           # - sectors/reporting/esg_and_sustainability_reporting.ipynb
       # The page for the maturity matrix
       - maturity_matrix/Maturity_Matrix.qmd
-      - section: "Climate Data Fundamentals"
+      - section: "Climate: core concepts"
         href: climate_data_fundamentals/Climate_Data_Fundamentals.qmd
         contents:
-          - climate_data_fundamentals/Deprecated_Climate_Data_Fundamentals.ipynb
+          - climate_data_fundamentals/core_concepts_data.qmd
+          - climate_data_fundamentals/Emissions_scenarios.qmd
+          - climate_data_fundamentals/Ensembles.qmd
           - climate_data_fundamentals/Temporal_Horizons_Predictability.qmd
+          - climate_data_fundamentals/Time_horizons_GWL.qmd
+          - climate_data_fundamentals/Bias_adjustment.qmd
+          - climate_data_fundamentals/Uncertainty.qmd
           - climate_data_fundamentals/Data_Formats.qmd
+          - climate_data_fundamentals/Deprecated_Climate_Data_Fundamentals.ipynb
       # The section on climate datasets
       - section: "Climate Datasets"
         href: datasets/Climate_Datasets_Overview.ipynb
@@ -164,8 +170,9 @@ bibliography:
   - sectors/planning/capacity_expansion_modelling.bib
   - sectors/reporting/reporting_references.bib
   
-
-
+execute:
+  eval: false
+  freeze: auto
 
 
 
