@@ -1,0 +1,49 @@
+---
+title: Organizational Gaps
+---
+
+This page identifies gaps and barriers related to the use of climate data in the electricity sector.
+
+## 1. Limited internal climate literacy
+
+- A common organizational gap is not the absence of data, but lack of internal capacity to interpret datasets purpose and how to use them, interpret [multi-model ensembles](../datasets/climate_projection_data/Climate_Projection_Datasets.qmd#ensembles), [downscaling methods](../datasets/climate_projection_data/Climate_Projection_Datasets.qmd), scenario structure [I don't understand, what do you mean by 'structure'?!]{.mark-red}, [bias adjustment](../datasets/climate_projection_data/Climate_Projection_Datasets.qmd#bias-adjustment), etc.
+
+## 2. Siloes between departments that need the same information
+
+- Different teams often use different datasets, assumptions, and hazard definitions. This creates conflicting baselines and duplicated work.
+
+## 3. Internal data management/governance is often very limited
+
+- Utilities often lack version control, dataset approval processes, reproducible workflows, and clear ownership of climate assumptions. They will tend to use the dataset that their colleague is using because it is available, without making sure that it is fit for purpose. 
+- Critical information about datasets (e.g. limitations) tend to be lost along the way when passed from one team to the next.
+
+## 4. Consultant dependence without informed oversight
+
+- Utilities outsource climate analysis but lack the internal expertise to specify requirements, evaluate methodological quality, or challenge inappropriate products.
+
+## 5. Existing standards are based on historical values
+
+- Often industry practices (e.g. design codes, return-period assumptions) are built around historical climatology and regulatory conventions. When people recognize climate change risk, the approved methods and standards may not allow them to incorporate it.
+
+## 6. Inadequate handling of uncertainty
+
+- Utilities tend to respond to unfamiliar uncertainty such as climate data uncertainty by ignoring it.
+
+## 7. Climate information exists but is not embedded in core models and workflows
+
+- Climate information is available, but it is not operationalized (e.g. information sits in reports).
+
+## 8. Organization may privilege historical experience over forward-looking evidence
+
+- Operations and engineering teams tend to trust observed past events more than modeled futures, overseeing that the historical experience will not hold going forward.
+
+## 9. Business cases for climate information are hard to quantify
+
+- Utilities struggle to internally demonstrate the economic value of climate assessment, climate information and climate data.
+
+
+<!-- Addtional info:
+https://homepages.see.leeds.ac.uk/~lecajd/papers/nclimate2350.pdf
+https://www.sciencedirect.com/science/article/pii/S2212096320300462
+https://www.nature.com/articles/s41467-018-07894-4
+-->

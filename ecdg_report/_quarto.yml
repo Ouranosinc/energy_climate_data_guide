@@ -1,8 +1,5 @@
 project:
   type: website
-  #render:
-  #   - "*.ipynb"
-  #   - "!FullReport_MSWord.ipynb"
   preview:
     port: 3210
     browser: false
@@ -23,7 +20,7 @@ website:
     collapse-level: 1
     #search: true
     contents:
-      - Introduction.ipynb
+      - PurposeOfTheGuide.qmd
       - QuartoFunctionalityExamples.ipynb
       - section: "Electricity Sector Activities"
         href: sectors/electricity_sector_activities.ipynb
@@ -48,17 +45,19 @@ website:
           - sectors/reporting/reporting_disclosure.qmd
           #   contents:  
           # - sectors/reporting/esg_and_sustainability_reporting.ipynb
+      # The page for the maturity matrix
+      - maturity_matrix/Maturity_Matrix.qmd
+      - section: "Climate Data Fundamentals"
+        href: climate_data_fundamentals/Climate_Data_Fundamentals.qmd
+        contents:
+          - climate_data_fundamentals/Deprecated_Climate_Data_Fundamentals.ipynb
+          - climate_data_fundamentals/Temporal_Horizons_Predictability.qmd
+          - climate_data_fundamentals/Data_Formats.qmd
       # The section on climate datasets
       - section: "Climate Datasets"
         href: datasets/Climate_Datasets_Overview.ipynb
         contents:
-          - datasets/Dataset_Template.ipynb
-          - section: "Climate Data Fundamentals"
-            href: datasets/climate_data_fundamentals/Climate_Data_Fundamentals.ipynb
-            contents:
-              - datasets/climate_data_fundamentals/Deprecated_Climate_Data_Fundamentals.ipynb
-              - datasets/climate_data_fundamentals/Temporal_Horizons_Predictability.ipynb
-              - datasets/climate_data_fundamentals/Data_Formats.ipynb
+          - datasets/Dataset_Template.ipynb          
           - section: "Observational Data"
             href: datasets/observed_data/Observational_Datasets.ipynb
             contents:
@@ -70,7 +69,7 @@ website:
               - datasets/reanalysis_data/ERA5-Land.ipynb
               - datasets/reanalysis_data/CaSR.ipynb
           - section: "Climate Projection Data"
-            href: datasets/climate_projection_data/Climate_Projection_Datasets.ipynb
+            href: datasets/climate_projection_data/Climate_Projection_Datasets.qmd
             contents:
               - text: CMIP6
                 href: datasets/climate_projection_data/CMIP6.ipynb
@@ -80,28 +79,56 @@ website:
               - datasets/climate_projection_data/CanDCS-M6.ipynb
               - datasets/climate_projection_data/CanLEAD.ipynb
               - datasets/climate_projection_data/NEX-GDDP-CMIP6.ipynb
-          - datasets/Climate_Information_Ressources.ipynb
-          - datasets/Example_Applications.ipynb
-          - section: "Analysis Support Tools"
-            href: datasets/tools/Analysis_Support_Tools.ipynb
-            contents:
-              - datasets/tools/Point_Location_Compare.ipynb
+          - datasets/Datasets_by_Variable.qmd
       - section: "Guidance"
         contents:
-          - guidance/Climate_Data_Decision_Tree.qmd
-          - guidance/gaps.qmd       
+          - guidance/Climate_Data_Decision_Tree.qmd   
+          - guidance/traditional_knowledge.qmd
+          - guidance/Climate_Information_Ressources.qmd
+          - guidance/IPCC_information.ipynb
+          - guidance/Example_Applications.ipynb
+          - section: "Analysis Support Tools"
+            href: guidance/tools/Analysis_Support_Tools.ipynb
+            contents:
+              - guidance/tools/Point_Location_Compare.ipynb
+      - section: "Gaps and Barriers"
+        contents:
+          - gaps/gaps_data.qmd 
+          - gaps/gaps_organization.qmd  
       - section: Workshops
         href: workshops/intro_workshops.ipynb
         contents:
           - workshops/content_particip.ipynb
           - workshops/findings.ipynb      
-      - adaptation/Adaptation.ipynb      
-      - maturity_matrix/Maturity_Matrix.qmd
+      - section: Adaptation
+        href: adaptation/Adaptation.qmd
+        contents:
+          - section: "Core Concepts"
+            href: adaptation/core_concepts.qmd
+            contents:
+              - adaptation/core_concepts_data.qmd
+              - adaptation/core_concepts_adapt.qmd
+          - adaptation/model_integration.qmd
+          - section: "Vulnerability & Risk"
+            href: adaptation/risk_assessment.qmd
+            contents: 
+              - adaptation/risk_assessment.qmd
+              - adaptation/risk_step1.qmd
+              - adaptation/risk_step2_system.qmd
+              - adaptation/risk_step3_hazard.qmd
+              - adaptation/risk_step4_vulnerability.qmd
+              - adaptation/risk_step5_risk.qmd
+              - adaptation/risk_step6_adapt.qmd
+              - adaptation/risk_step7_institute.qmd
+               
 
 format:
   html:
     output-dir: ../html
-    theme: flatly
+    theme: 
+      - flatly #simplex #united #superhero #zephyr #spacelab #morph #flatly
+      - styles/custom.scss
+    #linkcolor: "#070BAB" # "#052946" # Ouranos blue
     css: styles/styles.css
     toc: true
     toc-title: Content
@@ -128,7 +155,9 @@ format:
 
 bibliography:
   - datasets/references.bib
+  - adaptation/adaptation.bib
   - sectors/references.bib
+  - sectors/infrastructure/references_dam_safety.bib
   - sectors/planning/references.bib
   - sectors/planning/generation_forecasting.bib
   - sectors/planning/resource_adequacy_planning.bib

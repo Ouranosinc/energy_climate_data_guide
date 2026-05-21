@@ -42,7 +42,11 @@ flowchart TD
 
     %% Historical / baseline branch
     B -- No --> C{Need spatially complete gridded fields?}
-    C -- No --> D[Station observational data]
+    C -- No --> D{Do you have a reliable observation station nearby?}
+    
+    D -- Yes --> DD[Station observational data] 
+    D -- No --> F[Reanalysis data]
+    
     C -- Yes --> E{Need multivariate physical consistency?}
   
     E -- Yes --> F[Reanalysis data]
@@ -90,7 +94,68 @@ flowchart TD
     class N,S adjust;
 ```
 
-## Decision rules
+
+### Climate Projection Data Decision Tree
+
+**A first AI generated, still stupid draft!**
+
+```{mermaid}
+%%{init: {'themeVariables': { 'fontSize': '30px'}, 'flowchart': { 'nodeSpacing': 50, 'rankSpacing': 50, 'padding': 30, 'curve': 'basis', 'htmlLabels': true, 'useMaxWidth': true }} }%%
+flowchart TD
+
+    A["Start: What type of question?"]
+    
+    A --> B{"Process understanding or applied impact study?"}
+    
+    %% PROCESS BRANCH
+    B -->|Process understanding| C{"Spatial scale needed?"}
+    C -->|Continental / large-scale| D{"Need to quantify internal variability?"}
+    C -->|Regional / local detail| E{"Need strong physical consistency?"}
+    
+    D -->|Yes| F["CanLEAD"]
+    D -->|No| G["CMIP6"]
+    
+    E -->|Yes| H["CORDEX-NA"]
+    E -->|No| I{"Willing to bias-correct yourself?"}
+    
+    I -->|Yes| H
+    I -->|No| J{"Geographic domain?"}
+    
+    J -->|Canada| K["CanDCS-M6"]
+    J -->|North America| L["ESPO-G6"]
+    
+    %% IMPACT BRANCH
+    B -->|Applied impact / thresholds| M{"Do absolute values and thresholds matter?"}
+    
+    M -->|No (relative change ok)| C
+    M -->|Yes| N{"Geographic domain?"}
+    
+    N -->|Canada| K
+    N -->|North America| L
+    N -->|Global| O["NEX-GDDP-CMIP6"]
+    
+    %% UNCERTAINTY REFINEMENT
+    K --> P{"Need larger model spread?"}
+    L --> P
+    O --> P
+    
+    P -->|Yes| Q["Consider CMIP6 or CORDEX alongside"]
+    P -->|No| R["Use selected dataset"]
+    
+    G --> S{"Need regional refinement later?"}
+    S -->|Yes| H
+    S -->|No| R
+    
+    F --> R
+    H --> R
+```
+
+
+
+
+
+
+<!-- ## Notes  ## Decision rules
 
 The decision tree is based on the following rules:
 
@@ -110,7 +175,7 @@ The decision tree is based on the following rules:
 - If you are using an impact model that is threshold/tail sensitive (e.g., cooling-degree exceedances, turbine cut-out events, flood peak triggers), select bias-adjusted climate projections.
 - If your application depends on multivariate dependence (e.g., coincident temperature + humidity for demand; wind + radiation for renewables; compound hazards), avoid univariate-only bias correction that breaks dependence; consider multivariate methods and explicitly check joint behaviour. 
 - If physical consistency is paramount (e.g., modelling processes rather than just distributions), prioritise reanalysis, RCM or GCM raw physics.
-
+-->
 
 <!-- ## Notes
 - **Station observational data**: best for site-scale historical analysis and local truth.
