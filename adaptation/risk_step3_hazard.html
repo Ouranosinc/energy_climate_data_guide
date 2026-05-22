@@ -7730,7 +7730,7 @@ margin-left: 2.0em;
   <ul>
   <li><a href="#assessing-data-suitability" id="toc-assessing-data-suitability" class="nav-link" data-scroll-target="#assessing-data-suitability">Assessing Data Suitability</a></li>
   </ul></li>
-  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
+  <li><a href="#references-remove-if-none" id="toc-references-remove-if-none" class="nav-link" data-scroll-target="#references-remove-if-none">References (remove if none!)</a></li>
   </ul>
 </nav>
     </div>
@@ -7783,7 +7783,8 @@ flowchart-elk TD
     D --&gt; |No Vulnerability| H
     D --&gt; |Vulnerable| E[Step 5: Risk Assessment]:::basic
     F[Step 6: Adaptation Plan]:::basic
-    D &amp; E --- J1[ ]:::join
+    E --- J1
+    D --- J1(( )):::join
     J1 --&gt; |Unacceptable Vulnerability or Risk| F
     E --&gt; |Risk Acceptable| H
     F --&gt; H
@@ -8060,8 +8061,8 @@ Note
 </div>
 </section>
 </section>
-<section id="references" class="level1">
-<h1>References</h1>
+<section id="references-remove-if-none" class="level1 red-text">
+<h1 class="red-text">References (remove if none!)</h1>
 <div id="refs" role="list">
 
 </div>

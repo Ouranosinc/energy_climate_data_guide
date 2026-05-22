@@ -7729,7 +7729,7 @@ margin-left: 2.0em;
   <li><a href="#monitoring-challenges" id="toc-monitoring-challenges" class="nav-link" data-scroll-target="#monitoring-challenges">Monitoring Challenges</a></li>
   </ul></li>
   <li><a href="#independent-review" id="toc-independent-review" class="nav-link" data-scroll-target="#independent-review">Independent Review </a></li>
-  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
+  <li><a href="#references-remove-if-none" id="toc-references-remove-if-none" class="nav-link" data-scroll-target="#references-remove-if-none">References (remove if none!)</a></li>
   </ul>
 </nav>
     </div>
@@ -7774,7 +7774,8 @@ flowchart-elk TD
     D --&gt; |No Vulnerability| H
     D --&gt; |Vulnerable| E[Step 5: Risk Assessment]:::basic
     F[Step 6: Adaptation Plan]:::basic
-    D &amp; E --- J1[ ]:::join
+    E --- J1
+    D --- J1(( )):::join
     J1 --&gt; |Unacceptable Vulnerability or Risk| F
     E --&gt; |Risk Acceptable| H
     F --&gt; H
@@ -7807,18 +7808,35 @@ flowchart-elk TD
 </div>
 </div>
 </div>
-<p>::: {.callout collapse=“true” title=“Key Criteria for Reporting} <strong>Reproducibility</strong>: The analysis and decisions must be documented in a way that ensures reproducibility. Ideally, if the same assessment were conducted independently, it would yield similar results. Future teams should also be able to clearly understand the rationale behind each decision. </p>
+<div class="callout callout-style-simple callout-none no-icon callout-titled" title="Key Criteria for Reporting">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">None</span>Key Criteria for Reporting
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-2" class="callout-2-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p><strong>Reproducibility</strong>: The analysis and decisions must be documented in a way that ensures reproducibility. Ideally, if the same assessment were conducted independently, it would yield similar results. Future teams should also be able to clearly understand the rationale behind each decision. </p>
 <p><strong>Transparency</strong>: Clearly outline the methods, data sources, assumptions, and reasoning used throughout the assessment and decision-making process. </p>
 <p><strong>Clarity</strong>: The report should be organized and written so that it is accessible to both technical and non-technical audiences. </p>
 <p><strong>Institutionalization</strong>: Ensure that decisions are formally integrated into relevant policies, procedures, or operational plans. This may involve updating risk registers, asset management plans, or standard operating procedures to reflect the chosen adaptation actions. </p>
-<p><strong>Budget</strong>: The budget for climate adaptation should be considered. In many cases a project or upgrade may be required even in the absence of climate change adaptation (i.e. end of component life). The budget should be recorded based on a base (like for like) case as well as the higher cost of adaptation. This way the organization can better track and manage the incremental costs of climate adaptation.  :::</p>
+<p><strong>Budget</strong>: The budget for climate adaptation should be considered. In many cases a project or upgrade may be required even in the absence of climate change adaptation (i.e. end of component life). The budget should be recorded based on a base (like for like) case as well as the higher cost of adaptation. This way the organization can better track and manage the incremental costs of climate adaptation. </p>
+</div>
+</div>
+</div>
 <p>Clear, thorough records help support transparency, enable continuous improvement, and provide a reference for future projects or audits. When documenting the analysis consider the following: </p>
-<p><strong>Purpose of the Assessment</strong>: Clearly state the objectives and scope. </p>
-<p><strong>Methods Used</strong>: Describe the methodologies, tools, and data sources. </p>
-<p><strong>Key Assumptions</strong>: Document any assumptions made during the analysis. </p>
-<p><strong>Findings and Conclusions</strong>: Summarize the results and key insights. </p>
-<p><strong>Recommendations and Actions</strong>: Outline any proposed adaptation measures or next steps. </p>
-<p><strong>Supporting Evidence</strong>: Include relevant data, references, and appendices as needed. </p>
+<ul>
+<li><p><strong>Purpose of the Assessment</strong>: Clearly state the objectives and scope. </p></li>
+<li><p><strong>Methods Used</strong>: Describe the methodologies, tools, and data sources. </p></li>
+<li><p><strong>Key Assumptions</strong>: Document any assumptions made during the analysis. </p></li>
+<li><p><strong>Findings and Conclusions</strong>: Summarize the results and key insights. </p></li>
+<li><p><strong>Recommendations and Actions</strong>: Outline any proposed adaptation measures or next steps. </p></li>
+<li><p><strong>Supporting Evidence</strong>: Include relevant data, references, and appendices as needed. </p></li>
+</ul>
 <p>Adapting the level of detail to match the complexity and significance of the activity ensures documentation remains practical and valuable for both current and future stakeholders. </p>
 <p>Thoroughly documenting and institutionalizing decisions supports organizational learning, transparency, and the long-term resilience of assets and operations.</p>
 <section id="process-integration" class="level2">
@@ -7856,8 +7874,8 @@ flowchart-elk TD
 <h2 class="anchored" data-anchor-id="independent-review">Independent Review </h2>
 <p>Several guiding documents emphasize the importance of periodic and independent reviews of climate risk and adaptation assessments. To facilitate effective review, assessments should be conducted and documented in a manner that allows an independent third party to easily understand the process and reach the same conclusions. When a risk report serves as the institutional record of a decision, both the report and the associated risk process should be reviewed regularly to account for changes in equipment condition, updates to design standards, or new climate data. Periodic reviews are already a well-established practice within safety programs, ensuring that adaptation decisions remain current, relevant, and robust over time.</p>
 </section>
-<section id="references" class="level1">
-<h1>References</h1>
+<section id="references-remove-if-none" class="level1 red-text">
+<h1 class="red-text">References (remove if none!)</h1>
 <div id="refs" role="list">
 
 </div>
