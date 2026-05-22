@@ -27,7 +27,8 @@ flowchart-elk TD
     D --> |No Vulnerability| H
     D --> |Vulnerable| E[Step 5: Risk Assessment]:::basic
     F[Step 6: Adaptation Plan]:::basic
-    D & E --- J1[ ]:::join
+    E --- J1
+    D --- J1(( )):::join
     J1 --> |Unacceptable Vulnerability or Risk| F
     E --> |Risk Acceptable| H
     F --> H
@@ -47,7 +48,7 @@ flowchart-elk TD
     for independent reviews of the assessment.
 :::
 
-::: {.callout collapse="true" title="Key Criteria for Reporting}
+::: {.callout collapse="true" title="Key Criteria for Reporting"}
 **Reproducibility**: The analysis and decisions must be documented in a
 way that ensures reproducibility. Ideally, if the same assessment were
 conducted independently, it would yield similar results. Future teams
@@ -78,18 +79,18 @@ Clear, thorough records help support transparency, enable continuous
 improvement, and provide a reference for future projects or audits. When
 documenting the analysis consider the following: 
 
-**Purpose of the Assessment**: Clearly state the objectives and scope. 
+- **Purpose of the Assessment**: Clearly state the objectives and scope. 
 
-**Methods Used**: Describe the methodologies, tools, and data sources. 
+- **Methods Used**: Describe the methodologies, tools, and data sources. 
 
-**Key Assumptions**: Document any assumptions made during the analysis. 
+- **Key Assumptions**: Document any assumptions made during the analysis. 
 
-**Findings and Conclusions**: Summarize the results and key insights. 
+- **Findings and Conclusions**: Summarize the results and key insights. 
 
-**Recommendations and Actions**: Outline any proposed adaptation
+- **Recommendations and Actions**: Outline any proposed adaptation
 measures or next steps. 
 
-**Supporting Evidence**: Include relevant data, references, and
+- **Supporting Evidence**: Include relevant data, references, and
 appendices as needed. 
 
 Adapting the level of detail to match the complexity and significance of
@@ -190,7 +191,7 @@ climate data. Periodic reviews are already a well-established practice
 within safety programs, ensuring that adaptation decisions remain
 current, relevant, and robust over time.
 
-# References
+# References (remove if none!){.red-text}
 
 ::: {#refs}
 :::

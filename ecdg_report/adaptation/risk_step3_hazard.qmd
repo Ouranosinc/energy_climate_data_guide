@@ -38,64 +38,15 @@ flowchart-elk TD
     D --> |No Vulnerability| H
     D --> |Vulnerable| E[Step 5: Risk Assessment]:::basic
     F[Step 6: Adaptation Plan]:::basic
-    D --> J1(( )):::join
-    E --> J1
+    E --- J1
+    D --- J1(( )):::join
     J1 --> |Unacceptable Vulnerability or Risk| F
     E --> |Risk Acceptable| H
     F --> H
 
     classDef basic fill:#CAD4D6
     classDef focus fill:#CAD4D6, stroke:#CE153D, color:#CE153D
-    classDef join fill:none,stroke:none
-```
-
-```{mermaid}
-%%| fig-align: center
-%%| fig-cap: "Generic Workflow for Adaptation"
----
-config:
-  flowchart:
-    curve: linear
----
-flowchart TD
-    A[Step 1: Develop Scope]:::focus --> B[Step 2: Understand System]:::basic
-    B --> C[Step 3: Hazard & Exposure Assessment]:::basic
-    C --> D[Step 4: Vulnerability Assessment]:::basic
-
-    H[Step 7: Institutionalize Decision]:::basic
-    F[Step 6: Adaptation Plan]:::basic
-
-    D -->|No Vulnerability| H
-    D -->|Vulnerable| E[Step 5: Risk Assessment]:::basic
-
-    E -->|Risk Acceptable| H
-
-    D --> J1((·)):::join
-    E --> J1
-
-    J1 -->|Unacceptable Vulnerability or Risk| F
-
-    F --> H
-
-    classDef basic fill:#CAD4D6
-    classDef focus fill:#CAD4D6,stroke:#CE153D,color:#CE153D
-    classDef join fill:none,stroke:none,color:none
-```
-
-```{mermaid}
-flowchart TD
-    D[Step 4: Vulnerability Assessment]
-    E[Step 5: Risk Assessment]
-    F[Step 6: Adaptation Plan]
-
-    D --> F
-    E --> F
-
-    D -->|No Vulnerability| H[Step 7: Institutionalize Decision]
-    D -->|Vulnerable| E
-    E -->|Risk Acceptable| H
-
-    classDef basic fill:#CAD4D6
+    classDef join height:0px
 ```
 
 ::: {.callout-note collapse="true" title="What comes first...?"}
@@ -388,7 +339,7 @@ Typical inputs for this step may include:
 :::
 
 
-# References
+# References (remove if none!){.red-text}
 
 ::: {#refs}
 :::
