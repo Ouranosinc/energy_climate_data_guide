@@ -4,7 +4,7 @@ title: Emissions scenarios
 
 [NB. Some work remains to be done in merging the following two sections.]{.red-text}
 
-### Emissions Scenarios  (part 1)
+### Emissions Scenarios  (version 1)
 
 The IPCC is a United Nations body for assessing the science related to climate change. The IPCC is primarily a scientific review body, developing reports based on meta-analysis of reports and peer-reviewed academic literature. In order to have comparable results for analysis the Coupled Model Intercomparison Project (CMIP) was developed. In these projects, climate modelers from across the globe agree to a set of scenarios upon which to run their individual climate models. This framework allows for direct comparisons and for pooling the various models as an ensemble to evaluate the uncertainty of future projections. The IPCC publishes Assessment Reports approximately every 7-10 years, which provide guidance on the latest climate science and how climate scenarios should be considered.
 
@@ -12,7 +12,7 @@ The most recently completed IPCC 6th Assessment Report uses Shared Socioeconomic
 
 SSP scenarios are not climate outcomes. They are socioeconomic pathways that can be paired with different levels of climate radiative forcing: 2.6, 4.5, 7.0, 8.5 (in W/m^2^), which determines the level of 'warming' when running climate models. Industry common climate scenarios that are widely used in practice include: SS1-2.6, SSP2-4.5, SSP3-7.0, SSP5-8.5. Notably, Representative Concentration Pathway (RCP) climate scenarios developed in IPCC 5th Assessment Report may also be appropriate to use depending on previous assessment work completed and the purpose of the assessment. The general signal between CMIP5 and CMIP6 is consistent.
 
-### Emissions Scenarios (part 1)
+### Emissions Scenarios (version 2)
 
 To understand possible future climate conditions, climate models are driven with assumptions about how atmospheric greenhouse gas (GHG) concentrations may evolve. These assumptions are expressed as future emissions scenarios, emphasizing that they are structured representations of plausible futures rather than predictions. Such scenarios are carfully developed using information about how societies may grow and develop, and they incorporate factors such as global GHG emissions, political commitment to mitigation of GHG emissions, and technological progress. The frameworks used to construct these scenarios account for elements including population, education, energy demand and types, land use, and related drivers to outline coherent pathways of emissions from different sources, their accumulation in the atmosphere, how these patterns could evolve over the coming century, and the degree of effort directed toward limiting climate change. By definition, these assumptions about future emissions and atmospheric greenhouse gas concentrations are inherently uncertain. Although they are grounded in careful assessments of possible socio-economic developments worldwide, uncertainty regarding the range of plausible futures remains. As the emissions scenarios explore a wide range of possible futures they also represent the largest uncertainty in future climate projections.
 
