@@ -85,7 +85,7 @@ website:
           - guidance/Climate_Data_Decision_Tree.qmd   
           - guidance/traditional_knowledge.qmd
           - guidance/Climate_Information_Ressources.qmd
-          - guidance/IPCC_information.ipynb
+          - guidance/IPCC_information.qmd
           - guidance/Example_Applications.ipynb
           - section: "Analysis Support Tools"
             href: guidance/tools/Analysis_Support_Tools.ipynb
