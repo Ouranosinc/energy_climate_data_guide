@@ -170,10 +170,3 @@ bibliography:
   - sectors/planning/capacity_expansion_modelling.bib
   - sectors/reporting/reporting_references.bib
   
-execute:
-  eval: false
-  freeze: auto
-
-
-
-
