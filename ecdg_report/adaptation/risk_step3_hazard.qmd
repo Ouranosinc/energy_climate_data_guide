@@ -306,7 +306,7 @@ The range of climate drivers is broad enough to encompass all plausible
 conditions that could impact the system. This should include collecting
 climate data for all relevant hazards and climate indicators identified,
 under one or more climate scenarios (i.e. SSP2-4.5, SSP5-8.5). Refer to
-[Core Concepts: Climate Data](./core_concepts_data.qmd) and
+[Core Concepts: Climate Data](../climate_data_fundamentals/core_concepts_data.qmd) and
 the [Climate Data Decision
 Tree](../guidance/Climate_Data_Decision_Tree.qmd)for more details on
 climate data.

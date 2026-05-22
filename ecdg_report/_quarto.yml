@@ -130,7 +130,7 @@ website:
 
 format:
   html:
-    output-dir: ../html
+    # output-dir: ../html
     theme: 
       - flatly #simplex #united #superhero #zephyr #spacelab #morph #flatly
       - styles/custom.scss
