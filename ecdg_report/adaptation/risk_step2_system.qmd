@@ -87,7 +87,7 @@ Outcomes of this step may include:
 :::
 
 
-# References
+# References (remove if none!){.red-text}
 
 ::: {#refs}
 :::
