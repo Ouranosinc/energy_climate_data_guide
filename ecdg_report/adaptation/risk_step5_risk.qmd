@@ -57,7 +57,8 @@ flowchart-elk TD
     D --> |No Vulnerability| H
     D --> |Vulnerable| E[Step 5: Risk Assessment]:::focus
     F[Step 6: Adaptation Plan]:::basic
-    D & E --- J1[ ]:::join
+    E --- J1
+    D --- J1(( )):::join
     J1 --> |Unacceptable Vulnerability or Risk| F
     E --> |Risk Acceptable| H
     F --> H
@@ -471,7 +472,7 @@ then be institutionalized or an organizational risk tolerance threshold
 can be applied to determine which risks needs to be addressed and in
 which order.
 
-# References
+# References (remove if none!){.red-text}
 
 ::: {#refs}
 :::

@@ -17,7 +17,12 @@ The [Design Value Explorer](https://www.uvic.ca/pcic/data-analysis-tools/analysi
 ## PAVICS
 [PAVICS](https://pavics.ouranos.ca/) is a virtual laboratory facilitating the analysis of climate data. It provides access to several data collections of [station observations](../datasets/observed_data/Observational_Datasets.ipynb), [reanalyses](../datasets/reanalysis_data/Reanalysis_Datasets.ipynb) and [climate projections](../datasets/climate_projection_data/Climate_Projection_Datasets.qmd). PAVIC's Python programming environment gives the user access to on-premises computational infrastructure for the analysis of this data without the need to download it, thus reducing the need for local storage capacity and high-bandwidth data transfers. The working environment is constantly updated with the most efficient libraries for climate data analysis, in addition to ensuring quality control on the provided data and associated metadata. Finally, PAVICS also offers a suite of tools to streamline the analysis of climate change's impacts on hydrology through the hydrological modeling framework Raven. 
 
-[Information on upcoming tutorials goes here.]{.mark-red}
+You can find a tutorial with two simple examples on how to manipulate climate data using PAVICS [here](https://pavics.ouranos.ca/jupyter/hub/user-redirect/lab/tree/tutorial-notebooks/PAVICS-training):
+
+- The first example explains how to create a basic figure derived from a custom climate indicator calculation.</br>
+- The second example shows how to access and analyze pre-calculated climate indicators from the [CanDCS-M6](../datasets/climate_projection_data/CanDCS-M6.ipynb) climate dataset, then filter the data by scenario and variable, select a particular region, compute the average over that area, and finally export the results through a CSV and visualise the data.</br>
+
+It is possible to modify these notebooks directly on PAVICS such that the users can adapt these examples to their particular needs.
 
 [Registration](https://forms.office.com/Pages/ResponsePage.aspx?id=jf6iw_Q8V02umCWsOYvz8Pa-ghpkFLtEhY0_uNsYGzNUM0RKREtBODQ4S0ZXNEZEUFlZRExJWkhVQSQlQCN0PWcu) is free. For more information, contact [pavics@ouranos.ca](mailto:pavics@ouranos.ca?subject=%3Cplease%20specify%20the%20subject%20of%20your%20request%3E&body=%3Cinsert%20your%20question%20here%3E).
 
