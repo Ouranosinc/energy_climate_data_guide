@@ -22,7 +22,8 @@ flowchart-elk TD
     D --> |No Vulnerability| H
     D --> |Vulnerable| E[Step 5: Risk Assessment]:::basic
     F[Step 6: Adaptation Plan]:::focus
-    D & E --- J1[ ]:::join
+    E --- J1
+    D --- J1(( )):::join
     J1 --> |Unacceptable Vulnerability or Risk| F
     E --> |Risk Acceptable| H
     F --> H
