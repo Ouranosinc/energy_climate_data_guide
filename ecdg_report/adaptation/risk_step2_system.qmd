@@ -1,0 +1,93 @@
+---
+title: "Step 2: Understand the System, Structure, and Component(s)"
+bibliography: adaptation.bib 
+editor: 
+  markdown: 
+    wrap: 72
+---
+
+This step builds a clear, practical understanding of the system being
+assessed, in the context of climate change. Teams should review how the
+system is designed, built, operated, maintained, and how it influences
+other systems to deliver its intended service. This understanding helps
+the assessment stay focused on the parts of the systems that matter most
+for safety, performance, and continuity, and it provides the system
+information needed to assess climate hazards and exposure. The level of
+detail should match the scope and objective confirmed previously. For a
+simple assessment, the system may be a single component. For a
+system-wide or higher-risk assessment, the system may include multiple
+critical structures, components, sub-components, and supporting
+services.
+
+```{mermaid}
+%%| fig-align: center
+%%| fig-cap: "Generic Workflow for Adaptation"
+---
+config:
+    flowchart:
+        curve: linear
+---
+flowchart-elk TD
+    A[Step 1: Develop Scope]:::basic --> B[Step 2: Understand System]:::focus
+    B --> C[Step 3: Hazard & Exposure Assessment]:::basic
+    C --> D[Step 4: Vulnerability Assessment]:::basic
+    H[Step 7: Institutionalize Decision]:::basic
+    D --> |No Vulnerability| H
+    D --> |Vulnerable| E[Step 5: Risk Assessment]:::basic
+    F[Step 6: Adaptation Plan]:::basic
+    E --- J1
+    D --- J1(( )):::join
+    J1 --> |Unacceptable Vulnerability or Risk| F
+    E --> |Risk Acceptable| H
+    F --> H
+
+    classDef basic fill:#CAD4D6
+    classDef focus fill:#CAD4D6, stroke:#CE153D, color:#CE153D
+    classDef join height:0px
+```
+
+::: {.callout-note collapse="true" title="Inputs"}
+Typical inputs for this step include engineering drawings and design
+basis information, system specifications, operating procedures,
+maintenance strategies, condition and inspection reports, operational
+experience, and prior risk or event documentation (such as near misses).
+:::
+
+
+Actions for this step may include reviewing the available documentation,
+walking down the system where practical, and engaging station staff and
+subject matter experts (SMEs) to confirm how it works in practice, how
+it is maintained, what has changed since installation, and what current
+condition and age imply for performance. This step also includes
+checking for "design intent versus current reality" and avoiding
+assumptions that aging systems will continue to perform as originally
+specified, even in the face of a changing climate.
+
+
+::: {.callout collapse="true" title="Outcomes}
+
+Outcomes of this step may include:
+
+-   Documented understanding of the system and how it works with other
+    systems to deliver its intended service, written at a level of
+    detail that fits the assessment scope and decision need
+-   List of systems, structures and components critical aspects that
+    will be included in the assessment
+-   For each critical aspect identified for the system, the output
+    typically captures key specifications, known condition issues,
+    relevant operating experience (OPEX) or reports, and SME insights.
+    This step may also produce a preliminary view of climate sensitivity
+    by identifying design and operating thresholds linked to
+    meteorological or climate indicators (e.g., precipitation
+    intensities, flood levels, wind speeds, temperature operating
+    ranges, icing conditions, or low-water constraints). Staff "lived
+    experience" is often a useful input at this stage, especially where
+    performance changes or operational challenges have been observed
+    during past weather events.
+:::
+
+
+# References (remove if none!){.red-text}
+
+::: {#refs}
+:::

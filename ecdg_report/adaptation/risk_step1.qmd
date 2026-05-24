@@ -1,0 +1,226 @@
+---
+title: "Step 1: Establish the Scope and Context"
+bibliography: adaptation.bib 
+editor: 
+  markdown: 
+    wrap: 72
+---
+
+The scope and context of the assessment should first be established.
+This step sets the foundation for the full climate vulnerability and
+risk assessment by defining what is being assessed, why it is being
+assessed, and how results will be used.
+
+The starting point is a clear understanding of the application for the
+assessment, including the purpose, intended decisions, and the problem
+the assessment is intended to address. This step also clarifies what
+"unacceptable" looks like for the system by confirming performance
+requirements (if they exist), and vulnerability/risk evaluation
+criteria. Teams should use this information to choose a practical
+assessment approach, including procedures for testing potential
+solutions in later steps, and to set the depth of analysis to match the
+system and decision context (for example, a high-level screening
+assessment, a spreadsheet-based analysis, or a more detailed modelling
+exercise).
+
+```{mermaid}
+%%| fig-align: center
+%%| fig-cap: "Generic Workflow for Adaptation"
+---
+config:
+    flowchart:
+        curve: linear
+---
+flowchart-elk TD
+    A[Step 1: Develop Scope]:::focus --> B[Step 2: Understand System]:::basic
+    B --> C[Step 3: Hazard & Exposure Assessment]:::basic
+    C --> D[Step 4: Vulnerability Assessment]:::basic
+    H[Step 7: Institutionalize Decision]:::basic
+    D --> |No Vulnerability| H
+    D --> |Vulnerable| E[Step 5: Risk Assessment]:::basic
+    F[Step 6: Adaptation Plan]:::basic
+    E --- J1
+    D --- J1(( )):::join
+    J1 --> |Unacceptable Vulnerability or Risk| F
+    E --> |Risk Acceptable| H
+    F --> H
+
+    classDef basic fill:#CAD4D6
+    classDef focus fill:#CAD4D6, stroke:#CE153D, color:#CE153D
+    classDef join height:0px
+```
+
+::: {#S1_integration .callout-tip title="Integration" collapse="true"}
+This assessment should be integrated into existing processes rather than
+recreating them. The problem statement, risk evaluation criteria, and
+critical thresholds are typically available through standard governance,
+processes, and documentation, such as risk registers, a Business
+Requirements Document (BRD), design basis documents, historical
+performance information, or input from system owners and subject matter
+experts.
+:::
+
+::: {#S1_alignment .callout title="Alignment" collapse="true"}
+Teams should align the assessment with internal and external
+requirements (if applicable) that may influence the methodology. This
+stage may also integrate with existing processes (if applicable) to
+align the climate assessment methodology with regulatory or industry
+processes. For example, CSA S910.1 (@CSAS910) links climate
+vulnerability work for dams to established hydropower programs such as
+dam safety review (DSR) and failure modes and effects assessment (FMEA),
+while EPRI 3002023814 (@epri_n) links climate vulnerability work to
+nuclear programs such as equipment reliability, seasonal readiness,
+asset management, margin management and probabilistic risk assessments
+(PRA).
+:::
+
+Where relevant and current, previous assessment findings may be used to
+reduce effort in later steps by providing existing system descriptions,
+hazard screens, or vulnerability findings; however, teams should first
+confirm the earlier assessment fits the current objective and
+application, and confirm that key inputs (such as climate datasets,
+assumptions, and performance criteria) remain up to date. For example, a
+previous assessment could have been completed on an system where climate
+vulnerability has already been completed. This may reduce the effort
+needed and the objective of the new assessment may be focused on
+improving climate vulnerability or risk understanding of the system and
+strengthening adaptation planning and implementation.
+
+::: {#s1_outcomes .callout collapse="true" title="Outcomes"}
+The outcomes of this step may include
+-   Documented scope and context statement, tailored to the application
+    / use-case
+-   Confirmed objectives and evaluation criteria for the assessment
+-   Defined assessment approach and level of effort, considering
+    alignment with internal and external requirements (e.g., regulatory)
+-   Identified and summarized applicable regulatory and code
+    requirements under which the work will be completed
+-   Defined and documented system, geographic and time boundaries for
+    the assessment
+-   Recorded assumptions that define how results will be compared and
+    prioritized
+-   Identified and documented aligned programs and interfaces where
+    outputs will be used
+-   Identified and reviewed prior climate assessment content with
+    documented disposition (leveraged/reused/updated/replaced)
+-   Project team established with defined roles, responsibilities, and
+    escalation points
+-   Stakeholders identified who need to be informed, consulted, or
+    engaged
+-   Interested parties that may require participation
+-   Plan defined for obtaining climate science support where required
+-   Plan defined for embedding transparency into the assessment process
+    (traceability of methods, decisions, assumptions)
+-   Record maintained of key decisions, assumptions, and stakeholder
+    inputs that influence subsequent steps
+:::
+
+## Objectives and Evaluation Criteria
+
+Teams should confirm or establish the objective of the assessment in
+practical terms (e.g., inform an investment decision, support a design
+change, prioritize maintenance actions, update emergency planning, etc.)
+and then define the criteria used to evaluate climate-related
+assessment. Objectives and evaluation criteria describe what the
+assessment is intended to achieve and how results will be interpreted to
+support decisions.
+
+::: {#s1_crit .callout-tip collapse="true" title="Criteria"}
+Criteria are most useful when they connect to decision needs and are
+stated in measurable or clearly described terms, such as safety impacts,
+service delivery impacts, environmental impacts, financial impacts,
+compliance impacts, and reputational impacts. Where possible, teams may
+also confirm critical thresholds and unacceptable outcomes, such as
+conditions that could lead to worker or public harm, loss of essential
+function, exceedance of design or operating limits, or prolonged outage
+beyond acceptable recovery time.
+:::
+
+Typical inputs for this step may include the decision statement and
+intended use of results, existing corporate or project objectives, risk
+criteria used, performance requirements and operating limits and any
+existing risk register entries or business requirements.
+
+## Regulatory Context
+
+Teams should identify applicable laws, permits, regulatory guidance, and
+engineering codes early so the assessment can support compliance while
+remaining decision useful. Regulatory drivers may exist and influence
+the scope of the assessment through requirements that can restrict the
+approach, specify minimum design elements, or impose other constraints.
+
+Typical inputs for this step may include applicable regulatory
+requirements and code obligations for the system or activity, the
+approval or assessment processes being triggered, and any regulatory
+guidance on climate-related expectations.
+
+::: {#s1_code .callout-caution collapse="true" title="Codes and Standards"}
+Codes and standards often set minimum design or performance
+requirements; these minimums may be effective in the near term but may
+not fully account for future climate conditions, particularly where
+requirements are based on historical or retrospective design values. The
+climate assessment process presented in this standard supports
+forward-looking, prudent decisions to manage systems and assets, where
+analysis often times goes beyond minimum codes and requirements.
+:::
+
+## System, Geographic and Time Boundaries
+
+System, geographic and time boundaries define where and when climate
+conditions are evaluated, and they help ensure climate information is
+fit for the system and decision being supported.
+
+The system boundary should define the functional extent of the system
+and should identify if the boundary is limited to the system form, the
+physical system itself, or function, how it operates. It should also
+state if the assessment is considering an system in isolation or if
+interactions with other systems upstream or downstream are to be
+considered.
+
+The geographic boundary should define the spatial representativeness and
+scale of influence of the system, recognizing that some decisions are
+driven by very local conditions (e.g., a single piece of equipment)
+while others require a broader scale (e.g., a watershed-level approach
+for a dam system). Geographic boundaries should reflect how the system
+functions in practice, including dependencies such as site access,
+staffing, supply chains, and requirements for human intervention during
+extreme events.
+
+Time boundaries (time horizons) should reflect at least expected
+lifespan of the system or the period during which climate impacts may
+become critical. Multiple time horizons or scenarios may be used to
+capture a range of plausible futures.
+
+::: {.callout-tip collapse="true" title="Assessment time window"}
+Assessing beyond the lifespan of the system may be useful if decisions
+made could result in lock-in or the exclusion of options in the future.
+:::
+
+Climate analyses commonly used multi-decade periods of at least 30 years
+to reflect how climate statistics are derived and interpreted. The
+selected horizon(s) should also match the decision type, such as
+near-term operational planning versus long-term asset management.
+
+## Establish a Project Team
+
+The size and composition of the project team should reflect the scope
+and complexity of the assessment. For simple or low-complexity system, a
+single individual may undertake this work. For broader, higher-risk, or
+safety-critical systems, teams are typically cross-functional and may
+include project leads, system engineers, operations and maintenance
+staff, consultants, asset owners, risk practitioners, and other subject
+matter experts. Depending on scope, agreements, or regulatory
+obligations, participation may also include community or stakeholder
+representatives. The project team should include at least one person
+with practical knowledge of how climate conditions affect the type of
+systems being assessed (e.g., how heat, icing, wind, flooding, low
+water, or wildfire can change performance, access, or reliability). For
+complex assessments, teams may include climate science expertise to
+support data selection, scenario interpretation, and uncertainty
+communication.
+
+
+# References
+
+::: {#refs}
+:::
