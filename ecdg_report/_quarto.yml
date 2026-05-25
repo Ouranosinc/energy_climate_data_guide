@@ -47,9 +47,9 @@ website:
       - section: "Climate: Core Concepts"
         href: climate_data_fundamentals/Climate_Data_Fundamentals.qmd
         contents:
+          - climate_data_fundamentals/Temporal_Horizons_Predictability.qmd
           - climate_data_fundamentals/Emissions_scenarios.qmd
           - climate_data_fundamentals/Ensembles.qmd
-          - climate_data_fundamentals/Temporal_Horizons_Predictability.qmd
           - climate_data_fundamentals/Time_horizons_GWL.qmd
           - climate_data_fundamentals/Bias_adjustment.qmd
           - climate_data_fundamentals/Uncertainty.qmd
