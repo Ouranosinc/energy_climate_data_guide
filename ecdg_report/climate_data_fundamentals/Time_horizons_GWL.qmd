@@ -1,0 +1,50 @@
+---
+title: Time Horizons and Global Warming Levels
+---
+
+[NB. Some work remains to be done in merging the two versions.]{.red-text}
+
+### Version 1
+
+## Time Horizons {#temporal-horizon}
+
+In climate research and adaptation planning, temporal horizons are time windows used to analyze and communicate projected climate conditions over meaningful periods. They are typically defined as multi-decadal intervals — such as the 2030s (2021–2050), 2050s (2041–2070), and 2080s (2071–2100) — to align with the World Meteorological Organization's (WMO) [suggestion to use 30 year periods](https://wmo.int/topics/climate) for the determination of average climate parameters. These horizons are used because climate evolves gradually, and planning decisions (e.g., infrastructure design, policy, resource management) often have lifespans spanning decades. By comparing climate statistics over these periods to a historical reference baseline (e.g., 1981–2010), researchers and practitioners can assess how conditions may evolve over time. Temporal horizons therefore provide a practical framework for linking climate projections to decision-making timelines in adaptation and risk management. More information on the rationale behind using 30 year averages, also called climate normals can be found on ClimateData.ca with an interactive tutorial on [The Importance of Using 30 Years of Data](https://climatedata.ca/resource/30-years-data/).
+
+
+## Global Warming Levels
+
+Traditionally, climate projections have been presented as the change of a future 20-year or 30-year period (e.g. 2071-2100) with respect to present climate conditions. However, during the last IPCC cycle, the WG1 introduced the concept of Warming Levels (WLs), wherein climate change projections are presented relative to the change in Global Mean Temperature (GMT) with respect to preindustrial conditions (e.g. 2◦C above preindustrial level), rather than tied to a designated future period (or [Temporal Horizon](#temporal-horizon)). In this framework, a WL is first selected (e.g. 2◦C) and then, for each GCM of an ensemble, the 20-year or 30-year period centered on the predetermined change in GMT is selected for comparison. Because the GCMs warm at different rates, the GCMs will reach the selected level of warming at different times. Consequently, different future time periods will usually be selected for each GCMs. 
+
+Since simulations will reach a warming level regardless of the model properties or the emissions scenario, WL-based assessment can include multiple emissions scenarios and even "hot models" (@Hausfather2022) with a very strong response to increased GHG concentrations. An ensemble of simulations at a given WL will still describe the climate of a world at that global average temperature. When using WL, the ensemble spread is usually reduced, however the time of emergence of the conditions remain not well defined. Another advantage of using WL lies in the connection to climate change mitigation policy which is oriented to limiting warming to certainn levels defined by a temperature increase, such as the 1.5˚C target.
+
+
+### Version 2
+
+## Time Horizons
+
+Time boundaries (time horizons) should reflect the expected lifespan of the SSC or the period during which climate impacts may become critical. Multiple time horizons or scenarios may be used to capture a range of plausible futures. Climate analyses commonly used multi-decade periods of at least 30 years to reflect how climate statistics are derived an interpreted. The selected horizon(s) should also match the decision type, such as near-term operational planning versus long-term asset management. For climate assessments, there are four common time horizons that may be used in the assessed:
+
+**Baseline or Historical Time Horizon:** 30-year period representing the current/historical climate conditions.
+
+**Near-term Time Horizon:** (sometimes also referred to as the Near-Century or 2030s) -- 30-year period representing the near-term period of the century (e.g., 2021-2050).
+
+**Mid-term Time Horizon:** (sometimes also referred to as the Mid-Century or 2050s) -- 30-year period representing the mid period of the century (e.g., 2041-2070).
+
+**Long-term Time Horizon:** (sometimes also referred to as the End-of-Century or 2080s) -- 30-year period representing the end period of the century (e.g., 2071-2100).
+
+The actual 30-year start end dates may vary and time horizons may overlap depending on the assessment requirements. Currently, high variability and uncertainty exist in climate models when projecting past 2100. If the climate assessment requires climate data past 2100, please consult the Environment and Climate Change or the Water Resources team.
+
+## Global Warming Levels
+
+A global warming level (GWL) considers the climate scenario on the basis of a 30-year period, with the prescribed global average amount of warming rather than a time-scenario basis. For example, the scenario would be a world with an average increase in temperatures of 2.0℃. This method has the distinct advantage of being agnostic to the scenario being considered so that data from SSP2-4.5 and SSP5-8.5 can be mixed and may reduce the uncertainty of the assessment. Since some GCMs tend to warm faster than others a time basis may result in larger uncertainty because a 1.5℃ warmer model is mixed with a 2.0℃ warmer model. Similarly, the threshold will be reached sooner in SSP2-4.5 than in SSP5-8.5 so a 30-year period in the 2070's under SSP2-4.5 will be mixed with the 2050's in SSP5-8.5 but importantly they will represent the same climatic conditions. This also potentially increases the size of the ensemble being considered. If 10 GCMs were available for each SSP, then 30 GCMs are available for a 1.5℃ scenario, whereas only 10 GCMs are available for SS2-4.5 in the 2030's (2021-2040).
+
+Typical years used for the start of the respective GWL's used by the IPCC is shown in the table below.
+
+| Global Warming Level (℃) | SSP1-2.6 | SSP2-4.5  | SSP3-7.0  | SSP5-8.5  |
+|:--------------------------:|:-----------:|:-----------:|:-----------:|:-----------:|
+| 1.5                      | 2023-2042 | 2021-2040 | 2021-2040 | 2018-2037 |
+| 2.0                      |           | 2043-2062 | 2037-2056 | 2032-2051 |
+| 3.0                      |           |           | 2066-2085 | 2055-2074 |
+| 4.0                      |           |           |           | 2075-2094 |
+
+: Summary of 20-year average GWL based on multiple lines of evidence. This is the first 20-year period in which the global average temperature exceeds the threshold in comparison to pre-industrial (1850-1900) levels (Adapted from IPCC Cross-Section, box TS.1, Table 1)

@@ -38,31 +38,38 @@ vulnerabilities that have been identified as unacceptable. It involves
 taking actions to reduce the impacts of climate change on systems.
 Adaptation can take many forms: 
 
-**Reducing Exposure**: Some actions lower exposure to hazards, such as
-relocating an system away from areas at risk of flooding.  **Reducing
-Vulnerability**: Most adaptation measures focus on decreasing the
+- **Reducing Exposure**:</br>
+Some actions lower exposure to hazards, such as
+relocating an system away from areas at risk of flooding.
+
+- **Reducing Vulnerability**:</br>
+Most adaptation measures focus on decreasing the
 system's vulnerability to climate hazards. This can be achieved by
 strengthening the system or modifying its operation to better withstand
 adverse conditions. 
 
-**Enhancing Reliability and Resilience**: Certain adaptation actions
+- **Enhancing Reliability and Resilience**:</br>
+Certain adaptation actions
 improve the reliability of the system, ensuring it continues to perform
 even as climate conditions worsen. Others enhance resilience by
 minimizing the impact of an event or enabling faster recovery after
 disruption. 
 
-**Transferring Risk:** Some elements of risk can be transferred through
+- **Transferring Risk:**</br>
+Some elements of risk can be transferred through
 contractual obligations, rate regulation or insurance. 
 
-::: {.callout collapse="true" title="Types of Adaptation}
+:::{.callout collapse="true" title="Types of Adaptation"}
 
-**Structural Adaptation:** This involves modifying or replacing physical
+**Structural Adaptation:**</br>
+This involves modifying or replacing physical
 assets or components. These changes are typically implemented through
 maintenance activities or capital projects. Examples include upgrading
 equipment, increasing the capacity of turbines, or reinforcing
 infrastructure.
 
-**Operational Adaptation:** This focuses on changing how assets are
+**Operational Adaptation:**</br>
+This focuses on changing how assets are
 operated rather than altering the assets themselves. Examples include
 adjusting operating schedules, increasing inspection frequencies, or
 updating maintenance programs. These changes are usually introduced
@@ -90,7 +97,7 @@ the system design life. This example highlights the importance of
 flexible adaptation pathways and planning as well as the timing and
 institutionalizing when implementing adaptation strategies. 
 
-![Reduced vulnerability with adaptation](images/adaptation.png){fig-align="center"}
+![Reduced vulnerability with adaptation](images/adaptation.png){fig-align="center" width=700}
 
 ::: {.callout-note collapse="true"}
 While most climate vulnerability and risk guidance documents emphasize
@@ -133,7 +140,7 @@ reduce the likelihood or consequence of reaching critical performance
 thresholds. The scope and complexity of these actions should reflect the
 nature and cost of the problem or system being addressed.  
 
-Use the results from [Level of Concern](./risk_step5_risk.qmd##Level%20of%20Concern) in the
+Use the results from [Level of Concern](./risk_step5_risk.qmd#level-of-concern) in the
 risk assessment will guide the selection of adaptation actions. Unless
 there is an option that is a clear winner, first identify multiple
 possible actions to ensure flexibility and resilience. Options should
@@ -148,7 +155,7 @@ option selected. 
 
 Where the risk assessment results in Quadrants 3 or 4, robust or robust
 and flexible actions are to be considered. [Adaptation
-pathways](##%20Adaptation%20Pathways) are a valuable tool for
+pathways](#adaptation-pathways) are a valuable tool for
 developing a long-term, flexible plan. These pathways identify a
 sequence of adaptation measures, some of which may not need to be
 implemented immediately, allowing the organization to respond as

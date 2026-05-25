@@ -47,12 +47,18 @@ website:
           # - sectors/reporting/esg_and_sustainability_reporting.ipynb
       # The page for the maturity matrix
       - maturity_matrix/Maturity_Matrix.qmd
-      - section: "Climate Data Fundamentals"
+      - section: "Climate: Core Concepts"
         href: climate_data_fundamentals/Climate_Data_Fundamentals.qmd
         contents:
-          - climate_data_fundamentals/Deprecated_Climate_Data_Fundamentals.ipynb
+          - climate_data_fundamentals/Emissions_scenarios.qmd
+          - climate_data_fundamentals/Ensembles.qmd
           - climate_data_fundamentals/Temporal_Horizons_Predictability.qmd
+          - climate_data_fundamentals/Time_horizons_GWL.qmd
+          - climate_data_fundamentals/Bias_adjustment.qmd
+          - climate_data_fundamentals/Uncertainty.qmd
           - climate_data_fundamentals/Data_Formats.qmd
+          - climate_data_fundamentals/core_concepts_data.qmd
+          - climate_data_fundamentals/Deprecated_Climate_Data_Fundamentals.ipynb
       # The section on climate datasets
       - section: "Climate Datasets"
         href: datasets/Climate_Datasets_Overview.ipynb
@@ -103,11 +109,11 @@ website:
       - section: Adaptation
         href: adaptation/Adaptation.qmd
         contents:
-          - section: "Core Concepts"
-            href: adaptation/core_concepts.qmd
-            contents:
-              - adaptation/core_concepts_data.qmd
-              - adaptation/core_concepts_adapt.qmd
+          #- section: "Core Concepts"
+          #  href: adaptation/core_concepts.qmd
+          #  contents:
+              # - adaptation/core_concepts_data.qmd
+          - adaptation/core_concepts_adapt.qmd
           - adaptation/model_integration.qmd
           - section: "Vulnerability & Risk"
             href: adaptation/risk_assessment.qmd
@@ -164,9 +170,3 @@ bibliography:
   - sectors/planning/capacity_expansion_modelling.bib
   - sectors/reporting/reporting_references.bib
   
-
-
-
-
-
-
