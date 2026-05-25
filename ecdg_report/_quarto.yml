@@ -125,8 +125,6 @@ website:
               - adaptation/risk_step7_institute.qmd
       - QuartoFunctionalityExamples.ipynb
       
-               
-
 format:
   html:
     # output-dir: ../html
