@@ -1,12 +1,10 @@
 ---
-title: "Step 2: Understand the System"
+title: "Step 2: Understand the System, Structure, and Component(s)"
 bibliography: adaptation.bib 
 editor: 
   markdown: 
     wrap: 72
 ---
-
-# Step 2: Understand the System, Structure, Component(s)
 
 This step builds a clear, practical understanding of the system being
 assessed, in the context of climate change. Teams should review how the
@@ -37,13 +35,14 @@ flowchart-elk TD
     D --> |No Vulnerability| H
     D --> |Vulnerable| E[Step 5: Risk Assessment]:::basic
     F[Step 6: Adaptation Plan]:::basic
-    D & E --- J1[ ]:::join
+    E --- J1
+    D --- J1(( )):::join
     J1 --> |Unacceptable Vulnerability or Risk| F
     E --> |Risk Acceptable| H
     F --> H
 
     classDef basic fill:#CAD4D6
-    classDef focus fill:#CE153D
+    classDef focus fill:#CAD4D6, stroke:#CE153D, color:#CE153D
     classDef join height:0px
 ```
 
@@ -88,7 +87,7 @@ Outcomes of this step may include:
 :::
 
 
-# References
+# References (remove if none!){.red-text}
 
 ::: {#refs}
 :::

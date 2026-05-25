@@ -45,7 +45,7 @@ been explicitly included in data tables for calculation.
 
 | Type                                       | Document                                                                                                                                              | Notes                                                 | Reference  |
 |:-------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------|------------|
-|General|International Organization for Standardization (ISO) 14091: Adaptation to Climate Change -- Guidelines on vulnerability, impacts and risk assessment|Internationally recognized framework|(@ISO14091)|
+|General|International Organization for Standardization (ISO) 14091: Adaptation to Climate Change -- Guidelines on vulnerability, impacts and risk assessment|Internationally recognized framework|(@iso14091)|
 |Hydroelectric|Canadian Standards Association (CSA) S9101.1: Climate change vulnerability assessments for dams in Canada|Aligns with Canadian Dam Association (CDA) processes|(@CSAS910)|
 |Nuclear|Electric Power Research Institute (EPRI) 3002023814: Climate vulnerability assessment guidance for Nuclear Power Plants|Specific for nuclear power industry|(@epri_n)|
 |General|Environment and Climate Change Canada ECCC SACC-CCR: Strategic assessment of climate change: Assessing climate change resilience|For projects subject to Impact Assessments|(@sacc)|                                                       |            |
@@ -81,8 +81,8 @@ flowchart-elk TD
     E --> |Risk Acceptable| H
     F --> H
 
-    classDef basic fill:#CAD4D6
-    classDef focus fill:#CAD4D6, stroke:#CE153D, color:#CE153D
+    classDef basic fill:#052946
+    classDef focus fill:#CE153D
     classDef join height:0px
 ```
 

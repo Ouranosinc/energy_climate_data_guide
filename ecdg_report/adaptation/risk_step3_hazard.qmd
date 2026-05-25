@@ -6,8 +6,6 @@ editor:
     wrap: 72
 ---
 
-# Step 3: Hazard and Exposure Assessment
-
 This step identifies which climate hazards are relevant to the system
 and determines which critical aspects of the system are exposed to those
 hazards. Hazard and exposure work is often described together, but they
@@ -40,7 +38,8 @@ flowchart-elk TD
     D --> |No Vulnerability| H
     D --> |Vulnerable| E[Step 5: Risk Assessment]:::basic
     F[Step 6: Adaptation Plan]:::basic
-    D & E --- J1[ ]:::join
+    E --- J1
+    D --- J1(( )):::join
     J1 --> |Unacceptable Vulnerability or Risk| F
     E --> |Risk Acceptable| H
     F --> H
@@ -297,7 +296,7 @@ criteria.
 
 For more information on climate data and projections refer to [the
 overview on climate
-datasets](./datasets/Climate_Datasets_Overview.ipynb)
+datasets](../datasets/Climate_Datasets_Overview.ipynb)
 
 ### Assessing Data Suitability
 
@@ -308,15 +307,14 @@ The range of climate drivers is broad enough to encompass all plausible
 conditions that could impact the system. This should include collecting
 climate data for all relevant hazards and climate indicators identified,
 under one or more climate scenarios (i.e. SSP2-4.5, SSP5-8.5). Refer to
-[Core Concepts: Climate Data](./adaptation/core_concepts_data.qmd) and
+[Core Concepts: Climate Data](./core_concepts_data.qmd) and
 the [Climate Data Decision
-Tree](guidance/Climate_Data_Decision_Tree.qmd)for more details on
+Tree](../guidance/Climate_Data_Decision_Tree.qmd)for more details on
 climate data.
 
 Data is collected for all relevant time horizons (e.g., 2030s, 2050s,
 2080s) to represent the time boundaries identified in [System,
-Geographic and Time
-Boundaries](###%20System,%20Geographic%20and%20Time%20Boundaries).
+Geographic and Time Boundaries](###%20System,%20Geographic%20and%20Time%20Boundaries).
 Climate data time horizons selected should capture the life of the
 system and/or should align with the purpose and objective of the
 assessment.
@@ -329,8 +327,9 @@ climate hazards and indicators or may vary depending on the specific
 climate hazard exposure interactions, and their criticality to system
 performance or operations.
 
-::: {.callout collapse="true" title="\"Inputs"}
+::: {.callout collapse="true" title="Inputs"}
 Typical inputs for this step may include:
+
 - Indicator list and required variables
 - Geographic and time boundaries
 - Chosen scenarios and time horizons
@@ -340,7 +339,7 @@ Typical inputs for this step may include:
 :::
 
 
-# References
+# References (remove if none!){.red-text}
 
 ::: {#refs}
 :::

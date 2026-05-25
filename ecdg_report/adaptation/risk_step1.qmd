@@ -1,12 +1,10 @@
 ---
-title: "Step 1 Scope and Context"
+title: "Step 1: Establish the Scope and Context"
 bibliography: adaptation.bib 
 editor: 
   markdown: 
     wrap: 72
 ---
-
-# Step 1: Establish the Scope and Context
 
 The scope and context of the assessment should first be established.
 This step sets the foundation for the full climate vulnerability and
@@ -41,7 +39,8 @@ flowchart-elk TD
     D --> |No Vulnerability| H
     D --> |Vulnerable| E[Step 5: Risk Assessment]:::basic
     F[Step 6: Adaptation Plan]:::basic
-    D & E --- J1[ ]:::join
+    E --- J1
+    D --- J1(( )):::join
     J1 --> |Unacceptable Vulnerability or Risk| F
     E --> |Risk Acceptable| H
     F --> H

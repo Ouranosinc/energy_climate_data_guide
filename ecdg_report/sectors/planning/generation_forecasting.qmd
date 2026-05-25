@@ -17,7 +17,6 @@ The first sub-section outlines the role of climate data and the importance of ac
 Electricity systems are highly sensitive to climate variability and change, as temperature, precipitation, wind patterns, and extreme weather events directly influence both electricity demand and generation capacity. Accurate forecasting, supported by robust climate data and models, plays a critical role in ensuring the reliability, resilience, and efficiency of these systems. Understanding climate impacts helps operators anticipate changes in resource availability, such as hydropower inflows, wind speeds, or solar radiation, while also preparing for shifts in demand patterns driven by heating and cooling needs. Integrating climate information into electricity system planning and operation supports proactive decision-making, reduces the risk of supply disruptions, and enhances the system’s ability to adapt to future climate conditions.
 
 The purpose of this document is to provide practitioners with guidance on selecting and preparing climate data, as well as applying appropriate methods and models, to support accurate and reliable electricity generation forecasting.
-
 :::
 
 ## Methods and Models
@@ -177,7 +176,7 @@ The model outputs correspond to generation forecasting models that estimate elec
 The frequency of analysis reflects that generation forecasting is conducted across multiple timescales, from short-term operational forecasting to long-term planning analyses. It describes how often generation forecasts are produced, updated, or validated. The frequency depends on the model’s time horizon, planning objectives, and new data availability. In practice, short-term forecasts may be updated daily to support operations, and longer-term analyses are conducted periodically to inform investment and policy decisions.
 
 :::
-:::
+
 
 
 ## Detailed Discussion

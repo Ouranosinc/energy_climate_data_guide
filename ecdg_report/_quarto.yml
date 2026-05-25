@@ -112,18 +112,18 @@ website:
             href: adaptation/risk_assessment.qmd
             contents: 
               - adaptation/risk_assessment.qmd
-              - risk_step1.qmd
-              - risk_step2_system.qmd
-              - risk_step3_hazard.qmd
-              - risk_step4_vulnerability.qmd
-              - risk_step5_risk.qmd
-              - risk_step6_adapt.qmd
-              - risk_step7_institute.qmd
+              - adaptation/risk_step1.qmd
+              - adaptation/risk_step2_system.qmd
+              - adaptation/risk_step3_hazard.qmd
+              - adaptation/risk_step4_vulnerability.qmd
+              - adaptation/risk_step5_risk.qmd
+              - adaptation/risk_step6_adapt.qmd
+              - adaptation/risk_step7_institute.qmd
                
 
 format:
   html:
-    output-dir: ../html
+    # output-dir: ../html
     theme: 
       - flatly #simplex #united #superhero #zephyr #spacelab #morph #flatly
       - styles/custom.scss
@@ -154,6 +154,7 @@ format:
 
 bibliography:
   - datasets/references.bib
+  - adaptation/adaptation.bib
   - sectors/references.bib
   - sectors/infrastructure/references_dam_safety.bib
   - sectors/planning/references.bib
