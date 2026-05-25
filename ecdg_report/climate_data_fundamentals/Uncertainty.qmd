@@ -1,0 +1,34 @@
+---
+title: Uncertainty and Confidence
+bibliography: ../adaptation/adaptation.bib 
+---
+
+Uncertainty is also a normal part of investment and everyday decision-making. Everyday humans make plans for retirement savings now knowing what a market will do, choose to switch jobs or simply drive down the highway managing signal from other drivers, infer their actions and drive accordingly without perfect foresight. We are actually fairly adept at making decisions with a certain degree of uncertainty. Therefore, climate-related decisions should not be dismissed simply because of uncertainty or because new information continues to emerge.
+
+## Uncertainty
+
+Understanding uncertainty is critical when working with climate change scenarios and projections. In this context, uncertainty refers to the differences among various future projections. There are three primary sources of uncertainty:
+
+**Aleatory Uncertainty (Natural Variability)**: this type of uncertainty arises from the inherent randomness and natural fluctuations within the climate system. Climate models address aleatory uncertainty through random sampling and by simulating a range of possible outcomes.
+
+**Epistemic Uncertainty (Knowledge Gaps)**: this type of uncertainty is related to what we do not know about the system. No model is perfect -- differences in the physics behind climate models and variability in the socio-economic scenarios (such as Shared Socioeconomic Pathways \[SSP\]) can lead to different climate projections. Using multiple models helps to account for these knowledge gaps.
+
+**Deep Uncertainty**: this type of uncertainty encompasses a broader set of unknowns, including aleatory and epistemic uncertainty, as well as unpredictable factors such as policy choices, evolving societal values, technological changes, and the interconnectedness of decisions. Deep uncertainty is especially relevant for complex projects with significant societal impacts.
+
+This guide primarily addresses aleatory and epistemic uncertainty related to climate change, which is suitable for most electricity sector applications. Managing deep uncertainty may require specialized tools or approaches, particularly for complex development projects or systems with extensive societal interactions. For more information on deep uncertainty please see [The Society for Decision Making under Deep Uncertainty](https://www.deepuncertainty.org/).
+
+## Confidence in the Analysis
+
+Confidence in climate data must be distinguished from uncertainty. It refers to the level of reliability or trust that can be applied to a climate dataset, projection, or parameter. According to the IPCC, confidence is defined as the "validity of a finding, based on the type, amount, quality, and consistency of evidence (e.g., mechanistic understanding, theory, data, models, expert judgment) and the degree of agreement \[between models\]." (@mastrandrea2010).
+
+It is important to distinguish confidence from uncertainty. For example, a parameter might have a wide range of possible values (high uncertainty), but if those values are well-supported by extensive research and consistent evidence, we can still have high confidence in the analysis. Conversely, a narrow range of projections might be less trustworthy if the underlying models do not adequately represent key processes.
+
+The IPCC communicates findings using both confidence levels (ranging from "very low" to "very high") and likelihood terms (such as "virtually certain" or "exceptionally unlikely") to describe the probability of specific climate outcomes. Likelihood terms are tied to quantitative probability ranges, while confidence levels reflect the quality, consistency, and agreement of the scientific evidence.
+
+@cannon_2020 have also produced generic confidence tiers to regional-scale projections for all of Canada. They recommend using high to medium confidence indicators for engineering design, as they are supported by strong evidence. Medium to high confidence indicators are suitable for risk analysis, cost/benefit analysis, and exploratory studies, and may sometimes be used in design. Low confidence indicators can be used for exploring the impacts of climate change or loading or structural reliability.
+
+**Signal Confidence:** This is the amount of confidence that can be placed in the overall trend in terms of magnitude and direction of the climate data or climate indicator.
+
+**Data Confidence:** This is the amount of confidence that can be placed in the quantitative use of the climate data itself for applications.
+
+The signal confidence is generally higher than the confidence we may place in data. For example, we may have numerous studies and agreement among climate models that gives greater confidence in a *signal* that extreme precipitation is increasing. However, those same studies may give a range of values for a 1:100 year flood so there may be somewhat less confidence in the *data* itself as it is used directly. Both forms of confidence should be considered in decision making.

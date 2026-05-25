@@ -214,7 +214,7 @@ scenario(s) and time horizon(s). Likelihood methods depend on the type
 and quality of climate data available. Where modelled projections are
 available for the indicator, likelihood may be estimated quantitatively.
 
-Select Climate Scenarios: Before quantifying risk, determine which
+**Select Climate Scenarios:** Before quantifying risk, determine which
 climate scenarios to analyze. This includes deciding how to represent
 time (e.g., based on the design life of the system) and which climate
 scenarios to use (e.g., different emissions pathways or global warming
@@ -222,14 +222,11 @@ levels). For long-lived assets, multiple scenarios may be needed; for
 shorter-lived assets, a single scenario may suffice. Rationale for
 choices should be clearly documented.
 
-::: {.callout collapse="true" title="Example Scenarios} \*Probability of
-an event under different global warming levels (e.g., 2°C, 2.5°C, 3°C).
-Refer to [INSERT LINK](WEHRE?) for more details on global warming
+::: {.callout collapse="true" title="Example Scenarios"}
+- Probability of an event under different global warming levels (e.g., 2°C, 2.5°C, 3°C).
+Refer to ["Time Horizons and Global Warming Levels"](../climate_data_fundamentals/Time_Horizons_GWL.qmd) for more details on global warming
 levels.
-
--   Probability of an event under specific climate scenarios (e.g.,
-    SSP2-4.5, SSP5-8.5) for different future time windows (e.g., 2050s,
-    2080s).
+- Probability of an event under specific climate scenarios (e.g. SSP2-4.5, SSP5-8.5) for different future time windows (e.g., 2050s, 2080s).
 :::
 
 ::: {.callout-note collapse="true" title="Note on time"}
@@ -396,7 +393,7 @@ projections, the confidence in the ability of climate models to
 represent relevant hazards, and the confidence in the vulnerability
 assessment process. This step is inherently subjective unless there is
 detailed knowledge of the uncertainties involved. Information on
-uncertainty and confidence can be found [here](./core_concepts_data.qmd)
+uncertainty and confidence can be found [here](../climate_data_fundamentals/core_concepts_data.qmd)
 
 Involve climate science and engineering experts to help assess
 uncertainty and avoid bias -- whether it be overconfidence or under
