@@ -65,7 +65,7 @@ assumptions that aging systems will continue to perform as originally
 specified, even in the face of a changing climate.
 
 
-::: {.callout collapse="true" title="Outcomes}
+::: {.callout collapse="true" title="Outcomes"}
 
 Outcomes of this step may include:
 

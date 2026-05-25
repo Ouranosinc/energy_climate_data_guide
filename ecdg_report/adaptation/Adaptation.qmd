@@ -81,13 +81,6 @@ config:
     flowchart:
         curve: linear
 ---
-%%| fig-align: center
-%%| fig-cap: "Generic Workflow for Adaptation"
----
-config:
-    flowchart:
-        curve: linear
----
 flowchart-elk TD
     A[Step 1: Develop Scope]:::basic --> B[Step 2: Understand System]:::basic
     B --> C[Step 3: Hazard & Exposure Assessment]:::basic
