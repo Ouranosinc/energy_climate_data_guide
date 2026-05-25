@@ -21,11 +21,9 @@ website:
     #search: true
     contents:
       - PurposeOfTheGuide.qmd
-      - QuartoFunctionalityExamples.ipynb
       - section: "Electricity Sector Activities"
-        href: sectors/electricity_sector_activities.ipynb
+        #href: sectors/electricity_sector_activities.ipynb # to be cleaned or removed entirely
         contents:
-          - sectors/Sectors_Template.qmd
           - section: "Electricity System Planning"
             contents:
               - sectors/planning/demand.qmd
@@ -43,8 +41,7 @@ website:
               - sectors/infrastructure/infrastructure_design.ipynb
           # - section: "Assurance, Reporting and Disclosures"
           - sectors/reporting/reporting_disclosure.qmd
-          #   contents:  
-          # - sectors/reporting/esg_and_sustainability_reporting.ipynb
+          - sectors/Sectors_Template.qmd
       # The page for the maturity matrix
       - maturity_matrix/Maturity_Matrix.qmd
       - section: "Climate: Core Concepts"
@@ -63,7 +60,6 @@ website:
       - section: "Climate Datasets"
         href: datasets/Climate_Datasets_Overview.ipynb
         contents:
-          - datasets/Dataset_Template.ipynb          
           - section: "Observational Data"
             href: datasets/observed_data/Observational_Datasets.ipynb
             contents:
@@ -86,6 +82,7 @@ website:
               - datasets/climate_projection_data/CanLEAD.ipynb
               - datasets/climate_projection_data/NEX-GDDP-CMIP6.ipynb
           - datasets/Datasets_by_Variable.qmd
+          - datasets/Dataset_Template.ipynb
       - section: "Guidance"
         contents:
           - guidance/Climate_Data_Decision_Tree.qmd   
@@ -126,7 +123,8 @@ website:
               - adaptation/risk_step5_risk.qmd
               - adaptation/risk_step6_adapt.qmd
               - adaptation/risk_step7_institute.qmd
-               
+      - QuartoFunctionalityExamples.ipynb
+      
 
 format:
   html:
