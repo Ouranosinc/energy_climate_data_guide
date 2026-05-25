@@ -18,6 +18,7 @@ There are a larger number of guidance documents that develop a broader approach 
 
 ```{mermaid}
 %%| fig-align: center
+%%| fig-cap: "Generic Process for Adaptation"
 
 flowchart TD
     A[Develop Scope] -->|Assemble Team| B[Understand System]
