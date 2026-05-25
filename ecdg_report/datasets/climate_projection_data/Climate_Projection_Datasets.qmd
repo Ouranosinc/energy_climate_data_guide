@@ -49,12 +49,7 @@ Any region’s climate is inevitably linked to the global atmospheric circulatio
 
 ## Expert Guidance {#expert-guidance}
 
-::: {#id .callout collapse="true"}
-### Click to toggle section collapse
-
-See section on core concepts of climate science.
-
-:::
+For guidance on using climate projection data see the section on core concepts of climate science and analysis [Climate: Core Concepts](../Climate_Data_Fundamentals.qmd).
 
 ## References
 <details>

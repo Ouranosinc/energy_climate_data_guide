@@ -1,5 +1,5 @@
 ---
-title: Climate Data Fundamentals
+title: "Climate: Core Concepts"
 ---
 
 ### [Remaining text... page might be expanded or removed.]{.red-text}
