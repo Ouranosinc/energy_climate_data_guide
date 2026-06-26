@@ -89,6 +89,7 @@ website:
           - guidance/traditional_knowledge.qmd
           - guidance/Climate_Information_Ressources.qmd
           - guidance/IPCC_information.qmd
+          - guidance/Guidance_Harrington.qmd
           - guidance/Example_Applications.ipynb
           - section: "Analysis Support Tools"
             href: guidance/tools/Analysis_Support_Tools.ipynb
