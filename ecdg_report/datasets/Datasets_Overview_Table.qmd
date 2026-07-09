@@ -1,0 +1,20 @@
+---
+title: Dataset Overview Table
+
+---
+
+The table below provides an overview of key characteristics of the datasets documented in this guide.
+
+| Dataset | Spatial Resolution | Finest Temporal Resolution | Spatial Extent | Historical Coverage | Future Coverage | Primary Application |
+|---------|---------------------------|----------------------------|----------------|-------------------|---------------|---------------------|
+| [CMIP6](./climate_projection_data/CMIP6.ipynb) | ~100–250 km (model dependent) | hourly (selected variables), 3-hourly, daily, monthly | Global | 1850–2014 | 2015–2100 | Global climate projections; assessing model uncertainty and climate change signals |
+| [CORDEX](./climate_projection_data/CORDEX.ipynb) (North America) | 0.22° (~25 km) | 3-hourly (selected variables), daily, monthly | North America | 1950–2005 (CMIP5), 1950–2014 (CMIP6) | 2006–2100 (CMIP5), 2015–2100 (CMIP6)| Regional climate projections from physically consistent dynamical downscaling |
+| [ESPO-G6](./climate_projection_data/ESPO-G6.ipynb) | 0.1° (~10 km) | Daily | North America | 1950–2014 | 2015–2100 | Bias-adjusted regional climate projections for impact assessments |
+| [CanDCS-M6](./climate_projection_data/CanDCS-M6.ipynb) | 0.083° (~10 km) | Daily | Canada and NW US | 1950–2014 | 2015–2100 | Bias-adjusted climate projections for Canadian impact and adaptation studies |
+| [CanLEAD](./climate_projection_data/CanLEAD.ipynb) | 0.5° (~50 km) | Daily | North America | 1950–2005 | 2006–2100 | Quantifying internal climate variability and probabilistic climate risk |
+| [NEX-GDDP-CMIP6](./climate_projection_data/NEX-GDDP-CMIP6.ipynb) | 0.25° (~25 km) | Daily | Global land | 1950–2014 | 2015–2100 | Global bias-adjusted climate projections for impact assessments |
+| [AHCCD / CanHom](./observed_data/AHCCD-CanHom_Station_Data.ipynb) | Point observations | Daily | Canada (station network) | ~1840s–Present | — | Long-term station observations, climate trends and extremes |
+| [NRCANmet](./observed_data/NRCANmet_Gridded_Data.ipynb) | 0.083° (~10 km) | Daily | North America | 1950–2020 | — | High-resolution gridded observations for historical climate analyses and bias corrrection of climate model simulations |
+| [ERA5-Land](./reanalysis_data/ERA5-Land.ipynb) | 0.1° (~10 km) | Hourly | Global land | 1950–Present | — | High-resolution land-surface reanalysis for historical climate |
+| [ERA5](./reanalysis_data/ERA5-Land.ipynb) | 0.25° (~28 km) | Hourly | Global | 1940–Present | — | Global atmospheric reanalysis for historical climate |
+| [CaSR](./reanalysis_data/CaSR.ipynb) | 0.09° (~10 km) | Hourly | North America | 1980–2024 | — | High-resolution atmospheric reanalysis for North America's historical climate |

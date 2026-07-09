@@ -60,6 +60,7 @@ website:
       - section: "Climate Datasets"
         href: datasets/Climate_Datasets_Overview.ipynb
         contents:
+          - datasets/Datasets_Overview_Table.qmd
           - section: "Observational Data"
             href: datasets/observed_data/Observational_Datasets.ipynb
             contents:
