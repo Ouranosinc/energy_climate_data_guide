@@ -71,7 +71,7 @@ An ensemble mean alone can conceal important differences between plausible outco
 
 A useful response should include:
 
-* the number and name of models used;
+* the number and names of models used;
 * the emissions scenarios considered (or levels of warming);
 * the range of projected changes across models;
 * areas of robust agreement; and
