@@ -160,6 +160,7 @@ format:
 bibliography:
   - datasets/references.bib
   - adaptation/adaptation.bib
+  - guidance/guidance.bib
   - sectors/references.bib
   - sectors/infrastructure/references_dam_safety.bib
   - sectors/planning/references.bib

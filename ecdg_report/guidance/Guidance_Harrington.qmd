@@ -8,7 +8,7 @@ Physical climate risk assessments are often commissioned from external providers
 
 This page provides questions that electricity-sector organisations can use when procuring or reviewing a physical climate risk assessment. It is intended to support informed discussion with climate-risk information providers. It is not a substitute for technical review by qualified climate scientists.
 
-This guidance is adapted from Harrington et al. (2025), who propose eight questions for organisations procuring physical climate risk assessments.
+This guidance is adapted from @Harrington2025, who propose eight questions for organisations procuring physical climate risk assessments.
 
 ## How to use this guidance
 
@@ -168,7 +168,8 @@ The quality and detail of climate information should match the decision being su
 
 For highly local or asset-specific decisions, consider using climate information alongside stress testing and physically plausible storylines. These approaches can help explore consequences under credible conditions without implying a level of local precision that the available climate evidence cannot support. For more on this, we suggest to consult the Adaptation section of this guide.
 
-## Reference
+## References
 
-Harrington, L. J., Gibson, P. B., Fauchereau, N., Lewis, H., Frame, D., & Rosier, S. M. (2025). On the procurement of physical risk assessments for climate-related disclosures: guidance from a climate science perspective. *Journal of the Royal Society of New Zealand*, 55(6), 2260–2269. https://doi.org/10.1080/03036758.2025.2486044
+::: {#refs}
+:::
 
