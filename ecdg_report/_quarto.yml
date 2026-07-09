@@ -90,6 +90,7 @@ website:
           - guidance/traditional_knowledge.qmd
           - guidance/Climate_Information_Ressources.qmd
           - guidance/IPCC_information.qmd
+          - guidance/Guidance_Harrington.qmd
           - guidance/Example_Applications.ipynb
           - section: "Analysis Support Tools"
             href: guidance/tools/Analysis_Support_Tools.ipynb
@@ -160,6 +161,7 @@ format:
 bibliography:
   - datasets/references.bib
   - adaptation/adaptation.bib
+  - guidance/guidance.bib
   - sectors/references.bib
   - sectors/infrastructure/references_dam_safety.bib
   - sectors/planning/references.bib
