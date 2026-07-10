@@ -8,6 +8,7 @@ project:
     - link-target.js  # This ensures it gets copied to output
     - auto-open-callout.js
     - maturity_matrix/*.xlsx
+    - guidance/Indigenous_Knowledge_Guidance.pdf
 
 website:
   title: "Climate Data for the Electricity Sector"

@@ -2,7 +2,7 @@
 title: Guidance on using Traditional Knowledge
 ---
 
-[Download the full guidance document (PDF)](Indigenous_Knowledge_Guidance.pdf)
+[Download the full guidance document (PDF)](./Indigenous_Knowledge_Guidance.pdf)
 
 ## Overview
 
