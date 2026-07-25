@@ -23,7 +23,7 @@ website:
     contents:
       - PurposeOfTheGuide.qmd
       - section: "Electricity Sector Activities"
-        href: sectors/electricity_sector_activities.ipynb # to be cleaned or removed entirely
+        href: sectors/electricity_sector_activities.qmd
         contents:
           - section: "Electricity System Planning"
             contents:
