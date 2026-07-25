@@ -4,7 +4,7 @@ jupyter: python3
 ---
 
 
-We will include relevant information from the latest IPCC report here...
+The Intergovernmental Panel on Climate Change (IPCC) is the United Nations body responsible for assessing scientific knowledge related to climate change. Its assessment reports synthesize evidence from peer-reviewed literature and other credible sources to describe the state of climate science, its implications, and options for mitigation and adaptation. These reports draw extensively on climate-model simulations coordinated through initiatives such as the Coupled Model Intercomparison Project (CMIP).
 
 ## Summary of confidence in direction of projected change in hazard in North America
 
