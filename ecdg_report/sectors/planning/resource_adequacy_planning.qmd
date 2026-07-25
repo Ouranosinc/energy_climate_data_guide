@@ -63,10 +63,10 @@ Historical weather datasets are commonly used to generate multiple demand and re
 To address this challenge, climate projections could be used to develop climate-conditioned weather scenarios that reflect possible future weather patterns. Climate model projections may provide insight into potential changes in temperature distributions, the frequency and duration of extreme heat events, drought conditions affecting hydro availability, or shifts in renewable resource patterns. These projected changes can be translated into correlated inputs for RAP, informing the development of extended weather datasets or targeted stress-testing scenarios that capture relationships among demand, renewable generation, and hydrologic conditions. Such approaches allow planners to evaluate system performance under plausible future climate conditions while maintaining the probabilistic structure of existing adequacy modelling frameworks.
 
 
-
+## References
 
 <details>
-<summary><strong>References (click to expand)</strong></summary>
+<summary><strong>(click to expand)</strong></summary>
 
 ::: {#refs}
 :::

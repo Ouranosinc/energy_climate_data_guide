@@ -14,15 +14,13 @@ Quantifying risks and vulnerabilities linked to climate change is challenging bu
 The following sections describe the role, some method and models, as well as gaps and recommendations in dam safety review.
 
 ## Role in the Electricity System
-::: {#id1 .callout collapse="true"}
-### Additional Information
+
 A dam’s main purpose is to store water or other liquid for various reasons such as energy production and agriculture irrigation. However, dams can pose significant risks to public safety and the environment if they are not maintained and operated properly. Therefore, dam safety review (DSR) is a critical aspect of infrastructure management in the electricity sector as many hazards cause increasing risks on these structures.
 
 *"A Dam Safety Review involves a systematic examination and assessment of the data and information about the design, construction, maintenance, operation, processes, and systems affecting a Dam’s safety, including the Dam safety management system."* (@damsafetybc) Thus, a dam safety review evaluates all aspects of a dam based on current knowledge and standards (@damsafetyontario) which may not be the same as the ones used in the dam construction. The review needs to be carried out by professional engineers.
 
 Dams are often grouped by the Hazard Potential Classification based on the risk to population, environment or infrastructure if the dam failed. Depending on the jurisdiction, the classification determines the level of regulatory oversight, flood design, frequency of inspections, and the stringency of safety requirements, among others. Each province and territory in Canada regulates their own classification systems via regulations and standards, generally aligned with the [Canadian Dam Association (CDA) framework](https://cda.ca/dams-in-canada/regulation). Thus, Dam Safety Review is essential to respect stakeholders safety and regulations, but first and foremost it ensures the reliable and continuous generation of electricity for Canadian consumers.
 
-:::
 
 ## Methods and Models
 Methods and models for DSR are manifold and can require many inspections following regulations (@damsafetybc, @damsafetyontario) or the practices establised at utilities. Examples include:
@@ -44,7 +42,7 @@ Please refer to the [climate dataset sections](../../datasets/Climate_Datasets_O
 
 ### Flood Frequency Analysis (FFA)
 ::: {#id1 .callout collapse="true"}
-### Click for details
+### (click to expand)
 Flood frequency analysis (FFA) (@FFA_USGS_17, @Islam2024) is used to determine the design flood required by regulators. It is described by a return period such as 1/100 or 1/1000 years. The goal of FFA is to link flow values with probabilities of occurrence (@Ouranos2021).
 
 The relationship is described as:
@@ -60,7 +58,7 @@ where
 
 #### Characteristics
 :::{#id1 .callout collapse="true"}
-#### Click for details
+#### (click to expand)
 For many rivers, flow records do not date back very far in time, rarely up to 100 years. Therefore, in order to establish floods with return periods longer that the record, a probability density function is fit to either flow annual maxima (AM) or peak-over-threshold (POT). While POT allows more events of high flows per year to be considered, given a well chosen threshold, the events in the record might not always be independent. The U.S. Army Corps of Engineers (USACE) provides a [FAQ for POC issues](https://www.hec.usace.army.mil/confluence/sspdocs/sspum/2.3.1/peaks-over-threshold-frequently-asked-questions). According to the World Meteorological Organisation's (WMO) criteria, FFA requires timeserie of at least 30 years of observed inflows. 
 
 FFA methods can be univariate or multivariate, may assume stationary of data or take into account the non-stationarity due to climate change. A univariate method might focus on peak discharge alone, while a multivariate FFA evaluates the joint probability of correlated flood characteristics such as peak flow, flood volume, and duration. Climate change oriented methods will seek to account for the non-stationarity of current and future hydrology.
@@ -105,7 +103,7 @@ Depends on the dam classification (from 5 to 10 years)
 
 ### Probable Maximum Precipitation & Probable Maximum Flood (PMP & PMF)
 ::: {#id1 .callout collapse="true"}
-### Click for details
+### (click to expand)
 Dams, and in particular those whose failure would entail extreme consequences, need to be able to evacuate maximum flows of very low probability, depending on their classification. This hypothetical flood, the design flood, is estimated using the Probable Maximum Flood (PMF), which itself is estimated based the Probable Maximum Precipitation (PMP). The WMO's "Manual on estimation of Probable Maximum Precipitation (PMP)" (@wmo2009_manualPMP) defines PMP as being "the greatest depth of precipitation for a given duration meteorologically possible for a design watershed or a given storm area at a particular location at a particular time of the year, with no allowance made for long-term climatic trends". The WMO manual proposes six methods to evaluate the PMP (local, transposition, combination, inferential, generalized and statistical) with the majority of them based on physical meteorology (@Islam2024). The figure below shows the workflow for the determination of PMP and PMF.
 
 [![The steps involved to estimate PMP and PMF. Gray boxes and dotted lines show where climate change information can be integrated into the process. Click to see source figure. (@Islam2024)](./image/Islam2024_PMP-PMF.webp)](https://link.springer.com/article/10.1007/s42452-024-05814-4/figures/3)
@@ -116,7 +114,7 @@ A tool to estimate PMP and PMF is the [xHydro](https://xhydro.readthedocs.io/en/
 
 #### Characteristics
 :::{#id1 .callout collapse="true"}
-#### Click for details
+#### (click to expand)
 A common method to evaluate PMP is 'moisture maximization', which is advantageous for his lower data requirements. It is calculated from the maximum observed precipitation, the maximum precipitable water in the atmosphere and the actual precipitable water of an observed storm. Another method, called 'storm transposition' and doesn't require detailed information on watershed specific storms. It is based on the mean maximum annual precipitation for the duration of interest, the associated standard deviation and a frequency factor of precipitation duration and mean value. Both methods are discussed in @Islam2024 and @wmo2009_manualPMP). The latter discusses details of the method's applications in different world regions and terrain. The British Columbia [MetPortal](https://rti-metportal.shinyapps.io/bc_region/) offers PMP calculated with transposition across the province. 
 
 These kind of estimates come with large uncertainties. Professionals are left with the choice to determine the most appropriate methods. Recent studies are looking into improving PMP calculations and provide the uncertainties linked to each estimate (@martin_pmp). PMP uncertainties can be assessed via a Monte Carlo techniques and sensitivity analysis are recommended to evaluate PMFs uncertainty (@King2022.)
@@ -160,12 +158,12 @@ To account for non-stationarity, studies have used climate simulations to estima
 
 ### Hydrological models
 :::{#id1 .callout collapse="true"}
-### Click for details
+### (click to expand)
 Hydrological models are computational tools used to simulate the movement, distribution, and even quality of water within a watershed. They integrate rainfall, temperature, terrain, soil characteristics, land use and other features to simulate streamflow, reservoir inflows, and extreme events such as floods or droughts. In the context of dam safety reviews, hydrological models are essential for assessing the potential impacts of extreme weather and climate variability on dam operations. They help engineers evaluate flood risks, design spillways, and develop emergency management strategies, ensuring that dams can safely handle both current and future hydrological conditions. 
 
 #### Characteristics
 :::{#id1 .callout collapse="true"}
-#### Click for details
+#### (click to expand)
 @Fournier2020 gives guidance on estimating the value of hydropower assets under climate change. The report also describes how to integrate climate change data into the energy modelling chain and into hydrological models. Below are some of the recommendations from the guide:
 
 * **Climate simulations consideration**:
@@ -228,7 +226,7 @@ Artificial intelligence (AI) has been used to reproduce streamflows and results 
 
 ### Other methods and models in practice
 :::{#id1 .callout collapse="true"}
-### Click for details
+### (click to expand)
 This section lists other models used in the context of dam safety reviews at facilities in Canada. The process involves experts from several fields (e.g., hydrology, hydraulic, geotechnical, geology and structural) and multiple stakeholders are involved in review activities, such as ministries, municipalities, consultants, etc. 
 
 #### Characteristics
@@ -300,7 +298,7 @@ Data over the whole province and nearby to cover all watersheds (for example, ot
 
 ## Detailed Discussion
 :::{#id1 .callout collapse="true"} 
-### Additional Information
+### (click to expand)
 Some regulators have added considerations of climate change related risks into their legislation for dam safety (@damsafetybc) while others discuss the need to consider extreme events (@damsafetyontario). @Ozkan2023 report impacts of climate change on dams and provide an extensive review of literature and policies to mitigate these impacts to highlight gaps in the adapatatoin of dams to climate change. The report recommends the Can-CRM4 dataset at 0.44° resolution and composed of 50 members to be used for dam safety assessment.
 
 The Canadian Standards Association (CSA) released CSA S910.1:25 - Climate change vulnerability assessment for dams in Canada (@csas910) which documents a flexible, yet standardized process for conducting vulnerability assessments of dams. The standard follows common steps for climate risk and vulnerability analysis, integrating them with guidelines published by the CDA. The standard emphasizes a team approach to understand the dam as interacting systems, components and elements, any of which could be exposed to and influenced by climate hazards. A sensitivity analysis is used to determine how vulnerable a system, component or element may be to a particular climate hazard. 
@@ -314,7 +312,7 @@ The standard is agnostic on the particular climate data to be used, so long as i
 
 ## Gaps and Recommendations
 :::{#id1 .callout collapse="true"} 
-### Additional Information
+### (click to expand)
 Important gaps remain in the dam safety review process. A key issue are the uncertainties associated with the PMP and that the methodologies have not been updated accordingly in the recent years, even with important limitations highlighted in literature such as the objectivity regarding to the storm selection (@martin_pmp). 
 
 Another issue is related to the mismatch between some of the internal stations geodetic levels and the dam’s own level making it challenging to use some of the internally collected data where geodetic transforms would be necessary. Practitioners also face challenges to find data with spatial and temporal resolution that fit their need. Generally, it is hard to find extreme value datasets (e.g., 1/100, 1/1000 year return levels), especially when looking for future projections. There is also a lack of available wind data, historical and future, which is required for rockfill structures or for determining dam freeboard where waves can have significant impacts. 

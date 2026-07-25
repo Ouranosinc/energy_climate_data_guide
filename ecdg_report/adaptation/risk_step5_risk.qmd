@@ -469,7 +469,4 @@ then be institutionalized or an organizational risk tolerance threshold
 can be applied to determine which risks needs to be addressed and in
 which order.
 
-# References (remove if none!){.red-text}
 
-::: {#refs}
-:::

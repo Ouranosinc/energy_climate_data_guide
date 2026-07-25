@@ -11,12 +11,11 @@ title: Outage Scheduling
 Regular maintenance is critical to the reliable functioning of the electricity system and comes in the form of planned and unplanned maintenance activities. Climate data or information derived from climate data is important for the scheduling of planned maintenance or outages. In many cases, undertaking maintenance activities requires that an asset be taken out of service for a period of time, which is referred to as being on outage. When scheduling outages the goal is to minimize the downtime of the asset and to schedule the outage at a time which will have the least overall impact on the electricity system. As a result, outages are carefully planned and approved and ensure there is sufficient capacity on the electricity system to meet reliability requirements and satisfy customer demand.
 
 ## Role in the Electricity System
-::: {.callout collapse="true"} 
-### Additional Information
+
 Outage scheduling is a generic term used to describe how maintenance activities are planned and approved to minimize the impact of the outages on the utility or system as a whole. Depending on the rules of the electricity market, these outages could be coordinated. For example, if a transmission line needs to be taken out a coordinated outage on a generating station could minimize the need for future disruptions.
 
 Outage scheduling takes place at various timescales, with different forms of climate data contributing depending on the timescale. Large outages are typically scheduled years in advance and may rely on seasonal forecasts or climatology to pick the best windows for maintenance. Smaller outages can be scheduled within the year and could benefit from additional seasonal to sub-seasonal forecasts being considered in addition to climatology. Short term outages could be scheduled or cancelled within weeks or days if it is needed to maintain reliability.
-:::
+
 
 ## Methods and Models
 
@@ -80,13 +79,13 @@ Electricity system operators will review outage schedules on a daily or weekly b
 
 ## Detailed Discussion
 ::: {.callout collapse="true"} 
-### Additional Information
+### (click to expand)
 N/A
 :::
 
 ## Gaps and Recommendations
 ::: {.callout collapse="true"} 
-### Additional Information
+### (click to expand)
 Typical outage planning processes rely heavily on historic data and occur within planning windows of only a few years (<5-10 years) into the future. The reliance on historic data in a non-stationary climate could result in sub-optimal timing of outages. Long-term planning will require the integration of initial climate conditions of the present day with seasonal to multi-year outlooks. This could be done by adjusting climatology or blending/subsetting climate models based on currently observed conditions to better represent the period of interest. Further research is needed to provide better guidance into these time horizons, as the weather forecast horizon (days to weeks) and climate horizons (30 years) receive more attention in research activities and seasonal to inter-annual horizons.  
 
 Climate hazards can also interact with long-term planning of the electricity system to account for unplanned outages. The Electrical Power Research Institute (EPRI) conducted a synthetic case study on the electricity grid in the state of Texas using a [capacity expansion model](../planning/capacity_expansion_modelling.qmd). Derates and outages from climate hazards were integrated into the capacity expansion model to compare climate change impacts with those on a system where assets are hardened against climate change to reduce these impacts ([Developing a Climate Informed Modelling Framework for Power System Planning: A synthetic Texas cas study](https://interactive.epri.com/texas-case-study/p/1)). The findings of this study should be viewed as specific to the case study, but identified the benefits of generation hardening and building more transmission earlier so enough power can be transmitted as weather hazards increase demand and disrupt local generation.
@@ -94,16 +93,10 @@ Climate hazards can also interact with long-term planning of the electricity sys
 
 ## Interactions with Other Sector Activities
 ::: {.callout collapse="true"} 
-### Additional Information
+### (click to expand)
 [Demand Forecasting](../planning/demand.qmd)
 [Generation Forecasting](../planning/generation_forecasting.qmd)
 [Resource Adequacy Planning](../planning/resource_adequacy_planning.qmd)
 :::
 
-<details>
-<summary><strong>References (click to expand)</strong></summary>
 
-::: {#refs}
-:::
-
-</details>

@@ -18,4 +18,7 @@ ClimateData.ca has an [illustrated explanation of the rationale of using multi-m
 
 Climate simulation ensembles composed from different models, emissions scenarios and members consist of many, and often over 100 simulations. This exceeds the capacities of evaluation for many users, often related to running impact models driven by climate simulation data. Several techniques have been developed to reduce the number of ensemble members while largely preserving the full ensemble characteristics. @Lutz2016 propose a systematic approach to an envelope-based model selection. @Casajus2016 apply k-means cluster analysis to identify a representative subset of simulations from an ensemble based on multiple user-defined criteria. @Cannon2015, in contrast, propose a method to construct ordered sub-samples of simulations that systematically span the ensemble spread using multi-criteria selection. Using multiple hydroclimatological indicators, @Braun2021 compare the uncertainty captured by a reduced ensemble when compared to the initial ensemble. The [xclim library](https://xclim.readthedocs.io/en/stable/index.html)'s section on [ensemble reduction](https://xclim.readthedocs.io/en/stable/api.html#ensemble-reduction) povides Python code for the k-means clustering approach (@Casajus2016) and the KKZ method (@Cannon2015).
 
+## References
 
+::: {#refs}
+:::

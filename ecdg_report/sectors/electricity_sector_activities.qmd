@@ -1,0 +1,54 @@
+---
+title: Electricity Sector Activities Overview
+
+---
+
+## Electricity System Planning
+
+### Demand Forecasting
+
+Demand forecasting estimates future electricity demand over timescales ranging from hours to decades. Climate change influences electricity demand by altering heating and cooling requirements, increasing the frequency of temperature extremes, and accelerating electrification trends such as heat pumps and electric vehicles.
+
+### Generation Forecasting
+
+Generation forecasting estimates future electricity production from conventional and renewable energy sources. Climate change affects the availability and variability of energy resources such as hydropower, wind, and solar generation, requiring future projections to account for changing climatic conditions.
+
+### Capacity Expansion Modelling
+
+Capacity expansion modelling evaluates long-term investments required to ensure an adequate and resilient electricity supply. Climate change influences future demand, generation potential, technology performance, and infrastructure vulnerability, making climate-informed planning essential for cost-effective investment decisions.
+
+### Resource Adequacy Planning
+
+Resource adequacy planning ensures that sufficient generation, transmission, and other resources are available to reliably meet future electricity demand. Climate change introduces additional uncertainty through changing weather patterns, increased extreme events, and evolving demand profiles that must be incorporated into reliability assessments.
+
+## Operations Planning
+
+### Outage Scheduling
+
+Outage scheduling coordinates planned maintenance of generation, transmission, and distribution assets while maintaining system reliability. Climate information can help identify periods with lower weather-related operational risk and reduce the likelihood of maintenance activities coinciding with hazardous weather conditions.
+
+### Vegetation Management
+
+Vegetation management reduces the risk of power outages caused by trees and other vegetation interacting with electrical infrastructure. Climate change may alter vegetation growth rates, wildfire occurrence, storm severity, and pest outbreaks, requiring adaptation of inspection and maintenance strategies.
+
+## Infrastructure Planning and Asset Management
+
+### Dam Safety Review
+
+Dam safety reviews evaluate the structural integrity and operational safety of hydroelectric dams throughout their service life. Climate change may modify flood magnitudes, inflow regimes, drought frequency, and ice conditions, requiring reassessment of design assumptions and operational procedures.
+
+### Infrastructure Condition Assessment & Investment Prioritization
+
+Infrastructure condition assessment evaluates the health, vulnerability, and remaining service life of electricity assets to support maintenance and investment decisions. Climate change introduces new degradation mechanisms and changing hazard exposure, influencing asset risk, resilience, and investment priorities.
+
+### Infrastructure Design
+
+Infrastructure design establishes engineering criteria for new electricity infrastructure and upgrades to existing assets. Climate projections help ensure that design standards account for future environmental conditions rather than relying solely on historical climate observations.
+
+## Reporting and Disclosure
+
+Reporting and disclosure communicate climate-related risks, adaptation activities, and organizational resilience to regulators, investors, and other stakeholders. Increasingly, organizations are expected to assess, document, and disclose how climate change may affect infrastructure performance, financial risk, and long-term decision-making.
+
+
+
+

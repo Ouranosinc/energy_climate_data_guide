@@ -48,3 +48,9 @@ Typical years used for the start of the respective GWL's used by the IPCC is sho
 | 4.0                      |           |           |           | 2075-2094 |
 
 : Summary of 20-year average GWL based on multiple lines of evidence. This is the first 20-year period in which the global average temperature exceeds the threshold in comparison to pre-industrial (1850-1900) levels (Adapted from IPCC Cross-Section, box TS.1, Table 1)
+
+
+## References
+
+::: {#refs}
+:::
