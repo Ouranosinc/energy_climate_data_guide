@@ -535,7 +535,7 @@
     "href": "climate_data_fundamentals/Emissions_scenarios.html",
     "title": "Emissions scenarios",
     "section": "",
-    "text": "NB. Some work remains to be done in merging the following two sections.",
+    "text": "Climate models require assumptions about future atmospheric greenhouse gas concentrations and other factors that affect the climate system. These assumptions are represented through scenarios: structured and internally coherent descriptions of plausible futures, rather than predictions of what will occur.\nScenarios are informed by possible socioeconomic developments, including changes in population, education, economic activity, technology, energy demand and sources, land use, urbanization, inequality, governance, and the degree of political commitment to reducing emissions. These factors influence future emissions, their accumulation in the atmosphere, society’s capacity to mitigate climate change, and its ability to adapt to climate impacts.\nFuture socioeconomic development and emissions are inherently uncertain. Scenario uncertainty is therefore an important component of the overall uncertainty in climate projections, particularly over longer time horizons. Other important sources include differences in how climate models respond to the same forcing and natural climate variability.",
     "crumbs": [
       "Climate: Core Concepts",
       "Emissions scenarios"
@@ -546,7 +546,7 @@
     "href": "climate_data_fundamentals/Emissions_scenarios.html#references",
     "title": "Emissions scenarios",
     "section": "References",
-    "text": "References\n\n\nVan Vuuren, D. P., O’Neill, B. C., Tebaldi, C., … Ziehn, T. (2026). The scenario model intercomparison project for CMIP7 (ScenarioMIP-CMIP7). Geoscientific Model Development, 19(7), 2627–2656.",
+    "text": "References\n\n\nChen, D., Rojas, M., Samset, B. H., … Tréguier, A.-M. (2021). Framing, context, and methods. In V. Masson-Delmotte, P. Zhai, A. Pirani, … B. Zhou, eds., Climate change 2021: The physical science basis. Contribution of working group i to the sixth assessment report of the intergovernmental panel on climate change, Book Section, Cambridge, UK; New York, NY, USA: Cambridge University Press, pp. 147–286.\n\n\nVan Vuuren, D. P., O’Neill, B. C., Tebaldi, C., … Ziehn, T. (2026). The scenario model intercomparison project for CMIP7 (ScenarioMIP-CMIP7). Geoscientific Model Development, 19(7), 2627–2656.",
     "crumbs": [
       "Climate: Core Concepts",
       "Emissions scenarios"
@@ -4327,7 +4327,7 @@
     "href": "guidance/IPCC_information.html",
     "title": "IPCC Information at a Glance",
     "section": "",
-    "text": "We will include relevant information from the latest IPCC report here…",
+    "text": "The Intergovernmental Panel on Climate Change (IPCC) is the United Nations body responsible for assessing scientific knowledge related to climate change. Its assessment reports synthesize evidence from peer-reviewed literature and other credible sources to describe the state of climate science, its implications, and options for mitigation and adaptation. These reports draw extensively on climate-model simulations coordinated through initiatives such as the Coupled Model Intercomparison Project (CMIP).",
     "crumbs": [
       "Guidance",
       "IPCC Information at a Glance"
@@ -4338,7 +4338,18 @@
     "href": "guidance/IPCC_information.html#summary-of-confidence-in-direction-of-projected-change-in-hazard-in-north-america",
     "title": "IPCC Information at a Glance",
     "section": "Summary of confidence in direction of projected change in hazard in North America",
-    "text": "Summary of confidence in direction of projected change in hazard in North America\nThe latest IPCC report analyses the latest evidence for the direction of the projected change for various hazards. This evidence is summarized in WG1 Table 12.8 (REF). This table is reproduced and adapted here. It shows the projected changes in key climatic impact-drivers across North America under mid-century warming conditions (approximately 2°C to 2.4°C global warming). It synthesizes information from the IPCC AR6 WG1 assessment by combining the direction and confidence of projected changes, the expected time of emergence of the climate signal relative to natural variability.\n\n\n\nSummary of confidence in direction of projected change in climatic impact-drivers in North America, representing their aggregate characteristic changes for mid-century for scenarios RCP4.5 and SSP2-4.5, or above within each AR6 region, approximately corresponding to global warming levels between 2°C and 2.4°C. The table also includes the assessment of observed or projected time-of-emergence of the climate impact-drivers change signal from the natural interannual variability if found with at least medium confidence.  (Source: REF)\n\n\n\n\nSnow may increase in some high elevations and during the cold season and decrease in other seasons and at lower elevations.\nAlong sandy coasts and in the absence of additional sediment sinks/sources or any physical barriers to shoreline retreat.\nIncreasing in northern regions and decreasing towards the south.\nDecreasing in northern regions and increasing towards the south.\nHigher confidence in northern regions and lower towards the south.\nHigher confidence in southern regions and lower towards the north.\nHigher confidence in increase for some climatic impact-driver indices during summer.\nIncrease in convective conditions but decrease in winter extratropical cyclones.",
+    "text": "Summary of confidence in direction of projected change in hazard in North America\nThe latest IPCC report assesses the evidence for projected changes in a wide range of climatic impact-drivers. This evidence is summarized in Working Group I Table 12.8 (Ranasinghe et al. 2021). The table presented here is adapted from that assessment. It summarizes projected changes in key climatic impact-drivers across North America under mid-century warming conditions (approximately 2°C to 2.4°C of global warming). It combines information on the direction of projected change, the confidence in those projections, and the expected emergence of the climate signal relative to natural variability.\n\n\n\nSummary of the confidence in the direction of projected changes in climatic impact-drivers across North America, representing their aggregate characteristic changes by mid-century under RCP4.5 and SSP2-4.5, or higher scenarios, within each AR6 region. These scenarios approximately correspond to global warming levels between 2°C and 2.4°C. The table also includes the assessed observed or projected time of emergence of the climate impact-driver signal from natural interannual variability, where available with at least medium confidence. Adapted from Working Group I Table 12.8 in Ranasinghe et al. (2021).\n\n\n\n\nSnow may increase in some high elevations and during the cold season and decrease in other seasons and at lower elevations.\nAlong sandy coasts and in the absence of additional sediment sinks/sources or any physical barriers to shoreline retreat.\nIncreasing in northern regions and decreasing towards the south.\nDecreasing in northern regions and increasing towards the south.\nHigher confidence in northern regions and lower towards the south.\nHigher confidence in southern regions and lower towards the north.\nHigher confidence in increase for some climatic impact-driver indices during summer.\nIncrease in convective conditions but decrease in winter extratropical cyclones.",
+    "crumbs": [
+      "Guidance",
+      "IPCC Information at a Glance"
+    ]
+  },
+  {
+    "objectID": "guidance/IPCC_information.html#references",
+    "href": "guidance/IPCC_information.html#references",
+    "title": "IPCC Information at a Glance",
+    "section": "References",
+    "text": "References\n\n\nRanasinghe, R., Ruane, A. C., Vautard, R., … Zaaboul, R. (2021). Climate change information for regional impact and for risk assessment. In V. Masson-Delmotte, P. Zhai, A. Pirani, … B. Zhou, eds., Climate change 2021: The physical science basis. Contribution of working group i to the sixth assessment report of the intergovernmental panel on climate change, Book Section, Cambridge, UK; New York, NY, USA: Cambridge University Press, pp. 1767–1925.",
     "crumbs": [
       "Guidance",
       "IPCC Information at a Glance"
