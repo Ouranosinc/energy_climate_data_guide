@@ -39,24 +39,21 @@ In almost all cases the available documents are about the process of climate ris
 
 :::
 
+
 ## Model Chains
 
 ### Baseline Selection
 Consideration from Ouranos report on Asset Valuation
 
+
 ## Uncertainty
 See Uncertainty Section
 
+
 ## Data Confidence
 
+Confidence in the data may distinguish between the confidence in the Signal obtained from data and the confidence in use of data themselves. For details see the [Core Concepts: Climate](../climate_data_fundamentals/Uncertainty_Confidence.html#confidence-in-the-analysis) section.
 
-:::{#id1 .callout collapse="true"}
-### Confidence in the Signal
-:::
-
-:::{#id1 .callout collapse="true"}
-### Confidence in use of data
-:::
 
 ## Risk and Vulnerability
 
