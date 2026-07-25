@@ -5,7 +5,8 @@ title: Dataset Overview Table
 
 The table below provides an overview of key characteristics of the datasets documented in this guide.
 
-| Dataset | Spatial Resolution | Finest Temporal Resolution | Spatial Extent | Historical Coverage | Future Coverage | Primary Application |
+
+| Dataset | Spatial Resolution | Finest Temporal Resolution | Spatial Extent | Historical Coverage | Future Coverage | Description |
 |---------|---------------------------|----------------------------|----------------|-------------------|---------------|---------------------|
 | [CMIP6](./climate_projection_data/CMIP6.ipynb) | ~100–250 km (model dependent) | Hourly | Global | 1850–2014 | 2015–2100 | Global climate projections; assessing model uncertainty and climate change signals |
 | [CORDEX](./climate_projection_data/CORDEX.ipynb) (North America) | 0.22° (~25 km) | Hourly | North America | 1950–2005 (CMIP5), 1950–2014 (CMIP6) | 2006–2100 (CMIP5), 2015–2100 (CMIP6)| Regional climate projections from physically consistent dynamical downscaling |
@@ -18,3 +19,5 @@ The table below provides an overview of key characteristics of the datasets docu
 | [ERA5-Land](./reanalysis_data/ERA5-Land.ipynb) | 0.1° (~10 km) | Hourly | Global land | 1950–Present | — | High-resolution land-surface reanalysis for historical climate |
 | [ERA5](./reanalysis_data/ERA5-Land.ipynb) | 0.25° (~28 km) | Hourly | Global | 1940–Present | — | Global atmospheric reanalysis for historical climate |
 | [CaSR](./reanalysis_data/CaSR.ipynb) | 0.09° (~10 km) | Hourly | North America | 1980–2024 | — | High-resolution atmospheric reanalysis for North America's historical climate |
+
+: Table Caption {tbl-colwidths="[12, 12, 8,8,12,12,20]"}

@@ -67,6 +67,7 @@ website:
             contents:
               - datasets/observed_data/AHCCD-CanHom_Station_Data.ipynb
               - datasets/observed_data/NRCANmet_Gridded_Data.ipynb
+              - datasets/observed_data/CanGrid.qmd
           - section: "Reanalysis Data"
             href: datasets/reanalysis_data/Reanalysis_Datasets.ipynb
             contents:
