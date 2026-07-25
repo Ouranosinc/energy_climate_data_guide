@@ -337,9 +337,3 @@ Typical inputs for this step may include:
 - Candidate external datasets
 - Any known data limitations
 :::
-
-
-# References (remove if none!){.red-text}
-
-::: {#refs}
-:::

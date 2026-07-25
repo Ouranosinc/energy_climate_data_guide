@@ -23,7 +23,7 @@ website:
     contents:
       - PurposeOfTheGuide.qmd
       - section: "Electricity Sector Activities"
-        #href: sectors/electricity_sector_activities.ipynb # to be cleaned or removed entirely
+        href: sectors/electricity_sector_activities.ipynb # to be cleaned or removed entirely
         contents:
           - section: "Electricity System Planning"
             contents:
@@ -53,7 +53,7 @@ website:
           - climate_data_fundamentals/Ensembles.qmd
           - climate_data_fundamentals/Time_horizons_GWL.qmd
           - climate_data_fundamentals/Bias_adjustment.qmd
-          - climate_data_fundamentals/Uncertainty.qmd
+          - climate_data_fundamentals/Uncertainty_Confidence.qmd
           - climate_data_fundamentals/Data_Formats.qmd
           - climate_data_fundamentals/core_concepts_data.qmd
           - climate_data_fundamentals/Deprecated_Climate_Data_Fundamentals.ipynb
@@ -67,7 +67,7 @@ website:
             contents:
               - datasets/observed_data/AHCCD-CanHom_Station_Data.ipynb
               - datasets/observed_data/NRCANmet_Gridded_Data.ipynb
-              - datasets/observed_data/CanGrid.qmd
+              #- datasets/observed_data/CanGrid.qmd
           - section: "Reanalysis Data"
             href: datasets/reanalysis_data/Reanalysis_Datasets.ipynb
             contents:

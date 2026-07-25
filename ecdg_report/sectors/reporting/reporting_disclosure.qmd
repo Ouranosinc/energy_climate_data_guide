@@ -97,11 +97,18 @@ There remains inconsistency in how to interpret the disclosure requirements in v
 :::
 
 ## Interactions with Other Sector Activities
+
 :::{#id1 .callout collapse="true"} 
 ### Additional Information
-<mark>** to consider...this may be part of inputs and outputs**</mar
+<mark>** to consider...this may be part of inputs and outputs**</mark>
 :::
 
 ## References
+
+<details>
+<summary><strong>(click to expand)</strong></summary>
+
 ::: {#refs}
 :::
+
+</details>

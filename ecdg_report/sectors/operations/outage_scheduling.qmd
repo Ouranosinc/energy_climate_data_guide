@@ -100,10 +100,4 @@ Climate hazards can also interact with long-term planning of the electricity sys
 [Resource Adequacy Planning](../planning/resource_adequacy_planning.qmd)
 :::
 
-<details>
-<summary><strong>References (click to expand)</strong></summary>
 
-::: {#refs}
-:::
-
-</details>
