@@ -220,7 +220,7 @@ support data selection, scenario interpretation, and uncertainty
 communication.
 
 
-# References
+## References
 
 ::: {#refs}
 :::

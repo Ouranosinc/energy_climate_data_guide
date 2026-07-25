@@ -56,11 +56,13 @@ For conventional thermal generation, temperature-dependent performance effects a
 Coupling insights from climate projections with CEMs could help represent long-term shifts in renewable resource availability and hydrologic conditions. Methods that incorporate climate non-stationarity may improve the robustness of expansion planning to evaluate long-term investment decisions under multiple economic and policy scenarios. However, incorporating detailed weather variability or ensembles of climate projections directly into optimization models would significantly increase computational requirements and complicate model implementation. A practical approach could be to use climate information to shape a set of climate-informed planning scenarios. Under this framework, insights from climate projections can be translated into alternative assumptions regarding resource availability, hydrologic conditions, or temperature-driven demand patterns. These assumptions can then be incorporated into CEMs through representative scenarios, allowing planners to evaluate the robustness of investment pathways under different plausible climate futures.
 
 
+## References
 
 <details>
-<summary><strong>References (click to expand)</strong></summary>
+<summary><strong>(click to expand)</strong></summary>
 
 ::: {#refs}
 :::
 
 </details>
+

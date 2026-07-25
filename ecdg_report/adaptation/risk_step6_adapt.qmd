@@ -278,7 +278,7 @@ that adapt to changing climate risks over time -- balancing immediate
 needs with long-term flexibility and cost-effectiveness.
 
 
-# References
+## References
 
 ::: {#refs}
 :::

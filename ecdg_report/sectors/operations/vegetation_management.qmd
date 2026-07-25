@@ -11,20 +11,18 @@ Climate change directly impacts VM. For example, increasing temperatures in Cana
 
 Many [attributions](https://www.canada.ca/en/environment-climate-change/services/climate-change/science-research-data/extreme-weather-event-attribution.html) studies show that climate change has made recent wildfires more likely, with Canadian wildfire events in [2023](https://www.worldweatherattribution.org/climate-change-more-than-doubled-the-likelihood-of-extreme-fire-weather-conditions-in-eastern-canada/) being two times more likely to occur. Many factors influence forest fires as shown in the figure below: 1) climate conditions that are hot, dry and windy all of which may be more extreme and frequent due to climate change; 2) ignitions including human activity or lightning; 3) and vegetation which as discussed above may be more susceptible to fire due to climate changes like temperature increases. It is important to note that electricity assets can also be the source of ignition.  In California, 10% of wildfires are ignited by powerlines due to component failures, downed lines or conductor slaps. Distribution lines are also more at risk than transmission lines when it comes to igniting fires ((@Vahedi2025)).
 
-[![Fire regime triangle taken from Climatedata.ca](https://climatedata.ca/assets/uploads/2024/10/Climate-Fire-Triangle_EN-1-1024x859-1.png "Fire regime triangle taken from Climatedata.ca")](https://climatedata.ca/resource/understanding-fire-weather-and-climate-change-basics/ "Understanding Fire Weather and Climate Change Basics")
+[![Fire regime triangle taken from Climatedata.ca](https://climatedata.ca/assets/uploads/2024/10/Climate-Fire-Triangle_EN-1-1024x859-1.png "Fire regime triangle taken from Climatedata.ca"){fig-alt="Climate Fire Triangle" width=350}](https://climatedata.ca/resource/understanding-fire-weather-and-climate-change-basics/ "Understanding Fire Weather and Climate Change Basics")
 
 The section below describes the role of VM in the electricity system, methods and models used linked to forest fires, a detailed discussion, gaps & recommendations. 
 
 ## Role in the Electricity System
-:::{#id1 .callout collapse="true"} 
-### Additional Information
+
 VM is crucial for the electricity system as vegetation is one of the most common causes for power outages. A vulnerability assessment completed for Ontario's distribution system showed that tree contacts are the greatest contributor to customer outages.  Ontario organizations have also observed an increase in trees contact with overhead cables with wind speed higher than 70km/h. 
 
 Wildfires have major impacts on the power grid as shown in the figure below. Wildfire cause permanent damage to infrastructure which can lead to blackouts. Furthermore, the impacts are not limited to direct power line damage; impacts can also include reduced thermal ratings, line sag, and damage to wooden poles. Wildfire can also impact generation assets: solar panels can also be affected by wildfire smoke reducing their power output; wind turbine blades can be damaged by the ash and soot; and dams can also be damaged by debris found in rivers after forest fire as well as soot.  
 
-[![Wildfire and Power system Interaction taken from @Vahedi2025 (p.10)](image/powergrid_fores_fires.png "Wildfire and Power system Interaction taken from @Vahedi2025 (p.10)")](https://www.osti.gov/servlets/purl/2565134 "Wildfire and power grid nexus in a changing climate")
+[![Wildfire and Power System Interaction taken from @Vahedi2025 (p.10)](image/powergrid_fores_fires.png "Wildfire and Power system Interaction taken from @Vahedi2025 (p.10)"){fig-alt="Wildfire and Power System Interaction" width=900}](https://www.osti.gov/servlets/purl/2565134 "Wildfire and power grid nexus in a changing climate")
 
-:::
 
 ## Methods and Models
 The methods presented below are linked to forest fires risk.
@@ -170,7 +168,7 @@ For specific projects.
 
 ## Detailed Discussion
 :::{#id1 .callout collapse="true"} 
-### Additional Information
+### (click to expand)
 Participants in the [workshops](../../workshops/intro_workshops.ipynb) noted the growing potential of Artificial Intelligence (AI) to enhance VM. For example, predictive models of vegetation growth or tree health—incorporating climate forecasts—could help prioritize interventions in high-risk areas. @Savva2025 reviewed AI-driven remote sensing approaches for VM near power lines, highlighting the integration of AI with LiDAR data and the use of weather variables (such as temperature and wind speed) as model inputs (@wu2022, @Taylor2022VegetationMgmtOutages).
 
 Some use of climate information in VM practice is also resumed in the figure below. There is an interest in climate variables that can break trees such as wind or freezing rain which can cause power outages. 
@@ -181,7 +179,7 @@ Some use of climate information in VM practice is also resumed in the figure bel
 
 ## Gaps and Recommendations
 :::{#id1 .callout collapse="true"} 
-### Additional Information
+### (click to expand)
 As climate information becomes increasingly integrated into VM—especially with the adoption of AI for predictive management—participants in the [workshops](../../workshops/intro_workshops.ipynb) emphasized the need for practical tools to preprocess and manage climate data within existing field operations and equipment.
 
 Another participant highlighted the opportunity to use spatial analogs to improve resiliency against forest fires. By examining regions that have already adapted or enhanced their vegetation management (VM) practices in response to climate change or forest fires, organizations can identify adaptation and resilience strategies that may soon be necessary in their own areas. For example, California has shifted its wildfire mitigation strategy for powerline ignitions: instead of relying solely on tree trimming, utilities now proactively shut down power lines when a branch comes into contact. This approach is feasible due to the redundancy built into California’s grid (@CastroRootJohnson2023).
@@ -192,7 +190,7 @@ Climate change adaptation might require an increase in inspections, to adapt cle
 
 ## Interactions with Other Sector Activities
 :::{#id1 .callout collapse="true"} 
-### Additional Information
+### (click to expand)
 <mark> Link with transmission and distribution <mark>
 :::
 

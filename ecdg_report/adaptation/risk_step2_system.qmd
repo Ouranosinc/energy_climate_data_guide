@@ -86,8 +86,3 @@ Outcomes of this step may include:
     during past weather events.
 :::
 
-
-# References (remove if none!){.red-text}
-
-::: {#refs}
-:::

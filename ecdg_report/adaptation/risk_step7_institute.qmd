@@ -191,7 +191,3 @@ climate data. Periodic reviews are already a well-established practice
 within safety programs, ensuring that adaptation decisions remain
 current, relevant, and robust over time.
 
-# References (remove if none!){.red-text}
-
-::: {#refs}
-:::

@@ -32,3 +32,8 @@ The IPCC communicates findings using both confidence levels (ranging from "very 
 **Data Confidence:** This is the amount of confidence that can be placed in the quantitative use of the climate data itself for applications.
 
 The signal confidence is generally higher than the confidence we may place in data. For example, we may have numerous studies and agreement among climate models that gives greater confidence in a *signal* that extreme precipitation is increasing. However, those same studies may give a range of values for a 1:100 year flood so there may be somewhat less confidence in the *data* itself as it is used directly. Both forms of confidence should be considered in decision making.
+
+## References
+
+::: {#refs}
+:::

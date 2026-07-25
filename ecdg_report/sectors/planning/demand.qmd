@@ -14,11 +14,9 @@ Numerous studies project increased cooling demand during hotter summers and redu
 To assess the impacts of climate change on electricity demand, various approaches have been employed. These include the use of climate projections from [General Circulation Models](../../datasets/climate_projection_data/Climate_Projection_Datasets.qmd) (or Global Climate Models, GCMs) and [Regional Climate Models](../../datasets/climate_projection_data/CORDEX.ipynb) (RCMs), often combined with downscaling techniques to capture local climatic variability (@Auffhammer2017, @Auffhammer2011, @Fonseca2019, @Lipson2019, @Trotter2016). Empirical models, such as regression-based analyses, have also been used to estimate historical relationships between temperature and electricity use (@Bonkaney2023, @Emodi2018, @Pilli-Sihvola2010). Additionally, simulation tools and integrated energy-climate models are applied to explore future scenarios under varying socio-economic and climatic conditions (@Dirks2015, @Lipson2019, @Taseska2012).
 
 ## Role in the Electricity System
-:::{#id1 .callout collapse="true"} 
-### Additional Information
+
 Electricity demand is a primary determinant of system adequacy and infrastructure investment. The main demand parameters influenced by climate change include total annual consumption, peak demand, daily and seasonal load profiles, spatial distribution, and sectoral responses. Total annual consumption informs generation capacity expansion and long-term planning, magnitude and timing of peak demand drives reserve margins, operational flexibility, and system reliability, and daily and seasonal load profiles shape the operational requirements and the scheduling of generation resources. Spatial distribution of affects determines transmission and distribution planning, and sectoral responses determine how quickly end-users adapt to changing climate conditions through technology adoptions (e.g., heat pumps, air conditioning, insulation) and behavioural change.
 
-:::
 
 ## Methods and Models
 
@@ -94,7 +92,7 @@ Demand forecasting models yield output variables that support planning, operatio
 :::{#id1 .callout collapse="true"}
 ### Temporal Resolution
 - **Hourly**: captures short-term load dynamics and peak shifts. In practice, hourly seemed to be the most common temporal resolution. 
-- **Daily/Seasonal**: reflects climate sensitivity of intraday and seasonal load profiles (e.g., @Trotter2016, @Bonkaney2023, @Lee20224)
+- **Daily/Seasonal**: reflects climate sensitivity of intraday and seasonal load profiles (e.g., @Trotter2016, @Bonkaney2023, @Lee2022)
 - **Annual/Decadal**: used in long-term planning documents (e.g., @Zachariadis2014, @DeCian2019, @Shaik2024)
 
 Across the literature, electricity demand models are generally estimated a fine temporal resolutions, such as hourly, daily, or monthly, while seasonal, annual or longer results are mostly derived by aggregation. A number of studies employ hourly models, particularly for building-level energy simulations (e.g., @Dirks2015, @Reyna2017, @Lipson2019, @Berardi2020) and economic analyses of load responses to temperature (@Fonseca2019, @Auffhammer2017, @Romitti2022, @Hu2024). Other studies focus on daily models, such as those examining demand in Brazil (@Trotter2016), Niger (@Bonkaney2023), and Texas (@Lee2022). Monthly econometric frameworks are less common but have been applied in European and Australian contexts (@Pilli-Sihvola2010, @Emodi2018). At the broader scale, annual models have been used for energy system studies where demand is linked to climate exposures and socioeconomic drivers (@Zachariadis2014, @DeCian2019, @Shaik2024). 
@@ -120,7 +118,7 @@ The spatial scale of analysis varies widely across studies, reflecting both data
 
 ## Detailed Discussion
 :::{#id1 .callout collapse="true"} 
-### Additional Information
+### (click to expand)
 - **Seasonal variations**: 
 
 Rising temperatures due to climate change have led to a significant shift in seasonal electricity demand, particularly by increasing cooling demand during summer and reducing heating needs during winter. This shifting trend has been widely documented across regional and global studies. For example, @Auffhammer2017 showed that electricity demand in the United States exhibits a strong nonlinear response to high temperatures, especially above 25-30 degC, driven mainly by demand for air conditioning. Similarly, @DeCian2019 also confirmed this global trend that there are steep increases in demand where air conditioning adoption is rising due to climate change. Regional case studies, such as @Garrido-Perez2021 and @Bonkaney2023, have demonstrated that peak demand coincides more frequently with extreme heat days, stressing both power generation and distribution infrastructure. The anticipated rise in the frequency, intensity, and duration of heatwaves further amplifies these concerns, requiring investments in peak capacity, demand-side management, and adaptation strategies. @Taseska2012 projected increased summer cooling demand across European regions due to higher temperatures, while @Zachariadis2014 confirmed a similar rise in cooling demand in Cyprus. @Dirks2015 also found that seasonal peaks are shifting in the United States, with summer peaks becoming more dominant due to climate-induced changes in building energy use.
@@ -155,7 +153,7 @@ In the transportation sector, electricity demand is currently limited as the sec
 
 ## Gaps and Recommendations
 :::{#id1 .callout collapse="true"} 
-### Additional Information
+### (click to expand)
 Despite the growing recognition that climate change will reshape electricity demand, significant gaps remain in current research and utility practice. Most demand forecasting and planning framework continue to rely on historical weather normalization rather than direct incorporation of projected climate conditions from GCM or RCM. In practice, climate change is more often treated as a policy driver through electrification scenarios and decarbonization strategies than as a physical driver through altered temperature, humidity, and extreme weather patterns.
 
 By progressively adapting climate-adjusted data and extreme events into electricity demand forecasting models, utilities and system planners will be better positioned to ensure that future infrastructure investments remain robust under a changing climate.
@@ -164,7 +162,7 @@ By progressively adapting climate-adjusted data and extreme events into electric
 
 ## Interactions with Other Sector Activities
 :::{#id1 .callout collapse="true"} 
-### Additional Information
+### (click to expand)
 - [Climate Datasets](../../datasets/Climate_Datasets_Overview.html)
 - Generation Forecasting
 :::

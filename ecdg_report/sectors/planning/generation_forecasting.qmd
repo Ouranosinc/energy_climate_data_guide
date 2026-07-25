@@ -12,12 +12,11 @@ Electricity generation forecasting under climate change is essential for maintai
 The first sub-section outlines the role of climate data and the importance of accounting for its future variations in electricity systems and generation forecasting. The second sub-section describes the climate data products and variables used, along with the methods applied for their analysis, such as downscaling and bias correction before integrating them into generation forecasting models. And then, predictive models or methods tailored to specific generation types are discussed. Additionally, this section summarizes the current status of electricity generation entities in Canada, based primarily on insights gathered during workshops with industry stakeholders. The following section examines projected changes in electricity generation for future periods under various emission scenarios from a Canadian perspective. Finally, gaps and recommendations are presented regarding the use of climate variables, models, and methods for generation forecasting, as well as their interactions with other sectors.
 
 ## Role in the Electricity System
-:::{#id1 .callout collapse="true"} 
-### Additional Information
+
 Electricity systems are highly sensitive to climate variability and change, as temperature, precipitation, wind patterns, and extreme weather events directly influence both electricity demand and generation capacity. Accurate forecasting, supported by robust climate data and models, plays a critical role in ensuring the reliability, resilience, and efficiency of these systems. Understanding climate impacts helps operators anticipate changes in resource availability, such as hydropower inflows, wind speeds, or solar radiation, while also preparing for shifts in demand patterns driven by heating and cooling needs. Integrating climate information into electricity system planning and operation supports proactive decision-making, reduces the risk of supply disruptions, and enhances the system’s ability to adapt to future climate conditions.
 
 The purpose of this document is to provide practitioners with guidance on selecting and preparing climate data, as well as applying appropriate methods and models, to support accurate and reliable electricity generation forecasting.
-:::
+
 
 ## Methods and Models
 
@@ -181,7 +180,7 @@ The frequency of analysis reflects that generation forecasting is conducted acro
 
 ## Detailed Discussion
 :::{#id1 .callout collapse="true"} 
-### Additional Information
+### (click to expand)
 Electricity generation forecasting is shaped by a complex interaction of evolving climate conditions, system-specific sensitivities, and operational practices. Although research has advanced in its ability to translate climate projections into hydrologic, wind, solar, and thermal generation (e.g., @Parkinson2015, @Haguma2014, @Yao2012, @Zhang2022, @Lagace2021), most utilities and system operators have relied on historical data and short-range weather forecasts. This creates a gap between the scientific understanding of climate-energy interactions and the methods used in practice, with implications for the long-term reliability and resilience of electricity systems.
 
 Among the generation types, hydropower exhibits a direct dependence on climate forcing, not only through rainfall and temperature, but also through snowpack accumulation and the timing and magnitude of freshet throughout the cold season. Academic studies have shown that warming trends shift snowmelt earlier in the year, increase winter inflows, and decrease summer water availability. As these hydrologic changes propagate through runoff generation and reservoir inflows, they directly influence simulated hydropower generation outcomes. The projected flows are subsequently used to estimate hydropower potential through empirical formulations (@Parkinson2015), reservoir optimization frameworks (@Haguma2014), or network-based allocation models (@Kim2022). Despite the capability of these methods, many utilities continue to rely on long historical hydrologic sequences for planning, partly because these datasets remain embedded in established operational tools and regulatory processes.
@@ -196,13 +195,13 @@ Across all technologies, electricity entities depend on climate and environmenta
 
 ## Gaps and Recommendations
 :::{#id1 .callout collapse="true"} 
-### Additional Information
+### (click to expand)
 Workshop discussions with professional practitioners revealed that climate projection data is not yet widely used by electricity generation entities. Most organizations continue to rely on historical trends for generation forecasting. While convenient, this approach fails to account for the non-linear impacts of climate change, thereby limiting its reliability for future projections. To improve forecasting, it is recommended that [future climate projections from global and regional climate models (GCMs and RCMs)](../../datasets/climate_projection_data/Climate_Projection_Datasets.qmd) be incorporated into practice. Some entities have adopted short-term numerical weather prediction products, such as RDRS and ECMWF, for generation forecasting. However, the use of longer-term climate projections remains largely confined to academic studies. Over the past two decades, successive generations of climate models have been released under projects such as CMIP3, CMIP5, and now [CMIP6](../../datasets/climate_projection_data/CMIP6.ipynb), which provides improved simulations under RCP and SSP scenarios. Despite this progress, uptake of these updated datasets in the electricity sector has been limited. [Reanalysis datasets](../../datasets/reanalysis_data/Reanalysis_Datasets.ipynb), such as [ERA5](../../datasets/reanalysis_data/ERA5-Land.ipynb) and [CaSR](../../datasets/reanalysis_data/CaSR.ipynb), are often used for model calibration and validation. While [ERA5](../../datasets/reanalysis_data/ERA5-Land.ipynb) provides valuable global-scale information, studies in the Canadian context suggest that regional products such as CaPA may offer more accurate representation of local climate. Therefore, practitioners are encouraged to adopt updated and regionally relevant datasets for electricity generation forecasting. Finally, current assessments of climate change impacts are typically conducted in isolation for individual power sources. To better capture the collective response of electricity generation systems (EGSs) under future climate conditions, it is recommended that existing planning and operational models be more effectively integrated and adapted to incorporate coordinated climate-informed inputs across multiple generation types. These models should explicitly account for hydro-climate variables as inputs and support system-level assessments across the full generation portfolio.
 :::
 
 ## Interactions with Other Sector Activities
 :::{#id1 .callout collapse="true"} 
-### Additional Information
+### (click to expand)
 Electricity generation forecasting plays a vital role in demand management, capacity planning, and infrastructure development. Projections of key climate variables are essential for assessing climate extremes, which inform the design of resilient infrastructure such as dams. These projections also support flood hazard mitigation planning, helping to protect communities while ensuring a reliable and uninterrupted electricity supply.
 :::
 
