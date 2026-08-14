@@ -1,0 +1,673 @@
+<style>
+.ipcc-table-wrap { overflow-x: auto; max-width: 100%; margin: 1rem 0; border: 1px solid #9aa0a6; }
+.ipcc-610 { border-collapse: separate; border-spacing: 0; table-layout: fixed; min-width: 1840px; width: 100%; font-size: .78rem; line-height: 1.1; }
+.ipcc-610 th, .ipcc-610 td { border-right: 1px solid #999; border-bottom: 1px solid #999; padding: .3rem .25rem; text-align: center; background-clip: padding-box; }
+.ipcc-610 thead th { font-weight: 650; vertical-align: bottom; }
+.ipcc-610 .sector, .ipcc-610 .activity { text-align: left; background: white; }
+.ipcc-610 .sector { position: sticky; left: 0; z-index: 4; width: 145px; min-width: 145px; }
+.ipcc-610 .activity { position: sticky; left: 145px; z-index: 4; width: 150px; min-width: 150px; box-shadow: 2px 0 0 #777; }
+.ipcc-610 thead .sector, .ipcc-610 thead .activity { z-index: 6; }
+.ipcc-610 .cid { height: 205px; width: 42px; min-width: 42px; padding: .35rem .15rem; writing-mode: vertical-rl; transform: rotate(180deg); white-space: normal; }
+.ipcc-610 .super { background: #fff; font-size: .9rem; }
+.ipcc-610 .group { font-size: .84rem; }
+.ipcc-610 .heat { background: #fbf0d8; } .ipcc-610 .wet { background: #f8e3d8; }
+.ipcc-610 .wind { background: #f3dff0; } .ipcc-610 .snow { background: #e8def2; }
+.ipcc-610 .coastal { background: #dceff6; } .ipcc-610 .ocean { background: #e5efd9; }
+.ipcc-610 .other { background: #e7e7e7; }
+.ipcc-610 td.rel { font-size: .9rem; font-weight: 750; color: #202124; }
+.ipcc-610 td.p { background: #8fc96f; } .ipcc-610 td.m { background: #ffc25b; }
+.ipcc-610 td.n { background: #ed6d55; }
+.ipcc-legend { display: flex; flex-wrap: wrap; gap: .45rem 1rem; margin: .6rem 0 0; font-size: .85rem; }
+.ipcc-legend + .ipcc-table-caption { margin-top: .15rem; }
+.ipcc-key { display: inline-flex; align-items: center; gap: .35rem; }
+.ipcc-swatch { min-width: 2.1rem; padding: .22rem .45rem; text-align: center; font-weight: 750; border: 1px solid #888; }
+.ipcc-swatch.p { background: #8fc96f; } .ipcc-swatch.m { background: #ffc25b; } .ipcc-swatch.n { background: #ed6d55; }
+@media (max-width: 700px) { .ipcc-610 { font-size: .72rem; } .ipcc-610 .sector { width: 115px; min-width: 115px; } .ipcc-610 .activity { left: 115px; width: 125px; min-width: 125px; } }
+</style>
+
+
+<div class="ipcc-table-wrap" role="region" aria-label="Scrollable table of climatic impact drivers and energy-sector activities" tabindex="0">
+<table class="ipcc-610">
+<thead>
+<tr><th class="sector" rowspan="3" scope="col">Energy sector</th><th class="activity" rowspan="3" scope="col">Energy activity</th><th class="super" colspan="33" scope="colgroup">Climatic impact driver</th></tr>
+<tr><th class="group heat" colspan="4" scope="colgroup">Heat and Cold</th><th class="group wet" colspan="8" scope="colgroup">Wet and Dry</th><th class="group wind" colspan="4" scope="colgroup">Wind</th><th class="group snow" colspan="6" scope="colgroup">Snow and Ice</th><th class="group coastal" colspan="3" scope="colgroup">Coastal</th><th class="group ocean" colspan="5" scope="colgroup">Open Ocean</th><th class="group other" colspan="3" scope="colgroup">Other</th></tr>
+<tr><th class="cid heat" scope="col">Mean air temperature</th><th class="cid heat" scope="col">Extreme heat</th><th class="cid heat" scope="col">Cold spell</th><th class="cid heat" scope="col">Frost</th><th class="cid wet" scope="col">Mean precipitation</th><th class="cid wet" scope="col">River flood</th><th class="cid wet" scope="col">Heavy precipitation and pluvial flood</th><th class="cid wet" scope="col">Landslide</th><th class="cid wet" scope="col">Aridity</th><th class="cid wet" scope="col">Hydrological drought</th><th class="cid wet" scope="col">Agricultural and ecological drought</th><th class="cid wet" scope="col">Fire weather</th><th class="cid wind" scope="col">Mean wind speed</th><th class="cid wind" scope="col">Severe wind storm</th><th class="cid wind" scope="col">Tropical cyclone</th><th class="cid wind" scope="col">Sand and dust storm</th><th class="cid snow" scope="col">Snow, glacier and ice sheet</th><th class="cid snow" scope="col">Permafrost</th><th class="cid snow" scope="col">Lake, river and sea ice</th><th class="cid snow" scope="col">Heavy snowfall and ice storm</th><th class="cid snow" scope="col">Hail</th><th class="cid snow" scope="col">Snow avalanche</th><th class="cid coastal" scope="col">Relative sea level</th><th class="cid coastal" scope="col">Coastal flood</th><th class="cid coastal" scope="col">Coastal erosion</th><th class="cid ocean" scope="col">Mean ocean temperature</th><th class="cid ocean" scope="col">Marine heatwave</th><th class="cid ocean" scope="col">Ocean acidity</th><th class="cid ocean" scope="col">Ocean salinity</th><th class="cid ocean" scope="col">Dissolved oxygen</th><th class="cid other" scope="col">Air pollution weather</th><th class="cid other" scope="col">Atmospheric CO2 at surface</th><th class="cid other" scope="col">Radiation at surface</th></tr>
+</thead>
+<tbody><tr><th class="sector" rowspan="4" scope="rowgroup">Hydropower</th><th class="activity" scope="row">Resources (dammed)</th><td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td class="rel p" aria-label="Positive" title="Positive">+</td>
+<td class="rel p" aria-label="Positive" title="Positive">+</td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td class="rel n" aria-label="Negative" title="Negative">−</td>
+<td class="rel n" aria-label="Negative" title="Negative">−</td>
+<td class="rel n" aria-label="Negative" title="Negative">−</td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td class="rel m" aria-label="Positive or negative" title="Positive or negative">±</td>
+<td aria-label="No relationship indicated"></td>
+<td class="rel n" aria-label="Negative" title="Negative">−</td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td></tr>
+<tr><th class="activity" scope="row">D&O (dammed)</th><td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td class="rel m" aria-label="Positive or negative" title="Positive or negative">±</td>
+<td class="rel n" aria-label="Negative" title="Negative">−</td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td class="rel n" aria-label="Negative" title="Negative">−</td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td></tr>
+<tr><th class="activity" scope="row">Resources (undammed)</th><td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td class="rel p" aria-label="Positive" title="Positive">+</td>
+<td class="rel p" aria-label="Positive" title="Positive">+</td>
+<td class="rel p" aria-label="Positive" title="Positive">+</td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td class="rel n" aria-label="Negative" title="Negative">−</td>
+<td class="rel n" aria-label="Negative" title="Negative">−</td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td></tr>
+<tr><th class="activity" scope="row">D&O (undammed)</th><td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td class="rel m" aria-label="Positive or negative" title="Positive or negative">±</td>
+<td class="rel n" aria-label="Negative" title="Negative">−</td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td class="rel m" aria-label="Positive or negative" title="Positive or negative">±</td>
+<td aria-label="No relationship indicated"></td>
+<td class="rel n" aria-label="Negative" title="Negative">−</td>
+<td class="rel n" aria-label="Negative" title="Negative">−</td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td></tr>
+<tr><th class="sector" rowspan="3" scope="rowgroup">Wind power</th><th class="activity" scope="row">Capacity factors</th><td class="rel n" aria-label="Negative" title="Negative">−</td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td class="rel n" aria-label="Negative" title="Negative">−</td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td class="rel p" aria-label="Positive" title="Positive">+</td>
+<td class="rel n" aria-label="Negative" title="Negative">−</td>
+<td class="rel n" aria-label="Negative" title="Negative">−</td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td></tr>
+<tr><th class="activity" scope="row">D&O (onshore)</th><td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td class="rel n" aria-label="Negative" title="Negative">−</td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td class="rel n" aria-label="Negative" title="Negative">−</td>
+<td class="rel n" aria-label="Negative" title="Negative">−</td>
+<td class="rel n" aria-label="Negative" title="Negative">−</td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td class="rel n" aria-label="Negative" title="Negative">−</td>
+<td class="rel n" aria-label="Negative" title="Negative">−</td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td class="rel n" aria-label="Negative" title="Negative">−</td>
+<td class="rel n" aria-label="Negative" title="Negative">−</td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td></tr>
+<tr><th class="activity" scope="row">D&O (offshore)</th><td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td class="rel n" aria-label="Negative" title="Negative">−</td>
+<td class="rel n" aria-label="Negative" title="Negative">−</td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td class="rel n" aria-label="Negative" title="Negative">−</td>
+<td aria-label="No relationship indicated"></td>
+<td class="rel n" aria-label="Negative" title="Negative">−</td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td></tr>
+<tr><th class="sector" rowspan="3" scope="rowgroup">Solar power</th><th class="activity" scope="row">CF (PV)</th><td class="rel n" aria-label="Negative" title="Negative">−</td>
+<td class="rel n" aria-label="Negative" title="Negative">−</td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td class="rel n" aria-label="Negative" title="Negative">−</td>
+<td aria-label="No relationship indicated"></td>
+<td class="rel p" aria-label="Positive" title="Positive">+</td></tr>
+<tr><th class="activity" scope="row">CF (CSP)</th><td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td class="rel n" aria-label="Negative" title="Negative">−</td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td class="rel n" aria-label="Negative" title="Negative">−</td>
+<td aria-label="No relationship indicated"></td>
+<td class="rel p" aria-label="Positive" title="Positive">+</td></tr>
+<tr><th class="activity" scope="row">D&O</th><td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td class="rel n" aria-label="Negative" title="Negative">−</td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td class="rel n" aria-label="Negative" title="Negative">−</td>
+<td class="rel n" aria-label="Negative" title="Negative">−</td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td class="rel n" aria-label="Negative" title="Negative">−</td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td></tr>
+<tr><th class="sector" rowspan="1" scope="rowgroup">Ocean energy</th><th class="activity" scope="row">Resources</th><td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td class="rel p" aria-label="Positive" title="Positive">+</td>
+<td class="rel m" aria-label="Positive or negative" title="Positive or negative">±</td>
+<td class="rel p" aria-label="Positive" title="Positive">+</td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td class="rel n" aria-label="Negative" title="Negative">−</td>
+<td aria-label="No relationship indicated"></td>
+<td class="rel m" aria-label="Positive or negative" title="Positive or negative">±</td>
+<td class="rel m" aria-label="Positive or negative" title="Positive or negative">±</td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td></tr>
+<tr><th class="sector" rowspan="1" scope="rowgroup">Bio-energy</th><th class="activity" scope="row">Resources</th><td class="rel m" aria-label="Positive or negative" title="Positive or negative">±</td>
+<td class="rel n" aria-label="Negative" title="Negative">−</td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td class="rel m" aria-label="Positive or negative" title="Positive or negative">±</td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td class="rel n" aria-label="Negative" title="Negative">−</td>
+<td class="rel n" aria-label="Negative" title="Negative">−</td>
+<td class="rel n" aria-label="Negative" title="Negative">−</td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td class="rel p" aria-label="Positive" title="Positive">+</td>
+<td aria-label="No relationship indicated"></td></tr>
+<tr><th class="sector" rowspan="2" scope="rowgroup">Thermal power plants (incl nuclear)</th><th class="activity" scope="row">Efficiency</th><td class="rel m" aria-label="Positive or negative" title="Positive or negative">±</td>
+<td class="rel n" aria-label="Negative" title="Negative">−</td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td class="rel n" aria-label="Negative" title="Negative">−</td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td></tr>
+<tr><th class="activity" scope="row">Vulnerability</th><td aria-label="No relationship indicated"></td>
+<td class="rel n" aria-label="Negative" title="Negative">−</td>
+<td class="rel n" aria-label="Negative" title="Negative">−</td>
+<td class="rel n" aria-label="Negative" title="Negative">−</td>
+<td aria-label="No relationship indicated"></td>
+<td class="rel n" aria-label="Negative" title="Negative">−</td>
+<td class="rel n" aria-label="Negative" title="Negative">−</td>
+<td class="rel n" aria-label="Negative" title="Negative">−</td>
+<td aria-label="No relationship indicated"></td>
+<td class="rel n" aria-label="Negative" title="Negative">−</td>
+<td aria-label="No relationship indicated"></td>
+<td class="rel n" aria-label="Negative" title="Negative">−</td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td class="rel n" aria-label="Negative" title="Negative">−</td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td class="rel n" aria-label="Negative" title="Negative">−</td>
+<td class="rel n" aria-label="Negative" title="Negative">−</td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td></tr>
+<tr><th class="sector" rowspan="1" scope="rowgroup">CCS</th><th class="activity" scope="row">Efficiency</th><td class="rel m" aria-label="Positive or negative" title="Positive or negative">±</td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td class="rel n" aria-label="Negative" title="Negative">−</td>
+<td class="rel n" aria-label="Negative" title="Negative">−</td>
+<td class="rel n" aria-label="Negative" title="Negative">−</td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td></tr>
+<tr><th class="sector" rowspan="2" scope="rowgroup">Energy consumption</th><th class="activity" scope="row">Heating</th><td class="rel p" aria-label="Positive" title="Positive">+</td>
+<td aria-label="No relationship indicated"></td>
+<td class="rel n" aria-label="Negative" title="Negative">−</td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td class="rel n" aria-label="Negative" title="Negative">−</td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td class="rel p" aria-label="Positive" title="Positive">+</td></tr>
+<tr><th class="activity" scope="row">Cooling</th><td class="rel n" aria-label="Negative" title="Negative">−</td>
+<td class="rel n" aria-label="Negative" title="Negative">−</td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td class="rel m" aria-label="Positive or negative" title="Positive or negative">±</td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td class="rel n" aria-label="Negative" title="Negative">−</td></tr>
+<tr><th class="sector" rowspan="2" scope="rowgroup">Electric power transmission system</th><th class="activity" scope="row">D&O</th><td class="rel n" aria-label="Negative" title="Negative">−</td>
+<td class="rel n" aria-label="Negative" title="Negative">−</td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td class="rel n" aria-label="Negative" title="Negative">−</td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td></tr>
+<tr><th class="activity" scope="row">Vulnerability</th><td aria-label="No relationship indicated"></td>
+<td class="rel n" aria-label="Negative" title="Negative">−</td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td class="rel n" aria-label="Negative" title="Negative">−</td>
+<td aria-label="No relationship indicated"></td>
+<td class="rel n" aria-label="Negative" title="Negative">−</td>
+<td class="rel n" aria-label="Negative" title="Negative">−</td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td class="rel n" aria-label="Negative" title="Negative">−</td>
+<td aria-label="No relationship indicated"></td>
+<td class="rel n" aria-label="Negative" title="Negative">−</td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td>
+<td aria-label="No relationship indicated"></td></tr></tbody>
+</table>
+</div>
+
+<div class="ipcc-legend" aria-label="Legend">
+  <span class="ipcc-key"><span class="ipcc-swatch p">+</span> Positive</span>
+  <span class="ipcc-key"><span class="ipcc-swatch m">±</span> Positive or negative</span>
+  <span class="ipcc-key"><span class="ipcc-swatch n">−</span> Negative</span>
+</div>
+::: {.ipcc-table-caption}
+**Relevance of the key climatic impact drivers (and their respective changes in intensity, frequency, duration, timing, and spatial extent) for major categories of activities in the energy sector.** The climatic impact drivers (CIDs) are identified in Table 12.1 in Chapter 12 of the WGI AR6 report. The symbols indicate whether a change in a climatic impact-driver may have a positive (`+`), negative (`−`), or mixed (`±`) relationship with the corresponding energy activity. D&amp;O: Design and Operation; CF: Capacity Factor. *Adapted from Working Group III Table 6.10 in* @IPCC_2022_WGIII_Ch06.
+:::
