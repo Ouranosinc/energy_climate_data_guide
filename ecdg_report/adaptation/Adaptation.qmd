@@ -1,10 +1,14 @@
 ---
-title: "Adapting to Climate Change"
+title: "Applying Climate Information"
 bibliography: adaptation.bib 
 editor: 
   markdown: 
     wrap: 72
 ---
+
+This section addresses how climate information can be integrated into electricity-sector assessments and decisions. Readers can begin with the core concepts, explore approaches for integrating climate information into models and decision processes, or follow the [climate vulnerability and risk-assessment pathway](risk_assessment.qmd).
+
+Formal vulnerability and risk assessment is an important pathway, but it is not the only way to incorporate climate information into planning, operations, asset management and other organizational processes.
 
 The IPCC defines adaptation as "*the process of adjustment to actual or
 expected climate and its effects, in order to moderate harm or exploit
@@ -99,11 +103,11 @@ flowchart-elk TD
     classDef join height:0px
 ```
 
-It is important to recognize that with a number of risk and vulnerability guidance documents published, there are occasions were terms and concepts are modified to fit the purposes of the agency creating the standard or are simply used in error. To understand the core concepts aligned with IPCC and ISO definitions please see the [Adaptation Core Concepts](./core_concepts_adapt.qmd) and the generic steps for conducting a climate vulnerability and risk assessment can be found at [Climate Vulnerability and Risk](./risk_assessment.qmd).
+It is important to recognize that with a number of risk and vulnerability guidance documents published, there are occasions were terms and concepts are modified to fit the purposes of the agency creating the standard or are simply used in error. To understand the core concepts aligned with IPCC and ISO definitions, see [Adaptation, Risk and Vulnerability: Core Concepts](./core_concepts_adapt.qmd). The generic steps for conducting a climate vulnerability and risk assessment are presented in [Climate Vulnerability and Risk Assessment](./risk_assessment.qmd).
 
 ### Climate Information Integration
 
-Conducting climate vulnerability and risk assessments is a common pathway to adaptation, but information can also be integrated into existing processes without necessarily conducting a risk assessment. Nevertheless, there will likely be a lot of similarity in terms of the concepts and steps when doing a climate risk assessment. For example, climate data could be directly integrated into capacity expansion modelling either to conduct a risk assessment or as a fundamental step of electricity system planning in an operational sense. Both require the consideration of uncertainty, careful handling of relevant climate data, and understanding of how to make decisions with the output of the climate information. This may require specialized knowledge of the data and the process it will be used for. Some tips and important background can be found in the section [Model Integration](./model_integration.qmd).
+Conducting climate vulnerability and risk assessments is a common pathway to adaptation, but information can also be integrated into existing processes without necessarily conducting a risk assessment. Nevertheless, there will likely be a lot of similarity in terms of the concepts and steps when doing a climate risk assessment. For example, climate data could be directly integrated into capacity expansion modelling either to conduct a risk assessment or as a fundamental step of electricity system planning in an operational sense. Both require the consideration of uncertainty, careful handling of relevant climate data, and understanding of how to make decisions with the output of the climate information. This may require specialized knowledge of the data and the process it will be used for. Practical background is provided in [Integrating Climate Information into Models and Decisions](./model_integration.qmd).
 
 ## References
 ::: {#refs}

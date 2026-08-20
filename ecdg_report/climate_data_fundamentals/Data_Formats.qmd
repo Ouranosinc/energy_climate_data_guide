@@ -1,7 +1,7 @@
 <!--- This is just a comment in the markup --->
 
 ---
-title: Climate Data Formats
+title: Climate-Data Formats
   
 ---
 

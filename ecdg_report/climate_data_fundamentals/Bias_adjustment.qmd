@@ -1,5 +1,5 @@
 ---
-title: Bias Adjustement and Downscaling 
+title: Downscaling and Bias Adjustment
 ---
 
 

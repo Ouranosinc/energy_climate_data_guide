@@ -1,5 +1,5 @@
 ---
-title: Emissions scenarios
+title: Emissions Scenarios
 ---
 
 Climate models require assumptions about future atmospheric greenhouse gas concentrations and other factors that affect the climate system. These assumptions are represented through scenarios: structured and internally coherent descriptions of plausible futures, rather than predictions of what will occur.

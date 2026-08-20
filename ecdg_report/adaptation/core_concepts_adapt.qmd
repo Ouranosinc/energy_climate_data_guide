@@ -1,5 +1,5 @@
 ---
-title: "Adaptation: Core Concepts"
+title: "Adaptation, Risk and Vulnerability: Core Concepts"
 bibliography: adaptation.bib 
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: Ensembles
+title: Climate-Model Ensembles
 ---
 
 Over 50 major research institutions around the world run global climate models to generate simulations of past climate and projections of future climate conditions. In the context of [Model Intercomparison Projects](https://wcrp-cmip.org/mips/) such as [CMIP6](../datasets/climate_projection_data/CMIP6.ipynb), a model may be run under different greenhouse gas [emissions scenarios](./Emissions_scenarios.html) and even multiple times with different initial conditions. This generates a large number of distinct, yet comparable simulations of climate evolution. Instead of determining one of these outcomes to be a best result or estimate, each is considered one plausible possibility, scattered around the actual but uncertain future yet to develop. The uncertainties involved in this process include the emissions scenario uncertainty, structural model uncertainty and natural internal climate variability. They are best represented by employing ensembles of these simulations.

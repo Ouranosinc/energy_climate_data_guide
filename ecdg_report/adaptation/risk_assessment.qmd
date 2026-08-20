@@ -1,5 +1,5 @@
 ---
-title: "Climate Vulnerability and Risk Assessments"
+title: "Climate Vulnerability and Risk Assessment"
 bibliography: adaptation.bib 
 editor: 
   markdown: 
@@ -18,6 +18,8 @@ be integrating into existing processes. For example, the assessment
 could be conducted as part of a dam safety review or as part of a
 planning exercise of a new transmission line. The overall process will
 be very similar.
+
+When an assessment is commissioned from an external provider, the guide to [Procuring Physical Climate-Risk Assessments](../guidance/Guidance_Harrington.qmd) can help organizations define requirements and review the climate information and methods used.
 
 ## Existing Standards and Guides
 

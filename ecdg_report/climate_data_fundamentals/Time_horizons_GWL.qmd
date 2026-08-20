@@ -1,5 +1,5 @@
 ---
-title: Time Horizons and Global Warming Levels
+title: Projection Periods and Global Warming Levels
 ---
 
 [NB. Some work remains to be done in merging the two versions.]{.red-text}

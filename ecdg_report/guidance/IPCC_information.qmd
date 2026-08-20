@@ -1,5 +1,5 @@
 ---
-title: IPCC Information at a Glance
+title: IPCC Information for Electricity-Sector Applications
 jupyter: python3
 ---
 
@@ -15,6 +15,8 @@ jupyter: python3
 The Intergovernmental Panel on Climate Change (IPCC) is the United Nations body responsible for assessing scientific knowledge related to climate change. Its assessment reports synthesize evidence from peer-reviewed literature and other credible sources to describe the state of climate science, its implications, and options for mitigation and adaptation. These reports draw extensively on climate-model simulations coordinated through initiatives such as the Coupled Model Intercomparison Project ([CMIP](../datasets/climate_projection_data/CMIP6.ipynb)).
 
 This page brings together selected findings from the three Working Group contributions to the IPCC Sixth Assessment Report that are particularly relevant to the electricity sector. It first summarizes projected changes in climatic impact-drivers across North America, then considers how these hazards may translate into sectoral risks and affect different energy technologies. The final sections describe potential consequences for energy supply, demand, transmission and distribution infrastructure, and electricity-system reliability. The information provides a starting point for identifying climate factors that may warrant further investigation; it does not replace location-, asset- or decision-specific assessments of exposure, vulnerability and risk.
+
+For guidance on incorporating this information into assessments and decisions, see [Applying Climate Information](../adaptation/Adaptation.qmd).
 
 ## Projected change in hazards for North America
 

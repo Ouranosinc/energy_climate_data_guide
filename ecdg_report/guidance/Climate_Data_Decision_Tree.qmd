@@ -6,6 +6,8 @@ title: Climate Data Decision Tree
 
 This page provides guidance for selecting the appropriate type of climate data for a given application. 
 
+Use the decision tree to identify a suitable category of data for the decision context. Then use [Compare Documented Datasets](../datasets/Datasets_Overview_Table.qmd) to compare products described in this guide, [Find Datasets by Variable](../datasets/Datasets_by_Variable.qmd) to locate products containing a required variable, and the individual dataset profiles for detailed strengths, limitations and expert guidance.
+
 ## Summary
 
 **Station observations** (in situ): Best for local truth at point locations (e.g., a substation, a met mast, a river gauge) and for direct validation of any gridded dataset. 

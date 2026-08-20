@@ -1,5 +1,5 @@
 ---
-title: "Adapting to Climate Change"
+title: "Integrating Climate Information into Models and Decisions"
 bibliography: adaptation.bib 
 ---
 
