@@ -393,7 +393,7 @@ projections, the confidence in the ability of climate models to
 represent relevant hazards, and the confidence in the vulnerability
 assessment process. This step is inherently subjective unless there is
 detailed knowledge of the uncertainties involved. Information on
-uncertainty and confidence can be found [here](../climate_data_fundamentals/core_concepts_data.qmd)
+uncertainty and confidence can be found [here](../climate_data_fundamentals/Uncertainty_Confidence.qmd)
 
 Involve climate science and engineering experts to help assess
 uncertainty and avoid bias -- whether it be overconfidence or under

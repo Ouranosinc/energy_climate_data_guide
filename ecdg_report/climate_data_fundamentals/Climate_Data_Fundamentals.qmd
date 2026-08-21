@@ -2,7 +2,7 @@
 title: "Climate Data Fundamentals"
 ---
 
-This section provides the concepts needed to interpret and use climate data appropriately. Readers new to the subject can begin with [types of climate data](../datasets/Climate_Datasets_Overview.ipynb) and [predictability and projections](Temporal_Horizons_Predictability.qmd), then continue through climate models, scenarios, ensembles, projection periods and global warming levels.
+This section provides the concepts needed to interpret and use climate data appropriately. Readers new to the subject can begin with [types of climate data](../datasets/Climate_Datasets_Overview.ipynb) and [predictability and projections](Temporal_Horizons_Predictability.qmd), then continue through emissions scenarios, climate-model ensembles, projection periods and global warming levels.
 
 The later pages address downscaling and bias adjustment, uncertainty, climate-information gaps and limitations, and data formats. Together, these topics provide a recommended conceptual progression without replacing the detailed guidance on each page.
 
