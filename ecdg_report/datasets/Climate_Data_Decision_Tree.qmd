@@ -1,12 +1,14 @@
 ---
 title: Climate Data Decision Tree
+aliases:
+  - /guidance/Climate_Data_Decision_Tree.html
 ---
 
 ## Overview
 
 This page provides guidance for selecting the appropriate type of climate data for a given application. 
 
-Use the decision tree to identify a suitable category of data for the decision context. Then use [Compare Documented Datasets](../datasets/Datasets_Overview_Table.qmd) to compare products described in this guide, [Find Datasets by Variable](../datasets/Datasets_by_Variable.qmd) to locate products containing a required variable, and the individual dataset profiles for detailed strengths, limitations and expert guidance.
+Use the decision tree to identify a suitable category of data for the decision context. Then use [Compare Documented Datasets](./Datasets_Overview_Table.qmd) to compare products described in this guide, [Find Datasets by Variable](./Datasets_by_Variable.qmd) to locate products containing a required variable, and the individual dataset profiles for detailed strengths, limitations and expert guidance.
 
 ## Summary
 

@@ -6,6 +6,7 @@ project:
     - "!development/deprecated/IPCC_information.ipynb"
     - "!development/deprecated/electricity_sector_activities_old.ipynb"
     - "!development/legacy/Guidance_Overview.qmd"
+    - "!development/legacy/core_concepts.qmd"
     - "!development/drafts/TextSectionParkingLot.ipynb"
     - "!development/tools/NRCanMET_check.ipynb"
     - "!datasets/observed_data/CanGrid.qmd"
@@ -18,8 +19,8 @@ project:
   resources:
     - link-target.js  # This ensures it gets copied to output
     - auto-open-callout.js
-    - maturity_matrix/*.xlsx
-    - guidance/Indigenous_Knowledge_Guidance.pdf
+    - organizational_capability/*.xlsx
+    - apply_climate_data/Indigenous_Knowledge_Guidance.pdf
 
 website:
   title: "Climate Data for the Electricity Sector"
@@ -64,7 +65,7 @@ website:
           - text: "Reporting and Disclosure"
             href: sectors/reporting/reporting_disclosure.qmd
       - section: "Understand Climate Data"
-        href: datasets/Climate_Datasets_Overview.ipynb
+        href: climate_data_fundamentals/Climate_Datasets_Overview.ipynb
         contents:
           - text: "Forecasts, Projections and Predictability"
             href: climate_data_fundamentals/Temporal_Horizons_Predictability.qmd
@@ -79,11 +80,11 @@ website:
           - text: "Uncertainty and Confidence"
             href: climate_data_fundamentals/Uncertainty_Confidence.qmd
           - text: "Climate-Information Gaps and Limitations"
-            href: gaps/gaps_data.qmd
+            href: climate_data_fundamentals/gaps_data.qmd
           - text: "Climate-Data Formats"
             href: climate_data_fundamentals/Data_Formats.qmd
       - section: "Find and Compare Climate Datasets"
-        href: guidance/Climate_Data_Decision_Tree.qmd
+        href: datasets/Climate_Data_Decision_Tree.qmd
         contents:
           - text: "Compare Documented Datasets"
             href: datasets/Datasets_Overview_Table.qmd
@@ -115,54 +116,54 @@ website:
               - datasets/climate_projection_data/CanLEAD.ipynb
               - datasets/climate_projection_data/NEX-GDDP-CMIP6.ipynb
       - section: "Apply Climate Data"
-        href: adaptation/Adaptation.qmd
+        href: apply_climate_data/Adaptation.qmd
         contents:
           - text: "Adaptation, Risk and Vulnerability: Core Concepts"
-            href: adaptation/core_concepts_adapt.qmd
+            href: apply_climate_data/core_concepts_adapt.qmd
           - text: "Integrating Climate Information into Models and Decisions"
-            href: adaptation/model_integration.qmd
+            href: apply_climate_data/model_integration.qmd
           - text: "Indigenous Knowledge and Climate-Related Decisions"
-            href: guidance/traditional_knowledge.qmd
+            href: apply_climate_data/traditional_knowledge.qmd
           - text: "IPCC Information for Electricity-Sector Applications"
-            href: guidance/IPCC_information.qmd
+            href: apply_climate_data/IPCC_information.qmd
           - section: "Climate Vulnerability and Risk Assessment"
-            href: adaptation/risk_assessment.qmd
+            href: apply_climate_data/risk_assessment.qmd
             contents:
               - text: "Step 1: Set the Assessment Context"
-                href: adaptation/risk_step1.qmd
+                href: apply_climate_data/risk_step1.qmd
               - text: "Step 2: Define the System"
-                href: adaptation/risk_step2_system.qmd
+                href: apply_climate_data/risk_step2_system.qmd
               - text: "Step 3: Assess Climate Hazards"
-                href: adaptation/risk_step3_hazard.qmd
+                href: apply_climate_data/risk_step3_hazard.qmd
               - text: "Step 4: Assess Vulnerability"
-                href: adaptation/risk_step4_vulnerability.qmd
+                href: apply_climate_data/risk_step4_vulnerability.qmd
               - text: "Step 5: Evaluate Risk"
-                href: adaptation/risk_step5_risk.qmd
+                href: apply_climate_data/risk_step5_risk.qmd
               - text: "Step 6: Develop Adaptation Actions"
-                href: adaptation/risk_step6_adapt.qmd
+                href: apply_climate_data/risk_step6_adapt.qmd
               - text: "Step 7: Institutionalize the Process"
-                href: adaptation/risk_step7_institute.qmd
+                href: apply_climate_data/risk_step7_institute.qmd
       - section: "Build Organizational Capability"
-        href: maturity_matrix/Maturity_Matrix.qmd
+        href: organizational_capability/Maturity_Matrix.qmd
         contents:
           - text: "Organizational Maturity Self-Assessment"
-            href: maturity_matrix/Maturity_Matrix.qmd
+            href: organizational_capability/Maturity_Matrix.qmd
           - text: "Organizational Gaps and Barriers"
-            href: gaps/gaps_organization.qmd
+            href: organizational_capability/gaps_organization.qmd
           - text: "Procuring Physical Climate-Risk Assessments"
-            href: guidance/Guidance_Harrington.qmd
+            href: organizational_capability/Guidance_Harrington.qmd
       - section: "Resources and Examples"
-        href: guidance/Climate_Information_Ressources.qmd
+        href: resources/Climate_Information_Ressources.qmd
         contents:
           - text: "Online Climate-Information Resources"
-            href: guidance/Climate_Information_Ressources.qmd
+            href: resources/Climate_Information_Ressources.qmd
           - text: "Example Applications"
-            href: guidance/Example_Applications.ipynb
+            href: resources/Example_Applications.ipynb
           - section: "Analysis Support Tools"
-            href: guidance/tools/Analysis_Support_Tools.ipynb
+            href: resources/tools/Analysis_Support_Tools.ipynb
             contents:
               - text: "Compare Observational Datasets at a Point"
-                href: guidance/tools/Point_Location_Compare.ipynb
+                href: resources/tools/Point_Location_Compare.ipynb
       - section: Workshops
         href: workshops/intro_workshops.ipynb
         contents:
@@ -212,8 +213,8 @@ format:
 
 bibliography:
   - datasets/references.bib
-  - adaptation/adaptation.bib
-  - guidance/guidance.bib
+  - apply_climate_data/adaptation.bib
+  - bibliography/guidance.bib
   - sectors/references.bib
   - sectors/infrastructure/references_dam_safety.bib
   - sectors/planning/references.bib

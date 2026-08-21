@@ -1,5 +1,7 @@
 ---
 title: "Climate Vulnerability and Risk Assessment"
+aliases:
+  - /adaptation/risk_assessment.html
 bibliography: adaptation.bib 
 editor: 
   markdown: 
@@ -19,7 +21,7 @@ could be conducted as part of a dam safety review or as part of a
 planning exercise of a new transmission line. The overall process will
 be very similar.
 
-When an assessment is commissioned from an external provider, the guide to [Procuring Physical Climate-Risk Assessments](../guidance/Guidance_Harrington.qmd) can help organizations define requirements and review the climate information and methods used.
+When an assessment is commissioned from an external provider, the guide to [Procuring Physical Climate-Risk Assessments](../organizational_capability/Guidance_Harrington.qmd) can help organizations define requirements and review the climate information and methods used.
 
 ## Existing Standards and Guides
 

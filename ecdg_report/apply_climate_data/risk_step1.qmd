@@ -1,5 +1,7 @@
 ---
 title: "Step 1: Set the Assessment Context"
+aliases:
+  - /adaptation/risk_step1.html
 bibliography: adaptation.bib 
 editor: 
   markdown: 

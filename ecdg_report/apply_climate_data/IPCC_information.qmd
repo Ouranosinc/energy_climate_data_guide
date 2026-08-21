@@ -1,5 +1,7 @@
 ---
 title: IPCC Information for Electricity-Sector Applications
+aliases:
+  - /guidance/IPCC_information.html
 jupyter: python3
 ---
 
@@ -16,13 +18,13 @@ The Intergovernmental Panel on Climate Change (IPCC) is the United Nations body 
 
 This page brings together selected findings from the three Working Group contributions to the IPCC Sixth Assessment Report that are particularly relevant to the electricity sector. It first summarizes projected changes in climatic impact-drivers across North America, then considers how these hazards may translate into sectoral risks and affect different energy technologies. The final sections describe potential consequences for energy supply, demand, transmission and distribution infrastructure, and electricity-system reliability. The information provides a starting point for identifying climate factors that may warrant further investigation; it does not replace location-, asset- or decision-specific assessments of exposure, vulnerability and risk.
 
-For guidance on incorporating this information into assessments and decisions, see [Applying Climate Information](../adaptation/Adaptation.qmd).
+For guidance on incorporating this information into assessments and decisions, see [Applying Climate Information](./Adaptation.qmd).
 
 ## Projected change in hazards for North America
 
 The latest IPCC report assesses the evidence for projected changes in a wide range of climatic impact-drivers. This evidence is summarized in Working Group I Table 12.8 [@IPCC_2021_WGI_Ch12]. The table presented here is adapted from that assessment. It summarizes projected changes in key climatic impact-drivers across North America under mid-century warming conditions (approximately 2°C to 2.4°C of global warming). It combines information on the direction of projected change, the confidence in those projections, and the expected emergence of the climate signal relative to natural variability.
 
-![**Summary of the confidence in the direction of projected changes in climatic impact-drivers across North America**. The figure shows the aggregate characteristic changes by mid-century under RCP4.5 and SSP2-4.5, or higher scenarios, within each AR6 region. These scenarios approximately correspond to global warming levels between 2°C and 2.4°C. The table also includes the assessed observed or projected time of emergence of the climate impact-driver signal from natural interannual variability, where available with at least medium confidence. </br>*Adapted from Working Group I Table 12.8 in* @IPCC_2021_WGI_Ch12.](image/AR6_WGI_Table12-8_withmap.png){.lightbox width=100% fig-alt="Table summarizing projected changes in climatic impact-drivers across five North American regions. Select the image to open a full-size, zoomable view."}
+![**Summary of the confidence in the direction of projected changes in climatic impact-drivers across North America**. The figure shows the aggregate characteristic changes by mid-century under RCP4.5 and SSP2-4.5, or higher scenarios, within each AR6 region. These scenarios approximately correspond to global warming levels between 2°C and 2.4°C. The table also includes the assessed observed or projected time of emergence of the climate impact-driver signal from natural interannual variability, where available with at least medium confidence. </br>*Adapted from Working Group I Table 12.8 in* @IPCC_2021_WGI_Ch12.](images/AR6_WGI_Table12-8_withmap.png){.lightbox width=100% fig-alt="Table summarizing projected changes in climatic impact-drivers across five North American regions. Select the image to open a full-size, zoomable view."}
 
 <div style="font-size: 0.75em;">
 
@@ -43,7 +45,7 @@ While the figure above identifies the climatic impact drivers expected to change
 
 ![**Rapid assessment of relative risk by sector and climate hazard for North America based on an assessment of asset-specific
 vulnerability and exposure across climate hazards.** For each unique combination, the hazard-by-sector risk was ranked as
-very high (very high risk and high confidence), high (significant impacts and risk, high to medium confidence), medium (impacts are detectable and attributable to climate change, medium confidence), low or not detected (risk is low or not detectable). Blank cells are those where the assessment was not applicable or not conducted. Risks identified through the rapid assessment were further evaluated in the chapter assessments (see corresponding sector text for full assessment of risk and impacts). *Excerpt from Working Group II Figure 14.11 in* @IPCC_2022_WGII_Ch14.](image/AR6_WGII_Fig14_11.png)
+very high (very high risk and high confidence), high (significant impacts and risk, high to medium confidence), medium (impacts are detectable and attributable to climate change, medium confidence), low or not detected (risk is low or not detectable). Blank cells are those where the assessment was not applicable or not conducted. Risks identified through the rapid assessment were further evaluated in the chapter assessments (see corresponding sector text for full assessment of risk and impacts). *Excerpt from Working Group II Figure 14.11 in* @IPCC_2022_WGII_Ch14.](images/AR6_WGII_Fig14_11.png)
 
 
 ## Relevance of climate hazards for energy technologies

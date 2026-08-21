@@ -1,5 +1,7 @@
 ---
 title: "Procuring Physical Climate-Risk Assessments"
+aliases:
+  - /guidance/Guidance_Harrington.html
 ---
 
 ## Purpose

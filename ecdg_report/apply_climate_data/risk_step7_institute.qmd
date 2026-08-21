@@ -1,5 +1,7 @@
 ---
 title: "Step 7: Institutionalize the Process"
+aliases:
+  - /adaptation/risk_step7_institute.html
 bibliography: adaptation.bib 
 editor: 
   markdown: 

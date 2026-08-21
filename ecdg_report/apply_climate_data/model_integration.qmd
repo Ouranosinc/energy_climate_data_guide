@@ -1,5 +1,7 @@
 ---
 title: "Integrating Climate Information into Models and Decisions"
+aliases:
+  - /adaptation/model_integration.html
 bibliography: adaptation.bib 
 ---
 

@@ -1,5 +1,7 @@
 ---
 title: "Step 3: Assess Climate Hazards"
+aliases:
+  - /adaptation/risk_step3_hazard.html
 bibliography: adaptation.bib 
 editor: 
   markdown: 
@@ -296,7 +298,7 @@ criteria.
 
 For more information on climate data and projections refer to [the
 overview on climate
-datasets](../datasets/Climate_Datasets_Overview.ipynb)
+datasets](../climate_data_fundamentals/Climate_Datasets_Overview.ipynb)
 
 ### Assessing Data Suitability
 
@@ -309,7 +311,7 @@ climate data for all relevant hazards and climate indicators identified,
 under one or more climate scenarios (i.e. SSP2-4.5, SSP5-8.5). Refer to
 [climate-projection datasets](../datasets/climate_projection_data/Climate_Projection_Datasets.qmd) and
 the [Climate Data Decision
-Tree](../guidance/Climate_Data_Decision_Tree.qmd) for more details on
+Tree](../datasets/Climate_Data_Decision_Tree.qmd) for more details on
 climate data.
 
 Data is collected for all relevant time horizons (e.g., 2030s, 2050s,

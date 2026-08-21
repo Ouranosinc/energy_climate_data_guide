@@ -1,5 +1,7 @@
 ---
 title: "Step 2: Define the System"
+aliases:
+  - /adaptation/risk_step2_system.html
 bibliography: adaptation.bib 
 editor: 
   markdown: 

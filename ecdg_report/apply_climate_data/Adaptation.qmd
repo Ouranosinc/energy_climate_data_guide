@@ -1,5 +1,7 @@
 ---
 title: "Applying Climate Information"
+aliases:
+  - /adaptation/Adaptation.html
 bibliography: adaptation.bib 
 editor: 
   markdown: 

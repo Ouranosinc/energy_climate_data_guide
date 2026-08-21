@@ -1,5 +1,7 @@
 ---
 title: Online Climate-Information Resources
+aliases:
+  - /guidance/Climate_Information_Ressources.html
 
 ---
 
