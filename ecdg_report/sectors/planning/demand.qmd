@@ -163,8 +163,7 @@ By progressively adapting climate-adjusted data and extreme events into electric
 ## Interactions with Other Sector Activities
 :::{#id1 .callout collapse="true"} 
 ### (click to expand)
-- [Climate Datasets](../../datasets/Climate_Datasets_Overview.html)
-- Generation Forecasting
+- Generation Forecasting(./generation_forecasting.qmd)
 :::
 
 ## References
