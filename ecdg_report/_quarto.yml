@@ -160,13 +160,13 @@ website:
       - section: "Development Resources"
         contents:
           - text: "Sector Page Template"
-            href: sectors/Sectors_Template.qmd
+            href: development/templates/Sectors_Template.qmd
           - text: "Dataset Page Template"
-            href: datasets/Dataset_Template.ipynb
+            href: development/templates/Dataset_Template.ipynb
           - text: "Deprecated Climate Data Fundamentals"
-            href: climate_data_fundamentals/Deprecated_Climate_Data_Fundamentals.ipynb
+            href: development/deprecated/Deprecated_Climate_Data_Fundamentals.ipynb
           - text: "Quarto Functionality Examples"
-            href: QuartoFunctionalityExamples.ipynb
+            href: development/examples/QuartoFunctionalityExamples.ipynb
       
 format:
   html:
