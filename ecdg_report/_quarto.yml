@@ -134,7 +134,7 @@ website:
       - section: "Build Organizational Capability"
         href: maturity_matrix/Maturity_Matrix.qmd
         contents:
-          - text: "Maturity Matrix for Self-Assessment"
+          - text: "Organizational Maturity Self-Assessment"
             href: maturity_matrix/Maturity_Matrix.qmd
           - text: "Organizational Gaps and Barriers"
             href: gaps/gaps_organization.qmd

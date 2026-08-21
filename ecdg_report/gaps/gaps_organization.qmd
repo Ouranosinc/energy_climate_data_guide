@@ -2,7 +2,7 @@
 title: Organizational Gaps and Barriers
 ---
 
-This page identifies gaps and barriers related to the use of climate data in the electricity sector. Organizations can use the [Maturity Matrix for Self-Assessment](../maturity_matrix/Maturity_Matrix.qmd) to consider these issues in relation to their current practices. Where external assessment services are required, [Procuring Physical Climate-Risk Assessments](../guidance/Guidance_Harrington.qmd) provides questions to support informed oversight.
+This page identifies gaps and barriers related to the use of climate data in the electricity sector. Organizations can use the [Organizational Maturity Self-Assessment](../maturity_matrix/Maturity_Matrix.qmd) to consider these issues in relation to their current practices. Where external assessment services are required, [Procuring Physical Climate-Risk Assessments](../guidance/Guidance_Harrington.qmd) provides questions to support informed oversight.
 
 ## 1. Limited internal climate literacy
 

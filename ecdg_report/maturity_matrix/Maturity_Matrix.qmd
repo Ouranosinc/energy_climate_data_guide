@@ -1,5 +1,5 @@
 ---
-title: Maturity Matrix for Self-Assessment
+title: "Organizational Maturity Self-Assessment"
 
 ---
 
