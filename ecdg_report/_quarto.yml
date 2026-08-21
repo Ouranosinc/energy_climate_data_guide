@@ -53,10 +53,8 @@ website:
           - text: "Reporting and Disclosure"
             href: sectors/reporting/reporting_disclosure.qmd
       - section: "Understand Climate Data"
-        href: climate_data_fundamentals/Climate_Data_Fundamentals.qmd
+        href: datasets/Climate_Datasets_Overview.ipynb
         contents:
-          - text: "Types of Climate Data"
-            href: datasets/Climate_Datasets_Overview.ipynb
           - text: "Forecasts, Projections and Predictability"
             href: climate_data_fundamentals/Temporal_Horizons_Predictability.qmd
           - text: "Climate Models and Additional Concepts"
@@ -169,6 +167,8 @@ website:
             href: datasets/Dataset_Template.ipynb
           - text: "Deprecated Climate Data Fundamentals"
             href: climate_data_fundamentals/Deprecated_Climate_Data_Fundamentals.ipynb
+          - text: "Previous Climate Data Fundamentals Landing Page"
+            href: climate_data_fundamentals/Climate_Data_Fundamentals.qmd
           - text: "Quarto Functionality Examples"
             href: QuartoFunctionalityExamples.ipynb
       

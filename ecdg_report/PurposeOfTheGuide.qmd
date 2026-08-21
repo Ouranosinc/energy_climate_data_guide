@@ -17,7 +17,7 @@ The guide is designed as a practical resource that helps users connect electrici
 ## Choose a Pathway
 
 - **[Explore an electricity-sector activity](./sectors/electricity_sector_activities.qmd):** Begin with a planning, operational, infrastructure or reporting task and identify relevant climate inputs, methods and decisions.
-- **[Understand climate data](./climate_data_fundamentals/Climate_Data_Fundamentals.qmd):** Review foundational explanations of projections, scenarios, ensembles, downscaling, uncertainty and data formats.
+- **[Understand climate data](./datasets/Climate_Datasets_Overview.ipynb):** Review foundational explanations of projections, scenarios, ensembles, downscaling, uncertainty and data formats.
 - **[Find and compare climate datasets](./guidance/Climate_Data_Decision_Tree.qmd):** Select data by decision context, dataset category, variable or documented product.
 - **[Apply climate data](./adaptation/Adaptation.qmd):** Explore how climate information can support adaptation, vulnerability, risk and related decision analyses.
 - **[Build organizational capability](./maturity_matrix/Maturity_Matrix.qmd):** Assess organizational maturity, barriers, procurement practices and oversight capacity.

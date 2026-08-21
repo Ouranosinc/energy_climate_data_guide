@@ -42,7 +42,7 @@ GWLs provide a direct connection to mitigation goals expressed in terms of limit
 | 3.0 |  |  | 2066--2085 | 2055--2074 |
 | 4.0 |  |  |  | 2075--2094 |
 
-: Approximate first 20-year periods in which global mean temperature reaches the specified level relative to 1850--1900, based on multiple lines of evidence. Adapted from the IPCC Sixth Assessment Report Working Group I Technical Summary, Cross-Section Box TS.1, Table 1.
+: Approximate first 20-year periods in which global mean temperature reaches the specified level relative to 1850--1900, based on multiple lines of evidence. Adapted from the IPCC Sixth Assessment Report Working Group I Technical Summary, Cross-Section Box TS.1, Table 1 [@IPCC_2021_WGI_TS].
 
 ## Comparing the Two Approaches
 

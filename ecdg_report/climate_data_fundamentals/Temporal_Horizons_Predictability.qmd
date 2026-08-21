@@ -6,9 +6,7 @@ title: Forecasts, Projections and Predictability
 
 ---
 
-Climate data can be broadly divided into two distinct categories: historical data and future data. Historical data include any dataset aimed at providing information of the past as it actually occurred. They include in-situ observations (e.g. stations), remote sensing observations (satellite or radar-based measurements), or reconstructions, which combine multiple sources of information into a single gridded product. These reconstructions can be done by combining and interpolating observations directly, or by assimilating observations with a model of the atmosphere in a so-called reanalysis. Each type of product comes with advantages and limitations, and additional information on these products is provided in the various sections.
-
-Future data are all based on model simulations (we don’t have observations of the future yet!). These models are mathematical representations of the different Earth's components (e.g. atmosphere, ocean, land, sea ice) and are constructed using the known physical, chemical and biological processes governing these components (e.g. hot air near the surface is less dense than cold air and therefore will tend to rise up). These dataset are typically divided in the climate community according to the time horizon (target) of the predictions. They are:
+Future climate information is produced across multiple timescales. Weather forecasts, subseasonal and seasonal forecasts, decadal predictions and climate projections answer different questions, draw predictability from different parts of the climate system, and require different interpretation. The principal timescales are:
 
 - Weather forecasts (1-14 days)
 - Sub-seasonal forecasts (2-6 weeks)
@@ -24,18 +22,22 @@ Along with historical data, this document only provides information on climate p
 
 ### Sub-seasonal Forecasts:
 
-- [(SubC (IRI)](https://iridl.ldeo.columbia.edu/maproom/Global/ForecastsS2S/index.html)
-- [ECMWF](https://www.ecmwf.int/en/research/projects/s2s)
+- [International Research Institute](https://iridl.ldeo.columbia.edu/maproom/Global/ForecastsS2S/index.html)
+- [European Centre for Medium-Range Weather Forecasts](https://www.ecmwf.int/en/research/projects/s2s)
 
 ### Seasonal forecasts:
 
 - [Copernicus Climate Change Service](https://climate.copernicus.eu/seasonal-forecasts)
-- [[climatedata.ca]()]{.mark-red} (upcoming)
+- [climatedata.ca](https://climatedata.ca/resource/what-are-seasonal-forecasts)
 
 ### Decadal forecasts:
 
 - [[climatedata.ca]()]{.mark-red} (upcoming)
 
-![Prediction Types and their temporal horizons](./image/PredictionTypesAndTimeFrames_Meehletal2009.png)
+![Forecast types and their temporal horizons. Forecasts transition from an initial-value problem at shorter
+timescales to a forced boundary-value problem at longer timescales. Source:@BoerEtAl2016DCPP](./image/PredictionTypesAndTimeFrames_Meehletal2009.png)
 
+## References
 
+::: {#refs}
+:::
