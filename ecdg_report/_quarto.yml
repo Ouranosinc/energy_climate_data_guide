@@ -165,8 +165,6 @@ website:
             href: datasets/Dataset_Template.ipynb
           - text: "Deprecated Climate Data Fundamentals"
             href: climate_data_fundamentals/Deprecated_Climate_Data_Fundamentals.ipynb
-          - text: "Previous Climate Data Fundamentals Landing Page"
-            href: climate_data_fundamentals/Climate_Data_Fundamentals.qmd
           - text: "Quarto Functionality Examples"
             href: QuartoFunctionalityExamples.ipynb
       
