@@ -3,14 +3,24 @@ title: IPCC Information at a Glance
 jupyter: python3
 ---
 
+<style>
+.ipcc-table-caption {
+  margin-top: 0.5rem;
+  font-size: 0.875em;
+  color: var(--bs-secondary-color, #6c757d);
+}
+</style>
 
-The Intergovernmental Panel on Climate Change (IPCC) is the United Nations body responsible for assessing scientific knowledge related to climate change. Its assessment reports synthesize evidence from peer-reviewed literature and other credible sources to describe the state of climate science, its implications, and options for mitigation and adaptation. These reports draw extensively on climate-model simulations coordinated through initiatives such as the Coupled Model Intercomparison Project (CMIP).
 
-## Summary of confidence in direction of projected change in hazard in North America
+The Intergovernmental Panel on Climate Change (IPCC) is the United Nations body responsible for assessing scientific knowledge related to climate change. Its assessment reports synthesize evidence from peer-reviewed literature and other credible sources to describe the state of climate science, its implications, and options for mitigation and adaptation. These reports draw extensively on climate-model simulations coordinated through initiatives such as the Coupled Model Intercomparison Project ([CMIP](../datasets/climate_projection_data/CMIP6.ipynb)).
+
+This page brings together selected findings from the three Working Group contributions to the IPCC Sixth Assessment Report that are particularly relevant to the electricity sector. It first summarizes projected changes in climatic impact-drivers across North America, then considers how these hazards may translate into sectoral risks and affect different energy technologies. The final sections describe potential consequences for energy supply, demand, transmission and distribution infrastructure, and electricity-system reliability. The information provides a starting point for identifying climate factors that may warrant further investigation; it does not replace location-, asset- or decision-specific assessments of exposure, vulnerability and risk.
+
+## Projected change in hazards for North America
 
 The latest IPCC report assesses the evidence for projected changes in a wide range of climatic impact-drivers. This evidence is summarized in Working Group I Table 12.8 [@IPCC_2021_WGI_Ch12]. The table presented here is adapted from that assessment. It summarizes projected changes in key climatic impact-drivers across North America under mid-century warming conditions (approximately 2°C to 2.4°C of global warming). It combines information on the direction of projected change, the confidence in those projections, and the expected emergence of the climate signal relative to natural variability.
 
-![Summary of the confidence in the direction of projected changes in climatic impact-drivers across North America, representing their aggregate characteristic changes by mid-century under RCP4.5 and SSP2-4.5, or higher scenarios, within each AR6 region. These scenarios approximately correspond to global warming levels between 2°C and 2.4°C. The table also includes the assessed observed or projected time of emergence of the climate impact-driver signal from natural interannual variability, where available with at least medium confidence. </br>*Adapted from Working Group I Table 12.8 in* @IPCC_2021_WGI_Ch12.](image/Table12-8_withmap.png)
+![**Summary of the confidence in the direction of projected changes in climatic impact-drivers across North America**. The figure shows the aggregate characteristic changes by mid-century under RCP4.5 and SSP2-4.5, or higher scenarios, within each AR6 region. These scenarios approximately correspond to global warming levels between 2°C and 2.4°C. The table also includes the assessed observed or projected time of emergence of the climate impact-driver signal from natural interannual variability, where available with at least medium confidence. </br>*Adapted from Working Group I Table 12.8 in* @IPCC_2021_WGI_Ch12.](image/AR6_WGI_Table12-8_withmap.png){.lightbox width=100% fig-alt="Table summarizing projected changes in climatic impact-drivers across five North American regions. Select the image to open a full-size, zoomable view."}
 
 <div style="font-size: 0.75em;">
 
@@ -24,6 +34,74 @@ The latest IPCC report assesses the evidence for projected changes in a wide ran
 8. Increase in convective conditions but decrease in winter extratropical cyclones.
 
 </div>
+
+## Relative risk by climate hazard for North America
+
+While the figure above identifies the climatic impact drivers expected to change across North America, the figure below, taken from Chapter 14 of AR6 WG II, illustrates how these and related hazards may translate into risks for the energy sector. It presents a qualitative rapid assessment based on the available literature and expert judgement. The categories combine the assessed importance of impacts and risks with confidence in the supporting evidence, but do not represent quantitative estimates of losses. These broad regional assessments can be a starting point and provide an initial indication of the hazards that may warrant further investigation. However, it is important to note that the relevance and severity of a hazard ultimately depend on the location, exposure, and vulnerability of the specific assets and systems being considered.
+
+![**Rapid assessment of relative risk by sector and climate hazard for North America based on an assessment of asset-specific
+vulnerability and exposure across climate hazards.** For each unique combination, the hazard-by-sector risk was ranked as
+very high (very high risk and high confidence), high (significant impacts and risk, high to medium confidence), medium (impacts are detectable and attributable to climate change, medium confidence), low or not detected (risk is low or not detectable). Blank cells are those where the assessment was not applicable or not conducted. Risks identified through the rapid assessment were further evaluated in the chapter assessments (see corresponding sector text for full assessment of risk and impacts). *Excerpt from Working Group II Figure 14.11 in* @IPCC_2022_WGII_Ch14.](image/AR6_WGII_Fig14_11.png)
+
+
+## Relevance of climate hazards for energy technologies
+
+The regional assessment above provides a broad indication of climate-related risks across the North American energy sector. Table 6.10 from Chapter 6 of AR6 Working Group III provides a complementary, technology-specific perspective. It identifies climatic impact-drivers that may be relevant to the design and operation, capacity factor, or resource requirements of different energy technologies and activities. The table shows whether these relationships may be positive, negative, or mixed; it does not quantify the magnitude or likelihood of the resulting impacts. Because this is a global assessment, the relationships identified should be interpreted alongside regional climate projections and information about the location, design, exposure, and vulnerability of the energy system being assessed.
+
+{{< include _IPCC_AR6_WGIII_Table_6_10.qmd >}}
+
+## Impact of climate change on energy systems
+
+The IPCC assessment also describes how climatic changes can affect energy supply, demand, infrastructure, and system reliability. These effects can occur through gradual changes in average conditions, individual extreme events, or compound events involving multiple hazards. Because energy systems are connected to other critical infrastructure, disruptions can also produce consequences well beyond the assets initially affected [@IPCC_2022_WGII_Ch06; @IPCC_2022_WGIII_Ch06].
+
+{{< include _IPCC_WGIII_Section6_5_4_visual.qmd >}}
+
+### Energy supply and generation
+
+Climate change can affect both the availability of energy resources and the performance of generation technologies. The direction and magnitude of these effects vary by technology, location and season.
+
+Hydropower is sensitive to changes in precipitation, runoff, snow and glacier melt, evaporation, sediment transport and the timing of water availability. Its operation can also be affected by competition for water from communities, agriculture, industry and ecosystems. Hydropower assessments should therefore consider changes across the watershed and the operation of multi-purpose reservoirs, rather than changes in precipitation alone.
+
+Wind generation may be affected by changes in average wind resources, variability and the frequency of conditions that require turbines to shut down. Solar photovoltaic generation is sensitive to changes in incoming solar radiation, cloud cover and temperature, as well as disruption from dust, smoke and wildfire conditions. The direction and magnitude of changes in wind and solar resources are geographically complex and remain uncertain in most regions.
+
+Thermal power plants, including nuclear and fossil-fuel plants, can be affected by higher air and water temperatures and by constraints on cooling-water availability. Heat and drought can reduce generation efficiency, restrict output or require temporary shutdowns. 
+
+At the global scale, the IPCC assesses with high confidence that climate-related changes in hydropower, wind and solar generation should not compromise their contribution to climate-change mitigation. Effects can nevertheless be significant at regional and local scales. Assessments should therefore consider the specific resource, technology, location, operating context and interactions with other water users [@IPCC_2022_WGII_Ch06; @IPCC_2022_WGIII_Ch06].
+
+For more information on this topic, please refer to this [section](../sectors/planning/generation_forecasting.qmd).
+
+### Energy demand
+
+Climate change is expected to reduce heating demand, particularly in colder regions, while increasing cooling demand, particularly in warmer regions. Changes in peak demand may be more consequential for electricity systems than changes in annual energy consumption. More frequent or intense peaks can affect requirements for generation capacity, transmission, storage, demand-side management, and system flexibility. Demand and supply effects can also occur simultaneously. For example, extreme heat can increase electricity demand for cooling while reducing the efficiency of thermal generation and the capacity of transmission lines. Assessments based only on changes in annual or seasonal energy consumption may therefore overlook important risks to system adequacy [@IPCC_2022_WGIII_Ch06]. For more information on this topic, please refer to this[section](../sectors/planning/demand.qmd).
+
+### Transmission and distribution infrastructure
+
+Electricity transmission and distribution networks extend over large areas and often cross locations exposed to multiple climate hazards. High winds can damage transmission towers and lines, while falling trees and wind-blown debris are important causes of distribution-system failures. Snow, freezing rain and ice accumulation can mechanically overload conductors and supporting structures, potentially causing line collapse and cascading outages. Wet snow or ice accumulating on insulators can also create a conductive path that allows an electrical arc to cross the insulator (flashover), causing a fault and potentially disconnecting the affected line. Wildfires and lightning can damage lines and substations, while flooding can inundate substations, underground cables, and other low-lying infrastructure.
+
+Higher temperatures present an additional operational challenge. Electrical resistance increases with temperature, reducing the carrying capacity and efficiency of transmission lines. Heat can also affect transformers and supporting communication infrastructure. These effects may occur at the same time that electricity demand for cooling is increasing, creating simultaneous pressure on network capacity and system operations [@IPCC_2022_WGII_Ch06; @IPCC_2022_WGIII_Ch06]. For more information on this topic, please refer to this [section](../sectors/infrastructure/infrastructure_design.ipynb).
+
+### Electricity-system vulnerability
+
+Electricity-system vulnerability arises from interactions among generation, demand, transmission, distribution, storage, and system operations. An individual hazard can affect several components simultaneously, while compound events can produce stresses that are not apparent when hazards are assessed separately. Examples include extreme heat increasing cooling demand while reducing thermal-generation efficiency and transmission capacity, or strong winds coinciding with high demand and operational constraints while also threatening overhead infrastructure.
+
+Long-term changes in average climate conditions are important for system planning, but short-duration extremes can determine whether sufficient generation and network capacity are available when needed. Assessments should therefore consider reliability, resource adequacy, operational flexibility, and the coincidence of weather-sensitive supply and demand, not only potential physical damage to individual assets.
+
+Some characteristics of low-carbon electricity systems may increase weather dependence, particularly where variable renewable generation represents a large share of supply. Other characteristics can strengthen resilience, including geographic diversification, a diverse generation mix, stronger regional interconnections, energy storage, demand-side flexibility, weatherization, distributed generation, and appropriately designed microgrids. The resilience of a future electricity system will therefore depend on its overall configuration and operation rather than on any single technology [@IPCC_2022_WGIII_Ch06].
+
+::: {.callout-important title="Implications for climate-data selection"}
+The climate information required depends on the decision being supported.
+Resource assessments may emphasize long-term changes in means, seasonality
+and variability, whereas infrastructure design and reliability assessments
+may require information on extremes, compound events, spatial dependence
+and the coincidence of weather-sensitive supply and demand.
+
+Hazard information alone is insufficient to determine risk. Assessments
+should also consider exposure, asset vulnerability, system configuration,
+adaptation measures and the consequences of service disruption. Because
+these factors can evolve over time, climate-risk assessments should be
+revisited as infrastructure, operations and the electricity mix change.
+:::
+
 
 ## References
 
