@@ -1,5 +1,16 @@
 project:
   type: website
+  render:
+    - "*.qmd"
+    - "*.ipynb"
+    - "!development/deprecated/IPCC_information.ipynb"
+    - "!development/deprecated/electricity_sector_activities_old.ipynb"
+    - "!development/legacy/Guidance_Overview.qmd"
+    - "!development/drafts/TextSectionParkingLot.ipynb"
+    - "!development/tools/NRCanMET_check.ipynb"
+    - "!datasets/observed_data/CanGrid.qmd"
+    - "!sectors/planning/infrastructure_condition_assessment_and_investment_prioritization.ipynb"
+    - "!sectors/operations/proactive_management_of_heavily_loaded_assets.ipynb"
   preview:
     port: 3210
     browser: false
