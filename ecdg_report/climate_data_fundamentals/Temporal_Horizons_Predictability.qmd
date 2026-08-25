@@ -30,14 +30,14 @@ Along with historical data, this document only provides information on climate p
 ### Seasonal forecasts:
 
 - [Copernicus Climate Change Service](https://climate.copernicus.eu/seasonal-forecasts)
-- [climatedata.ca](https://climatedata.ca/resource/what-are-seasonal-forecasts)
+- [What are Seasonal Forecasts](https://climatedata.ca/resource/what-are-seasonal-forecasts) (on ClimateData.ca)
 
 ### Decadal forecasts:
 
 - [[climatedata.ca]()]{.mark-red} (upcoming)
 
 ![Forecast types and their temporal horizons. Forecasts transition from an initial-value problem at shorter
-timescales to a forced boundary-value problem at longer timescales. Source:@BoerEtAl2016DCPP](./image/PredictionTypesAndTimeFrames_Meehletal2009.png)
+timescales to a forced boundary-value problem at longer timescales. Source: @BoerEtAl2016DCPP](./image/PredictionTypesAndTimeFrames_Meehletal2009.png)
 
 ## References
 
