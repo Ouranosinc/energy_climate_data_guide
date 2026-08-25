@@ -69,7 +69,7 @@ website:
             href: climate_data_fundamentals/Uncertainty_Confidence.qmd
           - text: "Climate-Information Gaps and Limitations"
             href: gaps/gaps_data.qmd
-          - text: "Climate-Data Formats"
+          - text: "Climate Data Formats"
             href: climate_data_fundamentals/Data_Formats.qmd
       - section: "Find and Compare Climate Datasets"
         href: guidance/Climate_Data_Decision_Tree.qmd
