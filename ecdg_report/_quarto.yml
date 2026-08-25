@@ -59,7 +59,7 @@ website:
             href: climate_data_fundamentals/Temporal_Horizons_Predictability.qmd
           - text: "Emissions Scenarios"
             href: climate_data_fundamentals/Emissions_scenarios.qmd
-          - text: "Climate-Model Ensembles"
+          - text: "Climate Model Ensembles"
             href: climate_data_fundamentals/Ensembles.qmd
           - text: "Projection Periods and Global Warming Levels"
             href: climate_data_fundamentals/Time_horizons_GWL.qmd
