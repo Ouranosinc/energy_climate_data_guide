@@ -68,8 +68,10 @@ Results from the maturity matrix can serve as the foundation of a focused and ac
 :::
 
 <!-- 
+## References
+
 <details>
-<summary><strong>References (click to expand)</strong></summary>
+<summary><strong>(click to expand)</strong></summary>
 
 ::: {#refs}
 :::
