@@ -130,19 +130,19 @@ website:
             href: apply_climate_data/risk_assessment.qmd
             contents:
               - text: "Step 1: Establish the Scope and Context"
-                href: adaptation/risk_step1.qmd
+                href: apply_climate_data/risk_step1.qmd
               - text: "Step 2: Understand the System, Structure, and Components"
-                href: adaptation/risk_step2_system.qmd
+                href: apply_climate_data/risk_step2_system.qmd
               - text: "Step 3: Hazard and Exposure Assessment"
-                href: adaptation/risk_step3_hazard.qmd
+                href: apply_climate_data/risk_step3_hazard.qmd
               - text: "Step 4: Climate Vulnerability Assessment"
-                href: adaptation/risk_step4_vulnerability.qmd
+                href: apply_climate_data/risk_step4_vulnerability.qmd
               - text: "Step 5: Climate Risk Assessment"
-                href: adaptation/risk_step5_risk.qmd
+                href: apply_climate_data/risk_step5_risk.qmd
               - text: "Step 6: Adaptation Plan"
-                href: adaptation/risk_step6_adapt.qmd
+                href: apply_climate_data/risk_step6_adapt.qmd
               - text: "Step 7: Reporting or Institutionalizing the Decision"
-                href: adaptation/risk_step7_institute.qmd
+                href: apply_climate_data/risk_step7_institute.qmd
       - section: "Build Organizational Capability"
         #href: maturity_matrix/Maturity_Matrix.qmd
         contents:
