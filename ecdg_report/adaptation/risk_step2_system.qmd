@@ -1,5 +1,5 @@
 ---
-title: "Step 2: Define the System"
+title: "Step 2: Understand the System, Structure, and Component(s)"
 bibliography: adaptation.bib 
 editor: 
   markdown: 

@@ -1,5 +1,5 @@
 ---
-title: "Step 1: Set the Assessment Context"
+title: "Step 1: Establish the Scope and Context"
 bibliography: adaptation.bib 
 editor: 
   markdown: 

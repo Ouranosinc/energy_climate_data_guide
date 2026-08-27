@@ -1,5 +1,5 @@
 ---
-title: "Step 3: Assess Climate Hazards"
+title: "Step 3: Hazard and Exposure Assessment"
 bibliography: adaptation.bib 
 editor: 
   markdown: 
