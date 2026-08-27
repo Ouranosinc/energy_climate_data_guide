@@ -1,7 +1,5 @@
 ---
-title: "Step 2: Define the System"
-aliases:
-  - /adaptation/risk_step2_system.html
+title: "Step 2: Understand the System, Structure, and Components"
 bibliography: adaptation.bib 
 editor: 
   markdown: 

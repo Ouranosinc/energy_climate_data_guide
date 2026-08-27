@@ -1,7 +1,5 @@
 ---
-title: "Step 5: Evaluate Risk"
-aliases:
-  - /adaptation/risk_step5_risk.html
+title: "Step 5: Climate Risk Assessment"
 bibliography: adaptation.bib 
 editor: 
   markdown: 

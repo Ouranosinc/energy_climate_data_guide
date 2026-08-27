@@ -1,7 +1,5 @@
 ---
-title: "Step 6: Develop Adaptation Actions"
-aliases:
-  - /adaptation/risk_step6_adapt.html
+title: "Step 6: Adaptation Plan"
 bibliography: adaptation.bib 
 editor: 
   markdown: 

@@ -71,7 +71,7 @@ website:
             href: climate_data_fundamentals/Temporal_Horizons_Predictability.qmd
           - text: "Emissions Scenarios"
             href: climate_data_fundamentals/Emissions_scenarios.qmd
-          - text: "Climate-Model Ensembles"
+          - text: "Climate Model Ensembles"
             href: climate_data_fundamentals/Ensembles.qmd
           - text: "Projection Periods and Global Warming Levels"
             href: climate_data_fundamentals/Time_horizons_GWL.qmd
@@ -129,22 +129,22 @@ website:
           - section: "Climate Vulnerability and Risk Assessment"
             href: apply_climate_data/risk_assessment.qmd
             contents:
-              - text: "Step 1: Set the Assessment Context"
-                href: apply_climate_data/risk_step1.qmd
-              - text: "Step 2: Define the System"
-                href: apply_climate_data/risk_step2_system.qmd
-              - text: "Step 3: Assess Climate Hazards"
-                href: apply_climate_data/risk_step3_hazard.qmd
-              - text: "Step 4: Assess Vulnerability"
-                href: apply_climate_data/risk_step4_vulnerability.qmd
-              - text: "Step 5: Evaluate Risk"
-                href: apply_climate_data/risk_step5_risk.qmd
-              - text: "Step 6: Develop Adaptation Actions"
-                href: apply_climate_data/risk_step6_adapt.qmd
-              - text: "Step 7: Institutionalize the Process"
-                href: apply_climate_data/risk_step7_institute.qmd
+              - text: "Step 1: Establish the Scope and Context"
+                href: adaptation/risk_step1.qmd
+              - text: "Step 2: Understand the System, Structure, and Components"
+                href: adaptation/risk_step2_system.qmd
+              - text: "Step 3: Hazard and Exposure Assessment"
+                href: adaptation/risk_step3_hazard.qmd
+              - text: "Step 4: Climate Vulnerability Assessment"
+                href: adaptation/risk_step4_vulnerability.qmd
+              - text: "Step 5: Climate Risk Assessment"
+                href: adaptation/risk_step5_risk.qmd
+              - text: "Step 6: Adaptation Plan"
+                href: adaptation/risk_step6_adapt.qmd
+              - text: "Step 7: Reporting or Institutionalizing the Decision"
+                href: adaptation/risk_step7_institute.qmd
       - section: "Build Organizational Capability"
-        href: organizational_capability/Maturity_Matrix.qmd
+        #href: maturity_matrix/Maturity_Matrix.qmd
         contents:
           - text: "Organizational Maturity Self-Assessment"
             href: organizational_capability/Maturity_Matrix.qmd
@@ -153,7 +153,7 @@ website:
           - text: "Procuring Physical Climate-Risk Assessments"
             href: organizational_capability/Guidance_Harrington.qmd
       - section: "Resources and Examples"
-        href: resources/Climate_Information_Ressources.qmd
+        #href: guidance/Climate_Information_Ressources.qmd
         contents:
           - text: "Online Climate-Information Resources"
             href: resources/Climate_Information_Ressources.qmd

@@ -1,7 +1,5 @@
 ---
-title: "Step 7: Institutionalize the Process"
-aliases:
-  - /adaptation/risk_step7_institute.html
+title: "Step 7: Reporting or Institutionalizing the Decision"
 bibliography: adaptation.bib 
 editor: 
   markdown: 
