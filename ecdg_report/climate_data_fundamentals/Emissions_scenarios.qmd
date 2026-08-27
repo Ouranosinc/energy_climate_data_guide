@@ -1,12 +1,12 @@
 ---
-title: Emissions scenarios
+title: Emissions Scenarios
 ---
 
 Climate models require assumptions about future atmospheric greenhouse gas concentrations and other factors that affect the climate system. These assumptions are represented through scenarios: structured and internally coherent descriptions of plausible futures, rather than predictions of what will occur.
 
 Scenarios are informed by possible socioeconomic developments, including changes in population, education, economic activity, technology, energy demand and sources, land use, urbanization, inequality, governance, and the degree of political commitment to reducing emissions. These factors influence future emissions, their accumulation in the atmosphere, society’s capacity to mitigate climate change, and its ability to adapt to climate impacts.
 
-Future socioeconomic development and emissions are inherently uncertain. Scenario uncertainty is therefore an important component of the overall uncertainty in climate projections, particularly over longer time horizons. Other important sources include differences in how climate models respond to the same forcing and natural climate variability.
+Future socioeconomic development and emissions are inherently uncertain. Scenario uncertainty is therefore an important component of the overall uncertainty in climate projections, particularly over longer time horizons. See [Uncertainty and Confidence](Uncertainty_Confidence.qmd) for the relationship between scenario uncertainty, model uncertainty and internal climate variability, and [Climate-Model Ensembles](Ensembles.qmd) for how these dimensions are represented in ensembles.
 
 ### Shared Socioeconomic Pathways (SSPs)
 

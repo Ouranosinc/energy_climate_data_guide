@@ -1,7 +1,11 @@
 ---
-title: Electricity Sector Activities Overview
+title: Electricity-Sector Activities
 
 ---
+
+This section organizes the guide around professional activities in electricity-system planning, operations, infrastructure and reporting. Start with the activity closest to the decision at hand to identify the climate inputs, analytical methods and related guidance that may be relevant.
+
+The activity pages connect sector needs with climate information without prescribing a single dataset or method. Readers who need additional context can move from an activity to the guide's climate-data fundamentals, dataset-selection guidance or application guidance.
 
 ## Electricity System Planning
 

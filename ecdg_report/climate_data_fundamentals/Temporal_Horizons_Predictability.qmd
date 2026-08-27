@@ -2,13 +2,11 @@
 <!--- This section is quarto yml with a list of all refernces to be included on this page --->
 
 ---
-title: Time Horizons and Predictability
+title: Forecasts, Projections and Predictability
 
 ---
 
-Climate data can be broadly divided into two distinct categories: historical data and future data. Historical data include any dataset aimed at providing information of the past as it actually occurred. They include in-situ observations (e.g. stations), remote sensing observations (satellite or radar-based measurements), or reconstructions, which combine multiple sources of information into a single gridded product. These reconstructions can be done by combining and interpolating observations directly, or by assimilating observations with a model of the atmosphere in a so-called reanalysis. Each type of product comes with advantages and limitations, and additional information on these products is provided in the various sections.
-
-Future data are all based on model simulations (we don’t have observations of the future yet!). These models are mathematical representations of the different Earth's components (e.g. atmosphere, ocean, land, sea ice) and are constructed using the known physical, chemical and biological processes governing these components (e.g. hot air near the surface is less dense than cold air and therefore will tend to rise up). These dataset are typically divided in the climate community according to the time horizon (target) of the predictions. They are:
+Future climate information is produced across multiple timescales. Weather forecasts, subseasonal and seasonal forecasts, decadal predictions and climate projections answer different questions, draw predictability from different parts of the climate system, and require different interpretation. In this guide, a **forecast** or **prediction** is initialized from an estimate of the current state to predict how conditions may evolve, whereas a **projection** describes possible future climate under specified assumptions about external forcing. The principal timescales are:
 
 - Weather forecasts (1-14 days)
 - Sub-seasonal forecasts (2-6 weeks)
@@ -16,26 +14,32 @@ Future data are all based on model simulations (we don’t have observations of 
 - Decadal forecasts (1-10 years)
 - Climate projections (+10 years; typically up to end of the century)
 
-There are many differences between these simulations, ranging from how they are produced to the type of information that they provide to how they should be evaluated. The first difference worth mentioning is the difference in the source of predictability: the longer the simulation, the less important the initial state of the system is for the simulation. For weather forecasts, the prediction is entirely dependent on the state of the atmosphere at the beginning of the simulation (what is referred to as an initial value problem). The predictability of sub-seasonal forecasts will originate from land conditions (soil moisture, snow cover) and stratospheric temperature, whereas the predictability of seasonal forecasts will originate from various atmospheric and oceanic oscillations such as El Nino Southern Oscillation. For decadal forecasts, the predictability originates from the slowly changing ocean conditions. It is important to note that, as we increase the horizon of the forecast, the initial conditions of the system become less important while the composition (and changes therein) of the atmosphere and its impact on the amount of solar radiation reaching the Earth’s surface becomes more important (what is referred to as a forced boundary-value problem; see figure below). For the longest simulations (climate projections), the initial state becomes completely irrelevant and what is important is the composition (and changes therein) of the atmosphere and its impact on the amount of solar radiation reaching the Earth’s surface. 
+There are many differences between these simulations, ranging from how they are produced to the type of information that they provide to how they should be evaluated. The first is the source of predictability: the longer the simulation, the less its forecast skill depends on the initial state of the system. Weather prediction depends strongly on the state of the atmosphere at the beginning of the simulation, which is referred to as an initial-value problem. Predictability at subseasonal timescales also draws on land conditions such as soil moisture and snow cover and on stratospheric conditions. Seasonal predictability draws on atmospheric and oceanic variations such as the El Niño–Southern Oscillation, while decadal predictions draw on slowly changing ocean conditions.
 
-Another important distinction is the type of information provided: only weather forecasts provide deterministic information (e.g. max/min temperature for each day of the forecast). For the other types of simulations, the information is typically aggregated over a specific time period and the statistics of that time period, and how it compares to a period of reference, are provided (e.g. +3 $^{\circ}$C on average compared to the pre-industrial era; 70% chance that winter will be warmer than normal). 
+At longer timescales, changes in atmospheric composition and their effect on the Earth's energy balance become more important; this is referred to as a forced boundary-value problem. Climate projections are not initialized to predict the exact sequence of future weather. Their long-term interpretation is instead conditional on assumptions about external forcing, which are described on the [Emissions Scenarios](Emissions_scenarios.qmd) page. Initial conditions nevertheless select different realizations of natural climate variability. Running the same climate-model experiment from slightly different initial conditions produces members with different weather sequences, as explained under [Climate-Model Ensembles](Ensembles.qmd). Thus, initial conditions do not provide long-term predictability of a particular weather sequence, but they remain useful for sampling internal variability.
+
+Another important distinction is the type of information provided: only weather forecasts provide deterministic information (e.g. max/min temperature for each day of the forecast). For the other types of simulations, the information is typically aggregated over a specific time period and the statistics of that time period, and how it compares to a period of reference, are provided (e.g. +3 $^{\circ}$C on average compared to the pre-industrial era; 70% chance that winter will be warmer than normal). The calendar windows and warming-level framings used for climate projections are discussed in [Projection Periods and Global Warming Levels](Time_horizons_GWL.qmd).
 
 Along with historical data, this document only provides information on climate projections. For the interested user, ressources for the other types of forecasts are listed below.
 
 ### Sub-seasonal Forecasts:
 
-- [(SubC (IRI)](https://iridl.ldeo.columbia.edu/maproom/Global/ForecastsS2S/index.html)
-- [ECMWF](https://www.ecmwf.int/en/research/projects/s2s)
+- [International Research Institute](https://iridl.ldeo.columbia.edu/maproom/Global/ForecastsS2S/index.html)
+- [European Centre for Medium-Range Weather Forecasts](https://www.ecmwf.int/en/research/projects/s2s)
 
 ### Seasonal forecasts:
 
 - [Copernicus Climate Change Service](https://climate.copernicus.eu/seasonal-forecasts)
-- [[climatedata.ca]()]{.mark-red} (upcoming)
+- [What are Seasonal Forecasts](https://climatedata.ca/resource/what-are-seasonal-forecasts) (on ClimateData.ca)
 
 ### Decadal forecasts:
 
 - [[climatedata.ca]()]{.mark-red} (upcoming)
 
-![Prediction Types and their temporal horizons](./image/PredictionTypesAndTimeFrames_Meehletal2009.png)
+![Forecast types and their temporal horizons. Forecasts transition from an initial-value problem at shorter
+timescales to a forced boundary-value problem at longer timescales. Source: @BoerEtAl2016DCPP](./image/PredictionTypesAndTimeFrames_Meehletal2009.png)
 
+## References
 
+::: {#refs}
+:::

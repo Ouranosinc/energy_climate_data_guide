@@ -3,19 +3,31 @@ title: Uncertainty and Confidence
 bibliography: ../adaptation/adaptation.bib 
 ---
 
-Uncertainty is also a normal part of investment and everyday decision-making. Everyday humans make plans for retirement savings now knowing what a market will do, choose to switch jobs or simply drive down the highway managing signal from other drivers, infer their actions and drive accordingly without perfect foresight. We are actually fairly adept at making decisions with a certain degree of uncertainty. Therefore, climate-related decisions should not be dismissed simply because of uncertainty or because new information continues to emerge.
+Uncertainty is a normal part of investment and everyday decision-making. Everyday humans make plans for retirement savings now knowing what a market will do, choose to switch jobs or simply drive down the highway managing signal from other drivers, infer their actions and drive accordingly without perfect foresight. We are actually fairly adept at making decisions with a certain degree of uncertainty. Therefore, climate-related decisions should not be dismissed simply because of uncertainty or because new information continues to emerge.
 
 ## Uncertainty
 
-Understanding uncertainty is critical when working with climate change scenarios and projections. In this context, uncertainty refers to the differences among various future projections. There are three primary sources of uncertainty:
+Understanding uncertainty is critical when working with climate scenarios and projections. Three practical sources contribute to the range of future climate information: internal climate variability, model uncertainty and scenario uncertainty. Their relative importance depends on the variable, location, timescale and application.
 
-**Aleatory Uncertainty (Natural Variability)**: this type of uncertainty arises from the inherent randomness and natural fluctuations within the climate system. Climate models address aleatory uncertainty through random sampling and by simulating a range of possible outcomes.
+### Internal Climate Variability
 
-**Epistemic Uncertainty (Knowledge Gaps)**: this type of uncertainty is related to what we do not know about the system. No model is perfect -- differences in the physics behind climate models and variability in the socio-economic scenarios (such as Shared Socioeconomic Pathways \[SSP\]) can lead to different climate projections. Using multiple models helps to account for these knowledge gaps.
+Internal climate variability arises from natural fluctuations within the climate system. Even under the same external forcing, the climate can produce different sequences of weather and different conditions over a particular period. Initial-condition ensembles sample this variability by repeating the same model experiment with small differences in its starting state. See [Climate-Model Ensembles](Ensembles.qmd) for the role of initial-condition members in an ensemble.
 
-**Deep Uncertainty**: this type of uncertainty encompasses a broader set of unknowns, including aleatory and epistemic uncertainty, as well as unpredictable factors such as policy choices, evolving societal values, technological changes, and the interconnectedness of decisions. Deep uncertainty is especially relevant for complex projects with significant societal impacts.
+### Model Uncertainty
 
-This guide primarily addresses aleatory and epistemic uncertainty related to climate change, which is suitable for most electricity sector applications. Managing deep uncertainty may require specialized tools or approaches, particularly for complex development projects or systems with extensive societal interactions. For more information on deep uncertainty please see [The Society for Decision Making under Deep Uncertainty](https://www.deepuncertainty.org/).
+Model or structural uncertainty arises because climate models use different structures, parameterizations and approximations to represent the climate system. Models can therefore respond differently to the same external forcing. Multi-model ensembles help represent this range, but their spread reflects the models included and does not encompass every limitation or unknown process. The construction and interpretation of these ensembles are discussed under [Climate-Model Ensembles](Ensembles.qmd).
+
+### Scenario Uncertainty
+
+Scenario uncertainty arises because future socioeconomic development, emissions and external forcing cannot be known in advance. It is represented by comparing projections under different plausible scenarios. Scenario uncertainty generally becomes more important over longer time horizons as pathways diverge. The assumptions and appropriate use of these pathways are discussed under [Emissions Scenarios](Emissions_scenarios.qmd).
+
+### Relationship to Aleatory and Epistemic Uncertainty
+
+These three practical sources can also be described using the broader concepts of **aleatory** and **epistemic** uncertainty. Aleatory uncertainty refers to inherent variability and therefore maps most directly to internal climate variability. Epistemic uncertainty concerns limitations in knowledge and representation; model uncertainty falls primarily in this category. Scenario uncertainty also has an epistemic dimension because future forcing is not known, but it additionally reflects choices and developments that are not simply model knowledge gaps. These classifications describe related aspects of uncertainty rather than mutually exclusive categories.
+
+**Deep uncertainty** encompasses a broader set of unknowns, including aleatory and epistemic uncertainty, as well as factors such as policy choices, evolving societal values, technological changes and the interconnectedness of decisions. Deep uncertainty is especially relevant for complex projects with significant societal impacts.
+
+This guide primarily addresses internal variability, model uncertainty and scenario uncertainty in climate information, which is suitable for most electricity-sector applications. Managing deep uncertainty may require specialized tools or approaches, particularly for complex development projects or systems with extensive societal interactions. For more information, see [The Society for Decision Making under Deep Uncertainty](https://www.deepuncertainty.org/).
 
 ## Confidence in the Analysis
 
@@ -23,7 +35,7 @@ Confidence in climate data must be distinguished from uncertainty. It refers to 
 
 It is important to distinguish confidence from uncertainty. For example, a parameter might have a wide range of possible values (high uncertainty), but if those values are well-supported by extensive research and consistent evidence, we can still have high confidence in the analysis. Conversely, a narrow range of projections might be less trustworthy if the underlying models do not adequately represent key processes.
 
-The IPCC communicates findings using both confidence levels (ranging from "very low" to "very high") and likelihood terms (such as "virtually certain" or "exceptionally unlikely") to describe the probability of specific climate outcomes. Likelihood terms are tied to quantitative probability ranges, while confidence levels reflect the quality, consistency, and agreement of the scientific evidence.
+The IPCC communicates findings using both confidence levels (ranging from "very low" to "very high") and likelihood terms (such as "virtually certain" or "exceptionally unlikely") to describe the probability of specific climate outcomes. Likelihood terms are tied to quantitative probability ranges, while confidence levels reflect the quality, consistency and agreement of the scientific evidence. Agreement among ensemble members may contribute to an assessment of confidence, but ensemble agreement alone does not establish confidence because the quality and independence of the evidence must also be considered.
 
 @cannon_2020 have also produced generic confidence tiers to regional-scale projections for all of Canada. They recommend using high to medium confidence indicators for engineering design, as they are supported by strong evidence. Medium to high confidence indicators are suitable for risk analysis, cost/benefit analysis, and exploratory studies, and may sometimes be used in design. Low confidence indicators can be used for exploring the impacts of climate change or loading or structural reliability.
 

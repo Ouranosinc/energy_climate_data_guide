@@ -1,54 +1,68 @@
 ---
-title: Time Horizons and Global Warming Levels
+title: Projection Periods and Global Warming Levels
 ---
 
-[NB. Some work remains to be done in merging the two versions.]{.red-text}
+Future climate information is commonly organized in two complementary ways: by a specified future **projection period** or by the **global warming level** reached. A projection period describes climate conditions during a defined calendar window, whereas a global warming level describes regional or local conditions associated with a specified increase in global mean temperature. The distinction matters because different climate models and emissions scenarios may reach the same warming level at different times. Neither framing is universally preferable; the appropriate choice depends on the purpose and timing of the analysis.
 
-### Version 1
+For an explanation of how climate projections differ from weather, seasonal and decadal forecasts, see [Forecasts, Projections and Predictability](Temporal_Horizons_Predictability.qmd). Detailed discussions of [emissions scenarios](Emissions_scenarios.qmd), [climate-model ensembles](Ensembles.qmd) and [uncertainty](Uncertainty_Confidence.qmd) are provided on the neighboring pages.
 
-## Time Horizons {#temporal-horizon}
+## Projection Periods {#temporal-horizon}
 
-In climate research and adaptation planning, temporal horizons are time windows used to analyze and communicate projected climate conditions over meaningful periods. They are typically defined as multi-decadal intervals — such as the 2030s (2021–2050), 2050s (2041–2070), and 2080s (2071–2100) — to align with the World Meteorological Organization's (WMO) [suggestion to use 30 year periods](https://wmo.int/topics/climate) for the determination of average climate parameters. These horizons are used because climate evolves gradually, and planning decisions (e.g., infrastructure design, policy, resource management) often have lifespans spanning decades. By comparing climate statistics over these periods to a historical reference baseline (e.g., 1981–2010), researchers and practitioners can assess how conditions may evolve over time. Temporal horizons therefore provide a practical framework for linking climate projections to decision-making timelines in adaptation and risk management. More information on the rationale behind using 30 year averages, also called climate normals can be found on ClimateData.ca with an interactive tutorial on [The Importance of Using 30 Years of Data](https://climatedata.ca/resource/30-years-data/).
+Projection periods are multi-year or multi-decadal calendar windows used to summarize projected climate conditions. Climate analyses commonly use periods of 20 or 30 years so that statistics describe climate rather than individual years. Thirty-year periods are consistent with the World Meteorological Organization's guidance on [climatological standard normals](https://wmo.int/topics/climate). ClimateData.ca also provides an interactive explanation of [the importance of using 30 years of data](https://climatedata.ca/resource/30-years-data/).
 
+Common labels include the near term or **2030s**, mid-century or **2050s**, and end of century or **2080s**. These labels are shorthand and must be accompanied by the exact years represented because conventions vary. For example, an assessment might use:
 
-## Global Warming Levels
+- **Historical baseline:** a 30-year period representing historical or recent climate conditions, such as 1991--2020.
+- **Near-term projection period (2030s):** 2021--2050.
+- **Mid-term projection period (2050s):** 2041--2070.
+- **Long-term projection period (2080s):** 2071--2100.
 
-Traditionally, climate projections have been presented as the change of a future 20-year or 30-year period (e.g. 2071-2100) with respect to present climate conditions. However, during the last IPCC cycle, the WG1 introduced the concept of Warming Levels (WLs), wherein climate change projections are presented relative to the change in Global Mean Temperature (GMT) with respect to preindustrial conditions (e.g. 2◦C above preindustrial level), rather than tied to a designated future period (or [Temporal Horizon](#temporal-horizon)). In this framework, a WL is first selected (e.g. 2◦C) and then, for each GCM of an ensemble, the 20-year or 30-year period centered on the predetermined change in GMT is selected for comparison. Because the GCMs warm at different rates, the GCMs will reach the selected level of warming at different times. Consequently, different future time periods will usually be selected for each GCMs. 
+The start and end years may differ among assessments, and projection periods may overlap. The historical baseline must also be stated explicitly so that projected changes can be interpreted correctly.
 
-Since simulations will reach a warming level regardless of the model properties or the emissions scenario, WL-based assessment can include multiple emissions scenarios and even "hot models" (@Hausfather2022) with a very strong response to increased GHG concentrations. An ensemble of simulations at a given WL will still describe the climate of a world at that global average temperature. When using WL, the ensemble spread is usually reduced, however the time of emergence of the conditions remain not well defined. Another advantage of using WL lies in the connection to climate change mitigation policy which is oriented to limiting warming to certainn levels defined by a temperature increase, such as the 1.5˚C target.
+Projection periods are particularly useful when an analysis is tied to a calendar date, planning cycle or asset lifetime. A near-term operational plan and a long-lived generation, transmission or water-management asset may require different periods. The projection period used for climate analysis should therefore align, as far as practical, with the **planning horizon** relevant to the decision.
 
-
-### Version 2
-
-## Time Horizons
-
-Time boundaries (time horizons) should reflect the expected lifespan of the SSC or the period during which climate impacts may become critical. Multiple time horizons or scenarios may be used to capture a range of plausible futures. Climate analyses commonly used multi-decade periods of at least 30 years to reflect how climate statistics are derived an interpreted. The selected horizon(s) should also match the decision type, such as near-term operational planning versus long-term asset management. For climate assessments, there are four common time horizons that may be used in the assessed:
-
-**Baseline or Historical Time Horizon:** 30-year period representing the current/historical climate conditions.
-
-**Near-term Time Horizon:** (sometimes also referred to as the Near-Century or 2030s) -- 30-year period representing the near-term period of the century (e.g., 2021-2050).
-
-**Mid-term Time Horizon:** (sometimes also referred to as the Mid-Century or 2050s) -- 30-year period representing the mid period of the century (e.g., 2041-2070).
-
-**Long-term Time Horizon:** (sometimes also referred to as the End-of-Century or 2080s) -- 30-year period representing the end period of the century (e.g., 2071-2100).
-
-The actual 30-year start end dates may vary and time horizons may overlap depending on the assessment requirements. Currently, high variability and uncertainty exist in climate models when projecting past 2100. If the climate assessment requires climate data past 2100, please consult the Environment and Climate Change or the Water Resources team.
+Results for a given projection period depend on the emissions scenario and on how individual climate models respond to the associated forcing. Differences among emissions scenarios generally become more important later in the century, while model response and natural variability also contribute to the range of projected conditions. Analyses extending beyond 2100 require particular care because fewer simulations are available and uncertainty is high.
 
 ## Global Warming Levels
 
-A global warming level (GWL) considers the climate scenario on the basis of a 30-year period, with the prescribed global average amount of warming rather than a time-scenario basis. For example, the scenario would be a world with an average increase in temperatures of 2.0℃. This method has the distinct advantage of being agnostic to the scenario being considered so that data from SSP2-4.5 and SSP5-8.5 can be mixed and may reduce the uncertainty of the assessment. Since some GCMs tend to warm faster than others a time basis may result in larger uncertainty because a 1.5℃ warmer model is mixed with a 2.0℃ warmer model. Similarly, the threshold will be reached sooner in SSP2-4.5 than in SSP5-8.5 so a 30-year period in the 2070's under SSP2-4.5 will be mixed with the 2050's in SSP5-8.5 but importantly they will represent the same climatic conditions. This also potentially increases the size of the ensemble being considered. If 10 GCMs were available for each SSP, then 30 GCMs are available for a 1.5℃ scenario, whereas only 10 GCMs are available for SS2-4.5 in the 2030's (2021-2040).
+A **global warming level** (GWL) represents a specified increase in global mean surface temperature relative to pre-industrial conditions, commonly the 1850--1900 reference period. Examples include 1.5°C, 2°C, 3°C and 4°C of global warming. Rather than asking about climate during one calendar period, a GWL analysis asks what regional or local climate conditions are associated with a world that has reached the selected amount of global warming.
 
-Typical years used for the start of the respective GWL's used by the IPCC is shown in the table below.
+For each climate-model simulation, a 20- or 30-year window is generally selected around the time the prescribed warming level is reached. Models respond to forcing at different rates, and emissions scenarios follow different trajectories. Consequently, the calendar years associated with a GWL usually differ among models and scenarios. A higher-forcing scenario may reach a selected level earlier than a lower-forcing scenario, while some scenarios or simulations may not reach higher warming levels within the period available for analysis.
 
-| Global Warming Level (℃) | SSP1-2.6 | SSP2-4.5  | SSP3-7.0  | SSP5-8.5  |
-|:--------------------------:|:-----------:|:-----------:|:-----------:|:-----------:|
-| 1.5                      | 2023-2042 | 2021-2040 | 2021-2040 | 2018-2037 |
-| 2.0                      |           | 2043-2062 | 2037-2056 | 2032-2051 |
-| 3.0                      |           |           | 2066-2085 | 2055-2074 |
-| 4.0                      |           |           |           | 2075-2094 |
+Aligning simulations by warming level allows regional changes to be compared at a common amount of global warming. It can also allow simulations from multiple emissions scenarios to contribute to an ensemble when they reach the selected level. This may increase the available ensemble size and can reduce some of the spread caused by comparing models at different amounts of warming during a fixed period. The approach can include models with a strong temperature response, sometimes described as "hot models" [@Hausfather2022], provided they are interpreted at the selected warming level.
 
-: Summary of 20-year average GWL based on multiple lines of evidence. This is the first 20-year period in which the global average temperature exceeds the threshold in comparison to pre-industrial (1850-1900) levels (Adapted from IPCC Cross-Section, box TS.1, Table 1)
+These advantages do not eliminate uncertainty. Simulations aligned at the same GWL share a similar global mean temperature change, but they do not necessarily produce identical regional climates. Differences in model structure, natural variability and regional responses remain. A GWL framing also does not identify one calendar date at which the associated conditions will occur: the timing depends on the model and scenario. Results should therefore retain information about the simulations included and the periods selected for them.
 
+GWLs provide a direct connection to mitigation goals expressed in terms of limiting global temperature increase, including 1.5°C and 2°C. The table below illustrates the scenario-dependent timing used in the IPCC Sixth Assessment Report. Blank cells indicate that the warming level is not reached under that scenario within the assessed period.
+
+| Global warming level (°C) | SSP1-2.6 | SSP2-4.5 | SSP3-7.0 | SSP5-8.5 |
+|:-------------------------:|:--------:|:--------:|:--------:|:--------:|
+| 1.5 | 2023--2042 | 2021--2040 | 2021--2040 | 2018--2037 |
+| 2.0 |  | 2043--2062 | 2037--2056 | 2032--2051 |
+| 3.0 |  |  | 2066--2085 | 2055--2074 |
+| 4.0 |  |  |  | 2075--2094 |
+
+: Approximate first 20-year periods in which global mean temperature reaches the specified level relative to 1850--1900, based on multiple lines of evidence. Adapted from the IPCC Sixth Assessment Report Working Group I Technical Summary, Cross-Section Box TS.1, Table 1 [@IPCC_2021_WGI_TS].
+
+## Comparing the Two Approaches
+
+| Framing | Defined by | Particularly useful when | Important consideration |
+|---|---|---|---|
+| **Projection period** | A specified calendar window, such as 2041--2070 | The decision is tied to a date, planning cycle or asset lifetime | Results depend on the emissions scenario, model response and exact years selected |
+| **Global warming level** | A specified increase in global mean temperature relative to a reference period | Comparing regional changes or impacts consistently at a common amount of global warming | The associated calendar period differs among models and scenarios, and some simulations may not reach the selected level |
+
+The approaches answer different questions. A projection period asks, *What climate conditions may occur during this future time window?* A global warming level asks, *What regional or local conditions are associated with this amount of global warming?* A GWL can be translated into model- and scenario-specific calendar windows, but it should not be treated as a single future date.
+
+## Choosing an Approach for an Application
+
+For an electricity-sector application, consider how the climate information will be used:
+
+- Use a projection period when the decision is tied to a specific date, regulatory cycle, planning horizon or asset lifetime.
+- Consider a global warming level when the objective is to compare impacts at a common amount of warming, connect the analysis with temperature-based mitigation goals, or compare with assessments already expressed using GWLs.
+- Preserve scenario-dependent timing when the timing of impacts, investments or adaptation actions is important.
+- State the exact projection years or GWL definition, reference period, averaging window, scenarios and models used so that results can be interpreted and compared correctly.
+
+Some applications may benefit from presenting both framings. For example, projection periods can support date-specific planning while GWLs help explain how the same regional changes relate to global temperature outcomes. The choice should be documented rather than assumed, and no single approach is appropriate for every electricity-sector assessment.
 
 ## References
 

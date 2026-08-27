@@ -1,5 +1,5 @@
 ---
-title: "Adapting to Climate Change"
+title: "Integrating Climate Information into Models and Decisions"
 bibliography: adaptation.bib 
 ---
 
@@ -59,10 +59,11 @@ Confidence in the data may distinguish between the confidence in the Signal obta
 
 Provide the IPCC and ISO definitions of risk and vulnerability... recognize that different framework may express these concepts different
 
-![IPCC_Risk](./images/IPCC_AR6_WGII_Figure_1_005a.png)
-Risk in IPCC assessment through time. (a) An explicit risk framing emerged in the IPCC Special Report on Managing the Risks of Extreme Events and Disasters to Advance Climate Change Adaptation (SREX) and WGII AR5 (IPCC, 2014a, b). (b) In the current assessment, the role of responses in modulating the determinants of risk is a new emphasis (the ‘wings’ of the hazard, vulnerability, and exposure ‘propellers’ represents the ways in which responses modulate each of these risk determinants). (c) As the risk assessment spans Working Groups, the differential role of risk determinants for risk related to impacts, adaptation, and vulnerability versus risk related to mitigation becomes an increasingly important feature of climate risk assessment as well as management.
-
-Figure 1.5 in Ara Begum, R., R. Lempert, E. Ali, T.A. Benjaminsen, T. Bernauer, W. Cramer, X.   Cui, K. Mach, G. Nagy, N.C. Stenseth, R. Sukumar, and P. Wester, 2022: Point of Departure and Key Concepts. In: Climate Change 2022: Impacts, Adaptation, and Vulnerability. Contribution of Working Group II to the Sixth Assessment Report of the Intergovernmental Panel on Climate Change [H.-O. Pörtner, D.C. Roberts, M. Tignor, E.S. Poloczanska, K. Mintenbeck, A. Alegría, M. Craig, S. Langsdorf, S. Löschke, V. Möller, A. Okem, B. Rama (eds.)]. Cambridge University Press, Cambridge, UK and New York, NY, USA, pp. 121-196, doi:10.1017/9781009325844.003.
+![Risk in IPCC assessment through time.</br>
+(a) An explicit risk framing emerged in the IPCC Special Report on Managing the Risks of Extreme Events and Disasters to Advance Climate Change Adaptation (SREX) and WGII AR5 (IPCC, 2014a, b).</br>
+(b) In the current assessment, the role of responses in modulating the determinants of risk is a new emphasis (the ‘wings’ of the hazard, vulnerability, and exposure ‘propellers’ represents the ways in which responses modulate each of these risk determinants).</br>
+(c) As the risk assessment spans Working Groups, the differential role of risk determinants for risk related to impacts, adaptation, and vulnerability versus risk related to mitigation becomes an increasingly important feature of climate risk assessment as well as management.</br>
+Figure 1.5 from @IPCC_2022_WGII_Ch_1](./images/IPCC_AR6_WGII_Figure_1_005a.png)
 
 ## Evaluating Vulnerability
 

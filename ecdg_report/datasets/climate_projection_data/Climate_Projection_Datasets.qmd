@@ -5,7 +5,7 @@ title: Climate Projection Datasets
 
 ## Summary Description
 
-Climate projection datasets are collections of outputs from climate models that simulate the climate of the past as well as future climate conditions. Future simulations are based on [future greenhouse gas emissions scenarios](#emissions-scenarios). These datasets are used to assess potential impacts of climate change on various sectors, including agriculture, water resources, energy systems or ecosystems. Most climate projection datasets presented in this guide have been [bias-adjusted](#bias-adjustment) to account for systematic deviations of the simulations from observed climatology. The strengths and limitations discussed on this page refer to these bias-adjusted datasets. See [CMIP6](CMIP6.ipynb) and [CORDEX](CORDEX.ipynb) for strengths and limitations of the raw datasets that serve as input for bias-adjusted datasets.
+Climate projection datasets are collections of outputs from climate models that simulate the climate of the past as well as future climate conditions. Future simulations are based on [future greenhouse gas emissions scenarios](../../climate_data_fundamentals/Emissions_scenarios.qmd). These datasets are used to assess potential impacts of climate change on various sectors, including agriculture, water resources, energy systems or ecosystems. Most climate projection datasets presented in this guide have undergone [bias adjustment](../../climate_data_fundamentals/Bias_adjustment.qmd) to account for systematic deviations of the simulations from observed climatology. The strengths and limitations discussed on this page refer to these bias-adjusted datasets. See [CMIP6](CMIP6.ipynb) and [CORDEX](CORDEX.ipynb) for strengths and limitations of the raw datasets that serve as input for bias-adjusted datasets.
 
 
 
@@ -23,7 +23,9 @@ biosphere). Global climate models (GCMs) or Earth system models (ESMs) can be in
 
 ## Regional Climate Models
 
-Any region’s climate is inevitably linked to the global atmospheric circulation, therefore any simulation with a Regional climate model (RCMs) requires information about atmospheric conditions at its boundaries. Within a regional domain, RCMs operate on the same principles as GCMs; however, they are limited to smaller geographical regions. The conditions at the regions boundaries are taken from GCM simulations or global reanalysis of observational data to drive a regional model. With their smaller spatial coverage, RCM simulations can be run at higher spatial resolution than GCM simulations, thus providing added value where small-scale features impact local climate, such as mountains or coastlines. The process of running an RCM with the input from a driving GCM is often referred to as “dynamical downscaling,” since the higher spatial resolution output from the RCM is intrinsically tied to the coarser driving data. Generations of ensembles of RCM simulations become available later than the GCM simulations, as they depend on the latter as their driving data. Hence, a CMIP generations data from GCMs are published first, followed by those from RCMs. Usually, RCMs will be driven by a relatively small subset of available GCM simulations, which modifies RCM ensemble characteristics compared to GCM ensembles. A regions RCM ensemble will be defined by a combination of RCMs and GCMs which can be represented as a matrix. The [North America CORDEX-CMIP5 simulation matrix](https://na-cordex.org/simulation-matrix.html) provides an example of such an ensemble based on the GCMs modeling centers selected to drive their RCM(s). 
+Regional climate models (RCMs) operate on the same physical principles as GCMs but cover smaller geographical domains. They receive atmospheric conditions at their boundaries from GCM simulations or global reanalysis. When an RCM uses a GCM simulation as its driving data, the process is called **dynamical downscaling**: the RCM produces higher-resolution regional information that remains tied to the coarser global simulation. For a comparison with statistical downscaling and a discussion of methodological assumptions and limitations, see [Downscaling and Bias Adjustment](../../climate_data_fundamentals/Bias_adjustment.qmd).
+
+Ensembles of RCM simulations become available later than the GCM simulations on which they depend. RCMs are also usually driven by a relatively small subset of available GCM simulations, which affects the dimensions represented by the regional ensemble. An RCM ensemble is defined by combinations of driving GCMs and RCMs that can be represented as a matrix. The [North America CORDEX-CMIP5 simulation matrix](https://na-cordex.org/simulation-matrix.html) provides an example. See [Climate Model Ensembles](../../climate_data_fundamentals/Ensembles.qmd) for guidance on ensemble composition and [Uncertainty and Confidence](../../climate_data_fundamentals/Uncertainty_Confidence.qmd) for interpreting the resulting range.
 
 
 ## Strengths and Limitations
@@ -34,7 +36,7 @@ Any region’s climate is inevitably linked to the global atmospheric circulatio
 |-|---|
 | **High spatial resolution** | Resolves effects of regional topography and local climate patterns better than GCMs. |
 | **Supports impact studies** | Designed to be used for vulnerability, impact, and adaptation (VIA) studies. |
-| **Adjustement of biases**   | Some of GCM's biases are sustantially reduced. |
+| **Bias adjustment** | Some GCM biases are substantially reduced. |
 : {.tbl .striped .light .sm tbl-colwidths="[25,75]"}
 
 ### Key Limitations of bias-adjusted datasets
@@ -42,13 +44,13 @@ Any region’s climate is inevitably linked to the global atmospheric circulatio
 |Limitation|Description|
 |-|---|
 | **Reference bias** |Biases present in the reference dataset will also appear in bias-adjusted datasets.|
-| **Biases remain** | Bias-adjustment cannot completely remove all biases. Different methods will target different characteristics of a dataset. |
+| **Biases remain** | Bias adjustment cannot completely remove all biases. Different methods will target different characteristics of a dataset. |
 | **No-physics at the small scale** | The fine resolution information only come from the reference and not a physical simulation of the future. |
-| **Bias stationnarity** | Bias-adjustment assumes that the bias are constant over time. |
+| **Bias stationarity** | Bias adjustment assumes that biases remain constant over time. |
 : {.tbl .striped .light .sm tbl-colwidths="[25,75]"}
 
 ## Expert Guidance {#expert-guidance}
 
-For guidance on using climate projection data see the section on core concepts of climate science and analysis [Climate: Core Concepts](../../climate_data_fundamentals/Climate_Data_Fundamentals.qmd).
+For an introduction to the principal types and sources of climate information, see [Types of Climate Data](../Climate_Datasets_Overview.ipynb).
 
 

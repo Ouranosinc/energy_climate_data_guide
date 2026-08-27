@@ -1,5 +1,5 @@
 ---
-title: Climate Data and Information Gaps
+title: Climate-Information Gaps and Limitations
 ---
 
 This page identifies gaps in climate information, datasets, and methods relevant for the use of climate data in the electricity sector.

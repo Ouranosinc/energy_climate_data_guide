@@ -1,9 +1,11 @@
 ---
-title: Online Resources
+title: Online Climate-Information Resources
 
 ---
 
-This document provides information on online resources available to the electricity sector in Canada. They are public portals and websites that offer reliable and authoritative climate information and data.
+This section brings together resources that support different stages of climate-information use. This page focuses on external climate-information portals and support services available to the electricity sector in Canada.
+
+Readers looking for practical illustrations can continue to [Example Applications](Example_Applications.ipynb). Those seeking reusable analytical workflows can consult [Analysis Support Tools](tools/Analysis_Support_Tools.ipynb), including a tool to compare observational datasets at a point.
 
 ## ClimateData.ca
 The [ClimateData.ca](https://climatedata.ca) online platform offers a wide range of resources related to the past and future Canadian climate data, as well as analysis tools and a large quantity of educational materials to support the assessment of climate change impacts and the development of mitigation and adaptation strategies. The site allows users to visualize climate projections over Canada and [download](https://climatedata.ca/download/) a number of datasets, notably Adjusted and Homogenized Canadian Climate Data ([AHCCD](../datasets/observed_data/AHCCD-CanHom_Station_Data.ipynb)), future building design values, Intensity-Duration-Frequency (IDF) rainfall data and observations from Canadian stations. The site also include information on [IDF Curves](https://climatedata.ca/learn/?#module-175), [infrastructure design in the context of a changing climate](https://climatedata.ca/learn/?#module-176), [seasonal forecasts](https://climatedata.ca/learn/?#module-212) as well as a series of resources on [climate science and climate data](https://climatedata.ca/learn/?), amongst others.

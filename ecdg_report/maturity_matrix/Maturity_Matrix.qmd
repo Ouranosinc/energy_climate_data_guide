@@ -1,11 +1,13 @@
 ---
-title: Maturity Matrix for Self-Assessment
+title: "Organizational Maturity Self-Assessment"
 
 ---
 
 ## Summary Description
 
 The Climate Data Maturity Matrix is a structured self-assessment tool designed to help energy sector practitioners evaluate how climate information is integrated into planning, operations, and investment decisions. It covers organizational capacity, climate understanding, planning integration, data practices, validation processes, fitness-for-purpose considerations, and the treatment of uncertainty. The matrix is intended to support internal reflection and structured improvement rather than external benchmarking.
+
+Use the matrix to identify areas for organizational improvement, then consult [Organizational Gaps and Barriers](../gaps/gaps_organization.qmd) for common challenges affecting climate-data use. Where external expertise is needed, [Procuring Physical Climate-Risk Assessments](../guidance/Guidance_Harrington.qmd) provides questions to support informed procurement and oversight.
 
 [Download the Maturity Matrix (Excel)](Maturity_Matrix_v2.xlsx)
 
@@ -66,8 +68,10 @@ Results from the maturity matrix can serve as the foundation of a focused and ac
 :::
 
 <!-- 
+## References
+
 <details>
-<summary><strong>References (click to expand)</strong></summary>
+<summary><strong>(click to expand)</strong></summary>
 
 ::: {#refs}
 :::

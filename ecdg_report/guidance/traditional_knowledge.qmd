@@ -1,5 +1,5 @@
 ---
-title: Guidance on using Traditional Knowledge
+title: Indigenous Knowledge and Climate-Related Decisions
 ---
 
 [Download the full guidance document (PDF)](./Indigenous_Knowledge_Guidance.pdf)
@@ -45,4 +45,4 @@ Indigenous knowledge provides **place-based, long-term perspectives** that compl
 
 - There is no standardized approach; practices must be **community-specific**  
 - Engagement must be grounded in **respect, relationship-building, and transparency**  
-- Indigenous knowledge should not be treated as a generic dataset, but as **contextual knowledge governed by communities** 
+- Indigenous knowledge should not be treated as a generic dataset, but as **contextual knowledge governed by communities**

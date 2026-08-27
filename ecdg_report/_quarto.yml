@@ -21,59 +21,78 @@ website:
     collapse-level: 1
     #search: true
     contents:
-      - PurposeOfTheGuide.qmd
-      - section: "Electricity Sector Activities"
+      - text: "Start Here"
+        href: PurposeOfTheGuide.qmd
+      - section: "Electricity-Sector Activities"
         href: sectors/electricity_sector_activities.qmd
         contents:
-          - section: "Electricity System Planning"
+          - section: "Electricity-System Planning"
             contents:
-              - sectors/planning/demand.qmd
-              - sectors/planning/generation_forecasting.qmd
-              - sectors/planning/capacity_expansion_modelling.qmd
-              - sectors/planning/resource_adequacy_planning.qmd
+              - text: "Demand Forecasting"
+                href: sectors/planning/demand.qmd
+              - text: "Generation Forecasting"
+                href: sectors/planning/generation_forecasting.qmd
+              - text: "Capacity Expansion Modelling"
+                href: sectors/planning/capacity_expansion_modelling.qmd
+              - text: "Resource Adequacy Planning"
+                href: sectors/planning/resource_adequacy_planning.qmd
           - section: "Operations Planning"
             contents:
-              - sectors/operations/outage_scheduling.qmd
-              - sectors/operations/vegetation_management.qmd
+              - text: "Outage Scheduling"
+                href: sectors/operations/outage_scheduling.qmd
+              - text: "Vegetation Management"
+                href: sectors/operations/vegetation_management.qmd
           - section: "Infrastructure Planning and Asset Management"
             contents:
-              - sectors/infrastructure/dam_safety_review.qmd
-              - sectors/infrastructure/infrastructure_condition_assessment_and_investment_prioritization.ipynb
-              - sectors/infrastructure/infrastructure_design.ipynb
-          # - section: "Assurance, Reporting and Disclosures"
-          - sectors/reporting/reporting_disclosure.qmd
-          - sectors/Sectors_Template.qmd
-      # The page for the maturity matrix
-      - maturity_matrix/Maturity_Matrix.qmd
-      - section: "Climate: Core Concepts"
-        href: climate_data_fundamentals/Climate_Data_Fundamentals.qmd
-        contents:
-          - climate_data_fundamentals/Temporal_Horizons_Predictability.qmd
-          - climate_data_fundamentals/Emissions_scenarios.qmd
-          - climate_data_fundamentals/Ensembles.qmd
-          - climate_data_fundamentals/Time_horizons_GWL.qmd
-          - climate_data_fundamentals/Bias_adjustment.qmd
-          - climate_data_fundamentals/Uncertainty_Confidence.qmd
-          - climate_data_fundamentals/Data_Formats.qmd
-          - climate_data_fundamentals/core_concepts_data.qmd
-          - climate_data_fundamentals/Deprecated_Climate_Data_Fundamentals.ipynb
-      # The section on climate datasets
-      - section: "Climate Datasets"
+              - text: "Dam Safety Review"
+                href: sectors/infrastructure/dam_safety_review.qmd
+              - text: "Infrastructure Condition Assessment and Investment Prioritization"
+                href: sectors/infrastructure/infrastructure_condition_assessment_and_investment_prioritization.ipynb
+              - text: "Infrastructure Design"
+                href: sectors/infrastructure/infrastructure_design.ipynb
+          - text: "Reporting and Disclosure"
+            href: sectors/reporting/reporting_disclosure.qmd
+      - section: "Understand Climate Data"
         href: datasets/Climate_Datasets_Overview.ipynb
         contents:
-          - datasets/Datasets_Overview_Table.qmd
+          - text: "Forecasts, Projections and Predictability"
+            href: climate_data_fundamentals/Temporal_Horizons_Predictability.qmd
+          - text: "Emissions Scenarios"
+            href: climate_data_fundamentals/Emissions_scenarios.qmd
+          - text: "Climate Model Ensembles"
+            href: climate_data_fundamentals/Ensembles.qmd
+          - text: "Projection Periods and Global Warming Levels"
+            href: climate_data_fundamentals/Time_horizons_GWL.qmd
+          - text: "Downscaling and Bias Adjustment"
+            href: climate_data_fundamentals/Bias_adjustment.qmd
+          - text: "Uncertainty and Confidence"
+            href: climate_data_fundamentals/Uncertainty_Confidence.qmd
+          - text: "Climate-Information Gaps and Limitations"
+            href: gaps/gaps_data.qmd
+          - text: "Climate Data Formats"
+            href: climate_data_fundamentals/Data_Formats.qmd
+      - section: "Find and Compare Climate Datasets"
+        href: guidance/Climate_Data_Decision_Tree.qmd
+        contents:
+          - text: "Compare Documented Datasets"
+            href: datasets/Datasets_Overview_Table.qmd
+          - text: "Find Datasets by Variable"
+            href: datasets/Datasets_by_Variable.qmd
           - section: "Observational Data"
             href: datasets/observed_data/Observational_Datasets.ipynb
             contents:
-              - datasets/observed_data/AHCCD-CanHom_Station_Data.ipynb
-              - datasets/observed_data/NRCANmet_Gridded_Data.ipynb
-              #- datasets/observed_data/CanGrid.qmd
+              - text: "AHCCD and CanHom Station Data"
+                href: datasets/observed_data/AHCCD-CanHom_Station_Data.ipynb
+              - text: "NRCanMet Gridded Data"
+                href: datasets/observed_data/NRCANmet_Gridded_Data.ipynb
           - section: "Reanalysis Data"
             href: datasets/reanalysis_data/Reanalysis_Datasets.ipynb
             contents:
-              - datasets/reanalysis_data/ERA5-Land.ipynb
-              - datasets/reanalysis_data/CaSR.ipynb
-          - section: "Climate Projection Data"
+              - text: "ERA5-Land"
+                href: datasets/reanalysis_data/ERA5-Land.ipynb
+              - text: "Canadian Surface Reanalysis (CaSR)"
+                href: datasets/reanalysis_data/CaSR.ipynb
+          - section: "Climate-Projection Data"
             href: datasets/climate_projection_data/Climate_Projection_Datasets.qmd
             contents:
               - text: CMIP6
@@ -84,50 +103,70 @@ website:
               - datasets/climate_projection_data/CanDCS-M6.ipynb
               - datasets/climate_projection_data/CanLEAD.ipynb
               - datasets/climate_projection_data/NEX-GDDP-CMIP6.ipynb
-          - datasets/Datasets_by_Variable.qmd
-          - datasets/Dataset_Template.ipynb
-      - section: "Guidance"
+      - section: "Apply Climate Data"
+        href: adaptation/Adaptation.qmd
         contents:
-          - guidance/Climate_Data_Decision_Tree.qmd   
-          - guidance/traditional_knowledge.qmd
-          - guidance/Climate_Information_Ressources.qmd
-          - guidance/IPCC_information.qmd
-          - guidance/Guidance_Harrington.qmd
-          - guidance/Example_Applications.ipynb
+          - text: "Adaptation, Risk and Vulnerability: Core Concepts"
+            href: adaptation/core_concepts_adapt.qmd
+          - text: "Integrating Climate Information into Models and Decisions"
+            href: adaptation/model_integration.qmd
+          - text: "Indigenous Knowledge and Climate-Related Decisions"
+            href: guidance/traditional_knowledge.qmd
+          - text: "IPCC Information for Electricity-Sector Applications"
+            href: guidance/IPCC_information.qmd
+          - section: "Climate Vulnerability and Risk Assessment"
+            href: adaptation/risk_assessment.qmd
+            contents:
+              - text: "Step 1: Set the Assessment Context"
+                href: adaptation/risk_step1.qmd
+              - text: "Step 2: Define the System"
+                href: adaptation/risk_step2_system.qmd
+              - text: "Step 3: Assess Climate Hazards"
+                href: adaptation/risk_step3_hazard.qmd
+              - text: "Step 4: Assess Vulnerability"
+                href: adaptation/risk_step4_vulnerability.qmd
+              - text: "Step 5: Evaluate Risk"
+                href: adaptation/risk_step5_risk.qmd
+              - text: "Step 6: Develop Adaptation Actions"
+                href: adaptation/risk_step6_adapt.qmd
+              - text: "Step 7: Institutionalize the Process"
+                href: adaptation/risk_step7_institute.qmd
+      - section: "Build Organizational Capability"
+        #href: maturity_matrix/Maturity_Matrix.qmd
+        contents:
+          - text: "Organizational Maturity Self-Assessment"
+            href: maturity_matrix/Maturity_Matrix.qmd
+          - text: "Organizational Gaps and Barriers"
+            href: gaps/gaps_organization.qmd
+          - text: "Procuring Physical Climate-Risk Assessments"
+            href: guidance/Guidance_Harrington.qmd
+      - section: "Resources and Examples"
+        #href: guidance/Climate_Information_Ressources.qmd
+        contents:
+          - text: "Online Climate-Information Resources"
+            href: guidance/Climate_Information_Ressources.qmd
+          - text: "Example Applications"
+            href: guidance/Example_Applications.ipynb
           - section: "Analysis Support Tools"
             href: guidance/tools/Analysis_Support_Tools.ipynb
             contents:
-              - guidance/tools/Point_Location_Compare.ipynb
-      - section: "Gaps and Barriers"
-        contents:
-          - gaps/gaps_data.qmd 
-          - gaps/gaps_organization.qmd  
+              - text: "Compare Observational Datasets at a Point"
+                href: guidance/tools/Point_Location_Compare.ipynb
       - section: Workshops
         href: workshops/intro_workshops.ipynb
         contents:
           - workshops/content_particip.ipynb
-          - workshops/findings.ipynb      
-      - section: Adaptation
-        href: adaptation/Adaptation.qmd
+          - workshops/findings.ipynb
+      - section: "Development Resources"
         contents:
-          #- section: "Core Concepts"
-          #  href: adaptation/core_concepts.qmd
-          #  contents:
-              # - adaptation/core_concepts_data.qmd
-          - adaptation/core_concepts_adapt.qmd
-          - adaptation/model_integration.qmd
-          - section: "Vulnerability & Risk"
-            href: adaptation/risk_assessment.qmd
-            contents: 
-              - adaptation/risk_assessment.qmd
-              - adaptation/risk_step1.qmd
-              - adaptation/risk_step2_system.qmd
-              - adaptation/risk_step3_hazard.qmd
-              - adaptation/risk_step4_vulnerability.qmd
-              - adaptation/risk_step5_risk.qmd
-              - adaptation/risk_step6_adapt.qmd
-              - adaptation/risk_step7_institute.qmd
-      - QuartoFunctionalityExamples.ipynb
+          - text: "Sector Page Template"
+            href: sectors/Sectors_Template.qmd
+          - text: "Dataset Page Template"
+            href: datasets/Dataset_Template.ipynb
+          - text: "Deprecated Climate Data Fundamentals"
+            href: climate_data_fundamentals/Deprecated_Climate_Data_Fundamentals.ipynb
+          - text: "Quarto Functionality Examples"
+            href: QuartoFunctionalityExamples.ipynb
       
 format:
   html:
