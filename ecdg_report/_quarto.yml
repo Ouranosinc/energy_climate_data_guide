@@ -132,7 +132,7 @@ website:
               - text: "Step 7: Institutionalize the Process"
                 href: adaptation/risk_step7_institute.qmd
       - section: "Build Organizational Capability"
-        href: maturity_matrix/Maturity_Matrix.qmd
+        #href: maturity_matrix/Maturity_Matrix.qmd
         contents:
           - text: "Organizational Maturity Self-Assessment"
             href: maturity_matrix/Maturity_Matrix.qmd
@@ -141,7 +141,7 @@ website:
           - text: "Procuring Physical Climate-Risk Assessments"
             href: guidance/Guidance_Harrington.qmd
       - section: "Resources and Examples"
-        href: guidance/Climate_Information_Ressources.qmd
+        #href: guidance/Climate_Information_Ressources.qmd
         contents:
           - text: "Online Climate-Information Resources"
             href: guidance/Climate_Information_Ressources.qmd
