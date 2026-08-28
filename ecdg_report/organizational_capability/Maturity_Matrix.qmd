@@ -1,7 +1,5 @@
 ---
 title: "Organizational Maturity Self-Assessment"
-aliases:
-  - /maturity_matrix/Maturity_Matrix.html
 
 ---
 
