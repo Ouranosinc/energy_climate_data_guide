@@ -1,0 +1,1505 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.10.18">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Step 5: Climate Risk Assessment – Climate Data for the Electricity Sector</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../apply_climate_data/risk_step6_adapt.html" rel="next">
+<link href="../apply_climate_data/risk_step4_vulnerability.html" rel="prev">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-b2ca3485c9b416a95012318dbba09b40.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<style>html{ scroll-behavior: smooth; }</style>
+<script src="../site_libs/quarto-diagram/mermaid.min.js"></script>
+<script src="../site_libs/quarto-diagram/mermaid-init.js"></script>
+<link href="../site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="../styles/styles.css">
+</head>
+
+<body class="nav-sidebar docked quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../apply_climate_data/Adaptation.html">Apply Climate Data</a></li><li class="breadcrumb-item"><a href="../apply_climate_data/risk_assessment.html">Climate Vulnerability and Risk Assessment</a></li><li class="breadcrumb-item"><a href="../apply_climate_data/risk_step5_risk.html">Step 5: Climate Risk Assessment</a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+      <a href="../index.html" class="sidebar-logo-link">
+      <img src="../image/Logo_McMaster_and_Ouranos_vertical_trans.png" alt="" class="sidebar-logo light-content py-0 d-lg-inline d-none">
+      <img src="../image/Logo_McMaster_and_Ouranos_vertical_trans.png" alt="" class="sidebar-logo dark-content py-0 d-lg-inline d-none">
+      </a>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../PurposeOfTheGuide.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Start Here</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../sectors/electricity_sector_activities.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Electricity-Sector Activities</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false">
+ <span class="menu-text">Electricity-System Planning</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../sectors/planning/demand.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Demand Forecasting</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../sectors/planning/generation_forecasting.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Generation Forecasting</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../sectors/planning/capacity_expansion_modelling.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Capacity Expansion Modelling</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../sectors/planning/resource_adequacy_planning.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Resource Adequacy Planning</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="false">
+ <span class="menu-text">Operations Planning</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../sectors/operations/outage_scheduling.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Outage Scheduling</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../sectors/operations/vegetation_management.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Vegetation Management</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="false">
+ <span class="menu-text">Infrastructure Planning and Asset Management</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../sectors/infrastructure/dam_safety_review.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Dam Safety Review</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../sectors/infrastructure/infrastructure_condition_assessment_and_investment_prioritization.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Infrastructure Condition Assessment and Investment Prioritization</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../sectors/infrastructure/infrastructure_design.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Infrastructure Design</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../sectors/reporting/reporting_disclosure.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Reporting and Disclosure</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../climate_data_fundamentals/Climate_Datasets_Overview.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Understand Climate Data</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../climate_data_fundamentals/Temporal_Horizons_Predictability.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Forecasts, Projections and Predictability</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../climate_data_fundamentals/Emissions_scenarios.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Emissions Scenarios</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../climate_data_fundamentals/Ensembles.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Climate Model Ensembles</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../climate_data_fundamentals/Time_horizons_GWL.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Projection Periods and Global Warming Levels</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../climate_data_fundamentals/Bias_adjustment.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Downscaling and Bias Adjustment</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../climate_data_fundamentals/Uncertainty_Confidence.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Uncertainty and Confidence</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../climate_data_fundamentals/gaps_data.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Climate-Information Gaps and Limitations</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../climate_data_fundamentals/Data_Formats.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Climate-Data Formats</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../datasets/Climate_Data_Decision_Tree.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Find and Compare Climate Datasets</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-6" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../datasets/Datasets_Overview_Table.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Compare Documented Datasets</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../datasets/Datasets_by_Variable.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Find Datasets by Variable</span></a>
+  </div>
+</li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../datasets/observed_data/Observational_Datasets.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Observational Data</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-7" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../datasets/observed_data/AHCCD-CanHom_Station_Data.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">AHCCD and CanHom Station Data</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../datasets/observed_data/NRCANmet_Gridded_Data.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">NRCanMet Gridded Data</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../datasets/reanalysis_data/Reanalysis_Datasets.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Reanalysis Data</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-8" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-8" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../datasets/reanalysis_data/ERA5-Land.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">ERA5-Land</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../datasets/reanalysis_data/CaSR.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Canadian Surface Reanalysis (CaSR)</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../datasets/climate_projection_data/Climate_Projection_Datasets.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Climate-Projection Data</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-9" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-9" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../datasets/climate_projection_data/CMIP6.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">CMIP6</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../datasets/climate_projection_data/CORDEX.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">CORDEX</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../datasets/climate_projection_data/ESPO-G6.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">ESPO-G6</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../datasets/climate_projection_data/CanDCS-M6.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">CanDCS-M6</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../datasets/climate_projection_data/CanLEAD.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">CanLEAD</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../datasets/climate_projection_data/NEX-GDDP-CMIP6.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">NEX-GDDP-CMIP6</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../apply_climate_data/Adaptation.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Apply Climate Data</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-10" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-10" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../apply_climate_data/core_concepts_adapt.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Adaptation, Risk and Vulnerability: Core Concepts</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../apply_climate_data/model_integration.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Integrating Climate Information into Models and Decisions</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../apply_climate_data/traditional_knowledge.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Indigenous Knowledge and Climate-Related Decisions</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../apply_climate_data/IPCC_information.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">IPCC Information for Electricity-Sector Applications</span></a>
+  </div>
+</li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../apply_climate_data/risk_assessment.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Climate Vulnerability and Risk Assessment</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-11" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-11" class="collapse list-unstyled sidebar-section depth2 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../apply_climate_data/risk_step1.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Step 1: Establish the Scope and Context</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../apply_climate_data/risk_step2_system.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Step 2: Understand the System, Structure, and Components</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../apply_climate_data/risk_step3_hazard.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Step 3: Hazard and Exposure Assessment</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../apply_climate_data/risk_step4_vulnerability.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Step 4: Climate Vulnerability Assessment</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../apply_climate_data/risk_step5_risk.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Step 5: Climate Risk Assessment</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../apply_climate_data/risk_step6_adapt.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Step 6: Adaptation Plan</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../apply_climate_data/risk_step7_institute.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Step 7: Reporting or Institutionalizing the Decision</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-12" role="navigation" aria-expanded="false">
+ <span class="menu-text">Build Organizational Capability</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-12" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-12" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../organizational_capability/Maturity_Matrix.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Organizational Maturity Self-Assessment</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../organizational_capability/gaps_organization.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Organizational Gaps and Barriers</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../organizational_capability/Guidance_Harrington.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Procuring Physical Climate-Risk Assessments</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-13" role="navigation" aria-expanded="false">
+ <span class="menu-text">Resources and Examples</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-13" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-13" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../resources/Climate_Information_Ressources.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Online Climate-Information Resources</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../resources/Example_Applications.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Example Applications</span></a>
+  </div>
+</li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../resources/tools/Analysis_Support_Tools.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Analysis Support Tools</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-14" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-14" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../resources/tools/Point_Location_Compare.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Compare Observational Datasets at a Point</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../workshops/intro_workshops.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Workshops</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-15" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-15" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../workshops/content_particip.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Worshop contents and Participation</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../workshops/findings.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Findings</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-16" role="navigation" aria-expanded="false">
+ <span class="menu-text">Development Resources</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-16" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-16" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../development/templates/Sectors_Template.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Sector Page Template</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../development/templates/Dataset_Template.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Dataset Page Template</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../development/deprecated/Deprecated_Climate_Data_Fundamentals.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Deprecated Climate Data Fundamentals</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../development/examples/QuartoFunctionalityExamples.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Quarto Functionality Examples</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active" data-toc-expanded="-1">
+    <h2 id="toc-title">Content</h2>
+   
+  <ul>
+  <li><a href="#assess-consequence" id="toc-assess-consequence" class="nav-link active" data-scroll-target="#assess-consequence">Assess Consequence</a></li>
+  <li><a href="#assess-likelihood" id="toc-assess-likelihood" class="nav-link" data-scroll-target="#assess-likelihood">Assess Likelihood</a></li>
+  <li><a href="#risk-quantification" id="toc-risk-quantification" class="nav-link" data-scroll-target="#risk-quantification">Risk Quantification</a></li>
+  <li><a href="#level-of-concern" id="toc-level-of-concern" class="nav-link" data-scroll-target="#level-of-concern">Level of Concern</a>
+  <ul>
+  <li><a href="#key-steps-for-determining-level-of-concern" id="toc-key-steps-for-determining-level-of-concern" class="nav-link" data-scroll-target="#key-steps-for-determining-level-of-concern">Key Steps for Determining Level of Concern</a></li>
+  </ul></li>
+  <li><a href="#adaptation-strategy-quadrants" id="toc-adaptation-strategy-quadrants" class="nav-link" data-scroll-target="#adaptation-strategy-quadrants">Adaptation Strategy Quadrants</a></li>
+  <li><a href="#risk-prioritization" id="toc-risk-prioritization" class="nav-link" data-scroll-target="#risk-prioritization">Risk Prioritization</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../apply_climate_data/Adaptation.html">Apply Climate Data</a></li><li class="breadcrumb-item"><a href="../apply_climate_data/risk_assessment.html">Climate Vulnerability and Risk Assessment</a></li><li class="breadcrumb-item"><a href="../apply_climate_data/risk_step5_risk.html">Step 5: Climate Risk Assessment</a></li></ol></nav>
+<div class="quarto-title">
+<h1 class="title">Step 5: Climate Risk Assessment</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<p>This step may be completed which estimates climate risk for each relevant climate interaction with the system by combining: the climate <a href="../apply_climate_data/risk_step3_hazard.html## Hazard and Climate Driver Identification">hazard</a> <em>(what could occur)</em>, <a href="../apply_climate_data/risk_step3_hazard.html## Exposure Assessment">exposure</a> <em>(what parts of the system are in direct/indirect contact with the hazard)</em>, and <a href="../apply_climate_data/risk_step4_vulnerability.html">vulnerability</a> <em>(how the system responds, based on sensitivity and existing capacity to cope)</em>. Risk can be described using the IPCC framing and formula:</p>
+<p><span class="math display">\[
+R = f(H,E,V)
+\]</span></p>
+<p>where Risk (<span class="math inline">\(R\)</span>); Hazard (<span class="math inline">\(H\)</span>); Exposure (<span class="math inline">\(E\)</span>); and Vulnerability (<span class="math inline">\(V\)</span>).</p>
+<p>This risk concept is beneficial for understanding how different key factors influence the overall risk of an system and how modification of one of these factors can reduce the overall risk. See <a href="../apply_climate_data/core_concepts_adapt.html">Core Concepts: Understanding Adaptation</a> for more details. It can also be directly mapped to the traditional definition of risk:</p>
+<p><span class="math display">\[
+R = L × C
+\]</span> where Risk (<span class="math inline">\(R\)</span>); Likelihood (<span class="math inline">\(L\)</span>); and Consequence (<span class="math inline">\(C\)</span>),</p>
+<p>In this framing, likelihood is driven by the hazard (for selected scenarios, time horizons, and indicator values), while consequence is driven by the exposure and vulnerability (how the system performs if the event occurs). The relationship between the IPCC concept of risk and traditional risk definitions are discussed in <a href="../apply_climate_data/core_concepts_adapt.html">Core Concepts: Understanding Adaptation</a>. The relationship between likelihood and consequence to estimate risk is typically visually represented with a risk matrix or heat map and can vary depending on the type of risk assessment that is completed.</p>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div>
+<p></p><figure class="figure"><p></p>
+<div>
+<pre class="mermaid mermaid-js">---
+config:
+    flowchart:
+        curve: linear
+---
+flowchart-elk TD
+    A[Step 1: Develop Scope]:::basic --&gt; B[Step 2: Understand System]:::basic
+    B --&gt; C[Step 3: Hazard &amp; Exposure Assessment]:::basic
+    C --&gt; D[Step 4: Vulnerability Assessment]:::basic
+    H[Step 7: Institutionalize Decision]:::basic
+    D --&gt; |No Vulnerability| H
+    D --&gt; |Vulnerable| E[Step 5: Risk Assessment]:::focus
+    F[Step 6: Adaptation Plan]:::basic
+    E --- J1
+    D --- J1(( )):::join
+    J1 --&gt; |Unacceptable Vulnerability or Risk| F
+    E --&gt; |Risk Acceptable| H
+    F --&gt; H
+
+    classDef basic fill:#CAD4D6
+    classDef focus fill:#CAD4D6, stroke:#CE153D, color:#CE153D
+    classDef join height:0px
+</pre>
+</div>
+<p></p><figcaption> Generic Workflow for Adaptation</figcaption> </figure><p></p>
+</div>
+</div>
+</div>
+<div class="callout callout-style-default callout-note callout-titled" title="The Challenge of Uncertainty">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>The Challenge of Uncertainty
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-1" class="callout-1-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Climate risk assessment is often challenging because both likelihood and consequence are uncertain, and uncertainty generally increases further into the future. For that reason, risk may be better represented as a range of results across scenarios and time horizons rather than a single value, and it may be impractical to represent climate risk as a single point on a traditional probability-consequence matrix. The objective of the assessment should be to evaluate multiple climate scenarios to understand a range of possible risks for any given climate interaction with an system. Accurately assessing climate risk may require a nuanced understanding of the climate data and specialized climate science expertise to complement engineering teams.</p>
+</div>
+</div>
+</div>
+<p>This step supports forward-looking decisions by documenting how likelihood and consequence are estimated, showing how results change across scenarios, and clearly describing confidence and uncertainty so decision-makers can understand what is known, what is uncertain, and what could change the outcome.</p>
+<div class="callout callout-style-simple callout-none no-icon callout-titled" title="Simple Climate Risk Assessment">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">None</span>Simple Climate Risk Assessment
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-2" class="callout-2-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>In a simple risk assessment, a critical threshold (a performance-based criteria) should be clearly identified in <a href="###%20Performance%20Criteria">Performance Criteria</a>. This may be a failure criterion, a limit at which a factor of safety is exceeded or any other pre-defined value. This is considered a simple risk assessment because single consequence is defined based on exceeding this threshold makes the climate risk assessment a function of likelihood, since crossing the critical threshold will always result in the same outcome. The risk is effectively univariate. This is the type of risk assessment primarily documented in the body of this section in the following sub-steps.</p>
+</div>
+</div>
+</div>
+<div class="callout callout-style-simple callout-none no-icon callout-titled" title="Complex Climate Risk Assessment">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-3-contents" aria-controls="callout-3" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">None</span>Complex Climate Risk Assessment
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-3" class="callout-3-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>A complex climate risk assessment occurs where a critical threshold is poorly defined or does not exist (a risk-informed criteria) requiring a decision maker to determine their risk tolerance in order to take further action. It is considered complex because the risk matrix will require consideration of distinct likelihood-consequence points, making the risk bi-variate. For example, climate change may impact the production of a generating station. As the projected climate indicator increases, production will decrease and a decision maker will need to decide how much loss is acceptable in order to make an adaptation decision.</p>
+</div>
+</div>
+</div>
+<div class="callout callout-style-simple callout-none no-icon callout-titled" title="Outcomes">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-4-contents" aria-controls="callout-4" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">None</span>Outcomes
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-4" class="callout-4-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Expected outcomes of this step may include: - Mapping of the consequence values from the vulnerability assessment - Development of likelihood values including method and approach, as well as key assumptions that were made when completing the likelihood analysis - Calculation of the risk, including all climate scenarios and time horizons evaluated - Development of the level of concern matrix for each risk, documenting the level of uncertainty associated with each estimated climate risk - Documentation of risk prioritization and rationales (if applicable)</p>
+</div>
+</div>
+</div>
+<section id="assess-consequence" class="level2">
+<h2 class="anchored" data-anchor-id="assess-consequence">Assess Consequence</h2>
+<p>This sub-step estimates consequence (severity) for each relevant climate interaction using the exposure and vulnerability results. Consequence describes what would happen if the climate condition occurred; it does not consider probability.</p>
+<p>The consequence is the result of a risk event being realized and should be directly derived from the vulnerability.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/consequence.png" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
+</figure>
+</div>
+<p>If preliminary impacts were developed as part of the <a href="../apply_climate_data/risk_step3_hazard.html## Exposure Assessment">exposure assessment</a>, they should be reviewed as part of this step and considered in the consequence/severity scale. For each climate interaction, a consequence/severity level(s) should be determined, and applicable impacts (financial, environmental, reputational, etc.) associated with the consequence should be documented. Consequence scores will then be carried forward and combined with the likelihood of the interaction to estimate risk.</p>
+<div class="callout callout-style-simple callout-none no-icon callout-titled" title="Simple Risk Assessment">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-5-contents" aria-controls="callout-5" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">None</span>Simple Risk Assessment
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-5" class="callout-5-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>For a simple climate risk assessment, the critical threshold used in <a href="../apply_climate_data/risk_step4_vulnerability.html">Step 4: Climate Vulnerability Assessment</a> should be evaluated to determine the magnitude of the consequence, making the consequence the result of system performance only. The figure below provides a flow diagram for determining consequence.</p>
+<p>For example, if passing beyond a critical threshold resulted in the consequence of a unit tripping off, there would be an impact financially to revenue, there may be a reputational impact, environmental impact or safety impact which are defined in the consequence/severity scale.</p>
+<p>For most simple risk assessments, the same impact will apply to the consequence regardless of the scenario (i.e.&nbsp;a dam failure will have the same impact to human life regardless of the warming scenario). In some instances, differences in impacts may be expected across scenarios being assessed. For example, the value of money may change between the near term and long-term or the local population may be expected to change resulting in a greater impact from an system failure in the later future scenarios.</p>
+</div>
+</div>
+</div>
+<div class="callout callout-style-simple callout-none no-icon callout-titled" title="Complex Risk Assessment">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-6-contents" aria-controls="callout-6" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">None</span>Complex Risk Assessment
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-6" class="callout-6-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>A complex risk assessment is when a well-defined threshold does not exist, and more reliance is placed on a decision maker to determine risk tolerance. For example, if assessing how much production is expected under future climate scenarios, there is not likely to be a well-defined threshold for what an acceptable amount would be. Instead, a decision maker may need to look at changing conditions and determine if profits or risk of decreased performance is acceptable.</p>
+<p>In a complex risk assessment, the likelihood and consequence must be co-evaluated as a paired value and derived together. The likelihood, by definition, must be the probability of an event. Without a threshold based on the system a new value shall be selected. This may be the baseline performance (i.e.&nbsp;using a historic expected value) or it could be variable, (i.e.&nbsp;the likelihood of exceeding a series of values). Other appropriate values may also be used.</p>
+<p>The likelihood and consequence are determined together choosing first a climate indicator value, scenario or consequence from the vulnerability assessment and then the likelihood of that scenario occurring. The risk is then calculated or placed on the matrix to show how likelihood and consequence change in relationship to each other.</p>
+<p>For example, hydroelectric production is expected to change as a function changing precipitation, but a clear threshold below which production is unacceptable cannot be easily defined. A model can be used in a stress test to simulate the production from various scenarios using total annual precipitation as an indicator to develop a vulnerability curve. The 50th percentile of historic annual production of 100GWh may be selected as a baseline. For SSP2-4.5 and SSP5-8.5 the likelihood of exceeding 90GWh, 100GWh, 110GWh, etc. can be calculated for the 2050’s and 2080’s and compared by a decision maker to the baseline value to make an informed decision about the significance of the risk and any adaptation options they wish to pursue.</p>
+</div>
+</div>
+</div>
+</section>
+<section id="assess-likelihood" class="level2">
+<h2 class="anchored" data-anchor-id="assess-likelihood">Assess Likelihood</h2>
+<p>This sub-step estimates the likelihood that a climate indicator will reach levels that matter for system performance, within the selected scenario(s) and time horizon(s). Likelihood methods depend on the type and quality of climate data available. Where modelled projections are available for the indicator, likelihood may be estimated quantitatively.</p>
+<p><strong>Select Climate Scenarios:</strong> Before quantifying risk, determine which climate scenarios to analyze. This includes deciding how to represent time (e.g., based on the design life of the system) and which climate scenarios to use (e.g., different emissions pathways or global warming levels). For long-lived assets, multiple scenarios may be needed; for shorter-lived assets, a single scenario may suffice. Rationale for choices should be clearly documented.</p>
+<div class="callout callout-style-simple callout-none no-icon callout-titled" title="Example Scenarios">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-7-contents" aria-controls="callout-7" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">None</span>Example Scenarios
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-7" class="callout-7-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<ul>
+<li>Probability of an event under different global warming levels (e.g., 2°C, 2.5°C, 3°C). Refer to <a href="../climate_data_fundamentals/Time_Horizons_GWL.qmd">“Time Horizons and Global Warming Levels”</a> for more details on global warming levels.</li>
+<li>Probability of an event under specific climate scenarios (e.g.&nbsp;SSP2-4.5, SSP5-8.5) for different future time windows (e.g., 2050s, 2080s).</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="callout callout-style-default callout-note callout-titled" title="Note on time">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-8-contents" aria-controls="callout-8" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Note on time
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-8" class="callout-8-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>The more climate scenarios and time horizons needed for the assessment, the more likelihood values will need to be calculated for each climate indicator. For example, if SSP2-4.5 and SSP5-8.5 climate scenarios are selected for the 2°C global warming level, under two future time horizons (2050s and 2080s time periods), then four distinct likelihood values will need to be calculated and compared in the analysis. The time window selected should include 30 years to capture climate variability, but does not need to exceed system design life beyond that.</p>
+</div>
+</div>
+</div>
+<p><strong>Select the Future Value or Range Criteria:</strong> For each scenario, determine the historic and future value or range in which likelihood will be calculated. That is, the future value or range of possibilities within the climate scenario ensembles in which statistical analysis will be calculated against. Percentiles could also be used to add some conservatism, at the cost of sample size. For example, the number of 75th percentile or greater events that exceed the critical threshold could be compared to the total number of events that exceed the 75th percentile of the climate projection data.</p>
+<p><strong>Assess Probability:</strong> For each scenario, determine the probability of relevant hazards and indicators. This is completed through statistical analysis to calculate the probability of the future value or range exceeding the selected threshold (performance criteria) established previously. For simple risk assessments, the probability should be calculated following the classical formula, or other established statistical methods, for determine the probability of event <span class="math inline">\(X\)</span> occurring:</p>
+<p><span class="math display">\[
+L(X) = \frac{\text{Number of times X occurs}}{\text{Total Number of Events}}
+\]</span></p>
+<p>This formula is applied with respect to a pre-defined threshold. In the simple climate risk analysis scenario, where a critical threshold has been identified, this should be the number of times the climate data in a 30+ year window exceeds the critical threshold divided by the total number of data points. For complex risk assessments, this probability calculation may vary.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/Likelihood.png" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
+</figure>
+</div>
+<div class="callout callout-style-default callout-note callout-titled" title="Stationarity Assumptions">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-9-contents" aria-controls="callout-9" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Stationarity Assumptions
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-9" class="callout-9-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>The classic probability formula assumes data are stationary, which means there is no long-term trend. This assumption is false, but may be useful. Climate data should be compared in 30-40 year windows where stationarity assumptions are more valid and not used for long periods of time. Alternatively, probabilities may be estimated from fitted probability distributions, some of which may be applied to non-stationary data. For screening and other high-level assessments, the probability may be able to be reasonable estimated visually.</p>
+</div>
+</div>
+</div>
+<p><strong>Mapping Probability:</strong> Once the probabilities of a climate indicator exceeding the performance criteria is calculated, map each of the scenario probabilities to a likelihood scale or criteria. This is done so that risk can be estimated by combining the likelihood level with the consequence level. This will result in a likelihood value for each scenario and time horizon evaluated for a given climate indicator.</p>
+<div class="callout callout-style-simple callout-none no-icon callout-titled" title="Semi-Quantitative Likelihood Analysis">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-10-contents" aria-controls="callout-10" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">None</span>Semi-Quantitative Likelihood Analysis
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-10" class="callout-10-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>For climate hazards and indicators where limitations exist in the climate data and quantitative analysis of likelihood is not possible (e.g., non-modelled hazards), likelihood can be estimated semi-quantitatively. In these situations, likelihood level is informed by relevant and available literature or studies associated with the climate hazard or indicator and compared against the performance criteria established for the climate interaction. Some examples of climate hazards that would require semi-quantitative likelihood scoring would be hailstorms, lightning strikes or tornados.</p>
+<p>Like the quantitative method, expected future likelihood level needs to be mapped to a likelihood scale or criteria in order to estimate risk. Depending on the nature of the climate risk assessment and the relevant hazards, the assessment may need to estimate likelihood using both quantitative and semi-quantitative approaches. This may be unavoidable. In these situations, it is best practice to map likelihood level to the same likelihood scale, so risk can be estimated in a similar manner.</p>
+<p>Semi-quantitative likelihood scoring contains a higher level of uncertainty, as the process involves more subjectivity in the scoring process, and relies on relevant literature being available and relevant for the hazard or climate indicator.</p>
+</div>
+</div>
+</div>
+</section>
+<section id="risk-quantification" class="level2">
+<h2 class="anchored" data-anchor-id="risk-quantification">Risk Quantification</h2>
+<p>The final risk (risk level) is determined quantitatively as the product of the likelihood and the consequence (impact) or may be qualitatively evaluated using likelihood and consequence results. This is commonly mapped to a risk matrix. Risks should be calculated for each climate interaction, scenario, and time horizon that have been included in the assessment. This may result in multiple risk values for a given interaction, if multiple climate scenarios and time horizons are considered in the assessment.</p>
+<div class="callout.caution" data-collapse="true" title="Central Tendency">
+<p>When risk, likelihood and consequence are determined semi-quantitatively, care should be taken to ensure the resulting analysis is meaningful. Often categorical values have a tendency to select middle values and are selected very subjectively. In these situations, ensure values are non-biased, founded on information and granular enough to suit the needs of the assessment.</p>
+</div>
+<div class="callout callout-style-simple callout-none no-icon callout-titled" title="Risk of Extreme Events">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-11-contents" aria-controls="callout-11" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">None</span>Risk of Extreme Events
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-11" class="callout-11-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Extreme events serve as an important design basis for critical infrastructure, particularly in nuclear and hydroelectric. These design events are very rare, often being expressed as an event which has a return period of <span class="math inline">\(10^{-5}\)</span> to <span class="math inline">\(10^{-7}\)</span> of occurring in any given year. This makes the likelihood in the risk equation extremely small and the overall risk consistently low despite large and unacceptable consequences. These events should be handled as special cases if compared to other forms of asset risk.</p>
+<p>The risk may be better reflected by increasing the consequence scale of the event to increase the risk, as it does not need to be commensurate with the likelihood scale. Another option may be in properly defining the risk event itself. The criteria may be established as a system failure with an extremely low probability (i.e.&nbsp;1:10,000 year event), or it may be framed as not meeting a regulatory requirement or risk tolerance of being able to operate an system up to a 1:10,000 year event, which could scale the problem to be commensurate with other risks.</p>
+</div>
+</div>
+</div>
+</section>
+<section id="level-of-concern" class="level2">
+<h2 class="anchored" data-anchor-id="level-of-concern">Level of Concern</h2>
+<p>Recognizing uncertainty and understanding the confidence in the analysis is an important part of a climate risk assessment. There is natural variability in the climate system and human actions will determine the emissions pathway altering climate outcomes in the future. In addition, not all climate model parameters or vulnerability and risk assessment methods offer the same degree of confidence. As a result, it is important to integrate both the level of risk, the uncertainty and confidence in the analysis when finalizing the assessment. Identifying the level of concern allows for the consideration of both risk and uncertainty.</p>
+<section id="key-steps-for-determining-level-of-concern" class="level3">
+<h3 class="anchored" data-anchor-id="key-steps-for-determining-level-of-concern">Key Steps for Determining Level of Concern</h3>
+<p><strong>Risk:</strong> Using the risk from the risk assessment to plot the position on the vertical axis of a Level of Concern diagram for each climate interaction assessed. The vertical axis represents the amount of risk, as determined by the risk assessment.</p>
+<div class="callout callout-style-default callout-tip callout-titled" title="Simplification">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-12-contents" aria-controls="callout-12" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Simplification
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-12" class="callout-12-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Where multiple climate risks exist for a single climate interaction (e.g., multiple climate scenarios and time horizons assessed), it is often best practice to select one conservative future risk level, to simplify the analysis depending on the objective of the assessment. The analytical uncertainty will guard against overly conservative and costly adaptation actions. The future risk level mapped for the climate interaction should be documented and justified to fit the purpose of the assessment.</p>
+</div>
+</div>
+</div>
+<p><strong>Analytical Uncertainty:</strong> Assign the analytical uncertainty on the horizontal axis. This value reflects the uncertainty in climate projections, the confidence in the ability of climate models to represent relevant hazards, and the confidence in the vulnerability assessment process. This step is inherently subjective unless there is detailed knowledge of the uncertainties involved. Information on uncertainty and confidence can be found <a href="../climate_data_fundamentals/Uncertainty_Confidence.html">here</a></p>
+<p>Involve climate science and engineering experts to help assess uncertainty and avoid bias – whether it be overconfidence or under confidence in the data and models.</p>
+<p>By combining risk magnitude with analytical uncertainty, it is possible to identify the overall level of concern for each risk. This approach will help prioritize adaptation actions and ensure decision-makers understand both the risks and the confidence in the underlying analysis.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/levelofconcern.png" class="img-fluid figure-img"></p>
+<figcaption>Level of Concern</figcaption>
+</figure>
+</div>
+</section>
+</section>
+<section id="adaptation-strategy-quadrants" class="level2">
+<h2 class="anchored" data-anchor-id="adaptation-strategy-quadrants">Adaptation Strategy Quadrants</h2>
+<p>Building on the level of concern diagram, adaptation strategies for associated climate risks can be categorized based on the risk level and the confidence in the analysis can be identified. A four-quadrant approach is presented, and are aimed to support adaptation strategy development in the next step of this assessment process. Adaptation quadrant descriptions include:</p>
+<div class="callout callout-style-simple callout-none no-icon callout-titled" title="Quadrant I -- Standard Planning and Design Guidance">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-13-contents" aria-controls="callout-13" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">None</span>Quadrant I – Standard Planning and Design Guidance
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-13" class="callout-13-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Projects in this category are well-suited to standard evaluation processes. The assumption of stationary (unchanging) past design conditions is generally valid, and uncertainty is well understood. Standard safety margins may be sufficient, but engineers should remain cautious and consider whether additional analysis is warranted, especially for system where there is low tolerance for risk of failure.</p>
+</div>
+</div>
+</div>
+<div class="callout callout-style-simple callout-none no-icon callout-titled" title="Quadrant II -- Robust Actions">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-14-contents" aria-controls="callout-14" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">None</span>Quadrant II – Robust Actions
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-14" class="callout-14-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Here, there is confidence that future conditions will be stressful for the system. Adaptation actions should prioritize robust options that can withstand these challenging conditions. Where multiple options exist, incremental cost analysis (ICA) may be used to determine the most cost-effective and effective solution. If a clear winner emerges, it should be prioritized.</p>
+</div>
+</div>
+</div>
+<div class="callout callout-style-simple callout-none no-icon callout-titled" title="Quadrant III -- Flexible Actions">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-15-contents" aria-controls="callout-15" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">None</span>Quadrant III – Flexible Actions
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-15" class="callout-15-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>This quadrant presents the challenge of low risk combined with higher uncertainty. In these cases, it may not be justifiable to conduct detailed design analyses. Instead, develop a limited set of flexible adaptation pathways, and select scenarios that are relevant or appropriately conservative. Focus on options that can be adjusted as new information becomes available and institutionalize a monitoring plan to track changing conditions.</p>
+</div>
+</div>
+</div>
+<div class="callout callout-style-simple callout-none no-icon callout-titled" title="Quadrant IV -- Robust and Flexible Actions">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-16-contents" aria-controls="callout-16" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">None</span>Quadrant IV – Robust and Flexible Actions
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-16" class="callout-16-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Projects in this quadrant are the most challenging, as they involve both high risk and high uncertainty. Strategies should combine robust, immediate actions (possibly identified through incremental cost analysis) with flexible adaptation pathways. Implement robust measures where risk tolerance is lowest or impacts are most imminent and establish a monitoring plan to support ongoing adaptation as more information becomes available.</p>
+</div>
+</div>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/quadrant_actions.png" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
+</figure>
+</div>
+<p>Following this structured approach ensures that adaptation strategies are well-matched to both the level of risk and the confidence in the analysis, supporting resilient and cost-effective decision-making.</p>
+</section>
+<section id="risk-prioritization" class="level2">
+<h2 class="anchored" data-anchor-id="risk-prioritization">Risk Prioritization</h2>
+<p>If the risk assessment is being done for a larger facility or multiple system, an additional step may be required to prioritize the risks that will be treated. The risk and the level of concern can be used to prioritize risks to be addressed. Adaptations plans for each risk can then be institutionalized or an organizational risk tolerance threshold can be applied to determine which risks needs to be addressed and in which order.</p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  document.querySelectorAll("a[href^='http']").forEach(link => {
+    if (!link.href.includes(window.location.hostname)) {
+      link.target = "_blank";
+      link.rel = "noopener noreferrer";
+    }
+  });
+});
+</script>
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/Ouranosinc\.github\.io\/energy_climate_data_guide\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="../apply_climate_data/risk_step4_vulnerability.html" class="pagination-link" aria-label="Step 4: Climate Vulnerability Assessment">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Step 4: Climate Vulnerability Assessment</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="../apply_climate_data/risk_step6_adapt.html" class="pagination-link" aria-label="Step 6: Adaptation Plan">
+        <span class="nav-page-text">Step 6: Adaptation Plan</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+<script src="auto-open-callout.js"></script>
+
+
+
+
+<script src="../site_libs/quarto-html/zenscroll-min.js"></script>
+</body></html>

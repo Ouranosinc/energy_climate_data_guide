@@ -1,0 +1,1853 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.10.18">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Deprecated Climate Data Fundamentals (To be resolved and removed!) – Climate Data for the Electricity Sector</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+</style>
+
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js" integrity="sha384-ZvpUoO/+PpLXR1lu4jmpXWu80pZlYUAfxl5NsBMWOEPSjUn/6Z/hRTt8+pR6L4N2" crossorigin="anonymous"></script><script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../development/examples/QuartoFunctionalityExamples.html" rel="next">
+<link href="../../development/templates/Dataset_Template.html" rel="prev">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-b2ca3485c9b416a95012318dbba09b40.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<style>html{ scroll-behavior: smooth; }</style>
+<script src="https://cdn.jsdelivr.net/npm/requirejs@2.3.6/require.min.js" integrity="sha384-c9c+LnTbwQ3aujuU7ULEPVvgLs+Fn6fJUvIGTsuu1ZcCf11fiEubah0ttpca4ntM sha384-6V1/AdqZRWk1KAlWbKBlGhN7VG4iE/yAZcO6NZPMF8od0vukrvr0tg4qY6NSrItx" crossorigin="anonymous"></script>
+
+<script type="application/javascript">define('jquery', [],function() {return window.jQuery;})</script>
+
+
+<link rel="stylesheet" href="../../styles/styles.css">
+</head>
+
+<body class="nav-sidebar docked quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../development/templates/Sectors_Template.html">Development Resources</a></li><li class="breadcrumb-item"><a href="../../development/deprecated/Deprecated_Climate_Data_Fundamentals.html">Deprecated Climate Data Fundamentals</a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+      <a href="../../index.html" class="sidebar-logo-link">
+      <img src="../../image/Logo_McMaster_and_Ouranos_vertical_trans.png" alt="" class="sidebar-logo light-content py-0 d-lg-inline d-none">
+      <img src="../../image/Logo_McMaster_and_Ouranos_vertical_trans.png" alt="" class="sidebar-logo dark-content py-0 d-lg-inline d-none">
+      </a>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../PurposeOfTheGuide.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Start Here</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../../sectors/electricity_sector_activities.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Electricity-Sector Activities</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false">
+ <span class="menu-text">Electricity-System Planning</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../sectors/planning/demand.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Demand Forecasting</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../sectors/planning/generation_forecasting.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Generation Forecasting</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../sectors/planning/capacity_expansion_modelling.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Capacity Expansion Modelling</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../sectors/planning/resource_adequacy_planning.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Resource Adequacy Planning</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="false">
+ <span class="menu-text">Operations Planning</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../sectors/operations/outage_scheduling.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Outage Scheduling</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../sectors/operations/vegetation_management.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Vegetation Management</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="false">
+ <span class="menu-text">Infrastructure Planning and Asset Management</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../sectors/infrastructure/dam_safety_review.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Dam Safety Review</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../sectors/infrastructure/infrastructure_condition_assessment_and_investment_prioritization.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Infrastructure Condition Assessment and Investment Prioritization</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../sectors/infrastructure/infrastructure_design.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Infrastructure Design</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../sectors/reporting/reporting_disclosure.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Reporting and Disclosure</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../../climate_data_fundamentals/Climate_Datasets_Overview.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Understand Climate Data</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../climate_data_fundamentals/Temporal_Horizons_Predictability.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Forecasts, Projections and Predictability</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../climate_data_fundamentals/Emissions_scenarios.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Emissions Scenarios</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../climate_data_fundamentals/Ensembles.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Climate Model Ensembles</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../climate_data_fundamentals/Time_horizons_GWL.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Projection Periods and Global Warming Levels</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../climate_data_fundamentals/Bias_adjustment.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Downscaling and Bias Adjustment</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../climate_data_fundamentals/Uncertainty_Confidence.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Uncertainty and Confidence</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../climate_data_fundamentals/gaps_data.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Climate-Information Gaps and Limitations</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../climate_data_fundamentals/Data_Formats.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Climate-Data Formats</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../../datasets/Climate_Data_Decision_Tree.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Find and Compare Climate Datasets</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-6" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../datasets/Datasets_Overview_Table.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Compare Documented Datasets</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../datasets/Datasets_by_Variable.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Find Datasets by Variable</span></a>
+  </div>
+</li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../../datasets/observed_data/Observational_Datasets.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Observational Data</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-7" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../datasets/observed_data/AHCCD-CanHom_Station_Data.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">AHCCD and CanHom Station Data</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../datasets/observed_data/NRCANmet_Gridded_Data.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">NRCanMet Gridded Data</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../../datasets/reanalysis_data/Reanalysis_Datasets.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Reanalysis Data</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-8" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-8" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../datasets/reanalysis_data/ERA5-Land.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">ERA5-Land</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../datasets/reanalysis_data/CaSR.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Canadian Surface Reanalysis (CaSR)</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../../datasets/climate_projection_data/Climate_Projection_Datasets.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Climate-Projection Data</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-9" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-9" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../datasets/climate_projection_data/CMIP6.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">CMIP6</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../datasets/climate_projection_data/CORDEX.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">CORDEX</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../datasets/climate_projection_data/ESPO-G6.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">ESPO-G6</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../datasets/climate_projection_data/CanDCS-M6.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">CanDCS-M6</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../datasets/climate_projection_data/CanLEAD.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">CanLEAD</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../datasets/climate_projection_data/NEX-GDDP-CMIP6.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">NEX-GDDP-CMIP6</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../../apply_climate_data/Adaptation.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Apply Climate Data</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-10" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-10" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../apply_climate_data/core_concepts_adapt.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Adaptation, Risk and Vulnerability: Core Concepts</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../apply_climate_data/model_integration.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Integrating Climate Information into Models and Decisions</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../apply_climate_data/traditional_knowledge.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Indigenous Knowledge and Climate-Related Decisions</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../apply_climate_data/IPCC_information.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">IPCC Information for Electricity-Sector Applications</span></a>
+  </div>
+</li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../../apply_climate_data/risk_assessment.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Climate Vulnerability and Risk Assessment</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-11" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-11" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../apply_climate_data/risk_step1.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Step 1: Establish the Scope and Context</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../apply_climate_data/risk_step2_system.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Step 2: Understand the System, Structure, and Components</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../apply_climate_data/risk_step3_hazard.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Step 3: Hazard and Exposure Assessment</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../apply_climate_data/risk_step4_vulnerability.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Step 4: Climate Vulnerability Assessment</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../apply_climate_data/risk_step5_risk.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Step 5: Climate Risk Assessment</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../apply_climate_data/risk_step6_adapt.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Step 6: Adaptation Plan</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../apply_climate_data/risk_step7_institute.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Step 7: Reporting or Institutionalizing the Decision</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-12" role="navigation" aria-expanded="false">
+ <span class="menu-text">Build Organizational Capability</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-12" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-12" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../organizational_capability/Maturity_Matrix.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Organizational Maturity Self-Assessment</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../organizational_capability/gaps_organization.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Organizational Gaps and Barriers</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../organizational_capability/Guidance_Harrington.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Procuring Physical Climate-Risk Assessments</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-13" role="navigation" aria-expanded="false">
+ <span class="menu-text">Resources and Examples</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-13" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-13" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../resources/Climate_Information_Ressources.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Online Climate-Information Resources</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../resources/Example_Applications.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Example Applications</span></a>
+  </div>
+</li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../../resources/tools/Analysis_Support_Tools.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Analysis Support Tools</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-14" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-14" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../resources/tools/Point_Location_Compare.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Compare Observational Datasets at a Point</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../../workshops/intro_workshops.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Workshops</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-15" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-15" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../workshops/content_particip.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Worshop contents and Participation</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../workshops/findings.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Findings</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-16" role="navigation" aria-expanded="true">
+ <span class="menu-text">Development Resources</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-16" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-16" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../development/templates/Sectors_Template.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Sector Page Template</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../development/templates/Dataset_Template.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Dataset Page Template</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../development/deprecated/Deprecated_Climate_Data_Fundamentals.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Deprecated Climate Data Fundamentals</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../development/examples/QuartoFunctionalityExamples.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Quarto Functionality Examples</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active" data-toc-expanded="-1">
+    <h2 id="toc-title">Content</h2>
+   
+  <ul>
+  <li><a href="#general-information-about-climate-and-weather-data" id="toc-general-information-about-climate-and-weather-data" class="nav-link active" data-scroll-target="#general-information-about-climate-and-weather-data">General information about Climate and Weather data</a></li>
+  <li><a href="#gcm-data-vs-rcm-data-use-cases---remove" id="toc-gcm-data-vs-rcm-data-use-cases---remove" class="nav-link" data-scroll-target="#gcm-data-vs-rcm-data-use-cases---remove">GCM Data vs RCM Data: Use Cases (-&gt; remove)</a></li>
+  <li><a href="#what-are-variables-vs-indicators" id="toc-what-are-variables-vs-indicators" class="nav-link" data-scroll-target="#what-are-variables-vs-indicators">What are Variables vs Indicators?</a></li>
+  <li><a href="#ensemble-construction" id="toc-ensemble-construction" class="nav-link" data-scroll-target="#ensemble-construction">Ensemble Construction</a>
+  <ul>
+  <li><a href="#ensemble-statistics-compute-everything-first-do-ensemble-stats-last." id="toc-ensemble-statistics-compute-everything-first-do-ensemble-stats-last." class="nav-link" data-scroll-target="#ensemble-statistics-compute-everything-first-do-ensemble-stats-last.">Ensemble statistics: Compute everything first, do ensemble stats last.</a></li>
+  </ul></li>
+  <li><a href="#uncertainties" id="toc-uncertainties" class="nav-link" data-scroll-target="#uncertainties">Uncertainties</a></li>
+  <li><a href="#the-unlikeliness-of-the-emission-scenarios-rcp8.5-and-ssp5-8.5" id="toc-the-unlikeliness-of-the-emission-scenarios-rcp8.5-and-ssp5-8.5" class="nav-link" data-scroll-target="#the-unlikeliness-of-the-emission-scenarios-rcp8.5-and-ssp5-8.5">The Unlikeliness of the emission scenarios RCP8.5 and SSP5-8.5</a></li>
+  <li><a href="#software-tools" id="toc-software-tools" class="nav-link" data-scroll-target="#software-tools">Software tools</a></li>
+  <li><a href="#a-simple-example-of-accessing-data-on-pavics" id="toc-a-simple-example-of-accessing-data-on-pavics" class="nav-link" data-scroll-target="#a-simple-example-of-accessing-data-on-pavics">A simple Example of accessing data on PAVICS</a></li>
+  <li><a href="#todo-access-a-climate-simulation-ensemble" id="toc-todo-access-a-climate-simulation-ensemble" class="nav-link" data-scroll-target="#todo-access-a-climate-simulation-ensemble">ToDo: Access a climate simulation ensemble</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../development/templates/Sectors_Template.html">Development Resources</a></li><li class="breadcrumb-item"><a href="../../development/deprecated/Deprecated_Climate_Data_Fundamentals.html">Deprecated Climate Data Fundamentals</a></li></ol></nav>
+<div class="quarto-title">
+<h1 class="title">Deprecated Climate Data Fundamentals (To be resolved and removed!)</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="general-information-about-climate-and-weather-data" class="level2">
+<h2 class="anchored" data-anchor-id="general-information-about-climate-and-weather-data">General information about Climate and Weather data</h2>
+<ul>
+<li>Understand the usage of the latest (historical) data for planning for the next two years (relevance of well representing today’s climate)</li>
+</ul>
+</section>
+<section id="gcm-data-vs-rcm-data-use-cases---remove" class="level2">
+<h2 class="anchored" data-anchor-id="gcm-data-vs-rcm-data-use-cases---remove">GCM Data vs RCM Data: Use Cases (-&gt; remove)</h2>
+<ul>
+<li>When to use which?</li>
+<li>Added value of RCMs</li>
+<li>Advantages of GCM ensembles</li>
+</ul>
+</section>
+<section id="what-are-variables-vs-indicators" class="level2">
+<h2 class="anchored" data-anchor-id="what-are-variables-vs-indicators">What are Variables vs Indicators?</h2>
+</section>
+<section id="ensemble-construction" class="level2">
+<h2 class="anchored" data-anchor-id="ensemble-construction">Ensemble Construction</h2>
+<ul>
+<li>Hot model problem (CMIP6)</li>
+<li>ensemble reduction techniques summarized (Marco’s presentation at CEATI!)</li>
+<li>Model priorisation and selection</li>
+</ul>
+<section id="ensemble-statistics-compute-everything-first-do-ensemble-stats-last." class="level3">
+<h3 class="anchored" data-anchor-id="ensemble-statistics-compute-everything-first-do-ensemble-stats-last.">Ensemble statistics: Compute everything first, do ensemble stats last.</h3>
+</section>
+</section>
+<section id="uncertainties" class="level2">
+<h2 class="anchored" data-anchor-id="uncertainties">Uncertainties</h2>
+</section>
+<section id="the-unlikeliness-of-the-emission-scenarios-rcp8.5-and-ssp5-8.5" class="level2">
+<h2 class="anchored" data-anchor-id="the-unlikeliness-of-the-emission-scenarios-rcp8.5-and-ssp5-8.5">The Unlikeliness of the emission scenarios RCP8.5 and SSP5-8.5</h2>
+<p>RCP/SSP5-8.5 is considered unrealistic under current policy, bla, bla</p>
+</section>
+<section id="software-tools" class="level2">
+<h2 class="anchored" data-anchor-id="software-tools">Software tools</h2>
+<ul>
+<li><a href="https://www.giss.nasa.gov/tools/panoply/">Panoply Viewer</a> as a simple tool to browse netCDF files.</li>
+<li>Note: Panoply can export CSV!</li>
+</ul>
+</section>
+<section id="a-simple-example-of-accessing-data-on-pavics" class="level2">
+<h2 class="anchored" data-anchor-id="a-simple-example-of-accessing-data-on-pavics">A simple Example of accessing data on PAVICS</h2>
+<p>To access ERA5-Land data hosted on <a href="https://pavics.ouranos.ca/datasets.html#c">PAVICS</a> via a Python script, locate the the OpenDAP Data URL of the dataset by clicking on the THREADS Catalog link and selecting the ERA5-Land dataset. Using the <a href="https://xarray.dev/">Xarray Python Library</a> the dataset can be easily read. The output from the following code allows to interactively browse the content of the dataset:</p>
+<div id="4b51ce29-003a-4198-8aed-6c5bafedde41" class="cell" data-execution_count="2">
+<details class="code-fold">
+<summary>Code</summary>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> xarray <span class="im">as</span> xr</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="co"># the OpenDAP URL for hourly ERA5-Land data</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>url <span class="op">=</span> <span class="st">"https://pavics.ouranos.ca/twitcher/ows/proxy/thredds/dodsC/datasets/reanalyses/day_ERA5-Land_NAM.ncml"</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="co"># open the dataset</span></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>ds <span class="op">=</span> xr.open_dataset(url, chunks<span class="op">=</span>{<span class="st">'time'</span>: <span class="op">-</span><span class="dv">1</span>, <span class="st">'lat'</span>: <span class="dv">50</span>, <span class="st">'lon'</span>: <span class="dv">50</span>}, decode_timedelta<span class="op">=</span><span class="va">False</span>)</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">"The ERA5-Land dataset:"</span>)</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>ds</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
+<div class="cell-output cell-output-stdout">
+<pre><code>Intel MKL WARNING: Support of Intel(R) Streaming SIMD Extensions 4.2 (Intel(R) SSE4.2) enabled only processors has been deprecated. Intel oneAPI Math Kernel Library 2025.0 will require Intel(R) Advanced Vector Extensions (Intel(R) AVX) instructions.
+Intel MKL WARNING: Support of Intel(R) Streaming SIMD Extensions 4.2 (Intel(R) SSE4.2) enabled only processors has been deprecated. Intel oneAPI Math Kernel Library 2025.0 will require Intel(R) Advanced Vector Extensions (Intel(R) AVX) instructions.
+The ERA5-Land dataset:</code></pre>
+</div>
+<div class="cell-output cell-output-display" data-execution_count="2">
+<div><svg style="position: absolute; width: 0; height: 0; overflow: hidden">
+<defs>
+<symbol id="icon-database" viewbox="0 0 32 32">
+<path d="M16 0c-8.837 0-16 2.239-16 5v4c0 2.761 7.163 5 16 5s16-2.239 16-5v-4c0-2.761-7.163-5-16-5z"></path>
+<path d="M16 17c-8.837 0-16-2.239-16-5v6c0 2.761 7.163 5 16 5s16-2.239 16-5v-6c0 2.761-7.163 5-16 5z"></path>
+<path d="M16 26c-8.837 0-16-2.239-16-5v6c0 2.761 7.163 5 16 5s16-2.239 16-5v-6c0 2.761-7.163 5-16 5z"></path>
+</symbol>
+<symbol id="icon-file-text2" viewbox="0 0 32 32">
+<path d="M28.681 7.159c-0.694-0.947-1.662-2.053-2.724-3.116s-2.169-2.030-3.116-2.724c-1.612-1.182-2.393-1.319-2.841-1.319h-15.5c-1.378 0-2.5 1.121-2.5 2.5v27c0 1.378 1.122 2.5 2.5 2.5h23c1.378 0 2.5-1.122 2.5-2.5v-19.5c0-0.448-0.137-1.23-1.319-2.841zM24.543 5.457c0.959 0.959 1.712 1.825 2.268 2.543h-4.811v-4.811c0.718 0.556 1.584 1.309 2.543 2.268zM28 29.5c0 0.271-0.229 0.5-0.5 0.5h-23c-0.271 0-0.5-0.229-0.5-0.5v-27c0-0.271 0.229-0.5 0.5-0.5 0 0 15.499-0 15.5 0v7c0 0.552 0.448 1 1 1h7v19.5z"></path>
+<path d="M23 26h-14c-0.552 0-1-0.448-1-1s0.448-1 1-1h14c0.552 0 1 0.448 1 1s-0.448 1-1 1z"></path>
+<path d="M23 22h-14c-0.552 0-1-0.448-1-1s0.448-1 1-1h14c0.552 0 1 0.448 1 1s-0.448 1-1 1z"></path>
+<path d="M23 18h-14c-0.552 0-1-0.448-1-1s0.448-1 1-1h14c0.552 0 1 0.448 1 1s-0.448 1-1 1z"></path>
+</symbol>
+</defs>
+</svg>
+<style>/* CSS stylesheet for displaying xarray objects in jupyterlab.
+ *
+ */
+
+:root {
+  --xr-font-color0: var(--jp-content-font-color0, rgba(0, 0, 0, 1));
+  --xr-font-color2: var(--jp-content-font-color2, rgba(0, 0, 0, 0.54));
+  --xr-font-color3: var(--jp-content-font-color3, rgba(0, 0, 0, 0.38));
+  --xr-border-color: var(--jp-border-color2, #e0e0e0);
+  --xr-disabled-color: var(--jp-layout-color3, #bdbdbd);
+  --xr-background-color: var(--jp-layout-color0, white);
+  --xr-background-color-row-even: var(--jp-layout-color1, white);
+  --xr-background-color-row-odd: var(--jp-layout-color2, #eeeeee);
+}
+
+html[theme=dark],
+body[data-theme=dark],
+body.vscode-dark {
+  --xr-font-color0: rgba(255, 255, 255, 1);
+  --xr-font-color2: rgba(255, 255, 255, 0.54);
+  --xr-font-color3: rgba(255, 255, 255, 0.38);
+  --xr-border-color: #1F1F1F;
+  --xr-disabled-color: #515151;
+  --xr-background-color: #111111;
+  --xr-background-color-row-even: #111111;
+  --xr-background-color-row-odd: #313131;
+}
+
+.xr-wrap {
+  display: block !important;
+  min-width: 300px;
+  max-width: 700px;
+}
+
+.xr-text-repr-fallback {
+  /* fallback to plain text repr when CSS is not injected (untrusted notebook) */
+  display: none;
+}
+
+.xr-header {
+  padding-top: 6px;
+  padding-bottom: 6px;
+  margin-bottom: 4px;
+  border-bottom: solid 1px var(--xr-border-color);
+}
+
+.xr-header > div,
+.xr-header > ul {
+  display: inline;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.xr-obj-type,
+.xr-array-name {
+  margin-left: 2px;
+  margin-right: 10px;
+}
+
+.xr-obj-type {
+  color: var(--xr-font-color2);
+}
+
+.xr-sections {
+  padding-left: 0 !important;
+  display: grid;
+  grid-template-columns: 150px auto auto 1fr 20px 20px;
+}
+
+.xr-section-item {
+  display: contents;
+}
+
+.xr-section-item input {
+  display: none;
+}
+
+.xr-section-item input + label {
+  color: var(--xr-disabled-color);
+}
+
+.xr-section-item input:enabled + label {
+  cursor: pointer;
+  color: var(--xr-font-color2);
+}
+
+.xr-section-item input:enabled + label:hover {
+  color: var(--xr-font-color0);
+}
+
+.xr-section-summary {
+  grid-column: 1;
+  color: var(--xr-font-color2);
+  font-weight: 500;
+}
+
+.xr-section-summary > span {
+  display: inline-block;
+  padding-left: 0.5em;
+}
+
+.xr-section-summary-in:disabled + label {
+  color: var(--xr-font-color2);
+}
+
+.xr-section-summary-in + label:before {
+  display: inline-block;
+  content: '►';
+  font-size: 11px;
+  width: 15px;
+  text-align: center;
+}
+
+.xr-section-summary-in:disabled + label:before {
+  color: var(--xr-disabled-color);
+}
+
+.xr-section-summary-in:checked + label:before {
+  content: '▼';
+}
+
+.xr-section-summary-in:checked + label > span {
+  display: none;
+}
+
+.xr-section-summary,
+.xr-section-inline-details {
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+.xr-section-inline-details {
+  grid-column: 2 / -1;
+}
+
+.xr-section-details {
+  display: none;
+  grid-column: 1 / -1;
+  margin-bottom: 5px;
+}
+
+.xr-section-summary-in:checked ~ .xr-section-details {
+  display: contents;
+}
+
+.xr-array-wrap {
+  grid-column: 1 / -1;
+  display: grid;
+  grid-template-columns: 20px auto;
+}
+
+.xr-array-wrap > label {
+  grid-column: 1;
+  vertical-align: top;
+}
+
+.xr-preview {
+  color: var(--xr-font-color3);
+}
+
+.xr-array-preview,
+.xr-array-data {
+  padding: 0 5px !important;
+  grid-column: 2;
+}
+
+.xr-array-data,
+.xr-array-in:checked ~ .xr-array-preview {
+  display: none;
+}
+
+.xr-array-in:checked ~ .xr-array-data,
+.xr-array-preview {
+  display: inline-block;
+}
+
+.xr-dim-list {
+  display: inline-block !important;
+  list-style: none;
+  padding: 0 !important;
+  margin: 0;
+}
+
+.xr-dim-list li {
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+}
+
+.xr-dim-list:before {
+  content: '(';
+}
+
+.xr-dim-list:after {
+  content: ')';
+}
+
+.xr-dim-list li:not(:last-child):after {
+  content: ',';
+  padding-right: 5px;
+}
+
+.xr-has-index {
+  font-weight: bold;
+}
+
+.xr-var-list,
+.xr-var-item {
+  display: contents;
+}
+
+.xr-var-item > div,
+.xr-var-item label,
+.xr-var-item > .xr-var-name span {
+  background-color: var(--xr-background-color-row-even);
+  margin-bottom: 0;
+}
+
+.xr-var-item > .xr-var-name:hover span {
+  padding-right: 5px;
+}
+
+.xr-var-list > li:nth-child(odd) > div,
+.xr-var-list > li:nth-child(odd) > label,
+.xr-var-list > li:nth-child(odd) > .xr-var-name span {
+  background-color: var(--xr-background-color-row-odd);
+}
+
+.xr-var-name {
+  grid-column: 1;
+}
+
+.xr-var-dims {
+  grid-column: 2;
+}
+
+.xr-var-dtype {
+  grid-column: 3;
+  text-align: right;
+  color: var(--xr-font-color2);
+}
+
+.xr-var-preview {
+  grid-column: 4;
+}
+
+.xr-index-preview {
+  grid-column: 2 / 5;
+  color: var(--xr-font-color2);
+}
+
+.xr-var-name,
+.xr-var-dims,
+.xr-var-dtype,
+.xr-preview,
+.xr-attrs dt {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding-right: 10px;
+}
+
+.xr-var-name:hover,
+.xr-var-dims:hover,
+.xr-var-dtype:hover,
+.xr-attrs dt:hover {
+  overflow: visible;
+  width: auto;
+  z-index: 1;
+}
+
+.xr-var-attrs,
+.xr-var-data,
+.xr-index-data {
+  display: none;
+  background-color: var(--xr-background-color) !important;
+  padding-bottom: 5px !important;
+}
+
+.xr-var-attrs-in:checked ~ .xr-var-attrs,
+.xr-var-data-in:checked ~ .xr-var-data,
+.xr-index-data-in:checked ~ .xr-index-data {
+  display: block;
+}
+
+.xr-var-data > table {
+  float: right;
+}
+
+.xr-var-name span,
+.xr-var-data,
+.xr-index-name div,
+.xr-index-data,
+.xr-attrs {
+  padding-left: 25px !important;
+}
+
+.xr-attrs,
+.xr-var-attrs,
+.xr-var-data,
+.xr-index-data {
+  grid-column: 1 / -1;
+}
+
+dl.xr-attrs {
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: 125px auto;
+}
+
+.xr-attrs dt,
+.xr-attrs dd {
+  padding: 0;
+  margin: 0;
+  float: left;
+  padding-right: 10px;
+  width: auto;
+}
+
+.xr-attrs dt {
+  font-weight: normal;
+  grid-column: 1;
+}
+
+.xr-attrs dt:hover span {
+  display: inline-block;
+  background: var(--xr-background-color);
+  padding-right: 10px;
+}
+
+.xr-attrs dd {
+  grid-column: 2;
+  white-space: pre-wrap;
+  word-break: break-all;
+}
+
+.xr-icon-database,
+.xr-icon-file-text2,
+.xr-no-icon {
+  display: inline-block;
+  vertical-align: middle;
+  width: 1em;
+  height: 1.5em !important;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}
+</style><pre class="xr-text-repr-fallback">&lt;xarray.Dataset&gt;
+Dimensions:  (lat: 800, lon: 1700, time: 26298)
+Coordinates:
+  * lat      (lat) float32 10.0 10.1 10.2 10.3 10.4 ... 89.5 89.6 89.7 89.8 89.9
+  * lon      (lon) float32 -179.9 -179.8 -179.7 -179.6 ... -10.2 -10.1 -10.0
+  * time     (time) datetime64[ns] 1950-01-01 1950-01-02 ... 2021-12-31
+Data variables:
+    tas      (time, lat, lon) float32 dask.array&lt;chunksize=(26298, 50, 50), meta=np.ndarray&gt;
+    tasmin   (time, lat, lon) float32 dask.array&lt;chunksize=(26298, 50, 50), meta=np.ndarray&gt;
+    tasmax   (time, lat, lon) float32 dask.array&lt;chunksize=(26298, 50, 50), meta=np.ndarray&gt;
+    pr       (time, lat, lon) float32 dask.array&lt;chunksize=(26298, 50, 50), meta=np.ndarray&gt;
+    prsn     (time, lat, lon) float32 dask.array&lt;chunksize=(26298, 50, 50), meta=np.ndarray&gt;
+Attributes: (12/26)
+    Conventions:          CF-1.8
+    cell_methods:         time: mean (interval: 1 day)
+    data_specs_version:   00.00.07
+    domain:               NAM
+    format:               netcdf
+    frequency:            day
+    ...                   ...
+    dataset_description:  https://www.ecmwf.int/en/era5-land
+    license_type:         permissive
+    license:              Please acknowledge the use of ERA5-Land as stated i...
+    attribution:          Contains modified Copernicus Climate Change Service...
+    citation:             Muñoz Sabater, J., (2021): ERA5-Land hourly data fr...
+    doi:                  https://doi.org/10.24381/cds.e2161bac</pre><div class="xr-wrap" style="display:none"><div class="xr-header"><div class="xr-obj-type">xarray.Dataset</div></div><ul class="xr-sections"><li class="xr-section-item"><input id="section-2bb90859-725a-4007-a6fd-cf5e5b7bd85e" class="xr-section-summary-in" type="checkbox" disabled=""><label for="section-2bb90859-725a-4007-a6fd-cf5e5b7bd85e" class="xr-section-summary" title="Expand/collapse section">Dimensions:</label><div class="xr-section-inline-details"><ul class="xr-dim-list"><li><span class="xr-has-index">lat</span>: 800</li><li><span class="xr-has-index">lon</span>: 1700</li><li><span class="xr-has-index">time</span>: 26298</li></ul></div><div class="xr-section-details"></div></li><li class="xr-section-item"><input id="section-1243410b-be89-4a8f-ab68-b855b9d77e2f" class="xr-section-summary-in" type="checkbox" checked=""><label for="section-1243410b-be89-4a8f-ab68-b855b9d77e2f" class="xr-section-summary">Coordinates: <span>(3)</span></label><div class="xr-section-inline-details"></div><div class="xr-section-details"><ul class="xr-var-list"><li class="xr-var-item"><div class="xr-var-name"><span class="xr-has-index">lat</span></div><div class="xr-var-dims">(lat)</div><div class="xr-var-dtype">float32</div><div class="xr-var-preview xr-preview">10.0 10.1 10.2 ... 89.7 89.8 89.9</div><input id="attrs-d0a48eb1-1f4f-48ac-8c7f-b530e7e59f07" class="xr-var-attrs-in" type="checkbox"><label for="attrs-d0a48eb1-1f4f-48ac-8c7f-b530e7e59f07" title="Show/Hide attributes"><svg class="icon xr-icon-file-text2"><use href="#icon-file-text2"></use></svg></label><input id="data-ad311f28-37d3-4a83-a6eb-28f5dc772b7a" class="xr-var-data-in" type="checkbox"><label for="data-ad311f28-37d3-4a83-a6eb-28f5dc772b7a" title="Show/Hide data repr"><svg class="icon xr-icon-database"><use href="#icon-database"></use></svg></label><div class="xr-var-attrs"><dl class="xr-attrs"><dt><span>long_name :</span></dt><dd>latitude</dd><dt><span>units :</span></dt><dd>degrees_north</dd></dl></div><div class="xr-var-data"><pre>array([10. , 10.1, 10.2, ..., 89.7, 89.8, 89.9], dtype=float32)</pre></div></li><li class="xr-var-item"><div class="xr-var-name"><span class="xr-has-index">lon</span></div><div class="xr-var-dims">(lon)</div><div class="xr-var-dtype">float32</div><div class="xr-var-preview xr-preview">-179.9 -179.8 ... -10.1 -10.0</div><input id="attrs-9df8981d-acfa-49fa-bb53-8c6be3c557fd" class="xr-var-attrs-in" type="checkbox"><label for="attrs-9df8981d-acfa-49fa-bb53-8c6be3c557fd" title="Show/Hide attributes"><svg class="icon xr-icon-file-text2"><use href="#icon-file-text2"></use></svg></label><input id="data-016b8a9f-138e-4b2d-b00b-fbff3f33738f" class="xr-var-data-in" type="checkbox"><label for="data-016b8a9f-138e-4b2d-b00b-fbff3f33738f" title="Show/Hide data repr"><svg class="icon xr-icon-database"><use href="#icon-database"></use></svg></label><div class="xr-var-attrs"><dl class="xr-attrs"><dt><span>long_name :</span></dt><dd>longitude</dd><dt><span>units :</span></dt><dd>degrees_east</dd></dl></div><div class="xr-var-data"><pre>array([-179.9, -179.8, -179.7, ...,  -10.2,  -10.1,  -10. ], dtype=float32)</pre></div></li><li class="xr-var-item"><div class="xr-var-name"><span class="xr-has-index">time</span></div><div class="xr-var-dims">(time)</div><div class="xr-var-dtype">datetime64[ns]</div><div class="xr-var-preview xr-preview">1950-01-01 ... 2021-12-31</div><input id="attrs-88e29d7a-62c1-4070-89b9-be600de4b362" class="xr-var-attrs-in" type="checkbox" disabled=""><label for="attrs-88e29d7a-62c1-4070-89b9-be600de4b362" title="Show/Hide attributes"><svg class="icon xr-icon-file-text2"><use href="#icon-file-text2"></use></svg></label><input id="data-2d64e77d-9e10-4184-869c-348fe12021db" class="xr-var-data-in" type="checkbox"><label for="data-2d64e77d-9e10-4184-869c-348fe12021db" title="Show/Hide data repr"><svg class="icon xr-icon-database"><use href="#icon-database"></use></svg></label><div class="xr-var-attrs"><dl class="xr-attrs"></dl></div><div class="xr-var-data"><pre>array(['1950-01-01T00:00:00.000000000', '1950-01-02T00:00:00.000000000',
+       '1950-01-03T00:00:00.000000000', ..., '2021-12-29T00:00:00.000000000',
+       '2021-12-30T00:00:00.000000000', '2021-12-31T00:00:00.000000000'],
+      dtype='datetime64[ns]')</pre></div></li></ul></div></li><li class="xr-section-item"><input id="section-3f364b7b-a4a3-4797-8d96-293f2736ba95" class="xr-section-summary-in" type="checkbox" checked=""><label for="section-3f364b7b-a4a3-4797-8d96-293f2736ba95" class="xr-section-summary">Data variables: <span>(5)</span></label><div class="xr-section-inline-details"></div><div class="xr-section-details"><ul class="xr-var-list"><li class="xr-var-item"><div class="xr-var-name"><span>tas</span></div><div class="xr-var-dims">(time, lat, lon)</div><div class="xr-var-dtype">float32</div><div class="xr-var-preview xr-preview">dask.array&lt;chunksize=(26298, 50, 50), meta=np.ndarray&gt;</div><input id="attrs-e26856b4-abc9-424a-a205-f6b4f95bfa41" class="xr-var-attrs-in" type="checkbox"><label for="attrs-e26856b4-abc9-424a-a205-f6b4f95bfa41" title="Show/Hide attributes"><svg class="icon xr-icon-file-text2"><use href="#icon-file-text2"></use></svg></label><input id="data-855f9aac-e3a0-4d29-9328-295a14fe7cb1" class="xr-var-data-in" type="checkbox"><label for="data-855f9aac-e3a0-4d29-9328-295a14fe7cb1" title="Show/Hide data repr"><svg class="icon xr-icon-database"><use href="#icon-database"></use></svg></label><div class="xr-var-attrs"><dl class="xr-attrs"><dt><span>long_name :</span></dt><dd>2 metre temperature</dd><dt><span>original_variable :</span></dt><dd>t2m</dd><dt><span>standard_name :</span></dt><dd>air_temperature</dd><dt><span>units :</span></dt><dd>K</dd><dt><span>cell_methods :</span></dt><dd>time: point</dd><dt><span>_ChunkSizes :</span></dt><dd>[366  50  50]</dd></dl></div><div class="xr-var-data">
+<table class="caption-top table table-sm table-striped small">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><table class="caption-top table table-sm table-striped small">
+<thead>
+<tr class="header">
+<td></td>
+<th data-quarto-table-cell-role="th">Array</th>
+<th data-quarto-table-cell-role="th">Chunk</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<th data-quarto-table-cell-role="th">Bytes</th>
+<td>133.24 GiB</td>
+<td>250.80 MiB</td>
+</tr>
+<tr class="even">
+<th data-quarto-table-cell-role="th">Shape</th>
+<td>(26298, 800, 1700)</td>
+<td>(26298, 50, 50)</td>
+</tr>
+<tr class="odd">
+<th data-quarto-table-cell-role="th">Dask graph</th>
+<td colspan="2">544 chunks in 2 graph layers</td>
+</tr>
+<tr class="even">
+<th data-quarto-table-cell-role="th">Data type</th>
+<td colspan="2">float32 numpy.ndarray</td>
+</tr>
+</tbody>
+</table></td>
+<td><svg width="166" height="152" style="stroke:rgb(0,0,0);stroke-width:1">
+<!-- Horizontal lines --> <line x1="10" y1="0" x2="80" y2="70" style="stroke-width:2"></line> <line x1="10" y1="1" x2="80" y2="72"></line> <line x1="10" y1="3" x2="80" y2="74"></line> <line x1="10" y1="5" x2="80" y2="76"></line> <line x1="10" y1="7" x2="80" y2="78"></line> <line x1="10" y1="9" x2="80" y2="80"></line> <line x1="10" y1="11" x2="80" y2="82"></line> <line x1="10" y1="13" x2="80" y2="84"></line> <line x1="10" y1="15" x2="80" y2="86"></line> <line x1="10" y1="17" x2="80" y2="88"></line> <line x1="10" y1="19" x2="80" y2="90"></line> <line x1="10" y1="21" x2="80" y2="92"></line> <line x1="10" y1="23" x2="80" y2="94"></line> <line x1="10" y1="25" x2="80" y2="96"></line> <line x1="10" y1="27" x2="80" y2="98"></line> <line x1="10" y1="29" x2="80" y2="100"></line> <line x1="10" y1="31" x2="80" y2="102" style="stroke-width:2"></line> <!-- Vertical lines --> <line x1="10" y1="0" x2="10" y2="31" style="stroke-width:2"></line> <line x1="80" y1="70" x2="80" y2="102" style="stroke-width:2"></line> <!-- Colored Rectangle --> <polygon points="10.0,0.0 80.58823529411765,70.58823529411765 80.58823529411765,102.0619958297315 10.0,31.473760535613845" style="fill:#ECB172A0;stroke-width:0"></polygon> <!-- Horizontal lines --> <line x1="10" y1="0" x2="46" y2="0" style="stroke-width:2"></line> <line x1="80" y1="70" x2="116" y2="70" style="stroke-width:2"></line> <!-- Vertical lines --> <line x1="10" y1="0" x2="80" y2="70" style="stroke-width:2"></line> <line x1="11" y1="0" x2="81" y2="70"></line> <line x1="13" y1="0" x2="83" y2="70"></line> <line x1="15" y1="0" x2="85" y2="70"></line> <line x1="17" y1="0" x2="88" y2="70"></line> <line x1="18" y1="0" x2="89" y2="70"></line> <line x1="20" y1="0" x2="91" y2="70"></line> <line x1="22" y1="0" x2="93" y2="70"></line> <line x1="24" y1="0" x2="95" y2="70"></line> <line x1="26" y1="0" x2="97" y2="70"></line> <line x1="28" y1="0" x2="98" y2="70"></line> <line x1="30" y1="0" x2="100" y2="70"></line> <line x1="32" y1="0" x2="102" y2="70"></line> <line x1="34" y1="0" x2="104" y2="70"></line> <line x1="36" y1="0" x2="107" y2="70"></line> <line x1="37" y1="0" x2="108" y2="70"></line> <line x1="39" y1="0" x2="110" y2="70"></line> <line x1="41" y1="0" x2="112" y2="70"></line> <line x1="43" y1="0" x2="114" y2="70"></line> <line x1="46" y1="0" x2="116" y2="70" style="stroke-width:2"></line> <!-- Colored Rectangle --> <polygon points="10.0,0.0 46.062788182583255,0.0 116.65102347670091,70.58823529411765 80.58823529411765,70.58823529411765" style="fill:#8B4903A0;stroke-width:0"></polygon> <!-- Horizontal lines --> <line x1="80" y1="70" x2="116" y2="70" style="stroke-width:2"></line> <line x1="80" y1="72" x2="116" y2="72"></line> <line x1="80" y1="74" x2="116" y2="74"></line> <line x1="80" y1="76" x2="116" y2="76"></line> <line x1="80" y1="78" x2="116" y2="78"></line> <line x1="80" y1="80" x2="116" y2="80"></line> <line x1="80" y1="82" x2="116" y2="82"></line> <line x1="80" y1="84" x2="116" y2="84"></line> <line x1="80" y1="86" x2="116" y2="86"></line> <line x1="80" y1="88" x2="116" y2="88"></line> <line x1="80" y1="90" x2="116" y2="90"></line> <line x1="80" y1="92" x2="116" y2="92"></line> <line x1="80" y1="94" x2="116" y2="94"></line> <line x1="80" y1="96" x2="116" y2="96"></line> <line x1="80" y1="98" x2="116" y2="98"></line> <line x1="80" y1="100" x2="116" y2="100"></line> <line x1="80" y1="102" x2="116" y2="102" style="stroke-width:2"></line> <!-- Vertical lines --> <line x1="80" y1="70" x2="80" y2="102" style="stroke-width:2"></line> <line x1="81" y1="70" x2="81" y2="102"></line> <line x1="83" y1="70" x2="83" y2="102"></line> <line x1="85" y1="70" x2="85" y2="102"></line> <line x1="88" y1="70" x2="88" y2="102"></line> <line x1="89" y1="70" x2="89" y2="102"></line> <line x1="91" y1="70" x2="91" y2="102"></line> <line x1="93" y1="70" x2="93" y2="102"></line> <line x1="95" y1="70" x2="95" y2="102"></line> <line x1="97" y1="70" x2="97" y2="102"></line> <line x1="98" y1="70" x2="98" y2="102"></line> <line x1="100" y1="70" x2="100" y2="102"></line> <line x1="102" y1="70" x2="102" y2="102"></line> <line x1="104" y1="70" x2="104" y2="102"></line> <line x1="107" y1="70" x2="107" y2="102"></line> <line x1="108" y1="70" x2="108" y2="102"></line> <line x1="110" y1="70" x2="110" y2="102"></line> <line x1="112" y1="70" x2="112" y2="102"></line> <line x1="114" y1="70" x2="114" y2="102"></line> <line x1="116" y1="70" x2="116" y2="102" style="stroke-width:2"></line> <!-- Colored Rectangle --> <polygon points="80.58823529411765,70.58823529411765 116.65102347670091,70.58823529411765 116.65102347670091,102.0619958297315 80.58823529411765,102.0619958297315" style="fill:#8B4903A0;stroke-width:0"></polygon> <!-- Text --> <text x="98.619629" y="122.061996" font-size="1.0rem" font-weight="100" text-anchor="middle">1700</text> <text x="136.651023" y="86.325116" font-size="1.0rem" font-weight="100" text-anchor="middle" transform="rotate(-90,136.651023,86.325116)">800</text> <text x="35.294118" y="86.767878" font-size="1.0rem" font-weight="100" text-anchor="middle" transform="rotate(45,35.294118,86.767878)">26298</text>
+</svg></td>
+</tr>
+</tbody>
+</table>
+</div></li><li class="xr-var-item"><div class="xr-var-name"><span>tasmin</span></div><div class="xr-var-dims">(time, lat, lon)</div><div class="xr-var-dtype">float32</div><div class="xr-var-preview xr-preview">dask.array&lt;chunksize=(26298, 50, 50), meta=np.ndarray&gt;</div><input id="attrs-73a12ace-9ba9-4b16-b799-2274aec50766" class="xr-var-attrs-in" type="checkbox"><label for="attrs-73a12ace-9ba9-4b16-b799-2274aec50766" title="Show/Hide attributes"><svg class="icon xr-icon-file-text2"><use href="#icon-file-text2"></use></svg></label><input id="data-45b1f8f8-8b8f-4b6f-ad95-f32d469142c4" class="xr-var-data-in" type="checkbox"><label for="data-45b1f8f8-8b8f-4b6f-ad95-f32d469142c4" title="Show/Hide data repr"><svg class="icon xr-icon-database"><use href="#icon-database"></use></svg></label><div class="xr-var-attrs"><dl class="xr-attrs"><dt><span>long_name :</span></dt><dd>2 metre temperature</dd><dt><span>original_variable :</span></dt><dd>t2m</dd><dt><span>standard_name :</span></dt><dd>air_temperature</dd><dt><span>units :</span></dt><dd>K</dd><dt><span>cell_methods :</span></dt><dd>time: point</dd><dt><span>_ChunkSizes :</span></dt><dd>[366  50  50]</dd></dl></div><div class="xr-var-data">
+<table class="caption-top table table-sm table-striped small">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><table class="caption-top table table-sm table-striped small">
+<thead>
+<tr class="header">
+<td></td>
+<th data-quarto-table-cell-role="th">Array</th>
+<th data-quarto-table-cell-role="th">Chunk</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<th data-quarto-table-cell-role="th">Bytes</th>
+<td>133.24 GiB</td>
+<td>250.80 MiB</td>
+</tr>
+<tr class="even">
+<th data-quarto-table-cell-role="th">Shape</th>
+<td>(26298, 800, 1700)</td>
+<td>(26298, 50, 50)</td>
+</tr>
+<tr class="odd">
+<th data-quarto-table-cell-role="th">Dask graph</th>
+<td colspan="2">544 chunks in 2 graph layers</td>
+</tr>
+<tr class="even">
+<th data-quarto-table-cell-role="th">Data type</th>
+<td colspan="2">float32 numpy.ndarray</td>
+</tr>
+</tbody>
+</table></td>
+<td><svg width="166" height="152" style="stroke:rgb(0,0,0);stroke-width:1">
+<!-- Horizontal lines --> <line x1="10" y1="0" x2="80" y2="70" style="stroke-width:2"></line> <line x1="10" y1="1" x2="80" y2="72"></line> <line x1="10" y1="3" x2="80" y2="74"></line> <line x1="10" y1="5" x2="80" y2="76"></line> <line x1="10" y1="7" x2="80" y2="78"></line> <line x1="10" y1="9" x2="80" y2="80"></line> <line x1="10" y1="11" x2="80" y2="82"></line> <line x1="10" y1="13" x2="80" y2="84"></line> <line x1="10" y1="15" x2="80" y2="86"></line> <line x1="10" y1="17" x2="80" y2="88"></line> <line x1="10" y1="19" x2="80" y2="90"></line> <line x1="10" y1="21" x2="80" y2="92"></line> <line x1="10" y1="23" x2="80" y2="94"></line> <line x1="10" y1="25" x2="80" y2="96"></line> <line x1="10" y1="27" x2="80" y2="98"></line> <line x1="10" y1="29" x2="80" y2="100"></line> <line x1="10" y1="31" x2="80" y2="102" style="stroke-width:2"></line> <!-- Vertical lines --> <line x1="10" y1="0" x2="10" y2="31" style="stroke-width:2"></line> <line x1="80" y1="70" x2="80" y2="102" style="stroke-width:2"></line> <!-- Colored Rectangle --> <polygon points="10.0,0.0 80.58823529411765,70.58823529411765 80.58823529411765,102.0619958297315 10.0,31.473760535613845" style="fill:#ECB172A0;stroke-width:0"></polygon> <!-- Horizontal lines --> <line x1="10" y1="0" x2="46" y2="0" style="stroke-width:2"></line> <line x1="80" y1="70" x2="116" y2="70" style="stroke-width:2"></line> <!-- Vertical lines --> <line x1="10" y1="0" x2="80" y2="70" style="stroke-width:2"></line> <line x1="11" y1="0" x2="81" y2="70"></line> <line x1="13" y1="0" x2="83" y2="70"></line> <line x1="15" y1="0" x2="85" y2="70"></line> <line x1="17" y1="0" x2="88" y2="70"></line> <line x1="18" y1="0" x2="89" y2="70"></line> <line x1="20" y1="0" x2="91" y2="70"></line> <line x1="22" y1="0" x2="93" y2="70"></line> <line x1="24" y1="0" x2="95" y2="70"></line> <line x1="26" y1="0" x2="97" y2="70"></line> <line x1="28" y1="0" x2="98" y2="70"></line> <line x1="30" y1="0" x2="100" y2="70"></line> <line x1="32" y1="0" x2="102" y2="70"></line> <line x1="34" y1="0" x2="104" y2="70"></line> <line x1="36" y1="0" x2="107" y2="70"></line> <line x1="37" y1="0" x2="108" y2="70"></line> <line x1="39" y1="0" x2="110" y2="70"></line> <line x1="41" y1="0" x2="112" y2="70"></line> <line x1="43" y1="0" x2="114" y2="70"></line> <line x1="46" y1="0" x2="116" y2="70" style="stroke-width:2"></line> <!-- Colored Rectangle --> <polygon points="10.0,0.0 46.062788182583255,0.0 116.65102347670091,70.58823529411765 80.58823529411765,70.58823529411765" style="fill:#8B4903A0;stroke-width:0"></polygon> <!-- Horizontal lines --> <line x1="80" y1="70" x2="116" y2="70" style="stroke-width:2"></line> <line x1="80" y1="72" x2="116" y2="72"></line> <line x1="80" y1="74" x2="116" y2="74"></line> <line x1="80" y1="76" x2="116" y2="76"></line> <line x1="80" y1="78" x2="116" y2="78"></line> <line x1="80" y1="80" x2="116" y2="80"></line> <line x1="80" y1="82" x2="116" y2="82"></line> <line x1="80" y1="84" x2="116" y2="84"></line> <line x1="80" y1="86" x2="116" y2="86"></line> <line x1="80" y1="88" x2="116" y2="88"></line> <line x1="80" y1="90" x2="116" y2="90"></line> <line x1="80" y1="92" x2="116" y2="92"></line> <line x1="80" y1="94" x2="116" y2="94"></line> <line x1="80" y1="96" x2="116" y2="96"></line> <line x1="80" y1="98" x2="116" y2="98"></line> <line x1="80" y1="100" x2="116" y2="100"></line> <line x1="80" y1="102" x2="116" y2="102" style="stroke-width:2"></line> <!-- Vertical lines --> <line x1="80" y1="70" x2="80" y2="102" style="stroke-width:2"></line> <line x1="81" y1="70" x2="81" y2="102"></line> <line x1="83" y1="70" x2="83" y2="102"></line> <line x1="85" y1="70" x2="85" y2="102"></line> <line x1="88" y1="70" x2="88" y2="102"></line> <line x1="89" y1="70" x2="89" y2="102"></line> <line x1="91" y1="70" x2="91" y2="102"></line> <line x1="93" y1="70" x2="93" y2="102"></line> <line x1="95" y1="70" x2="95" y2="102"></line> <line x1="97" y1="70" x2="97" y2="102"></line> <line x1="98" y1="70" x2="98" y2="102"></line> <line x1="100" y1="70" x2="100" y2="102"></line> <line x1="102" y1="70" x2="102" y2="102"></line> <line x1="104" y1="70" x2="104" y2="102"></line> <line x1="107" y1="70" x2="107" y2="102"></line> <line x1="108" y1="70" x2="108" y2="102"></line> <line x1="110" y1="70" x2="110" y2="102"></line> <line x1="112" y1="70" x2="112" y2="102"></line> <line x1="114" y1="70" x2="114" y2="102"></line> <line x1="116" y1="70" x2="116" y2="102" style="stroke-width:2"></line> <!-- Colored Rectangle --> <polygon points="80.58823529411765,70.58823529411765 116.65102347670091,70.58823529411765 116.65102347670091,102.0619958297315 80.58823529411765,102.0619958297315" style="fill:#8B4903A0;stroke-width:0"></polygon> <!-- Text --> <text x="98.619629" y="122.061996" font-size="1.0rem" font-weight="100" text-anchor="middle">1700</text> <text x="136.651023" y="86.325116" font-size="1.0rem" font-weight="100" text-anchor="middle" transform="rotate(-90,136.651023,86.325116)">800</text> <text x="35.294118" y="86.767878" font-size="1.0rem" font-weight="100" text-anchor="middle" transform="rotate(45,35.294118,86.767878)">26298</text>
+</svg></td>
+</tr>
+</tbody>
+</table>
+</div></li><li class="xr-var-item"><div class="xr-var-name"><span>tasmax</span></div><div class="xr-var-dims">(time, lat, lon)</div><div class="xr-var-dtype">float32</div><div class="xr-var-preview xr-preview">dask.array&lt;chunksize=(26298, 50, 50), meta=np.ndarray&gt;</div><input id="attrs-b4dbb85b-3eba-4d25-b802-87f776e76e49" class="xr-var-attrs-in" type="checkbox"><label for="attrs-b4dbb85b-3eba-4d25-b802-87f776e76e49" title="Show/Hide attributes"><svg class="icon xr-icon-file-text2"><use href="#icon-file-text2"></use></svg></label><input id="data-be704f4a-55c9-46c5-98dc-4a3fd7428999" class="xr-var-data-in" type="checkbox"><label for="data-be704f4a-55c9-46c5-98dc-4a3fd7428999" title="Show/Hide data repr"><svg class="icon xr-icon-database"><use href="#icon-database"></use></svg></label><div class="xr-var-attrs"><dl class="xr-attrs"><dt><span>long_name :</span></dt><dd>2 metre temperature</dd><dt><span>original_variable :</span></dt><dd>t2m</dd><dt><span>standard_name :</span></dt><dd>air_temperature</dd><dt><span>units :</span></dt><dd>K</dd><dt><span>cell_methods :</span></dt><dd>time: point</dd><dt><span>_ChunkSizes :</span></dt><dd>[366  50  50]</dd></dl></div><div class="xr-var-data">
+<table class="caption-top table table-sm table-striped small">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><table class="caption-top table table-sm table-striped small">
+<thead>
+<tr class="header">
+<td></td>
+<th data-quarto-table-cell-role="th">Array</th>
+<th data-quarto-table-cell-role="th">Chunk</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<th data-quarto-table-cell-role="th">Bytes</th>
+<td>133.24 GiB</td>
+<td>250.80 MiB</td>
+</tr>
+<tr class="even">
+<th data-quarto-table-cell-role="th">Shape</th>
+<td>(26298, 800, 1700)</td>
+<td>(26298, 50, 50)</td>
+</tr>
+<tr class="odd">
+<th data-quarto-table-cell-role="th">Dask graph</th>
+<td colspan="2">544 chunks in 2 graph layers</td>
+</tr>
+<tr class="even">
+<th data-quarto-table-cell-role="th">Data type</th>
+<td colspan="2">float32 numpy.ndarray</td>
+</tr>
+</tbody>
+</table></td>
+<td><svg width="166" height="152" style="stroke:rgb(0,0,0);stroke-width:1">
+<!-- Horizontal lines --> <line x1="10" y1="0" x2="80" y2="70" style="stroke-width:2"></line> <line x1="10" y1="1" x2="80" y2="72"></line> <line x1="10" y1="3" x2="80" y2="74"></line> <line x1="10" y1="5" x2="80" y2="76"></line> <line x1="10" y1="7" x2="80" y2="78"></line> <line x1="10" y1="9" x2="80" y2="80"></line> <line x1="10" y1="11" x2="80" y2="82"></line> <line x1="10" y1="13" x2="80" y2="84"></line> <line x1="10" y1="15" x2="80" y2="86"></line> <line x1="10" y1="17" x2="80" y2="88"></line> <line x1="10" y1="19" x2="80" y2="90"></line> <line x1="10" y1="21" x2="80" y2="92"></line> <line x1="10" y1="23" x2="80" y2="94"></line> <line x1="10" y1="25" x2="80" y2="96"></line> <line x1="10" y1="27" x2="80" y2="98"></line> <line x1="10" y1="29" x2="80" y2="100"></line> <line x1="10" y1="31" x2="80" y2="102" style="stroke-width:2"></line> <!-- Vertical lines --> <line x1="10" y1="0" x2="10" y2="31" style="stroke-width:2"></line> <line x1="80" y1="70" x2="80" y2="102" style="stroke-width:2"></line> <!-- Colored Rectangle --> <polygon points="10.0,0.0 80.58823529411765,70.58823529411765 80.58823529411765,102.0619958297315 10.0,31.473760535613845" style="fill:#ECB172A0;stroke-width:0"></polygon> <!-- Horizontal lines --> <line x1="10" y1="0" x2="46" y2="0" style="stroke-width:2"></line> <line x1="80" y1="70" x2="116" y2="70" style="stroke-width:2"></line> <!-- Vertical lines --> <line x1="10" y1="0" x2="80" y2="70" style="stroke-width:2"></line> <line x1="11" y1="0" x2="81" y2="70"></line> <line x1="13" y1="0" x2="83" y2="70"></line> <line x1="15" y1="0" x2="85" y2="70"></line> <line x1="17" y1="0" x2="88" y2="70"></line> <line x1="18" y1="0" x2="89" y2="70"></line> <line x1="20" y1="0" x2="91" y2="70"></line> <line x1="22" y1="0" x2="93" y2="70"></line> <line x1="24" y1="0" x2="95" y2="70"></line> <line x1="26" y1="0" x2="97" y2="70"></line> <line x1="28" y1="0" x2="98" y2="70"></line> <line x1="30" y1="0" x2="100" y2="70"></line> <line x1="32" y1="0" x2="102" y2="70"></line> <line x1="34" y1="0" x2="104" y2="70"></line> <line x1="36" y1="0" x2="107" y2="70"></line> <line x1="37" y1="0" x2="108" y2="70"></line> <line x1="39" y1="0" x2="110" y2="70"></line> <line x1="41" y1="0" x2="112" y2="70"></line> <line x1="43" y1="0" x2="114" y2="70"></line> <line x1="46" y1="0" x2="116" y2="70" style="stroke-width:2"></line> <!-- Colored Rectangle --> <polygon points="10.0,0.0 46.062788182583255,0.0 116.65102347670091,70.58823529411765 80.58823529411765,70.58823529411765" style="fill:#8B4903A0;stroke-width:0"></polygon> <!-- Horizontal lines --> <line x1="80" y1="70" x2="116" y2="70" style="stroke-width:2"></line> <line x1="80" y1="72" x2="116" y2="72"></line> <line x1="80" y1="74" x2="116" y2="74"></line> <line x1="80" y1="76" x2="116" y2="76"></line> <line x1="80" y1="78" x2="116" y2="78"></line> <line x1="80" y1="80" x2="116" y2="80"></line> <line x1="80" y1="82" x2="116" y2="82"></line> <line x1="80" y1="84" x2="116" y2="84"></line> <line x1="80" y1="86" x2="116" y2="86"></line> <line x1="80" y1="88" x2="116" y2="88"></line> <line x1="80" y1="90" x2="116" y2="90"></line> <line x1="80" y1="92" x2="116" y2="92"></line> <line x1="80" y1="94" x2="116" y2="94"></line> <line x1="80" y1="96" x2="116" y2="96"></line> <line x1="80" y1="98" x2="116" y2="98"></line> <line x1="80" y1="100" x2="116" y2="100"></line> <line x1="80" y1="102" x2="116" y2="102" style="stroke-width:2"></line> <!-- Vertical lines --> <line x1="80" y1="70" x2="80" y2="102" style="stroke-width:2"></line> <line x1="81" y1="70" x2="81" y2="102"></line> <line x1="83" y1="70" x2="83" y2="102"></line> <line x1="85" y1="70" x2="85" y2="102"></line> <line x1="88" y1="70" x2="88" y2="102"></line> <line x1="89" y1="70" x2="89" y2="102"></line> <line x1="91" y1="70" x2="91" y2="102"></line> <line x1="93" y1="70" x2="93" y2="102"></line> <line x1="95" y1="70" x2="95" y2="102"></line> <line x1="97" y1="70" x2="97" y2="102"></line> <line x1="98" y1="70" x2="98" y2="102"></line> <line x1="100" y1="70" x2="100" y2="102"></line> <line x1="102" y1="70" x2="102" y2="102"></line> <line x1="104" y1="70" x2="104" y2="102"></line> <line x1="107" y1="70" x2="107" y2="102"></line> <line x1="108" y1="70" x2="108" y2="102"></line> <line x1="110" y1="70" x2="110" y2="102"></line> <line x1="112" y1="70" x2="112" y2="102"></line> <line x1="114" y1="70" x2="114" y2="102"></line> <line x1="116" y1="70" x2="116" y2="102" style="stroke-width:2"></line> <!-- Colored Rectangle --> <polygon points="80.58823529411765,70.58823529411765 116.65102347670091,70.58823529411765 116.65102347670091,102.0619958297315 80.58823529411765,102.0619958297315" style="fill:#8B4903A0;stroke-width:0"></polygon> <!-- Text --> <text x="98.619629" y="122.061996" font-size="1.0rem" font-weight="100" text-anchor="middle">1700</text> <text x="136.651023" y="86.325116" font-size="1.0rem" font-weight="100" text-anchor="middle" transform="rotate(-90,136.651023,86.325116)">800</text> <text x="35.294118" y="86.767878" font-size="1.0rem" font-weight="100" text-anchor="middle" transform="rotate(45,35.294118,86.767878)">26298</text>
+</svg></td>
+</tr>
+</tbody>
+</table>
+</div></li><li class="xr-var-item"><div class="xr-var-name"><span>pr</span></div><div class="xr-var-dims">(time, lat, lon)</div><div class="xr-var-dtype">float32</div><div class="xr-var-preview xr-preview">dask.array&lt;chunksize=(26298, 50, 50), meta=np.ndarray&gt;</div><input id="attrs-3ebd16af-3559-4c5e-a0a8-d34751fb903d" class="xr-var-attrs-in" type="checkbox"><label for="attrs-3ebd16af-3559-4c5e-a0a8-d34751fb903d" title="Show/Hide attributes"><svg class="icon xr-icon-file-text2"><use href="#icon-file-text2"></use></svg></label><input id="data-66f7b4ea-64b8-41ec-8e3a-13991fef728d" class="xr-var-data-in" type="checkbox"><label for="data-66f7b4ea-64b8-41ec-8e3a-13991fef728d" title="Show/Hide data repr"><svg class="icon xr-icon-database"><use href="#icon-database"></use></svg></label><div class="xr-var-attrs"><dl class="xr-attrs"><dt><span>long_name :</span></dt><dd>Precipitation</dd><dt><span>cell_methods :</span></dt><dd>time: mean (interval: 1 hour)</dd><dt><span>comments :</span></dt><dd>Converted from Total Precipitation using a density of 1000 kg/m³.</dd><dt><span>original_long_name :</span></dt><dd>Total Precipitation</dd><dt><span>original_variable :</span></dt><dd>tp</dd><dt><span>standard_name :</span></dt><dd>precipitation_flux</dd><dt><span>units :</span></dt><dd>kg m-2 s-1</dd><dt><span>_ChunkSizes :</span></dt><dd>[366  50  50]</dd></dl></div><div class="xr-var-data">
+<table class="caption-top table table-sm table-striped small">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><table class="caption-top table table-sm table-striped small">
+<thead>
+<tr class="header">
+<td></td>
+<th data-quarto-table-cell-role="th">Array</th>
+<th data-quarto-table-cell-role="th">Chunk</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<th data-quarto-table-cell-role="th">Bytes</th>
+<td>133.24 GiB</td>
+<td>250.80 MiB</td>
+</tr>
+<tr class="even">
+<th data-quarto-table-cell-role="th">Shape</th>
+<td>(26298, 800, 1700)</td>
+<td>(26298, 50, 50)</td>
+</tr>
+<tr class="odd">
+<th data-quarto-table-cell-role="th">Dask graph</th>
+<td colspan="2">544 chunks in 2 graph layers</td>
+</tr>
+<tr class="even">
+<th data-quarto-table-cell-role="th">Data type</th>
+<td colspan="2">float32 numpy.ndarray</td>
+</tr>
+</tbody>
+</table></td>
+<td><svg width="166" height="152" style="stroke:rgb(0,0,0);stroke-width:1">
+<!-- Horizontal lines --> <line x1="10" y1="0" x2="80" y2="70" style="stroke-width:2"></line> <line x1="10" y1="1" x2="80" y2="72"></line> <line x1="10" y1="3" x2="80" y2="74"></line> <line x1="10" y1="5" x2="80" y2="76"></line> <line x1="10" y1="7" x2="80" y2="78"></line> <line x1="10" y1="9" x2="80" y2="80"></line> <line x1="10" y1="11" x2="80" y2="82"></line> <line x1="10" y1="13" x2="80" y2="84"></line> <line x1="10" y1="15" x2="80" y2="86"></line> <line x1="10" y1="17" x2="80" y2="88"></line> <line x1="10" y1="19" x2="80" y2="90"></line> <line x1="10" y1="21" x2="80" y2="92"></line> <line x1="10" y1="23" x2="80" y2="94"></line> <line x1="10" y1="25" x2="80" y2="96"></line> <line x1="10" y1="27" x2="80" y2="98"></line> <line x1="10" y1="29" x2="80" y2="100"></line> <line x1="10" y1="31" x2="80" y2="102" style="stroke-width:2"></line> <!-- Vertical lines --> <line x1="10" y1="0" x2="10" y2="31" style="stroke-width:2"></line> <line x1="80" y1="70" x2="80" y2="102" style="stroke-width:2"></line> <!-- Colored Rectangle --> <polygon points="10.0,0.0 80.58823529411765,70.58823529411765 80.58823529411765,102.0619958297315 10.0,31.473760535613845" style="fill:#ECB172A0;stroke-width:0"></polygon> <!-- Horizontal lines --> <line x1="10" y1="0" x2="46" y2="0" style="stroke-width:2"></line> <line x1="80" y1="70" x2="116" y2="70" style="stroke-width:2"></line> <!-- Vertical lines --> <line x1="10" y1="0" x2="80" y2="70" style="stroke-width:2"></line> <line x1="11" y1="0" x2="81" y2="70"></line> <line x1="13" y1="0" x2="83" y2="70"></line> <line x1="15" y1="0" x2="85" y2="70"></line> <line x1="17" y1="0" x2="88" y2="70"></line> <line x1="18" y1="0" x2="89" y2="70"></line> <line x1="20" y1="0" x2="91" y2="70"></line> <line x1="22" y1="0" x2="93" y2="70"></line> <line x1="24" y1="0" x2="95" y2="70"></line> <line x1="26" y1="0" x2="97" y2="70"></line> <line x1="28" y1="0" x2="98" y2="70"></line> <line x1="30" y1="0" x2="100" y2="70"></line> <line x1="32" y1="0" x2="102" y2="70"></line> <line x1="34" y1="0" x2="104" y2="70"></line> <line x1="36" y1="0" x2="107" y2="70"></line> <line x1="37" y1="0" x2="108" y2="70"></line> <line x1="39" y1="0" x2="110" y2="70"></line> <line x1="41" y1="0" x2="112" y2="70"></line> <line x1="43" y1="0" x2="114" y2="70"></line> <line x1="46" y1="0" x2="116" y2="70" style="stroke-width:2"></line> <!-- Colored Rectangle --> <polygon points="10.0,0.0 46.062788182583255,0.0 116.65102347670091,70.58823529411765 80.58823529411765,70.58823529411765" style="fill:#8B4903A0;stroke-width:0"></polygon> <!-- Horizontal lines --> <line x1="80" y1="70" x2="116" y2="70" style="stroke-width:2"></line> <line x1="80" y1="72" x2="116" y2="72"></line> <line x1="80" y1="74" x2="116" y2="74"></line> <line x1="80" y1="76" x2="116" y2="76"></line> <line x1="80" y1="78" x2="116" y2="78"></line> <line x1="80" y1="80" x2="116" y2="80"></line> <line x1="80" y1="82" x2="116" y2="82"></line> <line x1="80" y1="84" x2="116" y2="84"></line> <line x1="80" y1="86" x2="116" y2="86"></line> <line x1="80" y1="88" x2="116" y2="88"></line> <line x1="80" y1="90" x2="116" y2="90"></line> <line x1="80" y1="92" x2="116" y2="92"></line> <line x1="80" y1="94" x2="116" y2="94"></line> <line x1="80" y1="96" x2="116" y2="96"></line> <line x1="80" y1="98" x2="116" y2="98"></line> <line x1="80" y1="100" x2="116" y2="100"></line> <line x1="80" y1="102" x2="116" y2="102" style="stroke-width:2"></line> <!-- Vertical lines --> <line x1="80" y1="70" x2="80" y2="102" style="stroke-width:2"></line> <line x1="81" y1="70" x2="81" y2="102"></line> <line x1="83" y1="70" x2="83" y2="102"></line> <line x1="85" y1="70" x2="85" y2="102"></line> <line x1="88" y1="70" x2="88" y2="102"></line> <line x1="89" y1="70" x2="89" y2="102"></line> <line x1="91" y1="70" x2="91" y2="102"></line> <line x1="93" y1="70" x2="93" y2="102"></line> <line x1="95" y1="70" x2="95" y2="102"></line> <line x1="97" y1="70" x2="97" y2="102"></line> <line x1="98" y1="70" x2="98" y2="102"></line> <line x1="100" y1="70" x2="100" y2="102"></line> <line x1="102" y1="70" x2="102" y2="102"></line> <line x1="104" y1="70" x2="104" y2="102"></line> <line x1="107" y1="70" x2="107" y2="102"></line> <line x1="108" y1="70" x2="108" y2="102"></line> <line x1="110" y1="70" x2="110" y2="102"></line> <line x1="112" y1="70" x2="112" y2="102"></line> <line x1="114" y1="70" x2="114" y2="102"></line> <line x1="116" y1="70" x2="116" y2="102" style="stroke-width:2"></line> <!-- Colored Rectangle --> <polygon points="80.58823529411765,70.58823529411765 116.65102347670091,70.58823529411765 116.65102347670091,102.0619958297315 80.58823529411765,102.0619958297315" style="fill:#8B4903A0;stroke-width:0"></polygon> <!-- Text --> <text x="98.619629" y="122.061996" font-size="1.0rem" font-weight="100" text-anchor="middle">1700</text> <text x="136.651023" y="86.325116" font-size="1.0rem" font-weight="100" text-anchor="middle" transform="rotate(-90,136.651023,86.325116)">800</text> <text x="35.294118" y="86.767878" font-size="1.0rem" font-weight="100" text-anchor="middle" transform="rotate(45,35.294118,86.767878)">26298</text>
+</svg></td>
+</tr>
+</tbody>
+</table>
+</div></li><li class="xr-var-item"><div class="xr-var-name"><span>prsn</span></div><div class="xr-var-dims">(time, lat, lon)</div><div class="xr-var-dtype">float32</div><div class="xr-var-preview xr-preview">dask.array&lt;chunksize=(26298, 50, 50), meta=np.ndarray&gt;</div><input id="attrs-5afe8dc7-3261-45ec-8c96-92f7fc3cff75" class="xr-var-attrs-in" type="checkbox"><label for="attrs-5afe8dc7-3261-45ec-8c96-92f7fc3cff75" title="Show/Hide attributes"><svg class="icon xr-icon-file-text2"><use href="#icon-file-text2"></use></svg></label><input id="data-f48b2cca-be3a-40b8-96d7-7cb34d64289f" class="xr-var-data-in" type="checkbox"><label for="data-f48b2cca-be3a-40b8-96d7-7cb34d64289f" title="Show/Hide data repr"><svg class="icon xr-icon-database"><use href="#icon-database"></use></svg></label><div class="xr-var-attrs"><dl class="xr-attrs"><dt><span>long_name :</span></dt><dd>Snowfall flux</dd><dt><span>cell_methods :</span></dt><dd>time: mean (interval: 1 hour)</dd><dt><span>comments :</span></dt><dd>Converted from Snowfall (water equivalent) using a density of 1000 kg/m³.</dd><dt><span>original_long_name :</span></dt><dd>Snowfall</dd><dt><span>original_variable :</span></dt><dd>sf</dd><dt><span>standard_name :</span></dt><dd>snowfall_flux</dd><dt><span>units :</span></dt><dd>kg m-2 s-1</dd><dt><span>_ChunkSizes :</span></dt><dd>[366  50  50]</dd></dl></div><div class="xr-var-data">
+<table class="caption-top table table-sm table-striped small">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><table class="caption-top table table-sm table-striped small">
+<thead>
+<tr class="header">
+<td></td>
+<th data-quarto-table-cell-role="th">Array</th>
+<th data-quarto-table-cell-role="th">Chunk</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<th data-quarto-table-cell-role="th">Bytes</th>
+<td>133.24 GiB</td>
+<td>250.80 MiB</td>
+</tr>
+<tr class="even">
+<th data-quarto-table-cell-role="th">Shape</th>
+<td>(26298, 800, 1700)</td>
+<td>(26298, 50, 50)</td>
+</tr>
+<tr class="odd">
+<th data-quarto-table-cell-role="th">Dask graph</th>
+<td colspan="2">544 chunks in 2 graph layers</td>
+</tr>
+<tr class="even">
+<th data-quarto-table-cell-role="th">Data type</th>
+<td colspan="2">float32 numpy.ndarray</td>
+</tr>
+</tbody>
+</table></td>
+<td><svg width="166" height="152" style="stroke:rgb(0,0,0);stroke-width:1">
+<!-- Horizontal lines --> <line x1="10" y1="0" x2="80" y2="70" style="stroke-width:2"></line> <line x1="10" y1="1" x2="80" y2="72"></line> <line x1="10" y1="3" x2="80" y2="74"></line> <line x1="10" y1="5" x2="80" y2="76"></line> <line x1="10" y1="7" x2="80" y2="78"></line> <line x1="10" y1="9" x2="80" y2="80"></line> <line x1="10" y1="11" x2="80" y2="82"></line> <line x1="10" y1="13" x2="80" y2="84"></line> <line x1="10" y1="15" x2="80" y2="86"></line> <line x1="10" y1="17" x2="80" y2="88"></line> <line x1="10" y1="19" x2="80" y2="90"></line> <line x1="10" y1="21" x2="80" y2="92"></line> <line x1="10" y1="23" x2="80" y2="94"></line> <line x1="10" y1="25" x2="80" y2="96"></line> <line x1="10" y1="27" x2="80" y2="98"></line> <line x1="10" y1="29" x2="80" y2="100"></line> <line x1="10" y1="31" x2="80" y2="102" style="stroke-width:2"></line> <!-- Vertical lines --> <line x1="10" y1="0" x2="10" y2="31" style="stroke-width:2"></line> <line x1="80" y1="70" x2="80" y2="102" style="stroke-width:2"></line> <!-- Colored Rectangle --> <polygon points="10.0,0.0 80.58823529411765,70.58823529411765 80.58823529411765,102.0619958297315 10.0,31.473760535613845" style="fill:#ECB172A0;stroke-width:0"></polygon> <!-- Horizontal lines --> <line x1="10" y1="0" x2="46" y2="0" style="stroke-width:2"></line> <line x1="80" y1="70" x2="116" y2="70" style="stroke-width:2"></line> <!-- Vertical lines --> <line x1="10" y1="0" x2="80" y2="70" style="stroke-width:2"></line> <line x1="11" y1="0" x2="81" y2="70"></line> <line x1="13" y1="0" x2="83" y2="70"></line> <line x1="15" y1="0" x2="85" y2="70"></line> <line x1="17" y1="0" x2="88" y2="70"></line> <line x1="18" y1="0" x2="89" y2="70"></line> <line x1="20" y1="0" x2="91" y2="70"></line> <line x1="22" y1="0" x2="93" y2="70"></line> <line x1="24" y1="0" x2="95" y2="70"></line> <line x1="26" y1="0" x2="97" y2="70"></line> <line x1="28" y1="0" x2="98" y2="70"></line> <line x1="30" y1="0" x2="100" y2="70"></line> <line x1="32" y1="0" x2="102" y2="70"></line> <line x1="34" y1="0" x2="104" y2="70"></line> <line x1="36" y1="0" x2="107" y2="70"></line> <line x1="37" y1="0" x2="108" y2="70"></line> <line x1="39" y1="0" x2="110" y2="70"></line> <line x1="41" y1="0" x2="112" y2="70"></line> <line x1="43" y1="0" x2="114" y2="70"></line> <line x1="46" y1="0" x2="116" y2="70" style="stroke-width:2"></line> <!-- Colored Rectangle --> <polygon points="10.0,0.0 46.062788182583255,0.0 116.65102347670091,70.58823529411765 80.58823529411765,70.58823529411765" style="fill:#8B4903A0;stroke-width:0"></polygon> <!-- Horizontal lines --> <line x1="80" y1="70" x2="116" y2="70" style="stroke-width:2"></line> <line x1="80" y1="72" x2="116" y2="72"></line> <line x1="80" y1="74" x2="116" y2="74"></line> <line x1="80" y1="76" x2="116" y2="76"></line> <line x1="80" y1="78" x2="116" y2="78"></line> <line x1="80" y1="80" x2="116" y2="80"></line> <line x1="80" y1="82" x2="116" y2="82"></line> <line x1="80" y1="84" x2="116" y2="84"></line> <line x1="80" y1="86" x2="116" y2="86"></line> <line x1="80" y1="88" x2="116" y2="88"></line> <line x1="80" y1="90" x2="116" y2="90"></line> <line x1="80" y1="92" x2="116" y2="92"></line> <line x1="80" y1="94" x2="116" y2="94"></line> <line x1="80" y1="96" x2="116" y2="96"></line> <line x1="80" y1="98" x2="116" y2="98"></line> <line x1="80" y1="100" x2="116" y2="100"></line> <line x1="80" y1="102" x2="116" y2="102" style="stroke-width:2"></line> <!-- Vertical lines --> <line x1="80" y1="70" x2="80" y2="102" style="stroke-width:2"></line> <line x1="81" y1="70" x2="81" y2="102"></line> <line x1="83" y1="70" x2="83" y2="102"></line> <line x1="85" y1="70" x2="85" y2="102"></line> <line x1="88" y1="70" x2="88" y2="102"></line> <line x1="89" y1="70" x2="89" y2="102"></line> <line x1="91" y1="70" x2="91" y2="102"></line> <line x1="93" y1="70" x2="93" y2="102"></line> <line x1="95" y1="70" x2="95" y2="102"></line> <line x1="97" y1="70" x2="97" y2="102"></line> <line x1="98" y1="70" x2="98" y2="102"></line> <line x1="100" y1="70" x2="100" y2="102"></line> <line x1="102" y1="70" x2="102" y2="102"></line> <line x1="104" y1="70" x2="104" y2="102"></line> <line x1="107" y1="70" x2="107" y2="102"></line> <line x1="108" y1="70" x2="108" y2="102"></line> <line x1="110" y1="70" x2="110" y2="102"></line> <line x1="112" y1="70" x2="112" y2="102"></line> <line x1="114" y1="70" x2="114" y2="102"></line> <line x1="116" y1="70" x2="116" y2="102" style="stroke-width:2"></line> <!-- Colored Rectangle --> <polygon points="80.58823529411765,70.58823529411765 116.65102347670091,70.58823529411765 116.65102347670091,102.0619958297315 80.58823529411765,102.0619958297315" style="fill:#8B4903A0;stroke-width:0"></polygon> <!-- Text --> <text x="98.619629" y="122.061996" font-size="1.0rem" font-weight="100" text-anchor="middle">1700</text> <text x="136.651023" y="86.325116" font-size="1.0rem" font-weight="100" text-anchor="middle" transform="rotate(-90,136.651023,86.325116)">800</text> <text x="35.294118" y="86.767878" font-size="1.0rem" font-weight="100" text-anchor="middle" transform="rotate(45,35.294118,86.767878)">26298</text>
+</svg></td>
+</tr>
+</tbody>
+</table>
+</div></li></ul></div></li><li class="xr-section-item"><input id="section-f31f97f2-348b-437f-8277-1f9706d3d6d2" class="xr-section-summary-in" type="checkbox"><label for="section-f31f97f2-348b-437f-8277-1f9706d3d6d2" class="xr-section-summary">Indexes: <span>(3)</span></label><div class="xr-section-inline-details"></div><div class="xr-section-details"><ul class="xr-var-list"><li class="xr-var-item"><div class="xr-index-name"><div>lat</div></div><div class="xr-index-preview">PandasIndex</div><div></div><input id="index-e4486f9c-9111-4ed1-a7c6-3a2e0f08cb22" class="xr-index-data-in" type="checkbox"><label for="index-e4486f9c-9111-4ed1-a7c6-3a2e0f08cb22" title="Show/Hide index repr"><svg class="icon xr-icon-database"><use href="#icon-database"></use></svg></label><div class="xr-index-data"><pre>PandasIndex(Float64Index([              10.0, 10.100000381469727, 10.199999809265137,
+              10.300000190734863, 10.399999618530273,               10.5,
+              10.600000381469727, 10.699999809265137, 10.800000190734863,
+              10.899999618530273,
+              ...
+                            89.0,   89.0999984741211,  89.19999694824219,
+               89.30000305175781,   89.4000015258789,               89.5,
+                89.5999984741211,  89.69999694824219,  89.80000305175781,
+                89.9000015258789],
+             dtype='float64', name='lat', length=800))</pre></div></li><li class="xr-var-item"><div class="xr-index-name"><div>lon</div></div><div class="xr-index-preview">PandasIndex</div><div></div><input id="index-17e28516-e97c-4013-b0fc-f5a84f6711c3" class="xr-index-data-in" type="checkbox"><label for="index-17e28516-e97c-4013-b0fc-f5a84f6711c3" title="Show/Hide index repr"><svg class="icon xr-icon-database"><use href="#icon-database"></use></svg></label><div class="xr-index-data"><pre>PandasIndex(Float64Index([-179.89999389648438,  -179.8000030517578,  -179.6999969482422,
+              -179.60000610351562,              -179.5, -179.39999389648438,
+               -179.3000030517578,  -179.1999969482422, -179.10000610351562,
+                           -179.0,
+              ...
+              -10.899999618530273, -10.800000190734863, -10.699999809265137,
+              -10.600000381469727,               -10.5, -10.399999618530273,
+              -10.300000190734863, -10.199999809265137, -10.100000381469727,
+                            -10.0],
+             dtype='float64', name='lon', length=1700))</pre></div></li><li class="xr-var-item"><div class="xr-index-name"><div>time</div></div><div class="xr-index-preview">PandasIndex</div><div></div><input id="index-8d12b91b-6687-41ad-9aa1-836abb552626" class="xr-index-data-in" type="checkbox"><label for="index-8d12b91b-6687-41ad-9aa1-836abb552626" title="Show/Hide index repr"><svg class="icon xr-icon-database"><use href="#icon-database"></use></svg></label><div class="xr-index-data"><pre>PandasIndex(DatetimeIndex(['1950-01-01', '1950-01-02', '1950-01-03', '1950-01-04',
+               '1950-01-05', '1950-01-06', '1950-01-07', '1950-01-08',
+               '1950-01-09', '1950-01-10',
+               ...
+               '2021-12-22', '2021-12-23', '2021-12-24', '2021-12-25',
+               '2021-12-26', '2021-12-27', '2021-12-28', '2021-12-29',
+               '2021-12-30', '2021-12-31'],
+              dtype='datetime64[ns]', name='time', length=26298, freq=None))</pre></div></li></ul></div></li><li class="xr-section-item"><input id="section-42d568bc-f515-4679-bce5-2b360e1e0c4b" class="xr-section-summary-in" type="checkbox"><label for="section-42d568bc-f515-4679-bce5-2b360e1e0c4b" class="xr-section-summary">Attributes: <span>(26)</span></label><div class="xr-section-inline-details"></div><div class="xr-section-details"><dl class="xr-attrs"><dt><span>Conventions :</span></dt><dd>CF-1.8</dd><dt><span>cell_methods :</span></dt><dd>time: mean (interval: 1 day)</dd><dt><span>data_specs_version :</span></dt><dd>00.00.07</dd><dt><span>domain :</span></dt><dd>NAM</dd><dt><span>format :</span></dt><dd>netcdf</dd><dt><span>frequency :</span></dt><dd>day</dd><dt><span>history :</span></dt><dd>[2022-07-16 11:22:42.650045] Converted from original data to zarr with modified metadata for CF-like compliance.</dd><dt><span>institution :</span></dt><dd>ECMWF</dd><dt><span>processing_level :</span></dt><dd>raw</dd><dt><span>project :</span></dt><dd>era5-land</dd><dt><span>realm :</span></dt><dd>atmos</dd><dt><span>source :</span></dt><dd>ERA5-Land</dd><dt><span>table_date :</span></dt><dd>13 June 2022</dd><dt><span>type :</span></dt><dd>reanalysis</dd><dt><span>version :</span></dt><dd>v2022.07.15</dd><dt><span>title :</span></dt><dd>ERA5-Land : daily</dd><dt><span>institute :</span></dt><dd>European Centre for Medium-Range Weather Forecasts</dd><dt><span>institute_id :</span></dt><dd>ECMWF</dd><dt><span>dataset_id :</span></dt><dd>ERA5-Land</dd><dt><span>abstract :</span></dt><dd>ERA5-Land provides hourly high resolution information of surface variables. The data is a replay of the land component of the ERA5 climate reanalysis with a finer spatial resolution: ~9km grid spacing. ERA5-Land includes information about uncertainties for all variables at reduced spatial and temporal resolutions. The model used in the production of ERA5-Land is the tiled ECMWF Scheme for Surface Exchanges over Land incorporating land surface hydrology (H-TESSEL).</dd><dt><span>dataset_description :</span></dt><dd>https://www.ecmwf.int/en/era5-land</dd><dt><span>license_type :</span></dt><dd>permissive</dd><dt><span>license :</span></dt><dd>Please acknowledge the use of ERA5-Land as stated in the Copernicus C3S/CAMS License agreement http://apps.ecmwf.int/datasets/licences/copernicus/</dd><dt><span>attribution :</span></dt><dd>Contains modified Copernicus Climate Change Service Information 2022. Neither the European Commission nor ECMWF is responsible for any use that may be made of the Copernicus Information or Data it contains.</dd><dt><span>citation :</span></dt><dd>Muñoz Sabater, J., (2021): ERA5-Land hourly data from 1950 to 1980. Copernicus Climate Change Service (C3S) Climate Data Store (CDS). (Accessed on 2022.06.07)</dd><dt><span>doi :</span></dt><dd>https://doi.org/10.24381/cds.e2161bac</dd></dl></div></li></ul></div></div>
+</div>
+</div>
+<p>A quicklook visualization of a day in the data is shown below.</p>
+<div id="ae2f3efb-6711-4b57-9bde-79440e1e0e07" class="cell" data-execution_count="3">
+<details class="code-fold">
+<summary>Code</summary>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>ds.tas.sel(time<span class="op">=</span><span class="st">"2019-01-16"</span>).plot()</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="Deprecated_Climate_Data_Fundamentals_files/figure-html/cell-3-output-1.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="todo-access-a-climate-simulation-ensemble" class="level2">
+<h2 class="anchored" data-anchor-id="todo-access-a-climate-simulation-ensemble">ToDo: Access a climate simulation ensemble</h2>
+
+
+</section>
+
+</main> <!-- /main -->
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  document.querySelectorAll("a[href^='http']").forEach(link => {
+    if (!link.href.includes(window.location.hostname)) {
+      link.target = "_blank";
+      link.rel = "noopener noreferrer";
+    }
+  });
+});
+</script>
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/Ouranosinc\.github\.io\/energy_climate_data_guide\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="../../development/templates/Dataset_Template.html" class="pagination-link" aria-label="Dataset Page Template">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Dataset Page Template</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="../../development/examples/QuartoFunctionalityExamples.html" class="pagination-link" aria-label="Quarto Functionality Examples">
+        <span class="nav-page-text">Quarto Functionality Examples</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+<script src="auto-open-callout.js"></script>
+
+
+
+
+<script src="../../site_libs/quarto-html/zenscroll-min.js"></script>
+</body></html>
