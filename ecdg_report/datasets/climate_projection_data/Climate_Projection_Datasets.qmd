@@ -51,6 +51,6 @@ Ensembles of RCM simulations become available later than the GCM simulations on 
 
 ## Expert Guidance {#expert-guidance}
 
-For an introduction to the principal types and sources of climate information, see [Types of Climate Data](../../climate_data_fundamentals/Climate_Datasets_Overview.ipynb).
+For an introduction to the principal types and sources of climate information, see [Types of Climate Data](../../climate_data_fundamentals/Climate_Datasets_Overview.qmd).
 
 

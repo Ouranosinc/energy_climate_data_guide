@@ -1,0 +1,11 @@
+---
+title: Infrastructure Condition Assessment & Investment Prioritization
+
+---
+
+
+## Description
+Based on existing condition of assets (scope to be expanded to include more robust vulnerabilities) and projected changes to hazard exposure, support in the development of investment prioritization.
+
+
+

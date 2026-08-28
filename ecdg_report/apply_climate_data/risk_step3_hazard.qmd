@@ -296,7 +296,7 @@ criteria.
 
 For more information on climate data and projections refer to [the
 overview on climate
-datasets](../climate_data_fundamentals/Climate_Datasets_Overview.ipynb)
+datasets](../climate_data_fundamentals/Climate_Datasets_Overview.qmd)
 
 ### Assessing Data Suitability
 

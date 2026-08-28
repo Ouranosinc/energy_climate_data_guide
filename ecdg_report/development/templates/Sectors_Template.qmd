@@ -40,7 +40,7 @@ Description of Model Type #1
 ### Key Climate Inputs
 - Input A - Description [Sample links](#data-access)
 - Input B - Description [Sample links](#data-access)
-- link to [climate projections](../../climate_data_fundamentals/Climate_Datasets_Overview.ipynb)
+- link to [climate projections](../../climate_data_fundamentals/Climate_Datasets_Overview.qmd)
 
 :::
 

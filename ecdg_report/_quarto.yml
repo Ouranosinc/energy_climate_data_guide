@@ -216,9 +216,8 @@ bibliography:
   - apply_climate_data/adaptation.bib
   - apply_climate_data/guidance.bib
   - organizational_capability/organizational_capability.bib
-  - sectors/references.bib
   - sectors/infrastructure/references_dam_safety.bib
-  - sectors/planning/references.bib
+  - sectors/planning/demand.bib
   - sectors/planning/generation_forecasting.bib
   - sectors/planning/resource_adequacy_planning.bib
   - sectors/planning/capacity_expansion_modelling.bib
