@@ -65,7 +65,7 @@ website:
           - text: "Reporting and Disclosure"
             href: sectors/reporting/reporting_disclosure.qmd
       - section: "Understand Climate Data"
-        href: climate_data_fundamentals/Climate_Datasets_Overview.ipynb
+        href: climate_data_fundamentals/Climate_Datasets_Overview.qmd
         contents:
           - text: "Forecasts, Projections and Predictability"
             href: climate_data_fundamentals/Temporal_Horizons_Predictability.qmd
