@@ -1,8 +1,6 @@
 ---
 title: IPCC Information for Electricity-Sector Applications
-aliases:
-  - /guidance/IPCC_information.html
-jupyter: python3
+
 ---
 
 <style>
