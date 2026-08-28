@@ -12,22 +12,6 @@ The matrix supports structured discussion, identification of gaps, and improveme
 
 [Download the Maturity Matrix (Excel)](Maturity_Matrix_v3.xlsx)
 
-## What is in the Excel workbook?
-
-The workbook contains four complementary worksheets:
-
-| Worksheet                | Purpose                                                                                                                                                                                            |
-| ------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Instructions & Scope** | Explains how to complete the assessment and records its organizational scope, included climate-information types, participants, and evidence sources.                                              |
-| **Assessment**           | Contains the 37 maturity criteria, their Level 1–5 descriptions, implementation status, current and desired maturity levels, and supporting evidence.                                              |
-| **Summary**              | Provides descriptive section-level results, including the median, score range, number of scored criteria, and implementation-status counts. It does not calculate an overall organizational score. |
-| **Glossary**             | Defines key terms used in the workbook to support consistent interpretation across participants and assessment scopes.                                                                             |
-
-Begin with **Instructions & Scope**, then complete the **Assessment** worksheet. Use **Summary** to review the resulting profile and consult **Glossary** whenever clarification is needed.
-
-
-Use the matrix to identify areas for organizational improvement, then consult [Organizational Gaps and Barriers](./gaps_organization.qmd) for common challenges affecting climate-information use. Where external expertise is needed, [Procuring Physical Climate-Risk Assessments](./Guidance_Harrington.qmd) provides questions to support informed procurement and oversight.
-
 ## What the matrix is for
 
 The matrix supports internal reflection and dialogue about the capabilities needed to use climate information responsibly and effectively. It can help an organization:
@@ -62,6 +46,56 @@ Complete the matrix as a cross-functional exercise rather than as an isolated qu
 - External contractors or consultants responsible for relevant technical work.
 
 Some criteria in Sections D–G require technical evidence. Involve personnel who perform or oversee that work. Where a contractor performs the analysis, assess the organization's ability to specify requirements, review evidence, retain documentation, and exercise appropriate oversight. Use **Not assessed** rather than guessing when the necessary evidence or expertise is unavailable.
+
+## What is in the Excel workbook?
+
+With the assessment scope and participants identified, the workbook provides a structured way to document evidence, assess current practice, and identify proportionate improvements.
+
+The workbook contains four complementary worksheets:
+
+| Worksheet                | Purpose                                                                                                                                                                                            |
+| ------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Instructions & Scope** | Explains how to complete the assessment and records its organizational scope, included climate-information types, participants, and evidence sources.                                              |
+| **Assessment**           | Contains the 37 maturity criteria, their Level 1–5 descriptions, implementation status, current and desired maturity levels, and supporting evidence.                                              |
+| **Summary**              | Provides descriptive section-level results, including the median, score range, number of scored criteria, and implementation-status counts. It does not calculate an overall organizational score. |
+| **Glossary**             | Defines key terms used in the workbook to support consistent interpretation across participants and assessment scopes.                                                                             |
+
+Begin with **Instructions & Scope**, then complete the **Assessment** worksheet. Use **Summary** to review the resulting profile and consult **Glossary** whenever clarification is needed.
+
+Before assigning implementation status or maturity levels, review the seven sections to understand the organizational and technical capabilities covered by the assessment.
+
+## Understanding the seven sections
+
+**A — Organizational Capacity, Governance and Resources:** Assesses whether the defined scope has reliable governance, expertise, external relationships, funding, staff capacity, training, and accountability mechanisms.
+
+**B — Climate Risk Understanding and Organizational Readiness:** Assesses whether people have the climate-risk understanding appropriate to their roles and whether that understanding supports risk management and adaptation.
+
+**C — Planning and Deployment Strategy:** Assesses how climate information is incorporated into organizational planning horizons, assumptions, coordination, tools, procedures, and learning. *Planning* and *operations* refer to activities, not necessarily teams with those names.
+
+**D — Data Acquisition, Provenance and Initial Screening:** Assesses whether the origin, conditions of use, processing history, version, metadata, and basic integrity of acquired climate information are understood and retained.
+
+**E — Quality Control and Validation:** Assesses whether climate information and relevant derived outputs undergo proportionate technical evaluation before use. Appropriate methods depend on product type, application, available reference information, and decision consequences.
+
+**F — Fitness for Purpose and Constraints:** Assesses whether climate information is suitable for a particular use and whether material constraints and trade-offs are understood. Technically credible information may still be unsuitable for a specific decision.
+
+**G — Understanding and Managing Data Limitations and Uncertainty:** Assesses whether gaps, errors, assumptions, uncertainty, input sensitivity, and misuse risks are understood and reflected in applications and communication.
+
+Although limitations and uncertainty are addressed explicitly in Section G, they should be considered throughout acquisition, evaluation, fitness-for-purpose assessment, application, and communication.
+
+
+## How the Maturity Matrix Sections Work Together
+
+{{< include _maturity_matrix_sections_visual.qmd >}}
+
+## Distinguishing data screening, validation, and fitness for purpose
+
+| Section | Central question | Example |
+|---|---|---|
+| **D — Acquisition and initial screening** | Do we know what the information is, where it came from, and whether it has obvious structural or integrity problems? | Verify source, version, licensing, units, coverage, missing values, and file integrity. |
+| **E — Quality control and validation** | Has its quality or performance been evaluated appropriately? | Compare relevant characteristics with appropriate reference information and evaluate consequential biases or predictive performance. |
+| **F — Fitness for purpose** | Is it suitable for this particular decision? | Determine whether spatial scale, variables, indicators, future conditions, and constraints match the use case. |
+
+With the assessment scope, section boundaries, and key technical distinctions established, the team can begin recording implementation status and applying the maturity descriptions.
 
 ## How to complete the matrix
 
@@ -134,27 +168,4 @@ Use the assessment to identify a focused and achievable set of improvements. Pri
 
 Some improvements may involve clearer roles, documentation, or procedures; others may require sustained investment in staffing, expertise, data, tools, or validation. Assign accountability, identify evidence of completion, and revisit the assessment periodically. Progress should mean more reliable, transparent, and decision-appropriate practice—not simply movement toward Level 5 in every criterion.
 
-## Understanding the seven sections
-
-**A — Organizational Capacity, Governance and Resources:** Assesses whether the defined scope has reliable governance, expertise, external relationships, funding, staff capacity, training, and accountability mechanisms.
-
-**B — Climate Risk Understanding and Organizational Readiness:** Assesses whether people have the climate-risk understanding appropriate to their roles and whether that understanding supports risk management and adaptation.
-
-**C — Planning and Deployment Strategy:** Assesses how climate information is incorporated into organizational planning horizons, assumptions, coordination, tools, procedures, and learning. *Planning* and *operations* refer to activities, not necessarily teams with those names.
-
-**D — Data Acquisition, Provenance and Initial Screening:** Assesses whether the origin, conditions of use, processing history, version, metadata, and basic integrity of acquired climate information are understood and retained.
-
-**E — Quality Control and Validation:** Assesses whether climate information and relevant derived outputs undergo proportionate technical evaluation before use. Appropriate methods depend on product type, application, available reference information, and decision consequences.
-
-**F — Fitness for Purpose and Constraints:** Assesses whether climate information is suitable for a particular use and whether material constraints and trade-offs are understood. Technically credible information may still be unsuitable for a specific decision.
-
-**G — Understanding and Managing Data Limitations and Uncertainty:** Assesses whether gaps, errors, assumptions, uncertainty, input sensitivity, and misuse risks are understood and reflected in applications and communication.
-
-### Distinguishing data screening, validation, and fitness for purpose
-
-| Section | Central question | Example |
-|---|---|---|
-| **D — Acquisition and initial screening** | Do we know what the information is, where it came from, and whether it has obvious structural or integrity problems? | Verify source, version, licensing, units, coverage, missing values, and file integrity. |
-| **E — Quality control and validation** | Has its quality or performance been evaluated appropriately? | Compare relevant characteristics with appropriate reference information and evaluate consequential biases or predictive performance. |
-| **F — Fitness for purpose** | Is it suitable for this particular decision? | Determine whether spatial scale, variables, indicators, future conditions, and constraints match the use case. |
-
+Use the matrix to identify areas for organizational improvement, then consult [Organizational Gaps and Barriers](./gaps_organization.qmd) for common challenges affecting climate-information use. Where external expertise is needed, [Procuring Physical Climate-Risk Assessments](./Guidance_Harrington.qmd) provides questions to support informed procurement and oversight.
