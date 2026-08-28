@@ -1,6 +1,6 @@
 ---
 title: Uncertainty and Confidence
-bibliography: ../adaptation/adaptation.bib 
+bibliography: ../apply_climate_data/adaptation.bib
 ---
 
 Uncertainty is a normal part of investment and everyday decision-making. Everyday humans make plans for retirement savings now knowing what a market will do, choose to switch jobs or simply drive down the highway managing signal from other drivers, infer their actions and drive accordingly without perfect foresight. We are actually fairly adept at making decisions with a certain degree of uncertainty. Therefore, climate-related decisions should not be dismissed simply because of uncertainty or because new information continues to emerge.

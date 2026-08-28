@@ -1,0 +1,63 @@
+---
+title: Types of Climate Data
+
+---
+
+Climate data are measurements, reconstructions or simulations used to describe the climate system. Because the climate system is complex, every dataset samples or represents it in a particular way. The source of the information, its spatial and temporal characteristics, its assumptions and limitations, and the intended application all affect whether it is suitable for an electricity-sector decision. No category is universally best.
+
+## Types of Climate Information
+
+At a high level, climate information can describe historical conditions or possible future conditions. Historical information includes direct measurements, remotely sensed observations, gridded products derived from observations, reanalysis, and historical climate-model simulations. These products are not equivalent records of the past: some are measurements at particular locations or times, while others are spatial estimates or model-based reconstructions.
+
+Future climate information is produced using numerical models. Climate projections simulate possible future conditions under specified assumptions about factors such as greenhouse gas concentrations. Historical and future information are often used together, for example, to characterize a baseline, evaluate a model or estimate how conditions relevant to an asset or system may change.
+
+::: {.callout-tip title="Climate Data are Public Domain"}
+Note that all datasets discussed in this guide are public domain and available free of charge.
+:::
+
+After reviewing these categories, use the [Climate Data Decision Tree](../datasets/Climate_Data_Decision_Tree.qmd) to connect a decision context with an appropriate type of climate information.
+
+## Observational Data
+
+### Direct observations
+
+Direct observations are physical measurements made by instruments at a particular place and time. Weather stations measure conditions such as temperature, precipitation and wind at their locations. Instrument limitations, changes in equipment or observing practices, station placement and missing records can affect the resulting time series. A station measurement is also spatially representative only to the extent that nearby conditions are similar; this can be especially important in complex terrain or near coasts.
+
+Remote sensing provides observations from instruments such as satellites or radar. These measurements can offer broader spatial coverage than station networks, but they measure at different spatial scales and may require processing or interpretation before they represent a climate variable.
+
+### Gridded observational data
+
+Gridded observational products use spatial interpolation to estimate conditions between observation locations and provide continuous fields on a grid. A grid cell represents an area rather than the exact conditions at every point within it. Interpolation can improve spatial coverage, but it does not remove uncertainty: estimates may be less reliable where observations are sparse, terrain is complex or station records contain gaps.
+
+See the [Observational Data section](../datasets/observed_data/Observational_Datasets.ipynb) for the observational products documented in this guide.
+
+## Reanalysis Data
+
+Reanalysis combines observations with a numerical model through **data assimilation**, a process that repeatedly uses available measurements to constrain a model-based reconstruction of past atmospheric and surface conditions. The result is a physically consistent, gridded dataset with broad coverage and regular time steps.
+
+A reanalysis is not a direct observation at every grid cell and time. Its representation depends on the assimilated observations, the numerical model and the assimilation method. Biases and uncertainty can be greater where observations are sparse or where relevant processes are not well represented. Reanalysis is nevertheless widely used to examine past conditions when consistent spatial and temporal coverage is needed.
+
+See the [Reanalysis Data section](../datasets/reanalysis_data/Reanalysis_Datasets.ipynb) for the products documented in this guide.
+
+## Climate-Model Simulations and Projections
+
+Climate models are numerical representations of processes in the atmosphere, ocean, land and other parts of the Earth system. Global climate models simulate the planet, while regional climate models simulate a limited area at finer resolution using information supplied at their boundaries. Model simulations can represent historical periods and possible future conditions, and are generally provided as spatially and temporally consistent gridded data.
+
+Historical simulations reproduce climate statistics and responses to known forcing, but they do not reproduce the observed sequence of weather events. Future climate projections are run under specified assumptions about future forcing, including greenhouse gas scenarios. Their results depend on those assumptions, the model response and natural climate variability. Ensembles and, where appropriate, bias adjustment are used to characterize or address aspects of these differences; they do not eliminate uncertainty.
+
+See the [Climate-Projection Data section](../datasets/climate_projection_data/Climate_Projection_Datasets.qmd) for the projection products documented in this guide.
+
+## Choosing Where to Go Next
+
+The appropriate data category depends on the application, variable, spatial and temporal scale, and intended use. The pages that follow explain the concepts needed to interpret and apply these products:
+
+- [Forecasts, Projections and Predictability](./Temporal_Horizons_Predictability.qmd) distinguishes future information across timescales.
+- [Emissions Scenarios](./Emissions_scenarios.qmd) and [Climate-Model Ensembles](./Ensembles.qmd) provide supporting concepts for interpreting climate projections.
+- [Projection Periods and Global Warming Levels](./Time_horizons_GWL.qmd) explains two complementary ways to organize future climate information.
+- [Downscaling and Bias Adjustment](./Bias_adjustment.qmd) and [Uncertainty and Confidence](./Uncertainty_Confidence.qmd) address interpretation and processing considerations.
+- [Climate-Information Gaps and Limitations](./gaps_data.qmd) and [Climate-Data Formats](./Data_Formats.qmd) cover practical limitations, access and file structures.
+
+
+
+
+

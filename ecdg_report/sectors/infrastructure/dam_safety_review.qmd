@@ -38,7 +38,7 @@ The figure below summarizes decision-making challenges faced by professionals in
 
 <iframe width="768" height="640"  data-external="1" src="https://miro.com/app/live-embed/uXjVJqigpIU=/?focusWidget=3458764648311837665&embedMode=view_only_without_ui&embedId=860608574556" frameborder="0" scrolling="no" allow="fullscreen; clipboard-read; clipboard-write" allowfullscreen></iframe>
 
-Please refer to the [climate dataset sections](../../datasets/Climate_Datasets_Overview.ipynb) for guidance and availability on climate variables used in the examples below.
+Please refer to the [climate dataset sections](../../climate_data_fundamentals/Climate_Datasets_Overview.qmd) for guidance and availability on climate variables used in the examples below.
 
 ### Flood Frequency Analysis (FFA)
 ::: {#id1 .callout collapse="true"}
