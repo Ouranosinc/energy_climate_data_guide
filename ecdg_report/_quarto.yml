@@ -208,7 +208,7 @@ format:
       # - auto-open-callout.js
       - text: |
           <script src="auto-open-callout.js"></script>
-    embed-resources: true
+    embed-resources: false
     allow-raw-html: true
 
 bibliography:
