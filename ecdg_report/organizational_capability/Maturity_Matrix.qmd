@@ -6,9 +6,9 @@ aliases:
 
 ## Summary
 
-The Climate Data Maturity Matrix is an internal self-assessment tool for examining how climate information is governed, selected, evaluated, and applied within energy-sector organizations. It covers organizational capacity and governance, climate-risk understanding, planning integration, data acquisition and provenance, quality control and validation, fitness for purpose, and the treatment of limitations and uncertainty.
+The Climate Data Maturity Matrix is an internal self-assessment tool that helps energy-sector organizations examine the capabilities and practices they rely on to use climate information. It covers organizational capacity and governance, climate-risk understanding, and integration into planning, together with the acquisition, evaluation, and fitness-for-purpose use of climate information and the management of its limitations and uncertainty.
 
-The matrix supports structured discussion, identification of gaps, and improvement planning. It is not intended to benchmark organizations, determine regulatory compliance, or produce an external organizational rating. Desired maturity depends on the responsibilities, risks, and decisions within the assessment scope; Level 5 is not a universal target.
+The matrix provides a common basis for discussing current practices, identifying gaps, and planning improvements. Results should be interpreted within a clearly defined assessment scope and in relation to its responsibilities, risks, and decisions. They are not intended to benchmark organizations, determine regulatory compliance, or produce an external organizational rating. Accordingly, Level 5 is not necessarily the appropriate target for every criterion or assessment scope.
 
 [Download the Maturity Matrix (Excel)](Maturity_Matrix_v3.xlsx)
 
@@ -49,7 +49,7 @@ Some criteria in Sections D–G require technical evidence. Involve personnel wh
 
 ## What is in the Excel workbook?
 
-With the assessment scope and participants identified, the workbook provides a structured way to document evidence, assess current practice, and identify proportionate improvements.
+With the assessment scope and participants identified, the workbook provides a structured way to document evidence, assess current practice, and identify improvements.
 
 The workbook contains four complementary worksheets:
 
@@ -89,13 +89,14 @@ Although limitations and uncertainty are addressed explicitly in Section G, they
 
 ## Distinguishing data screening, validation, and fitness for purpose
 
+Sections D, E, and F address related but distinct questions about climate information: what the information is and whether it passes initial screening, whether its quality and performance have been evaluated, and whether it is suitable for the intended decision. The table below clarifies these differences.
+
 | Section | Central question | Example |
 |---|---|---|
 | **D — Acquisition and initial screening** | Do we know what the information is, where it came from, and whether it has obvious structural or integrity problems? | Verify source, version, licensing, units, coverage, missing values, and file integrity. |
 | **E — Quality control and validation** | Has its quality or performance been evaluated appropriately? | Compare relevant characteristics with appropriate reference information and evaluate consequential biases or predictive performance. |
 | **F — Fitness for purpose** | Is it suitable for this particular decision? | Determine whether spatial scale, variables, indicators, future conditions, and constraints match the use case. |
 
-With the assessment scope, section boundaries, and key technical distinctions established, the team can begin recording implementation status and applying the maturity descriptions.
 
 ## How to complete the matrix
 
@@ -166,6 +167,6 @@ Use the assessment to identify a focused and achievable set of improvements. Pri
 - Available resources and feasibility; and
 - Relevant planning and investment timelines.
 
-Some improvements may involve clearer roles, documentation, or procedures; others may require sustained investment in staffing, expertise, data, tools, or validation. Assign accountability, identify evidence of completion, and revisit the assessment periodically. Progress should mean more reliable, transparent, and decision-appropriate practice—not simply movement toward Level 5 in every criterion.
+Some improvements may involve clearer roles, documentation, or procedures; others may require sustained investment in staffing, expertise, data, tools, or validation. Assign accountability, identify evidence of completion, and revisit the assessment periodically. Progress should mean more reliable, transparent, and decision-appropriate practice, and not simply movement toward Level 5 in every criterion.
 
 Use the matrix to identify areas for organizational improvement, then consult [Organizational Gaps and Barriers](./gaps_organization.qmd) for common challenges affecting climate-information use. Where external expertise is needed, [Procuring Physical Climate-Risk Assessments](./Guidance_Harrington.qmd) provides questions to support informed procurement and oversight.
