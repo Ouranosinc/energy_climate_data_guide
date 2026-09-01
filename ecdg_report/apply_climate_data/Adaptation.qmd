@@ -1,11 +1,10 @@
 ---
 title: "Applying Climate Information"
-aliases:
-  - /adaptation/Adaptation.html
 bibliography: adaptation.bib 
 editor: 
   markdown: 
     wrap: 72
+
 ---
 
 This section addresses how climate information can be integrated into electricity-sector assessments and decisions. Readers can begin with the core concepts, explore approaches for integrating climate information into models and decision processes, or follow the [climate vulnerability and risk-assessment pathway](risk_assessment.qmd).

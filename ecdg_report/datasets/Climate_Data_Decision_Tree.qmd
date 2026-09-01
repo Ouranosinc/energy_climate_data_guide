@@ -1,7 +1,6 @@
 ---
 title: Climate Data Decision Tree
-aliases:
-  - /guidance/Climate_Data_Decision_Tree.html
+
 ---
 
 ## Overview

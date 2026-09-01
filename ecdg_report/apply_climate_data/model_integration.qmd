@@ -1,8 +1,7 @@
 ---
 title: "Integrating Climate Information into Models and Decisions"
-aliases:
-  - /adaptation/model_integration.html
-bibliography: adaptation.bib 
+bibliography: adaptation.bib
+
 ---
 
 The IPCC defines adaptation as "*the process of adjustment to actual or expected climate and its effects, in order to moderate harm or exploit beneficial opportunities*" (@IPCC_2022_WGII). Adaptation is an active process, in which climatic data and information is incorporated decision making and analysis to inform the actual adjustments being made. Adaptation could come in the form of analysis, changed operating practices, modification to assets or maintenance practices, risk transfer processes or retreat and relocation.
