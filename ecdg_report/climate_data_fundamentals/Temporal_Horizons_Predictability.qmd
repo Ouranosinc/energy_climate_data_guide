@@ -34,7 +34,7 @@ Along with historical data, this document only provides information on climate p
 
 ### Decadal forecasts:
 
-- [[climatedata.ca]()]{.mark-red} (upcoming)
+- [Seasonal to Decadal Forecasts](https://climatedata.ca/seasonal-to-decadal/) (upcoming on ClimateData.ca)
 
 ![Forecast types and their temporal horizons. Forecasts transition from an initial-value problem at shorter
 timescales to a forced boundary-value problem at longer timescales. Source: @BoerEtAl2016DCPP](./image/PredictionTypesAndTimeFrames_Meehletal2009.png)
