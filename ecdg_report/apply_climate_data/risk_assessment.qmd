@@ -1,11 +1,10 @@
 ---
 title: "Climate Vulnerability and Risk Assessment"
-aliases:
-  - /adaptation/risk_assessment.html
 bibliography: adaptation.bib 
 editor: 
   markdown: 
     wrap: 72
+
 ---
 
 Climate vulnerability and risk assessments are tools for understanding
