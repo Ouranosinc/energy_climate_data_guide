@@ -89,3 +89,50 @@
 .list-indent {
   margin-left: 2.0em;   /* same visual offset as a <ul> */
 }
+
+
+/* =========================================================
+   Dataset overview table
+   ========================================================= */
+
+.dataset-table {
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+  margin-bottom: 1rem;
+}
+
+/* Column and row content */
+.dataset-table th,
+.dataset-table td {
+  padding: 0.75rem 1rem;
+  text-align: left;
+  vertical-align: top;
+  border-bottom: 1px solid #dee2e6;
+}
+
+/* Table header */
+.dataset-table thead th {
+  font-weight: 600;
+  border-bottom: 2px solid #dee2e6;
+}
+
+/* Section/category rows */
+.dataset-table tr.category th {
+  text-align: center;
+  font-weight: 200;
+  font-size: 1.4em;
+  font-style: italic;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+/* Remove the line immediately above a category row */
+.dataset-table tr.category th {
+  border-bottom: 1px solid #dee2e6;
+}
+
+/* Links in the dataset column
+.dataset-table td:first-child {
+  white-space: nowrap;
+}*/

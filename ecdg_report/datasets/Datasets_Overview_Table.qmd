@@ -5,19 +5,153 @@ title: Compare Documented Datasets
 
 The table below provides an overview of key characteristics of the datasets documented in this guide.
 
+<table class="dataset-table">
 
-| Dataset | Spatial Resolution | Finest Temporal Resolution | Spatial Extent | Historical Coverage | Future Coverage | Description |
-|---------|---------------------------|----------------------------|----------------|-------------------|---------------|---------------------|
-| [CMIP6](./climate_projection_data/CMIP6.ipynb) | ~100–250 km (model dependent) | Hourly | Global | 1850–2014 | 2015–2100 | Global climate projections; assessing model uncertainty and climate change signals |
-| [CORDEX](./climate_projection_data/CORDEX.ipynb) (North America) | 0.22° (~25 km) | Hourly | North America | 1950–2005 (CMIP5), 1950–2014 (CMIP6) | 2006–2100 (CMIP5), 2015–2100 (CMIP6)| Regional climate projections from physically consistent dynamical downscaling |
-| [ESPO-G6](./climate_projection_data/ESPO-G6.ipynb) | 0.1° (~10 km) | Daily | North America | 1950–2014 | 2015–2100 | Bias-adjusted regional climate projections for impact assessments |
-| [CanDCS-M6](./climate_projection_data/CanDCS-M6.ipynb) | 0.083° (~10 km) | Daily | Canada and NW US | 1950–2014 | 2015–2100 | Bias-adjusted climate projections for Canadian impact and adaptation studies |
-| [CanLEAD](./climate_projection_data/CanLEAD.ipynb) | 0.5° (~50 km) | Daily | North America | 1950–2005 | 2006–2100 | Quantifying internal climate variability and probabilistic climate risk |
-| [NEX-GDDP-CMIP6](./climate_projection_data/NEX-GDDP-CMIP6.ipynb) | 0.25° (~25 km) | Daily | Global land | 1950–2014 | 2015–2100 | Global bias-adjusted climate projections for impact assessments |
-| [AHCCD / CanHom](./observed_data/AHCCD-CanHom_Station_Data.ipynb) | Point observations | Daily | Canada (station network) | ~1840s–Present | — | Long-term station observations, climate trends and extremes |
-| [NRCANmet](./observed_data/NRCANmet_Gridded_Data.ipynb) | 0.083° (~10 km) | Daily | North America | 1950–2020 | — | High-resolution gridded observations for historical climate analyses and bias corrrection of climate model simulations |
-| [ERA5-Land](./reanalysis_data/ERA5-Land.ipynb) | 0.1° (~10 km) | Hourly | Global land | 1950–Present | — | High-resolution land-surface reanalysis for historical climate |
-| [ERA5](./reanalysis_data/ERA5-Land.ipynb) | 0.25° (~28 km) | Hourly | Global | 1940–Present | — | Global atmospheric reanalysis for historical climate |
-| [CaSR](./reanalysis_data/CaSR.ipynb) | 0.09° (~10 km) | Hourly | North America | 1980–2024 | — | High-resolution atmospheric reanalysis for North America's historical climate |
+<colgroup>
+<col style="width: 13%;">
+<col style="width: 13%;">
+<col style="width: 12%;">
+<col style="width: 10%;">
+<col style="width: 15%;">
+<col style="width: 15%;">
+<col style="width: 22%;">
+</colgroup>
 
-: Table Caption {tbl-colwidths="[12, 12, 8,8,12,12,20]"}
+<thead>
+<tr>
+<th>Dataset</th>
+<th>Spatial Resolution</th>
+<th>Finest Temporal Resolution</th>
+<th>Spatial Extent</th>
+<th>Historical Coverage</th>
+<th>Future Coverage</th>
+<th>Description</th>
+</tr>
+</thead>
+
+<tbody>
+
+<tr class="category">
+<th colspan="7">Climate Observations</th>
+</tr>
+
+<tr>
+<td><a href="./observed_data/AHCCD_Station_Data.ipynb">AHCCD / CanHom</a></td>
+<td>Point observations</td>
+<td>Daily</td>
+<td>Canada (station network)</td>
+<td>~1840s–Present</td>
+<td>—</td>
+<td>Long-term station observations corrected for systematic errors.</td>
+</tr>
+
+<tr>
+<td><a href="./observed_data/NRCanMET_Gridded_Data.ipynb">NRCANmet</a></td>
+<td>0.083°<br>(~10 km)</td>
+<td>Daily</td>
+<td>North America</td>
+<td>1950–2020</td>
+<td>—</td>
+<td>High-resolution gridded observations derived from spatio-temporal interpolation of station observations.</td>
+</tr>
+
+<tr class="category">
+<th colspan="7">Reanalysis</th>
+</tr>
+
+<tr>
+<td><a href="./reanalysis_data/ERA5-Land.ipynb">ERA5-Land</a></td>
+<td>0.1°<br>(~10 km)</td>
+<td>Hourly</td>
+<td>Global land</td>
+<td>1950–Present</td>
+<td>—</td>
+<td>High-resolution global land-surface reanalysis for historical climate.</td>
+</tr>
+
+<tr>
+<td><a href="./reanalysis_data/ERA5.ipynb">ERA5</a></td>
+<td>0.25°<br>(~28 km)</td>
+<td>Hourly</td>
+<td>Global</td>
+<td>1940–Present</td>
+<td>—</td>
+<td>Global atmospheric reanalysis for historical climate.</td>
+</tr>
+
+<tr>
+<td><a href="./reanalysis_data/CaSR.ipynb">CaSR</a></td>
+<td>0.09°<br>(~10 km)</td>
+<td>Hourly</td>
+<td>North America</td>
+<td>1980–2024</td>
+<td>—</td>
+<td>High-resolution atmospheric reanalysis for North America's historical climate.</td>
+</tr>
+
+<tr class="category">
+<th colspan="7">Climate Simulations</th>
+</tr>
+
+<tr>
+<td><a href="./climate_projection_data/CMIP6.ipynb">CMIP6</a></td>
+<td>~100–250 km<br>(model dependent)</td>
+<td>Hourly</td>
+<td>Global</td>
+<td>1850–2014</td>
+<td>2015–2100</td>
+<td>Ensemble of comparable global climate simulations produced by climate research centers; base for most projections and regional simulations.</td>
+</tr>
+
+<tr>
+<td><a href="./climate_projection_data/CORDEX_NA.ipynb">CORDEX</a> (North America)</td>
+<td>0.22°<br>(~25 km)</td>
+<td>Hourly</td>
+<td>North America</td>
+<td>1950–2005 (CMIP5)<br>1950–2014 (CMIP6)</td>
+<td>2006–2100 (CMIP5)<br>2015–2100 (CMIP6)</td>
+<td>Regional projections via physically consistent dynamical downscaling, driven by CMIP global simulations.</td>
+</tr>
+
+<tr>
+<td><a href="./climate_projection_data/ESPO-G6_Dataset.ipynb">ESPO-G6</a></td>
+<td>0.1°<br>(~10 km)</td>
+<td>Daily</td>
+<td>North America</td>
+<td>1950–2014</td>
+<td>2015–2100</td>
+<td>Bias-adjusted North American projections based on CMIP6, produced by Ouranos.</td>
+</tr>
+
+<tr>
+<td><a href="./climate_projection_data/CanDCS-M6_Dataset.ipynb">CanDCS-M6</a></td>
+<td>0.083°<br>(~10 km)</td>
+<td>Daily</td>
+<td>Canada and NW US</td>
+<td>1950–2014</td>
+<td>2015–2100</td>
+<td>Bias-adjusted Canada projections based on CMIP6, produced by PCIC.</td>
+</tr>
+
+<tr>
+<td><a href="./climate_projection_data/CanLEAD.ipynb">CanLEAD</a></td>
+<td>0.5°<br>(~50 km)</td>
+<td>Daily</td>
+<td>North America</td>
+<td>1950–2005</td>
+<td>2006–2100</td>
+<td>Single Model Large Ensembles based on CanESM and CanRCM.</td>
+</tr>
+
+<tr>
+<td><a href="./climate_projection_data/NEX-GDDP-CMIP6.ipynb">NEX-GDDP-CMIP6</a></td>
+<td>0.25°<br>(~25 km)</td>
+<td>Daily</td>
+<td>Global land</td>
+<td>1950–2014</td>
+<td>2015–2100</td>
+<td>Global bias-adjusted projections based on CMIP6.</td>
+</tr>
+
+</tbody>
+</table>
