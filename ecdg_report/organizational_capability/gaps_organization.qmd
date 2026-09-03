@@ -4,48 +4,72 @@ aliases:
   - /gaps/gaps_organization.html
 ---
 
-This page identifies gaps and barriers related to the use of climate data in the electricity sector. Organizations can use the [Organizational Maturity Self-Assessment](./Maturity_Matrix.qmd) to consider these issues in relation to their current practices. Where external assessment services are required, [Procuring Physical Climate-Risk Assessments](./Guidance_Harrington.qmd) provides questions to support informed oversight.
+Access to climate data is often necessary for understanding climate-related risks and supporting climate-informed decisions, but access alone does not ensure that the information is appropriate, understood, or reflected in decisions. Effective use also depends on the organization's expertise, governance, and established processes.
 
-## 1. Limited internal climate literacy
+The barriers below can help electricity-sector practitioners consider why climate information may not be used consistently or effectively within a particular function or decision process. Not every barrier will apply to every assessment scope, and the list is a set of diagnostic prompts rather than a comprehensive organizational framework.
 
-- A common organizational gap is not the absence of data, but lack of internal capacity to interpret datasets purpose and how to use them, interpret [multi-model ensembles](../datasets/climate_projection_data/Climate_Projection_Datasets.qmd#ensembles), [downscaling methods](../datasets/climate_projection_data/Climate_Projection_Datasets.qmd), scenario structure [I don't understand, what do you mean by 'structure'?!]{.mark-red}, [bias adjustment](../datasets/climate_projection_data/Climate_Projection_Datasets.qmd#bias-adjustment), etc.
+::: {.callout-tip title="Use this page with the self-assessment"}
+Use the [Organizational Maturity Self-Assessment](./Maturity_Matrix.qmd) to identify capability areas that need attention within a defined assessment scope. Then use this page to consider which barriers may contribute to those findings and where the guide offers relevant follow-up guidance. Prioritize improvements in relation to the assessment scope and desired maturity.
+:::
 
-## 2. Siloes between departments that need the same information
+The organizational and technical barriers described below are interdependent. For example, limited climate literacy can make informed oversight of external work more difficult, while unclear governance can prevent technically appropriate information from being retained and incorporated into recurring decisions.
 
-- Different teams often use different datasets, assumptions, and hazard definitions. This creates conflicting baselines and duplicated work.
+## People and coordination
 
-## 3. Internal data management/governance is often very limited
+*Most closely related to Maturity Matrix Sections A — Organizational Capacity, B — Climate Risk Understanding, and C — Planning and Deployment.*
 
-- Utilities often lack version control, dataset approval processes, reproducible workflows, and clear ownership of climate assumptions. They will tend to use the dataset that their colleague is using because it is available, without making sure that it is fit for purpose. 
-- Critical information about datasets (e.g. limitations) tend to be lost along the way when passed from one team to the next.
+**Limited internal climate literacy.** Staff may not have the knowledge needed to interpret and use climate information appropriately. This can affect its selection, application, and communication. [Types of Climate Data](../climate_data_fundamentals/Climate_Datasets_Overview.qmd) provides an entry point to the guide's foundational concepts and explanations of processing methods.
 
-## 4. Consultant dependence without informed oversight
+**Coordination across functions is limited.** Teams or business functions may use different data and assumptions, producing inconsistent results or duplicated work. A useful first step is to agree on the decision context, responsibilities, and evidence requirements. For a climate vulnerability or risk assessment, [Step 1: Establish the Scope and Context](../apply_climate_data/risk_step1.qmd) provides a structured process.
 
-- Utilities outsource climate analysis but lack the internal expertise to specify requirements, evaluate methodological quality, or challenge inappropriate products.
+**Historical information is used without considering future conditions.** Observations and operational experience remain essential, but they may not represent conditions relevant to long-lived assets and decisions. [Non-stationarity and Engineering Design](../apply_climate_data/core_concepts_adapt.qmd#non-stationarity-and-engineering-design) explains why historical conditions may not remain reliable predictors of future conditions. [Generation Forecasting](../sectors/planning/generation_forecasting.qmd) and [Resource Adequacy Planning](../sectors/planning/resource_adequacy_planning.qmd) provide activity-specific examples.
 
-## 5. Existing standards are based on historical values
+## Governance and oversight
 
-- Often industry practices (e.g. design codes, return-period assumptions) are built around historical climatology and regulatory conventions. When people recognize climate change risk, the approved methods and standards may not allow them to incorporate it.
+*Most closely related to Maturity Matrix Section A — Organizational Capacity and Governance, and Sections D–G — Technical Data Practices.*
 
-## 6. Inadequate handling of uncertainty
+**Governance of climate information is limited.** Ownership of climate assumptions may be unclear. Important records or material limitations may also be lost during hand-offs. The [Organizational Maturity Self-Assessment](./Maturity_Matrix.qmd) can help identify related gaps in organizational and technical practices. Within a climate risk or adaptation process, [Step 7: Reporting or Institutionalizing the Decision](../apply_climate_data/risk_step7_institute.qmd) provides related guidance on documentation and continuity.
 
-- Utilities tend to respond to unfamiliar uncertainty such as climate data uncertainty by ignoring it.
+**External expertise is used without sufficient oversight.** External support may be appropriate and necessary, but the organization remains accountable for overseeing the work and retaining a usable record of its methods and limitations. [Procuring Physical Climate-Risk Assessments](./Guidance_Harrington.qmd) explains what to ask providers and what evidence or warning signs to look for; it does not cover every form of external climate service.
 
-## 7. Climate information exists but is not embedded in core models and workflows
+## Methods and workflows
 
-- Climate information is available, but it is not operationalized (e.g. information sits in reports).
+*Most closely related to Maturity Matrix Section C — Planning and Deployment, and Sections D–G — Technical Data Practices.*
 
-## 8. Organization may privilege historical experience over forward-looking evidence
+**Applicable requirements may not clearly address future climate conditions.** Some requirements and accepted methods use historical climatology or do not specify how forward-looking climate information should be incorporated. Organizations should identify the applicable requirements and assumptions before determining whether additional analysis or review is needed. See [The Role of Codes and Standards](../apply_climate_data/Adaptation.qmd#the-role-of-codes-and-standards) and the [regulatory context in Step 1](../apply_climate_data/risk_step1.qmd#regulatory-context). [Dam Safety Review](../sectors/infrastructure/dam_safety_review.qmd) provides an electricity-sector example.
 
-- Operations and engineering teams tend to trust observed past events more than modeled futures, overseeing that the historical experience will not hold going forward.
+**Uncertainty is not considered explicitly.** Ignoring uncertainty, treating it as a reason not to act, or presenting a single estimate without its relevant context can distort risk evaluation and communication. [Uncertainty and Confidence](../climate_data_fundamentals/Uncertainty_Confidence.qmd) explains the principal sources of uncertainty in climate information. Within a climate risk assessment, [Step 5: Climate Risk Assessment](../apply_climate_data/risk_step5_risk.qmd) shows how uncertainty can inform risk evaluation and action selection.
 
-## 9. Business cases for climate information are hard to quantify
+**Climate information is not embedded in established processes.** Climate information may remain in a report rather than being incorporated into planning, operations, or governance. Within a climate risk or adaptation process, [Step 7: Process Integration](../apply_climate_data/risk_step7_institute.qmd#process-integration) discusses institutionalization and transition to operations. [Electricity-Sector Activities](../sectors/electricity_sector_activities.qmd) connects climate information to specific sector activities.
 
-- Utilities struggle to internally demonstrate the economic value of climate assessment, climate information and climate data.
+## Resourcing and organizational value
 
+*Most closely related to Maturity Matrix Sections A — Organizational Capacity and Resources, and C — Planning and Deployment.*
 
-<!-- Addtional info:
-https://homepages.see.leeds.ac.uk/~lecajd/papers/nclimate2350.pdf
-https://www.sciencedirect.com/science/article/pii/S2212096320300462
-https://www.nature.com/articles/s41467-018-07894-4
--->
+**The organizational value of climate information is difficult to demonstrate.** Organizations may struggle to connect investment in climate information or expertise to material decisions and organizational priorities. [Step 1](../apply_climate_data/risk_step1.qmd#objectives-and-evaluation-criteria) can help define decision objectives and evaluation criteria, while [Step 6](../apply_climate_data/risk_step6_adapt.qmd#evaluating-adaptation-pathways) discusses the value and timing of adaptation pathways. These pages provide relevant inputs but not a complete business-case method.
+
+## Match a barrier to existing guidance
+
+The following starting points connect each barrier to the most relevant existing guidance. They do not represent complete organizational solutions.
+
+::: {.table-responsive style="width: 0; min-width: 100%; overflow-x: auto;"}
+| If this is your challenge | Start with | What it will help you do |
+|---|---|---|
+| Staff need a common foundation in climate information | [Types of Climate Data](../climate_data_fundamentals/Climate_Datasets_Overview.qmd) | Distinguish major types of climate information and find focused explanations of projection concepts and processing methods |
+| A climate vulnerability or risk assessment lacks shared scope or assumptions | [Step 1: Establish the Scope and Context](../apply_climate_data/risk_step1.qmd) | Define the assessment context, responsibilities, and evidence needs |
+| Ownership is unclear, or documentation and continuity are inconsistent | [Organizational Maturity Self-Assessment](./Maturity_Matrix.qmd) and [Step 7](../apply_climate_data/risk_step7_institute.qmd) | Identify governance gaps and, within a climate risk or adaptation process, strengthen documentation and institutionalization |
+| A physical climate-risk assessment is difficult to specify or review | [Procuring Physical Climate-Risk Assessments](./Guidance_Harrington.qmd) | Ask providers focused questions, request supporting evidence, and recognize warning signs |
+| Historical methods or requirements constrain consideration of future conditions | [Non-stationarity and Engineering Design](../apply_climate_data/core_concepts_adapt.qmd#non-stationarity-and-engineering-design) and [The Role of Codes and Standards](../apply_climate_data/Adaptation.qmd#the-role-of-codes-and-standards) | Understand the scientific issue and consider how applicable requirements affect the analysis |
+| Uncertainty is ignored or represented by one estimate | [Uncertainty and Confidence](../climate_data_fundamentals/Uncertainty_Confidence.qmd) and [Step 5](../apply_climate_data/risk_step5_risk.qmd) | Understand sources of uncertainty and, in a climate risk assessment, reflect them in likelihood and action selection |
+| Results of a climate risk or adaptation process do not enter established processes | [Step 7: Process Integration](../apply_climate_data/risk_step7_institute.qmd#process-integration) | Incorporate results into established processes and review cycles |
+| Teams need to connect climate information to a sector task | [Electricity-Sector Activities](../sectors/electricity_sector_activities.qmd) | Find guidance and examples relevant to each activity |
+| The value of proposed climate-information or adaptation work is difficult to assess | [Step 1](../apply_climate_data/risk_step1.qmd#objectives-and-evaluation-criteria) and [Step 6](../apply_climate_data/risk_step6_adapt.qmd#evaluating-adaptation-pathways) | Define decision criteria and compare the value and timing of possible actions |
+:::
+
+## Where to go next
+
+- **Prioritize improvements:** Return to the [Organizational Maturity Self-Assessment](./Maturity_Matrix.qmd) and select a focused set of improvements appropriate to the assessment scope.
+- **Follow relevant guidance:** Use the barrier-specific starting points above to strengthen the applicable technical or decision process.
+- **Obtain external support:** When commissioning or reviewing a physical climate-risk assessment, use [Procuring Physical Climate-Risk Assessments](./Guidance_Harrington.qmd).
+
+Some barriers require organizational action beyond the guide's current scope. This includes developing governance models and training programs, managing organizational change, and preparing business cases.
