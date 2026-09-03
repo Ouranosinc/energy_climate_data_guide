@@ -208,13 +208,13 @@ format:
       # - auto-open-callout.js
       - text: |
           <script src="auto-open-callout.js"></script>
-    embed-resources: true
+    embed-resources: false
     allow-raw-html: true
 
 bibliography:
-  - datasets/references.bib
   - apply_climate_data/adaptation.bib
   - apply_climate_data/guidance.bib
+  - datasets/references.bib
   - organizational_capability/organizational_capability.bib
   - sectors/infrastructure/references_dam_safety.bib
   - sectors/planning/demand.bib
