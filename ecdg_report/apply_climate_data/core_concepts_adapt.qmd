@@ -96,11 +96,11 @@ $$
 
 where $R$ is the risk, which is a function $f$ of the hazard $H$ or climate driver, the exposure $E$ and the vulnerability $V$.
 
-The IPCC conceptualizes risk as
+The [IPCC AR6 Chapter 16](https://www.ipcc.ch/report/ar6/wg2/figures/chapter-16/figure-16-001) conceptualizes risk conceptualizes risk as a venn diagram following @Garschagen2019, where the risk is the intersection of the hazard, exposure and vulnerability. The figure below illustrates this concept.
 
-[![Illustrative storyline of the chapter highlighting the central questions addressed in the various sections, from realised risks (observed impacts) to future risks (key risks and reasons for concern), informed by adaptation-related responses and the limits to adaptation. The arrows illustrate actions to reduce hazard, exposure and vulnerability, which shape risks over time. Accordingly, the green areas at the centre of the propeller diagrams indicate the ability for such solutions to reduce risk, up to certain adaptation limits, leaving the white residual risk (or observed impacts) in the centre. The shading of the right-hand-side propeller diagram compared with the non-shaded one on the left reflects some degree of uncertainty about future risks. The figure builds on the conceptual framework of risk--adaptation relationships used in SROCC (Garschagen et al., 2019).](images/SRL-image-0.png)](https://www.ipcc.ch/report/ar6/wg2/figures/chapter-16/figure-16-001)
+![Adapted from @Garschagen2019](images/risk_Prop.png){.lightbox width=500}
 
-The figure shows the concept of risk as a function of vulnerability, hazard and exposure. A change in any of these elements alters the magnitude and change in the future risk to the system and is a very useful concept for understanding how these variables impact risk. To make use of this concept in this guide we map it to the traditional definition of risk:
+A change in any of these elements alters the magnitude and change in the future risk to the system and is a very useful concept for understanding how these variables impact risk. To make use of this concept in this guide we map it to the traditional definition of risk:
 
 $$
 R = L*C
