@@ -157,6 +157,8 @@ website:
         contents:
           - text: "Online Climate-Information Resources"
             href: resources/Climate_Information_Ressources.qmd
+          - text: "Technical Guide on Climatic and Hydrological Design Criteria for Hydroelectric Infrastructure in the Context of Climate Change"
+            href: resources/Guide_Hydrotechnical_Infrastructure_Design.qmd
           - text: "Example Applications"
             href: resources/Example_Applications.ipynb
           - section: "Analysis Support Tools"
