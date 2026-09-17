@@ -3,78 +3,169 @@ title: "Organizational Maturity Self-Assessment"
 
 ---
 
-## Summary Description
+## Summary
 
-The Climate Data Maturity Matrix is a structured self-assessment tool designed to help energy sector practitioners evaluate how climate information is integrated into planning, operations, and investment decisions. It covers organizational capacity, climate understanding, planning integration, data practices, validation processes, fitness-for-purpose considerations, and the treatment of uncertainty. The matrix is intended to support internal reflection and structured improvement rather than external benchmarking.
+The Climate Data Maturity Matrix is an internal self-assessment tool that helps energy-sector organizations examine the capabilities and practices they rely on to use climate information. It covers organizational capacity and governance, climate-risk understanding, and integration into planning, together with the acquisition, evaluation, and fitness-for-purpose use of climate information and the management of its limitations and uncertainty.
 
-Use the matrix to identify areas for organizational improvement, then consult [Organizational Gaps and Barriers](./gaps_organization.qmd) for common challenges affecting climate-data use. Where external expertise is needed, [Procuring Physical Climate-Risk Assessments](./Guidance_Harrington.qmd) provides questions to support informed procurement and oversight.
+The matrix provides a common basis for discussing current practices, identifying gaps, and planning improvements. Results should be interpreted within a clearly defined assessment scope and in relation to its responsibilities, risks, and decisions. They are not intended to benchmark organizations, determine regulatory compliance, or produce an external organizational rating. Accordingly, Level 5 is not necessarily the appropriate target for every criterion or assessment scope.
 
-[Download the Maturity Matrix (Excel)](Maturity_Matrix_v2.xlsx)
+[Download the Maturity Matrix (Excel)](Maturity_Matrix_v3.xlsx)
 
-<!-- 
-![A figure for the activity (source: bibentry)](./image/spreadsheet-symbol.jpg "A symbolic spreadsheet"){fig-alt="A symbolic spreadsheet" width=300}
+## What the matrix is for
 
-We can mark stuff [like this]{.mark-red} or <mark>like this</mark> as a reminder to deal with it later (see source for markdown implementation!). 
--->
+The matrix supports internal reflection and dialogue about the capabilities needed to use climate information responsibly and effectively. It can help an organization:
 
-## Purpose and Scope
+- Identify strengths, gaps, and dependencies across organizational and technical practices;
+- Clarify roles, responsibilities, and evidence;
+- Set maturity targets proportionate to specific responsibilities and risks;
+- Prioritize practical improvements; and
+- Revisit progress periodically.
 
-The Climate Data Maturity Matrix is a structured framework that enables energy utilities to assess how climate information is integrated into organizational processes, technical workflows, and decision practices. It examines maturity across organizational capacity, climate change understanding, planning and deployment strategy, data acquisition and quality control, and the fitness-for-purpose use of climate information. It also evaluates whether uncertainties and limitations are clearly understood and reflected in applications. By defining progressive levels of capability, the matrix supports systematic improvement from informal or siloed practices to coordinated, well-governed integration of climate data.
+The matrix does not measure corporate climate ambition, regulatory compliance, or absolute modelling sophistication. A high score in one criterion does not compensate automatically for a limitation elsewhere. Similarly, mature practice does not necessarily require the most complex model, automated system, or technically advanced method. Methods and processes should be proportionate to their intended application and consequences.
 
-Intended for practitioners in planning, engineering, operations, asset management, and risk management, the matrix supports more transparent and defensible infrastructure and resilience decisions. It helps determine whether climate data are appropriately selected, validated, and aligned with specific operational or investment contexts, thereby reducing the risk of misapplication. By identifying gaps in governance, expertise, or technical processes, it provides a basis for prioritizing capacity-building and data improvements. Used as a cross-functional tool, it strengthens alignment between technical analysis and strategic decision-making in long-term energy system planning.
+## Choose the assessment scope
 
-<!-- 
-:::{#id1 .callout collapse="true"}
-### Additional Information
-Summary of how this activity contributes to the electricity sector and the purpose of this topic
-:::
--->
+Define the organizational scope before completing the matrix. The scope may be the whole organization when practices are genuinely shared, or a specific business function, unit, or major operational area.
 
-## Using the Maturity Matrix: Interpretation and Application
-:::{#id1 .callout collapse="true"} 
-### How to Use the Maturity Matrix
-The Climate Data Maturity Matrix is not a benchmarking or performance ranking instrument. It does not assess regulatory compliance, corporate climate commitments, or absolute modeling sophistication, nor is it intended to compare organizations or generate external scores. Strong performance in one technical dimension does not necessarily indicate overall maturity if governance, validation, or decision alignment are weak. Rather than serving as an external evaluation tool, the matrix supports internal reflection and dialogue, enabling practitioners to identify gaps, clarify responsibilities, and prioritize improvements in how climate information is selected, validated, and applied within their own operational and planning contexts.
+Vertically integrated organizations should normally assess materially different functions separately—for example, generation, transmission, distribution, system operations, or corporate planning—and compare the resulting profiles rather than forcing them into one score. Record which teams, activities, decisions, and climate-information types are included and excluded.
 
-Maturity levels (1–5) represent progressive stages in how consistently and effectively climate information is integrated into organizational processes and decision-making. At lower levels, climate data use is typically ad hoc or siloed, with limited governance, documentation, or validation. As maturity advances, practices become more structured and coordinated, with clearer roles and responsibilities, improved data acquisition and quality control, and more explicit consideration of uncertainty and application constraints. At the highest level, climate information is systematically selected, validated, and aligned with specific operational and investment decisions, supported by documented processes and cross-functional integration. Progression across levels therefore reflects increasing reliability, transparency, and fitness-for-purpose alignment, rather than simply more advanced modeling or analytical sophistication.
+A centralized climate group, shared service, consultant, or data provider may contribute to the assessed unit's capability. Rate how reliably the unit can access, use, oversee, and retain the benefit of that support. The existence of a central group or contractual relationship does not automatically give every supported unit the same maturity.
+
+In this matrix, **climate information** includes observations, reanalyses, weather and climate forecasts, climate-model projections, derived indicators, and related analytical products. Individual criteria apply only to the information types included in the assessment scope. Product-specific terms such as *forecast*, *projection*, *hindcast*, *scenario*, and *observation* are used where the distinction matters.
+
+## Who should participate
+
+Complete the matrix as a cross-functional exercise rather than as an isolated questionnaire. Depending on the assessment scope, participants may include representatives from:
+
+- Planning and operations;
+- Engineering and asset management;
+- Risk, resilience, or adaptation;
+- Climate services and data analysis;
+- Data governance and information technology; and
+- External contractors or consultants responsible for relevant technical work.
+
+Some criteria in Sections D–G require technical evidence. Involve personnel who perform or oversee that work. Where a contractor performs the analysis, assess the organization's ability to specify requirements, review evidence, retain documentation, and exercise appropriate oversight. Use **Not assessed** rather than guessing when the necessary evidence or expertise is unavailable.
+
+## What is in the Excel workbook?
+
+With the assessment scope and participants identified, the workbook provides a structured way to document evidence, assess current practice, and identify improvements.
+
+The workbook contains four complementary worksheets:
+
+| Worksheet                | Purpose                                                                                                                                                                                            |
+| ------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Instructions & Scope** | Explains how to complete the assessment and records its organizational scope, included climate-information types, participants, and evidence sources.                                              |
+| **Assessment**           | Contains the 37 maturity criteria, their Level 1–5 descriptions, implementation status, current and desired maturity levels, and supporting evidence.                                              |
+| **Summary**              | Provides descriptive section-level results, including the median, score range, number of scored criteria, and implementation-status counts. It does not calculate an overall organizational score. |
+| **Glossary**             | Defines key terms used in the workbook to support consistent interpretation across participants and assessment scopes.                                                                             |
+
+Begin with **Instructions & Scope**, then complete the **Assessment** worksheet. Use **Summary** to review the resulting profile and consult **Glossary** whenever clarification is needed.
+
+Before assigning implementation status or maturity levels, review the seven sections to understand the organizational and technical capabilities covered by the assessment.
+
+## Understanding the seven sections
+
+**A — Organizational Capacity, Governance and Resources:** Assesses whether the defined scope has reliable governance, expertise, external relationships, funding, staff capacity, training, and accountability mechanisms.
+
+**B — Climate Risk Understanding and Organizational Readiness:** Assesses whether people have the climate-risk understanding appropriate to their roles and whether that understanding supports risk management and adaptation.
+
+**C — Planning and Deployment Strategy:** Assesses how climate information is incorporated into organizational planning horizons, assumptions, coordination, tools, procedures, and learning. *Planning* and *operations* refer to activities, not necessarily teams with those names.
+
+**D — Data Acquisition, Provenance and Initial Screening:** Assesses whether the origin, conditions of use, processing history, version, metadata, and basic integrity of acquired climate information are understood and retained.
+
+**E — Quality Control and Validation:** Assesses whether climate information and relevant derived outputs undergo proportionate technical evaluation before use. Appropriate methods depend on product type, application, available reference information, and decision consequences.
+
+**F — Fitness for Purpose and Constraints:** Assesses whether climate information is suitable for a particular use and whether material constraints and trade-offs are understood. Technically credible information may still be unsuitable for a specific decision.
+
+**G — Understanding and Managing Data Limitations and Uncertainty:** Assesses whether gaps, errors, assumptions, uncertainty, input sensitivity, and misuse risks are understood and reflected in applications and communication.
+
+Although limitations and uncertainty are addressed explicitly in Section G, they should be considered throughout acquisition, evaluation, fitness-for-purpose assessment, application, and communication.
 
 
-Maturity levels influence resilience outcomes by determining how consistently climate risks are identified, evaluated, and integrated into planning and operational decisions. Where organizational capacity is limited, climate understanding is uneven, or data practices are informal, resilience efforts may be reactive and vulnerable to misinterpretation or misplaced confidence. As maturity increases, clearer governance, stronger internal expertise, structured planning integration, and systematic data acquisition and validation improve the credibility of risk assessments and investment strategies. Ensuring that climate information is fit for purpose and that uncertainties are explicitly acknowledged allows infrastructure and operational measures to be aligned with realistic future conditions. In practice, higher maturity translates into more anticipatory, cost-effective, and defensible resilience outcomes across the energy system.
+## How the Maturity Matrix Sections Work Together
 
-Results from the maturity matrix can serve as the foundation of a focused and achievable improvement plan. By identifying gaps that most directly influence critical operational risks or major capital decisions, practitioners can prioritize actions that strengthen governance, clarify roles and responsibilities, improve data selection and validation, and better align climate information with asset management and planning cycles. Sequencing these improvements according to risk exposure and investment timelines helps ensure resources are directed where they have the greatest impact. Assigning accountability and revisiting the assessment periodically allows organizations to track progress and steadily advance toward more consistent, resilient, and decision-relevant use of climate information.
-:::
+{{< include _maturity_matrix_sections_visual.qmd >}}
 
-## Understanding the maturity matrix
-:::{#id1 .callout collapse="true"} 
-### Short description of the different categories
-**Organizational Capacity & Resources**:  Assesses whether the organization has the people, expertise, time, and budget needed to use climate information effectively. It also examines whether roles and responsibilities are clearly defined and coordinated across teams.
+## Distinguishing data screening, validation, and fitness for purpose
 
+Sections D, E, and F address related but distinct questions about climate information: what the information is and whether it passes initial screening, whether its quality and performance have been evaluated, and whether it is suitable for the intended decision. The table below clarifies these differences.
 
-**Climate Change Understanding and Readiness**: Evaluates how well practitioners understand climate variability, long-term change, and associated uncertainties. It considers whether this understanding is sufficient to inform planning and operational decisions.
-
-
-**Planning and Deployment Strategy**: Assesses how climate information is integrated into planning, asset management, and investment processes. It distinguishes between one-off analyses and systematic, decision-driven use.
+| Section | Central question | Example |
+|---|---|---|
+| **D — Acquisition and initial screening** | Do we know what the information is, where it came from, and whether it has obvious structural or integrity problems? | Verify source, version, licensing, units, coverage, missing values, and file integrity. |
+| **E — Quality control and validation** | Has its quality or performance been evaluated appropriately? | Compare relevant characteristics with appropriate reference information and evaluate consequential biases or predictive performance. |
+| **F — Fitness for purpose** | Is it suitable for this particular decision? | Determine whether spatial scale, variables, indicators, future conditions, and constraints match the use case. |
 
 
-**Data acquisition and sanity check**: Examines how climate data are selected and whether their source, relevance, and basic credibility are reviewed before use. It focuses on initial screening to avoid inappropriate or misaligned datasets.
+## How to complete the matrix
 
+### 1. Select implementation status
 
-**Quality Control & Validation**: Assesses whether climate data and analyses are technically reviewed, tested, and documented before informing decisions. It considers whether assumptions and methods are transparent and reproducible.
+Status and maturity are recorded separately.
 
+| Status | Meaning |
+|---|---|
+| **Implemented** | The capability is currently in use within the assessment scope. |
+| **In development** | Work is actively underway but is not yet established in normal practice. |
+| **Not started** | The capability is relevant, but no material implementation work has begun. |
+| **Not assessed** | The assessment team lacks sufficient evidence or expertise to determine the current state. |
+| **Not applicable** | The criterion is not relevant to the defined scope or climate-information types. Provide a brief justification. |
 
-**Fitness-for-Purpose & Constraints**: Evaluates whether the climate information matches the scale, timeframe, and operational context of the decision. It also considers practical constraints such as resolution, availability, and usability.
+For **In development**, score only the capability currently demonstrated in practice and describe planned improvements in **Evidence and justification**. If no level is currently demonstrated, the current score may remain blank. A blank current score is also permitted for **Not started**, **Not assessed**, or **Not applicable** when no maturity level can be supported. Explain blank scores and Not applicable selections.
 
+### 2. Apply guided best fit
 
-**Understanding Data Limitations and Impact on Application**: Assesses whether uncertainties and limitations are clearly identified and communicated. It examines whether these constraints are explicitly considered in decision-making.
-:::
+The five maturity levels are:
 
-<!-- 
-## References
+| Level | General interpretation |
+|---|---|
+| **Level 1 — Initial** | Practice is absent, informal, inconsistent, or dependent on individual effort. |
+| **Level 2 — Developing** | Relevant activity occurs, but coverage, consistency, documentation, or ownership remains limited. |
+| **Level 3 — Defined** | A repeatable and documented approach is established for relevant applications within the assessment scope. |
+| **Level 4 — Integrated** | The approach is consistently embedded across relevant workflows, with clear ownership, coordination, and review. |
+| **Level 5 — Adaptive** | The approach is sustained, evaluated, and improved as needs, evidence, and conditions change. |
 
-<details>
-<summary><strong>(click to expand)</strong></summary>
+Select the highest level whose description is substantially and consistently demonstrated. Do not select a higher level when an essential underlying capability is absent. If practice spans several levels, choose the lower defensible level and document the more advanced elements. Base the score on normal practice and evidence, not an isolated example, planned activity, or aspiration.
 
-::: {#refs}
-:::
+Useful evidence may include policies, procedures, project records, data inventories, validation reports, meeting records, training materials, risk registers, decision documents, or demonstrations from staff and contractors.
 
-</details>
--->
+### 3. Set desired maturity
+
+Desired maturity need not be Level 5. Set it criterion by criterion according to:
+
+- The assessed unit's responsibilities;
+- The consequences and materiality of the decisions involved;
+- The frequency and importance of climate-information use;
+- Regulatory, reporting, or assurance requirements;
+- Access to centralized or external expertise; and
+- The risks associated with misuse, failure, or insufficient capability.
+
+A lower desired maturity may be appropriate where responsibilities are limited and reliable escalation arrangements exist. Record the rationale for the desired level and the priority of any gap.
+
+## How to interpret the results
+
+The criterion-level profile is the primary result. Do not calculate a single overall organizational maturity score.
+
+The workbook provides an optional descriptive summary for each section, including:
+
+- Median current maturity;
+- Minimum and maximum criterion scores;
+- Number of scored criteria; and
+- Counts for each implementation status.
+
+A section median is a discussion aid, not evidence that strength in one criterion compensates for limitations in another. Interpret it alongside the full criterion profile, score range, status counts, and supporting evidence. Do not compare summaries when assessment scopes, applicable criteria, or climate-information types differ materially.
+
+## Turn the results into an improvement plan
+
+Use the assessment to identify a focused and achievable set of improvements. Prioritize gaps based on:
+
+- Consequences for important operational, planning, or investment decisions;
+- Material climate risks and organizational exposure;
+- Dependencies among capabilities;
+- Organizational responsibility and desired maturity;
+- Available resources and feasibility; and
+- Relevant planning and investment timelines.
+
+Some improvements may involve clearer roles, documentation, or procedures; others may require sustained investment in staffing, expertise, data, tools, or validation. Assign accountability, identify evidence of completion, and revisit the assessment periodically. Progress should mean more reliable, transparent, and decision-appropriate practice, and not simply movement toward Level 5 in every criterion.
+
+Use the matrix to identify areas for organizational improvement, then consult [Organizational Gaps and Barriers](./gaps_organization.qmd) for common challenges affecting climate-information use. Where external expertise is needed, [Procuring Physical Climate-Risk Assessments](./Guidance_Harrington.qmd) provides questions to support informed procurement and oversight.

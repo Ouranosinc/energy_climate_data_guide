@@ -1,0 +1,55 @@
+```{=html}
+<figure class="maturity-map" aria-label="How the Maturity Matrix Sections Work Together" aria-describedby="maturity-map-description">
+  <p class="visually-hidden" id="maturity-map-description">Sections A and B are the organizational foundations for the maturity matrix. Section C integrates these capabilities into planning and practice. Sections D through G cover acquisition and screening, quality evaluation, fitness for purpose, and management of limitations and uncertainty. Experience from applications feeds back into organizational learning and improvement.</p>
+  <div class="maturity-map__diagram">
+    <section class="maturity-map__foundations" aria-labelledby="foundations-label">
+      <h3 class="maturity-map__group-label" id="foundations-label">Organizational foundations</h3>
+      <div class="maturity-map__foundation-cards">
+        <div class="maturity-map__card maturity-map__card--foundation">
+          <h4>A — Capacity and governance</h4>
+          <p>People, resources, roles and accountability</p>
+        </div>
+        <div class="maturity-map__card maturity-map__card--foundation">
+          <h4>B — Understanding and readiness</h4>
+          <p>Role-appropriate knowledge, risk management and adaptation</p>
+        </div>
+      </div>
+    </section>
+    <div class="maturity-map__connector maturity-map__connector--down" aria-hidden="true"></div>
+    <section class="maturity-map__integration">
+      <div class="maturity-map__card maturity-map__card--integration">
+        <h4>C — Integration into practice</h4>
+        <p>Planning, coordination, tools, procedures and learning</p>
+      </div>
+    </section>
+    <div class="maturity-map__connector maturity-map__connector--down" aria-hidden="true"></div>
+    <section class="maturity-map__pathway" aria-labelledby="pathway-label">
+      <h3 class="maturity-map__group-label" id="pathway-label">Climate-information pathway</h3>
+      <div class="maturity-map__pathway-cards">
+        <div class="maturity-map__card maturity-map__card--pathway">
+          <h4>D — Acquire and screen</h4>
+          <p>Source, provenance, metadata and basic integrity</p>
+        </div>
+        <div class="maturity-map__path-arrow" aria-hidden="true"></div>
+        <div class="maturity-map__card maturity-map__card--pathway">
+          <h4>E — Evaluate quality</h4>
+          <p>Quality control, validation and product performance</p>
+        </div>
+        <div class="maturity-map__path-arrow" aria-hidden="true"></div>
+        <div class="maturity-map__card maturity-map__card--pathway">
+          <h4>F — Match to the use case</h4>
+          <p>Suitability, scale, variables, scenarios and trade-offs</p>
+        </div>
+        <div class="maturity-map__path-arrow" aria-hidden="true"></div>
+        <div class="maturity-map__card maturity-map__card--uncertainty">
+          <h4>G — Manage limitations and uncertainty</h4>
+          <p>Assumptions, sensitivity, misuse risks and communication</p>
+        </div>
+      </div>
+      <div class="maturity-map__uncertainty-band">Limitations and uncertainty considered throughout</div>
+    </section>
+    <div class="maturity-map__feedback" aria-hidden="true"><span>Learning and improvement</span></div>
+  </div>
+  <figcaption><strong>Scope and relationships of the Climate Data Maturity Matrix sections.</strong> Sections A and B establish the organizational foundations for using climate information, while Section C integrates those capabilities into planning and recurring processes. Sections D–G cover the pathway from acquiring and screening climate information to evaluating its quality, matching it to the intended use, and managing its limitations and uncertainty. These activities are iterative: experience and decision outcomes can lead to improvements in data, methods, procedures, expertise, and governance.</figcaption>
+</figure>
+```
