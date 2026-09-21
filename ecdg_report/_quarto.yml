@@ -166,6 +166,8 @@ website:
             contents:
               - text: "Compare Observational Datasets at a Point"
                 href: resources/tools/Point_Location_Compare.ipynb
+      - text: "Contributors and acknowledgements"
+        href: contributors.qmd
       - section: Workshops
         href: workshops/intro_workshops.ipynb
         contents:
