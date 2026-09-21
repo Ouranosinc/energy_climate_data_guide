@@ -12,29 +12,34 @@ The barriers below can help electricity-sector practitioners consider why climat
 Use the [Organizational Maturity Self-Assessment](./Maturity_Matrix.qmd) to identify capability areas that need attention within a defined assessment scope. Then use this page to consider which barriers may contribute to those findings and where the guide offers relevant follow-up guidance. Prioritize improvements in relation to the assessment scope and desired maturity.
 :::
 
-The organizational and technical barriers described below are interdependent. For example, limited climate literacy can make informed oversight of external work more difficult, while unclear governance can prevent technically appropriate information from being retained and incorporated into recurring decisions.
+## Recognize the types of barriers
+
+::: {.table-responsive style="width: 0; min-width: 100%; overflow-x: auto;"}
+| Barrier category | What this can look like | Most relevant Maturity Matrix sections |
+|---|---|---|
+| **People and coordination** | Limited climate literacy, limited coordination across teams, or use of historical information without considering future conditions | A - Organizational Capacity; B - Climate Risk Understanding; C - Planning and Deployment |
+| **Governance and oversight** | Unclear ownership, incomplete documentation, or use of external expertise without sufficient oversight | A - Organizational Capacity and Governance; D–G - Acquisition, evaluation, fitness for purpose, limitations, and uncertainty |
+| **Methods and workflows** | Requirements that do not clearly address future conditions, uncertainty left unmanaged, or climate information remaining outside established processes | C - Planning and Deployment; D-G - Acquisition, evaluation, fitness for purpose, limitations, and uncertainty |
+| **Resourcing and organizational value** | Difficulty connecting investment in climate information to important decisions and organizational priorities | A - Organizational Capacity and Resources; C - Planning and Deployment |
+:::
+
+These categories are interdependent. For example, limited climate literacy can make informed oversight of external work more difficult, while unclear governance can prevent technically appropriate information from being retained and incorporated into recurring decisions.
 
 ## People and coordination
 
-*Most closely related to Maturity Matrix Sections A — Organizational Capacity, B — Climate Risk Understanding, and C — Planning and Deployment.*
-
 **Limited internal climate literacy.** Staff may not have the knowledge needed to interpret and use climate information appropriately. This can affect its selection, application, and communication. [Types of Climate Data](../climate_data_fundamentals/Climate_Datasets_Overview.qmd) provides an entry point to the guide's foundational concepts and explanations of processing methods.
 
-**Coordination across functions is limited.** Teams or business functions may use different data and assumptions, producing inconsistent results or duplicated work. A useful first step is to agree on the decision context, responsibilities, and evidence requirements. For a climate vulnerability or risk assessment, [Step 1: Establish the Scope and Context](../apply_climate_data/risk_step1.qmd) provides a structured process.
+**Coordination across teams is limited.** Teams or business functions may use different data and assumptions, producing inconsistent results or duplicated work. A useful first step is to agree on the decision context, responsibilities, and evidence requirements. For a climate vulnerability or risk assessment, [Step 1: Establish the Scope and Context](../apply_climate_data/risk_step1.qmd) provides a structured process.
 
 **Historical information is used without considering future conditions.** Observations and operational experience remain essential, but they may not represent conditions relevant to long-lived assets and decisions. [Non-stationarity and Engineering Design](../apply_climate_data/core_concepts_adapt.qmd#non-stationarity-and-engineering-design) explains why historical conditions may not remain reliable predictors of future conditions. [Generation Forecasting](../sectors/planning/generation_forecasting.qmd) and [Resource Adequacy Planning](../sectors/planning/resource_adequacy_planning.qmd) provide activity-specific examples.
 
 ## Governance and oversight
-
-*Most closely related to Maturity Matrix Section A — Organizational Capacity and Governance, and Sections D–G — Technical Data Practices.*
 
 **Governance of climate information is limited.** Ownership of climate assumptions may be unclear. Important records or material limitations may also be lost during hand-offs. The [Organizational Maturity Self-Assessment](./Maturity_Matrix.qmd) can help identify related gaps in organizational and technical practices. Within a climate risk or adaptation process, [Step 7: Reporting or Institutionalizing the Decision](../apply_climate_data/risk_step7_institute.qmd) provides related guidance on documentation and continuity.
 
 **External expertise is used without sufficient oversight.** External support may be appropriate and necessary, but the organization remains accountable for overseeing the work and retaining a usable record of its methods and limitations. [Procuring Physical Climate-Risk Assessments](./Guidance_Harrington.qmd) explains what to ask providers and what evidence or warning signs to look for; it does not cover every form of external climate service.
 
 ## Methods and workflows
-
-*Most closely related to Maturity Matrix Section C — Planning and Deployment, and Sections D–G — Technical Data Practices.*
 
 **Applicable requirements may not clearly address future climate conditions.** Some requirements and accepted methods use historical climatology or do not specify how forward-looking climate information should be incorporated. Organizations should identify the applicable requirements and assumptions before determining whether additional analysis or review is needed. See [The Role of Codes and Standards](../apply_climate_data/Adaptation.qmd#the-role-of-codes-and-standards) and the [regulatory context in Step 1](../apply_climate_data/risk_step1.qmd#regulatory-context). [Dam Safety Review](../sectors/infrastructure/dam_safety_review.qmd) provides an electricity-sector example.
 
@@ -43,8 +48,6 @@ The organizational and technical barriers described below are interdependent. Fo
 **Climate information is not embedded in established processes.** Climate information may remain in a report rather than being incorporated into planning, operations, or governance. Within a climate risk or adaptation process, [Step 7: Process Integration](../apply_climate_data/risk_step7_institute.qmd#process-integration) discusses institutionalization and transition to operations. [Electricity-Sector Activities](../sectors/electricity_sector_activities.qmd) connects climate information to specific sector activities.
 
 ## Resourcing and organizational value
-
-*Most closely related to Maturity Matrix Sections A — Organizational Capacity and Resources, and C — Planning and Deployment.*
 
 **The organizational value of climate information is difficult to demonstrate.** Organizations may struggle to connect investment in climate information or expertise to material decisions and organizational priorities. [Step 1](../apply_climate_data/risk_step1.qmd#objectives-and-evaluation-criteria) can help define decision objectives and evaluation criteria, while [Step 6](../apply_climate_data/risk_step6_adapt.qmd#evaluating-adaptation-pathways) discusses the value and timing of adaptation pathways. These pages provide relevant inputs but not a complete business-case method.
 
