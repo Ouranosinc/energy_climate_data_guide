@@ -1,7 +1,5 @@
 ---
 title: Demand Forecasting
-#bibliography: references.bib 
-#uncomment upper line to add bibliography
 
 ---
 
