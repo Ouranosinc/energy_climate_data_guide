@@ -36,7 +36,7 @@ The table below provides an overview of key characteristics of the datasets docu
 </tr>
 
 <tr>
-<td><a href="./observed_data/AHCCD_Station_Data.ipynb">AHCCD / CanHom</a></td>
+<td><a href="observed_data/AHCCD-CanHom_Station_Data.ipynb">AHCCD / CanHom</a></td>
 <td>Point observations</td>
 <td>Daily</td>
 <td>Canada (station network)</td>
@@ -70,7 +70,7 @@ The table below provides an overview of key characteristics of the datasets docu
 </tr>
 
 <tr>
-<td><a href="./reanalysis_data/ERA5.ipynb">ERA5</a></td>
+<td><a href="./reanalysis_data/ERA5-Land.ipynb">ERA5</a></td>
 <td>0.25°<br>(~28 km)</td>
 <td>Hourly</td>
 <td>Global</td>
@@ -104,7 +104,7 @@ The table below provides an overview of key characteristics of the datasets docu
 </tr>
 
 <tr>
-<td><a href="./climate_projection_data/CORDEX_NA.ipynb">CORDEX</a> (North America)</td>
+<td><a href="./climate_projection_data/CORDEX.ipynb">CORDEX</a> (North America)</td>
 <td>0.22°<br>(~25 km)</td>
 <td>Hourly</td>
 <td>North America</td>
@@ -114,7 +114,7 @@ The table below provides an overview of key characteristics of the datasets docu
 </tr>
 
 <tr>
-<td><a href="./climate_projection_data/ESPO-G6_Dataset.ipynb">ESPO-G6</a></td>
+<td><a href="./climate_projection_data/ESPO-G6.ipynb">ESPO-G6</a></td>
 <td>0.1°<br>(~10 km)</td>
 <td>Daily</td>
 <td>North America</td>
@@ -124,7 +124,7 @@ The table below provides an overview of key characteristics of the datasets docu
 </tr>
 
 <tr>
-<td><a href="./climate_projection_data/CanDCS-M6_Dataset.ipynb">CanDCS-M6</a></td>
+<td><a href="./climate_projection_data/CanDCS-M6.ipynb">CanDCS-M6</a></td>
 <td>0.083°<br>(~10 km)</td>
 <td>Daily</td>
 <td>Canada and NW US</td>
