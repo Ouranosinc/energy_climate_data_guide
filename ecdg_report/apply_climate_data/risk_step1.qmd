@@ -119,7 +119,7 @@ The outcomes of this step may include
 
 Teams should confirm or establish the objective of the assessment in
 practical terms (e.g., inform an investment decision, support a design
-change, prioritize maintenance actions, update emergency planning, etc.)
+change, prioritize maintenance actions, update emergency planning, determine timing for capacity expansion, etc.)
 and then define the criteria used to evaluate climate-related
 assessment. Objectives and evaluation criteria describe what the
 assessment is intended to achieve and how results will be interpreted to

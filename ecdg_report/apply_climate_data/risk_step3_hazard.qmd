@@ -97,6 +97,54 @@ horizons, are gathered and prepared for vulnerability and risk analysis
 fit-for-purpose
 :::
 
+## Exposure Assessment
+
+Aspects of the system that are exposed to each relevant climate hazard
+should be documented. Screened out hazards or system aspects that do not
+require further evaluation may be documented. Exposure may be direct
+(the hazard physically affects the system) or indirect (the system is
+not physically exposed but depends on other systems or services that are
+exposed). For example, equipment inside a building may not be directly exposed to wind-driven rain, but may still
+be indirectly exposed if power, controls access routes, cooling water,
+or communications are impacted by the same hazard. 
+
+A practical exposure screening approach typically includes identifying
+direct and indirect exposures for each hazard; grouping systems with
+similar exposure profiles to reduce repetitive screening where
+appropriate; using system information (design parameters, technical
+specifications, condition, and experience) to confirm exposure pathways; and
+documenting a preliminary impact concern where exposure exists. 
+
+
+**No Exposure:** Where no exposure pathway exists, the system aspect (or hazard interaction) can
+be screened out. Documentation of screened out exposure pathways, and
+rationale why they were excluded may be required or considered best
+practice depending on the purpose of the assessment (e.g. assessments
+completed for Impact Assessments). 
+
+During exposure screening, teams may
+identify additional hazards or dependencies that were not captured
+initially; where this occurs, the hazard and exposure assessment should
+be updated. Hazard and exposure may also be revisited at the initial
+stages of vulnerability analysis.
+
+::: {.callout-tip collapse="true" title="Impact Notes"}
+Early impact notes, if developed, can help clarify why an
+interaction matters and provide a useful bridge into vulnerability and
+risk analysis.
+:::
+
+::: {.callout collapse="true" title="Inputs"}
+Typical inputs include:
+- Hazard list
+- System boundaries 
+- Critical aspects
+- Dependency information (power, water, access,staffing, suppliers)
+- Design and operating parameters
+- OPEX 
+- Event histories
+:::
+
 ## Hazard & Climate Driver Identification
 
 Climate hazards that may affect the system within the defined geographic
@@ -129,49 +177,7 @@ Typical inputs for this step may include:
 - Any hazard requirements tied to regulatory or program needs
 :::
 
-## Exposure Assessment
 
-Aspects of the system that are exposed to each relevant climate hazard
-should be documented. Screened out hazards or system aspects that do not
-require further evaluation may be documented. Exposure may be direct
-(the hazard physically affects the system) or indirect (the system is
-not physically exposed but depends on other systems or services that are
-exposed). For example, equipment inside a building may not be directly exposed to wind-driven rain, but may still
-be indirectly exposed if power, controls access routes, cooling water,
-or communications are impacted by the same hazard. 
-
-A practical exposure screening approach typically includes identifying
-direct and indirect exposures for each hazard; grouping systems with
-similar exposure profiles to reduce repetitive screening where
-appropriate; using system information (design parameters, technical
-specifications, condition, and OPEX) to confirm exposure pathways; and
-documenting a preliminary impact concern where exposure exists. Where no
-exposure pathway exists, the system aspect (or hazard interaction) can
-be screened out. Documentation of screened out exposure pathways, and
-rationale why they were excluded may be required or considered best
-practice depending on the purpose of the assessment (e.g. assessments
-completed for Impact Assessments). During exposure screening, teams may
-identify additional hazards or dependencies that were not captured
-initially; where this occurs, the hazard and exposure assessment should
-be updated. Hazard and exposure may also be revisited at the initial
-stages of vulnerability analysis.
-
-::: {.callout-tip collapse="true" title="Impact Notes"}
-Early impact notes are optional, but they often help clarify why an
-interaction matters and provide a useful bridge into vulnerability and
-risk analysis.
-:::
-
-::: {.callout collapse="true" title="Inputs"}
-Typical inputs include:
-- Hazard list
-- System boundaries 
-- Critical aspects
-- Dependency information (power, water, access,staffing, suppliers)
-- Design and operating parameters
-- OPEX 
-- Event histories
-:::
 
 ## Selecting Appropriate Indicators
 
