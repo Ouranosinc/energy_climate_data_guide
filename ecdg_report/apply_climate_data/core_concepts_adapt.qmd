@@ -96,9 +96,9 @@ $$
 
 where $R$ is the risk, which is a function $f$ of the hazard $H$ or climate driver, the exposure $E$ and the vulnerability $V$.
 
-The [IPCC AR6 Chapter 16](https://www.ipcc.ch/report/ar6/wg2/figures/chapter-16/figure-16-001) conceptualizes risk conceptualizes risk as a venn diagram following @Garschagen2019, where the risk is the intersection of the hazard, exposure and vulnerability. The figure below illustrates this concept.
+The [IPCC AR6 Chapter 16](https://www.ipcc.ch/report/ar6/wg2/figures/chapter-16/figure-16-001) conceptualizes risk conceptualizes risk as a venn diagram following @Garschagen2021, where the risk is the intersection of the hazard, exposure and vulnerability. The figure below illustrates this concept.
 
-![Adapted from @Garschagen2019](images/risk_Prop.png){.lightbox width=500}
+![Adapted from @Garschagen2021](images/risk_Prop.png){.lightbox width=500}
 
 A change in any of these elements alters the magnitude and change in the future risk to the system and is a very useful concept for understanding how these variables impact risk. To make use of this concept in this guide we map it to the traditional definition of risk:
 
