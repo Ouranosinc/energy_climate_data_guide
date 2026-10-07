@@ -1,8 +1,6 @@
 ---
 title: "Integrating Climate Information into Models and Decisions"
-bibliography:
-  - adaptation.bib
-  - ../sectors/infrastructure/references_dam_safety.bib
+bibliography: adaptation.bib
 
 ---
 
@@ -45,28 +43,8 @@ In almost all cases the available documents are about the process of climate ris
 
 ## Model Chains
 
-Climate information supports a decision through the analyses that connect it to system performance. Start with the result that matters to the decision-maker, then trace backwards to identify the processes, data, and models needed to produce that result. This is the central idea in Fournier et al.'s discussion of integrating climate data through a modelling chain [@Fournier2020, Sections 2.2 and 6.1]. Although their examples focus on hydropower valuation, the questions apply more broadly across electricity-sector planning, operations, and asset management.
-
-### Work Backwards from the Decision
-
-Use these questions to define and refine the analysis:
-
-1. **What decision could change?** Identify the action, option, operating practice, investment, or threshold that the analysis should inform, and when that decision is expected.
-2. **What result would inform it?** Specify the performance measure, constraint, impact, or comparison that decision-makers need (for example, peak demand, generation availability, outage exposure, or a design threshold).
-3. **What climate-sensitive process connects climate to that result?** Describe the relationship and identify the impact or sector models that represent it. Note dependencies and interactions that may also affect the result.
-4. **What does each model need at its input?** Work back through the chain to identify variables, units, spatial coverage, time step, baseline, future period, and treatment of multiple plausible futures. These requirements guide the selection and preparation of climate information.
-5. **What must be preserved and checked?** Decide whether the output depends on extremes, event sequence, seasonality, interannual variability, or relationships between variables. Compare intermediate results with observations, established practice, or relevant performance criteria where possible.
-6. **Is the result adequate for the decision?** Check whether the model output answers the original question and represents the relevant uncertainty. If not, revisit the information requirement, transformation, model choice, or decision framing.
-
-A hydropower example in Fournier et al. links climate information to hydrological modelling, then energy production, then asset value. A comparable electricity-sector chain could link temperature projections to demand modelling, then peak-load or resource-adequacy analysis, and finally a capacity or operational decision. Not every application needs every model in this sequence: the chain should be only as detailed as needed to answer the decision question.
-
-For candidate climate datasets, see the [Climate Data Decision Tree](../datasets/Climate_Data_Decision_Tree_decision_context_fournier.qmd). For choices made between a dataset and the next model, see [Data Transformation](../climate_data_fundamentals/Data_Transformation_decision_context_fournier.qmd).
-
 ### Baseline Selection
-
-A baseline is the reference representation of past or current conditions used to compare future conditions, assess model performance, or evaluate options. Select it in relation to the decision question and downstream analysis. Record its source, period, and purpose, and consider whether it reflects the system conditions the decision must address. Trends or discontinuities in a record may reflect climate change or other drivers; understand their relevance before choosing, shortening, or adjusting the baseline. Fournier et al. discuss hydrologic and climatic baseline options and their implications [@Fournier2020, Sections 4.1 and 4.2].
-
-Climate and impact information may be transformed between steps in a modelling chain. The method should match the input data, model requirements, and decision metric. Fournier et al. describe direct use, reduction, adjustment, extension, delta, and bias-correction methods [@Fournier2020, Section 3]. These are options to assess for a particular application, not a required sequence or a set of interchangeable methods. Their strengths and limitations depend on which characteristics the downstream analysis needs to retain.
+Consideration from Ouranos report on Asset Valuation
 
 
 ## Uncertainty

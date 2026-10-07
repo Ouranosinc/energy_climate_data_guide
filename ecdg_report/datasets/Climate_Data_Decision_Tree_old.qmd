@@ -9,12 +9,6 @@ This page provides guidance for selecting the appropriate type of climate data f
 
 Use the decision tree to identify a suitable category of data for the decision context. Then use [Compare Documented Datasets](./Datasets_Overview_Table.qmd) to compare products described in this guide, [Find Datasets by Variable](./Datasets_by_Variable.qmd) to locate products containing a required variable, and the individual dataset profiles for detailed strengths, limitations and expert guidance.
 
-::: {.callout-tip title="Make the information need explicit"}
-Before following the tree, consider: what decision or analysis will use the result; what climate-related process and performance measure matter; which variables or indicators represent that process; and what location, time step, and future period the downstream analysis requires. Also note whether thresholds, extremes, or relationships between variables are important. The tree helps identify candidate data categories; check the selected dataset against the full information need and the model that will use it.
-
-This carries the decision context into data selection, as encouraged by [Fournier et al. (2020, Sections 3 and 6.1)](https://www.ouranos.ca/sites/default/files/2022-07/proj-201419-energie-fournier-guide_en.pdf).
-:::
-
 ## Summary
 
 **Station observations** (in situ): Best for local truth at point locations (e.g., a substation, a met mast, a river gauge) and for direct validation of any gridded dataset. 
@@ -47,7 +41,7 @@ The figure below provides a high-level guide for selecting climate datasets base
 %%{init: {'themeVariables': { 'fontSize': '30px'}, 'flowchart': { 'nodeSpacing': 50, 'rankSpacing': 50, 'padding': 30, 'curve': 'basis', 'htmlLabels': true, 'useMaxWidth': true }} }%%
 flowchart TD
 
-    A([State decision and information need]) --> B{Need future climate change?}
+    A([Define decision context]) --> B{Need future climate change?}
 
     %% Historical / baseline branch
     B -- No --> C{Need spatially complete gridded fields?}
