@@ -1,8 +1,6 @@
 ---
 title: Data Transformation
-bibliography:
-  - ../datasets/references.bib
-  - ../sectors/infrastructure/references_dam_safety.bib
+
 ---
 
 
@@ -22,7 +20,7 @@ Downscaling and bias adjustment are two ways to prepare climate information, but
 - **Does the input already meet those requirements?** If so, a direct handoff may be appropriate. If not, identify the specific mismatch and choose a method that addresses it.
 - **What could the transformation change or discard?** Document the assumptions, compare relevant characteristics before and after processing, and decide whether the result remains fit for the intended use.
 
-The six methods in Section 3 of Fournier et al. can help frame the choice. They are not a required sequence, and terminology can differ across fields.
+The six methods in Section 3 of @Fournier2020 can help frame the choice. They are not a required sequence, and terminology can differ across fields.
 
 | Method | Guiding question | Main consideration |
 |---|---|---|
@@ -33,7 +31,8 @@ The six methods in Section 3 of Fournier et al. can help frame the choice. They 
 | **Delta** | Is a simulated change between reference and future periods being applied to a baseline? | A baseline sequence may be retained, while changes to event sequence and other characteristics in the simulation may not be represented. |
 | **Bias correction** | Is a simulation being corrected against a baseline over a reference period? | Correcting selected historical biases does not remove all model limitations or guarantee realistic future behaviour. |
 
-Fournier et al. discuss these methods for hydropower modelling; application to another electricity-sector decision requires checking the downstream model's needs and the decision-relevant quantities. See [Integrating Climate Information into Models and Decisions](../apply_climate_data/model_integration_decision_context_fournier.qmd) for the wider model-chain questions and [Climate Data Decision Tree](../datasets/Climate_Data_Decision_Tree_decision_context_fournier.qmd) for selecting candidate data.
+Fournier et al. discuss these methods for hydropower modelling; application to another electricity-sector decision requires checking the downstream model's needs and the decision-relevant quantities. See [Integrating Climate Information into Models and Decisions](../apply_climate_data/model_integration.qmd) for the wider model-chain questions and [Climate Data Decision Tree](../datasets/Climate_Data_Decision_Tree.qmd) for selecting candidate data.
+
 
 ## Delta-Change Method
 

@@ -1,8 +1,6 @@
 ---
 title: "Step 1: Establish the Scope and Context"
-bibliography:
-  - adaptation.bib
-  - ../sectors/infrastructure/references_dam_safety.bib 
+
 editor: 
   markdown: 
     wrap: 72
@@ -147,7 +145,7 @@ Before selecting climate datasets, translate the assessment objective into the e
 - What variables, indicators, spatial coverage, time step, baseline, and future period does that analysis require?
 - Which characteristics must be represented for the criterion to be meaningful—for example, extremes, event sequence, seasonality, or co-occurrence of hazards?
 
-The answers form an initial information requirement, not a dataset choice. Refine it with the system and climate information as the assessment proceeds. This traces the information needed through the modelling chain, following the approach described by [Fournier et al. (2020, Sections 3 and 6.1)](https://www.ouranos.ca/sites/default/files/2022-07/proj-201419-energie-fournier-guide_en.pdf). For climate-data options, continue to the [Climate Data Decision Tree](../datasets/Climate_Data_Decision_Tree_decision_context_fournier.qmd); for model-chain integration, see [Integrating Climate Information into Models and Decisions](./model_integration_decision_context_fournier.qmd).
+The answers form an initial information requirement, not a dataset choice. Refine it with the system and climate information as the assessment proceeds. This traces the information needed through the modelling chain, following the approach described by @Fournier2020 (sections 3 and 6.1). For climate-data options, continue to the [Climate Data Decision Tree](../datasets/Climate_Data_Decision_Tree.qmd); for model-chain integration, see [Integrating Climate Information into Models and Decisions](./model_integration.qmd).
 
 Typical inputs for this step may include the decision statement and
 intended use of results, existing corporate or project objectives, risk

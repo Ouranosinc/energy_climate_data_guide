@@ -1,6 +1,6 @@
 ---
 title: Data Transformation
-bibliography: ../sectors/infrastructure/references_dam_safety.bib
+
 ---
 
 Applications in electricity system planning and operations are typically sensitive to fine-scale variations of climate parameters. Thus, it is essential that climate inputs reflect the regional or local meteorological conditions with sufficient detail. GCMs operate at relatively coarse spatial resolutions (typically 100-250 km) and therefore their outputs are often inadequate for regional or local scale assessment. To address this, two categories of downscaling techniques are applied: statistical downscaling and dynamical downscaling.

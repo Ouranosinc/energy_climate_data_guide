@@ -12,7 +12,7 @@ Use the decision tree to identify a suitable category of data for the decision c
 ::: {.callout-tip title="Make the information need explicit"}
 Before following the tree, consider: what decision or analysis will use the result; what climate-related process and performance measure matter; which variables or indicators represent that process; and what location, time step, and future period the downstream analysis requires. Also note whether thresholds, extremes, or relationships between variables are important. The tree helps identify candidate data categories; check the selected dataset against the full information need and the model that will use it.
 
-This carries the decision context into data selection, as encouraged by [Fournier et al. (2020, Sections 3 and 6.1)](https://www.ouranos.ca/sites/default/files/2022-07/proj-201419-energie-fournier-guide_en.pdf).
+This carries the decision context into data selection, as encouraged by @Fournier2020 (Sections 3 and 6.1).
 :::
 
 ## Summary
