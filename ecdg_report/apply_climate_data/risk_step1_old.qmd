@@ -1,6 +1,6 @@
 ---
 title: "Step 1: Establish the Scope and Context"
-
+bibliography: adaptation.bib 
 editor: 
   markdown: 
     wrap: 72
@@ -135,17 +135,6 @@ conditions that could lead to worker or public harm, loss of essential
 function, exceedance of design or operating limits, or prolonged outage
 beyond acceptable recovery time.
 :::
-
-### From the decision to an information requirement
-
-Before selecting climate datasets, translate the assessment objective into the evidence the decision needs. Ask:
-
-- What result would help compare options, identify a threshold exceedance, or change a planned action?
-- Which climate-sensitive process links the hazard to that result, and does an existing impact, engineering, or sector model represent it?
-- What variables, indicators, spatial coverage, time step, baseline, and future period does that analysis require?
-- Which characteristics must be represented for the criterion to be meaningful—for example, extremes, event sequence, seasonality, or co-occurrence of hazards?
-
-The answers form an initial information requirement, not a dataset choice. Refine it with the system and climate information as the assessment proceeds. This traces the information needed through the modelling chain, following the approach described by @Fournier2020 (sections 3 and 6.1). For climate-data options, continue to the [Climate Data Decision Tree](../datasets/Climate_Data_Decision_Tree.qmd); for model-chain integration, see [Integrating Climate Information into Models and Decisions](./model_integration.qmd).
 
 Typical inputs for this step may include the decision statement and
 intended use of results, existing corporate or project objectives, risk

@@ -75,8 +75,8 @@ website:
             href: climate_data_fundamentals/Ensembles.qmd
           - text: "Projection Periods and Global Warming Levels"
             href: climate_data_fundamentals/Time_horizons_GWL.qmd
-          - text: "Downscaling and Bias Adjustment"
-            href: climate_data_fundamentals/Bias_adjustment.qmd
+          - text: "Data Transformation Methods"
+            href: climate_data_fundamentals/Data_Transformation.qmd
           - text: "Uncertainty and Confidence"
             href: climate_data_fundamentals/Uncertainty_Confidence.qmd
           - text: "Climate-Information Gaps and Limitations"

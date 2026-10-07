@@ -12,13 +12,7 @@ Electricity systems are closely connected to climate conditions, making climate 
 
 ## How to Use This Guide
 
-The guide is designed as a practical resource that helps users connect electricity-sector questions with appropriate climate information. 
-
-::: {.callout-tip title="Start with the decision"}
-Before diving into making data selections, it is usefull to write down a short decision brief. What decision, plan, or operating practice could change under different climate conditions? What system performance or service matters? Which climate-sensitive process could affect it? What evidence, time horizon, location, and level of detail would help the decision-making? The answers to these questions can be refined as the analysis develops. This decision-led approach follows the modelling-chain perspective provided in @Fournier2020.
-:::
-
-The pathways below provide starting points for different needs; readers can move among them as their questions develop.
+The guide is designed as a practical resource that helps users connect electricity-sector questions with appropriate climate information. The pathways below provide starting points for different needs; readers can move among them as their questions develop.
 
 ## Choose a Pathway
 
@@ -30,9 +24,6 @@ The pathways below provide starting points for different needs; readers can move
 - **[Use resources, examples and tools](./resources/Climate_Information_Ressources.qmd):** Find external climate-information portals, example applications and analysis-support tools.
 
 ## Supporting Climate-Informed Energy Decisions
-
-For an application-focused example of how to carry the decision brief through data selection, transformation and modelling, see [Climate Data Decision Tree](./datasets/Climate_Data_Decision_Tree.qmd) and [Integrating Climate Information into Models and Decisions](./apply_climate_data/model_integration.qmd).
-
 
 By connecting climate datasets with real-world applications, the guide aims to make climate information more accessible and usable for energy practitioners. It provides a structured overview of [types of climate data](./climate_data_fundamentals/Climate_Datasets_Overview.qmd) and guidance on [applying climate information](./apply_climate_data/Adaptation.qmd) in analysis and decision workflows. In doing so, the guide supports consistent and informed consideration of climate conditions in [electricity-sector planning, operations and management](./sectors/electricity_sector_activities.qmd). The guide also includes a [Maturity Matrix](./organizational_capability/Maturity_Matrix.qmd) for self-assessment that helps organizations reflect on how climate information is currently incorporated into their processes and identify opportunities to strengthen climate-informed practices over time.
 
