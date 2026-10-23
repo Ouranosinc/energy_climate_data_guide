@@ -3,7 +3,6 @@ title: Data Transformation
 
 ---
 
-
 Applications in electricity system planning and operations are typically sensitive to fine-scale variations of climate parameters. Thus, it is essential that climate inputs reflect the regional or local meteorological conditions with sufficient detail. GCMs operate at relatively coarse spatial resolutions (typically 100-250 km) and therefore their outputs are often inadequate for regional or local scale assessment. To address this, two categories of downscaling techniques are applied: statistical downscaling and dynamical downscaling.
 
 Statistical downscaling establishes empirical relationships between large-scale GCM variables and local climate observations, using historical data as a training base. Available methods are computationally efficient and have been widely used. In contrast, dynamical downscaling refers to the higher-resolution [Regional Climate Models (RCMs)](../datasets/climate_projection_data/Climate_Projection_Datasets.qmd) which are driven by GCM output at their boundaries to explicitly simulate regional climate processes. 

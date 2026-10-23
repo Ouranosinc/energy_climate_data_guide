@@ -42,7 +42,6 @@ In almost all cases the available documents are about the process of climate ris
 
 :::
 
-
 ## Modeling Chains
 
 Climate information supports a decision through the analyses that connect it to system performance. System performance is often assessed using one or multiple process models, where one models output feeds into a downstream model. The output from one model may not always be adequate to be ingested as is by another model. Data preparation or transformations may need to be applied as information is passed along such a modeling chain. Different data treatment approaches exist for climate data as outlined in the section on [Data Transformation Methods](../climate_data_fundamentals/Data_Transformation.qmd).
@@ -54,8 +53,6 @@ To employ a modeling chain for climate impact analysis it will need to be operat
 ![Different use cases for a modeling chain for hydropower asset valuation in a traditional way (A), a generic version of a climate change modeling chain (B), and a complex version of a climate change assessment, including data transformation (C). Modified from @Fournier2020.](./images/ModelingChain_afterFournier2020.png)
 
 [Describe The third option for details!!!]{.mark-red}
-
-
 
 An approach to determine a useful modeling chain is to start with the result that matters to the decision-maker, and to then trace backwards to identify the processes, data, and models needed to produce that result. This is the central idea in @Fournier2020 discussing the integration of climate data into a modelling chain for hydropower (sections 2.2 and 6.1). Although their examples focus on hydropower valuation, the approach applies more broadly across electricity-sector planning, operations, and asset management.
 
