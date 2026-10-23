@@ -42,7 +42,7 @@ In almost all cases the available documents are about the process of climate ris
 
 :::
 
-## Modeling Chains
+## Modelling Chains
 
 Climate information supports a decision through the analyses that connect it to system performance. System performance is often assessed using one or multiple process models, where one models output feeds into a downstream model. The output from one model may not always be adequate to be ingested as is by another model. Data preparation or transformations may need to be applied as information is passed along such a modeling chain. Different data treatment approaches exist for climate data as outlined in the section on [Data Transformation Methods](../climate_data_fundamentals/Data_Transformation.qmd).
 

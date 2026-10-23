@@ -1,7 +1,16 @@
 ---
-title: Data Transformation
+title: Data Transformation Methods
 
 ---
+
+Climate data are distributed at different temporal and spatial resolutions and at different processing levels. In many cases their use in a particular application warrants transformation to meet needs, particularly related to feeding them into or along a [modeling chain](../apply_climate_data/model_integration.qmd#modlling-chains).
+
+## Direct Use
+
+Direct use consists of using climate-model simulations as inputs to an impact model without applying additional transformations, such as bias adjustment. This approach preserves the climate model's original representation of climate variables and their relationships.
+However, climate-model simulations may contain systematic biases relative to observations. These biases can affect impact-model results, particularly when the model has been calibrated using observational data. Direct use is therefore most appropriate when the climate simulations adequately represent the characteristics required by the application, or when the impact model is configured to accommodate the climate-model data. The suitability of this approach should be evaluated in the context of the intended application (Fournier et al., 2020, Chapter 3).
+
+## Downscaling
 
 Applications in electricity system planning and operations are typically sensitive to fine-scale variations of climate parameters. Thus, it is essential that climate inputs reflect the regional or local meteorological conditions with sufficient detail. GCMs operate at relatively coarse spatial resolutions (typically 100-250 km) and therefore their outputs are often inadequate for regional or local scale assessment. To address this, two categories of downscaling techniques are applied: statistical downscaling and dynamical downscaling.
 
