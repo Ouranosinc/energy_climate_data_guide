@@ -5,10 +5,33 @@ title: Data Transformation Methods
 
 Climate data are distributed at different temporal and spatial resolutions and at different processing levels. In many cases their use in a particular application warrants transformation to meet needs, particularly related to feeding them into or along a [modeling chain](../apply_climate_data/model_integration.qmd#modlling-chains).
 
+The following table provides an overview of the data transformation methods detailed below. The collection of methods is inspired by @Fournier2020, who discuss their strenghts and limitations in more detail.
+
+| Method | Guiding question | Main consideration |
+|---|---|---|
+| **Direct use** | Can the data be passed to the next step without modification? | Existing limitations also pass forward. |
+| **Reduction** | Is part of a baseline demonstrably erroneous or unrepresentative for the application? | Excluding data loses information, like variability and extremes, understand the cause before reducing the record. |
+| **Adjustment** | Should a baseline trend be adjusted to represent current conditions? | The adjustment changes selected statistics and needs a clear physical and analytical justification. |
+| **Extension** | Can a baseline trend be extended to explore future conditions? | Carries baseline assumptions and errors forward; it is not a substitute for climate projections. |
+| **Delta** | Can a simulated change between reference and future periods be applied to a baseline? | The baseline sequence is retained, while changes to event sequence and other characteristics in the simulation may not be represented. |
+| **Bias correction** | Should climate simulation be corrected against a baseline over a reference period? | Correcting selected historical biases does not remove all model limitations or guarantee realistic future behaviour. |
+: {.tbl .striped .light .sm tbl-colwidths="[15,42,43]"}
+
 ## Direct Use
 
-Direct use consists of using climate-model simulations as inputs to an impact model without applying additional transformations, such as bias adjustment. This approach preserves the climate model's original representation of climate variables and their relationships.
-However, climate-model simulations may contain systematic biases relative to observations. These biases can affect impact-model results, particularly when the model has been calibrated using observational data. Direct use is therefore most appropriate when the climate simulations adequately represent the characteristics required by the application, or when the impact model is configured to accommodate the climate-model data. The suitability of this approach should be evaluated in the context of the intended application (Fournier et al., 2020, Chapter 3).
+Direct use of climate consists of using climate-model simulations as inputs to an impact model without applying additional transformations, such as bias adjustment. This approach preserves the climate model's original representation of climate variables and their relationships. It is often referred to as using the *raw* data.
+Using raw climate-model simulation data should consider that they often contain systematic biases relative to observations. These biases can affect impact-model results, particularly when the model has been calibrated using observational data. Direct use is therefore most appropriate when the climate simulations adequately represent the characteristics required by the application, or when the impact model is configured to accommodate the climate-model data. The suitability of this approach should be evaluated in the context of the intended application.
+
+## Reduction
+
+The reduction method consists of shortening a baseline period by excluding portions of a time series that are considered erroneous or unrepresentative of current conditions. It may be appropriate when statistical tests identify a significant trend or inhomogeneities, such as an abrupt change in the mean or a change in variance. Before reducing the period, these characteristics should be investigated, including their possible causes, since they may originate from factors other than climate change. The method can produce a more representative and homogeneous baseline, but requires careful justification of the selected period.
+
+---
+
+---
+
+**------------------------------------**
+
 
 ## Downscaling
 
@@ -30,14 +53,7 @@ Downscaling and bias adjustment are two ways to prepare climate information, but
 
 The six methods in Section 3 of @Fournier2020 can help frame the choice. They are not a required sequence, and terminology can differ across fields.
 
-| Method | Guiding question | Main consideration |
-|---|---|---|
-| **Direct use** | Can the data be passed to the next step without modification? | Existing limitations also pass forward. |
-| **Reduction** | Is part of a baseline demonstrably unrepresentative or heterogeneous for this application? | Excluding data loses information, including variability and extremes; understand the cause before reducing the record. |
-| **Adjustment** | Is a baseline trend being adjusted to represent current conditions? | The adjustment changes selected statistics and needs a clear physical and analytical justification. |
-| **Extension** | Is a baseline trend being extended to explore future conditions? | This carries baseline assumptions and errors forward; it is not a substitute for climate projections. |
-| **Delta** | Is a simulated change between reference and future periods being applied to a baseline? | A baseline sequence may be retained, while changes to event sequence and other characteristics in the simulation may not be represented. |
-| **Bias correction** | Is a simulation being corrected against a baseline over a reference period? | Correcting selected historical biases does not remove all model limitations or guarantee realistic future behaviour. |
+
 
 Fournier et al. discuss these methods for hydropower modelling; application to another electricity-sector decision requires checking the downstream model's needs and the decision-relevant quantities. See [Integrating Climate Information into Models and Decisions](../apply_climate_data/model_integration.qmd) for the wider model-chain questions and [Climate Data Decision Tree](../datasets/Climate_Data_Decision_Tree.qmd) for selecting candidate data.
 
