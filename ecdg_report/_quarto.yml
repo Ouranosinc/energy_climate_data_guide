@@ -218,6 +218,7 @@ format:
 bibliography:
   - apply_climate_data/adaptation.bib
   - apply_climate_data/guidance.bib
+  - climate_data_fundamentals/climate_data_fundamentals.bib
   - datasets/references.bib
   - organizational_capability/organizational_capability.bib
   - sectors/infrastructure/references_dam_safety.bib
