@@ -1,6 +1,5 @@
 ---
 title: "Step 1: Establish the Scope and Context"
-
 editor: 
   markdown: 
     wrap: 72
@@ -138,7 +137,7 @@ beyond acceptable recovery time.
 
 ### From the decision to an information requirement
 
-Before selecting climate datasets, translate the assessment objective into the evidence the decision needs. Ask:
+To identifyselecting climate datasets, translate the assessment objective into the evidence the decision needs. Ask:
 
 - What result would help compare options, identify a threshold exceedance, or change a planned action?
 - Which climate-sensitive process links the hazard to that result, and does an existing impact, engineering, or sector model represent it?
@@ -170,9 +169,9 @@ Codes and standards often set minimum design or performance
 requirements; these minimums may be effective in the near term but may
 not fully account for future climate conditions, particularly where
 requirements are based on historical or retrospective design values. The
-climate assessment process presented in this standard supports
+climate assessment process presented in this guide supports
 forward-looking, prudent decisions to manage systems and assets, where
-analysis often times goes beyond minimum codes and requirements.
+analysis oftentimes goes beyond minimum codes and requirements.
 :::
 
 ## System, Geographic and Time Boundaries
