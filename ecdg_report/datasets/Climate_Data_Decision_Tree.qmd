@@ -10,9 +10,15 @@ This page provides guidance for selecting the appropriate type of climate data f
 Use the decision tree to identify a suitable category of data for the decision context. Then use [Compare Documented Datasets](./Datasets_Overview_Table.qmd) to compare products described in this guide, [Find Datasets by Variable](./Datasets_by_Variable.qmd) to locate products containing a required variable, and the individual dataset profiles for detailed strengths, limitations and expert guidance.
 
 ::: {.callout-tip title="Make the information need explicit"}
-Before following the tree, consider: what decision or analysis will use the result; what climate-related process and performance measure matter; which variables or indicators represent that process; and what location, time step, and future period the downstream analysis requires. Also note whether thresholds, extremes, or relationships between variables are important. The tree helps identify candidate data categories; check the selected dataset against the full information need and the model that will use it.
+Before following the tree, consider the context of the exercise:
 
-This carries the decision context into data selection, as encouraged by @Fournier2020 (Sections 3 and 6.1).
+- What decision or analysis will use the result?
+- What climate-related process and performance measure matter?
+- Which variables or indicators represent that process?
+- What location, time step, and future period is required by downstream analysis?
+- Are thresholds, extremes, or relationships between variables important?
+
+The decision tree helps identify candidate data categories; check the selected dataset against the full information need and/or the model that will use it.
 :::
 
 ## Summary
@@ -47,7 +53,7 @@ The figure below provides a high-level guide for selecting climate datasets base
 %%{init: {'themeVariables': { 'fontSize': '30px'}, 'flowchart': { 'nodeSpacing': 50, 'rankSpacing': 50, 'padding': 30, 'curve': 'basis', 'htmlLabels': true, 'useMaxWidth': true }} }%%
 flowchart TD
 
-    A([State decision and information need]) --> B{Need future climate change?}
+    A([State the decision and information need]) --> B{Need future climate change?}
 
     %% Historical / baseline branch
     B -- No --> C{Need spatially complete gridded fields?}
