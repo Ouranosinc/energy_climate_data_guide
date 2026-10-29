@@ -658,8 +658,7 @@ div.csl-indent {
     <h2 id="toc-title">Content</h2>
    
   <ul>
-  <li><a href="#choosing-a-transformation-for-the-decision" id="toc-choosing-a-transformation-for-the-decision" class="nav-link active" data-scroll-target="#choosing-a-transformation-for-the-decision">Choosing a Transformation for the Decision</a></li>
-  <li><a href="#direct-use" id="toc-direct-use" class="nav-link" data-scroll-target="#direct-use">Direct Use</a></li>
+  <li><a href="#direct-use" id="toc-direct-use" class="nav-link active" data-scroll-target="#direct-use">Direct Use</a></li>
   <li><a href="#reduction-method" id="toc-reduction-method" class="nav-link" data-scroll-target="#reduction-method">Reduction Method</a></li>
   <li><a href="#adjustment-method" id="toc-adjustment-method" class="nav-link" data-scroll-target="#adjustment-method">Adjustment Method</a></li>
   <li><a href="#extension-method" id="toc-extension-method" class="nav-link" data-scroll-target="#extension-method">Extension Method</a></li>
@@ -740,14 +739,22 @@ div.csl-indent {
 </tr>
 <tr class="odd">
 <td><strong>Bias Adjustment</strong></td>
-<td>Should climate simulation be corrected against a baseline over a reference period?</td>
+<td>Should climate simulation data be corrected against a baseline reference period?</td>
 <td>Adjusting selected historical biases does not remove all model limitations or guarantee realistic future behaviour.</td>
 </tr>
 </tbody>
 </table>
-<section id="choosing-a-transformation-for-the-decision" class="level2">
-<h2 class="anchored" data-anchor-id="choosing-a-transformation-for-the-decision">Choosing a Transformation for the Decision</h2>
-<p>Transformation methods are typically required to meet the requirements of a model in a modeling chain and to align with the decision at the end of the chain. The following guiding quesions may help in identifying a data transformation method:</p>
+<div class="callout callout-style-default callout-tip callout-titled" title="Choosing Transformations for Decisions">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Choosing Transformations for Decisions
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Transformation methods are typically applied to meet the requirements of a model in a modeling chain and to align with the decision at the end of the chain. The following guiding quesions may help in identifying a data transformation method:</p>
 <ul>
 <li><strong>Where is the handoff?</strong><br> Identify the format of an input dataset to a model, an indicator calculation, or analysis that will use it.</li>
 <li><strong>What does the next step require?</strong><br> Specify variables, units, spatial coverage, time step, reference period, and any thresholds or dependencies it evaluates.</li>
@@ -756,8 +763,9 @@ div.csl-indent {
 <li><strong>What could the transformation change or discard?</strong><br> Document the assumptions, compare relevant characteristics before and after processing, and decide whether the result remains fit for the intended use.</li>
 </ul>
 <p>The seven methods outlined below can help frame the choice. They are not required nor in sequence. Note that terminology may differ across fields.</p>
+</div>
+</div>
 <p><span class="citation" data-cites="Fournier2020">Fournier <em>et al.</em> (<a href="#ref-Fournier2020" role="doc-biblioref">2020</a>)</span> discuss transformation methods for a hydropower modelling; application to another electricity-sector decision requires checking the respective model’s needs and the decision-relevant quantities. See <a href="../apply_climate_data/model_integration.html">Integrating Climate Information into Models and Decisions</a> for the wider model-chain questions and <a href="../datasets/Climate_Data_Decision_Tree.html">Climate Data Decision Tree</a> for selecting candidate data.</p>
-</section>
 <section id="direct-use" class="level2">
 <h2 class="anchored" data-anchor-id="direct-use">Direct Use</h2>
 <p>Direct use of climate consists of using climate-model simulations as inputs to an impact model without applying additional transformations, such as bias adjustment. This approach preserves the climate model’s original representation of climate variables and their relationships. It is often referred to as using the <em>raw</em> data. Using raw climate-model simulation data should consider that they often contain systematic biases relative to observations. These biases can affect impact-model results, particularly when the model has been calibrated using observational data. Direct use is therefore most appropriate when the climate simulations adequately represent the characteristics required by the application, or when the impact model is configured to accommodate the climate-model data. The suitability of this approach should be evaluated in the context of the intended application.</p>
