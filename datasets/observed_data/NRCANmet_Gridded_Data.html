@@ -715,7 +715,7 @@ div.csl-indent {
 <li><strong>Available variables:</strong> temperature &amp; precipitation (see <a href="#nrcanmet">variables section below</a></li>
 <li><strong>Temporal coverage</strong>: 1950–2020</li>
 <li><strong>Temporal resolution</strong>: Daily and monthly</li>
-<li><strong>Spatial coverage</strong>: Canadian landmass <span class="mark-red">(The latest version covers Can &amp; US, check when this will be on PAVICS and modify spatial coverage accordingly!)</span></li>
+<li><strong>Spatial coverage</strong>: Canadian and USA landmass</li>
 <li><strong>Spatial resolution</strong>: ~10 km grid spacing (0.083°)</li>
 <li><strong>Data type</strong>: Quality-controlled station observations interpolated using ANUSPLIN</li>
 <li><strong>Data format:</strong> <a href="../../climate_data_fundamentals/Data_Formats.html#netcdf">netCDF</a>, <a href="../../climate_data_fundamentals/Data_Formats.html#geotiff">GeoTIFF</a></li>
@@ -848,7 +848,7 @@ div.csl-indent {
 <li>PNWNAmet</li>
 </ol>
 <p>Over western Canada the performance of NRCANmet is inferior to PNWNAmet when compared to high quality station observations. PNWNAmet values in western Canada were combined with the NRCANmet v2018PB temperature and NRCANmet-Adjusted v2021 precipitation values in central and eastern Canada to produce PCIC-Blend (<span class="citation" data-cites="Werner2019">Werner <em>et al.</em> (<a href="#ref-Werner2019" role="doc-biblioref">2019</a>)</span>). For more information see the <a href="https://climatedata.ca/about/our-data/">“Historical Data” section</a> on ClimateData.ca.</p>
-<p>The latest version <span class="mark-red"><strong>ToDo:</strong> To be confirmed (available through PAVICS); should be online soon</span> also extends it’s spatial coverage to include the US.</p>
+<p>The latest version also extends it’s spatial coverage to include the US.</p>
 <p>When comparing temperature data processed by PCIC and Ouranos, a mean difference of 0.15 ˚C was found. This could be traced back to the adjustment of the raw data provided in Kelvin using 273 ˚C and 273.15 ˚C by PCIC and Ouranos respectively.</p>
 </section>
 </section>
@@ -906,9 +906,10 @@ div.csl-indent {
 </section>
 <section id="data-access" class="level2">
 <h2 class="anchored" data-anchor-id="data-access">Data Access</h2>
-<p>NRCANmet gridded data is freely available upon contact with Dr.&nbsp;Dan McKenney, Canadian Forest Service, Natural Resources Canada, <a href="mailto:dan.mckenney@canada.ca?subject=%5BNRCANmet%5D%20Request:%20%3Cplease%20specify%3E&amp;body=%3CPlease%20specify%20your%20request%3E%0A">dan.mckenney@canada.ca</a></p>
-<p><span class="mark-red"><strong>ToDo:</strong> Check: Can we put <a href="https://ftp.maps.canada.ca/pub/nrcan_rncan/Climate-archives_Archives-climatologiques/daily/">this link to the daily data on NRCan’S FTP - Check with NRCan!</a>?</span></p>
-<p>The dataset is also available on <a href="https://pavics.ouranos.ca/datasets.html#b">PAVICS</a>. To avoid downloading very large datasets in their entirety PAVICS allows partial/regional extraction and provides a <a href="https://pavics-sdi.readthedocs.io/en/latest/notebooks/CaSR_basic.html">tutorial</a> to do so, using the CaSR reanalysis as an example . With a free PAVICS user account, the Jupyter notebook with the Python code in the tutorial can be <a href="https://pavics.ouranos.ca/jupyter/hub/user-redirect/lab/tree/tutorial-notebooks/CaSR_basic.ipynb">directly used on PAVICS</a>.</p>
+<p>NRCANmet gridded daily data is freely available upon contact with Dr.&nbsp;Dan McKenney, Canadian Forest Service, Natural Resources Canada, <a href="mailto:dan.mckenney@canada.ca?subject=%5BNRCANmet%5D%20Request:%20%3Cplease%20specify%3E&amp;body=%3CPlease%20specify%20your%20request%3E%0A">dan.mckenney@canada.ca</a>.</p>
+<p><span class="mark-red"><strong>ToDo:</strong> Check: Can we put the link to the daily data on NRCan’S FTP - Check with NRCan!</span></p>
+<!--- (https://ftp.maps.canada.ca/pub/nrcan_rncan/Climate-archives_Archives-climatologiques/daily/)?--->
+<p>The daily dataset is also available on <a href="https://pavics.ouranos.ca/datasets.html#b">PAVICS</a>. To avoid downloading very large datasets in their entirety PAVICS allows partial/regional extraction and provides a <a href="https://pavics-sdi.readthedocs.io/en/latest/notebooks/CaSR_basic.html">tutorial</a> to do so, using the CaSR reanalysis as an example . With a free PAVICS user account, the Jupyter notebook with the Python code in the tutorial can be <a href="https://pavics.ouranos.ca/jupyter/hub/user-redirect/lab/tree/tutorial-notebooks/CaSR_basic.ipynb">directly used on PAVICS</a>.</p>
 <p>Another option to obtain NRCANmet is from the website of the <a href="https://pacificclimate.org/data/daily-gridded-meteorological-datasets">Pacific Climate Impacts Consortium</a>. Note that this version covers only the time period 1950-2012.</p>
 </section>
 <section id="references" class="level2">
