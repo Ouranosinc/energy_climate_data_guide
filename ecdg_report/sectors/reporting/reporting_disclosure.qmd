@@ -42,7 +42,9 @@ Models vary but the outputs of this process are generally discrete values or qua
 - Strategic Plans
 - Climate Risks Assessments
 - Climate Risks realized during the reporting period
-<mark> TODO - Consider adding comprehensive sector activities list here or below </mark>
+- Safety Assessments
+- Resource Adequacy Assessments & Capacity Expansion Modelling
+
 
 :::
 
@@ -87,13 +89,6 @@ As a result, there is continued discussion within the electricity sector about h
 :::{#id1 .callout collapse="true"} 
 ### (click to expand)
 There remains inconsistency in how to interpret the disclosure requirements in various financial reporting standards (@Lesnikowski_2024), which hampers the ability to make meaningful disclosures that can be compared. For this reason it is important to contextualize information provided in reports and disclosures. To properly meet requirements the electricity sector will need to shift to a position where climate data is integrated into various other sector activities, which can be drawn upon for reporting purposes. Following established standards or consistent approaches, where they exist, for sector activities will allow a reasonable inter-comparison among various disclosures. However, it should also be recognized that there is not currently a definitive standard for climate risk and vulnerability assessments, but many standards which continue to evolve with research, development and practice.
-:::
-
-## Interactions with Other Sector Activities
-
-:::{#id1 .callout collapse="true"} 
-### (click to expand)
-<mark>** to consider...this may be part of inputs and outputs**</mark>
 :::
 
 ## References
