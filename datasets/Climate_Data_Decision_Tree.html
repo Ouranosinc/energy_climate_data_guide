@@ -47,7 +47,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-bf27225e3a48a9273f3daa8f8e829971.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-7698dc7b96fe6ed2c2db363eec8f5b40.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-857e03ca0d8f9c67b397745f205b634f.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -264,8 +264,8 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../climate_data_fundamentals/Bias_adjustment.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Downscaling and Bias Adjustment</span></a>
+  <a href="../climate_data_fundamentals/Data_Transformation.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Data Transformation Methods</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -677,6 +677,27 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="overview">Overview</h2>
 <p>This page provides guidance for selecting the appropriate type of climate data for a given application.</p>
 <p>Use the decision tree to identify a suitable category of data for the decision context. Then use <a href="../datasets/Datasets_Overview_Table.html">Compare Documented Datasets</a> to compare products described in this guide, <a href="../datasets/Datasets_by_Variable.html">Find Datasets by Variable</a> to locate products containing a required variable, and the individual dataset profiles for detailed strengths, limitations and expert guidance.</p>
+<div class="callout callout-style-default callout-tip callout-titled" title="Make the information need explicit">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Make the information need explicit
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Before following the tree, consider the context of the exercise:</p>
+<ul>
+<li>What decision or analysis will use the result?</li>
+<li>What climate-related process and performance measure matter?</li>
+<li>Which variables or indicators represent that process?</li>
+<li>What location, time step, and future period is required by downstream analysis?</li>
+<li>Are thresholds, extremes, or relationships between variables important?</li>
+</ul>
+<p>The decision tree helps identify candidate data categories; check the selected dataset against the full information need and/or the model that will use it.</p>
+</div>
+</div>
 </section>
 <section id="summary" class="level2">
 <h2 class="anchored" data-anchor-id="summary">Summary</h2>
@@ -706,7 +727,7 @@ ul.task-list li input[type="checkbox"] {
 <pre class="mermaid mermaid-js">%%{init: {'themeVariables': { 'fontSize': '30px'}, 'flowchart': { 'nodeSpacing': 50, 'rankSpacing': 50, 'padding': 30, 'curve': 'basis', 'htmlLabels': true, 'useMaxWidth': true }} }%%
 flowchart TD
 
-    A([Define decision context]) --&gt; B{Need future climate change?}
+    A([State the decision and information need]) --&gt; B{Need future climate change?}
 
     %% Historical / baseline branch
     B -- No --&gt; C{Need spatially complete gridded fields?}
