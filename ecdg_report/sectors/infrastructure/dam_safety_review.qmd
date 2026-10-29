@@ -258,7 +258,7 @@ These models may be involved in determining ROC levels for the operation of a re
 
 
 #### Key Climate Inputs
-- Common datasets used these models are internal station data, observations from [Environment and Climate Change Canada](https://climate.weather.gc.ca/historical_data/search_historic_data_e.html), reanalysis ([ERA5-Land](../../datasets/reanalysis_data/ERA5-Land.ipynb), [CaSR](../../datasets/reanalysis_data/CaSR.ipynb)), [interpolated observations](../../datasets/observed_data/Observational_Datasets.ipynb) (Hydat).
+- Common datasets used these models are internal station data, observations from [Environment and Climate Change Canada](https://climate.weather.gc.ca/historical_data/search_historic_data_e.html), reanalysis ([ERA5-Land](../../datasets/reanalysis_data/ERA5-Land.ipynb), [CaSR](../../datasets/reanalysis_data/CaSR.qmd)), [interpolated observations](../../datasets/observed_data/Observational_Datasets.ipynb) (Hydat).
 
 - **Frost depth**: Can be calculated with freezing degree days. Critical in the North as it can fracture a dams core.
 
