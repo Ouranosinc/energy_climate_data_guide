@@ -144,7 +144,7 @@ The following questions may guide this process:
 - What variables, indicators, spatial coverage, time step, baseline, and future period does that analysis require?
 - Which characteristics must be represented for the criterion to be meaningful —f or example, extremes, event sequence, seasonality, or co-occurrence of hazards?
 
-The answers form an initial information requirement, not a dataset choice. Refine it with the system and climate information as the assessment proceeds. This hepls trace the needed information through the process or the modelling chain. For climate-data options, continue to the [Climate Data Decision Tree](../datasets/Climate_Data_Decision_Tree.qmd); for model-chain integration, see [Integrating Climate Information into Models and Decisions](./model_integration.qmd).
+The answers form an initial information requirement, not a dataset choice. Refine it with the system and climate information as the assessment proceeds. This helps trace the needed information through the process or the modelling chain. For climate-data options, continue to the [Climate Data Decision Tree](../datasets/Climate_Data_Decision_Tree.qmd) for data integration, see [Integrating Climate Information into Models and Decisions](./model_integration.qmd).
 :::
 
 Typical inputs for this step may include the decision statement and

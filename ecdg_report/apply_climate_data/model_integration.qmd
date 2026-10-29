@@ -50,24 +50,23 @@ A modeling chain may already be in place and operational as a tool for system pe
 
 To employ a modeling chain for climate impact analysis it will need to be operated under baseline conditions for the assessment of a reference and a host of climate change scenarios. The figure below illustrates different setups of elements of the same modeling chain for a traditional use (A), a generic version of a climate change application (B), and a complex version of a climate change assessment (C). They are discussed in more detail in @Fournier2020.
 
-![Different use cases for a modeling chain for hydropower asset valuation in a traditional way (A), a generic version of a climate change modeling chain (B), and a complex version of a climate change assessment, including data transformation (C). Modified from @Fournier2020.](./images/ModelingChain_afterFournier2020.png)
+![Different use cases for a modeling chain for hydropower asset valuation in a traditional way (A), a generic version of a climate change modeling chain (B), and a complex version of a climate change assessment, including data transformation (C). Modified from @Fournier2020.](./images/ModelingChain_afterFournier2020.png){fig-alt="Modeling Chains" width=650}
 
-[Describe The third option for details!!!]{.mark-red}
+Example C highlights how [data transformation methods](../climate_data_fundamentals/Data_Transformation.qmd) are applied as data pass along the modeling chain. It uses raw climate simulations and passes them through a bias adjustment process which simultaneously enhances their spatial resolution. The process uses the climatic baseline dataset. In example A the hydrolocic baseline directly drives an energy model while in example C it is used to calibrate the hydrological model which is fed by bias corrected and downscaled climate simulation data. Further down the modeling chains outputs from the hydrolocal model and the energy model can be ingested by the subsequent model without transformation.
 
 The examples in @Fournier2020 link climate information to hydrological modelling, then energy production, then asset value for hydropower. A comparable electricity-sector chain could link temperature projections to demand modelling, then peak-load or resource-adequacy analysis, and finally a capacity or operational decision. Not every application needs every model in this sequence: the chain should be only as detailed as needed to answer the decision question.
 
 For candidate climate datasets, see the [Find and Compare Climate Datasets](../datasets/Climate_Data_Decision_Tree.qmd) section. For choices made between a dataset and the next model, see [Data Transformation Methods](../climate_data_fundamentals/Data_Transformation.qmd).
 
-### Baseline Selection
-
-A baseline is the reference representation of past or current conditions used to compare future conditions, assess model performance, or evaluate options. It should be selected in relation to the decision question and downstream analysis. One should record its source, period, and purpose, and consider whether it reflects the system conditions the decision must address. Trends or discontinuities in a record may reflect climate change or other drivers; it's importand to understand their relevance before choosing, shortening, or adjusting a baseline. @Fournier2020 discuss hydrologic and climatic baseline options and their implications (sections 4.1 and 4.2).
+## Baseline Selection
+### Climate Baseline - Version A
+A baseline is the reference representation of past or current conditions used to compare future conditions, assess model performance, or evaluate options. It should be selected in relation to the decision question and downstream analysis. One should record its source, period, and purpose, and consider whether it reflects the system conditions the decision must address. Trends or discontinuities in a record may reflect climate change or other drivers; it's importand to understand their relevance before choosing, shortening, or adjusting a baseline. 
 
 Climate and impact information may be transformed between steps in a modelling chain. The method should match the input data, model requirements, and decision metric. @Fournier2020 describe direct use, reduction, adjustment, extension, delta, and bias-correction methods (@Fournier2020, Section 3). These are options to assess for a particular application, not a required sequence or a set of interchangeable methods. Their strengths and limitations depend on which characteristics the downstream analysis needs to retain.
 
-#### Climate Baseline
+### Climate Baseline - Version B
 A baseline is the data considered most representative of the past or current state of a system. In climate-change valuation, it can be used to generate simulations representing baseline conditions, apply data-transformation methods, and calibrate hydrologic models. Fournier et al. distinguish between a hydrologic baseline, based on historical hydrology data, and a climatic baseline, based on historical climate data. Using both requires a hydrologic model to be calibrated and validated with climate data. The choice of baseline depends on factors such as model availability, implementation time, required expertise and cost, and the desired level of control over the modelling chain. Using both baselines generally requires more time and expertise but offers greater control over the assessment (Section 4).
 
-#### Climatic Baseline
 A climatic baseline typically consists of historical precipitation and minimum and maximum temperature data, along with any other climate variables required by the hydrologic model. Data may come from weather stations, gridded observational products or reanalyses. The guidebook recommends using a single, coherent dataset across variables to maintain consistency in space and time and avoid introducing inconsistencies into the modelling chain.
 A minimum period of 30 years is recommended to represent natural climate variability; longer periods may be useful for capturing longer climatic cycles. However, the quality of a climatic baseline depends on the density of the weather-station network and the quality of gridded observations or reanalysis products. These sources can contain measurement errors, inhomogeneities, biases and uncertainties. The baseline also reflects multiple climatic drivers—including natural variability, natural catastrophes and climate change—which can be difficult to disentangle. Limitations in the baseline may carry through to hydrologic simulations because model calibration conditions the hydrologic model to the characteristics of the selected climate dataset.
 Selecting a climatic baseline that is consistent with the climate-change data and transformation methods used later in the modelling chain helps reduce inconsistencies. This option is most suitable when an organization wants to better understand watershed hydrology and distinguish climate-change impacts from other hydrologic drivers. It requires suitable long-term climate and hydrologic data, a calibrated continuous hydrologic model, potentially a water-management model for highly regulated watersheds, more than three months for the assessment, and substantial hydrology expertise. Its main advantage is flexibility: practitioners can investigate the relative effects of natural variability, climate change, land-use changes and water-management practices, while drawing on the greater availability of regional climate projections compared with future hydrologic projections (Section 4.1).
@@ -75,7 +74,7 @@ Selecting a climatic baseline that is consistent with the climate-change data an
 
 
 ## Uncertainty
-See Uncertainty Section
+See Uncertainty Section [ToDo: Insert link!]{.mark-red}
 
 
 ## Data Confidence
