@@ -1,6 +1,5 @@
 ---
 title: "Step 1: Establish the Scope and Context"
-bibliography: adaptation.bib 
 editor: 
   markdown: 
     wrap: 72
@@ -125,7 +124,6 @@ assessment. Objectives and evaluation criteria describe what the
 assessment is intended to achieve and how results will be interpreted to
 support decisions.
 
-::: {#s1_crit .callout-tip collapse="true" title="Criteria"}
 Criteria are most useful when they connect to decision needs and are
 stated in measurable or clearly described terms, such as safety impacts,
 service delivery impacts, environmental impacts, financial impacts,
@@ -134,6 +132,19 @@ also confirm critical thresholds and unacceptable outcomes, such as
 conditions that could lead to worker or public harm, loss of essential
 function, exceedance of design or operating limits, or prolonged outage
 beyond acceptable recovery time.
+
+
+::: {#s1_crit .callout-tip collapse="false" title="Connecting Criteria to Climate Data"}
+To achieve objectives, evaluation criteria need to be connected to climate datasets to provide the evidence the decision needs.
+The following questions may guide this process:
+
+- What result would help compare options, identify a threshold exceedance, or change a planned action?
+- Which climate-sensitive process links a hazard to that result?
+- Does an existing impact model represent it?
+- What variables, indicators, spatial coverage, time step, baseline, and future period does that analysis require?
+- Which characteristics must be represented for the criterion to be meaningful —f or example, extremes, event sequence, seasonality, or co-occurrence of hazards?
+
+The answers form an initial information requirement, not a dataset choice. Refine it with the system and climate information as the assessment proceeds. This helps trace the needed information through the process or the modelling chain. For climate-data options, continue to the [Climate Data Decision Tree](../datasets/Climate_Data_Decision_Tree.qmd) for data integration, see [Integrating Climate Information into Models and Decisions](./model_integration.qmd).
 :::
 
 Typical inputs for this step may include the decision statement and
@@ -159,9 +170,9 @@ Codes and standards often set minimum design or performance
 requirements; these minimums may be effective in the near term but may
 not fully account for future climate conditions, particularly where
 requirements are based on historical or retrospective design values. The
-climate assessment process presented in this standard supports
+climate assessment process presented in this guide supports
 forward-looking, prudent decisions to manage systems and assets, where
-analysis often times goes beyond minimum codes and requirements.
+analysis oftentimes goes beyond minimum codes and requirements.
 :::
 
 ## System, Geographic and Time Boundaries
