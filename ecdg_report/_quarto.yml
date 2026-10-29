@@ -96,7 +96,7 @@ website:
               - text: "AHCCD and CanHom Station Data"
                 href: datasets/observed_data/AHCCD-CanHom_Station_Data.ipynb
               - text: "NRCanMet Gridded Data"
-                href: datasets/observed_data/NRCANmet_Gridded_Data.ipynb
+                href: datasets/observed_data/NRCANmet_Gridded_Data.qmd
           - section: "Reanalysis Data"
             href: datasets/reanalysis_data/Reanalysis_Datasets.ipynb
             contents:

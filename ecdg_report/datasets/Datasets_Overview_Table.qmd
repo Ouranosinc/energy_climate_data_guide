@@ -46,7 +46,7 @@ The table below provides an overview of key characteristics of the datasets docu
 </tr>
 
 <tr>
-<td><a href="./observed_data/NRCanMET_Gridded_Data.ipynb">NRCANmet</a></td>
+<td><a href="./observed_data/NRCANmet_Gridded_Data.qmd">NRCANmet</a></td>
 <td>0.083°<br>(~10 km)</td>
 <td>Daily</td>
 <td>North America</td>
@@ -80,7 +80,7 @@ The table below provides an overview of key characteristics of the datasets docu
 </tr>
 
 <tr>
-<td><a href="./reanalysis_data/CaSR.ipynb">CaSR</a></td>
+<td><a href="./reanalysis_data/CaSR.qmd">CaSR</a></td>
 <td>0.09°<br>(~10 km)</td>
 <td>Hourly</td>
 <td>North America</td>
