@@ -15,12 +15,11 @@ The following table provides an overview of the data transformation methods deta
 | **Extension** | Can a baseline trend be extended to explore future conditions? | Carries baseline assumptions and errors forward; it is not a substitute for climate projections. |
 | **Delta** | Can a simulated change between reference and future periods be applied to a baseline? | The baseline sequence is retained, while changes to event sequence and other characteristics in the simulation may not be represented. |
 | **Downscaling** | Is climate data needed at a finer spatial resolution? | Many regional or local applications require higher resolution information than provided by GCMs. |
-| **Bias Adjustment** | Should climate simulation be corrected against a baseline over a reference period? | Adjusting selected historical biases does not remove all model limitations or guarantee realistic future behaviour. |
+| **Bias Adjustment** | Should climate simulation data be corrected against a baseline reference period? | Adjusting selected historical biases does not remove all model limitations or guarantee realistic future behaviour. |
 : {.tbl .striped .light .sm tbl-colwidths="[15,42,43]"}
 
-## Choosing a Transformation for the Decision
-
-Transformation methods are typically required to meet the requirements of a model in a modeling chain and to align with the decision at the end of the chain. The following guiding quesions may help in identifying a data transformation method:
+::: {.callout-tip title="Choosing Transformations for Decisions"}
+Transformation methods are typically applied to meet the requirements of a model in a modeling chain and to align with the decision at the end of the chain. The following guiding quesions may help in identifying a data transformation method:
 
 - **Where is the handoff?**</br>
 Identify the format of an input dataset to a model, an indicator calculation, or analysis that will use it.
@@ -34,6 +33,7 @@ If so, a direct handoff may be appropriate. If not, identify the specific mismat
 Document the assumptions, compare relevant characteristics before and after processing, and decide whether the result remains fit for the intended use.
 
 The seven methods outlined below can help frame the choice. They are not required nor in sequence. Note that terminology may differ across fields.
+:::
 
 @Fournier2020 discuss transformation methods for a hydropower modelling; application to another electricity-sector decision requires checking the respective model's needs and the decision-relevant quantities. See [Integrating Climate Information into Models and Decisions](../apply_climate_data/model_integration.qmd) for the wider model-chain questions and [Climate Data Decision Tree](../datasets/Climate_Data_Decision_Tree.qmd) for selecting candidate data.
 
