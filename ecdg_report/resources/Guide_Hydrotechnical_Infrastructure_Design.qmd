@@ -1,0 +1,31 @@
+---
+title: Technical Guide on Climatic and Hydrological Design Criteria for Hydroelectric Infrastructure in the Context of Climate Change
+---
+
+## Overview
+
+The *Technical Guide on Climatic and Hydrological Design Criteria for Hydroelectric Infrastructure in the Context of Climate Change*, prepared by Hydro-Québec, provides guidance to help engineers make informed and systematic decisions regarding design criteria.
+
+## Purpose
+
+The Guide supports engineers and other specialists in:
+
+- Identifying, developing and using climatic and hydrological information;
+- Considering multiple sources of uncertainty when selecting a single design criterion;
+- Identifying the appropriate level of risk to recommend.
+
+## Key Elements
+
+The document provides:
+
+- A step-by-step process;
+- A theoretical framework.
+
+## How to Use This Document
+
+The Guide presents good practices and general methodological guidance. It is not intended to be exhaustive or prescriptive. Project teams are expected to apply the guidance in the context of their specific projects, drawing on best practices and professional judgment.
+
+## Key Considerations
+
+- There is no standardized approach; decisions are project-specific.
+- Decisions must be grounded in the project context, climatic and hydrological information, performance objectives, and the consequences of exceeding the design criteria.

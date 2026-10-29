@@ -62,7 +62,8 @@ when developing an understanding of the system.
 :::
 
 ::: {.callout collapse="true" title="Inputs"}
-Typical inputs for this step may include: 
+Typical inputs for this step may include:
+
 - Scope and boundaries 
 - The system description and list of critical aspects 
 - Site and regional characteristics 
@@ -136,6 +137,7 @@ risk analysis.
 
 ::: {.callout collapse="true" title="Inputs"}
 Typical inputs include:
+
 - Hazard list
 - System boundaries 
 - Critical aspects
@@ -170,7 +172,8 @@ required hazards may be used as a starting point and then supplemented
 based on system-specific conditions and dependencies.
 
 ::: {.callout collapse="true" title="Inputs"}
-Typical inputs for this step may include: 
+Typical inputs for this step may include:
+
 - System description and thresholds 
 - Site and regional physical characteristics 
 - Previous assessments and literature 
@@ -226,6 +229,7 @@ pathways and performance concerns.
 
 ::: {.callout collapse="true" title="Inputs"}
 Typical inputs for this step may include:
+
 - Relevant hazard list
 - Exposure matrix (direct and indirect exposures)
 - System design and operating information from the system review
@@ -277,7 +281,8 @@ designs) while others may not (e.g., changes in freeze-thaw cycles).
 :::
 
 ::: {.callout collapse="true" title="Inputs"}
-Typical inputs for this step may include: 
+Typical inputs for this step may include:
+
 - Indicator list, exposure pathways and preliminary impact concerns
 - System design limits and operating ranges
 - Condition and maintenance information

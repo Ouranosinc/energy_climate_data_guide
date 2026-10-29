@@ -75,8 +75,8 @@ website:
             href: climate_data_fundamentals/Ensembles.qmd
           - text: "Projection Periods and Global Warming Levels"
             href: climate_data_fundamentals/Time_horizons_GWL.qmd
-          - text: "Downscaling and Bias Adjustment"
-            href: climate_data_fundamentals/Bias_adjustment.qmd
+          - text: "Data Transformation Methods"
+            href: climate_data_fundamentals/Data_Transformation.qmd
           - text: "Uncertainty and Confidence"
             href: climate_data_fundamentals/Uncertainty_Confidence.qmd
           - text: "Climate-Information Gaps and Limitations"
@@ -103,7 +103,7 @@ website:
               - text: "ERA5-Land"
                 href: datasets/reanalysis_data/ERA5-Land.ipynb
               - text: "Canadian Surface Reanalysis (CaSR)"
-                href: datasets/reanalysis_data/CaSR.ipynb
+                href: datasets/reanalysis_data/CaSR.qmd
           - section: "Climate-Projection Data"
             href: datasets/climate_projection_data/Climate_Projection_Datasets.qmd
             contents:
@@ -157,6 +157,8 @@ website:
         contents:
           - text: "Online Climate-Information Resources"
             href: resources/Climate_Information_Ressources.qmd
+          - text: "Technical Guide on Climatic and Hydrological Design Criteria for Hydroelectric Infrastructure in the Context of Climate Change"
+            href: resources/Guide_Hydrotechnical_Infrastructure_Design.qmd
           - text: "Example Applications"
             href: resources/Example_Applications.ipynb
           - section: "Analysis Support Tools"
@@ -164,6 +166,8 @@ website:
             contents:
               - text: "Compare Observational Datasets at a Point"
                 href: resources/tools/Point_Location_Compare.ipynb
+      - text: "Contributors and acknowledgements"
+        href: contributors.qmd
       - section: Workshops
         href: workshops/intro_workshops.ipynb
         contents:
@@ -214,6 +218,7 @@ format:
 bibliography:
   - apply_climate_data/adaptation.bib
   - apply_climate_data/guidance.bib
+  - climate_data_fundamentals/climate_data_fundamentals.bib
   - datasets/references.bib
   - organizational_capability/organizational_capability.bib
   - sectors/infrastructure/references_dam_safety.bib

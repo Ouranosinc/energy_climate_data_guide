@@ -1,21 +1,23 @@
 ---
 title: "Integrating Climate Information into Models and Decisions"
-bibliography: adaptation.bib
+
 
 ---
 
-The IPCC defines adaptation as "*the process of adjustment to actual or expected climate and its effects, in order to moderate harm or exploit beneficial opportunities*" (@IPCC_2022_WGII). Adaptation is an active process, in which climatic data and information is incorporated decision making and analysis to inform the actual adjustments being made. Adaptation could come in the form of analysis, changed operating practices, modification to assets or maintenance practices, risk transfer processes or retreat and relocation.
+## What is Adaptation?
 
-This section of the guide discusses the integration of climate data from a climate change adaptation perspective approaches into the use of climate data to address the implicit uncertainty associated with such data. It is important to realize that adaptation science is far more encompassing than is in scope for this guide. It includes modelling and analysis, governance, decision science, planning and more. 
+The IPCC defines adaptation as "*the process of adjustment to actual or expected climate and its effects, in order to moderate harm or exploit beneficial opportunities*" (@IPCC_2022_WGII). Adaptation is an active process, in which limatic data and information is incorporated into decision making and analysis to inform the actual adjustments being made. Adaptation could come in the form of analysis, changed operating practices, modification to assets or maintenance practices, risk transfer processes or retreat and relocation.
 
-Climate hazards can affect the electricity system in many ways some of which are highlighed in (@Braun2016). These can be the result of acute climate hazards brought on by extreme events or slow degradations in performance or increased maintenance costs caused by gradual changes in climate. The cost benefit analysis of adaptation strategies that are well informed are almost always cost-effective often resulting in an expectation to save many dollars for every dollar spent on adaptation (@EPRI2022). An important caveat is that adaptation must be well informed otherwise it leads to the potential for mal-adaptation to occur.
+This section of the guide discusses how to integrate climate data into climate change adaptation, and how to use that data while accounting for the uncertainty inherent in it. It should be noted that adaptation science is far broader than the scope of this guide, encompassing modelling and analysis, governance, decision science, planning, and more.
+
+Climate hazards can affect the electricity system in many ways some of which are highlighed in @Braun2016. These can be the result of acute climate hazards brought on by extreme events or slow degradations in performance or increased maintenance costs caused by gradual changes in climate. The cost benefit analysis of adaptation strategies that are well informed are almost always cost-effective often resulting in an expectation to save many dollars for every dollar spent on adaptation (@EPRI2022). An important caveat is that adaptation must be well informed; otherwise, it risks leading to maladaptation. 
 
 ## The Adaptation Process
-There are many codes, standards and guidance documents for adaptation processes which already apply to the electricity sector, which take various forms. Practitioners in adaptation should be aware of any codes, standards, regulations or guidance which may apply to their particular activities in the sector. In some cases these form mandatory requirements and in others they may provide guidance. There are currently many of these documents currently available and knowledge of multiple processes is important to understand the strengths and weaknesses of each approach. Since climate change will have regionally specific impacts, it is important that locally relevant climate data be used to inform the adaptation process.
+There are many codes, standards and guidance documents for adaptation processes which already apply to the electricity sector, and which take various forms. Practitioners in adaptation should be aware of codes, standards, regulations or guidance which may apply to their particular activities in the sector. In some cases these form mandatory requirements and in others they may provide guidance. Knowledge of multiple processes is useful to understand the strengths and weaknesses of each approach. Since climate change will have regional or location specific impacts, it is important that relevant climate data be used to inform the adaptation process. For more details on selecting climate data see the [Climate Data Decision Tree](../datasets/Climate_Data_Decision_Tree.qmd) and the [Data Transformation Methods](../climate_data_fundamentals/Data_Transformation.qmd) section.
 
-Some guidance documents are explicit about the use of climate data. For example, [CSA W231:25 Developing and Interpreting Intensity-Duration-Frequency (IDF) Information Under a Changing Climate](https://scc-ccn.ca/standards/notices-of-intent/csa-group/developing-and-interpreting-intensity-duration-frequency-idf) is explicit about the use of climate data to inform the development of IDF curves, which is an important design parameter.
+Some guidance documents are explicit about the use of climate data. For example, the CSA standard for "Developing and Interpreting Intensity-Duration-Frequency (IDF) Information Under a Changing Climate" (@csa_w231:25) is explicit about the use of climate data to inform the development of IDF curves, an important design parameter.
 
-There are a larger number of guidance documents that develop a broader approach to adaptation, following processes similar to [ISO 14091 - Adaptation to climate change](https://www.iso.org/standard/68508.html). A generic process is shown here.
+There are a larger number of guidance documents that develop a broader approach to adaptation, following processes similar to "ISO 14091:2021 - Adaptation to climate change - Guidelines on vulnerability, impacts and risk assessment" (@iso14091). A generic process is shown here.
 
 ```{mermaid}
 %%| fig-align: center
@@ -34,21 +36,45 @@ flowchart TD
 
 :::{#id1 .callout collapse="true"}
 ## The Role of Codes and Standards
-These various codes and standards are produced by standards organizations such as the International Standards Organization (ISO) or the Canadian Standards Assocation (CSA), government agencies such as Environment and Climate Change Canada (ECCC) or the Canadian Nuclear Safety Commissions (CNSC) as well as industry groups such as the Electric Power Research Institute (EPRI) or the Canadian Dam Association (CDA). In some cases climate data is explicitly included in the standard, which has already been extracted by climate experts. In other cases they outline a process which must be followed to understand climate risks and vulnerabilities. 
+The various codes and standards are produced by standards organizations such as the International Standards Organization (ISO) or the Canadian Standards Assocation (CSA), government agencies such as Environment and Climate Change Canada (ECCC) or the Canadian Nuclear Safety Commissions (CNSC) as well as industry groups such as the Electric Power Research Institute (EPRI) or the Canadian Dam Association (CDA). In some cases climate data is explicitly included in the standard, which has already been extracted and prepared by climate experts. In other cases they outline a process which must be followed to understand climate risks and vulnerabilities. 
 
 In almost all cases the available documents are about the process of climate risk and vulnerability assessments and few provide concrete guidance on the use of climate data in that process, unless they have been explicitly included in data tables for calculation. 
 
 :::
 
+## Modelling Chains
 
-## Model Chains
+Climate information supports a decision through the analyses that connect it to system performance. System performance is often assessed using one or multiple process models, where one models output feeds into a downstream model. The output from one model may not always be adequate to be ingested as is by another model. Data preparation or transformations may need to be applied as information is passed along such a modeling chain. Different data treatment approaches exist for climate data as outlined in the section on [Data Transformation Methods](../climate_data_fundamentals/Data_Transformation.qmd).
 
-### Baseline Selection
-Consideration from Ouranos report on Asset Valuation
+A modeling chain may already be in place and operational as a tool for system performance. For its use for climate change assessment it should be examined for a connection or dependence on weather and climate parameters. If the process is dependent on such parameters, but the tool in place does not account for them, modifications of the tool may be warranted. 
+
+To employ a modeling chain for climate impact analysis it will need to be operated under baseline conditions for the assessment of a reference and a host of climate change scenarios. The figure below illustrates different setups of elements of the same modeling chain for a traditional use (A), a generic version of a climate change application (B), and a complex version of a climate change assessment (C). They are discussed in more detail in @Fournier2020.
+
+![Different use cases for a modeling chain for hydropower asset valuation in a traditional way (A), a generic version of a climate change modeling chain (B), and a complex version of a climate change assessment, including data transformation (C). Modified from @Fournier2020.](./images/ModelingChain_afterFournier2020.png){fig-alt="Modeling Chains" width=650}
+
+Example C highlights how [data transformation methods](../climate_data_fundamentals/Data_Transformation.qmd) are applied as data pass along the modeling chain. It uses raw climate simulations and passes them through a bias adjustment process which simultaneously enhances their spatial resolution. The process uses the climatic baseline dataset. In example A the hydrolocic baseline directly drives an energy model while in example C it is used to calibrate the hydrological model which is fed by bias corrected and downscaled climate simulation data. Further down the modeling chains outputs from the hydrolocal model and the energy model can be ingested by the subsequent model without transformation.
+
+The examples in @Fournier2020 link climate information to hydrological modelling, then energy production, then asset value for hydropower. A comparable electricity-sector chain could link temperature projections to demand modelling, then peak-load or resource-adequacy analysis, and finally a capacity or operational decision. Not every application needs every model in this sequence: the chain should be only as detailed as needed to answer the decision question.
+
+For candidate climate datasets, see the [Find and Compare Climate Datasets](../datasets/Climate_Data_Decision_Tree.qmd) section. For choices made between a dataset and the next model, see [Data Transformation Methods](../climate_data_fundamentals/Data_Transformation.qmd).
+
+## Baseline Selection
+### Climate Baseline - Version A
+A baseline is the reference representation of past or current conditions used to compare future conditions, assess model performance, or evaluate options. It should be selected in relation to the decision question and downstream analysis. One should record its source, period, and purpose, and consider whether it reflects the system conditions the decision must address. Trends or discontinuities in a record may reflect climate change or other drivers; it's importand to understand their relevance before choosing, shortening, or adjusting a baseline. 
+
+Climate and impact information may be transformed between steps in a modelling chain. The method should match the input data, model requirements, and decision metric. @Fournier2020 describe direct use, reduction, adjustment, extension, delta, and bias-correction methods (@Fournier2020, Section 3). These are options to assess for a particular application, not a required sequence or a set of interchangeable methods. Their strengths and limitations depend on which characteristics the downstream analysis needs to retain.
+
+### Climate Baseline - Version B
+A baseline is the data considered most representative of the past or current state of a system. In climate-change valuation, it can be used to generate simulations representing baseline conditions, apply data-transformation methods, and calibrate hydrologic models. Fournier et al. distinguish between a hydrologic baseline, based on historical hydrology data, and a climatic baseline, based on historical climate data. Using both requires a hydrologic model to be calibrated and validated with climate data. The choice of baseline depends on factors such as model availability, implementation time, required expertise and cost, and the desired level of control over the modelling chain. Using both baselines generally requires more time and expertise but offers greater control over the assessment (Section 4).
+
+A climatic baseline typically consists of historical precipitation and minimum and maximum temperature data, along with any other climate variables required by the hydrologic model. Data may come from weather stations, gridded observational products or reanalyses. The guidebook recommends using a single, coherent dataset across variables to maintain consistency in space and time and avoid introducing inconsistencies into the modelling chain.
+A minimum period of 30 years is recommended to represent natural climate variability; longer periods may be useful for capturing longer climatic cycles. However, the quality of a climatic baseline depends on the density of the weather-station network and the quality of gridded observations or reanalysis products. These sources can contain measurement errors, inhomogeneities, biases and uncertainties. The baseline also reflects multiple climatic drivers—including natural variability, natural catastrophes and climate change—which can be difficult to disentangle. Limitations in the baseline may carry through to hydrologic simulations because model calibration conditions the hydrologic model to the characteristics of the selected climate dataset.
+Selecting a climatic baseline that is consistent with the climate-change data and transformation methods used later in the modelling chain helps reduce inconsistencies. This option is most suitable when an organization wants to better understand watershed hydrology and distinguish climate-change impacts from other hydrologic drivers. It requires suitable long-term climate and hydrologic data, a calibrated continuous hydrologic model, potentially a water-management model for highly regulated watersheds, more than three months for the assessment, and substantial hydrology expertise. Its main advantage is flexibility: practitioners can investigate the relative effects of natural variability, climate change, land-use changes and water-management practices, while drawing on the greater availability of regional climate projections compared with future hydrologic projections (Section 4.1).
+
 
 
 ## Uncertainty
-See Uncertainty Section
+See Uncertainty Section [ToDo: Insert link!]{.mark-red}
 
 
 ## Data Confidence
