@@ -70,6 +70,11 @@ Industry standards and guidance documents approach how climate vulnerability is 
 
 Sensitivity is a measure of how the system responds to changes in climate drivers or climate hazards. It is independent of when in the future or under which climate scenarios it occurs. This is often a mistake made, where vulnerability is confused with risk. The sensitivity is only about system response to conditions. The senstivity could be considered at the asset or interconnected system level and may include technical elements of built infrastructure, environmental systems as well as social, economic or cultural interactions.
 
+:::{#id1 .callout-note collapse="true"}
+### Social and Community Dimensions
+System impacts may vary across customers and communities. Climate-related disruptions can disproportionately affect vulnerable populations, remote communities, Indigenous communities, medically dependent customers, and critical public services. System-level assessments should consider equity and societal consequences when evaluating climate risks and adaptation priorities.
+:::
+
 ### Adaptive Capacity
 
 There is not yet a clearly established definition of adaptive capacity but numerous approaches which are coming into alignment of the concept. Adaptive capacity are actions that are taken to reduce the overall vulnerability or sensitivity of the system. For the purposes of this guide, we consider adaptive capacity to be interventions that are beyond the inherent design of the system. These could be things like emergency management plans, operational procedures, or temporary measures that are pre-established to be called upon if there is a need. When considering broader electricity system planning or integrated systems adaptive capacity could also include mutual assistance agreements, planning processes, financial capacity, diversity and distribution of supply and flexibility in operating procedures. Examples of adaptive capacity could be measures like plans for sand-bagging if there is flooding, additional but temporary cooling of a system, de-rating of a system, quick response plans wiht mutual aid, etc. In this way, adaptive capacity may be linked to the concept of [resilience](#resilience) more than it is [reliability](#reliability).

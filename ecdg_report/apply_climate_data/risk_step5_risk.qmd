@@ -1,4 +1,4 @@
----
+vulnerability---
 title: "Step 5: Climate Risk Assessment"
 bibliography: adaptation.bib 
 editor: 
@@ -10,7 +10,7 @@ This step may be completed which estimates climate risk for each
 relevant climate interaction with the system by combining: the climate
 [hazard](./risk_step3_hazard.qmd##%20Hazard%20and%20Climate%20Driver%20Identification) *(what
 could occur)*, [exposure](./risk_step3_hazard.qmd##%20Exposure%20Assessment) *(what parts of
-the system are in direct/indirect contact with the hazard)*, and
+the system directly/indirectly interact with the hazard)*, and
 [vulnerability](./risk_step4_vulnerability.qmd) *(how the
 system responds, based on sensitivity and existing capacity to cope)*.
 Risk can be described using the IPCC framing and formula:
@@ -161,7 +161,7 @@ consequence the result of system performance only. The figure below
 provides a flow diagram for determining consequence.
 
 For example, if passing beyond a critical threshold resulted in the
-consequence of a unit tripping off, there would be an impact financially
+consequence of a unit tripping off, or service disruption there would be an impact financially
 to revenue, there may be a reputational impact, environmental impact or
 safety impact which are defined in the consequence/severity scale.
 
@@ -207,7 +207,7 @@ be selected as a baseline. For SSP2-4.5 and SSP5-8.5 the likelihood of
 exceeding 90GWh, 100GWh, 110GWh, etc. can be calculated for the 2050's
 and 2080's and compared by a decision maker to the baseline value to
 make an informed decision about the significance of the risk and any
-adaptation options they wish to pursue.
+adaptation options they wish to pursue. This same example could be broadened for an electricity system looking at changes in electricity supply from hydro resources in aggregate or grid sectors. The changes in supply or peak capacity would need to be evaluated to determine the risk to reliability or supply.
 :::
 
 ## Assess Likelihood
