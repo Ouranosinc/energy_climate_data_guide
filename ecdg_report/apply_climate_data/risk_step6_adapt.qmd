@@ -167,7 +167,8 @@ An adaptation pathway (@hasnoot2013) is a strategic tool for evaluating
 a sequence of adaptation options, along with their associated costs and
 benefits over time to manage uncertainty. This approach is particularly
 valuable for situations characterized by higher uncertainty or risk
-(Quadrants 3 and 4) but may be used in multiple scenarios. By mapping
+(Quadrants 3 and 4) as well as gradual climate shifts but may be 
+used in multiple scenarios. By mapping
 out a series of potential actions, adaptation pathways help
 organizations develop flexible, long-term plans to address climate risks
 as conditions evolve. Adaptation pathways consider not a single but

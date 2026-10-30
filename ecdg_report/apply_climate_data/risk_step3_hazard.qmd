@@ -101,13 +101,17 @@ fit-for-purpose
 ## Exposure Assessment
 
 Aspects of the system that are exposed to each relevant climate hazard
-should be documented. Screened out hazards or system aspects that do not
+should be documented. These could include components or systems of an asset
+or interactions with the planning activity such as forecasting demand or 
+recommending resource options. Screened out hazards or system aspects that do not
 require further evaluation may be documented. Exposure may be direct
 (the hazard physically affects the system) or indirect (the system is
 not physically exposed but depends on other systems or services that are
 exposed). For example, equipment inside a building may not be directly exposed to wind-driven rain, but may still
 be indirectly exposed if power, controls access routes, cooling water,
-or communications are impacted by the same hazard. 
+or communications are impacted by the same hazard. Similarly, increased
+temperatures are likely to increase the need for air conditioning and 
+therefore increase energy demand.
 
 A practical exposure screening approach typically includes identifying
 direct and indirect exposures for each hazard; grouping systems with
@@ -244,10 +248,10 @@ indicator so the assessment can interpret climate conditions in system
 terms. Performance criteria are the benchmarks used to judge whether the
 system remains reliable and fit for service under a given climate
 stress. Criteria are most useful when they connect the indicator to an
-operational limit, a design constraint, a safety requirement, or an
-acceptable level of degraded performance. This sub-step uses information
-gathered during the system review and exposure assessment, including
-design and operating parameters, dependencies, known sensitivities,
+operational limit, a design constraint, a safety requirement, reliability 
+threshold or an acceptable level of degraded performance. This sub-step 
+uses information gathered during the system review and exposure assessment, 
+including design and operating parameters, dependencies, known sensitivities,
 condition information, and operational experience.
 
 Performance criteria may include a critical threshold that defines the
