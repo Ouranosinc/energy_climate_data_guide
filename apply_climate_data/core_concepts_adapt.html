@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.10.19">
+<meta name="generator" content="quarto-1.10.20">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -64,7 +64,7 @@ div.csl-indent {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-bf27225e3a48a9273f3daa8f8e829971.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-17888a1159294d3eb470f19f6f52f5a5.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="../site_libs/bootstrap/bootstrap-857e03ca0d8f9c67b397745f205b634f.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
@@ -258,7 +258,7 @@ window.Quarto = {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../sectors/infrastructure/infrastructure_condition_assessment_and_investment_prioritization.html" class="sidebar-item-text sidebar-link">
+  <a href="../sectors/infrastructure/infrastructure_condition_assessment_and_investment_prioritization.ipynb" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Infrastructure Condition Assessment and Investment Prioritization</span></a>
   </div>
 </li>
@@ -766,15 +766,15 @@ window.Quarto = {
 <figcaption>Adapted from: Adapting Infrastructure and Civil Engineering Practice to a Changing Climate (<span class="citation" data-cites="Olsen2025">Olsen (<a href="#ref-Olsen2025" role="doc-biblioref">2015</a>)</span>)</figcaption>
 </figure>
 </div>
-<p><strong>Bottom-Up Approach:</strong> This approach begins by building a thorough understanding of the asset, operation, or service being assessed and how it behaves across a broad range of conditions. This includes identifying performance requirements, operating limits, dependencies, and failure modes, and then determining which climate-related drivers could realistically challenge those requirements. Typical inputs for a bottom-up approach include system design and operating information, performance criteria, historical disruption and incident information, dependency mapping and any existing risk assessments. Typical outputs include a documented system description, a list of climate-sensitive functions and thresholds, and a prioritized set of climate drivers to analyze.</p>
+<p><strong>Bottom-Up Approach:</strong> This approach begins by building a thorough understanding of the asset, operational function, network, service or electricity system being assessed and how it behaves across a broad range of conditions. This includes identifying performance requirements, operating limits, dependencies, institutional arrangements, customer service requirements and failure modes, and then determining which climate-related drivers could realistically challenge those requirements. System-level assessments should consider how climate impacts propogate through networks and dependencies, including transmission constraints, fuel supply disruptions, communications failures, workforce availability, market impacts, and interactions with other critical infrastructure sectors. Typical inputs for a bottom-up approach include system design and operating information, performance criteria, historical disruption and incident information, dependency mapping and any existing risk assessments. Typical outputs include a documented system description, a list of climate-sensitive functions and thresholds, and a prioritized set of climate drivers to analyze.</p>
 <p><strong>Top-Down Approach:</strong> In contrast, this approach starts by identifying potentially relevant climate hazards first, then assessing how they could affect the asset or system. Typical inputs for a top-down approach include hazard lists, climate projections and scenarios, location-specific hazard indicators, and existing hazard screening results. Typical outputs include a screened and prioritized hazard set, hazard characterization assumptions (time horizons, scenarios, metrics), and an impact mapping that links hazard to system consequences.</p>
 <p>There are drawbacks associated with both approaches. For a top-down approach, the largest concern is narrow risk space (i.e.&nbsp;only re-determined climate scenarios) that are explored. For a bottom-up approach, the largest drawback is the approach relies on a greater and more holistic understanding of performance under a broad range of scenarios which requires greater time and resources.</p>
 </section>
 <section id="non-stationarity-and-engineering-design" class="level2">
 <h2 class="anchored" data-anchor-id="non-stationarity-and-engineering-design">Non-stationarity and Engineering Design</h2>
-<p>A core part of engineering design is assessing how future conditions might impact a project, so that potential risks and consequences can be properly evaluated. Traditionally, engineering approaches have assumed that future weather and climate conditions will mirror those of the past – meaning that averages, variances, and extremes will remain unchanged or are stationary. However, climate change challenges this assumption, introducing the concept of non-stationarity.</p>
+<p>A core part of engineering design is assessing how future conditions might impact a project or system, so that potential risks and consequences can be properly evaluated. Traditionally, engineering approaches have assumed that future weather and climate conditions will mirror those of the past – meaning that averages, variances, and extremes will remain unchanged or are stationary. However, climate change challenges this assumption, introducing the concept of non-stationarity.</p>
 <p>Non-stationarity occurs when the conditions influencing a system – such as climate, operations, social expectations, infrastructure, or markets – change over time. In a non-stationary environment, past observations are no longer reliable predictors of future conditions. Specifically, for climate, non-stationarity means that the averages, variability, persistence, and distribution (skewness) of historical data can all shift. For example, the average temperature in Canada has already increased by approximately 1.7°C, and future extremes are likely to surpass historical records.</p>
-<p>This shift poses significant challenges for optimizing engineering design and evaluating the expected benefits of projects, especially for long-lived assets. While modeling and forecasting techniques continue to improve, there will always be some degree of uncertainty about future conditions. However, designing to the worst possible conditions under climate change may not be a prudent or cost-effective approach either.</p>
+<p>This shift poses significant challenges for optimizing engineering design and evaluating the expected benefits of projects and systems, especially when they include long-lived assets. While modeling and forecasting techniques continue to improve, there will always be some degree of uncertainty about future conditions. However, designing to the worst possible conditions under climate change may not be a prudent or cost-effective approach either.</p>
 <p>Given this uncertainty, the focus of climate assessments is not trying to perfectly predict the future. Instead, it emphasizes the integration of design principles that ensure systems remain robust and effective even as conditions change in unpredictable ways.</p>
 <p>Traditional statistical techniques often make the implicit assumption that data is stationary. For example, taking the mean or median value or fitting a normal distribution assumes there is no long-term trend in the dataset. Some distributions have been developed that can be fitted to non-stationary data (i.e.&nbsp;non-stationary GEV distribution).</p>
 </section>
@@ -785,15 +785,31 @@ window.Quarto = {
 V = f(S,AC)
 \]</span></p>
 <p>where <span class="math inline">\(V\)</span> is the the vulnerability expressed as a function <span class="math inline">\(f\)</span> of sensitivity <span class="math inline">\(S\)</span> and adaptive capacity <span class="math inline">\(AC\)</span>.</p>
-<p>Fundamentally, vulnerability is the measure of the sensitivity of the system to a particular climate driver, where the sensitivity is determined by the performance of the system. The adaptative capacity of the system is the ability of systems, institutions, humans, and other organisms to adjust to potential damage, to take advantage of opportunities, or to respond to climate indicator stress. For the purposes of this guide, adaptive capacity refers to the existing temporary modifications or operational procedures system state that would increase the system ability to manage or cope with the climate driver or indicator. These would be temporary modifications or operational procedures that already exist for the system.</p>
+<p>Fundamentally, vulnerability is the measure of the sensitivity of the system to a particular climate driver, where the sensitivity is determined by the performance of the system. The adaptative capacity of the system is the ability of systems, institutions, humans, and other organisms to adjust to potential damage, to take advantage of opportunities, or to respond to climate indicator stress. For the purposes of this guide, adaptive capacity refers to the existing temporary modifications or operational procedures system state that would increase the system ability to manage or cope with the climate driver or indicator. These would be temporary modifications or operational procedures that already exist for the system. Climate vulnerability can exists at multiple scales, from the asset level to electricity sector impacts. This could include interactions between assets, operations, markets, customers, supply chains, communication systems, and other external infrastructure. System vulnerability therefore reflects not only component performance but also interdependencies, redundancy, flexibility, and the ability of the broader system to maintain essential services during and after climate-related disruptions.</p>
 <p>Industry standards and guidance documents approach how climate vulnerability is estimated in different ways. In addition, in many cases these standards and guidance documents present vulnerability at a high level, which can result in confusion on how to measure and accurately capture sensitivity and adaptive capacity to determine vulnerability level.</p>
 <section id="sensitivity" class="level3">
 <h3 class="anchored" data-anchor-id="sensitivity">Sensitivity</h3>
-<p>Sensitivity is a measure of how the system responds to changes in climate drivers or climate hazards. It is independent of when in the future or under which climate scenarios it occurs. This is often a mistake made, where vulnerability is confused with risk. The sensitivity is only about system response to conditions.</p>
+<p>Sensitivity is a measure of how the system responds to changes in climate drivers or climate hazards. It is independent of when in the future or under which climate scenarios it occurs. This is often a mistake made, where vulnerability is confused with risk. The sensitivity is only about system response to conditions. The senstivity could be considered at the asset or interconnected system level and may include technical elements of built infrastructure, environmental systems as well as social, economic or cultural interactions.</p>
+<div id="id1" class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Social and Community Dimensions
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-1" class="callout-1-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>System impacts may vary across customers and communities. Climate-related disruptions can disproportionately affect vulnerable populations, remote communities, Indigenous communities, medically dependent customers, and critical public services. System-level assessments should consider equity and societal consequences when evaluating climate risks and adaptation priorities.</p>
+</div>
+</div>
+</div>
 </section>
 <section id="adaptive-capacity" class="level3">
 <h3 class="anchored" data-anchor-id="adaptive-capacity">Adaptive Capacity</h3>
-<p>There is not yet a clearly established definition of adaptive capacity but numerous approaches which are coming into alignment of the concept. Adaptive capacity are actions that are taken to reduce the overall vulnerability or sensitivity of the system. For the purposes of this guide, we consider adaptive capacity to be interventions that are beyond the inherent design of the system. These could be things like emergency management plans, operational procedures, or temporary measures that are pre-established to be called upon if there is a need. This could be measures like plans for sand-bagging if there is flooding, additional but temporary cooling of a system, de-rating of a system, etc. In this way, adaptive capacity may be linked to the concept of <a href="#resilience">resilience</a> more than it is <a href="#reliability">reliability</a>.</p>
+<p>There is not yet a clearly established definition of adaptive capacity but numerous approaches which are coming into alignment of the concept. Adaptive capacity are actions that are taken to reduce the overall vulnerability or sensitivity of the system. For the purposes of this guide, we consider adaptive capacity to be interventions that are beyond the inherent design of the system. These could be things like emergency management plans, operational procedures, or temporary measures that are pre-established to be called upon if there is a need. When considering broader electricity system planning or integrated systems adaptive capacity could also include mutual assistance agreements, planning processes, financial capacity, diversity and distribution of supply and flexibility in operating procedures. Examples of adaptive capacity could be measures like plans for sand-bagging if there is flooding, additional but temporary cooling of a system, de-rating of a system, quick response plans wiht mutual aid, etc. In this way, adaptive capacity may be linked to the concept of <a href="#resilience">resilience</a> more than it is <a href="#reliability">reliability</a>.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><a href="images/vulnerability.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Representation of the vulnerability of the system to a changing climatic condition."><img src="images/vulnerability.png" class="img-fluid figure-img" width="500" alt="Representation of the vulnerability of the system to a changing climatic condition."></a></p>

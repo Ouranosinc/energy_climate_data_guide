@@ -2,12 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.10.19">
+<meta name="generator" content="quarto-1.10.20">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Infrastructure Condition Assessment &amp; Investment Prioritization – Climate Data for the Electricity Sector</title>
+<title>Infrastructure Condition Assessment and Investment Prioritization – Climate Data for the Electricity Sector</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -26,7 +26,26 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
@@ -36,15 +55,13 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../../">
-<link href="../../sectors/infrastructure/infrastructure_design.html" rel="next">
-<link href="../../sectors/infrastructure/dam_safety_review.html" rel="prev">
 <script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="../../site_libs/quarto-html/popper.min.js"></script>
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-bf27225e3a48a9273f3daa8f8e829971.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-17888a1159294d3eb470f19f6f52f5a5.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="../../site_libs/bootstrap/bootstrap-857e03ca0d8f9c67b397745f205b634f.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
@@ -90,7 +107,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../sectors/electricity_sector_activities.html">Electricity-Sector Activities</a></li><li class="breadcrumb-item"><a href="../../sectors/infrastructure/dam_safety_review.html">Infrastructure Planning and Asset Management</a></li><li class="breadcrumb-item"><a href="../../sectors/infrastructure/infrastructure_condition_assessment_and_investment_prioritization.html">Infrastructure Condition Assessment and Investment Prioritization</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Infrastructure Condition Assessment and Investment Prioritization</li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -126,11 +143,11 @@ ul.task-list li input[type="checkbox"] {
       <div class="sidebar-item-container"> 
             <a href="../../sectors/electricity_sector_activities.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Electricity-Sector Activities</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false">
@@ -191,13 +208,13 @@ ul.task-list li input[type="checkbox"] {
   </li>
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="false">
  <span class="menu-text">Infrastructure Planning and Asset Management</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth2 show">  
+      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth2 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../sectors/infrastructure/dam_safety_review.html" class="sidebar-item-text sidebar-link">
@@ -206,7 +223,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../sectors/infrastructure/infrastructure_condition_assessment_and_investment_prioritization.html" class="sidebar-item-text sidebar-link active">
+  <a href="../../sectors/infrastructure/infrastructure_condition_assessment_and_investment_prioritization.ipynb" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Infrastructure Condition Assessment and Investment Prioritization</span></a>
   </div>
 </li>
@@ -638,16 +655,18 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Content</h2>
    
   <ul>
-  <li><a href="#description" id="toc-description" class="nav-link active" data-scroll-target="#description">Description</a></li>
+  <li><a href="#summary-description" id="toc-summary-description" class="nav-link active" data-scroll-target="#summary-description">Summary Description</a></li>
+  <li><a href="#role-in-the-electricity-system" id="toc-role-in-the-electricity-system" class="nav-link" data-scroll-target="#role-in-the-electricity-system">Role in the Electricity System</a></li>
+  <li><a href="#methods-and-models" id="toc-methods-and-models" class="nav-link" data-scroll-target="#methods-and-models">Methods and Models</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../sectors/electricity_sector_activities.html">Electricity-Sector Activities</a></li><li class="breadcrumb-item"><a href="../../sectors/infrastructure/dam_safety_review.html">Infrastructure Planning and Asset Management</a></li><li class="breadcrumb-item"><a href="../../sectors/infrastructure/infrastructure_condition_assessment_and_investment_prioritization.html">Infrastructure Condition Assessment and Investment Prioritization</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Infrastructure Condition Assessment &amp; Investment Prioritization</h1>
+<h1 class="title">Infrastructure Condition Assessment and Investment Prioritization</h1>
 </div>
 
 
@@ -664,11 +683,166 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="description" class="level2">
-<h2 class="anchored" data-anchor-id="description">Description</h2>
-<p>Based on existing condition of assets (scope to be expanded to include more robust vulnerabilities) and projected changes to hazard exposure, support in the development of investment prioritization.</p>
+<section id="summary-description" class="level2">
+<h2 class="anchored" data-anchor-id="summary-description">Summary Description</h2>
+<p>For asset owners in the electricity system it is crucial to understand the condition of their infrastructure and prioritize investments to maintain or improve the reliability and resilience of the system. This includes assessing the current state of assets, identifying vulnerabilities, and determining the most effective allocation of resources for maintenance, upgrades, or replacements. Climate data can inform these assessments by providing insights into how changing environmental conditions may impact infrastructure performance and longevity.</p>
+<p>In some organizations the responsibility for these processes may be split between different departments and are generally distinct but interrelated processes. <strong>Condition assessments</strong> are typically conducted by engineering teams to evaluate the physical state of assets. This can involve a combination of field inspections, monitoring systems, and predictive modeling to evaluate the condition of assets.</p>
+<p><strong>Investment prioritization</strong> occurs when an organization must decide how to allocate a finite budget of resources to maximize their benefit. There are various specific frameworks and practices. Generally, each potential project, investment or maintenance activity is evaluated based on its expected benefits, costs, risks, and alignment with organizational goals. Those projects with the highest expected benefits relative to their costs, or that address the most immediate risks, are typically prioritized for investment. Investment prioritization can be guided by risk assessments that consider both the likelihood and consequences of asset failures, as well as the potential impacts of climate change on infrastructure performance through a fit-for-purpose application of the <a href="../../adaptation/risk_assessment.qmd">climate risk assessment framework</a>.</p>
+</section>
+<section id="role-in-the-electricity-system" class="level2">
+<h2 class="anchored" data-anchor-id="role-in-the-electricity-system">Role in the Electricity System</h2>
+<p>This processes are used in the electricity sector to determine budget allocation and prioritize investments in infrastructure maintenance, upgrades, or replacements. By integrating climate data into these assessments, organizations can make more informed decisions that enhance the resilience of the electricity system against climate-related risks. This is particularly important for critical infrastructure such as dams, transmission lines, and substations, where failures can have significant consequences for system reliability and public safety. Managing resources and the nature of finite resources means that dollars spent must produce the greatest benefit. This is particularly important in the electricity sector where infrastructure is aging and the need for investment is increasing. Climate data can inform these assessments by providing insights into how changing environmental conditions may impact infrastructure performance and longevity.</p>
+<p><strong>Condition assessments</strong> provide information on current health of the asset. It informs an assessment of the risk of failure or underperformance of the infrastructure. It is a monitoring process to determine if the system is going to achieve its intended design life or if that life is being cut short, sometimes triggering further investigation.</p>
+<p><strong>Investment prioritization</strong> uses the condition assessment to inform baseline likelihood of failure. The consequence of this failure in terms of financial losses, safety risks, environmental harm, reputational damage, etc. are then combined with the likelihood of failure to determine the overall risk. This risk is assessed with the expected costs of the invesment and compared to other investments.</p>
+</section>
+<section id="methods-and-models" class="level2">
+<h2 class="anchored" data-anchor-id="methods-and-models">Methods and Models</h2>
+<p>There are many methods and models that can be used for these purposes, a comprehensive discussion of which is beyond the scope of this guide. Generalizations will be made about the methods and linked to other sections of the guide that support them.</p>
+<p><strong>Condition Assessements</strong> can be conducted in various forms. * <em>Field inspections</em> are conducted by trained personnel and include visual inspections, measurements, and site testing of infrastructure components. These inspections can identify visible signs of wear, damage, or deterioration that may indicate the need for maintenance or replacement. This information can be combined with the experience of operators of the equipment to assess if it is functioning as intended. Recognizing the interaction of the system and the climate/environment inspection programs could be modified to monitor for climate related impacts and institutionalize monitoring as an adaptation decision (see <a href="../../apply_climate_data/risk_step7_institute.html">Step 7: Reporting or Institutionalizing the Decision</a>). * <em>Monitoring systems</em> use sensors and data collection devices to continuously monitor the condition of infrastructure and may be setup to monitor for climate variables of interest. * <em>Predictive modeling</em> uses historical data, engineering principles, and statistical techniques to model asset performance and identify potential failure points. In some utilities this is combined with ongoing <em>Monitoring systems</em> to form a <em>Monitoring and Diagnostics</em> framework. Using historic data, a model is built of the system to predict how it should perform under different operating conditions. When the observed performance through monitoring processes deviates from the expected performance that is predicted by the model the operations and engineering teams are alerted that something may be wrong. Where relevant these models may include climatic inputs and can be combined with outcomes from a <a href="../../apply_climate_data/risk_step4_vulnerability.html">vulnerability assessment</a> to monitor performance overtime.</p>
+<p>Each of these sub-components of condition assessments can be combined into a comprehensive assessment process such as a <a href="../../sectors/infrastructure/dam_safety_review.html">dam safety review</a>. A dam safety review, for example, combines inspections of the asset from qualified field staff, assessment of performance monitoring of the dam as well as modelling of specific aspects such as ice loading or hydraulic analysis of extreme events.</p>
+<p><strong>Investment prioritization</strong> potentially includes a series of models or processes. In some cases, there is an asset managment plan for a specific piece or type of infrastructure to plan it’s maintenance in isolation. In other cases, a portfolio of assets is considered together to determine the best allocation of resources across the portfolio. As previously stated, the <strong>Condition assessment</strong> informs the likelihood of failure and sometimes the current condition of the asset and expected deterioration is ingested into the model to estimate the state of the asset over time. If climate data is relevant to the condition of the asset this information can be integrated into the overall risk assesment. Similarly, the consequences of failure in terms of various risks (financial, safety, environmental, reputational, etc.) are assessed. In some cases, these consequences are also vary with climate. For example, transmission equipment that is not well maintained could create a wildfire ignition risk, the consequence of which will be greater if climate change leads to drier and more fire prone conditions.</p>
+<p>The <strong>investment prioritization</strong> process is effectively a risk assessment and could follow the <a href="../../apply_climate_data/risk_assessment.html">climate risk assessment framework</a> to make climate informed investment decisions. In many cases, investment prioritization is an early stage process that is done without detailed engineering design or procurement of new pieces of equipment. In these cases, the risk assessment is done at an appropriately high level and may be revisited as more information becomes available, or as the investment is selected to proceed to a project phase and detailed engineering design is undertaken. A proposed investment may be idenfitied but not prioritized in an immediate cycle and revisted in future cycles with the risk profile changing over time.</p>
+<div id="id1" class="callout callout-style-simple callout-none no-icon callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">None</span>Characteristics
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-1" class="callout-1-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p><strong>Condition Assessment</strong> The types of activities broadly categorized as condition assessments are carried out at various temporal and spatial scales. Field inspections and condition monitoring could occur at a weekly, monthly or annual basis depending on the asset. Comprehensive monitoring efforts such as dam safety reviews would only be conducted once every 10-15 years. Online monitoring and predictive modeling could be nearly continuous in some situations, although this frequency is justified by purposes beyond climatic considerations (i.e.&nbsp;maintenance and reliability). Trending of this data could occur on a less frequent, but routine basis (i.e.&nbsp;annually) to feed into a more comprehensive asset health check-up.</p>
+<p><strong>Investment Prioritization</strong> The investment prioritization process typcially culminates in an annual or multi-year investment plan as part of a business planning or asset management process. The frequency of this process is determined by the organization and the nature of the assets being managed. In some cases, investment prioritization may be conducted on a more frequent basis, such as quarterly or semi-annually, to respond to changing conditions or emerging risks. The spatial resolution of investment prioritization can vary depending on the scope of the assessment and the level of detail required for decision-making. It can range from a high-level portfolio view to a more granular analysis of individual assets or projects. However, the intake of information into these processes is ongoing as needs arise and as new information becomes available.</p>
+<p>In some cases, where there is known information about the asset degradation over time or with use, this information can be directly incorporated into a system. All assets and systems have a finite life and are generally expected to deteriorate over time. If known, the risk of failure increases with the life of the asset. Where degradation is known to be accelerated by climate change, this information can be incorporated into the risk assessment and investment prioritization process. For example, if a component is known to degrade faster with higher temperatures, the risk of failure can be adjusted based on projected temperature changes over time. This allows for more accurate prioritization of investments and maintenance activities to ensure the long-term reliability and resilience of the electricity system.</p>
+</div>
+</div>
+</div>
+<div id="id1" class="callout callout-style-simple callout-none no-icon callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">None</span>Key Climate Inputs
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-2" class="callout-2-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>There are various climate inputs that can be relevant to condition assessments and investment prioritization, depending on the specific infrastructure and its vulnerabilities. Understanding existing conditions would be largely based on observed climate data, while future projections could be integrated into the risk assessment and investment prioritization process to account for potential climate change impacts.</p>
+</div>
+</div>
+</div>
+<div id="id1" class="callout callout-style-simple callout-none no-icon callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-7-contents" aria-controls="callout-7" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">None</span>Non-Climate Inputs
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-7" class="callout-7-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<ul>
+<li>Condition Assessments</li>
+<li>Degradation curves and expected life of the asset</li>
+<li>Maintenance history and records</li>
+<li>Operational data and performance metrics</li>
+<li>Inspection reports and field observations</li>
+<li>Operating experience and knowledge of the asset or systems</li>
+</ul>
+<div id="id1" class="callout callout-style-simple callout-none no-icon callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-3-contents" aria-controls="callout-3" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">None</span>Model Outputs
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-3" class="callout-3-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>The outputs of this process include an understanding of the condition of the assets, the likelihood of failure, the consequences of failure, and the overall risk profile of the infrastructure. This information can be used to inform investment prioritization decisions and guide resource allocation for maintenance, upgrades, or replacements. The outputs can also include recommendations for further investigations or monitoring efforts to address identified vulnerabilities or risks.</p>
+</div>
+</div>
+</div>
+<div id="id1" class="callout callout-style-simple callout-none no-icon callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-4-contents" aria-controls="callout-4" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">None</span>Frequency of Analysis
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-4" class="callout-4-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Various</p>
+</div>
+</div>
+</div>
+<section id="detailed-discussion" class="level2">
+<h2 class="anchored" data-anchor-id="detailed-discussion">Detailed Discussion</h2>
+<div id="id1" class="callout callout-style-simple callout-none no-icon callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-5-contents" aria-controls="callout-5" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">None</span>(click to expand)
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-5" class="callout-5-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>The inclusion of climate data and projections in the condition assessment and investment prioritization process is still relatively nacsent in the electricity sector. There remains a need for further research and development to establish best practices and methodologies for integrating climate considerations into these processes. This includes developing degredation curves or similar information, and incorporating climate projections into risk assessments and investment prioritization models. Additionally, there is a need for ongoing monitoring and evaluation of the effectiveness of these approaches to ensure that they are achieving the desired outcomes in terms of enhancing the resilience of the electricity system against climate-related risks.</p>
+<p>The ongoing condition monitoring and system health processes could create a vehicle to institutionalize adaptation plans as described in <a href="../../apply_climate_data/risk_step7_institute.html">Step 7: Institutionalize Decision</a>. This could be done by monitoring using information from a vulnerability assessment and checking for thresholds of degraded performance. Similarly, the overall <a href="../../apply_climate_data/risk_assessment.html">risk assessment process</a> could be used to inform investment prioritization and decision making. These risk assessments could be conducted at a high level and documented in a manner that allows for future updated and is fit for the purpose at hand. It is unlikely it would be required to be as comprehensive as is sometimes completed as part of a risk assesment.</p>
+</div>
+</div>
+</div>
+</section>
+<section id="gaps-and-recommendations" class="level2">
+<h2 class="anchored" data-anchor-id="gaps-and-recommendations">Gaps and Recommendations</h2>
+<div id="id1" class="callout callout-style-simple callout-none no-icon callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-6-contents" aria-controls="callout-6" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">None</span>(click to expand)
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-6" class="callout-6-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Climate considerations are not yet fully integrated into condition assessments. There remain technical gaps in understanding how climate change may impact the performance and longevity of infrastructure, as well as guidance on how to effectively incorporate climate data into investment prioritization processes. There is a need for further research and development to establish best practices and methodologies for integrating climate considerations into these processes. In addition, there is a need for increased training and climate literacy for technical staff and decision makers involved in these processes.</p>
+</div>
+</div>
+</div>
+</section>
+<section id="references" class="level2">
+<h2 class="anchored" data-anchor-id="references">References</h2>
+<details>
+<summary>
+<strong>(click to expand)</strong>
+</summary>
+<div id="refs" role="list">
+
+</div>
+</details>
 
 
+</section>
+</div>
+</div>
+</div>
 </section>
 
 </main> <!-- /main -->
@@ -1082,18 +1256,6 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   });
   </script>
-<nav class="page-navigation">
-  <div class="nav-page nav-page-previous">
-      <a href="../../sectors/infrastructure/dam_safety_review.html" class="pagination-link" aria-label="Dam Safety Review">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Dam Safety Review</span>
-      </a>          
-  </div>
-  <div class="nav-page nav-page-next">
-      <a href="../../sectors/infrastructure/infrastructure_design.html" class="pagination-link" aria-label="Infrastructure Design">
-        <span class="nav-page-text">Infrastructure Design</span> <i class="bi bi-arrow-right-short"></i>
-      </a>
-  </div>
-</nav>
 </div> <!-- /content -->
 <script src="auto-open-callout.js"></script>
 

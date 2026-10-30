@@ -2,12 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.10.19">
+<meta name="generator" content="quarto-1.10.20">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Step 5: Climate Risk Assessment – Climate Data for the Electricity Sector</title>
+<title>risk_step5_risk – Climate Data for the Electricity Sector</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -44,7 +44,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-bf27225e3a48a9273f3daa8f8e829971.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-17888a1159294d3eb470f19f6f52f5a5.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="../site_libs/bootstrap/bootstrap-857e03ca0d8f9c67b397745f205b634f.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
@@ -76,9 +76,6 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 <style>html{ scroll-behavior: smooth; }</style>
-<script src="../site_libs/quarto-diagram/mermaid.min.js"></script>
-<script src="../site_libs/quarto-diagram/mermaid-init.js"></script>
-<link href="../site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
 
   <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
   <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
@@ -238,7 +235,7 @@ window.Quarto = {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../sectors/infrastructure/infrastructure_condition_assessment_and_investment_prioritization.html" class="sidebar-item-text sidebar-link">
+  <a href="../sectors/infrastructure/infrastructure_condition_assessment_and_investment_prioritization.ipynb" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Infrastructure Condition Assessment and Investment Prioritization</span></a>
   </div>
 </li>
@@ -683,28 +680,13 @@ window.Quarto = {
 </nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../apply_climate_data/Adaptation.html">Apply Climate Data</a></li><li class="breadcrumb-item"><a href="../apply_climate_data/risk_assessment.html">Climate Vulnerability and Risk Assessment</a></li><li class="breadcrumb-item"><a href="../apply_climate_data/risk_step5_risk.html">Step 5: Climate Risk Assessment</a></li></ol></nav>
-<div class="quarto-title">
-<h1 class="title">Step 5: Climate Risk Assessment</h1>
-</div>
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../apply_climate_data/Adaptation.html">Apply Climate Data</a></li><li class="breadcrumb-item"><a href="../apply_climate_data/risk_assessment.html">Climate Vulnerability and Risk Assessment</a></li><li class="breadcrumb-item"><a href="../apply_climate_data/risk_step5_risk.html">Step 5: Climate Risk Assessment</a></li></ol></nav></header>
 
 
 
-<div class="quarto-title-meta">
 
-    
-  
-    
-  </div>
-  
-
-
-</header>
-
-
-<p>This step may be completed which estimates climate risk for each relevant climate interaction with the system by combining: the climate <a href="../apply_climate_data/risk_step3_hazard.html## Hazard and Climate Driver Identification">hazard</a> <em>(what could occur)</em>, <a href="../apply_climate_data/risk_step3_hazard.html## Exposure Assessment">exposure</a> <em>(what parts of the system are in direct/indirect contact with the hazard)</em>, and <a href="../apply_climate_data/risk_step4_vulnerability.html">vulnerability</a> <em>(how the system responds, based on sensitivity and existing capacity to cope)</em>. Risk can be described using the IPCC framing and formula:</p>
+<p>vulnerability— title: “Step 5: Climate Risk Assessment” bibliography: adaptation.bib editor: markdown: wrap: 72 —</p>
+<p>This step may be completed which estimates climate risk for each relevant climate interaction with the system by combining: the climate <a href="../apply_climate_data/risk_step3_hazard.html## Hazard and Climate Driver Identification">hazard</a> <em>(what could occur)</em>, <a href="../apply_climate_data/risk_step3_hazard.html## Exposure Assessment">exposure</a> <em>(what parts of the system directly/indirectly interact with the hazard)</em>, and <a href="../apply_climate_data/risk_step4_vulnerability.html">vulnerability</a> <em>(how the system responds, based on sensitivity and existing capacity to cope)</em>. Risk can be described using the IPCC framing and formula:</p>
 <p><span class="math display">\[
 R = f(H,E,V)
 \]</span></p>
@@ -714,12 +696,9 @@ R = f(H,E,V)
 R = L × C
 \]</span> where Risk (<span class="math inline">\(R\)</span>); Likelihood (<span class="math inline">\(L\)</span>); and Consequence (<span class="math inline">\(C\)</span>),</p>
 <p>In this framing, likelihood is driven by the hazard (for selected scenarios, time horizons, and indicator values), while consequence is driven by the exposure and vulnerability (how the system performs if the event occurs). The relationship between the IPCC concept of risk and traditional risk definitions are discussed in <a href="../apply_climate_data/core_concepts_adapt.html">Core Concepts: Understanding Adaptation</a>. The relationship between likelihood and consequence to estimate risk is typically visually represented with a risk matrix or heat map and can vary depending on the type of risk assessment that is completed.</p>
-<div class="cell" data-layout-align="center">
-<div class="cell-output-display">
-<div>
-<p></p><figure class="figure"><p></p>
-<div>
-<pre class="mermaid mermaid-js">---
+<pre class="{mermaid}"><code>%%| fig-align: center
+%%| fig-cap: "Generic Workflow for Adaptation"
+---
 config:
     flowchart:
         curve: linear
@@ -740,13 +719,7 @@ flowchart-elk TD
 
     classDef basic fill:#CAD4D6
     classDef focus fill:#CAD4D6, stroke:#CE153D, color:#CE153D
-    classDef join height:0px
-</pre>
-</div>
-<p></p><figcaption> Generic Workflow for Adaptation</figcaption> </figure><p></p>
-</div>
-</div>
-</div>
+    classDef join height:0px</code></pre>
 <div class="callout callout-style-default callout-note callout-titled" title="The Challenge of Uncertainty">
 <div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
@@ -764,35 +737,35 @@ flowchart-elk TD
 </div>
 </div>
 <p>This step supports forward-looking decisions by documenting how likelihood and consequence are estimated, showing how results change across scenarios, and clearly describing confidence and uncertainty so decision-makers can understand what is known, what is uncertain, and what could change the outcome.</p>
-<div class="callout callout-style-simple callout-none no-icon callout-titled" title="Simple Climate Risk Assessment">
+<div class="callout callout-style-simple callout-none no-icon callout-titled" title="Routine Climate Risk Assessment">
 <div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">None</span>Simple Climate Risk Assessment
+<span class="screen-reader-only">None</span>Routine Climate Risk Assessment
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
 <div id="callout-2" class="callout-2-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<p>In a simple risk assessment, a critical threshold (a performance-based criteria) should be clearly identified in <a href="###%20Performance%20Criteria">Performance Criteria</a>. This may be a failure criterion, a limit at which a factor of safety is exceeded or any other pre-defined value. This is considered a simple risk assessment because single consequence is defined based on exceeding this threshold makes the climate risk assessment a function of likelihood, since crossing the critical threshold will always result in the same outcome. The risk is effectively univariate. This is the type of risk assessment primarily documented in the body of this section in the following sub-steps.</p>
+<p>In a routine risk assessment, a critical threshold (a performance-based criteria) should be clearly identified in <a href="###%20Performance%20Criteria">Performance Criteria</a>. This may be a failure criterion, a limit at which a factor of safety is exceeded or any other pre-defined value. This is considered a routine risk assessment because single consequence is defined based on exceeding this threshold makes the climate risk assessment a function of likelihood, since crossing the critical threshold will always result in the same outcome. The risk is effectively univariate. This is the type of risk assessment primarily documented in the body of this section in the following sub-steps.</p>
 </div>
 </div>
 </div>
-<div class="callout callout-style-simple callout-none no-icon callout-titled" title="Complex Climate Risk Assessment">
+<div class="callout callout-style-simple callout-none no-icon callout-titled" title="Comprehensive Climate Risk Assessment">
 <div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-3-contents" aria-controls="callout-3" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">None</span>Complex Climate Risk Assessment
+<span class="screen-reader-only">None</span>Comprehensive Climate Risk Assessment
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
 <div id="callout-3" class="callout-3-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<p>A complex climate risk assessment occurs where a critical threshold is poorly defined or does not exist (a risk-informed criteria) requiring a decision maker to determine their risk tolerance in order to take further action. It is considered complex because the risk matrix will require consideration of distinct likelihood-consequence points, making the risk bi-variate. For example, climate change may impact the production of a generating station. As the projected climate indicator increases, production will decrease and a decision maker will need to decide how much loss is acceptable in order to make an adaptation decision.</p>
+<p>A comprehensive climate risk assessment occurs where a critical threshold is poorly defined or does not exist (a risk-informed criteria) requiring a decision maker to determine their risk tolerance in order to take further action. It is considered comprehensive because the risk matrix will require consideration of distinct likelihood-consequence points, making the risk bi-variate. For example, climate change may impact the production of a generating station. As a projected climate indicator increases, production will decrease and a decision maker will need to decide how much loss is acceptable in order to make an adaptation decision. For example, if assessing how much production is expected under future climate scenarios, there is not likely to be a well-defined threshold for what an acceptable amount would be. Instead, a decision maker may need to look at changing conditions and determine if profits or risk of decreased performance is acceptable. Steps 1 through 4 for a comprehensive risk assessment are the same as they are for a routine risk assessment.</p>
 </div>
 </div>
 </div>
@@ -814,7 +787,7 @@ flowchart-elk TD
 </div>
 <section id="assess-consequence" class="level2">
 <h2 class="anchored" data-anchor-id="assess-consequence">Assess Consequence</h2>
-<p>This sub-step estimates consequence (severity) for each relevant climate interaction using the exposure and vulnerability results. Consequence describes what would happen if the climate condition occurred; it does not consider probability.</p>
+<p>This sub-step estimates consequence (severity) for each relevant climate interaction using the exposure and vulnerability results. Consequence describes what would happen if the climate condition occurred; it does not consider likelihood.</p>
 <p>The consequence is the result of a risk event being realized and should be directly derived from the vulnerability.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
@@ -822,40 +795,40 @@ flowchart-elk TD
 </figure>
 </div>
 <p>If preliminary impacts were developed as part of the <a href="../apply_climate_data/risk_step3_hazard.html## Exposure Assessment">exposure assessment</a>, they should be reviewed as part of this step and considered in the consequence/severity scale. For each climate interaction, a consequence/severity level(s) should be determined, and applicable impacts (financial, environmental, reputational, etc.) associated with the consequence should be documented. Consequence scores will then be carried forward and combined with the likelihood of the interaction to estimate risk.</p>
-<div class="callout callout-style-simple callout-none no-icon callout-titled" title="Simple Risk Assessment">
+<div class="callout callout-style-simple callout-none no-icon callout-titled" title="Routine Risk Assessment">
 <div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-5-contents" aria-controls="callout-5" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">None</span>Simple Risk Assessment
+<span class="screen-reader-only">None</span>Routine Risk Assessment
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
 <div id="callout-5" class="callout-5-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<p>For a simple climate risk assessment, the critical threshold used in <a href="../apply_climate_data/risk_step4_vulnerability.html">Step 4: Climate Vulnerability Assessment</a> should be evaluated to determine the magnitude of the consequence, making the consequence the result of system performance only. The figure below provides a flow diagram for determining consequence.</p>
-<p>For example, if passing beyond a critical threshold resulted in the consequence of a unit tripping off, there would be an impact financially to revenue, there may be a reputational impact, environmental impact or safety impact which are defined in the consequence/severity scale.</p>
-<p>For most simple risk assessments, the same impact will apply to the consequence regardless of the scenario (i.e.&nbsp;a dam failure will have the same impact to human life regardless of the warming scenario). In some instances, differences in impacts may be expected across scenarios being assessed. For example, the value of money may change between the near term and long-term or the local population may be expected to change resulting in a greater impact from an system failure in the later future scenarios.</p>
+<p>For a routine climate risk assessment, the critical threshold used in <a href="../apply_climate_data/risk_step4_vulnerability.html">Step 4: Climate Vulnerability Assessment</a> should be evaluated to determine the magnitude of the consequence, making the consequence the result of system performance only. The figure below provides a flow diagram for determining consequence.</p>
+<p>For example, if passing beyond a critical threshold resulted in the consequence of a unit tripping off, or service disruption there would be an impact financially to revenue, there may be a reputational impact, environmental impact or safety impact which are defined in the consequence/severity scale.</p>
+<p>For most routine risk assessments, the same impact will apply to the consequence regardless of the scenario (i.e.&nbsp;a dam failure will have the same impact to human life regardless of the warming scenario). In some instances, differences in impacts may be expected across scenarios being assessed. For example, the value of money may change between the near term and long-term or the local population may be expected to change resulting in a greater impact from an system failure in the later future scenarios.</p>
 </div>
 </div>
 </div>
-<div class="callout callout-style-simple callout-none no-icon callout-titled" title="Complex Risk Assessment">
+<div class="callout callout-style-simple callout-none no-icon callout-titled" title="Comprehensive Risk Assessment">
 <div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-6-contents" aria-controls="callout-6" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">None</span>Complex Risk Assessment
+<span class="screen-reader-only">None</span>Comprehensive Risk Assessment
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
 <div id="callout-6" class="callout-6-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<p>A complex risk assessment is when a well-defined threshold does not exist, and more reliance is placed on a decision maker to determine risk tolerance. For example, if assessing how much production is expected under future climate scenarios, there is not likely to be a well-defined threshold for what an acceptable amount would be. Instead, a decision maker may need to look at changing conditions and determine if profits or risk of decreased performance is acceptable.</p>
-<p>In a complex risk assessment, the likelihood and consequence must be co-evaluated as a paired value and derived together. The likelihood, by definition, must be the probability of an event. Without a threshold based on the system a new value shall be selected. This may be the baseline performance (i.e.&nbsp;using a historic expected value) or it could be variable, (i.e.&nbsp;the likelihood of exceeding a series of values). Other appropriate values may also be used.</p>
+<p>A comprehensive risk assessment is when a well-defined threshold does not exist, and more reliance is placed on a decision maker to determine risk tolerance. For example, if assessing how much production is expected under future climate scenarios, there is not likely to be a well-defined threshold for what an acceptable amount would be. Instead, a decision maker may need to look at changing conditions and determine if profits or risk of decreased performance is acceptable.</p>
+<p>In a comprehensive risk assessment, the likelihood and consequence must be co-evaluated as a paired value and derived together. Without a threshold based on the system a new value shall be selected. This may be the baseline performance (i.e.&nbsp;using a historic expected value) or it could be variable, (i.e.&nbsp;the likelihood of exceeding a series of values). Other appropriate values may also be used.</p>
 <p>The likelihood and consequence are determined together choosing first a climate indicator value, scenario or consequence from the vulnerability assessment and then the likelihood of that scenario occurring. The risk is then calculated or placed on the matrix to show how likelihood and consequence change in relationship to each other.</p>
-<p>For example, hydroelectric production is expected to change as a function changing precipitation, but a clear threshold below which production is unacceptable cannot be easily defined. A model can be used in a stress test to simulate the production from various scenarios using total annual precipitation as an indicator to develop a vulnerability curve. The 50th percentile of historic annual production of 100GWh may be selected as a baseline. For SSP2-4.5 and SSP5-8.5 the likelihood of exceeding 90GWh, 100GWh, 110GWh, etc. can be calculated for the 2050’s and 2080’s and compared by a decision maker to the baseline value to make an informed decision about the significance of the risk and any adaptation options they wish to pursue.</p>
+<p>For example, hydroelectric production is expected to change as a function changing precipitation, but a clear threshold below which production is unacceptable cannot be easily defined. A model can be used in a stress test to simulate the production from various scenarios using total annual precipitation as an indicator to develop a vulnerability curve. The 50th percentile of historic annual production of 100GWh may be selected as a baseline. For SSP2-4.5 and SSP5-8.5 the likelihood of exceeding 90GWh, 100GWh, 110GWh, etc. can be calculated for the 2050’s and 2080’s and compared by a decision maker to the baseline value to make an informed decision about the significance of the risk and any adaptation options they wish to pursue. This same example could be broadened for an electricity system looking at changes in electricity supply from hydro resources in aggregate or grid sectors. The changes in supply or peak capacity would need to be evaluated to determine the risk to reliability or supply.</p>
 </div>
 </div>
 </div>
@@ -877,8 +850,8 @@ flowchart-elk TD
 <div id="callout-7" class="callout-7-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <ul>
-<li>Probability of an event under different global warming levels (e.g., 2°C, 2.5°C, 3°C). Refer to <a href="../climate_data_fundamentals/Time_Horizons_GWL.qmd">“Time Horizons and Global Warming Levels”</a> for more details on global warming levels.</li>
-<li>Probability of an event under specific climate scenarios (e.g.&nbsp;SSP2-4.5, SSP5-8.5) for different future time windows (e.g., 2050s, 2080s).</li>
+<li>Likelihood of an event under different global warming levels (e.g., 2°C, 2.5°C, 3°C). Refer to <a href="../climate_data_fundamentals/Time_Horizons_GWL.qmd">“Time Horizons and Global Warming Levels”</a> for more details on global warming levels.</li>
+<li>Likelihood of an event under specific climate scenarios (e.g.&nbsp;SSP2-4.5, SSP5-8.5) for different future time windows (e.g., 2050s, 2080s).</li>
 </ul>
 </div>
 </div>
@@ -900,11 +873,11 @@ flowchart-elk TD
 </div>
 </div>
 <p><strong>Select the Future Value or Range Criteria:</strong> For each scenario, determine the historic and future value or range in which likelihood will be calculated. That is, the future value or range of possibilities within the climate scenario ensembles in which statistical analysis will be calculated against. Percentiles could also be used to add some conservatism, at the cost of sample size. For example, the number of 75th percentile or greater events that exceed the critical threshold could be compared to the total number of events that exceed the 75th percentile of the climate projection data.</p>
-<p><strong>Assess Probability:</strong> For each scenario, determine the probability of relevant hazards and indicators. This is completed through statistical analysis to calculate the probability of the future value or range exceeding the selected threshold (performance criteria) established previously. For simple risk assessments, the probability should be calculated following the classical formula, or other established statistical methods, for determine the probability of event <span class="math inline">\(X\)</span> occurring:</p>
+<p><strong>Assess Likelihood:</strong> For each scenario, determine the likelihood of relevant hazards and indicators. This is completed through statistical analysis to estimate the probability of the future value or range exceeding the selected threshold (performance criteria) established previously. For simple risk assessments, the likelihood should be calculated following the classical formula, or other established statistical methods, for determine the probability or likelihood of event <span class="math inline">\(X\)</span> occurring:</p>
 <p><span class="math display">\[
 L(X) = \frac{\text{Number of times X occurs}}{\text{Total Number of Events}}
 \]</span></p>
-<p>This formula is applied with respect to a pre-defined threshold. In the simple climate risk analysis scenario, where a critical threshold has been identified, this should be the number of times the climate data in a 30+ year window exceeds the critical threshold divided by the total number of data points. For complex risk assessments, this probability calculation may vary.</p>
+<p>This formula is applied with respect to a pre-defined threshold. In the simple climate risk analysis scenario, where a critical threshold has been identified, this should be the number of times the climate data in a 30+ year window exceeds the critical threshold divided by the total number of data points. For complex risk assessments, this likelihood calculation may vary.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="images/Likelihood.png" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
@@ -922,11 +895,12 @@ L(X) = \frac{\text{Number of times X occurs}}{\text{Total Number of Events}}
 </div>
 <div id="callout-9" class="callout-9-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<p>The classic probability formula assumes data are stationary, which means there is no long-term trend. This assumption is false, but may be useful. Climate data should be compared in 30-40 year windows where stationarity assumptions are more valid and not used for long periods of time. Alternatively, probabilities may be estimated from fitted probability distributions, some of which may be applied to non-stationary data. For screening and other high-level assessments, the probability may be able to be reasonable estimated visually.</p>
+<p>The classic likelihood formula assumes data are stationary, which means there is no long-term trend. This assumption is false, but may be useful. Climate data should be compared in 30-40 year windows where stationarity assumptions are more valid and not used for long periods of time. Alternatively, likelihoods may be estimated from fitted probability distributions, some of which may be applied to non-stationary data. For screening and other high-level assessments, the likelihood may be able to be reasonable estimated visually.</p>
 </div>
 </div>
 </div>
-<p><strong>Mapping Probability:</strong> Once the probabilities of a climate indicator exceeding the performance criteria is calculated, map each of the scenario probabilities to a likelihood scale or criteria. This is done so that risk can be estimated by combining the likelihood level with the consequence level. This will result in a likelihood value for each scenario and time horizon evaluated for a given climate indicator.</p>
+<p>:</p>
+<p><strong>Mapping Likelihood:</strong> Once the likelihoods of a climate indicator exceeding the performance criteria is calculated, map each of the scenario likelihoods to a likelihood scale or criteria. This is done so that risk can be estimated by combining the likelihood level with the consequence level. This will result in a likelihood value for each scenario and time horizon evaluated for a given climate indicator.</p>
 <div class="callout callout-style-simple callout-none no-icon callout-titled" title="Semi-Quantitative Likelihood Analysis">
 <div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-10-contents" aria-controls="callout-10" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
@@ -949,6 +923,8 @@ L(X) = \frac{\text{Number of times X occurs}}{\text{Total Number of Events}}
 <section id="risk-quantification" class="level2">
 <h2 class="anchored" data-anchor-id="risk-quantification">Risk Quantification</h2>
 <p>The final risk (risk level) is determined quantitatively as the product of the likelihood and the consequence (impact) or may be qualitatively evaluated using likelihood and consequence results. This is commonly mapped to a risk matrix. Risks should be calculated for each climate interaction, scenario, and time horizon that have been included in the assessment. This may result in multiple risk values for a given interaction, if multiple climate scenarios and time horizons are considered in the assessment.</p>
+<p><strong>Acceptable Risks:</strong> Similar to vulnerability, acceptable risks may be identified as part of the assessment. The definition of “acceptable risk” will vary depending on the application of the assessment. Acceptable risk criteria should align with the purpose and the criticality of the system and be informed by system engineers.</p>
+<p><strong>Unacceptable Risks:</strong> Unacceptable risks should be evaluated as part of the Level of Concern analysis, to inform adaptation planning in Step 6. Regardless of the risk level, it is essential to document the assessment results, the acceptability of the risk, and the rationale for any further actions. This ensures transparency, repeatability, and accountability in decision-making.</p>
 <div class="callout.caution" data-collapse="true" title="Central Tendency">
 <p>When risk, likelihood and consequence are determined semi-quantitatively, care should be taken to ensure the resulting analysis is meaningful. Often categorical values have a tendency to select middle values and are selected very subjectively. In these situations, ensure values are non-biased, founded on information and granular enough to suit the needs of the assessment.</p>
 </div>
