@@ -10,7 +10,6 @@ project:
     - "!development/drafts/TextSectionParkingLot.ipynb"
     - "!development/tools/NRCanMET_check.ipynb"
     - "!datasets/observed_data/CanGrid.qmd"
-    - "!sectors/planning/infrastructure_condition_assessment_and_investment_prioritization.ipynb"
     - "!sectors/operations/proactive_management_of_heavily_loaded_assets.ipynb"
   preview:
     port: 3210
@@ -59,7 +58,7 @@ website:
               - text: "Dam Safety Review"
                 href: sectors/infrastructure/dam_safety_review.qmd
               - text: "Infrastructure Condition Assessment and Investment Prioritization"
-                href: sectors/infrastructure/infrastructure_condition_assessment_and_investment_prioritization.ipynb
+                href: sectors/infrastructure/infrastructure_condition_assessment_and_investment_prioritization.qmd
               - text: "Infrastructure Design"
                 href: sectors/infrastructure/infrastructure_design.ipynb
           - text: "Reporting and Disclosure"
