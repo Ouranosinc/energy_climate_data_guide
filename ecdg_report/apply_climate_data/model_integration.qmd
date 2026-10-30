@@ -42,7 +42,16 @@ In almost all cases the available documents are about the process of climate ris
 
 :::
 
-## Modelling Chains
+## Model Integration
+Climate data can be integrated into modelling and analysis processes in multiple ways depending on the availability of data, purpose of the analysis, and types of application. Integration of climate considerations requires a series of key decisions and processes.
+
+Climate data are available in different [data formats](../climate_data_fundamentals/Data_Formats.qmd) and sometimes must be transformed prior to use in further analysis. These requirements will depend on the models being used in the analysis. Standards formats such as NetCDF and libraries such as XArray and XClim [to do insert links]{.mark-red} can aid in this process.
+
+Sometimes data must be [transformed](../climate_data_fundamentals/Data_Transformation.qmd) or [bias corrected](../climate_data_fundamentals/Bias_adjustment.qmd) to be directly used in the application. There are various techniques documented in this guide and other relevant sources for readers to reference. The requirements of each case will be unqiue based on the models and types of analysis to be used.
+
+Using these techniques, climate data can be integrated into models or modelling chains for further analysis.
+
+### Modelling Chains
 
 Climate information supports a decision through the analyses that connect it to system performance. System performance is often assessed using one or multiple process models, where one models output feeds into a downstream model. The output from one model may not always be adequate to be ingested as is by another model. Data preparation or transformations may need to be applied as information is passed along such a modeling chain. Different data treatment approaches exist for climate data as outlined in the section on [Data Transformation Methods](../climate_data_fundamentals/Data_Transformation.qmd).
 
@@ -65,40 +74,47 @@ A baseline is the reference representation of past or current conditions used to
 Climate and impact information may be transformed between steps in a modelling chain. The method should match the input data, model requirements, and decision metric. @Fournier2020 describe direct use, reduction, adjustment, extension, delta, and bias-correction methods (@Fournier2020, Section 3). These are options to assess for a particular application, not a required sequence or a set of interchangeable methods. Their strengths and limitations depend on which characteristics the downstream analysis needs to retain.
 
 ### Climate Baseline - Version B
-A baseline is the data considered most representative of the past or current state of a system. In climate-change valuation, it can be used to generate simulations representing baseline conditions, apply data-transformation methods, and calibrate hydrologic models. Fournier et al. distinguish between a hydrologic baseline, based on historical hydrology data, and a climatic baseline, based on historical climate data. Using both requires a hydrologic model to be calibrated and validated with climate data. The choice of baseline depends on factors such as model availability, implementation time, required expertise and cost, and the desired level of control over the modelling chain. Using both baselines generally requires more time and expertise but offers greater control over the assessment (Section 4).
+A baseline is the data considered representative of the past or current state of a system. In climate-change valuation, it can be used to generate simulations representing baseline conditions, apply data-transformation methods, and calibrate hydrologic models. Fournier et al. distinguish between a hydrologic baseline, based on historical hydrology data, and a climatic baseline, based on historical climate data. Using both requires a hydrologic model to be calibrated and validated with climate data. The choice of baseline depends on factors such as model availability, implementation time, required expertise and cost, and the desired level of control over the modelling chain. Using both baselines generally requires more time and expertise but offers greater control over the assessment (Section 4).
 
-A climatic baseline typically consists of historical precipitation and minimum and maximum temperature data, along with any other climate variables required by the hydrologic model. Data may come from weather stations, gridded observational products or reanalyses. The guidebook recommends using a single, coherent dataset across variables to maintain consistency in space and time and avoid introducing inconsistencies into the modelling chain.
+A hydrologic baseline in this example uses actual historic observations as the comparison point. In this case the streamflow observations are converted to energy in the modelling chain. This baseline has the advantage of historical basis and complete representation of natural processes, but is only a single realization of historic climate (the realization that actually occurred). Inherent within this baseline is the assumptions and errors in the observations. There may also be systematic biases between the observations and the system being assessed that may not make historic observations the best choice. This type of observed baseline is best suited when there is high confidence in the modelling chain being used.
+
+A climatic baseline typically consists of historical precipitation and minimum and maximum temperature data, along with any other climate variables required by the hydrologic model. Data may come from weather stations, gridded observational products or reanalyses. The guidebook recommends using a single, coherent dataset across variables to maintain consistency in space and time and avoid introducing inconsistencies into the modelling chain. This baseline allows for a consistent comparison between baseline hydrology and future hydrologic projections because any errors or biases inherent in the model exist in both the baseline (historic) and future periods. This baseline naturally compliments a [delta change](../climate_data_fundamentals/Bias_adjustment.qmd) approach as a result.
+
 A minimum period of 30 years is recommended to represent natural climate variability; longer periods may be useful for capturing longer climatic cycles. However, the quality of a climatic baseline depends on the density of the weather-station network and the quality of gridded observations or reanalysis products. These sources can contain measurement errors, inhomogeneities, biases and uncertainties. The baseline also reflects multiple climatic drivers—including natural variability, natural catastrophes and climate change—which can be difficult to disentangle. Limitations in the baseline may carry through to hydrologic simulations because model calibration conditions the hydrologic model to the characteristics of the selected climate dataset.
+
 Selecting a climatic baseline that is consistent with the climate-change data and transformation methods used later in the modelling chain helps reduce inconsistencies. This option is most suitable when an organization wants to better understand watershed hydrology and distinguish climate-change impacts from other hydrologic drivers. It requires suitable long-term climate and hydrologic data, a calibrated continuous hydrologic model, potentially a water-management model for highly regulated watersheds, more than three months for the assessment, and substantial hydrology expertise. Its main advantage is flexibility: practitioners can investigate the relative effects of natural variability, climate change, land-use changes and water-management practices, while drawing on the greater availability of regional climate projections compared with future hydrologic projections (Section 4.1).
 
+### Uncertainty
+To conduct a cliamte analysis it is crucial the uncertainty is properly considered and propogated through the modelling chain. this is further described in the [Climate Data Fundaments - Uncertainty](../climate_data_fundamentals/Uncertainty_Confidence.qmd) section.
 
 
-## Uncertainty
-See Uncertainty Section [ToDo: Insert link!]{.mark-red}
-
-
-## Data Confidence
-
+### Data Confidence
 Confidence in the data may distinguish between the confidence in the Signal obtained from data and the confidence in use of data themselves. For details see the [Core Concepts: Climate](../climate_data_fundamentals/Uncertainty_Confidence.html#confidence-in-the-analysis) section.
 
 
-## Risk and Vulnerability
+### Risk and Vulnerability
+Climate data can be integrated directly into models or modelling chains used for [risk and vulnerability assessments](./risk_assessment.qmd). This process can be used for a variety of applications, beyond formal risk assessment reports. 
 
-Provide the IPCC and ISO definitions of risk and vulnerability... recognize that different framework may express these concepts different
+**Asset Management**
+An appropriately scaled risk and vulnerability assessment can determine the risk to the business if a system, structure or component is not replaced through the risk assessment process.
 
-![Risk in IPCC assessment through time.</br>
-(a) An explicit risk framing emerged in the IPCC Special Report on Managing the Risks of Extreme Events and Disasters to Advance Climate Change Adaptation (SREX) and WGII AR5 (IPCC, 2014a, b).</br>
-(b) In the current assessment, the role of responses in modulating the determinants of risk is a new emphasis (the ‘wings’ of the hazard, vulnerability, and exposure ‘propellers’ represents the ways in which responses modulate each of these risk determinants).</br>
-(c) As the risk assessment spans Working Groups, the differential role of risk determinants for risk related to impacts, adaptation, and vulnerability versus risk related to mitigation becomes an increasingly important feature of climate risk assessment as well as management.</br>
-Figure 1.5 from @IPCC_2022_WGII_Ch_1](./images/IPCC_AR6_WGII_Figure_1_005a.png)
+**Infrastructure Design**
+Setting design values and thresholds for infrastructure is an important but uncertain process in the face of non-stationarity. Using climate data in [Step 4 - Vulnerability Analysis](./risk_step4_vulnerability.qmd) and [Step 5 - Risk Assessment](./risk_step5_risk.qmd) provides the designer insights on how the system behaves. The models used for these steps can then be used following the guidance in [Step 6 - Adaptation](./risk_step6_adapt.qmd) to make risk informed decision about design thresholds.
 
-## Evaluating Vulnerability
+**System Planning**
+Planning of the electricity system is a complex task. It involves many assumptions about future socio-economic conditions, technological availability and climate conditions. Integrating climate data in the modelling chain and stress testing different scenarios as described in [Step 4 - Vulnerability Analysis](./risk_step4_vulnerability.qmd) could provide a greater understanding of key drivers of integrated system vulnerability. This exercise must be selective as many electricity system models are computationally intensive.
+
+### Considerations for Modelling Chains
+The use of models or modelling chains creates interdependencies in processes which can lead to biases and errors if not properly considered. These are discussed thoroughly in the Cross Cutting Issues section of @Fournier2020.
+
+Both historic climate data and future projections emerge from a system based on prescribed physics, either those of the natural world or those selected to be represented in models. This means that at the generation of the data there is a consistency in their representation. This means that the data are produced by an interrelated temperature, precipitation, solar radiation and wind sequence that results in weather patterns. This is true in real world observations as well as GCMs and RCMs. [Data transformations](../climate_data_fundamentals/Data_Transformation.qmd) and [bias adjustment](../climate_data_fundamentals/Bias_adjustment.qmd) can improve the accuracy of projections compared to historic observations, but could alter the magnitude or sequencing of events. This can be particularly true for univariate bias correction. These processes therefore have tradeoffs to be considered for model integration.
+
+Similarly important is the consideration of the models being used in the modelling chain and their calibration. Model calibration or the establishment of empirical models forms relationships between the inputs and the outputs of a model through adjusting internal model parameter sets. These parameters become conditioned on the characteristics of inputs during the calibration process. For example, [observational datasets](../datasets/observed_data/Observational_Datasets.ipynb) may have different sequences or characteristics than a [reanalysis](../datasets/reanalysis_data/Reanalysis_Datasets.ipynb) due to the way each are created. The model will be conditioned on the unique characteristics of these data and [bias adjustment](../climate_data_fundamentals/Bias_adjustment.qmd) maybe be required for projections to have the same characteristics as the baseline data used to calibrate the model. Otherwise, systematic errors or biases can be inadvertently introduced into the modelling chain.
+
+Electricity system planning processes can be particularly complex in this regard. Climate data are used to generate wind, solar and hydroelectric generation forecasts, temperature data are used for developing demand scenarios, etc. and these various modelling chains are linked together for capacity expansion or resource adequacy assessments. It is relatively easy for in so complex a chain for inconsistencies in the cliamte scenario to occur. For example, in real life, solar generation will be lower on cloudy days when precipitation is high. With disparate sources of input data this may not be true to a resource adequacy model.
+
 
 ### Top down versus bottom up?
-
-### Stress Testing
-
-## Evaluating Risk
 
 ## Decision Making Under Deep Uncertainty
 We focus previously on stress testing, but where there are multiple dimensions of uncertainty or decision making we run into deeper uncertainty. DMDU may not be required for simple system or component replacements.
