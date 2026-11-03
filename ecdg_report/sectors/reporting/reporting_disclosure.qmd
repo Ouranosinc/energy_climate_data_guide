@@ -1,7 +1,6 @@
 ---
 title: Reporting and Disclosures
-bibliography: reporting_references.bib 
-#uncomment upper line to add bibliography 
+
 ---
 
 ## Summary Description
