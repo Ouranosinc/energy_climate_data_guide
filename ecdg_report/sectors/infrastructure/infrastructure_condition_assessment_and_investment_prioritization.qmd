@@ -9,7 +9,7 @@ For asset owners in the electricity system it is crucial to understand the condi
 
 In some organizations the responsibility for these processes may be split between different departments and are generally distinct but interrelated processes. **Condition assessments** are typically conducted by engineering teams to evaluate the physical state of assets. This can involve a combination of field inspections, monitoring systems, and predictive modeling to evaluate the condition of assets. 
 
-**Investment prioritization** occurs when an organization must decide how to allocate a finite budget of resources to maximize their benefit. There are various specific frameworks and practices. Generally, each potential project, investment or maintenance activity is evaluated based on its expected benefits, costs, risks, and alignment with organizational goals. Those projects with the highest expected benefits relative to their costs, or that address the most immediate risks, are typically prioritized for investment. Investment prioritization can be guided by risk assessments that consider both the likelihood and consequences of asset failures, as well as the potential impacts of climate change on infrastructure performance through a fit-for-purpose application of the [climate risk assessment framework](../../adaptation/risk_assessment.qmd).
+**Investment prioritization** occurs when an organization must decide how to allocate a finite budget of resources to maximize their benefit. There are various specific frameworks and practices. Generally, each potential project, investment or maintenance activity is evaluated based on its expected benefits, costs, risks, and alignment with organizational goals. Those projects with the highest expected benefits relative to their costs, or that address the most immediate risks, are typically prioritized for investment. Investment prioritization can be guided by risk assessments that consider both the likelihood and consequences of asset failures, as well as the potential impacts of climate change on infrastructure performance through a fit-for-purpose application of the [climate risk assessment framework](../../apply_climate_data/risk_assessment.qmd).
 
 
 ## Role in the Electricity System
@@ -23,9 +23,10 @@ This processes are used in the electricity sector to determine budget allocation
 There are many methods and models that can be used for these purposes, a comprehensive discussion of which is beyond the scope of this guide. Generalizations will be made about the methods and linked to other sections of the guide that support them.
 
 **Condition Assessements** can be conducted in various forms.
-* *Field inspections* are conducted by trained personnel and include visual inspections, measurements, and site testing of infrastructure components. These inspections can identify visible signs of wear, damage, or deterioration that may indicate the need for maintenance or replacement. This information can be combined with the experience of operators of the equipment to assess if it is functioning as intended. Recognizing the interaction of the system and the climate/environment inspection programs could be modified to monitor for climate related impacts and institutionalize monitoring as an adaptation decision (see [Step 7: Reporting or Institutionalizing the Decision](../../apply_climate_data/risk_step7_institute.qmd)).
-* *Monitoring systems* use sensors and data collection devices to continuously monitor the condition of infrastructure and may be setup to monitor for climate variables of interest.
-* *Predictive modeling* uses historical data, engineering principles, and statistical techniques to model asset performance and identify potential failure points. In some utilities this is combined with ongoing *Monitoring systems* to form a *Monitoring and Diagnostics* framework. Using historic data, a model is built of the system to predict how it should perform under different operating conditions. When the observed performance through monitoring processes deviates from the expected performance that is predicted by the model the operations and engineering teams are alerted that something may be wrong. Where relevant these models may include climatic inputs and can be combined with outcomes from a [vulnerability assessment](../../apply_climate_data/risk_step4_vulnerability.qmd) to monitor performance overtime.
+
+- **Field inspections** are conducted by trained personnel and include visual inspections, measurements, and site testing of infrastructure components. These inspections can identify visible signs of wear, damage, or deterioration that may indicate the need for maintenance or replacement. This information can be combined with the experience of operators of the equipment to assess if it is functioning as intended. Recognizing the interaction of the system and the climate/environment inspection programs could be modified to monitor for climate related impacts and institutionalize monitoring as an adaptation decision (see [Step 7: Reporting or Institutionalizing the Decision](../../apply_climate_data/risk_step7_institute.qmd)).
+- **Monitoring systems** use sensors and data collection devices to continuously monitor the condition of infrastructure and may be setup to monitor for climate variables of interest.
+- **Predictive modeling** uses historical data, engineering principles, and statistical techniques to model asset performance and identify potential failure points. In some utilities this is combined with ongoing *Monitoring systems* to form a *Monitoring and Diagnostics* framework. Using historic data, a model is built of the system to predict how it should perform under different operating conditions. When the observed performance through monitoring processes deviates from the expected performance that is predicted by the model the operations and engineering teams are alerted that something may be wrong. Where relevant these models may include climatic inputs and can be combined with outcomes from a [vulnerability assessment](../../apply_climate_data/risk_step4_vulnerability.qmd) to monitor performance overtime.
 
 Each of these sub-components of condition assessments can be combined into a comprehensive assessment process such as a [dam safety review](./dam_safety_review.qmd). A dam safety review, for example, combines inspections of the asset from qualified field staff, assessment of performance monitoring of the dam as well as modelling of specific aspects such as ice loading or hydraulic analysis of extreme events.
 
@@ -58,6 +59,7 @@ There are various climate inputs that can be relevant to condition assessments a
 * Operational data and performance metrics
 * Inspection reports and field observations
 * Operating experience and knowledge of the asset or systems
+:::
 
 :::{#id1 .callout collapse="true"}
 ### Model Outputs
@@ -87,10 +89,6 @@ Climate considerations are not yet fully integrated into condition assessments. 
 
 ## References
 
-<details>
-<summary><strong>(click to expand)</strong></summary>
-
 ::: {#refs}
 :::
 
-</details>
