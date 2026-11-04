@@ -54,7 +54,7 @@ The appropriate data category depends on the application, variable, spatial and 
 - [Forecasts, Projections and Predictability](./Temporal_Horizons_Predictability.qmd) distinguishes future information across timescales.
 - [Emissions Scenarios](./Emissions_scenarios.qmd) and [Climate-Model Ensembles](./Ensembles.qmd) provide supporting concepts for interpreting climate projections.
 - [Projection Periods and Global Warming Levels](./Time_horizons_GWL.qmd) explains two complementary ways to organize future climate information.
-- [Downscaling and Bias Adjustment](./Bias_adjustment.qmd) and [Uncertainty and Confidence](./Uncertainty_Confidence.qmd) address interpretation and processing considerations.
+- [Data Transformation Methods](./Data_Transformation.qmd) and [Uncertainty and Confidence](./Uncertainty_Confidence.qmd) address interpretation and processing considerations.
 - [Climate-Information Gaps and Limitations](./gaps_data.qmd) and [Climate-Data Formats](./Data_Formats.qmd) cover practical limitations, access and file structures.
 
 
