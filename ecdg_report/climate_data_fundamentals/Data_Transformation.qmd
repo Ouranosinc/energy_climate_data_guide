@@ -72,7 +72,7 @@ Based on @Fournier2020 (sections 3.1–3.6, pp. 52–65), supplemented by IPCC A
 
 Direct use means passing a dataset to the next model or analysis without further transformation. The dataset may contain observations, raw model output, or previously processed simulations.
 
-:::: {.callout-note collapse="false" title="Strengths and limitations"}
+:::: {.callout-note collapse="true" title="Strenghts and Limitations"}
 **Strengths**
 
 - **Simple to implement.** No additional transformation is needed at this step.
@@ -96,7 +96,7 @@ Downscaling produces climate information at finer spatial scales than the drivin
 
 In contrast, **dynamical downscaling** refers to employing [regional climate models](../datasets/climate_projection_data/Climate_Projection_Datasets.qmd) (RCMs) which are driven by GCM output at their boundaries to explicitly simulate regional climate processes at a higher spatial resolution.
 
-:::: {.callout-note collapse="false" title="Strengths and limitations"}
+:::: {.callout-note collapse="true" title="Strenghts and Limitations"}
 **Strengths**
 
 - **Provides finer-scale information relevant to the application.** Downscaling can better represent regional or local differences associated with terrain, coastlines and other features.
@@ -120,7 +120,7 @@ Bias adjustment can be applied at the model's existing spatial resolution or com
 
 Univariate approaches adjust variables separately, whereas multivariate approaches also target relationships among variables (for example, concurrent temperature and humidity conditions relevant to electricity demand). Quantile mapping is a widely used family of bias-adjustment methods that adjusts simulated values according to their position in a statistical distribution. Methods differ in which properties they adjust and how they treat projected climate changes. Some are designed to preserve modelled changes in means or quantiles. Dataset documentation should describe these choices so users can assess their relevance to the application (@MaraunWidmann2018; @Menapace2025).
 
-:::: {.callout-note collapse="false" title="Strengths and limitations"}
+:::: {.callout-note collapse="true" title="Strenghts and Limitations"}
 **Strengths**
 
 - **Reduces selected systematic biases.** It can improve agreement with reference statistics, making simulations more suitable for threshold-based indicators and impact models calibrated to historical data.
@@ -152,7 +152,7 @@ The delta method is a simple and transparent way to combine a modelled climate-c
 
 Delta methods modify a baseline, whereas bias adjustment modifies simulated values against a reference dataset. Mean-change deltas apply a change to the mean; quantile-based deltas can apply different changes across the distribution, including its tails. The method is commonly applied to [30-year reference and future periods](Time_horizons_GWL.qmd#temporal-horizon), although longer periods may be appropriate for some applications. For details on applying mean changes, see @Charron2016. For a broader explanation of quantile-mapping methods, see @MaraunWidmann2018.
 
-:::: {.callout-note collapse="false" title="Strengths and limitations"}
+:::: {.callout-note collapse="true" title="Strenghts and Limitations"}
 **Strengths**
 
 - **Simple for mean changes.** Differences or ratios from climate simulations can be applied directly to a baseline. Quantile-based variants allow changes to differ across the distribution but require more processing.
@@ -176,7 +176,7 @@ Power system planning tools, including capacity expansion, production cost, and 
 
 The Quantile Delta Change (QDC) method takes real historical hourly weather data, typically from weather stations or reanalysis data, and adjusts it by the change (“delta”) simulated by a climate model. For example, daily maximum temperature changes are computed by comparing the daily maximum temperature distribution from a climate model in a future period (e.g., 2036-2065 for target year 2050) to the historical daily maximum temperature distribution (e.g., 1996-2025). These differences are applied to historical daily maximum temperatures. The procedure is also applied to daily minimum temperatures, with a multivariate step accounting for their relationship with daily maxima. Each day's historical hourly profile is then rescaled between the adjusted minimum and maximum temperatures. This is computed separately for each quantile of the distribution and on a monthly basis to capture how the climate may change differently across seasons and across averages and extremes. Typically, the QDC approach is implemented across numerous climate models and emissions scenarios to capture the range of plausible futures. For more information, see @SmithDiazMardian2025.
 
-![Quantile Delta Change (QDC) example for Ottawa: (a) historical and shifted July daily maximum temperature distributions, showing changes at selected quantiles; (b) the historical hourly temperature profile for July 31, 2016, rescaled between shifted daily minimum and maximum temperatures for the 2050 climate under CanESM5 SSP3-7.0.](image/intro02_shift_method.png){#fig-qdc-hourly-example fig-alt="Quantile Delta Change example for Ottawa. The left panel compares historical and shifted July daily maximum temperature distributions, with different changes at the 10th, 50th and 90th percentiles. The right panel shows the historical hourly temperature profile for July 31, 2016 and a shifted profile for the 2050 climate under CanESM5 SSP3-7.0, with changed daily minimum and maximum temperatures." width=100%}
+![Quantile Delta Change (QDC) example for Ottawa: (a) historical and shifted July daily maximum temperature distributions, showing changes at selected quantiles; (b) the historical hourly temperature profile for July 31, 2016, rescaled between shifted daily minimum and maximum temperatures for the 2050 climate under CanESM5 SSP3-7.0.](image/intro02_shift_method.png){.lightbox #fig-qdc-hourly-example fig-alt="Quantile Delta Change example for Ottawa. The left panel compares historical and shifted July daily maximum temperature distributions, with different changes at the 10th, 50th and 90th percentiles. The right panel shows the historical hourly temperature profile for July 31, 2016 and a shifted profile for the 2050 climate under CanESM5 SSP3-7.0, with changed daily minimum and maximum temperatures." width=100%}
 
 **Why this approach is useful**
 
@@ -204,7 +204,7 @@ QDC has several limitations that should be considered to determine if this appro
 
 The reduction method consists of shortening a baseline period by excluding portions of a time series that are considered erroneous or unrepresentative of current conditions. It may be appropriate when statistical tests identify a significant trend or inhomogeneities, such as an abrupt change in the mean or a change in variance. Before reducing the period, these characteristics should be investigated, including their possible causes, since they may originate from factors other than climate change.
 
-:::: {.callout-note collapse="false" title="Strengths and limitations"}
+:::: {.callout-note collapse="true" title="Strenghts and Limitations"}
 **Strengths**
 
 - **May improve representativeness.** The retained period may better reflect the conditions relevant to the analysis.
@@ -225,7 +225,7 @@ These trade-offs should be assessed for the intended application (@Fournier2020,
 
 The adjustment method modifies a baseline time series to remove a statistically significant trend and make it more representative of the conditions relevant to the analysis. A correction factor proportional to time is applied to the data. This factor can be derived directly from the baseline or from climate model simulations of the same period that account for climate change and other relevant drivers. The correction can be estimated for means or quantiles at annual, seasonal, monthly or daily scales, and the adjustment can be combined with other methods, such as bias correction or the delta method.
 
-:::: {.callout-note collapse="false" title="Strengths and limitations"}
+:::: {.callout-note collapse="true" title="Strenghts and Limitations"}
 **Strengths**
 
 - **Allows historical events to be examined in a more recent climate.** Adjusts historical values to account for the selected climate trend while retaining the sequence of events.
@@ -247,7 +247,7 @@ The extension method constructs a future scenario by extending a selected trend 
 
 If, for example, temperature has increased over the baseline period, the method can extend this trend into a future period by progressively adjusting the baseline values or parts of it. This produces a future-oriented time series while retaining the baseline data as its starting point.
 
-:::: {.callout-note collapse="false" title="Strengths and limitations"}
+:::: {.callout-note collapse="true" title="Strenghts and Limitations"}
 **Strengths**
 
 - **Simple to apply once a trend is selected.** A time-dependent correction can construct a conditional future scenario, although the trend and extrapolation horizon still require justification.
@@ -263,13 +263,13 @@ State the extrapolation horizon and its physical justification; a statistically 
 
 ![An assumed trend of plus 0.1 degrees Celsius per year is extended by shifting each baseline year forward by 30 years and adding 3 degrees Celsius. Baseline fluctuations are reused.](image/transformation_extension.svg){#fig-transformation-extension fig-alt="A shared timeline separates the 1991-2020 baseline from a constructed future segment in 2021-2050, with reused fluctuations shifted by three degrees and a dashed extrapolated trend." width=100%}
 
-::: {.callout-note title='Checking Fitness for Use'}
-After transformation, check that the data meet the requirements identified above:
+## Checking Fitness for Use
+After any transformation, check that the data meet the requirements identified above:
 
 - Confirm units, calendars, time steps and whether values represent means, totals or maxima/minima.
 - Evaluate relevant extremes, event durations and relationships among variables and locations. Use consistent scenarios and model members when combining inputs.
 - Record the reference dataset, method and previous processing, and document remaining limitations. Compare relevant properties before and after transformation (@Fournier2020).
-:::
+
 
 ## References
 
