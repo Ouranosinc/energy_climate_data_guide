@@ -3,17 +3,17 @@ title: Data Transformation Methods
 
 ---
 
-[Data transformation changes the units, spatial or temporal representation, or statistical properties of climate data to meet an application's needs. Examples include calculating catchment-average precipitation for hydrological modelling or deriving cooling degree-days for demand analysis. A transformation should address a specific mismatch between the available data and the information required by the next model or analysis in a [modelling chain](../apply_climate_data/model_integration.qmd#modelling-chains).]{style="color: red;"}
+Data transformation changes the units, spatial or temporal representation, or statistical properties of climate data to meet an application's needs. Examples include calculating catchment-average precipitation for hydrological modelling or deriving cooling degree-days for demand analysis. A transformation should address a specific mismatch between the available data and the information required by the next model or analysis in a [modelling chain](../apply_climate_data/model_integration.qmd#modelling-chains).
 
-[This page introduces selected approaches adapted from @Fournier2020, who discuss their strengths and limitations in more detail. These include using data without further modification, modifying a historical baseline (the reference time series used to represent past or current conditions), and processing climate-model simulations. They are not an exhaustive classification of transformations; routine operations such as unit conversion, aggregation, interpolation and indicator calculation are not detailed separately here.]{style="color: red;"}
+This page introduces selected approaches adapted from @Fournier2020, who discuss their strengths and limitations in more detail. These include using data without further modification, modifying a historical baseline (the reference time series used to represent past or current conditions), and processing climate-model simulations. They are not an exhaustive classification of transformations; routine operations such as unit conversion, aggregation, interpolation and indicator calculation are not detailed separately here.
 
-@Fournier2020 discuss transformation methods for [hydropower modelling]{style="color: red;"}; application to another electricity-sector decision requires checking the respective model's needs and the decision-relevant quantities. See [Integrating Climate Information into Models and Decisions](../apply_climate_data/model_integration.qmd) for the wider model-chain questions and [Climate Data Decision Tree](../datasets/Climate_Data_Decision_Tree.qmd) for selecting candidate data.
+@Fournier2020 discuss transformation methods for hydropower modelling; application to another electricity-sector decision requires checking the respective model's needs and the decision-relevant quantities. See [Integrating Climate Information into Models and Decisions](../apply_climate_data/model_integration.qmd) for the wider model-chain questions and [Climate Data Decision Tree](../datasets/Climate_Data_Decision_Tree.qmd) for selecting candidate data.
 
 ::: {.callout-tip title="Choosing Transformations for Decisions"}
-[Transformation methods are typically applied to meet the requirements of a model in a modelling chain and to align with the decision at the end of the chain. The following questions can help identify an appropriate approach:]{style="color: red;"}
+Transformation methods are typically applied to meet the requirements of a model in a modelling chain and to align with the decision at the end of the chain. The following questions can help identify an appropriate approach:
 
 - **Where is the handoff?**</br>
-[Identify the model, indicator calculation or analysis that will receive the dataset.]{style="color: red;"}
+Identify the model, indicator calculation or analysis that will receive the dataset.
 - **What does the next step require?**</br>
 Specify variables, units, spatial coverage, time step, reference period, and any thresholds or dependencies it evaluates.
 - **Which features matter to the decision?**</br>
@@ -23,10 +23,10 @@ If so, a direct handoff may be appropriate. If not, identify the specific mismat
 - **What could the transformation change or discard?**</br>
 Document the assumptions, compare relevant characteristics before and after processing, and decide whether the result remains fit for the intended use.
 
-[The seven approaches below are neither mandatory steps nor a prescribed sequence. Terminology may differ across fields.]{style="color: red;"}
+The seven approaches below are neither mandatory steps nor a prescribed sequence. Terminology may differ across fields.
 :::
 
-[The following table indicates when each approach may be useful. Select an approach to read about its application, strengths and limitations.]{style="color: red;"}
+The following table indicates when each approach may be useful. Select an approach to read about its application, strengths and limitations.
 
 | Approach | When to consider it |
 |---|---|
@@ -70,7 +70,7 @@ Based on @Fournier2020 (sections 3.1–3.6, pp. 52–65), supplemented by IPCC A
 
 ## Direct Use
 
-[Direct use means passing a dataset to the next model or analysis without further transformation. The dataset may contain observations, raw model output, or previously processed simulations.]{style="color: red;"}
+Direct use means passing a dataset to the next model or analysis without further transformation. The dataset may contain observations, raw model output, or previously processed simulations.
 
 :::: {.callout-note collapse="false" title="Strengths and limitations"}
 **Strengths**
@@ -90,11 +90,11 @@ Use this approach when the dataset already meets the application's requirements 
 
 ## Downscaling
 
-[Downscaling produces climate information at finer spatial scales than the driving climate model. It may be useful where topography, coastlines or other regional processes materially affect an electricity-sector application. The required spatial detail depends on the decision; some assessments can use broader-scale information.]{style="color: red;"}
+Downscaling produces climate information at finer spatial scales than the driving climate model. It may be useful where topography, coastlines or other regional processes materially affect an electricity-sector application. The required spatial detail depends on the decision; some assessments can use broader-scale information.
 
-**Statistical downscaling** establishes empirical relationships between [large-scale global climate model (GCM) variables]{style="color: red;"} and local climate observations, using historical data as a training base. Available methods are computationally efficient and have been widely used.
+**Statistical downscaling** establishes empirical relationships between large-scale global climate model (GCM) variables and local climate observations, using historical data as a training base. Available methods are computationally efficient and have been widely used.
 
-In contrast, **dynamical downscaling** refers to employing [[regional climate models](../datasets/climate_projection_data/Climate_Projection_Datasets.qmd)]{style="color: red;"} (RCMs) which are driven by GCM output at their boundaries to explicitly simulate regional climate processes at a higher spatial resolution.
+In contrast, **dynamical downscaling** refers to employing [regional climate models](../datasets/climate_projection_data/Climate_Projection_Datasets.qmd) (RCMs) which are driven by GCM output at their boundaries to explicitly simulate regional climate processes at a higher spatial resolution.
 
 :::: {.callout-note collapse="false" title="Strengths and limitations"}
 **Strengths**
@@ -114,11 +114,11 @@ Assess whether the additional detail improves the information needed for the app
 
 ## Bias Adjustment
 
-[Bias adjustment, also commonly called bias correction, uses observations or another reference dataset to reduce selected systematic biases in climate-model simulations. For example, a model may be consistently too warm or too cool, or misrepresent precipitation amounts or the number of wet days. Biases can arise from spatial resolution, process parameterization and other model limitations. Adjustment is particularly relevant when deriving threshold-based indicators or driving impact models calibrated to historical observations. In these applications, biases in the input data can lead to unrealistic responses.]{style="color: red;"}
+Bias adjustment, also commonly called bias correction, uses observations or another reference dataset to reduce selected systematic biases in climate-model simulations. For example, a model may be consistently too warm or too cool, or misrepresent precipitation amounts or the number of wet days. Biases can arise from spatial resolution, process parameterization and other model limitations. Adjustment is particularly relevant when deriving threshold-based indicators or driving impact models calibrated to historical observations. In these applications, biases in the input data can lead to unrealistic responses.
 
-[Bias adjustment can be applied at the model's existing spatial resolution or combined with downscaling to produce finer-scale information. Both GCM and RCM outputs can contain systematic biases; dynamical downscaling does not remove the potential need for bias adjustment.]{style="color: red;"}
+Bias adjustment can be applied at the model's existing spatial resolution or combined with downscaling to produce finer-scale information. Both GCM and RCM outputs can contain systematic biases; dynamical downscaling does not remove the potential need for bias adjustment.
 
-[Univariate approaches adjust variables separately, whereas multivariate approaches also target relationships among variables (for example, concurrent temperature and humidity conditions relevant to electricity demand). Quantile mapping is a widely used family of bias-adjustment methods that adjusts simulated values according to their position in a statistical distribution. Methods differ in which properties they adjust and how they treat projected climate changes. Some are designed to preserve modelled changes in means or quantiles. Dataset documentation should describe these choices so users can assess their relevance to the application (@MaraunWidmann2018; @Menapace2025).]{style="color: red;"}
+Univariate approaches adjust variables separately, whereas multivariate approaches also target relationships among variables (for example, concurrent temperature and humidity conditions relevant to electricity demand). Quantile mapping is a widely used family of bias-adjustment methods that adjusts simulated values according to their position in a statistical distribution. Methods differ in which properties they adjust and how they treat projected climate changes. Some are designed to preserve modelled changes in means or quantiles. Dataset documentation should describe these choices so users can assess their relevance to the application (@MaraunWidmann2018; @Menapace2025).
 
 :::: {.callout-note collapse="false" title="Strengths and limitations"}
 **Strengths**
@@ -135,22 +135,22 @@ Assess whether the additional detail improves the information needed for the app
 Improved agreement with historical reference statistics does not guarantee realistic future conditions. Evaluate the properties that matter to the intended application (@Fournier2020, section 3.6, pp. 63-65; @MaraunWidmann2018; @Menapace2025).
 ::::
 
-[Several products documented in this guide have already undergone bias adjustment, including [ESPO-G6](../datasets/climate_projection_data/ESPO-G6.ipynb), [CanDCS-M6](../datasets/climate_projection_data/CanDCS-M6.ipynb), [CanLEAD](../datasets/climate_projection_data/CanLEAD.ipynb) and [NEX-GDDP-CMIP6](../datasets/climate_projection_data/NEX-GDDP-CMIP6.ipynb). See [Climate Projection Datasets](../datasets/climate_projection_data/Climate_Projection_Datasets.qmd) for an overview of GCMs, RCMs and the strengths and limitations of bias-adjusted products. Individual dataset profiles document product-specific processing and limitations.]{style="color: red;"}
+Several products documented in this guide have already undergone bias adjustment, including [ESPO-G6](../datasets/climate_projection_data/ESPO-G6.ipynb), [CanDCS-M6](../datasets/climate_projection_data/CanDCS-M6.ipynb), [CanLEAD](../datasets/climate_projection_data/CanLEAD.ipynb) and [NEX-GDDP-CMIP6](../datasets/climate_projection_data/NEX-GDDP-CMIP6.ipynb). See [Climate Projection Datasets](../datasets/climate_projection_data/Climate_Projection_Datasets.qmd) for an overview of GCMs, RCMs and the strengths and limitations of bias-adjusted products. Individual dataset profiles document product-specific processing and limitations.
 
-[For further reading, @Charron2016 and @Fournier2020 provide introductory explanations, @Menapace2025 reviews bias-adjustment methods in hydrology, and @MaraunWidmann2018 provides an in-depth discussion of statistical downscaling and bias adjustment for climate research. Open-source Python code for applying bias-adjustment methods is available in the [xsdba library](https://xsdba.readthedocs.io/en/latest/index.html).]{style="color: red;"}
+For further reading, @Charron2016 and @Fournier2020 provide introductory explanations, @Menapace2025 reviews bias-adjustment methods in hydrology, and @MaraunWidmann2018 provides an in-depth discussion of statistical downscaling and bias adjustment for climate research. Open-source Python code for applying bias-adjustment methods is available in the [xsdba library](https://xsdba.readthedocs.io/en/latest/index.html).
 
 ![Example of additive mean adjustment: the historical difference between reference and simulated means is applied across the simulation. Distribution-based methods can instead adjust different quantiles. Quantile delta mapping (QDM) is designed to preserve simulated changes in quantiles; these changes may differ across the distribution.](image/transformation_bias.svg){#fig-transformation-bias fig-alt="A single timeline shows reference observations during 1981 to 2010, an unadjusted simulation through 2080, and its adjusted counterpart shifted down by two degrees Celsius. The reference period is shaded and its means are marked with dashed lines." width=100%}
 
 
-## [Modifying Historical Data]{style="color: red;"} {#baseline-treatments}
+## Modifying Historical Data {#baseline-treatments}
 
-[These approaches modify the historical baseline used in an analysis. The choice depends on the purpose of the [baseline](../apply_climate_data/model_integration.qmd#climatic-baseline-selection) and the causes of any trends or discontinuities in the record.]{style="color: red;"}
+These approaches modify the historical baseline used in an analysis. The choice depends on the purpose of the [baseline](../apply_climate_data/model_integration.qmd#climatic-baseline-selection) and the causes of any trends or discontinuities in the record.
 
 ### Delta Method {#delta-method}
 
-The [delta method]{style="color: red;"} is a simple and transparent way to combine a modelled climate-change signal with an observed historical time series (baseline). The change between historical and future periods in a climate-model simulation is calculated as a difference or ratio and then applied to observations. This preserves the baseline’s day-to-day sequence of events while imposing the modelled change to reflect projected climate conditions. The method can be applied to means of the distribution or its quantiles. Additive changes are commonly used for temperature, while multiplicative factors are often used for precipitation to avoid negative values. Multiple climate simulations of different models and [[emissions scenarios](Emissions_scenarios.qmd)]{style="color: red;"} can be used to generate an [ensemble of future conditions](Ensembles.qmd). [Since the method modifies the baseline, it is sometimes referred to as the perturbation method.]{style="color: red;"}
+The delta method is a simple and transparent way to combine a modelled climate-change signal with an observed historical time series (baseline). The change between historical and future periods in a climate-model simulation is calculated as a difference or ratio and then applied to observations. This preserves the baseline’s day-to-day sequence of events while imposing the modelled change to reflect projected climate conditions. The method can be applied to means of the distribution or its quantiles. Additive changes are commonly used for temperature, while multiplicative factors are often used for precipitation to avoid negative values. Multiple climate simulations of different models and [emissions scenarios](Emissions_scenarios.qmd) can be used to generate an [ensemble of future conditions](Ensembles.qmd). Since the method modifies the baseline, it is sometimes referred to as the perturbation method.
 
-[Delta methods modify a baseline, whereas bias adjustment modifies simulated values against a reference dataset. Mean-change deltas apply a change to the mean; quantile-based deltas can apply different changes across the distribution, including its tails.]{style="color: red;"} The method is commonly applied to [30-year reference and future periods](Time_horizons_GWL.qmd#temporal-horizon), although longer periods may be appropriate for some applications. [For details on applying mean changes, see @Charron2016. For a broader explanation of quantile-mapping methods, see @MaraunWidmann2018.]{style="color: red;"}
+Delta methods modify a baseline, whereas bias adjustment modifies simulated values against a reference dataset. Mean-change deltas apply a change to the mean; quantile-based deltas can apply different changes across the distribution, including its tails. The method is commonly applied to [30-year reference and future periods](Time_horizons_GWL.qmd#temporal-horizon), although longer periods may be appropriate for some applications. For details on applying mean changes, see @Charron2016. For a broader explanation of quantile-mapping methods, see @MaraunWidmann2018.
 
 :::: {.callout-note collapse="false" title="Strengths and limitations"}
 **Strengths**
@@ -200,7 +200,7 @@ QDC has several limitations that should be considered to determine if this appro
 
 ::::
 
-### [Reduction]{style="color: red;"} {#reduction-method}
+### Reduction {#reduction-method}
 
 The reduction method consists of shortening a baseline period by excluding portions of a time series that are considered erroneous or unrepresentative of current conditions. It may be appropriate when statistical tests identify a significant trend or inhomogeneities, such as an abrupt change in the mean or a change in variance. Before reducing the period, these characteristics should be investigated, including their possible causes, since they may originate from factors other than climate change.
 
@@ -221,9 +221,9 @@ These trade-offs should be assessed for the intended application (@Fournier2020,
 ![Reduction of a baseline record: the retained 1991-2020 period is highlighted in blue. The dashed grey and solid orange lines show the means of the full record and retained period, respectively.](image/transformation_reduction.svg){#fig-transformation-reduction fig-alt="One time series spans 1961 to 2020. The retained 1991 to 2020 baseline is highlighted in blue. A dashed grey line marks the full-record mean and a solid orange line marks the retained-period mean." width=100%}
 
 
-### [Trend Adjustment (Detrending)]{style="color: red;"} {#adjustment-method}
+### Trend Adjustment (Detrending) {#adjustment-method}
 
-The adjustment method modifies a baseline time series to remove a statistically significant trend and make it more representative of the conditions relevant to the analysis. A correction factor proportional to time is applied to the data. This factor can be derived directly from the baseline or from climate model simulations of the same period that account for climate change and other relevant drivers. [The correction can be estimated for means or quantiles at annual, seasonal, monthly or daily scales, and the adjustment can be combined with other methods, such as bias correction or the delta method.]{style="color: red;"}
+The adjustment method modifies a baseline time series to remove a statistically significant trend and make it more representative of the conditions relevant to the analysis. A correction factor proportional to time is applied to the data. This factor can be derived directly from the baseline or from climate model simulations of the same period that account for climate change and other relevant drivers. The correction can be estimated for means or quantiles at annual, seasonal, monthly or daily scales, and the adjustment can be combined with other methods, such as bias correction or the delta method.
 
 :::: {.callout-note collapse="false" title="Strengths and limitations"}
 **Strengths**
@@ -241,9 +241,9 @@ Use detrending only when the analysis requires a baseline representing specified
 ![Trend adjustment of a baseline record. The original baseline and its selected trend are shown in blue; the adjusted baseline and reference level are shown in orange. The trend is removed while anchoring values at the 2020 trend level.](image/transformation_adjustment.svg){#fig-transformation-adjustment fig-alt="One panel overlays the original baseline and its upward trend in blue with the adjusted baseline and constant 2020 reference level in orange. Earlier values receive larger adjustments; the final value is unchanged." width=100%}
 
 
-### [Extension]{style="color: red;"} {#extension-method}
+### Extension {#extension-method}
 
-[The extension method constructs a future scenario by extending a selected trend beyond the baseline period. It uses the same approaches to estimating and applying a time-dependent correction described under [Trend Adjustment (Detrending)](#adjustment-method), but applies the correction to represent future conditions.]{style="color: red;"}
+The extension method constructs a future scenario by extending a selected trend beyond the baseline period. It uses the same approaches to estimating and applying a time-dependent correction described under [Trend Adjustment (Detrending)](#adjustment-method), but applies the correction to represent future conditions.
 
 If, for example, temperature has increased over the baseline period, the method can extend this trend into a future period by progressively adjusting the baseline values or parts of it. This produces a future-oriented time series while retaining the baseline data as its starting point.
 
@@ -263,14 +263,12 @@ State the extrapolation horizon and its physical justification; a statistically 
 
 ![An assumed trend of plus 0.1 degrees Celsius per year is extended by shifting each baseline year forward by 30 years and adding 3 degrees Celsius. Baseline fluctuations are reused.](image/transformation_extension.svg){#fig-transformation-extension fig-alt="A shared timeline separates the 1991-2020 baseline from a constructed future segment in 2021-2050, with reused fluctuations shifted by three degrees and a dashed extrapolated trend." width=100%}
 
-::: {.callout-note title='[Checking Fitness for Use]{style="color: red;"}'}
-::: {style="color: red;"}
+::: {.callout-note title='Checking Fitness for Use'}
 After transformation, check that the data meet the requirements identified above:
 
 - Confirm units, calendars, time steps and whether values represent means, totals or maxima/minima.
 - Evaluate relevant extremes, event durations and relationships among variables and locations. Use consistent scenarios and model members when combining inputs.
 - Record the reference dataset, method and previous processing, and document remaining limitations. Compare relevant properties before and after transformation (@Fournier2020).
-:::
 :::
 
 ## References
