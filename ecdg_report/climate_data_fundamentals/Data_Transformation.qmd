@@ -37,6 +37,7 @@ The following table indicates when each approach may be useful. Select an approa
 | **[Reduction](#reduction-method)** | Part of the historical record is unsuitable for the baseline being constructed. |
 | **[Trend adjustment](#adjustment-method)** | Historical events need to be examined under selected, more recent climate conditions. |
 | **[Extension](#extension-method)** | The analysis explores a conditional future scenario by extending a selected trend. |
+| **[Aggregation](#aggregation-method)** | The application needs climate information for specific spatial units. |
 : {.tbl .striped .light .sm tbl-colwidths="[25,75]"}
 
 :::: {.callout-tip collapse="true" title="Compare potential strengths"}
@@ -46,14 +47,15 @@ This matrix highlights potential benefits. Methods can be combined, and the numb
 
 ::: {style="overflow-x: auto;"}
 ::: {style="min-width: 850px;"}
-| Potential strength | Direct use | Downscaling | Bias adjustment | Delta | Reduction | Trend adjustment | Extension |
-|---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| Preserves the numerical values of the data^1^ | ✓ | — | — | — | ✓ | — | — |
-| Provides finer-scale spatial information | — | ✓ | — | — | — | — | — |
-| Reduces selected systematic simulation biases | — | Conditional^2^ | ✓ | — | — | — | — |
-| Supports analysis of different simulated weather sequences | Conditional^3^ | ✓ | ✓ | — | — | — | — |
-| Supports comparison of historical events under changed conditions | — | — | — | ✓ | — | ✓ | ✓ |
-| Makes a baseline more representative of selected recent conditions | — | — | — | — | ✓ | ✓ | — |
+| Potential strength | Direct use | Downscaling | Bias adjustment | Delta | Reduction | Trend adjustment | Extension | Aggregation |
+|---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| Preserves the numerical values of the data^1^ | ✓ | — | — | — | ✓ | — | — | — |
+| Provides finer-scale spatial information | — | ✓ | — | — | — | — | — | — |
+| Reduces selected systematic simulation biases | — | Conditional^2^ | ✓ | — | — | — | — | — |
+| Supports analysis of different simulated weather sequences | Conditional^3^ | ✓ | ✓ | — | — | — | — | — |
+| Supports comparison of historical events under changed conditions | — | — | — | ✓ | — | ✓ | ✓ | — |
+| Makes a baseline more representative of selected recent conditions | — | — | — | — | ✓ | ✓ | — | — |
+| Supports analysis of decision/process relevant spatial units | — | — | — | — | — | — | — | ✓ |
 : {.tbl .striped .light .sm tbl-colwidths="[30,10,10,10,10,10,10,10]"}
 :::
 :::
@@ -274,16 +276,23 @@ For station observations, the corresponding operation is generally to assign sta
 
 The choice of statistic and weighting method depends on the variable and application. For example, area-weighted means may be suitable for temperature or precipitation, whereas sums may be appropriate for additive quantities. Spatial reference systems, polygon boundaries, grid resolution and partial cell overlaps should be considered. The resulting regional statistics or time series can serve as inputs to impact models or support comparisons between geographic units.
 
+Spatial Aggregation may also refer to the combination of finer grid cells to a coarser grid.
+
+
+![Spatial aggregation. Spatial aggregation condenses gridded data or station observations into representative values for larger spatial units. (1) Grid to polygons: grid cells overlapping each polygon, such as an administrative region or watershed, are combined into one value per polygon, for example an area-weighted mean. (2) Spatial statistics: station observations are assigned to the polygon that contains them, and statistics such as mean, minimum, maximum and the 90th percentile (P90) are calculated for each polygon. (3) Coarser grid: groups of fine grid cells are combined into larger cells, for example by averaging, to give a coarser grid. Grid shading and values are schematic.](image/transformation_spatial_aggregation.svg){#fig-transformation-extension fig-alt="A shared timeline separates the 1991-2020 baseline from a constructed future segment in 2021-2050, with reused fluctuations shifted by three degrees and a dashed extrapolated trend." width=100%}
+
+
 ::: {.callout-note collapse="true" title="Strenghts and Limitations"}
 **Strengths**
 
 - **Relevance to decision-making**. Provides climate statistics for geographic units used in infrastructure planning, watershed management or impact assessments.
-- **Flexibility and applicability.** Accommodates different spatial units, data sources (gridded datasets and station observations) and statistical measures.
-- Simplified analysis: Reduces data volume and produces regional statistics or time series that can be readily used in impact models and comparisons.
-Limitations
-- Loss of spatial detail: Aggregation masks local climate variations and may conceal important differences within geographic units.
-- Sensitivity to resolution and boundaries: Results depend on input data resolution, polygon size and shape, and the treatment of partially overlapping grid cells.
-- Potential representativeness biases: Uneven station distribution, missing data and inappropriate weighting methods can lead to misleading regional statistics.
+- **Simplified analysis.** Reduces data volume and produces regional statistics or time series that are more fit for use in impact models, mapping, and spatial comparisons.
+
+**Limitations**
+
+- **Loss of spatial detail.** Aggregation masks local climate variations and may conceal important differences within geographic units, particularly where features like mountains or water bodies impact local climate.
+- **Sensitivity to resolution and boundaries.** Results depend on input data resolution, polygon size and shape, and the treatment of partially overlapping grid cells.
+- **Potential representativeness biases.** Uneven station distribution, missing data and inappropriate weighting methods can lead to misleading regional statistics.
 :::
 
 ## Checking Fitness for Use
