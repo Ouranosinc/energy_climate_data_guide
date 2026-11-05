@@ -54,6 +54,7 @@ This matrix highlights potential benefits. Methods can be combined, and the numb
 | Supports analysis of different simulated weather sequences | Conditional^3^ | ✓ | ✓ | — | — | — | — |
 | Supports comparison of historical events under changed conditions | — | — | — | ✓ | — | ✓ | ✓ |
 | Makes a baseline more representative of selected recent conditions | — | — | — | — | ✓ | ✓ | — |
+: {.tbl .striped .light .sm tbl-colwidths="[30,10,10,10,10,10,10,10]"}
 :::
 :::
 
@@ -72,7 +73,7 @@ Based on @Fournier2020 (sections 3.1–3.6, pp. 52–65), supplemented by IPCC A
 
 Direct use means passing a dataset to the next model or analysis without further transformation. The dataset may contain observations, raw model output, or previously processed simulations.
 
-:::: {.callout-note collapse="true" title="Strenghts and Limitations"}
+:::: {.callout-note collapse="false" title="Strenghts and Limitations"}
 **Strengths**
 
 - **Simple to implement.** No additional transformation is needed at this step.
@@ -263,6 +264,28 @@ State the extrapolation horizon and its physical justification; a statistically 
 
 ![An assumed trend of plus 0.1 degrees Celsius per year is extended by shifting each baseline year forward by 30 years and adding 3 degrees Celsius. Baseline fluctuations are reused.](image/transformation_extension.svg){#fig-transformation-extension fig-alt="A shared timeline separates the 1991-2020 baseline from a constructed future segment in 2021-2050, with reused fluctuations shifted by three degrees and a dashed extrapolated trend." width=100%}
 
+
+## Spatial Aggregation
+Spatial aggregation combines gridded data or point observations into representative values for larger geographic units, such as administrative regions, watersheds or utility service territories. They are typically defined by polygon boundaries from GIS layers. It is useful for relating climate information to the geographic units used in infrastructure planning, impact assessment and resource management.
+
+For gridded datasets (e.g. NetCDF or GeoTIFF), aggregation involves identifying the grid cells overlapping the polygon(s) and calculating statistics such as means, minima, maxima or sums. Where cells only partly overlap a polygon, area-weighted calculations can provide more representative results than treating all intersecting cells equally. This is particularly relevant for irregular boundaries, coastal regions and small polygons.
+
+For station observations, the corresponding operation is generally to assign stations to the polygons in which they are located, then calculate statistics from the observations within each area. Simple averages may be used, although station representativeness and spatial distribution should be considered, as uneven station coverage can bias results.
+
+The choice of statistic and weighting method depends on the variable and application. For example, area-weighted means may be suitable for temperature or precipitation, whereas sums may be appropriate for additive quantities. Spatial reference systems, polygon boundaries, grid resolution and partial cell overlaps should be considered. The resulting regional statistics or time series can serve as inputs to impact models or support comparisons between geographic units.
+
+::: {.callout-note collapse="true" title="Strenghts and Limitations"}
+**Strengths**
+
+- **Relevance to decision-making**. Provides climate statistics for geographic units used in infrastructure planning, watershed management or impact assessments.
+- **Flexibility and applicability.** Accommodates different spatial units, data sources (gridded datasets and station observations) and statistical measures.
+- Simplified analysis: Reduces data volume and produces regional statistics or time series that can be readily used in impact models and comparisons.
+Limitations
+- Loss of spatial detail: Aggregation masks local climate variations and may conceal important differences within geographic units.
+- Sensitivity to resolution and boundaries: Results depend on input data resolution, polygon size and shape, and the treatment of partially overlapping grid cells.
+- Potential representativeness biases: Uneven station distribution, missing data and inappropriate weighting methods can lead to misleading regional statistics.
+:::
+
 ## Checking Fitness for Use
 After any transformation, check that the data meet the requirements identified above:
 
@@ -272,6 +295,8 @@ After any transformation, check that the data meet the requirements identified a
 
 
 ## References
-
+<details>
+<summary><strong>(click to expand)</strong></summary>
 ::: {#refs}
 :::
+</details>
