@@ -3,9 +3,9 @@ title: Data Transformation Methods
 
 ---
 
-Data transformation changes the units, spatial or temporal representation, or statistical properties of climate data to meet an application's needs. Examples include calculating catchment-average precipitation for hydrological modelling or deriving cooling degree-days for demand analysis. A transformation should address a specific mismatch between the available data and the information required by the next model or analysis in a [modelling chain](../apply_climate_data/model_integration.qmd#modelling-chains).
+Data transformations modify the temporal or spatial representation and statistical properties of climate data to meet an application's needs. Examples include calculating catchment-average precipitation for hydrological modelling or the combination of time series with observations to address biases of climate model simulation data. A transformation should address a specific mismatch between the available data and the information required by the next model or analysis in a [modelling chain](../apply_climate_data/model_integration.qmd#modelling-chains).
 
-This page introduces selected approaches adapted from @Fournier2020, who discuss their strengths and limitations in more detail. These include using data without further modification, modifying a historical baseline (the reference time series used to represent past or current conditions), and processing climate-model simulations. They are not an exhaustive classification of transformations; routine operations such as unit conversion, aggregation, interpolation and indicator calculation are not detailed separately here.
+This page summarizes selected approaches adapted from @Fournier2020, who discuss their strengths and limitations in more detail. These include using data without further modification, modifying a historical baseline (the reference time series used to represent past or current conditions), and processing climate-model simulations. They are not an exhaustive classification of transformations; routine operations such as unit conversion, aggregation, interpolation and indicator calculation are not detailed here.
 
 @Fournier2020 discuss transformation methods for hydropower modelling; application to another electricity-sector decision requires checking the respective model's needs and the decision-relevant quantities. See [Integrating Climate Information into Models and Decisions](../apply_climate_data/model_integration.qmd) for the wider model-chain questions and [Climate Data Decision Tree](../datasets/Climate_Data_Decision_Tree.qmd) for selecting candidate data.
 
@@ -267,7 +267,8 @@ State the extrapolation horizon and its physical justification; a statistically 
 ![An assumed trend of plus 0.1 degrees Celsius per year is extended by shifting each baseline year forward by 30 years and adding 3 degrees Celsius. Baseline fluctuations are reused.](image/transformation_extension.svg){#fig-transformation-extension fig-alt="A shared timeline separates the 1991-2020 baseline from a constructed future segment in 2021-2050, with reused fluctuations shifted by three degrees and a dashed extrapolated trend." width=100%}
 
 
-## Spatial Aggregation
+## Spatial Aggregation {#aggregation-method}
+
 Spatial aggregation combines gridded data or point observations into representative values for larger geographic units, such as administrative regions, watersheds or utility service territories. They are typically defined by polygon boundaries from GIS layers. It is useful for relating climate information to the geographic units used in infrastructure planning, impact assessment and resource management.
 
 For gridded datasets (e.g. NetCDF or GeoTIFF), aggregation involves identifying the grid cells overlapping the polygon(s) and calculating statistics such as means, minima, maxima or sums. Where cells only partly overlap a polygon, area-weighted calculations can provide more representative results than treating all intersecting cells equally. This is particularly relevant for irregular boundaries, coastal regions and small polygons.
@@ -278,8 +279,9 @@ The choice of statistic and weighting method depends on the variable and applica
 
 Spatial Aggregation may also refer to the combination of finer grid cells to a coarser grid.
 
+Open Source Tools such as the geographic information system software [QGIS](https://qgis.org/) are available for data aggregation. [This tutorial](https://docs.qgis.org/3.44/en/docs/training_manual/processing/cutting_merging.html) explains how to clip a raster layer in QGIS. Python libraries such as [GeoPandas](https://geopandas.org/en/stable/) (geospatial vector data), [rioxarray](https://vylor.github.io/rioxarray/stable/)/[rasterio](https://rasterio.readthedocs.io/en/stable/) (geospatial raster data), [xESMF](https://xesmf.readthedocs.io/en/stable/index.html) (regridding) in combination with [xarray](https://xarray.dev/) (multi-dimensional arrays) are suited for geospatial operations for larger amounts of data. The [PAVICS](https://pavics.ouranos.ca) platform provides tutorials on [spatial subsetting](https://pavics.ouranos.ca/climate_analysis.html#b) and [regridding of raster data](https://pavics.ouranos.ca/climate_analysis.html#f).
 
-![Spatial aggregation. Spatial aggregation condenses gridded data or station observations into representative values for larger spatial units. (1) Grid to polygons: grid cells overlapping each polygon, such as an administrative region or watershed, are combined into one value per polygon, for example an area-weighted mean. (2) Spatial statistics: station observations are assigned to the polygon that contains them, and statistics such as mean, minimum, maximum and the 90th percentile (P90) are calculated for each polygon. (3) Coarser grid: groups of fine grid cells are combined into larger cells, for example by averaging, to give a coarser grid. Grid shading and values are schematic.](image/transformation_spatial_aggregation.svg){#fig-transformation-extension fig-alt="A shared timeline separates the 1991-2020 baseline from a constructed future segment in 2021-2050, with reused fluctuations shifted by three degrees and a dashed extrapolated trend." width=100%}
+![Spatial aggregation condenses gridded data or station observations into representative values for larger spatial units. (1) Grid to polygons: grid cells overlapping each polygon, such as an administrative region or watershed, are combined into one value per polygon, for example an area-weighted mean. (2) Spatial statistics: station observations are assigned to the polygon that contains them, and statistics such as mean, minimum, maximum and the 90th percentile (P90) are calculated for each polygon. (3) Coarser grid: groups of fine grid cells are combined into larger cells, for example by averaging, to give a coarser grid. Grid shading and values are schematic.](image/transformation_spatial_aggregation.svg){#fig-transformation-aggregation fig-alt="Data transformation to aggregate values to coarser spatial units or grids" width=90%}
 
 
 ::: {.callout-note collapse="true" title="Strenghts and Limitations"}
@@ -293,6 +295,8 @@ Spatial Aggregation may also refer to the combination of finer grid cells to a c
 - **Loss of spatial detail.** Aggregation masks local climate variations and may conceal important differences within geographic units, particularly where features like mountains or water bodies impact local climate.
 - **Sensitivity to resolution and boundaries.** Results depend on input data resolution, polygon size and shape, and the treatment of partially overlapping grid cells.
 - **Potential representativeness biases.** Uneven station distribution, missing data and inappropriate weighting methods can lead to misleading regional statistics.
+
+Document resampling methods and ensure consistent use of GIS layers along the [modelling chain](../apply_climate_data/model_integration.qmd#modelling-chains).
 :::
 
 ## Checking Fitness for Use
