@@ -3,7 +3,7 @@ title: Data Transformation Methods
 
 ---
 
-Climate data are distributed at different temporal and spatial resolutions and at different processing levels. In many cases their use in a particular application warrants transformation to meet needs, particularly related to feeding them into or along a [modeling chain](../apply_climate_data/model_integration.qmd#modlling-chains).
+Climate data are distributed at different temporal and spatial resolutions and at different processing levels. In many cases their use in a particular application warrants transformation to meet needs, particularly related to feeding them into or along a [modeling chain](../apply_climate_data/model_integration.qmd#modelling-chains).
 
 The following table provides an overview of the data transformation methods detailed below. The collection of methods is inspired by @Fournier2020, who discuss their strenghts and limitations in more detail.
 
@@ -37,6 +37,10 @@ The seven methods outlined below can help frame the choice. They are not require
 
 @Fournier2020 discuss transformation methods for a hydropower modelling; application to another electricity-sector decision requires checking the respective model's needs and the decision-relevant quantities. See [Integrating Climate Information into Models and Decisions](../apply_climate_data/model_integration.qmd) for the wider model-chain questions and [Climate Data Decision Tree](../datasets/Climate_Data_Decision_Tree.qmd) for selecting candidate data.
 
+::: {.callout-note title="Maintaining Consistency Along the Modelling Chain"}
+The stage at which a transformation is applied can affect consistency between inputs and outputs along the modelling chain. For example, adjusting simulated streamflow after hydrological modelling can make it inconsistent with the modelled precipitation, evapotranspiration and changes in water storage (@Fournier2020, Section 7.5.1). It is therefore recommended to investigate the source of a discrepancy before applying an additional correction, and to assess whether the transformation maintains consistency between variables and respects relevant conservation constraints, such as the water balance between precipitation, evapotranspiration, discharge and changes in storage. Applying a transformation earlier in the chain does not, by itself, guarantee physical consistency.
+:::
+
 ## Direct Use
 Direct use of climate consists of using climate-model simulations as inputs to an impact model without applying additional transformations, such as bias adjustment. This approach preserves the climate model's original representation of climate variables and their relationships. It is often referred to as using the *raw* data.
 Using raw climate-model simulation data should consider that they often contain systematic biases relative to observations. These biases can affect impact-model results, particularly when the model has been calibrated using observational data. Direct use is therefore most appropriate when the climate simulations adequately represent the characteristics required by the application, or when the impact model is configured to accommodate the climate-model data. The suitability of this approach should be evaluated in the context of the intended application.
@@ -46,6 +50,8 @@ The reduction method consists of shortening a baseline period by excluding porti
 
 ## Adjustment Method
 The adjustment method modifies a baseline time series to remove a statistically significant trend and make it more representative of the conditions relevant to the analysis. A correction factor proportional to time is applied to the data. This factor can be derived directly from the baseline or from climate model simulations of the same period that account for climate change and other relevant drivers, potentially helping to isolate the contribution of climate change to the observed trend. The trend for the adjustment can be calculated from means or quantiles at annual, seasonal, monthly or daily scales, and can be combined with other transformation methods, such as bias correction or the delta method. Because trends may arise from drivers other than climate change, understanding their causes through detection and attribution is important to ensure that the adjustment has a sound physical basis.
+
+When a historical record contains a trend, the distribution calculated over the full period reflects both variability and changes over time. For example, a warming trend can widen the temperature distribution relative to the variation around that trend. This can influence transformations that use the distribution or its spread. It is therefore recommended to investigate the causes of trends and assess their implications for the selected transformation method. Removing or retaining a trend, and any subsequent reintroduction of that trend, should be justified in relation to the purpose of the analysis (@Fournier2020, Section 7.5.2).
 
 ## Extension Method
 The extension method uses a baseline time series that exhibits a statistically significant trend to construct a time series representative of future conditions. Rather than simply continuing the observed values unchanged, it applies a correction factor that changes proportionally with time, extending the trend beyond the baseline period.
