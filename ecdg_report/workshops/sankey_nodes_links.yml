@@ -1,13 +1,13 @@
 # ---- SECTORS ----
 sectors:
-  - source: Capacity Expension Modelling
+  - source: Capacity Expansion Modelling
     targets:
       - [long term planning, 1]
   - source: Demand Forecasting
     targets:
       - [load forecast, 2]
       - [peak demand, 2]
-  - source: Eletrical System Operations
+  - source: Electrical System Operations
     targets:
       - [mitigation and adaptation<br>indigenous communities, 1]  
   - source: Electrical System Operations
