@@ -646,6 +646,7 @@ div.csl-indent {
   <ul>
   <li><a href="#direct-use" id="toc-direct-use" class="nav-link active" data-scroll-target="#direct-use">Direct Use</a></li>
   <li><a href="#downscaling" id="toc-downscaling" class="nav-link" data-scroll-target="#downscaling">Downscaling</a></li>
+  <li><a href="#aggregation-method" id="toc-aggregation-method" class="nav-link" data-scroll-target="#aggregation-method">Spatial Aggregation</a></li>
   <li><a href="#bias-adjustment" id="toc-bias-adjustment" class="nav-link" data-scroll-target="#bias-adjustment">Bias Adjustment</a></li>
   <li><a href="#baseline-treatments" id="toc-baseline-treatments" class="nav-link" data-scroll-target="#baseline-treatments">Modifying Historical Data</a>
   <ul>
@@ -654,7 +655,6 @@ div.csl-indent {
   <li><a href="#adjustment-method" id="toc-adjustment-method" class="nav-link" data-scroll-target="#adjustment-method">Trend Adjustment (Detrending)</a></li>
   <li><a href="#extension-method" id="toc-extension-method" class="nav-link" data-scroll-target="#extension-method">Extension</a></li>
   </ul></li>
-  <li><a href="#aggregation-method" id="toc-aggregation-method" class="nav-link" data-scroll-target="#aggregation-method">Spatial Aggregation</a></li>
   <li><a href="#checking-fitness-for-use" id="toc-checking-fitness-for-use" class="nav-link" data-scroll-target="#checking-fitness-for-use">Checking Fitness for Use</a></li>
   <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
   </ul>
@@ -728,28 +728,28 @@ div.csl-indent {
 <td>The application needs finer-scale spatial information.</td>
 </tr>
 <tr class="odd">
+<td><strong><a href="#aggregation-method">Aggregation</a></strong></td>
+<td>The application needs climate information for specific spatial units.</td>
+</tr>
+<tr class="even">
 <td><strong><a href="#bias-adjustment">Bias adjustment</a></strong></td>
 <td>Selected simulation biases affect the indicators or impact model being used.</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><strong><a href="#delta-method">Delta</a></strong></td>
 <td>The analysis examines historical weather under modelled future climate changes.</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><strong><a href="#reduction-method">Reduction</a></strong></td>
 <td>Part of the historical record is unsuitable for the baseline being constructed.</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><strong><a href="#adjustment-method">Trend adjustment</a></strong></td>
 <td>Historical events need to be examined under selected, more recent climate conditions.</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><strong><a href="#extension-method">Extension</a></strong></td>
 <td>The analysis explores a conditional future scenario by extending a selected trend.</td>
-</tr>
-<tr class="even">
-<td><strong><a href="#aggregation-method">Aggregation</a></strong></td>
-<td>The application needs climate information for specific spatial units.</td>
 </tr>
 </tbody>
 </table>
@@ -886,11 +886,24 @@ div.csl-indent {
 <div aria-hidden="true" style="height: 1.5rem;">
 
 </div>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Maintaining Consistency Along the Modelling Chain
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>The stage at which a transformation is applied can affect consistency between inputs and outputs along the modelling chain. For example, adjusting simulated streamflow after hydrological modelling can make it inconsistent with the modelled precipitation, evapotranspiration and changes in water storage (<span class="citation" data-cites="Fournier2020">Fournier <em>et al.</em> (<a href="#ref-Fournier2020" role="doc-biblioref">2020</a>)</span>, Section 7.5.1). It is therefore recommended to investigate the source of a discrepancy before applying an additional correction, and to assess whether the transformation maintains consistency between variables and respects relevant conservation constraints, such as the water balance between precipitation, evapotranspiration, discharge and changes in storage. Applying a transformation earlier in the chain does not, by itself, guarantee physical consistency.</p>
+</div>
+</div>
 <section id="direct-use" class="level2">
 <h2 class="anchored" data-anchor-id="direct-use">Direct Use</h2>
 <p>Direct use means passing a dataset to the next model or analysis without further transformation. The dataset may contain observations, raw model output, or previously processed simulations.</p>
 <div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-3-contents" aria-controls="callout-3" aria-expanded="true" aria-label="Toggle callout">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-4-contents" aria-controls="callout-4" aria-expanded="true" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
@@ -899,7 +912,7 @@ div.csl-indent {
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
-<div id="callout-3" class="callout-3-contents callout-collapse collapse show">
+<div id="callout-4" class="callout-4-contents callout-collapse collapse show">
 <div class="callout-body-container callout-body">
 <p><strong>Strengths</strong></p>
 <ul>
@@ -922,7 +935,7 @@ div.csl-indent {
 <p><strong>Statistical downscaling</strong> establishes empirical relationships between large-scale global climate model (GCM) variables and local climate observations, using historical data as a training base. Available methods are computationally efficient and have been widely used.</p>
 <p>In contrast, <strong>dynamical downscaling</strong> refers to employing <a href="../datasets/climate_projection_data/Climate_Projection_Datasets.html">regional climate models</a> (RCMs) which are driven by GCM output at their boundaries to explicitly simulate regional climate processes at a higher spatial resolution.</p>
 <div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-4-contents" aria-controls="callout-4" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-5-contents" aria-controls="callout-5" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
@@ -931,7 +944,7 @@ div.csl-indent {
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
-<div id="callout-4" class="callout-4-contents callout-collapse collapse">
+<div id="callout-5" class="callout-5-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <p><strong>Strengths</strong></p>
 <ul>
@@ -957,13 +970,41 @@ Figure&nbsp;1: Two methods provide finer-scale climate information over the same
 </figure>
 </div>
 </section>
-<section id="bias-adjustment" class="level2">
-<h2 class="anchored" data-anchor-id="bias-adjustment">Bias Adjustment</h2>
-<p>Bias adjustment, also commonly called bias correction, uses observations or another reference dataset to reduce selected systematic biases in climate-model simulations. For example, a model may be consistently too warm or too cool, or misrepresent precipitation amounts or the number of wet days. Biases can arise from spatial resolution, process parameterization and other model limitations. Adjustment is particularly relevant when deriving threshold-based indicators or driving impact models calibrated to historical observations. In these applications, biases in the input data can lead to unrealistic responses.</p>
-<p>Bias adjustment can be applied at the model’s existing spatial resolution or combined with downscaling to produce finer-scale information. Both GCM and RCM outputs can contain systematic biases; dynamical downscaling does not remove the potential need for bias adjustment.</p>
-<p>Univariate approaches adjust variables separately, whereas multivariate approaches also target relationships among variables (for example, concurrent temperature and humidity conditions relevant to electricity demand). Quantile mapping is a widely used family of bias-adjustment methods that adjusts simulated values according to their position in a statistical distribution. Methods differ in which properties they adjust and how they treat projected climate changes. Some are designed to preserve modelled changes in means or quantiles. Dataset documentation should describe these choices so users can assess their relevance to the application (<span class="citation" data-cites="MaraunWidmann2018">Maraun &amp; Widmann (<a href="#ref-MaraunWidmann2018" role="doc-biblioref">2018</a>)</span>; <span class="citation" data-cites="Menapace2025">Menapace <em>et al.</em> (<a href="#ref-Menapace2025" role="doc-biblioref">2025</a>)</span>).</p>
+<section id="aggregation-method" class="level2">
+<h2 class="anchored" data-anchor-id="aggregation-method">Spatial Aggregation</h2>
+<p>Spatial aggregation combines gridded data or point observations into representative values for larger geographic units, such as administrative regions, watersheds or utility service territories. They are typically defined by polygon boundaries from GIS layers. It is useful for relating climate information to the geographic units used in infrastructure planning, impact assessment and resource management.</p>
+<p>For gridded datasets (e.g.&nbsp;NetCDF or GeoTIFF), aggregation involves identifying the grid cells overlapping the polygon(s) and calculating statistics such as means, minima, maxima or sums. Where cells only partly overlap a polygon, area-weighted calculations can provide more representative results than treating all intersecting cells equally. This is particularly relevant for irregular boundaries, coastal regions and small polygons.</p>
+<p>For station observations, the corresponding operation is generally to assign stations to the polygons in which they are located, then calculate statistics from the observations within each area. Simple averages may be used, although station representativeness and spatial distribution should be considered, as uneven station coverage can bias results.</p>
+<p>The choice of statistic and weighting method depends on the variable and application. For example, area-weighted means may be suitable for temperature or precipitation, whereas sums may be appropriate for additive quantities, like the number of clients. Spatial reference systems, polygon boundaries, grid resolution and partial cell overlaps should be considered. The resulting regional statistics or time series can serve as inputs to impact models or support comparisons between geographic units.</p>
+<p>Spatial Aggregation may also refer to the combination of finer grid cells to a coarser grid.</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-6-contents" aria-controls="callout-6" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Open Source Spatial Aggregation Tools
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-6" class="callout-6-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Open Source Tools such as the geographic information system software <a href="https://qgis.org/">QGIS</a> are available for data aggregation. <a href="https://docs.qgis.org/3.44/en/docs/training_manual/processing/cutting_merging.html">This tutorial</a> explains how to clip a raster layer in QGIS. Python libraries such as <a href="https://geopandas.org/en/stable/">GeoPandas</a> (geospatial vector data), <a href="https://vylor.github.io/rioxarray/stable/">rioxarray</a>/<a href="https://rasterio.readthedocs.io/en/stable/">rasterio</a> (geospatial raster data), <a href="https://xesmf.readthedocs.io/en/stable/index.html">xESMF</a> (regridding) in combination with <a href="https://xarray.dev/">xarray</a> (multi-dimensional arrays) are suited for geospatial operations for larger amounts of data. The <a href="https://pavics.ouranos.ca">PAVICS</a> platform provides tutorials on <a href="https://pavics.ouranos.ca/climate_analysis.html#b">spatial subsetting</a> and <a href="https://pavics.ouranos.ca/climate_analysis.html#f">regridding of raster data</a> that employ the aforementioned libraries.</p>
+</div>
+</div>
+</div>
+<div id="fig-transformation-aggregation" class="quarto-float quarto-figure quarto-figure-center anchored" alt="Data transformation to aggregate values to coarser spatial units or grids">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-transformation-aggregation-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="image/transformation_spatial_aggregation.svg" class="img-fluid figure-img" style="width:90.0%" alt="Data transformation to aggregate values to coarser spatial units or grids">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-transformation-aggregation-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2: Spatial aggregation condenses gridded data or station observations into representative values for larger spatial units. (1) Grid to polygons: grid cells overlapping each polygon, such as an administrative region or watershed, are combined into one value per polygon, for example an area-weighted mean. (2) Spatial statistics: station observations are assigned to the polygon that contains them, and statistics such as mean, minimum, maximum and the 90th percentile (P90) are calculated for each polygon. (3) Coarser grid: groups of fine grid cells are combined into larger cells, for example by averaging, to give a coarser grid. Grid shading and values are schematic.
+</figcaption>
+</figure>
+</div>
 <div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-5-contents" aria-controls="callout-5" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-7-contents" aria-controls="callout-7" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
@@ -972,7 +1013,40 @@ Figure&nbsp;1: Two methods provide finer-scale climate information over the same
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
-<div id="callout-5" class="callout-5-contents callout-collapse collapse">
+<div id="callout-7" class="callout-7-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p><strong>Strengths</strong></p>
+<ul>
+<li><strong>Relevance to decision-making</strong>. Provides climate statistics for geographic units used in infrastructure planning, watershed management or impact assessments.</li>
+<li><strong>Simplified analysis.</strong> Reduces data volume and produces regional statistics or time series that are more fit for use in impact models, mapping, and spatial comparisons.</li>
+</ul>
+<p><strong>Limitations</strong></p>
+<ul>
+<li><strong>Loss of spatial detail.</strong> Aggregation masks local climate variations and may conceal important differences within geographic units, particularly where features like mountains or water bodies impact local climate.</li>
+<li><strong>Sensitivity to resolution and boundaries.</strong> Results depend on input data resolution, polygon size and shape, and the treatment of partially overlapping grid cells.</li>
+<li><strong>Potential representativeness biases.</strong> Uneven station distribution, missing data and inappropriate weighting methods can lead to misleading regional statistics.</li>
+</ul>
+<p>Document resampling methods and ensure consistent use of GIS layers along the <a href="../apply_climate_data/model_integration.html#modelling-chains">modelling chain</a>.</p>
+</div>
+</div>
+</div>
+</section>
+<section id="bias-adjustment" class="level2">
+<h2 class="anchored" data-anchor-id="bias-adjustment">Bias Adjustment</h2>
+<p>Bias adjustment, also commonly called bias correction, uses observations or another reference dataset to reduce selected systematic biases in climate-model simulations. For example, a model may be consistently too warm or too cool, or misrepresent precipitation amounts or the number of wet days. Biases can arise from spatial resolution, process parameterization and other model limitations. Adjustment is particularly relevant when deriving threshold-based indicators or driving impact models calibrated to historical observations. In these applications, biases in the input data can lead to unrealistic responses.</p>
+<p>Bias adjustment can be applied at the model’s existing spatial resolution or combined with downscaling to produce finer-scale information. Both GCM and RCM outputs can contain systematic biases; dynamical downscaling does not remove the potential need for bias adjustment.</p>
+<p>Univariate approaches adjust variables separately, whereas multivariate approaches also target relationships among variables (for example, concurrent temperature and humidity conditions relevant to electricity demand). Quantile mapping is a widely used family of bias-adjustment methods that adjusts simulated values according to their position in a statistical distribution. Methods differ in which properties they adjust and how they treat projected climate changes. Some are designed to preserve modelled changes in means or quantiles. Dataset documentation should describe these choices so users can assess their relevance to the application (<span class="citation" data-cites="MaraunWidmann2018">Maraun &amp; Widmann (<a href="#ref-MaraunWidmann2018" role="doc-biblioref">2018</a>)</span>; <span class="citation" data-cites="Menapace2025">Menapace <em>et al.</em> (<a href="#ref-Menapace2025" role="doc-biblioref">2025</a>)</span>).</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-8-contents" aria-controls="callout-8" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Strenghts and Limitations
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-8" class="callout-8-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <p><strong>Strengths</strong></p>
 <ul>
@@ -997,7 +1071,7 @@ Figure&nbsp;1: Two methods provide finer-scale climate information over the same
 <img src="image/transformation_bias.svg" class="img-fluid figure-img" style="width:100.0%" alt="A single timeline shows reference observations during 1981 to 2010, an unadjusted simulation through 2080, and its adjusted counterpart shifted down by two degrees Celsius. The reference period is shaded and its means are marked with dashed lines.">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-transformation-bias-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;2: Example of additive mean adjustment: the historical difference between reference and simulated means is applied across the simulation. Distribution-based methods can instead adjust different quantiles. Quantile delta mapping (QDM) is designed to preserve simulated changes in quantiles; these changes may differ across the distribution.
+Figure&nbsp;3: Example of additive mean adjustment: the historical difference between reference and simulated means is applied across the simulation. Distribution-based methods can instead adjust different quantiles. Quantile delta mapping (QDM) is designed to preserve simulated changes in quantiles; these changes may differ across the distribution.
 </figcaption>
 </figure>
 </div>
@@ -1010,7 +1084,7 @@ Figure&nbsp;2: Example of additive mean adjustment: the historical difference be
 <p>The delta method is a simple and transparent way to combine a modelled climate-change signal with an observed historical time series (baseline). The change between historical and future periods in a climate-model simulation is calculated as a difference or ratio and then applied to observations. This preserves the baseline’s day-to-day sequence of events while imposing the modelled change to reflect projected climate conditions. The method can be applied to means of the distribution or its quantiles. Additive changes are commonly used for temperature, while multiplicative factors are often used for precipitation to avoid negative values. Multiple climate simulations of different models and <a href="../climate_data_fundamentals/Emissions_scenarios.html">emissions scenarios</a> can be used to generate an <a href="../climate_data_fundamentals/Ensembles.html">ensemble of future conditions</a>. Since the method modifies the baseline, it is sometimes referred to as the perturbation method.</p>
 <p>Delta methods modify a baseline, whereas bias adjustment modifies simulated values against a reference dataset. Mean-change deltas apply a change to the mean; quantile-based deltas can apply different changes across the distribution, including its tails. The method is commonly applied to <a href="../climate_data_fundamentals/Time_horizons_GWL.html#temporal-horizon">30-year reference and future periods</a>, although longer periods may be appropriate for some applications. For details on applying mean changes, see <span class="citation" data-cites="Charron2016">Charron (<a href="#ref-Charron2016" role="doc-biblioref">2016</a>)</span>. For a broader explanation of quantile-mapping methods, see <span class="citation" data-cites="MaraunWidmann2018">Maraun &amp; Widmann (<a href="#ref-MaraunWidmann2018" role="doc-biblioref">2018</a>)</span>.</p>
 <div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-6-contents" aria-controls="callout-6" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-9-contents" aria-controls="callout-9" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
@@ -1019,7 +1093,7 @@ Figure&nbsp;2: Example of additive mean adjustment: the historical difference be
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
-<div id="callout-6" class="callout-6-contents callout-collapse collapse">
+<div id="callout-9" class="callout-9-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <p><strong>Strengths</strong></p>
 <ul>
@@ -1041,12 +1115,12 @@ Figure&nbsp;2: Example of additive mean adjustment: the historical difference be
 <img src="image/transformation_delta.svg" class="img-fluid figure-img" style="width:100.0%" alt="A single timeline shows a climate simulation from 1991 to 2065, a historical baseline during 1991 to 2020, and a shifted baseline scenario during 2036 to 2065. The future scenario repeats the baseline pattern with two degrees Celsius added, using the difference between simulated period means.">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-transformation-delta-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;3: The simulated mean temperature increases from 12 degrees Celsius in 1991-2020 to 14 degrees Celsius in 2036-2065. This delta of plus 2 degrees Celsius is applied to the historical baseline to construct a scenario for 2036-2065, retaining the baseline sequence of warmer and cooler years. Dashed lines indicate the simulated period means.
+Figure&nbsp;4: The simulated mean temperature increases from 12 degrees Celsius in 1991-2020 to 14 degrees Celsius in 2036-2065. This delta of plus 2 degrees Celsius is applied to the historical baseline to construct a scenario for 2036-2065, retaining the baseline sequence of warmer and cooler years. Dashed lines indicate the simulated period means.
 </figcaption>
 </figure>
 </div>
 <div class="callout callout-style-default callout-tip callout-titled">
-<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-7-contents" aria-controls="callout-7" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-10-contents" aria-controls="callout-10" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
@@ -1055,7 +1129,7 @@ Figure&nbsp;3: The simulated mean temperature increases from 12 degrees Celsius 
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
-<div id="callout-7" class="callout-7-contents callout-collapse collapse">
+<div id="callout-10" class="callout-10-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <p>Power system planning tools, including capacity expansion, production cost, and <a href="../sectors/planning/resource_adequacy_planning.html">resource adequacy models</a>, require hourly weather data as inputs to simulate the supply and demand of electricity. That input is often one or more years of weather data, each consisting of 8,760 hourly values of temperature, humidity, wind speed, and solar radiation. Traditionally, historical weather data were used, but this approach does not represent climate change and its impacts on the grid. As a result, climate projections are increasingly being integrated into power system models to capture the impacts of climate change and the range of plausible futures. Global Climate Models (GCMs) are the physics-based models used to project future climate and are the standard source of forward-looking data. However, the climate-projection datasets commonly used for these applications often provide daily rather than hourly data and therefore do not resolve the hourly weather patterns that drive peak loads, solar ramping in the morning and evening, the intermittency of wind, and storage needs. For example, sizing batteries to cover the hours after sunset on a hot evening requires knowing how temperature changes hour by hour, which is not attainable from daily data.</p>
 <p><strong>Description of the method</strong></p>
@@ -1063,10 +1137,10 @@ Figure&nbsp;3: The simulated mean temperature increases from 12 degrees Celsius 
 <div id="fig-qdc-hourly-example" class="lightbox quarto-float quarto-figure quarto-figure-center anchored" alt="Quantile Delta Change example for Ottawa. The left panel compares historical and shifted July daily maximum temperature distributions, with different changes at the 10th, 50th and 90th percentiles. The right panel shows the historical hourly temperature profile for July 31, 2016 and a shifted profile for the 2050 climate under CanESM5 SSP3-7.0, with changed daily minimum and maximum temperatures.">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-qdc-hourly-example-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<a href="image/intro02_shift_method.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Figure&nbsp;4: Quantile Delta Change (QDC) example for Ottawa: (a) historical and shifted July daily maximum temperature distributions, showing changes at selected quantiles; (b) the historical hourly temperature profile for July 31, 2016, rescaled between shifted daily minimum and maximum temperatures for the 2050 climate under CanESM5 SSP3-7.0."><img src="image/intro02_shift_method.png" class="img-fluid figure-img" style="width:100.0%" alt="Quantile Delta Change example for Ottawa. The left panel compares historical and shifted July daily maximum temperature distributions, with different changes at the 10th, 50th and 90th percentiles. The right panel shows the historical hourly temperature profile for July 31, 2016 and a shifted profile for the 2050 climate under CanESM5 SSP3-7.0, with changed daily minimum and maximum temperatures."></a>
+<a href="image/intro02_shift_method.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Figure&nbsp;5: Quantile Delta Change (QDC) example for Ottawa: (a) historical and shifted July daily maximum temperature distributions, showing changes at selected quantiles; (b) the historical hourly temperature profile for July 31, 2016, rescaled between shifted daily minimum and maximum temperatures for the 2050 climate under CanESM5 SSP3-7.0."><img src="image/intro02_shift_method.png" class="img-fluid figure-img" style="width:100.0%" alt="Quantile Delta Change example for Ottawa. The left panel compares historical and shifted July daily maximum temperature distributions, with different changes at the 10th, 50th and 90th percentiles. The right panel shows the historical hourly temperature profile for July 31, 2016 and a shifted profile for the 2050 climate under CanESM5 SSP3-7.0, with changed daily minimum and maximum temperatures."></a>
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-qdc-hourly-example-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;4: Quantile Delta Change (QDC) example for Ottawa: (a) historical and shifted July daily maximum temperature distributions, showing changes at selected quantiles; (b) the historical hourly temperature profile for July 31, 2016, rescaled between shifted daily minimum and maximum temperatures for the 2050 climate under CanESM5 SSP3-7.0.
+Figure&nbsp;5: Quantile Delta Change (QDC) example for Ottawa: (a) historical and shifted July daily maximum temperature distributions, showing changes at selected quantiles; (b) the historical hourly temperature profile for July 31, 2016, rescaled between shifted daily minimum and maximum temperatures for the 2050 climate under CanESM5 SSP3-7.0.
 </figcaption>
 </figure>
 </div>
@@ -1096,7 +1170,7 @@ Figure&nbsp;4: Quantile Delta Change (QDC) example for Ottawa: (a) historical an
 <h3 class="anchored" data-anchor-id="reduction-method">Reduction</h3>
 <p>The reduction method consists of shortening a baseline period by excluding portions of a time series that are considered erroneous or unrepresentative of current conditions. It may be appropriate when statistical tests identify a significant trend or inhomogeneities, such as an abrupt change in the mean or a change in variance. Before reducing the period, these characteristics should be investigated, including their possible causes, since they may originate from factors other than climate change.</p>
 <div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-8-contents" aria-controls="callout-8" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-11-contents" aria-controls="callout-11" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
@@ -1105,7 +1179,7 @@ Figure&nbsp;4: Quantile Delta Change (QDC) example for Ottawa: (a) historical an
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
-<div id="callout-8" class="callout-8-contents callout-collapse collapse">
+<div id="callout-11" class="callout-11-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <p><strong>Strengths</strong></p>
 <ul>
@@ -1127,7 +1201,7 @@ Figure&nbsp;4: Quantile Delta Change (QDC) example for Ottawa: (a) historical an
 <img src="image/transformation_reduction.svg" class="img-fluid figure-img" style="width:100.0%" alt="One time series spans 1961 to 2020. The retained 1991 to 2020 baseline is highlighted in blue. A dashed grey line marks the full-record mean and a solid orange line marks the retained-period mean.">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-transformation-reduction-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;5: Reduction of a baseline record: the retained 1991-2020 period is highlighted in blue. The dashed grey and solid orange lines show the means of the full record and retained period, respectively.
+Figure&nbsp;6: Reduction of a baseline record: the retained 1991-2020 period is highlighted in blue. The dashed grey and solid orange lines show the means of the full record and retained period, respectively.
 </figcaption>
 </figure>
 </div>
@@ -1136,7 +1210,7 @@ Figure&nbsp;5: Reduction of a baseline record: the retained 1991-2020 period is 
 <h3 class="anchored" data-anchor-id="adjustment-method">Trend Adjustment (Detrending)</h3>
 <p>The adjustment method modifies a baseline time series to remove a statistically significant trend and make it more representative of the conditions relevant to the analysis. A correction factor proportional to time is applied to the data. This factor can be derived directly from the baseline or from climate model simulations of the same period that account for climate change and other relevant drivers. The correction can be estimated for means or quantiles at annual, seasonal, monthly or daily scales, and the adjustment can be combined with other methods, such as bias correction or the delta method.</p>
 <div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-9-contents" aria-controls="callout-9" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-12-contents" aria-controls="callout-12" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
@@ -1145,7 +1219,7 @@ Figure&nbsp;5: Reduction of a baseline record: the retained 1991-2020 period is 
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
-<div id="callout-9" class="callout-9-contents callout-collapse collapse">
+<div id="callout-12" class="callout-12-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <p><strong>Strengths</strong></p>
 <ul>
@@ -1166,7 +1240,7 @@ Figure&nbsp;5: Reduction of a baseline record: the retained 1991-2020 period is 
 <img src="image/transformation_adjustment.svg" class="img-fluid figure-img" style="width:100.0%" alt="One panel overlays the original baseline and its upward trend in blue with the adjusted baseline and constant 2020 reference level in orange. Earlier values receive larger adjustments; the final value is unchanged.">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-transformation-adjustment-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;6: Trend adjustment of a baseline record. The original baseline and its selected trend are shown in blue; the adjusted baseline and reference level are shown in orange. The trend is removed while anchoring values at the 2020 trend level.
+Figure&nbsp;7: Trend adjustment of a baseline record. The original baseline and its selected trend are shown in blue; the adjusted baseline and reference level are shown in orange. The trend is removed while anchoring values at the 2020 trend level.
 </figcaption>
 </figure>
 </div>
@@ -1176,7 +1250,7 @@ Figure&nbsp;6: Trend adjustment of a baseline record. The original baseline and 
 <p>The extension method constructs a future scenario by extending a selected trend beyond the baseline period. It uses the same approaches to estimating and applying a time-dependent correction described under <a href="#adjustment-method">Trend Adjustment (Detrending)</a>, but applies the correction to represent future conditions.</p>
 <p>If, for example, temperature has increased over the baseline period, the method can extend this trend into a future period by progressively adjusting the baseline values or parts of it. This produces a future-oriented time series while retaining the baseline data as its starting point.</p>
 <div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-10-contents" aria-controls="callout-10" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-13-contents" aria-controls="callout-13" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
@@ -1185,7 +1259,7 @@ Figure&nbsp;6: Trend adjustment of a baseline record. The original baseline and 
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
-<div id="callout-10" class="callout-10-contents callout-collapse collapse">
+<div id="callout-13" class="callout-13-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <p><strong>Strengths</strong></p>
 <ul>
@@ -1207,57 +1281,11 @@ Figure&nbsp;6: Trend adjustment of a baseline record. The original baseline and 
 <img src="image/transformation_extension.svg" class="img-fluid figure-img" style="width:100.0%" alt="A shared timeline separates the 1991-2020 baseline from a constructed future segment in 2021-2050, with reused fluctuations shifted by three degrees and a dashed extrapolated trend.">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-transformation-extension-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;7: An assumed trend of plus 0.1 degrees Celsius per year is extended by shifting each baseline year forward by 30 years and adding 3 degrees Celsius. Baseline fluctuations are reused.
+Figure&nbsp;8: An assumed trend of plus 0.1 degrees Celsius per year is extended by shifting each baseline year forward by 30 years and adding 3 degrees Celsius. Baseline fluctuations are reused.
 </figcaption>
 </figure>
 </div>
 </section>
-</section>
-<section id="aggregation-method" class="level2">
-<h2 class="anchored" data-anchor-id="aggregation-method">Spatial Aggregation</h2>
-<p>Spatial aggregation combines gridded data or point observations into representative values for larger geographic units, such as administrative regions, watersheds or utility service territories. They are typically defined by polygon boundaries from GIS layers. It is useful for relating climate information to the geographic units used in infrastructure planning, impact assessment and resource management.</p>
-<p>For gridded datasets (e.g.&nbsp;NetCDF or GeoTIFF), aggregation involves identifying the grid cells overlapping the polygon(s) and calculating statistics such as means, minima, maxima or sums. Where cells only partly overlap a polygon, area-weighted calculations can provide more representative results than treating all intersecting cells equally. This is particularly relevant for irregular boundaries, coastal regions and small polygons.</p>
-<p>For station observations, the corresponding operation is generally to assign stations to the polygons in which they are located, then calculate statistics from the observations within each area. Simple averages may be used, although station representativeness and spatial distribution should be considered, as uneven station coverage can bias results.</p>
-<p>The choice of statistic and weighting method depends on the variable and application. For example, area-weighted means may be suitable for temperature or precipitation, whereas sums may be appropriate for additive quantities. Spatial reference systems, polygon boundaries, grid resolution and partial cell overlaps should be considered. The resulting regional statistics or time series can serve as inputs to impact models or support comparisons between geographic units.</p>
-<p>Spatial Aggregation may also refer to the combination of finer grid cells to a coarser grid.</p>
-<p>Open Source Tools such as the geographic information system software <a href="https://qgis.org/">QGIS</a> are available for data aggregation. <a href="https://docs.qgis.org/3.44/en/docs/training_manual/processing/cutting_merging.html">This tutorial</a> explains how to clip a raster layer in QGIS. Python libraries such as <a href="https://geopandas.org/en/stable/">GeoPandas</a> (geospatial vector data), <a href="https://vylor.github.io/rioxarray/stable/">rioxarray</a>/<a href="https://rasterio.readthedocs.io/en/stable/">rasterio</a> (geospatial raster data), <a href="https://xesmf.readthedocs.io/en/stable/index.html">xESMF</a> (regridding) in combination with <a href="https://xarray.dev/">xarray</a> (multi-dimensional arrays) are suited for geospatial operations for larger amounts of data. The <a href="https://pavics.ouranos.ca">PAVICS</a> platform provides tutorials on <a href="https://pavics.ouranos.ca/climate_analysis.html#b">spatial subsetting</a> and <a href="https://pavics.ouranos.ca/climate_analysis.html#f">regridding of raster data</a>.</p>
-<div id="fig-transformation-aggregation" class="quarto-float quarto-figure quarto-figure-center anchored" alt="Data transformation to aggregate values to coarser spatial units or grids">
-<figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-transformation-aggregation-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="image/transformation_spatial_aggregation.svg" class="img-fluid figure-img" style="width:90.0%" alt="Data transformation to aggregate values to coarser spatial units or grids">
-</div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-transformation-aggregation-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;8: Spatial aggregation condenses gridded data or station observations into representative values for larger spatial units. (1) Grid to polygons: grid cells overlapping each polygon, such as an administrative region or watershed, are combined into one value per polygon, for example an area-weighted mean. (2) Spatial statistics: station observations are assigned to the polygon that contains them, and statistics such as mean, minimum, maximum and the 90th percentile (P90) are calculated for each polygon. (3) Coarser grid: groups of fine grid cells are combined into larger cells, for example by averaging, to give a coarser grid. Grid shading and values are schematic.
-</figcaption>
-</figure>
-</div>
-<div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-11-contents" aria-controls="callout-11" aria-expanded="false" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Note</span>Strenghts and Limitations
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-11" class="callout-11-contents callout-collapse collapse">
-<div class="callout-body-container callout-body">
-<p><strong>Strengths</strong></p>
-<ul>
-<li><strong>Relevance to decision-making</strong>. Provides climate statistics for geographic units used in infrastructure planning, watershed management or impact assessments.</li>
-<li><strong>Simplified analysis.</strong> Reduces data volume and produces regional statistics or time series that are more fit for use in impact models, mapping, and spatial comparisons.</li>
-</ul>
-<p><strong>Limitations</strong></p>
-<ul>
-<li><strong>Loss of spatial detail.</strong> Aggregation masks local climate variations and may conceal important differences within geographic units, particularly where features like mountains or water bodies impact local climate.</li>
-<li><strong>Sensitivity to resolution and boundaries.</strong> Results depend on input data resolution, polygon size and shape, and the treatment of partially overlapping grid cells.</li>
-<li><strong>Potential representativeness biases.</strong> Uneven station distribution, missing data and inappropriate weighting methods can lead to misleading regional statistics.</li>
-</ul>
-<p>Document resampling methods and ensure consistent use of GIS layers along the <a href="../apply_climate_data/model_integration.html#modelling-chains">modelling chain</a>.</p>
-</div>
-</div>
-</div>
 </section>
 <section id="checking-fitness-for-use" class="level2">
 <h2 class="anchored" data-anchor-id="checking-fitness-for-use">Checking Fitness for Use</h2>
