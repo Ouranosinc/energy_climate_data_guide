@@ -1,5 +1,6 @@
 ---
 title: "Contributors and acknowledgements"
+tbl-colwidths: [30, 20, 50]
 ---
 
 The Guide for the Integration of Climate Data in Electricity System Planning and Design was developed collaboratively by climate scientists, energy-sector specialists, and practitioners. Contributions included original writing, scientific and technical input, editorial integration, information architecture, tool development, project coordination, and feedback on draft material.
@@ -24,25 +25,30 @@ The following individuals made substantial contributions across multiple parts o
 
 The following individuals authored or co-authored particular pages or clearly defined components of the guide:
 
+::: {.contributing-authors-table}
+
 | Contributor | Affiliation | Contribution |
-|---|---|---|
+|:---|:---|:---|
 | Jongho Keum                   | McMaster University   | Electricity System Planning |
 | Sarah-Claude Bourdeau-Goulet  | Ouranos               | <mark>TBD</mark> |
 | Rasel Sheikh                  | McMaster University   | Generation Forecasting |
-| [Name]                        | [Affiliation]     | [Other page or contribution] |
+| Mathieu Labbé                 | Hydro-Québec          | Infrastructure Design |
+| Jacob Mardian                 | EPRI                  | Hourly future weather for power-system planning<br><span class="contribution-page">(Data Transformation Methods)</span> |
+| [Name]                        | [Affiliation]         | [Other page or contribution] |
+
+:::
+
 <!--
-| Jacob Mardian | EPRI | <mark>TBD</mark> |
 | Mathieu Menier | Hydro-Québec | Vegetation Management |
-| Mathieu Labbé | Hydro-Québec | Infrastructure Design |
 -->
 
 
-[Where applicable, more detailed authorship information is provided on individual pages.]{.mark-red}
 
 ## Reviewers
 
 The following individuals reviewed draft material or provided technical and practical feedback:
 
+- Charles Malenfant, Hydro-Québec
 - <span class="mark-red">[Name], [organization]</span>
 - <span class="mark-red">[Name], [organization]</span>
 
