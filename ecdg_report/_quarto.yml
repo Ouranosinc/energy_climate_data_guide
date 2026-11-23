@@ -10,7 +10,6 @@ project:
     - "!development/drafts/TextSectionParkingLot.ipynb"
     - "!development/tools/NRCanMET_check.ipynb"
     - "!datasets/observed_data/CanGrid.qmd"
-    - "!sectors/planning/infrastructure_condition_assessment_and_investment_prioritization.ipynb"
     - "!sectors/operations/proactive_management_of_heavily_loaded_assets.ipynb"
   preview:
     port: 3210
@@ -59,7 +58,7 @@ website:
               - text: "Dam Safety Review"
                 href: sectors/infrastructure/dam_safety_review.qmd
               - text: "Infrastructure Condition Assessment and Investment Prioritization"
-                href: sectors/infrastructure/infrastructure_condition_assessment_and_investment_prioritization.ipynb
+                href: sectors/infrastructure/infrastructure_condition_assessment_and_investment_prioritization.qmd
               - text: "Infrastructure Design"
                 href: sectors/infrastructure/infrastructure_design.ipynb
           - text: "Reporting and Disclosure"
@@ -75,8 +74,8 @@ website:
             href: climate_data_fundamentals/Ensembles.qmd
           - text: "Projection Periods and Global Warming Levels"
             href: climate_data_fundamentals/Time_horizons_GWL.qmd
-          - text: "Downscaling and Bias Adjustment"
-            href: climate_data_fundamentals/Bias_adjustment.qmd
+          - text: "Data Transformation Methods"
+            href: climate_data_fundamentals/Data_Transformation.qmd
           - text: "Uncertainty and Confidence"
             href: climate_data_fundamentals/Uncertainty_Confidence.qmd
           - text: "Climate-Information Gaps and Limitations"
@@ -96,14 +95,14 @@ website:
               - text: "AHCCD and CanHom Station Data"
                 href: datasets/observed_data/AHCCD-CanHom_Station_Data.ipynb
               - text: "NRCanMet Gridded Data"
-                href: datasets/observed_data/NRCANmet_Gridded_Data.ipynb
+                href: datasets/observed_data/NRCANmet_Gridded_Data.qmd
           - section: "Reanalysis Data"
             href: datasets/reanalysis_data/Reanalysis_Datasets.ipynb
             contents:
               - text: "ERA5-Land"
                 href: datasets/reanalysis_data/ERA5-Land.ipynb
               - text: "Canadian Surface Reanalysis (CaSR)"
-                href: datasets/reanalysis_data/CaSR.ipynb
+                href: datasets/reanalysis_data/CaSR.qmd
           - section: "Climate-Projection Data"
             href: datasets/climate_projection_data/Climate_Projection_Datasets.qmd
             contents:
@@ -157,6 +156,8 @@ website:
         contents:
           - text: "Online Climate-Information Resources"
             href: resources/Climate_Information_Ressources.qmd
+          - text: "Design Criteria for Hydroelectric Infrastructure"
+            href: resources/Guide_Hydrotechnical_Infrastructure_Design.qmd
           - text: "Example Applications"
             href: resources/Example_Applications.ipynb
           - section: "Analysis Support Tools"
@@ -164,6 +165,8 @@ website:
             contents:
               - text: "Compare Observational Datasets at a Point"
                 href: resources/tools/Point_Location_Compare.ipynb
+      - text: "Contributors and acknowledgements"
+        href: contributors.qmd
       - section: Workshops
         href: workshops/intro_workshops.ipynb
         contents:
@@ -208,13 +211,14 @@ format:
       # - auto-open-callout.js
       - text: |
           <script src="auto-open-callout.js"></script>
-    embed-resources: true
+    embed-resources: false
     allow-raw-html: true
 
 bibliography:
-  - datasets/references.bib
   - apply_climate_data/adaptation.bib
   - apply_climate_data/guidance.bib
+  - climate_data_fundamentals/climate_data_fundamentals.bib
+  - datasets/references.bib
   - organizational_capability/organizational_capability.bib
   - sectors/infrastructure/references_dam_safety.bib
   - sectors/planning/demand.bib

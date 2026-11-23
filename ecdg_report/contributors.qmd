@@ -1,0 +1,119 @@
+---
+title: "Contributors and acknowledgements"
+---
+
+The Guide for the Integration of Climate Data in Electricity System Planning and Design was developed collaboratively by climate scientists, energy-sector specialists, and practitioners. Contributions included original writing, scientific and technical input, editorial integration, information architecture, tool development, project coordination, and feedback on draft material.
+
+Because the guide was developed iteratively, contributions varied in nature and scope. Authors of individual pages are identified on those pages where authorship can be reliably established.
+
+## Project leadership
+
+**Principal Investigator:** Paulin Coulibaly, McMaster University
+
+## Authorship
+
+### Editorial and lead author team
+
+The following individuals made substantial contributions across multiple parts of the guide and contributed to its overall development, scientific content, organization, editorial integration, and coherence:
+
+- Marco Braun, Ouranos
+- Kurt Kornelsen, OPG
+- Louis-Philippe Caron, Ouranos
+
+### Contributing authors
+
+The following individuals authored or co-authored particular pages or clearly defined components of the guide:
+
+| Contributor | Affiliation | Contribution |
+|---|---|---|
+| Jongho Keum                   | McMaster University   | Electricity System Planning |
+| Sarah-Claude Bourdeau-Goulet  | Ouranos               | <mark>TBD</mark> |
+| Rasel Sheikh                  | McMaster University   | Generation Forecasting |
+| [Name]                        | [Affiliation]     | [Other page or contribution] |
+<!--
+| Jacob Mardian | EPRI | <mark>TBD</mark> |
+| Mathieu Menier | Hydro-Québec | Vegetation Management |
+| Mathieu Labbé | Hydro-Québec | Infrastructure Design |
+-->
+
+
+[Where applicable, more detailed authorship information is provided on individual pages.]{.mark-red}
+
+## Reviewers
+
+The following individuals reviewed draft material or provided technical and practical feedback:
+
+- <span class="mark-red">[Name], [organization]</span>
+- <span class="mark-red">[Name], [organization]</span>
+
+Their recognition here does not imply responsibility for all content or endorsement of every conclusion in the guide.
+
+## Steering committee
+
+The project was informed by a steering committee composed of representatives from the six utilities participating in the project:
+
+- Kurt Kornelsen, OPG
+- Kadra Branker, IESO
+- Mike Vieira, Manitoba-Hydro
+- Jean-Philippe Martin, Hydro-Québec
+- Jacinthe Gaumont-Clavet, Hydro-Québec
+- Élyse Fournier, Hydro-Québec
+- Isabelle Chartier, Hydro-Québec
+- Erin Jaggard, Hydro-One
+- Valentina Dabic, BC Hydro
+- <span class="mark-red">[Name], [organization]</span>
+
+The committee provided strategic and technical advice during the guide’s development, and facilitated the participation of their organization in the project. Steering committee membership does not imply endorsement of the guide’s final content.
+
+## Advisory committee
+
+The project was also informed by an advisory committee composed of representatives from climate science, climate services, electricity-sector research, and applied climate-risk practice:
+
+- Delavane Diaz, EPRI
+- Elaine Barrow, ECCC
+- Jacob Mardian, EPRI
+- Nathalie Voisin, PNNL
+- Pouriya Jafarpur, ECCC
+
+The committee provided strategic advice during the guide’s development. Advisory committee membership does not imply endorsement of the guide’s final content.
+
+## Consultation participants
+
+The guide benefited from comments, technical feedback, and practical insights provided through meetings, workshops and informal reviews during its development. Because feedback was collected iteratively and through several collaborative processes, it is not possible to attribute all comments to particular pages or identify every individual contribution. We gratefully acknowledge the collective input of energy-sector practitioners who participated in this process over the course of the project. These contributions helped improve the guide’s scientific accuracy, practical relevance, organization, and clarity.
+
+## Participating organizations
+
+We acknowledge the organizations that contributed information, experience, data, case material, or staff time during the project:
+
+- Ontario Power Generation (OPG)
+- Independent Electricity System Operator (IESO)
+- Manitoba-Hydro
+- Hydro-Québec
+- Hydro-One
+- BC Hydro
+
+Participation by an organization does not imply institutional endorsement of every statement or recommendation in the guide.
+
+## Funding and institutional support
+
+This project was funded by Natural Resources Canada under <span class="mark-red">[project or agreement name and number, if applicable]</span>.
+
+The guide was developed in collaboration by McMaster University and Ouranos.
+
+## License and reuse
+
+Except where otherwise indicated, the original content of this guide is licensed under the [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).
+
+Users may copy, redistribute, and adapt the material provided that appropriate credit is given, a link to the licence is provided, and any changes are identified.
+
+This licence does not necessarily apply to third-party figures, tables, datasets, logos, trademarks, or other material reproduced in the guide. Such material remains subject to the terms specified by its respective rights holder.
+
+## Responsibility for the content
+
+The lead authors and editors are responsible for the guide’s final organization and editorial presentation. Authorship attribution recognizes contributions to the identified material but does not imply that individual contributors endorse subsequent revisions or every conclusion presented elsewhere in the guide.
+
+The views and interpretations presented in the guide do not necessarily represent the official positions of the funders, advisory committee members, participating organizations, reviewers, or other acknowledged contributors.
+
+## Suggested citation
+
+<mark>TBD</mark>

@@ -1,7 +1,6 @@
 ---
 title: Organizational Gaps and Barriers
-aliases:
-  - /gaps/gaps_organization.html
+
 ---
 
 Access to climate data is often necessary for understanding climate-related risks and supporting climate-informed decisions, but access alone does not ensure that the information is appropriate, understood, or reflected in decisions. Effective use also depends on the organization's expertise, governance, and established processes.

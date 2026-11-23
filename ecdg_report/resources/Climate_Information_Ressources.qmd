@@ -1,8 +1,6 @@
 ---
 title: Online Climate-Information Resources
-aliases:
-  - /guidance/Climate_Information_Ressources.html
-
+    
 ---
 
 This section brings together resources that support different stages of climate-information use. This page focuses on external climate-information portals and support services available to the electricity sector in Canada.

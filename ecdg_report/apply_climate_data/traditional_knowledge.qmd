@@ -1,7 +1,6 @@
 ---
 title: Indigenous Knowledge and Climate-Related Decisions
-aliases:
-  - /guidance/traditional_knowledge.html
+
 ---
 
 [Download the full guidance document (PDF)](./Indigenous_Knowledge_Guidance.pdf)

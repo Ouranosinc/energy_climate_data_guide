@@ -1,9 +1,8 @@
 ---
 title: Sector Page Template (for development only!)
-aliases:
-  - /sectors/Sectors_Template.html
 #bibliography: sector_references.bib 
-#uncomment upper line to add bibliography 
+#uncomment upper line to add bibliography
+
 ---
 
 <!--- This is the template for the structure of all sector activity description pages. This is a comment not shown in the quarto website --->

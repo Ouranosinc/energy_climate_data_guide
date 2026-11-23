@@ -116,11 +116,11 @@ Planning process. 
 instructions, or inspection requirements. These changes may also impact
 operating budgets as reflected in the Business Plan. 
 
-**Asset and System Changes**: Needs for asset changes typically arise
+**Asset and System Changes**: Needs for asset or system changes typically arise
 from risk assessments, plant condition assessments, or performance
 improvement initiatives.Early identification of adaptation needs ensures
 climate impacts are considered in the design and operation of assets
-over their entire lifecycle. 
+over their entire lifecycle or the planning of integrated electricity systems. From the perspective of systems or planning when there is not an immediate physical risk, there could be a need to update assumptions, inputs, design criteria, assessment methods or modelling frameworks to better understand the climate risks.
 
 Once a project is initiated, the adaptation plan and pathways inform the
 project team's solution development, allowing for further refinement as
@@ -132,7 +132,7 @@ After project close-out, monitoring plans for flexible actions should be
 updated and transitioned teams that will operationalize the plan. This
 may involve: 
 
--   Updating equipment reliability monitoring 
+-   Updating equipment or system reliability monitoring 
 -   Modifying monitoring plans in risk registers or plant condition
     assessments 
 -   Revising governance documents and work instructions as necessary 
@@ -143,7 +143,7 @@ To ensure continuity and future reference, all adaptation pathways and
 decisions should be documented in accessible corporate records.
 Monitoring actions should be integrated into appropriate processes --
 such as engineering risk assessment program (ERAP), equipment
-reliability (ER), business unit, or station risk registers. 
+reliability (ER), system planning processes, or risk managment processes. 
 
 ## Long-term Monitoring and Triggers
 
