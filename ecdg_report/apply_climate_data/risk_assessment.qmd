@@ -12,7 +12,7 @@ how climate change may impact electricity sector activities. These types
 of analysis can be scaled to meet the needs of the sector activity. They
 could be conducted in a very limited way for an individual component or
 could be expanded to an entire generating station, transmission corridor
-or other asset classes.
+or other asset classes, electricity system or customer service delivery.
 
 For a vulnerability and risk assessment to be most successful it should
 be integrating into existing processes. For example, the assessment

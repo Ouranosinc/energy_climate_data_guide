@@ -1,0 +1,147 @@
+---
+title: Canadian Gridded Climate Dataset - NRCANmet
+nocite: |
+  @Hutchinson2009
+  @McKenney2011
+  @Werner2019
+  @MacDonald2020
+  @Hopkinson2011
+---
+
+## Summary Description
+The Canadian Gridded Climate Dataset (NRCANmet) is a high-resolution, station-based gridded climate dataset produced by Natural Resources Canada (NRCan) and Agriculture and Agri-Food Canada. It provides daily and monthly interpolated historical climate variables across Canada, utilizing the Australian National University Spline (ANUSPLIN) interpolation package. The dataset provides information continuous in time and space for climate research and environmental studies. A variation of the dataset is PCIC-Blend which combines NRCANmet with regional station interpolation datasets. PCIC-Blend was developed to improve the dataset over the complex mountainous terrain of Western Canada and the North-Eastern United States and is described in @Werner2019. The latest version of NRCANmet covers all of North America and is described in @MacDonald2020 and references therein.
+
+<!---
+![Percent difference in mean annual precipitation for NRCANmet minus PNWNAmet (from @Werner2019)](../image/Difference_NRCANmet_PCIC-Blend_Werner2019.png "Percent difference in mean annual precipitation for NRCANmet minus PNWNAmet"){fig-alt="ERA5-Land Example" width=500}
+--->
+
+![Temperature stations used in the ANUSPLIN interpolation for North America (from @MacDonald2020)](../image/NRCANmet_TmpStations_MacDonaldEtAl2020.png "Temperature stations used in the ANUSPLIN interpolation for North America (from MacDonald et al. 2020)"){fig-alt="NRCANmet stations" width=500}
+
+## Dataset Characteristics
+- **Current version:** No official versioning, [see Expert Guidance](#expert-guidance). The latest version was generated in 2022.
+- **Available variables:** temperature & precipitation (see [variables section below](#nrcanmet)
+- **Temporal coverage**: 1950–2020 
+- **Temporal resolution**: Daily and monthly
+- **Spatial coverage**: Canadian and USA landmass
+- **Spatial resolution**: ~10 km grid spacing (0.083°)
+- **Data type**: Quality-controlled station observations interpolated using ANUSPLIN
+- **Data format:** [netCDF](../../climate_data_fundamentals/Data_Formats.qmd#netcdf), [GeoTIFF](../../climate_data_fundamentals/Data_Formats.qmd#geotiff)
+- **Web references:** </br>
+NRCANmet data descriptions are provided on the Northern Climate Data Report and Inventory (NCDRI) Web Site for [temperature](https://nordata.physics.utoronto.ca/en/annexes-datasets-descriptions/71-temperature/anusplin-gridded-canadian-temperature-dataset/) and [precipitation](https://nordata.physics.utoronto.ca/en/annexes-datasets-descriptions/72-precipitation/anusplin-gridded-canadian-precipitation-dataset/).
+- **Reference:** </br>@MacDonald2020
+- **Contact:** [Dan McKenney, NRCan](mailto:dan.mckenney@canada.ca?subject=%5BNRCANmet%5D%20Request:%20%3Cplease%20specify%3E&body=%3CPlease%20specify%20your%20request%3E%0A)
+
+## When to use NRCANmet
+
+- When you need information about **past climate**.
+- When you only need **precipitation** and/or **near-surface temperature**.
+- When you need a **spatially complete** and **temporally continuous** gridded product.
+- When the region of interest is **well covered by in-situ measurements**.
+- When you need an observational dataset that is consistent with future climate projections available on [**ClimateData.ca**](https://climatedata.ca/).
+
+## Strengths and Limitations
+
+### Key Strengths of NRCANmet
+
+|Strength|Description|
+|--|---|
+|**Observation-based**       |The dataset is entirely based on quality controlled observed data.|
+|**High spatial resolution** |Provides detailed climate information at ~10 km resolution.|
+|**Long-term coverage**      |Spans over six decades, enabling comprehensive climate trend analyses.|
+|**Reference dataset for ClimateData.ca**  |The [ClimateData.ca](https://climatedata.ca) portal uses the PCIC-Blend version of NRCANmet as the reference dataset for the bias correction of the underlying climate projection data.|
+: {.tbl .striped .light .sm tbl-colwidths="[25,75]"}
+
+### Key Limitations of NRCANmet
+
+|Limitation|Description|
+|--|---|
+|**Temporal inconsistency**    |Station availability and density varies over time, affecting data consistency over time.|
+|**Interpolation limitations** |Accuracy depends on the density and distribution of input stations.|
+|**Artefacts in the data**     |The interpolation procedure occasionaly produces local artefacts of unrealistic values.|
+|**Lack of real-time updates** |Dataset extends up to 2020, updates are irregular.|
+|**Limited variables**         |Focuses primarily on temperature and precipitation; other climate variables are not included.|
+: {.tbl .striped .light .sm tbl-colwidths="[25,75]"}
+
+## Expert Guidance
+
+::: {#id .callout collapse="true"}
+### (click to expand)
+The Canadian Gridded Climate Dataset (NRCANmet) is a widely used gridded dataset derived from observed station data, providing continuous climate and weather information in space and time. The long time period makes it useful for climate studies and it has been employed in the bias adjustment of climate model simulation data, namely the data backing the [ClimateData.ca](https://climatedata.ca/) web site. It was also used as the reference dataset in the bias adjustment of earlier versions of generic climate projection ensembles at Ouranos.
+
+The ANUSPLIN algorithm used for the production of NRCANmet is designed to interpolate irregularly distributed station data and accounts for elevation variations, balancing fidelity to data with smoothness while avoiding overfitting. It produces smooth, realistic surfaces well suited for environmental modeling, agriculture, forestry, or hydrology studies (@MacDonald2020). The station data used for the NRCANmet dataset are quality controlled but not homogenized. Elevation data are used in the interpolation scheme. The fields show little to no systematic biases but locally erroneaous stations may propagate into the interpolation. By construction, precipitation events can not occur between two stations in the dataset. In a hydrological context this almost always reduces the amount of water in a watershed when using NRCANmet as input. Temperature values, on the other hand tend to have lower biases as compared to reanalysis which can have systematic bias. Nevertheless, reanalysis data often appear to better represent orographic influence on climate variables.
+
+Like any such interpolated data it is highly dependent on the quality of the input data and its reliability diminishes with the availability of station data or the distance to the latter. Particularly in areas of sparse station networks like the Canadian North, the interpolation is less capable of capturing local variation between stations far apart. This is particularly the case for precipitation since, other than temperature, it is not continuous in time and space. Thus, @Hutchinson2009 advise caution when using daily precipitation data and particularly theirextremes. Further, the interpolation algorithm may introduce artefacts of unrealistic values in the data fields, thus quality checks may be warranted. Guidance on performing such quality checks can be found in @Rondeau-Genesse2020 (page 16ff; in French only).
+
+#### Versioning
+
+##### NRCANmet
+
+Different versions of the dataset have been published but as of this writing no offical versioning of the dataset has been established. The versions differ in the version of the ANUSPLIN algorithm, in the stations used and the temporal coverage as more recent years were produced in each iteration. This lack of official versioning as led different organizations to have an internal versioning (for ex. v1 at Ouranos is not the same as v1 at PCIC). One way to disentangle this inconsistent naming is to look at when the data released. Here is a (likely incomplete) list of versions available:
+
+- v2012: Called v1 at PCIC, used in CanDCS-U5 et CanDCS-U6, covers 1950-2010
+- v2014: Called v1 at Ouranos, reference dataset for Ouranos ScenGen climate projections, covers 1950-2013
+- v2018: Called v2 at Ouranos, covers 1950-2017
+- v2018PB: Called v2 at PCIC. A modified version of v2018 was used in PCIC-Blend temperatures. The modifications include a correction of temperature inversion, where Tmin > Tmax which sometimes leads to temperature at a grid point much higher than their neighbors. It should be noted that the conversion from K to degC was using 273 K, instead of 273.15 K.
+- NRCANmet-Adjusted v2021: used in PCIC-Blend precipitation, cover 1950-2015 (@MacDonald2021)
+- v2022: covers 1949-2020
+
+The versions are generally very similar in their temperature values, with later versions having less temperature reversals. Regarding precipitation, the v2018 version is somewhat dryer than v2014. For Northern and Eastern stations, biases compared to stations are lower for v2018. The dataset is particulary dryer over the western mountains which motivated the generation of PCIC-Blend, a combination of NRCANmet with a distinct gridded dataset over western Canada and the north-western US .
+
+##### PCIC-Blend
+
+PCIC-Blend is a combination of three different station-based gridded climate datasets:
+
+1. NRCANmet-Adjusted v2021
+2. NRCANmet v2018PB
+3. PNWNAmet
+
+Over western Canada the performance of NRCANmet is inferior to PNWNAmet when compared to high quality station observations. PNWNAmet values in western Canada were combined with the NRCANmet v2018PB temperature and NRCANmet-Adjusted v2021 precipitation values in central and eastern Canada to produce PCIC-Blend (@Werner2019). For more information see the ["Historical Data" section](https://climatedata.ca/about/our-data/) on ClimateData.ca.
+
+
+The latest version also extends it's spatial coverage to include the US.
+
+When comparing temperature data processed by PCIC and Ouranos, a mean difference of 0.15 ˚C was found. This could be traced back to the adjustment of the raw data provided in Kelvin using 273 ˚C and 273.15 ˚C by PCIC and Ouranos respectively.
+
+:::
+
+## Variables available in NRCANmet
+
+*For details click on variable group to uncollapse*
+
+::: {#id .callout collapse="true"}
+### Temperature
+- Daily maximum temperature (°C)
+- Daily minimum temperature (°C)
+- Monthly maximum temperature (°C)
+- Monthly minimum temperature (°C)
+- Pentad (°C)
+- Climatological means (°C)
+:::
+
+::: {#id .callout collapse="true"}
+### Precipitation
+- Daily total precipitation (mm)
+- Monthly total precipitation (mm)
+- Pentad (°C)
+- Climatological means (°C)
+:::
+
+## Data Access
+
+NRCANmet gridded daily data is freely available upon contact with Dr. Dan McKenney, Canadian Forest Service, Natural Resources Canada, [dan.mckenney@canada.ca](mailto:dan.mckenney@canada.ca?subject=%5BNRCANmet%5D%20Request:%20%3Cplease%20specify%3E&body=%3CPlease%20specify%20your%20request%3E%0A).
+
+[**ToDo:** Check: Can we put the link to the daily data on NRCan'S FTP - Check with NRCan!]{.mark-red}
+
+<!--- (https://ftp.maps.canada.ca/pub/nrcan_rncan/Climate-archives_Archives-climatologiques/daily/)?--->
+
+The daily dataset is also available on [PAVICS](https://pavics.ouranos.ca/datasets.html#b). To avoid downloading very large datasets in their entirety PAVICS allows partial/regional extraction and provides a [tutorial](https://pavics-sdi.readthedocs.io/en/latest/notebooks/CaSR_basic.html) to do so, using the CaSR reanalysis as an example . With a free PAVICS user account, the Jupyter notebook with the Python code in the tutorial can be [directly used on PAVICS](https://pavics.ouranos.ca/jupyter/hub/user-redirect/lab/tree/tutorial-notebooks/CaSR_basic.ipynb).
+
+Another option to obtain NRCANmet is from the website of the [Pacific Climate Impacts Consortium](https://pacificclimate.org/data/daily-gridded-meteorological-datasets). Note that this version covers only the time period 1950-2012.
+
+## References
+<details>
+<summary><strong>(click to expand)</strong></summary>
+::: {#refs}
+:::
+</details>
+

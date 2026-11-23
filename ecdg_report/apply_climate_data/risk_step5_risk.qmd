@@ -1,4 +1,4 @@
----
+vulnerability---
 title: "Step 5: Climate Risk Assessment"
 bibliography: adaptation.bib 
 editor: 
@@ -10,7 +10,7 @@ This step may be completed which estimates climate risk for each
 relevant climate interaction with the system by combining: the climate
 [hazard](./risk_step3_hazard.qmd##%20Hazard%20and%20Climate%20Driver%20Identification) *(what
 could occur)*, [exposure](./risk_step3_hazard.qmd##%20Exposure%20Assessment) *(what parts of
-the system are in direct/indirect contact with the hazard)*, and
+the system directly/indirectly interact with the hazard)*, and
 [vulnerability](./risk_step4_vulnerability.qmd) *(how the
 system responds, based on sensitivity and existing capacity to cope)*.
 Risk can be described using the IPCC framing and formula:
@@ -88,12 +88,12 @@ across scenarios, and clearly describing confidence and uncertainty so
 decision-makers can understand what is known, what is uncertain, and
 what could change the outcome.
 
-::: {.callout collapse="true" title="Simple Climate Risk Assessment"}
-In a simple risk assessment, a critical threshold (a performance-based
+::: {.callout collapse="true" title="Routine Climate Risk Assessment"}
+In a routine risk assessment, a critical threshold (a performance-based
 criteria) should be clearly identified in [Performance
 Criteria](###%20Performance%20Criteria). This may be a failure
 criterion, a limit at which a factor of safety is exceeded or any other
-pre-defined value. This is considered a simple risk assessment because
+pre-defined value. This is considered a routine risk assessment because
 single consequence is defined based on exceeding this threshold makes
 the climate risk assessment a function of likelihood, since crossing the
 critical threshold will always result in the same outcome. The risk is
@@ -101,17 +101,20 @@ effectively univariate. This is the type of risk assessment primarily
 documented in the body of this section in the following sub-steps.
 :::
 
-::: {.callout collapse="true" title="Complex Climate Risk Assessment"}
-A complex climate risk assessment occurs where a critical threshold is
-poorly defined or does not exist (a risk-informed criteria) requiring a
-decision maker to determine their risk tolerance in order to take
-further action. It is considered complex because the risk matrix will
-require consideration of distinct likelihood-consequence points, making
-the risk bi-variate. For example, climate change may impact the
-production of a generating station. As the projected climate indicator
-increases, production will decrease and a decision maker will need to
-decide how much loss is acceptable in order to make an adaptation
-decision.
+::: {.callout collapse="true" title="Comprehensive Climate Risk Assessment"}
+A comprehensive climate risk assessment occurs where a critical threshold is poorly 
+defined or does not exist (a risk-informed criteria) requiring a decision maker to 
+determine their risk tolerance in order to take further action. It is considered 
+comprehensive because the risk matrix will require consideration of distinct 
+likelihood-consequence points, making the risk bi-variate. For example, climate change 
+may impact the production of a generating station. As a projected climate indicator 
+increases, production will decrease and a decision maker will need to decide how much 
+loss is acceptable in order to make an adaptation decision. For example, if assessing 
+how much production is expected under future climate scenarios, there is not likely to 
+be a well-defined threshold for what an acceptable amount would be. Instead, a 
+decision maker may need to look at changing conditions and determine if profits 
+or risk of decreased performance is acceptable. Steps 1 through 4 for a comprehensive 
+risk assessment are the same as they are for a routine risk assessment. 
 :::
 
 
@@ -133,34 +136,36 @@ estimated climate risk
 This sub-step estimates consequence (severity) for each relevant climate
 interaction using the exposure and vulnerability results. Consequence
 describes what would happen if the climate condition occurred; it does
-not consider probability.
+not consider likelihood.
 
 The consequence is the result of a risk event being realized and should
 be directly derived from the vulnerability.
 
 ![](images/consequence.png){fig-align="center"}
 
-If preliminary impacts were developed as part of the [exposure assessment](./risk_step3_hazard.qmd##%20Exposure Assessment), they should be reviewed as part
-of this step and considered in the consequence/severity scale. For each
-climate interaction, a consequence/severity level(s) should be
-determined, and applicable impacts (financial, environmental,
-reputational, etc.) associated with the consequence should be
-documented. Consequence scores will then be carried forward and combined
-with the likelihood of the interaction to estimate risk.
+If preliminary impacts were developed as part of the 
+[exposure assessment](./risk_step3_hazard.qmd##%20Exposure Assessment), 
+they should be reviewed as part of this step and considered in the 
+consequence/severity scale. For each climate interaction, a 
+consequence/severity level(s) should be determined, and applicable 
+impacts (financial, environmental, reputational, etc.) associated with 
+the consequence should be documented. Consequence scores will then 
+be carried forward and combined with the likelihood of the 
+interaction to estimate risk.
 
-::: {.callout collapse="true" title="Simple Risk Assessment"}
-For a simple climate risk assessment, the critical threshold used in
+::: {.callout collapse="true" title="Routine Risk Assessment"}
+For a routine climate risk assessment, the critical threshold used in
 [Step 4: Climate Vulnerability Assessment](./risk_step4_vulnerability.qmd) should be
 evaluated to determine the magnitude of the consequence, making the
 consequence the result of system performance only. The figure below
 provides a flow diagram for determining consequence.
 
 For example, if passing beyond a critical threshold resulted in the
-consequence of a unit tripping off, there would be an impact financially
+consequence of a unit tripping off, or service disruption there would be an impact financially
 to revenue, there may be a reputational impact, environmental impact or
 safety impact which are defined in the consequence/severity scale.
 
-For most simple risk assessments, the same impact will apply to the
+For most routine risk assessments, the same impact will apply to the
 consequence regardless of the scenario (i.e. a dam failure will have the
 same impact to human life regardless of the warming scenario). In some
 instances, differences in impacts may be expected across scenarios being
@@ -170,8 +175,8 @@ resulting in a greater impact from an system failure in the later future
 scenarios.
 :::
 
-::: {.callout collapse="true" title="Complex Risk Assessment"}
-A complex risk assessment is when a well-defined threshold does not
+::: {.callout collapse="true" title="Comprehensive Risk Assessment"}
+A comprehensive risk assessment is when a well-defined threshold does not
 exist, and more reliance is placed on a decision maker to determine risk
 tolerance. For example, if assessing how much production is expected
 under future climate scenarios, there is not likely to be a well-defined
@@ -179,9 +184,8 @@ threshold for what an acceptable amount would be. Instead, a decision
 maker may need to look at changing conditions and determine if profits
 or risk of decreased performance is acceptable.
 
-In a complex risk assessment, the likelihood and consequence must be
-co-evaluated as a paired value and derived together. The likelihood, by
-definition, must be the probability of an event. Without a threshold
+In a comprehensive risk assessment, the likelihood and consequence must be
+co-evaluated as a paired value and derived together. Without a threshold
 based on the system a new value shall be selected. This may be the
 baseline performance (i.e. using a historic expected value) or it could
 be variable, (i.e. the likelihood of exceeding a series of values).
@@ -203,7 +207,7 @@ be selected as a baseline. For SSP2-4.5 and SSP5-8.5 the likelihood of
 exceeding 90GWh, 100GWh, 110GWh, etc. can be calculated for the 2050's
 and 2080's and compared by a decision maker to the baseline value to
 make an informed decision about the significance of the risk and any
-adaptation options they wish to pursue.
+adaptation options they wish to pursue. This same example could be broadened for an electricity system looking at changes in electricity supply from hydro resources in aggregate or grid sectors. The changes in supply or peak capacity would need to be evaluated to determine the risk to reliability or supply.
 :::
 
 ## Assess Likelihood
@@ -223,10 +227,10 @@ shorter-lived assets, a single scenario may suffice. Rationale for
 choices should be clearly documented.
 
 ::: {.callout collapse="true" title="Example Scenarios"}
-- Probability of an event under different global warming levels (e.g., 2°C, 2.5°C, 3°C).
+- Likelihood of an event under different global warming levels (e.g., 2°C, 2.5°C, 3°C).
 Refer to ["Time Horizons and Global Warming Levels"](../climate_data_fundamentals/Time_Horizons_GWL.qmd) for more details on global warming
 levels.
-- Probability of an event under specific climate scenarios (e.g. SSP2-4.5, SSP5-8.5) for different future time windows (e.g., 2050s, 2080s).
+- Likelihood of an event under specific climate scenarios (e.g. SSP2-4.5, SSP5-8.5) for different future time windows (e.g., 2050s, 2080s).
 :::
 
 ::: {.callout-note collapse="true" title="Note on time"}
@@ -250,13 +254,13 @@ conservatism, at the cost of sample size. For example, the number of
 could be compared to the total number of events that exceed the 75th
 percentile of the climate projection data.
 
-**Assess Probability:** For each scenario, determine the probability of
+**Assess Likelihood:** For each scenario, determine the likelihood of
 relevant hazards and indicators. This is completed through statistical
-analysis to calculate the probability of the future value or range
+analysis to estimate the probability of the future value or range
 exceeding the selected threshold (performance criteria) established
-previously. For simple risk assessments, the probability should be
+previously. For simple risk assessments, the likelihood should be
 calculated following the classical formula, or other established
-statistical methods, for determine the probability of event $X$
+statistical methods, for determine the probability or likelihood of event $X$
 occurring:
 
 $$
@@ -267,25 +271,27 @@ This formula is applied with respect to a pre-defined threshold. In the
 simple climate risk analysis scenario, where a critical threshold has
 been identified, this should be the number of times the climate data in
 a 30+ year window exceeds the critical threshold divided by the total
-number of data points. For complex risk assessments, this probability
+number of data points. For complex risk assessments, this likelihood
 calculation may vary.
 
 ![](images/Likelihood.png){fig-align="center"}
 
 ::: {.callout-note collapse="true" title="Stationarity Assumptions"}
-The classic probability formula assumes data are stationary, which means
+The classic likelihood formula assumes data are stationary, which means
 there is no long-term trend. This assumption is false, but may be
 useful. Climate data should be compared in 30-40 year windows where
 stationarity assumptions are more valid and not used for long periods of
-time. Alternatively, probabilities may be estimated from fitted
+time. Alternatively, likelihoods may be estimated from fitted
 probability distributions, some of which may be applied to
 non-stationary data. For screening and other high-level assessments, the
-probability may be able to be reasonable estimated visually.
+likelihood may be able to be reasonable estimated visually.
 :::
 
-**Mapping Probability:** Once the probabilities of a climate indicator
+:
+
+**Mapping Likelihood:** Once the likelihoods of a climate indicator
 exceeding the performance criteria is calculated, map each of the
-scenario probabilities to a likelihood scale or criteria. This is done
+scenario likelihoods to a likelihood scale or criteria. This is done
 so that risk can be estimated by combining the likelihood level with the
 consequence level. This will result in a likelihood value for each
 scenario and time horizon evaluated for a given climate indicator.
@@ -325,6 +331,19 @@ interaction, scenario, and time horizon that have been included in the
 assessment. This may result in multiple risk values for a given
 interaction, if multiple climate scenarios and time horizons are
 considered in the assessment.
+
+**Acceptable Risks:** Similar to vulnerability, acceptable risks may be identified 
+as part of the assessment. The definition of “acceptable risk” will vary 
+depending on the application of the assessment. Acceptable risk criteria 
+should align with the purpose and the criticality of the system and be 
+informed by system engineers.
+
+**Unacceptable Risks:** Unacceptable risks should be evaluated as part 
+of the Level of Concern analysis, to inform adaptation planning in Step 6. 
+Regardless of the risk level, it is essential to document the assessment 
+results, the acceptability of the risk, and the rationale for any 
+further actions. This ensures transparency, repeatability, and 
+accountability in decision-making.
 
 ::: {.callout.caution collapse="true" title="Central Tendency"}
 When risk, likelihood and consequence are determined
