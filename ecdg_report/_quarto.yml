@@ -221,6 +221,7 @@ bibliography:
   - datasets/references.bib
   - organizational_capability/organizational_capability.bib
   - sectors/infrastructure/references_dam_safety.bib
+  - sectors/infrastructure/infrastructure_design.bib
   - sectors/planning/demand.bib
   - sectors/planning/generation_forecasting.bib
   - sectors/planning/resource_adequacy_planning.bib

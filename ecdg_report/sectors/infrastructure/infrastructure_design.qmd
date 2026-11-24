@@ -25,7 +25,7 @@ $$
 I^2R(T_c) + Q_{\mathrm{solar}} = Q_{\mathrm{convection}} + Q_{\mathrm{radiation}},
 $$
 
-where $T_c$ is conductor temperature and resistance $R$ varies with temperature. Ambient air temperature affects heat exchange; it is not a separate incoming-heat term. Wind speed and direction affect convective cooling. Sun exposure and conductor surface properties affect solar absorption and radiation. Changing load or weather also requires consideration of heat stored in the conductor, and rain may matter under particular conditions. [IEEE Std 738-2023](https://standards.ieee.org/ieee/738/10207/) describes a method for relating current, weather and conductor temperature for bare overhead conductors.
+where $T_c$ is conductor temperature and resistance $R$ varies with temperature. Ambient air temperature affects heat exchange; it is not a separate incoming-heat term. Wind speed and direction affect convective cooling. Sun exposure and conductor surface properties affect solar absorption and radiation. Changing load or weather also requires consideration of heat stored in the conductor, and rain may matter under particular conditions. IEEE Std 738-2023 describes a method for relating current, weather and conductor temperature for bare overhead conductors [@IEEE7382023].
 
 **Sag-tension analysis** relates conductor temperature, construction, span geometry and mechanical tension to sag. Engineers assess the resulting clearance at relevant spans and crossings against applicable requirements. The allowable current is then calculated for the governing temperature and stated weather assumptions. A warmer air temperature alone does not determine a unique new rating.
 
@@ -82,6 +82,5 @@ For long-lived assets, compare present conditions with a range of future hot-wea
 
 ## References
 
-Hydro-Québec. n.d. [“Safety near transmission lines.”](https://www.hydroquebec.com/safety/vegetation/understand-transmission-lines.html)
-
-IEEE. 2023. [*IEEE Standard for Calculating the Current-Temperature Relationship of Bare Overhead Conductors*. IEEE Std 738-2023.](https://standards.ieee.org/ieee/738/10207/)
+::: {#refs}
+:::
