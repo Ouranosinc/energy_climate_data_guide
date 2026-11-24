@@ -16,7 +16,7 @@ With current and other weather conditions unchanged, warmer air generally reduce
 
 Conductor-temperature and sag-tension analyses work together: the first estimates how hot a conductor becomes under specified loading and weather; the second assesses the resulting sag and clearance.
 
-:::{#id1 .callout collapse="true"}
+:::{#characteristics-callout .callout collapse="true"}
 ### Characteristics
 
 A conductor-temperature calculation starts with a heat balance. In a simplified *steady-state* representation, resistive heating from current ($I^2R$) and absorbed solar radiation are balanced by cooling through air movement (**convection**) and thermal emission (**radiation**):
@@ -32,34 +32,34 @@ where $T_c$ is conductor temperature and resistance $R$ varies with temperature.
 Measurements of conductor temperature or sag, together with local weather and current observations, can help check a model and identify spans for closer assessment. Their usefulness depends on placement, calibration and how well they represent conditions along the line.
 :::
 
-:::{#id1 .callout collapse="true"}
+:::{#key-climate-inputs-callout .callout collapse="true"}
 ### Key Climate Inputs
 Air temperature, wind speed and direction, and solar radiation affect conductor temperature. Local observations help characterize present conditions. The analysis should consider whether hot, sunny and low-wind conditions occur together rather than combining variables without documenting the assumption.
 
 For a climate-informed design or upgrade review, plausible future conditions over the asset's expected life should be examined, including the timing and duration of hot events. The choice of future conditions should reflect the underlying uncertainty. See the guide's [climate-dataset overview](../../climate_data_fundamentals/Climate_Datasets_Overview.qmd) and [uncertainty guidance](../../climate_data_fundamentals/Uncertainty_Confidence.qmd).
 :::
 
-:::{#id1 .callout collapse="true"}
+:::{#non-climate-inputs-callout .callout collapse="true"}
 ### Non-Climate Inputs
 The analysis also needs conductor and fitting properties; line current or expected loading; span geometry, installed tension and as-built clearances; and the criteria used to assess conductor temperature and clearance. These inputs are line-specific. Loading matters when examining whether a hot-weather period could constrain a particular line.
 :::
 
-:::{#id1 .callout collapse="true"}
+:::{#model-outputs-callout .callout collapse="true"}
 ### Model Outputs
 The associated analyses can produce an estimated conductor temperature for each specified weather and loading case, span-specific sag and clearance, and an allowable current under stated assumptions. The governing limit may arise from clearance, the conductor, fittings or another component. These outputs require engineering interpretation before they can support a design or rating decision.
 :::
 
-:::{#id1 .callout collapse="true"}
+:::{#temporal-resolution-callout .callout collapse="true"}
 ### Temporal Resolution
 The required time step depends on the decision and the method. A steady-state calculation represents specified loading and weather conditions; changing conditions require a time-varying analysis. When the question concerns a particular hot period, the climate and loading information must be detailed enough to examine conditions that occur simultaneously. A daily air-temperature value alone cannot describe concurrent hourly wind and solar conditions needed for a line-rating calculation. No single time step is established here for every design review.
 :::
 
-:::{#id1 .callout collapse="true"}
+:::{#spatial-resolution-callout .callout collapse="true"}
 ### Spatial Resolution
 Weather exposure and clearance can vary along a route. The engineering assessment therefore considers relevant spans and crossings, while evaluating how well a weather observation or climate-data grid represents those locations. Terrain, shelter and sun exposure can make conditions at one span differ from those elsewhere on the line. A gridded climate value is not, by itself, a measurement at a particular conductor.
 :::
 
-:::{#id1 .callout collapse="true"}
+:::{#frequency-of-analysis-callout .callout collapse="true"}
 ### Frequency of Analysis
 The assessment can be revisited when loading forecasts, asset condition, climate information or applicable criteria change.
 :::
