@@ -1,0 +1,86 @@
+---
+title: Infrastructure Design
+---
+
+## Summary Description
+
+Heat is a key consideration when designing or upgrading high-voltage overhead transmission lines because it affects both conductor clearance and allowable current. Electrical current and sunlight heat a conductor, while air temperature and wind affect how quickly it cools. For many conventional conductor designs, heating lengthens the conductor, reduces mechanical tension and increases the downward displacement between supports, called **sag**. The response depends on the conductor's construction and installation. Conductor temperature is also central to **ampacity**, the allowable current under specified conditions. Climate information can help identify the weather conditions a line may face at its location over its service life, including hot periods that could coincide with high demand.
+
+## Role in the Electricity System
+
+Overhead lines connect generation, substations and demand centres. Their conductors must remain an appropriate distance from the ground, roads, cycle paths, river crossings, buildings, vegetation and other objects along the right-of-way. As conductor temperature rises, thermal expansion usually increases sag and reduces vertical clearance. The applicable clearance depends on the object or crossing being assessed. Transmission corridors generally have wider rights-of-way and more stringent vegetation clearance requirements than distribution lines, which reduce the likelihood of vegetation encroachment. Vegetation can nevertheless be relevant in specific transmission settings,  for example along a transmission line supported by wood poles where vegetation management has lapsed.  Inadequate separation from vegetation or other objects such as vehicles can lead to contact or electrical arcing, faults and outages; an arc involving vegetation can also start a fire ([Hydro-Québec: safety near transmission lines](https://www.hydroquebec.com/safety/vegetation/understand-transmission-lines.html)). The limiting location may be a particular span or crossing, rather than the line as a whole. Conductor temperature also affects material performance and the thermal limits of associated components. A line's usable transfer capability may be limited by these factors or by other system constraints; ampacity is a current limit, not a direct measure of power delivered.
+
+With current and other weather conditions unchanged, warmer air generally reduces cooling and raises conductor temperature. Hot weather can narrow the margin between a loaded conductor's temperature and its allowable temperature, especially when wind is weak or solar heating is strong. When conductor temperature limits how much current the line can carry, the allowable current may need to be lower than it would be under cooler or windier conditions. In some regions, hot periods may also coincide with increased cooling demand ([see Demand Forecasting](../planning/demand.qmd)). Hot weather may increase electricity demand, but that does not mean every line carries more current. Its effect on a line’s allowable current also depends on local weather and the line’s design.
+
+## Methods and Models
+
+Conductor-temperature and sag-tension analyses work together: the first estimates how hot a conductor becomes under specified loading and weather; the second assesses the resulting sag and clearance.
+
+:::{#characteristics-callout .callout collapse="true"}
+### Characteristics
+
+A conductor-temperature calculation starts with a heat balance. In a simplified *steady-state* representation, resistive heating from current ($I^2R$) and absorbed solar radiation are balanced by cooling through air movement (**convection**) and thermal emission (**radiation**):
+
+$$
+I^2R(T_c) + Q_{\mathrm{solar}} = Q_{\mathrm{convection}} + Q_{\mathrm{radiation}},
+$$
+
+where $T_c$ is conductor temperature and resistance $R$ varies with temperature. Ambient air temperature affects heat exchange; it is not a separate incoming-heat term. Wind speed and direction affect convective cooling. Sun exposure and conductor surface properties affect solar absorption and radiation. Changing load or weather also requires consideration of heat stored in the conductor, and rain may matter under particular conditions. IEEE Std 738-2023 describes a method for relating current, weather and conductor temperature for bare overhead conductors [@IEEE7382023].
+
+**Sag-tension analysis** relates conductor temperature, construction, span geometry and mechanical tension to sag. Engineers assess the resulting clearance at relevant spans and crossings against applicable requirements. The allowable current is then calculated for the governing temperature and stated weather assumptions. A warmer air temperature alone does not determine a unique new rating.
+
+Measurements of conductor temperature or sag, together with local weather and current observations, can help check a model and identify spans for closer assessment. Their usefulness depends on placement, calibration and how well they represent conditions along the line.
+:::
+
+:::{#key-climate-inputs-callout .callout collapse="true"}
+### Key Climate Inputs
+Air temperature, wind speed and direction, and solar radiation affect conductor temperature. Local observations help characterize present conditions. The analysis should consider whether hot, sunny and low-wind conditions occur together rather than combining variables without documenting the assumption.
+
+For a climate-informed design or upgrade review, plausible future conditions over the asset's expected life should be examined, including the timing and duration of hot events. The choice of future conditions should reflect the underlying uncertainty. See the guide's [climate-dataset overview](../../climate_data_fundamentals/Climate_Datasets_Overview.qmd) and [uncertainty guidance](../../climate_data_fundamentals/Uncertainty_Confidence.qmd).
+:::
+
+:::{#non-climate-inputs-callout .callout collapse="true"}
+### Non-Climate Inputs
+The analysis also needs conductor and fitting properties; line current or expected loading; span geometry, installed tension and as-built clearances; and the criteria used to assess conductor temperature and clearance. These inputs are line-specific. Loading matters when examining whether a hot-weather period could constrain a particular line.
+:::
+
+:::{#model-outputs-callout .callout collapse="true"}
+### Model Outputs
+The associated analyses can produce an estimated conductor temperature for each specified weather and loading case, span-specific sag and clearance, and an allowable current under stated assumptions. The governing limit may arise from clearance, the conductor, fittings or another component. These outputs require engineering interpretation before they can support a design or rating decision.
+:::
+
+:::{#temporal-resolution-callout .callout collapse="true"}
+### Temporal Resolution
+The required time step depends on the decision and the method. A steady-state calculation represents specified loading and weather conditions; changing conditions require a time-varying analysis. When the question concerns a particular hot period, the climate and loading information must be detailed enough to examine conditions that occur simultaneously. A daily air-temperature value alone cannot describe concurrent hourly wind and solar conditions needed for a line-rating calculation. No single time step is established here for every design review.
+:::
+
+:::{#spatial-resolution-callout .callout collapse="true"}
+### Spatial Resolution
+Weather exposure and clearance can vary along a route. The engineering assessment therefore considers relevant spans and crossings, while evaluating how well a weather observation or climate-data grid represents those locations. Terrain, shelter and sun exposure can make conditions at one span differ from those elsewhere on the line. A gridded climate value is not, by itself, a measurement at a particular conductor.
+:::
+
+:::{#frequency-of-analysis-callout .callout collapse="true"}
+### Frequency of Analysis
+The assessment can be revisited when loading forecasts, asset condition, climate information or applicable criteria change.
+:::
+
+## Detailed Discussion
+
+Clearance and allowable current are related but require separate checks. Which limit governs depends on line geometry, conductor and fittings, loading, wind and solar radiation, and the applicable engineering criteria.
+
+For a new line, climate-informed design may affect route and span choices, support height, conductor selection and the allowance for future loading and weather. For an existing line, an assessment can first identify the limiting spans and verify as-built geometry before choosing a targeted intervention. Re-tensioning, changing support geometry or height, replacing a conductor, or replacing a support structure may address different causes of inadequate clearance or thermal capacity; each requires checks of structural loads and the rest of the circuit. The preferred measure depends on the site and on what actually limits the line.
+
+Putting a line underground removes the overhead sag and ground-clearance issue for that segment, but creates a different cable system with its own heat-dissipation, installation and repair constraints. Route conditions, cost and other project objectives therefore determine whether undergrounding is suitable.
+
+Operational measures such as dynamic ratings, redistributing power flows and real-time monitoring may help operators manage changing conditions within verified limits, but they do not create physical clearance where it is lacking.
+
+Planned outages can sometimes be scheduled to avoid periods when heat and demand put the system under greater pressure, subject to access, reliability and other constraints. The guide discusses that decision in [Outage Scheduling](../operations/outage_scheduling.qmd).
+
+## Gaps and Recommendations
+
+For long-lived assets, compare present conditions with a range of future hot-weather cases at the route location and with plausible changes in the timing of load. Record which climate variables and time steps were used, how projected conditions were combined, and whether a span-level result is sensitive to wind, sun or geometry. This makes the climate contribution traceable while leaving clearance, rating and upgrade decisions with the responsible engineering process.
+
+## References
+
+::: {#refs}
+:::
