@@ -1,4 +1,14 @@
 /* css styles */
+.contributing-authors-table th,
+.contributing-authors-table td {
+  text-align: left;
+  vertical-align: top;
+}
+
+.contributing-authors-table .contribution-page {
+  white-space: nowrap;
+}
+
 .mark-red {
   background-color: #fdd;
   padding: 0.1em;
